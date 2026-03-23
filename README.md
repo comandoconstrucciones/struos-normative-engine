@@ -1,67 +1,73 @@
-# Normative Engine - NSR-10
+# Normative Engine - NSR-10 Colombia
 
-Motor normativo para ingeniería estructural con la NSR-10 de Colombia completamente indexada.
+Motor de IA para ingeniería estructural con la NSR-10 completamente indexada.
 
 ## Estado: 100% Completado
 
-### Componentes
+### Knowledge Graph
 
 | Componente | Cantidad |
 |------------|----------|
-| Tablas SQL | 256 |
-| Secciones FTS | 12,789 |
-| Figuras PNG | 745 |
-| Figuras catálogo | 116 |
-| Nomenclatura | 223 símbolos |
-| Referencias | 67 normas |
-| Fórmulas Python/LaTeX | 29 |
-| KG Nodos | 1,000 |
-| KG Edges | 1,000 |
+| **Nodos totales** | 3,109 |
+| **Edges** | 2,488 |
+| Fórmulas | 583 |
+| Tablas | 593 |
+| Figuras | 257 |
+| Secciones | 706 |
+| Definiciones | 219 |
+
+### Datos SQL
+
+| Componente | Cantidad |
+|------------|----------|
+| **Secciones FTS** | 12,789 |
+| **Fórmulas** | 558 |
+| **Nomenclatura** | 223 símbolos |
+| **Figuras catálogo** | 116 |
+| **Referencias externas** | 67 normas |
+| **Imágenes PNG** | 745 |
 
 ### Títulos NSR-10
 
-- **A** - Sismo (42 tablas, 557 secciones)
-- **B** - Cargas (13 tablas, 187 secciones)
-- **C** - Concreto (19 tablas, 1000 secciones)
-- **D** - Mampostería (13 tablas, 472 secciones)
-- **E** - Casas 1-2 pisos (15 tablas, 258 secciones)
-- **F** - Acero (54 tablas, 1000 secciones)
-- **G** - Madera/Guadua (31 tablas, 514 secciones)
-- **H** - Geotecnia (22 tablas, 241 secciones)
-- **I** - Supervisión (7 tablas, 63 secciones)
-- **J** - Incendio (14 tablas, 160 secciones)
-- **K** - Complementarios (12 tablas, 423 secciones)
+- **A** - Requisitos sismo resistente (61 fórmulas)
+- **B** - Cargas (48 tablas)
+- **C** - Concreto estructural (58 fórmulas)
+- **D** - Mampostería estructural (94 fórmulas)
+- **E** - Casas 1-2 pisos
+- **F** - Estructuras metálicas (167 tablas, 111 figuras)
+- **G** - Madera y Guadua (95 tablas)
+- **H** - Estudios geotécnicos
+- **I** - Supervisión técnica
+- **J** - Protección contra incendio
+- **K** - Requisitos complementarios
 
 ### Base de Datos
 
 Supabase Project: `vdakfewjadwaczulcmvj`
 
+### Uso
+
+```python
+# Consulta SQL directa
+SELECT * FROM nsr10_barras_refuerzo WHERE numero = 5;
+
+# Búsqueda FTS en español
+SELECT * FROM nsr10_secciones 
+WHERE search_vector @@ to_tsquery('spanish', 'cortante & concreto');
+
+# Knowledge Graph
+SELECT * FROM kg_nodes WHERE type = 'FORMULA' AND section_path LIKE 'C.%';
+```
+
 ### Estructura
 
 ```
 normative-engine/
-├── scripts/           # Scripts de extracción y API
-├── figuras/           # 745 imágenes PNG extraídas
-│   ├── titulo_a/
-│   ├── titulo_b/
-│   └── ...
-├── docs/              # Documentación
+├── scripts/           # API y extracción
+├── figuras/           # 745 imágenes PNG
+├── sql/               # Esquemas SQL
+├── kg/                # Knowledge Graph data
 └── README.md
-```
-
-### Uso
-
-```python
-# Consultar tabla SQL
-SELECT * FROM nsr10_barras_refuerzo WHERE numero = 5;
-
-# Búsqueda FTS
-SELECT * FROM nsr10_secciones 
-WHERE search_vector @@ to_tsquery('spanish', 'cortante & concreto');
-
-# Fórmula Python
-from nsr10_formulas import Mn_flexion
-Mn = Mn_flexion(As=12.7, fy=420, d=450, a=85)  # kN·m
 ```
 
 ### Fecha
