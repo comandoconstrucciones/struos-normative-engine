@@ -1,0 +1,30 @@
+{
+  "page_number": 43,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.2",
+      "title": "Sismología regional",
+      "content": "Debe recopilarse la información histórica e instrumental sobre la sismicidad regional. Esta información debe incluir:\n(a) Documentación detallada de la historia sísmica de la región. Se deben preparar catálogos sísmicos de los eventos que se han sentido en el sitio. Estos catálogos deben contener la fecha, la localización, la profundidad y la magnitud, entre otros datos, para cada sismo. Esta información debe ilustrarse por medio de mapas regionales.\n(b) Elaboración, donde la información lo permita, de curvas de recurrencia de la frecuencia de sismos regionales, incluyendo magnitudes pequeñas. El estimativo de la frecuencia de ocurrencia de sismos dañinos se puede estimar de estas estadísticas.\n(c) Estudio de los registros acelerográficos disponibles, de los reportes de daños y toda la información de intensidades locales existente sobre la región.\n(d) Elaboración de estimativos de la máxima intensidad en terreno firme, cercano al sitio, que debe haberse sentido con los sismos importantes que han afectado el sitio.\n(e) Se debe recopilar toda la información sismológica instrumental de la región. Ésta debe incluir la definición de la magnitud empleada, las ecuaciones de conversión cuando ésta haya sido convertida de otro tipo de magnitud, y la fuente (tipo de instrumento y su localización) de los sismogramas utilizados para determinar la magnitud original y localización original del evento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.3",
+      "title": "Definición de fuentes sismogénicas",
+      "content": "Con base en la geología, neotectónica y sismicidad regionales determinadas en A.2.9.3.1 y A.2.9.3.2, debe determinarse lo siguiente:\n(a) Deben identificarse las fallas y zonas sismogénicas activas conocidas para la región que puedan producir sismos fuertes que afecten la ciudad.\n(b) En caso de considerarse conveniente, se conformarán fuentes sismogénicas con agrupaciones de fallas, en particular cuando no se puedan asignar razonablemente eventos a una sola de ellas.\n(c) Deberá darse un tratamiento especial a aquellos eventos que no es posible asignarse a fallas.\n(d) Deben determinarse estadísticamente las tasas esperadas de recurrencia para diferentes magnitudes y las magnitudes máximas esperadas para todas las fuentes sismogénicas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.4",
+      "title": "Determinación de la aceleración y velocidad esperada para las ondas sísmicas de diseño en roca",
+      "content": "Deben realizarse y documentarse los siguientes estudios con base en la información obtenida en Α.2.9.3.1, A.2.9.3.2, y A.2.9.3.3:\n(a) Evaluación por procedimientos deterministas — Se debe determinar la máxima aceleración horizontal y la máxima velocidad horizontal en roca que pueda producir el sismo característico de cada una de las fuentes sismogénicas identificadas en A.2.9.3.3 en la ciudad, para la magnitud máxima esperada y la disposición geográfica de la fuente con respecto a la ciudad. Para esta evaluación deben utilizarse relaciones de atenuación apropiadas para el entorno tectónico en sus valores medios. Deben usarse, como mínimo, relaciones de atenuación apropiadas para ondas de período corto (en el rango aproximado de períodos de 0.1 a 0.5 segundos) para obtener valores de aceleración horizontal máxima en roca y de período moderado de aproximadamente 1 segundo para obtener valores de velocidad máxima horizontal en roca.\n(b) Evaluación de los valores de Aa y Av por procedimientos probabilistas — Deben evaluarse la máxima aceleración horizontal efectiva y la velocidad horizontal efectiva con una probabilidad de excedencia de 10 por ciento en un lapso de 50 años, teniendo en cuenta la incertidumbre en la determinación tanto de la máxima aceleración horizontal efectiva como de la máxima velocidad efectiva, de manera que se incluya al menos el 90 por ciento de su dispersión total. Esta parte del estudio debe incorporar interpretaciones científicas apropiadas, incluyendo las incertidumbres en los modelos y los valores de los parámetros para las fuentes sismogénicas y los movimientos sísmicos. El estudio debe documentarse en el reporte final. En caso que en"
+    }
+  ],
+  "references": [
+    "A.2.9.3.1",
+    "A.2.9.3.2",
+    "A.2.9.3.3"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,2010 @@
+[
+  {
+    "symbol": "Aa",
+    "definition": "coeficiente que representa la aceleración horizontal pico efectiva para diseño, de acuerdo con A.2.2.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Ae",
+    "definition": "coeficiente que representa la aceleración pico efectiva reducida para diseño con seguridad limitada, dado en A.10.3.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Av",
+    "definition": "coeficiente de aceleración que representa la velocidad horizontal pico efectiva para diseño, de acuerdo con A.2.2.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "E",
+    "definition": "fuerzas sísmicas reducidas para revisión de la estructura existente y diseño de la ampliación (E = Fs/R').",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Fs",
+    "definition": "fuerzas sísmicas equivalentes, véase A.10.4.2.5.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Nef",
+    "definition": "resistencia efectiva.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Nex",
+    "definition": "resistencia existente.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "R",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = ΦαφρΦrRo).",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Ro",
+    "definition": "coeficiente de disipación de energía básico",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "R'",
+    "definition": "coeficiente de capacidad de disipación de energía que se le asigna a la edificación existente de acuerdo con lo prescrito en el Capítulo A.10.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Φa",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en altura de la edificación.",
+    "unit": null,
+    "reference": "Véase A.3.3.3.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Φc",
+    "definition": "coeficiente de reducción de resistencia por calidad del diseño y construcción de la estructura.",
+    "unit": null,
+    "reference": "Véase Α.10.4.3.4.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Φe",
+    "definition": "coeficiente de reducción de resistencia por estado de la estructura.",
+    "unit": null,
+    "reference": "Véase A.10.4.3.4.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Φp",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en planta de la edificación.",
+    "unit": null,
+    "reference": "Véase A.3.3.3.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Φr",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por ausencia de redundancia en el sistema estructural de resistencia sísmica.",
+    "unit": null,
+    "reference": "Véase A.3.3.8.",
+    "chapter": "A.10",
+    "source_page": 109
+  },
+  {
+    "symbol": "Ad",
+    "definition": "coeficiente que representa la aceleración pico efectiva, para el umbral de daño",
+    "unit": null,
+    "reference": "dado en A.12.2",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Ed",
+    "definition": "fuerzas sísmicas del umbral de daño",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Fv",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los efectos de sitio, adimensional",
+    "unit": null,
+    "reference": "dado en A.2.4.5",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "m/s²",
+    "reference": "g = 9.8 m/s²",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "hpi",
+    "definition": "altura del piso i, medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del piso inmediatamente inferior, i-1",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "definido en A.2.5.2",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "M",
+    "definition": "masa total de la edificación - M",
+    "unit": "kg",
+    "reference": "se expresa en kg. Debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso. Capítulos A.4 y A.5.",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "S",
+    "definition": "coeficiente de sitio",
+    "unit": null,
+    "reference": "dado en A.12.3",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Ŝ",
+    "definition": "coeficiente de sitio para ser empleado en el espectro sísmico del umbral de daño",
+    "unit": null,
+    "reference": "Ŝ = 1.25S",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Sad",
+    "definition": "valor del espectro sísmico del umbral de daño, para un período de vibración dado. Máxima aceleración horizontal para el umbral de daño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T",
+    "unit": null,
+    "reference": "Está definido en A.12.3",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "T",
+    "definition": "período de vibración del sistema elástico",
+    "unit": "segundos",
+    "reference": "en segundos",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Tcd",
+    "definition": "período de vibración",
+    "unit": "segundos",
+    "reference": "correspondiente a la transición entre la zona de aceleración constante del espectro sísmico del umbral de daño, para períodos cortos y la parte descendiente del mismo. Véase A.12",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "TLd",
+    "definition": "período de vibración",
+    "unit": "segundos",
+    "reference": "correspondiente a la transición entre la zona de desplazamiento constante del espectro sísmico del umbral de daño, para períodos largos. Véase A.12.3",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Vs",
+    "definition": "cortante sísmico en la base de la estructura",
+    "unit": null,
+    "reference": "calculado por el método de la fuerza horizontal equivalente del Capítulo A.4",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "Vsd",
+    "definition": "cortante sísmico en la base, para las fuerzas sísmicas del umbral de daño",
+    "unit": null,
+    "reference": "Véase A.12.4",
+    "chapter": "A.12",
+    "source_page": 129
+  },
+  {
+    "symbol": "A_d",
+    "definition": "parámetro",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.12",
+    "source_page": 130
+  },
+  {
+    "symbol": "A_d",
+    "definition": "valor",
+    "unit": null,
+    "reference": "tabla A.12.2-1",
+    "chapter": "A.12",
+    "source_page": 130
+  },
+  {
+    "symbol": "A_d",
+    "definition": "valor",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.12",
+    "source_page": 130
+  },
+  {
+    "symbol": "A_d",
+    "definition": "valor",
+    "unit": null,
+    "reference": "Apéndice A-4",
+    "chapter": "A.12",
+    "source_page": 130
+  },
+  {
+    "symbol": "Aa",
+    "definition": "coeficiente que representa la aceleración horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Av",
+    "definition": "coeficiente que representa la velocidad horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "dc",
+    "definition": "es la suma de los espesores de los k estratos de suelos cohesivos localizados dentro de los 30 m superiores del perfil",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "di",
+    "definition": "espesor del estrato i, localizado dentro de los 30 m superiores del perfil",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "ds",
+    "definition": "es la suma de los espesores de los m estratos de suelos no cohesivos localizados dentro de los 30 m superiores del perfil",
+    "unit": null,
+    "reference": "en ecuación A.2.4-3",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Fa",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos cortos, debida a los efectos de sitio, adimensional",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Fv",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los efectos de sitio, adimensional",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "9.8 m/s²",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "H",
+    "definition": "espesor total en m de los estratos de suelos cohesivos",
+    "unit": "m",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "definido en A.2.5.2",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "IP",
+    "definition": "índice de plasticidad, el cual se obtiene cumpliendo la norma ASTM D 4318",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Ni",
+    "definition": "número de golpes por píe obtenido en el ensayo de penetración estándar, realizado in situ de acuerdo con la norma ASTM D 1586, haciendo corrección por energía N60. El valor de N; usado para obtener el valor medio, no debe exceder 100",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Ro",
+    "definition": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "R",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = φaφpφrRo)",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "RC",
+    "definition": "coeficiente de capacidad de disipación de energía definido para la zona de períodos cortos menores de Tc en función del valor de R, cuando se exige así en los estudios de microzonificación",
+    "unit": null,
+    "reference": "Definido en la ecuación A.2.9-1",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Sa",
+    "definition": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T",
+    "unit": null,
+    "reference": "Está definido en A.2.6.1",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Sd",
+    "definition": "valor del espectro de desplazamientos de diseño para un período de vibración dado. Máximo desplazamiento horizontal de diseño",
+    "unit": "m",
+    "reference": "Está definido en A.2.6.3",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Sv",
+    "definition": "valor del espectro de velocidades de diseño para un período de vibración dado. Máxima velocidad horizontal de diseño",
+    "unit": "m/s",
+    "reference": "Está definido en A.2.6.2",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "Sui",
+    "definition": "es la resistencia al corte no drenado en kPa (kgf/cm²) del estrato i, la cual no debe exceder 250 kPa (2.5 kgf/cm²) para realizar el promedio ponderado. Esta resistencia se mide cumpliendo la norma NTC 1527 (ASTM D 2166) o la norma NTC 2041 (ASTM D 2850)",
+    "unit": "kPa",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "T",
+    "definition": "período de vibración del sistema elástico",
+    "unit": "segundos",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "TC",
+    "definition": "período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante del espectro de diseño, para períodos cortos, y la parte descendiente del mismo",
+    "unit": "segundos",
+    "reference": "(Véase A.2.6)",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "TL",
+    "definition": "período de vibración, en segundos, correspondiente al inicio de la zona de desplazamiento aproximadamente constante del espectro de diseño, para períodos largos",
+    "unit": "segundos",
+    "reference": "(Véase A.2.6)",
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "k",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "i",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "m",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "φₐ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "φₚ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "φᵣ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 25
+  },
+  {
+    "symbol": "To",
+    "definition": "período de vibración al cual inicia la zona de aceleraciones constantes del espectro de aceleraciones",
+    "unit": "s",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Vsi",
+    "definition": "velocidad media de la onda de cortante del suelo del estrato i, medida en campo",
+    "unit": "m/s",
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "w",
+    "definition": "contenido de agua en porcentaje",
+    "unit": null,
+    "reference": "norma NTC 1495 (ASTM D 2166)",
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Aa",
+    "definition": "valores de Aa",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Av",
+    "definition": "valores de Av",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Ae",
+    "definition": "valores de Ae",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Aa",
+    "definition": "aceleración pico efectiva",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Av",
+    "definition": "velocidad pico efectiva",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.2",
+    "source_page": 26
+  },
+  {
+    "symbol": "Aa",
+    "definition": "Valores de Aa según las regiones",
+    "unit": null,
+    "reference": "Tabla A.2.2-1, De los mapas de las figuras A.2.3-2 Y A.2.3-3",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Av",
+    "definition": "Valores de Av según las regiones",
+    "unit": null,
+    "reference": "Tabla A.2.2-1, De los mapas de las figuras A.2.3-2 Y A.2.3-3",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Aa",
+    "definition": "Es el conjunto de lugares en donde tanto Aa como Av son menores o iguales a 0.10",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Av",
+    "definition": "Es el conjunto de lugares en donde tanto Aa como Av son menores o iguales a 0.10",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Aa",
+    "definition": "Es el conjunto de lugares en donde Aa o Av, o ambos, son mayores de 0.10 y ninguno de los dos excede 0.20.",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Av",
+    "definition": "Es el conjunto de lugares en donde Aa o Av, o ambos, son mayores de 0.10 y ninguno de los dos excede 0.20.",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Aa",
+    "definition": "Es el conjunto de lugares en donde Aa o Av, o ambos, son mayores que 0.20.",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Av",
+    "definition": "Es el conjunto de lugares en donde Aa o Av, o ambos, son mayores que 0.20.",
+    "unit": null,
+    "reference": "Véase la tabla A.2.3-1.",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Aa",
+    "definition": "Mayor valor entre Aa y Av",
+    "unit": null,
+    "reference": "Tabla A.2.3-1",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Av",
+    "definition": "Mayor valor entre Aa y Av",
+    "unit": null,
+    "reference": "Tabla A.2.3-1",
+    "chapter": "A.2",
+    "source_page": 27
+  },
+  {
+    "symbol": "Aa",
+    "definition": "coeficiente que representa la aceleración horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Av",
+    "definition": "coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "As",
+    "definition": "aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero",
+    "unit": null,
+    "reference": "Véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Ax",
+    "definition": "coeficiente de amplificación de la torsión accidental en el nivel x",
+    "unit": null,
+    "reference": "definido en A.3.6.7",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "ai",
+    "definition": "aceleración en el nivel i",
+    "unit": null,
+    "reference": "Véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "E",
+    "definition": "fuerzas sísmicas reducidas de diseño",
+    "unit": null,
+    "reference": "(E = Fs/R)",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Fi",
+    "definition": "parte del cortante sísmico en la base que se genera en el nivel i",
+    "unit": null,
+    "reference": "véase A.3.6.6",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Fs",
+    "definition": "fuerzas sísmicas",
+    "unit": null,
+    "reference": "véase A.3.1.1",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "m/s²",
+    "reference": "(g = 9.8 m/s²)",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "hi",
+    "definition": "altura en metros, medida desde la base, del nivel i",
+    "unit": null,
+    "reference": "véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "hn",
+    "definition": "altura en metros, medida desde la base, del piso más alto de la edificación",
+    "unit": null,
+    "reference": "véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "heq",
+    "definition": "altura equivalente del sistema de un grado de libertad que simula la edificación",
+    "unit": null,
+    "reference": "véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "dado en A.2.5.2",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "M",
+    "definition": "masa total de la edificación",
+    "unit": "kg",
+    "reference": "M se expresa en kg",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Mp",
+    "definition": "masa de un elemento o componente",
+    "unit": "kg",
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "mi",
+    "definition": "parte de M que está colocada en el nivel i",
+    "unit": "kg",
+    "reference": "Véase ecuación A.4.3-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Ro",
+    "definition": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "R",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta y por ausencia de redundancia en el sistema estructural de resistencia sísmica",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Sa",
+    "definition": "valor de la aceleración espectral de diseño para un período de vibración dado",
+    "unit": null,
+    "reference": "Véase ecuación A.3.6-3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Vx",
+    "definition": "fuerza cortante sísmica en el nivel x",
+    "unit": null,
+    "reference": "Véase A.3.6.6",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "δmax",
+    "definition": "desplazamiento horizontal máximo en el nivel x",
+    "unit": null,
+    "reference": "Véase ecuación A.3.6-2",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "δprom",
+    "definition": "promedio de los desplazamientos horizontales en puntos extremos de la estructura en el nivel x",
+    "unit": null,
+    "reference": "Véase ecuación A.3.6-2",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Φa",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en altura de la edificación",
+    "unit": null,
+    "reference": "Véase A.3.3.3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Φp",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en planta de la edificación",
+    "unit": null,
+    "reference": "Véase A.3.3.3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Φr",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por ausencia de redundancia en el sistema de resistencia sísmica",
+    "unit": null,
+    "reference": "Véase A.3.3.8",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Ω0",
+    "definition": "coeficiente de sobrerresistencia",
+    "unit": null,
+    "reference": "Véase A.3.3.9",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "R = ΦαφpΦrRo",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta y por ausencia de redundancia en el sistema estructural de resistencia sísmica",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.3",
+    "source_page": 51
+  },
+  {
+    "symbol": "Fs",
+    "definition": "fuerzas sísmicas obtenidas del análisis",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "R",
+    "definition": "coeficiente de capacidad de disipación de energía",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "E",
+    "definition": "fuerzas sísmicas reducidas de diseño",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "R₀",
+    "definition": "coeficiente de disipación de energía básico",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "R",
+    "definition": "R = ΦₐΦₚΦᵣR₀",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "Φₐ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por irregularidades en altura",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "Φₚ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por irregularidades en planta",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "Φᵣ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por ausencia de redundancia",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "Ω₀",
+    "definition": "coeficiente de sobrerresistencia",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.3",
+    "source_page": 52
+  },
+  {
+    "symbol": "R0",
+    "definition": "coeficiente de capacidad de disipación de energía básico",
+    "unit": null,
+    "reference": "Capítulo A.13",
+    "chapter": "A.3",
+    "source_page": 53
+  },
+  {
+    "symbol": "Aʙ",
+    "definition": "área de la edificación en su base",
+    "unit": "m²",
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Awi",
+    "definition": "área mínima de cortante de la sección de un muro estructural i, medida en un plano horizontal, en el primer nivel de la estructura y en la dirección en estudio",
+    "unit": "m²",
+    "reference": "Véase A.4.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Av",
+    "definition": "coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Ct",
+    "definition": "coeficiente utilizado para calcular el período de la estructura",
+    "unit": null,
+    "reference": "definido en A.4.2.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Cu",
+    "definition": "coeficiente utilizado para calcular el período máximo permisible la estructura",
+    "unit": null,
+    "reference": "definido en A.4.2.1.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Cvx",
+    "definition": "coeficiente definido",
+    "unit": null,
+    "reference": "en A.4.3.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "ℓwi",
+    "definition": "longitud medida horizontalmente, en metros, de un muro estructural i en el primer nivel de la estructura y en la dirección en estudio",
+    "unit": "metros",
+    "reference": "Véase A.4.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Fi, Fx",
+    "definition": "fuerzas sísmicas horizontales en los niveles i o x respectivamente",
+    "unit": null,
+    "reference": "Véase A.4.3.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Fv",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los efectos de sitio",
+    "unit": "adimensional",
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "fi",
+    "definition": "fuerza sísmica horizontal en el nivel i para ser utilizada en la ecuación A.4.2-1.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "9.8 m/s²",
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "hi, hx",
+    "definition": "altura en metros, medida desde la base, del nivel i o x",
+    "unit": "metros",
+    "reference": "Véase A.4.3.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "hn",
+    "definition": "altura en metros, medida desde la base, del piso más alto del edificio",
+    "unit": "metros",
+    "reference": "Véase A.4.2.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "hp",
+    "definition": "altura del piso medida desde la superficie del diafragma del piso hasta la superficie del diafragma del piso inmediatamente inferior",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "hwi",
+    "definition": "altura del muro i medida desde la base",
+    "unit": "m",
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "dado en A.2.5.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "k",
+    "definition": "exponente relacionado con el período fundamental de la edificación",
+    "unit": null,
+    "reference": "dado en A.4.3.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "M",
+    "definition": "masa total de la edificación — M debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso",
+    "unit": "kg",
+    "reference": "Capítulos A.4 y A.5",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "mᵢ, mx",
+    "definition": "parte de M que está colocada en el nivel i o x respectivamente",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "N",
+    "definition": "número de pisos de la edificación",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "nw",
+    "definition": "número de muros de la edificación efectivos para resistir las fuerzas sísmicas horizontales en la dirección bajo estudio",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Sa",
+    "definition": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T",
+    "unit": null,
+    "reference": "Está definido en A.2.6.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "T",
+    "definition": "período fundamental del edificio como se determina",
+    "unit": null,
+    "reference": "en A.4.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Ta",
+    "definition": "período de vibración fundamental aproximado",
+    "unit": null,
+    "reference": "Véase A.4.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "Vs",
+    "definition": "cortante sísmico en la base, para las fuerzas sísmicas",
+    "unit": null,
+    "reference": "Véase A.4.3.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "α",
+    "definition": "exponente para ser utilizado en el cálculo del período aproximado Ta",
+    "unit": null,
+    "reference": "Véase A.4.2.2.",
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "δi",
+    "definition": "desplazamiento horizontal del nivel i con respecto a la base de la estructura, debido a las fuerzas horizontales fi, para ser utilizado en la ecuación A.4.2-1.",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 75
+  },
+  {
+    "symbol": "T",
+    "definition": "valor del período fundamental de la edificación",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "mᵢ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "δᵢ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "fᵢ",
+    "definition": "fuerzas horizontales",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Cᵤ",
+    "definition": null,
+    "unit": null,
+    "reference": "ecuación A.4.2-2",
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Tₐ",
+    "definition": null,
+    "unit": null,
+    "reference": "A.4.2-3",
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Aᵥ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Fᵥ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Tₐ",
+    "definition": "período fundamental aproximado",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "Cₜ",
+    "definition": null,
+    "unit": null,
+    "reference": "tabla A.4.2-1",
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "α",
+    "definition": null,
+    "unit": null,
+    "reference": "tabla A.4.2-1",
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "h",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "C𝓌",
+    "definition": null,
+    "unit": null,
+    "reference": "ecuación A.4.2-4",
+    "chapter": "A.4",
+    "source_page": 76
+  },
+  {
+    "symbol": "E",
+    "definition": "fuerzas sísmicas reducidas de diseño (E = Fₛ/R)",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Fₛ",
+    "definition": "fuerzas sísmicas",
+    "unit": null,
+    "reference": "A.3.1.1",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "9.8 m/s²",
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "M",
+    "definition": "masa total de la edificación M debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso",
+    "unit": "kg",
+    "reference": "Capítulos A.4 y A.5",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Mⱼ",
+    "definition": "masa actuante total de la edificación en la dirección j",
+    "unit": null,
+    "reference": "Ecuación A.5.4-1",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Mₘ",
+    "definition": "masa efectiva modal del modo m, determinada de acuerdo con la ecuación A.5.4-2",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "mᵢ",
+    "definition": "parte de M que está colocada en el nivel i",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "mₓ",
+    "definition": "parte de M que está colocada en el nivel o x, respectivamente",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "p",
+    "definition": "número total de modos utilizado en el análisis modal de la estructura",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "R₀",
+    "definition": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural",
+    "unit": null,
+    "reference": "Capítulo A.3",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "R",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, R₀, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = φₐφₚφᵣR₀)",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Sₐₘ",
+    "definition": "valor del espectro de aceleraciones de diseño para el período de vibración Tₘ, correspondiente al modo de vibración m",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Tₐ",
+    "definition": "período de vibración fundamental aproximado",
+    "unit": "segundos",
+    "reference": "A.4.2",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Tₘ",
+    "definition": "período de vibración correspondiente al modo de vibración m",
+    "unit": "s",
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Vₘⱼ",
+    "definition": "cortante sísmico en la base correspondiente al modo m en la dirección horizontal j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Vₛ",
+    "definition": "cortante sísmico de diseño en la base de la estructura, calculado por el método de la fuerza horizontal equivalente",
+    "unit": null,
+    "reference": "Capítulo A.4",
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "Vₜⱼ",
+    "definition": "cortante sísmico en la base total en la dirección horizontal j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "ϕᵢⱼᵐ",
+    "definition": "amplitud de desplazamiento del nivel i, en la dirección j, cuando está vibrando en el modo m",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "φₐ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por irregularidades en altura",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "φₚ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por irregularidades en planta",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "φᵣ",
+    "definition": "coeficiente de reducción de capacidad de disipación de energía por ausencia de redundancia",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 79
+  },
+  {
+    "symbol": "1aP",
+    "definition": "irregularidades en planta del tipo 1aP",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "1bP",
+    "definition": "irregularidades en planta del tipo 1bP",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "4P",
+    "definition": "irregularidades en planta del tipo 4P",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "5P",
+    "definition": "irregularidades en planta del tipo 5P",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "2P",
+    "definition": "irregularidades en planta del tipo 2P",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "3P",
+    "definition": "irregularidades en planta del tipo 3P",
+    "unit": null,
+    "reference": "A.3.3.4 (tabla A.3-6)",
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "M",
+    "definition": "masa total de la edificación",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.5",
+    "source_page": 80
+  },
+  {
+    "symbol": "hᵢ",
+    "definition": "altura en metros, medida desde la base, del nivel i",
+    "unit": "m",
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "hₙ",
+    "definition": "altura en metros, medida desde la base, del piso más alto del edificio",
+    "unit": "m",
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "hᵢᵖ",
+    "definition": "altura del piso i, medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del piso inmediatamente inferior, i-1",
+    "unit": "m",
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "j",
+    "definition": "índice de una de las direcciones ortogonales principales en planta, puede ser x o y",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Pᵢ",
+    "definition": "suma de la carga vertical total, incluyendo muerta y viva, que existe en el piso i, y todos los pisos localizados por encima. Para el cálculo de los efectos P-Delta, no hay necesidad que los coeficientes de carga de sean mayores que la unidad",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Qᵢ",
+    "definition": "índice de estabilidad, del piso i, utilizado en la evaluación de los efectos P-Delta",
+    "unit": null,
+    "reference": "Véase A.6.2.3",
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "rⱼ",
+    "definition": "proyección, sobre la dirección perpendicular en planta a la dirección bajo estudio, j, de la distancia entre el centro de masa del piso y el punto de interés",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "T",
+    "definition": "período fundamental del edificio como se determina en A.4.2",
+    "unit": null,
+    "reference": "A.4.2",
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Tₐ",
+    "definition": "período de vibración fundamental aproximado",
+    "unit": null,
+    "reference": "Véase A.4.2",
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Vᵢ",
+    "definition": "fuerza cortante del piso i, en la dirección bajo estudio, sin dividir por R. Se determina por medio de las ecuaciones del numeral A.4.3. Corresponde a la suma de las fuerzas horizontales sísmicas que se aplican al nivel i, y todos los niveles localizados por encima de él.",
+    "unit": null,
+    "reference": "A.4.3",
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Δᵢᶜᵐ,ʲ",
+    "definition": "deriva del piso i, en la dirección bajo estudio, j, medida en el centro de masa del piso, como la diferencia entre el desplazamiento horizontal del piso i menos el del piso i-1 en la misma dirección j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Δⱼⁱ",
+    "definition": "deriva del piso i en la dirección principal en planta j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "Δᵢᵐᵃˣ",
+    "definition": "deriva máxima para cualquier punto del piso i",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "δᶜᵐ,ʲ",
+    "definition": "desplazamiento horizontal, del centro de masa del piso i, en la dirección j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "δₚd,ⱼⁱ",
+    "definition": "desplazamiento horizontal adicional, del centro de masa del piso i, causado por efectos P-Delta, en la dirección j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "δᵗ,ⱼⁱ",
+    "definition": "desplazamiento horizontal adicional causado por efectos de torsión de cualquier punto del diafragma del piso i en la dirección j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "δᵗᵒᵗ,ⱼⁱ",
+    "definition": "desplazamiento total horizontal, de cualquier punto del diafragma del piso i en la dirección j",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "θᵢ",
+    "definition": "rotación alrededor de un eje vertical que pasa por el centro de masa del piso i, causada por los efectos torsionales, en radianes",
+    "unit": "radianes",
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 85
+  },
+  {
+    "symbol": "δcm,j",
+    "definition": "desplazamientos horizontales en el centro de masa del piso",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "T",
+    "definition": "período",
+    "unit": null,
+    "reference": "ecuación A.4.2-1, ecuaciones A.4.2-3 ο Α.4.2-5.",
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "CuTa",
+    "definition": "límite de CuTa",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "A.2.5.2",
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "δt,j",
+    "definition": "desplazamientos horizontales causados por efectos torsionales",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "δt,j",
+    "definition": "incremento en desplazamiento horizontal causado por los efectos torsionales en un punto dentro del nivel i, en una de las direcciones principales en planta",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "rj",
+    "definition": "proyección sobre la dirección perpendicular en planta a la dirección bajo estudio, j, de la distancia entre el centro de masa del piso y el punto de interés",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "θi",
+    "definition": "rotación alrededor de una eje vertical que pasa por el centro de masa del nivel i, causada por los efectos torsionales",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "δpd,j",
+    "definition": "desplazamientos horizontales causados por efectos P-Delta",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "Qi",
+    "definition": "índice de estabilidad, para el piso i",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "PiΔcm",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "Vihpi",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.6",
+    "source_page": 86
+  },
+  {
+    "symbol": "As",
+    "definition": "aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero",
+    "unit": null,
+    "reference": "Véase A.8.2.1.1",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "ai",
+    "definition": "aceleración en el nivell i",
+    "unit": null,
+    "reference": "Véase A.8.2.1.1",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "ax",
+    "definition": "aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, localizado en el piso x",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "Fp",
+    "definition": "fuerza horizontal sobre un elemento estructural que no hace parte del sistema de resistencia sísmica, aplicada en su centro de masa",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "m/s²",
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "hi",
+    "definition": "altura en metros, medida desde la base, del nivel i",
+    "unit": null,
+    "reference": "véase A.8.2.1.1",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "hn",
+    "definition": "altura en metros, medida desde la base, del piso más alto de la edificación",
+    "unit": null,
+    "reference": "véase A.8.2.1.1",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "heq",
+    "definition": "altura equivalente del sistema de un grado de libertad que simula la edificación",
+    "unit": null,
+    "reference": "véase A.8.2.1.1",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "Mp",
+    "definition": "masa de un elemento estructural que no hace parte del sistema de resistencia sísmica",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "R₀",
+    "definition": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural",
+    "unit": null,
+    "reference": "Véase el Capítulo A.3",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "Sa",
+    "definition": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T",
+    "unit": null,
+    "reference": "Está definido en A.2.6",
+    "chapter": "A.8",
+    "source_page": 95
+  },
+  {
+    "symbol": "aᵢ",
+    "definition": "aceleración horizontal, expresada como una fracción de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, localizado en el piso i",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "Sₐ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "Aₛ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "hᵢ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "hₑꜿ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "hₙ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "aₓ",
+    "definition": "aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, localizado en el piso x",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "Fₚ",
+    "definition": "fuerza sísmica horizontal reducida de diseño, que puede actuar en cualquier dirección, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica en su centro de masa",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "aₓ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "Mₚ",
+    "definition": null,
+    "unit": null,
+    "reference": null,
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "R₀",
+    "definition": "coeficiente de capacidad de disipación de energía correspondiente a los requisitos de diseño del elemento estructural",
+    "unit": null,
+    "reference": "como se indica en A.8.4",
+    "chapter": "A.8",
+    "source_page": 96
+  },
+  {
+    "symbol": "Aa",
+    "definition": "coeficiente que representa la aceleración horizontal pico efectiva, para diseño",
+    "unit": null,
+    "reference": "dado en A.2.2",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "As",
+    "definition": "aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero",
+    "unit": null,
+    "reference": "Véase A.9.4.2.1",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "ap",
+    "definition": "coeficiente de amplificación dinámica del elemento no estructural",
+    "unit": null,
+    "reference": "Se da en las tablas A.9.5-1 y A.9.6-1",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "ax",
+    "definition": "aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento no estructural, localizado en el piso x",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "E",
+    "definition": "fuerzas sísmicas reducidas de diseño",
+    "unit": null,
+    "reference": "(E=Fp/Rp)",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "Fp",
+    "definition": "fuerza sísmica horizontal sobre el elemento no estructural, aplicada en su centro de masa",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "g",
+    "definition": "aceleración debida a la gravedad",
+    "unit": "m/s²",
+    "reference": "(g = 9.8 m/s²)",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "heq",
+    "definition": "altura equivalente del sistema de un grado de libertad que simula la edificación",
+    "unit": null,
+    "reference": "véase A.9.4.2.1",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "hx",
+    "definition": "altura en metros, medida desde la base, del nivel de apoyo del elemento no estructural",
+    "unit": "metros",
+    "reference": null,
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "hn",
+    "definition": "altura en metros, medida desde la base, del piso más alto de la edificación",
+    "unit": "metros",
+    "reference": "véase A.8.2.1.1",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "I",
+    "definition": "coeficiente de importancia",
+    "unit": null,
+    "reference": "dado en A.2.5.2",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "Mp",
+    "definition": "masa del elemento no estructural",
+    "unit": null,
+    "reference": null,
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "Rp",
+    "definition": "coeficiente de capacidad de disipación de energía del elemento no estructural y sus sistema de soporte",
+    "unit": null,
+    "reference": "Se da en las tablas A.9.5-1 у А.9.6-1",
+    "chapter": "A.9",
+    "source_page": 99
+  },
+  {
+    "symbol": "Sa",
+    "definition": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T",
+    "unit": null,
+    "reference": "Está definido en A.2.6",
+    "chapter": "A.9",
+    "source_page": 99
+  }
+]

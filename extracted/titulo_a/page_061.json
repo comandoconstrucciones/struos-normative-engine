@@ -1,0 +1,53 @@
+{
+  "page_number": 61,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.10",
+      "title": "MUROS ESTRUCTURALES",
+      "content": "Los muros estructurales de concreto o mampostería, exteriores e interiores, deben amarrarse a los diafragmas o cubiertas que les provean apoyo lateral, por medio de anclajes diseñados para resistir una fuerza horizontal que actúa perpendicularmente al plano del muro. Dicha fuerza se puede calcular a partir de la fuerza causada por la aceleración en cada piso, calculada con la ecuación A.3.6-3, pero no menor que 0.10Mpg, donde Mp es la masa del tramo de muro considerado. Alternativamente a la ecuación A.3.6-3 para calcular las fuerzas horizontales perpendiculares al plano del muro pueden usarse estimaciones más precisas de las aceleraciones absolutas máximas a las que estarían sometidos estos muros."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.11",
+      "title": "ESTRUCTURAS DE TIPO PÉNDULO INVERTIDO",
+      "content": "Estas son estructuras donde el sistema de resistencia sísmica actúa como uno o varios voladizos aislados y un porcentaje muy alto de la masa se encuentra concentrada en la parte superior de la estructura. Las columnas o pilares de apoyo de las estructuras de tipo péndulo invertido deben diseñarse para un diagrama de momentos flectores que inicia en la base con un valor determinado de acuerdo con los procedimientos establecidos en el Capítulo A.4 y varía uniformemente hasta llegar a la mitad de este valor en la parte superior. Véase la tabla A.3-3 para efectos de los sistemas estructurales permitidos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.12",
+      "title": "ELEMENTOS VERTICALES DISCONTINUOS",
+      "content": "En las zonas de amenaza sísmica intermedia y alta, cuando se presenten discontinuidades en el alineamiento de los elementos verticales del sistema de resistencia sísmica, tales como las descritas en las irregularidades en planta tipo 4P (tabla A.3-6) y en altura tipo 4A (tabla A.3-7), deben cumplirse los siguientes requisitos:\n(a) Las fuerzas axiales mayoradas de los elementos verticales que sostengan los elementos que se suspenden se deben obtener utilizando las combinaciones de carga apropiadas de las dadas en B.2.4, utilizando un coeficiente de carga igual a 0.4R, pero no menor de 1.0, en las combinaciones que incluyan fuerzas sísmicas reducidas de diseño E, en vez del coeficiente 1.0 prescrito allí,\n(b) Debe garantizarse que los elementos, tales como vigas, que llevan estas fuerzas axiales hasta los elementos verticales las que las soportan sean capaces de resistirlas,\n(c) Los elementos verticales deben diseñarse para las fuerzas axiales mayoradas como se indica en el literal (a), acompañadas de los momentos obtenidos del análisis, los cuales se mayoran utilizando las combinaciones de carga normales prescritas en B.2.4,\n(d) Los elementos verticales deben diseñarse y detallarse siguiendo los requisitos del grado especial de capacidad de disipación de energía (DES) del material correspondiente.\nCuando el diseño de los elementos verticales soportan el elemento que se suspende se realiza utilizando el método de esfuerzos de trabajo prescrito en B.2.3, las fuerzas axiales de diseño al nivel de esfuerzos de trabajo se deben multiplicar por 0.3R, pero no menos de 0.7, en vez del coeficiente 0.7 prescrito allí."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.13",
+      "title": "EFECTO DE LAS ACELERACIONES VERTICALES",
+      "content": "En las zonas de amenaza sísmica alta e intermedia, deben tenerse en cuenta los efectos de los movimientos sísmicos verticales en los siguientes elementos estructurales:\n(a) En los voladizos, considerando una fuerza vertical, ascendente o descendente, en la punta del elemento con un valor igual al 30 por ciento de la carga muerta del voladizo en las zonas de amenaza sísmica alta, y del 15 por ciento en las zonas de amenaza sísmica intermedia, y\n(b) En los elementos construidos con concreto preesforzado, deben utilizarse combinaciones de carga adicionales a todas aquellas que incluyan carga muerta, utilizando el 50 por ciento de la carga muerta."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO DE LOS ELEMENTOS ESTRUCTURALES",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7.1",
+      "title": "SISTEMA DE RESISTENCIA SÍSMICA",
+      "content": "Los elementos del sistema estructural de resistencia sísmica, y sus conexiones, deben diseñarse utilizando todas las solicitaciones requerida por el Título B del Reglamento, debidamente combinadas según se exige allí. Las fuerzas sísmicas obtenidas del análisis Fs, se reducen, dividiéndolas por el coeficiente de capacidad de disipación de energía, R, correspondiente al sistema estructural de resistencia sísmica, para obtener las fuerzas sísmicas reducidas de diseño (E=F/R) que se emplean en las combinaciones de carga prescritas en el Título B. El valor del coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por"
+    }
+  ],
+  "references": [
+    "A.3.6-3",
+    "A.4",
+    "tabla A.3-3",
+    "tabla A.3-6",
+    "tabla A.3-7",
+    "B.2.4",
+    "B.2.3",
+    "Título B"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,95 @@
+{
+  "page_number": 116,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10",
+      "title": "Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "NSR-10 - Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(d)",
+      "content": "(d) Cuando se trate de edificaciones de mampostería no reforzada, el valor del coeficiente de capacidad de disipación de energía, R', debe ser igual a la unidad."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.5",
+      "title": "Fuerzas sísmicas",
+      "content": "A.10.4.2.5 - Fuerzas sísmicas — Las fuerzas sísmicas, Fs, que el sismo de diseño impone a la edificación se deben determinar por medio del método de la fuerza horizontal equivalente, tal como lo prescribe el Capítulo A.4. Estas fuerzas sísmicas deben distribuirse en la altura de acuerdo con el mismo método de la fuerza horizontal equivalente. Se permite utilizar el método del análisis dinámico dado en el Capítulo A.5, si a juicio del diseñador hay suficiente información para permitir su uso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.6",
+      "title": "Cargas diferentes a las solicitaciones sísmicas",
+      "content": "A.10.4.2.6 - Cargas diferentes a las solicitaciones sísmicas — Las otras solicitaciones diferentes a las solicitaciones sísmicas deben determinase siguiendo los requisitos del Título B, con excepción de las cargas muertas, las cuales deben evaluarse con base en observaciones y mediciones de campo. Las cargas muertas en ningún caso, para efectos de determinar las solicitaciones equivalentes, pueden ser menores a las prescritas en el Título B."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.7",
+      "title": "Análisis estructural",
+      "content": "A.10.4.2.7 - Análisis estructural — Con el fin de determinar las fuerzas y esfuerzos internos de la estructura debe llevarse a cabo un análisis estructural por medio de uno de los modelos matemáticos permitidos por este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.8",
+      "title": "Obtención de las solicitaciones equivalentes",
+      "content": "A.10.4.2.8 - Obtención de las solicitaciones equivalentes - Las diferentes solicitaciones que se deben tener en cuenta, se combinan para obtener las fuerzas internas equivalentes que se emplean en la evaluación de la estructura existente. Esta combinación debe realizarse de acuerdo con los requisitos del Capítulo B.2 del Reglamento, por el método de diseño propio de cada material estructural. En cada una de las combinaciones de carga requeridas, las solicitaciones se multiplican por el coeficiente de carga prescrito para esa combinación en el Capítulo B.2 del Reglamento. En los efectos causados por el sismo de diseño se tiene en cuenta la capacidad de disipación de energía del sistema estructural, lo cual se logra empleando unos efectos sísmicos reducidos de revisión, E, obtenidos dividiendo las fuerzas sísmicas Fs, por el coeficiente de capacidad de disipación de energía R' (E = Fs/R')."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.10.4.2.8",
+      "formula_latex": "E = F_s / R'",
+      "formula_python": "E = Fs / R'",
+      "formula_variables": {
+        "Fs": "fuerzas sísmicas",
+        "R'": "coeficiente de capacidad de disipación de energía"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3",
+      "title": "RELACIÓN ENTRE DEMANDA Y CAPACIDAD",
+      "content": "A.10.4.3 - RELACIÓN ENTRE DEMANDA Y CAPACIDAD - Deben determinarse unos índices de sobreesfuerzo y de flexibilidad, que permitan definir la capacidad de la estructura existente de soportar y responder adecuadamente ante las solicitaciones equivalentes definidas en A.10.4.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.1",
+      "title": "Definición del índice de sobreesfuerzo",
+      "content": "A.10.4.3.1 - Definición del índice de sobreesfuerzo El índice de sobreesfuerzo se expresa como el cociente entre las solicitaciones equivalentes, calculadas de acuerdo con A.10.4.2 y la resistencia efectiva. Tiene dos acepciones:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.1 (a)",
+      "title": "Índice de sobreesfuerzo de los elementos",
+      "content": "(a) Índice de sobreesfuerzo de los elementos - el cual se refiere al índice de sobreesfuerzo de cada uno de los elementos estructurales individuales, y"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.1 (b)",
+      "title": "Índice de sobreesfuerzo de la estructura",
+      "content": "(b) Índice de sobreesfuerzo de la estructura cuando se determina para toda la estructura, evaluando los elementos con un mayor índice de sobreesfuerzo individual y tomando en consideración su importancia dentro de la resistencia general de la estructura como un conjunto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.2",
+      "title": "Determinación del índice de sobreesfuerzo",
+      "content": "A.10.4.3.2 Determinación del índice de sobreesfuerzo Para todos los elementos de la estructura y para todos los efectos tales como cortante, flexión, torsión, etc., debe dividirse la fuerza o esfuerzo que se le exige al aplicarle las solicitaciones equivalentes, mayoradas de acuerdo con el procedimiento dado en el Título B del Reglamento y para las combinaciones de carga dadas allí, por la resistencia efectiva del elemento. El índice de sobreesfuerzo para toda la estructura corresponderá al mayor valor obtenido de estos cocientes, entre los elementos que puedan poner en peligro la estabilidad general de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.3",
+      "title": "Resistencia existente de los elementos",
+      "content": "A.10.4.3.3 Resistencia existente de los elementos La resistencia existente de los elementos de la estructura, Nex, debe ser determinada por el ingeniero que hace la evaluación con base en la información disponible y utilizando su mejor criterio y experiencia. Por resistencia se define el nivel de fuerza o esfuerzo al cual el elemento deja de responder en el rango elástico o el nivel al cual los materiales frágiles llegan a su resistencia máxima o el nivel al cual los materiales dúctiles inician su fluencia. En general la resistencia existente corresponde a los valores que se obtienen para cada material estructural al aplicar los modelos de resistencia que prescribe el Reglamento en los títulos correspondientes."
+    }
+  ],
+  "references": [
+    "A.4",
+    "A.5",
+    "Título B",
+    "Capítulo B.2",
+    "A.10.4.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

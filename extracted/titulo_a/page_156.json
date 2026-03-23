@@ -1,0 +1,83 @@
+{
+  "page_number": 156,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-2",
+      "title": "Recomendaciones para el cálculo de los efectos de interacción dinámica suelo-estructura",
+      "content": "vibración efectivo, tomando en cuenta los efectos de la interacción suelo-estructura, se puede determinar por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-5",
+      "formula_latex": "\\overline{T}=T \\sqrt{1+\\frac{25 \\alpha r_a h}{v_s^2 T^2} \\left(1+\\frac{1.12 r_i h^2}{\\alpha \\theta r_m^3}\\right)}",
+      "formula_python": "T_barra = T * (1 + (25 * alpha * ra * h) / (vs**2 * T**2) * (1 + (1.12 * ri * h**2) / (alpha * theta * rm**3)))**0.5",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "en donde:",
+      "content": "en donde:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-6",
+      "formula_latex": "\\alpha = \\frac{M}{\\gamma A_0 h}",
+      "formula_python": "alpha = M / (gamma * A0 * h)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-7",
+      "formula_latex": "r_a = \\sqrt{\\frac{A_0}{\\pi}}",
+      "formula_python": "ra = (A0 / pi)**0.5",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-8",
+      "formula_latex": "r_m = \\sqrt[4]{\\frac{4I_0}{\\pi}}",
+      "formula_python": "rm = (4 * I0 / pi)**0.25",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.2",
+      "title": "Amortiguamiento efectivo",
+      "content": "El coeficiente de amortiguamiento efectivo del sistema estructura-cimentación, debe calcularse por medio de:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-9",
+      "formula_latex": "\\overline{\\beta} = \\beta_0 + \\frac{0.05}{(\\frac{\\overline{T}}{T})^3}",
+      "formula_python": "beta_barra = beta0 + 0.05 / ((T_barra / T)**3)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.2",
+      "content": "Los valores de βo se obtienen de la figura A-2.2-1. El parámetro r en la figura A-2.2-1 es una longitud característica de la cimentación, la cual se puede determinar así:\nPara  $\\frac{h}{L_0} \\le 0.5$, r es igual a ra, de la ecuación A-2-7 y para $\\frac{h}{L_0} \\ge 1.0$, r es igual a rm, de la ecuación A-2-8.\nPara valores intermedios se puede interpolar. L₀ es la longitud de la cimentación en la dirección en estudio, y en la aplicación de las ecuaciones A-2-7 y A-2-8, A₀ e I₀ se determinan para el área de la cimentación que efectivamente está en contacto con el suelo, pues le transmite el peso de la edificación.\nPara edificios cimentados sobre pilotes que trabajan en punta, y para todos los otros casos en los cuales el suelo de fundación consiste en un estrato de suelos blandos relativamente uniforme, colocado sobre un depósito de suelos más duros, o roca, presentándose un cambio abrupto de rigidez, el coeficiente de amortiguamiento efectivo, β₀, que se utiliza en la ecuación A-2-9 puede ser substituido por el valor dado en la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-10",
+      "formula_latex": "\\beta'_0 = \\beta_0 \\left(\\frac{4D_s}{v_s \\overline{T}}\\right)^2",
+      "formula_python": "beta0_prima = beta0 * (4*Ds / (vs * T_barra))**2",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.2",
+      "content": "la cual es aplicable sólo en aquellos casos en los cuales la expresión entre paréntesis es menor que la unidad. En esta ecuación Ds es la profundidad total del estrato blando.\nEl valor de $\\overline{\\beta}$, calculado de acuerdo con la ecuación A-2-9, con o sin el ajuste representado en la ecuación A-2-10, en ningún caso puede ser menor de 0.05, ni mayor que 0.20."
+    }
+  ],
+  "references": [
+    "A-2.2-1",
+    "A-2-7",
+    "A-2-8",
+    "A-2-9",
+    "A-2-10"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

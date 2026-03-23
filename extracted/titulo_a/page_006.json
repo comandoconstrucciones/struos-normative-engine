@@ -1,0 +1,430 @@
+{
+  "page_number": 6,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-4",
+      "title": "Sistema estructural dual",
+      "content": "A-56"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-5",
+      "title": "Mezcla de sistemas estructurales en la altura",
+      "content": "A-58"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-6",
+      "title": "Irregularidades en planta",
+      "content": "A-59"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-7",
+      "title": "Irregularidades en la altura",
+      "content": "A-60"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.4",
+      "title": "MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE.",
+      "content": "A-63"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.0",
+      "title": "NOMENCLATURA",
+      "content": "A-63"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.1",
+      "title": "GENERAL",
+      "content": "A-63"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2",
+      "title": "PERIODO FUNDAMENTAL DE LA EDIFICACIÓN",
+      "content": "A-64"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4.2-1",
+      "title": "Valor de los parámetros C₁ y a para el cálculo del período aproximado Ta",
+      "content": "A-64"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.3",
+      "title": "FUERZAS SÍSMICAS HORIZONTALES EQUIVALENTES",
+      "content": "A-65"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.4",
+      "title": "ANÁLISIS DE LA ESTRUCTURA",
+      "content": "A-65"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.5",
+      "title": "USO DEL SISTEMA INTERNACIONAL DE MEDIDAS (SI) EN EL CALCULO DE LAS FUERZAS SÍSMICAS DE ACUERDO CON ESTE CAPÍTULO",
+      "content": "A-66"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.5",
+      "title": "MÉTODO DEL ANÁLISIS DINÁMICO",
+      "content": "A-67"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.0",
+      "title": "NOMENCLATURA",
+      "content": "A-67"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1",
+      "title": "GENERAL",
+      "content": "A-67"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2",
+      "title": "MODELO MATEMÁTICO",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1",
+      "title": "MODELO MATEMÁTICO A EMPLEAR",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.1",
+      "title": "Modelo tridimensional con diafragma rígido",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.2",
+      "title": "Modelo tridimensional con diafragma flexible",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.3",
+      "title": "Modelos limitados a un plano vertical",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.4",
+      "title": "Otros modelos",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.2",
+      "title": "MASA DE LA EDIFICACIÓN",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.3",
+      "title": "RIGIDEZ EN LOS MÉTODOS DINÁMICOS ELÁSTICOS",
+      "content": "A-68"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.4",
+      "title": "RIGIDEZ EN LOS MÉTODOS DINÁMICOS INELÁSTICOS",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3",
+      "title": "REPRESENTACIÓN DE LOS MOVIMIENTOS SÍSMICOS",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.1",
+      "title": "GENERALIDADES",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.2",
+      "title": "PROCEDIMIENTOS ESPECTRALES",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.3",
+      "title": "PROCEDIMIENTOS CRONOLÓGICOS",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4",
+      "title": "ANÁLISIS DINÁMICO ELÁSTICO ESPECTRAL",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.1",
+      "title": "METODOLOGÍA DEL ANÁLISIS",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.2",
+      "title": "NUMERO DE MODOS DE VIBRACIÓN",
+      "content": "A-69"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.3",
+      "title": "CALCULO DEL CORTANTE MODAL EN LA BASE",
+      "content": "A-70"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.4",
+      "title": "COMBINACIÓN DE LOS MODOS",
+      "content": "A-70"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.5",
+      "title": "AJUSTE DE LOS RESULTADOS",
+      "content": "A-70"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.6",
+      "title": "EFECTOS DIRECCIONALES",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.7",
+      "title": "TORSIÓN",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.8",
+      "title": "SISTEMAS DUALES",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5",
+      "title": "MÉTODO DE ANÁLISIS DINÁMICO CRONOLÓGICO",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.1",
+      "title": "GENERALIDADES",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.2",
+      "title": "RESPUESTA MÁXIMA",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.3",
+      "title": "AJUSTE DE LOS RESULTADOS",
+      "content": "A-71"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.4",
+      "title": "FUERZAS DE DISEÑO EN LOS ELEMENTOS",
+      "content": "A-72"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.5",
+      "title": "FUERZAS DE DISEÑO EN LA CIMENTACIÓN",
+      "content": "A-72"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.6",
+      "title": "REQUISITOS DE LA DERIVA.",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.0",
+      "title": "NOMENCLATURA",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1",
+      "title": "GENERAL",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.1",
+      "title": "ALCANCE",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.2",
+      "title": "DEFINICIÓN DE DERIVA",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.3",
+      "title": "NECESIDAD DE CONTROLAR LA DERIVA",
+      "content": "A-73"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2",
+      "title": "CALCULO DEL DESPLAZAMIENTO HORIZONTAL....",
+      "content": "A-74"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.1",
+      "title": "DESPLAZAMIENTOS HORIZONTALES EN EL CENTRO DE LA MASA DEL PISO",
+      "content": "A-74"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.2",
+      "title": "DESPLAZAMIENTOS HORIZONTALES CAUSADOS POR EFECTOS TORSIONALES",
+      "content": "A-74"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.3",
+      "title": "DESPLAZAMIENTOS HORIZONTALES CAUSADOS POR EFECTOS P-DELTA.",
+      "content": "A-74"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.4",
+      "title": "DESPLAZAMIENTOS HORIZONTALES TOTALES",
+      "content": "A-75"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3",
+      "title": "EVALUACIÓN DE LA DERIVA MÁXIMA",
+      "content": "A-75"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1",
+      "title": "DERIVA MÁXIMA",
+      "content": "A-75"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4",
+      "title": "LIMITES DE LA DERIVA.",
+      "content": "A-76"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.6.4-1",
+      "title": "Derivas máximas como porcentaje hpi.",
+      "content": "A-76"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5",
+      "title": "SEPARACIÓN ENTRE ESTRUCTURAS ADYACENTES POR CONSIDERACIONES SÍSMICAS",
+      "content": "A-77"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.1",
+      "title": "DENTRO DE LA MISMA CONSTRUCCIÓN",
+      "content": "A-77"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2",
+      "title": "ENTRE EDIFICACIONES VECINAS QUE NO HAGAN PARTE DE LA MISMA CONSTRUCCIÓN.",
+      "content": "A-77"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.1",
+      "title": "Alcance",
+      "content": "A-77"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.2",
+      "title": "Definiciones",
+      "content": "A-77"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.3",
+      "title": "Requisitos de separación sísmica con respecto al paramento del lote para edificaciones nuevas",
+      "content": "A-77"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.6.5-1",
+      "title": "Separación sísmica mínima en la cubierta entre edificaciones colindantes que no hagan parte de la Misma construcción...",
+      "content": "A-79"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.7",
+      "title": "INTERACCIÓN SUELO-ESTRUCTURA.",
+      "content": "A-81"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1",
+      "title": "GENERAL",
+      "content": "A-81"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.1",
+      "title": "DEFINICIÓN",
+      "content": "A-81"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.2",
+      "title": "EFECTOS ASOCIADOS CON LA INTERACCIÓN SUELO-ESTRUCTURA",
+      "content": "A-81"
+    }
+  ],
+  "references": [
+    "Tabla A.3-4",
+    "Tabla A.3-5",
+    "Tabla A.3-6",
+    "Tabla A.3-7",
+    "Tabla A.4.2-1",
+    "Tabla A.6.4-1",
+    "Tabla A.6.5-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

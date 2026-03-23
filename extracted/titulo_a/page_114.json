@@ -1,0 +1,60 @@
+{
+  "page_number": 114,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.10.3-1",
+      "title": "Mapa de valores de Ae",
+      "content": "Mapa de Colombia dividido en regiones con diferentes valores de Ae. Contiene ciudades como Riohacha, Barranquilla, Santa Marta, Cartagena, Valledupar, Sincelejo, Montería, Cúcuta, Bucaramanga, Arauca, Medellín, Tunja, Yopal, Quibdó, Manizales, Pereira, Armenia, Ibagué, Bogotá, Villavicencio, Cali, Neiva, Popayán, Florencia, Pasto, Mocoa, San José del Guaviare, Mitú, Puerto Carreño, Puerto Inírida, Leticia y San Andrés y Providencia"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.3-1 (implícito)",
+      "title": "Valores de Ae por región",
+      "table_headers": [
+        "Región",
+        "Ae"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "0.00 - 0.04"
+        ],
+        [
+          "2",
+          "0.05 - 0.08"
+        ],
+        [
+          "3",
+          "0.09 - 0.12"
+        ],
+        [
+          "4",
+          "0.13 - 0.16"
+        ],
+        [
+          "5",
+          "0.17 - 0.20"
+        ],
+        [
+          "6",
+          "0.21 - 0.24"
+        ],
+        [
+          "7",
+          "0.25 - 0.28"
+        ]
+      ]
+    },
+    {
+      "type": "NOTE",
+      "section_path": "Nota",
+      "content": "Las regiones representan rangos de valores. Debe consultarse el Apéndice A-4 para determinar el valor de Ae en cada municipio."
+    }
+  ],
+  "references": [
+    "A-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,235 @@
+{
+  "norm_code": "NSR-10",
+  "title": "Glosario de Términos NSR-10 Título A",
+  "terms": {
+    "Aa": {
+      "term": "Aa",
+      "definition": "Coeficiente que representa la aceleración horizontal pico efectiva para diseño",
+      "unit": "adimensional (fracción de g)",
+      "section": "A.2.2",
+      "related": ["Av", "Fa", "Fv", "zona_sismica"]
+    },
+    "Av": {
+      "term": "Av",
+      "definition": "Coeficiente que representa la velocidad horizontal pico efectiva para diseño",
+      "unit": "adimensional (fracción de g)",
+      "section": "A.2.2",
+      "related": ["Aa", "Fa", "Fv"]
+    },
+    "Fa": {
+      "term": "Fa",
+      "definition": "Coeficiente de amplificación que afecta la aceleración en la zona de periodos cortos, debido a los efectos de sitio",
+      "unit": "adimensional",
+      "section": "A.2.4",
+      "table": "A.2.4-3",
+      "related": ["Aa", "perfil_suelo"]
+    },
+    "Fv": {
+      "term": "Fv",
+      "definition": "Coeficiente de amplificación que afecta la aceleración en la zona de periodos intermedios, debido a los efectos de sitio",
+      "unit": "adimensional",
+      "section": "A.2.4",
+      "table": "A.2.4-4",
+      "related": ["Av", "perfil_suelo"]
+    },
+    "I": {
+      "term": "I",
+      "definition": "Coeficiente de importancia de la edificación según su grupo de uso",
+      "unit": "adimensional",
+      "section": "A.2.5",
+      "table": "A.2.5-1",
+      "values": {"Grupo I": 1.0, "Grupo II": 1.0, "Grupo III": 1.25, "Grupo IV": 1.50}
+    },
+    "T": {
+      "term": "T",
+      "definition": "Periodo fundamental de vibración de la edificación",
+      "unit": "s",
+      "section": "A.4.2"
+    },
+    "Ta": {
+      "term": "Ta",
+      "definition": "Periodo aproximado de vibración calculado con fórmulas empíricas",
+      "unit": "s",
+      "section": "A.4.2.1",
+      "formula": "Ta = Ct × h^α"
+    },
+    "T0": {
+      "term": "T0",
+      "definition": "Periodo de vibración al cual inicia la zona de aceleraciones constantes del espectro (inicio de la meseta)",
+      "unit": "s",
+      "section": "A.2.6",
+      "formula": "T0 = 0.1 × (Av×Fv)/(Aa×Fa)"
+    },
+    "TC": {
+      "term": "TC",
+      "definition": "Periodo de vibración correspondiente a la transición entre la zona de aceleración constante (meseta) y la de velocidad constante (rama descendente)",
+      "unit": "s",
+      "section": "A.2.6",
+      "formula": "TC = 0.48 × (Av×Fv)/(Aa×Fa)"
+    },
+    "TL": {
+      "term": "TL",
+      "definition": "Periodo de vibración correspondiente al inicio de la zona de desplazamiento aproximadamente constante",
+      "unit": "s",
+      "section": "A.2.6",
+      "formula": "TL = 2.4 × Fv"
+    },
+    "Cu": {
+      "term": "Cu",
+      "definition": "Coeficiente para calcular el límite superior del periodo fundamental. Depende de la zona sísmica.",
+      "unit": "adimensional",
+      "section": "A.4.2.1",
+      "table": "A.4.2-1",
+      "values": {"Alta": 1.2, "Intermedia": 1.3, "Baja": 1.4}
+    },
+    "Sa": {
+      "term": "Sa",
+      "definition": "Aceleración espectral de diseño expresada como fracción de la gravedad. Varía con el periodo T.",
+      "unit": "adimensional (fracción de g)",
+      "section": "A.2.6"
+    },
+    "R": {
+      "term": "R",
+      "definition": "Coeficiente de capacidad de disipación de energía en el rango inelástico. Depende del sistema estructural y sus irregularidades.",
+      "unit": "adimensional",
+      "section": "A.3.3",
+      "table": "A.3-1",
+      "formula": "R = R0 × φa × φp × φr"
+    },
+    "R0": {
+      "term": "R0",
+      "definition": "Coeficiente de capacidad de disipación de energía básico para el sistema estructural de resistencia sísmica",
+      "unit": "adimensional",
+      "section": "A.3.3",
+      "table": "A.3-3"
+    },
+    "Ω0": {
+      "term": "Ω0",
+      "definition": "Coeficiente de sobrerresistencia del sistema estructural",
+      "unit": "adimensional",
+      "section": "A.3.6",
+      "table": "A.3-3"
+    },
+    "Cd": {
+      "term": "Cd",
+      "definition": "Coeficiente de amplificación de deflexiones para calcular derivas inelásticas a partir de las elásticas",
+      "unit": "adimensional",
+      "section": "A.6.3",
+      "table": "A.3-3"
+    },
+    "Δ": {
+      "term": "Δ (Delta)",
+      "definition": "Deriva o desplazamiento horizontal relativo entre dos pisos consecutivos",
+      "unit": "m o mm",
+      "section": "A.6.3",
+      "related": ["Δmax", "hpi"]
+    },
+    "Δmax": {
+      "term": "Δmax",
+      "definition": "Deriva máxima permitida como porcentaje de la altura del piso. Varía según el sistema estructural.",
+      "unit": "porcentaje de hpi",
+      "section": "A.6.4.1",
+      "table": "A.6.4-1",
+      "values": {
+        "Concreto/Acero/Madera": "1.0%",
+        "Mampostería reforzada (flexión)": "1.0%",
+        "Mampostería (cortante)": "0.5%"
+      }
+    },
+    "hpi": {
+      "term": "hpi",
+      "definition": "Altura del piso i, medida desde la parte superior de un piso hasta la parte superior del siguiente",
+      "unit": "m",
+      "section": "A.6.4"
+    },
+    "Vs": {
+      "term": "Vs",
+      "definition": "Cortante sísmico en la base de la estructura",
+      "unit": "kN",
+      "section": "A.4.3",
+      "formula": "Vs = Sa × g × M"
+    },
+    "k": {
+      "term": "k",
+      "definition": "Exponente relacionado con el periodo de la estructura para la distribución vertical de fuerzas sísmicas",
+      "unit": "adimensional",
+      "section": "A.4.3",
+      "values": {"T ≤ 0.5s": 1.0, "T ≥ 2.5s": 2.0, "intermedio": "0.75 + 0.5×T"}
+    },
+    "Ct": {
+      "term": "Ct",
+      "definition": "Coeficiente para el cálculo del periodo aproximado según el sistema estructural",
+      "unit": "adimensional",
+      "section": "A.4.2.1",
+      "table": "A.4.2-1",
+      "values": {
+        "Pórtico concreto": 0.047,
+        "Pórtico acero": 0.072,
+        "Pórtico acero arriostrado": 0.073,
+        "Muros de concreto": 0.049,
+        "Otros sistemas": 0.049
+      }
+    },
+    "α": {
+      "term": "α (alpha)",
+      "definition": "Exponente para el cálculo del periodo aproximado según el sistema estructural",
+      "unit": "adimensional",
+      "section": "A.4.2.1",
+      "values": {
+        "Pórtico concreto": 0.90,
+        "Pórtico acero": 0.80,
+        "Pórtico arriostrado": 0.75,
+        "Muros/otros": 0.75
+      }
+    },
+    "φa": {
+      "term": "φa",
+      "definition": "Coeficiente de reducción de R por irregularidades en altura",
+      "unit": "adimensional",
+      "section": "A.3.3.4",
+      "table": "A.3-6",
+      "values": {"Sin irregularidad": 1.0, "Tipo 1": 0.9, "Tipo 2-5": 0.9}
+    },
+    "φp": {
+      "term": "φp",
+      "definition": "Coeficiente de reducción de R por irregularidades en planta",
+      "unit": "adimensional",
+      "section": "A.3.3.5",
+      "table": "A.3-7",
+      "values": {"Sin irregularidad": 1.0, "Tipo 1-5": 0.9}
+    },
+    "φr": {
+      "term": "φr",
+      "definition": "Coeficiente de reducción de R por ausencia de redundancia estructural",
+      "unit": "adimensional",
+      "section": "A.3.3.8",
+      "values": {"Con redundancia": 1.0, "Sin redundancia": 0.75}
+    },
+    "perfil_suelo": {
+      "term": "Perfil de suelo",
+      "definition": "Clasificación del suelo basada en las propiedades de los 30 metros superiores del perfil",
+      "unit": "letra A-F",
+      "section": "A.2.4.1",
+      "table": "A.2.4-1",
+      "values": {
+        "A": "Roca competente (Vs > 1500 m/s)",
+        "B": "Roca de rigidez media (760 < Vs ≤ 1500 m/s)",
+        "C": "Suelos muy densos o roca blanda (360 < Vs ≤ 760 m/s)",
+        "D": "Suelos rígidos (180 < Vs ≤ 360 m/s)",
+        "E": "Suelos blandos (Vs < 180 m/s)",
+        "F": "Suelos especiales (requiere estudio específico)"
+      }
+    },
+    "zona_sismica": {
+      "term": "Zona de amenaza sísmica",
+      "definition": "Clasificación geográfica de la amenaza sísmica en Colombia",
+      "unit": "categoría",
+      "section": "A.2.3",
+      "values": {
+        "Alta": "Aa ≥ 0.20",
+        "Intermedia": "0.10 ≤ Aa < 0.20",
+        "Baja": "Aa < 0.10"
+      }
+    }
+  }
+}

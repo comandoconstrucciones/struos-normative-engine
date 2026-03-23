@@ -1,0 +1,54 @@
+{
+  "page_number": 52,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3",
+      "title": "Capítulo A.3 - Requisitos generales de diseño sismo resistente",
+      "content": "(a) Los tipos de sistemas estructurales de resistencia sísmica, y los diferentes métodos de análisis, los cuales dependen del grado de irregularidad del sistema estructural y, además, permiten determinar el cortante sísmico en la base y su distribución en la altura de la edificación.\n(b) Determinadas las fuerzas sísmicas correspondientes a cada nivel, se aplican al sistema estructural de resistencia sísmica escogido.\n(c) Por medio de un modelo matemático apropiado se determinan las deflexiones de la estructura y las fuerzas internas en cada elemento del sistema estructural producidas por las fuerzas sísmicas.\n(d) La verificación de derivas se realiza para las deflexiones horizontales de la estructura obtenidas del análisis.\n(e) Se efectúa el diseño de los elementos y sus conexiones utilizando todas las solicitaciones requeridas por el Título B del Reglamento, debidamente combinadas según se exige allí. Las fuerzas sísmicas obtenidas del análisis Fs, se reducen, dividiéndolas por el coeficiente de capacidad de disipación de energía, R, correspondiente al sistema estructural de resistencia sísmica, para obtener las fuerzas sísmicas reducidas de diseño (E = Fs/R) que se emplean en las combinaciones de carga prescritas en el Título B.\n(f) El valor del coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, R0, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = ΦαφpφrR0).\n(g) Los elementos frágiles de conexión entre elementos y otros que de acuerdo con los requisitos de los materiales estructurales que los constituyen requieran el uso del coeficiente de sobrerresistencia Ω, se diseñan utilizando las fuerzas sísmicas de diseño E obtenidas de la ecuación A.3.3-2.\n(h) El diseño de los elementos estructurales y sus conexiones se realiza cumpliendo los requisitos exigidos para el grado de capacidad de disipación de energía requerido del material.\n(i) Estas fuerzas de diseño de los elementos estructurales obtenidas siguiendo el procedimiento anotado, son fuerzas al nivel de resistencia, o sea que corresponden a fuerzas mayoradas que ya han sido multiplicadas por sus coeficientes de carga. Para elementos que se diseñan utilizando el método de esfuerzos de trabajo, debe consultarse A.3.1.8."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.2",
+      "title": "CARACTERÍSTICAS DE LA ESTRUCTURACIÓN",
+      "content": "El sistema de resistencia sísmica de la edificación debe clasificarse dentro de uno de los sistema estructurales dados en A.3.2 y debe cumplir los requisitos indicados en el presente Título A del Reglamento y los propios del material estructural que se indiquen en el Título correspondiente y para el grado de disipación de energía en el rango inelástico apropiado. Los efectos sísmicos sobre los elementos estructurales que no hacen parte del sistema de resistencia sísmica deben evaluarse siguiendo los requisitos del Capítulo A.8. Los efectos sísmicos sobre los elementos no estructurales deben evaluarse siguiendo los requisitos del Capítulo A.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.3",
+      "title": "CAPACIDAD DE DISIPACIÓN DE ENERGÍA MÍNIMA REQUERIDA",
+      "content": "Dependiendo del tipo de material estructural y de las características del sistema de resistencia sísmica se establecen los grados de capacidad de disipación de energía mínimos (DES, DMO, o DMI) que debe cumplir el material estructural en las diferentes zonas de amenaza sísmica definidas en el Capítulo A.2. Véanse las tablas A.3-1 a A.3-4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.4",
+      "title": "RESISTENCIA SÍSMICA EN LAS DIFERENTES DIRECCIONES HORIZONTALES",
+      "content": "Dado que los efectos sísmicos pueden ser preponderantes en cualquier dirección horizontal, la estructura debe tener resistencia sísmica en todas las direcciones y por lo tanto el sistema estructural de resistencia sísmica debe existir en dos direcciones ortogonales o aproximadamente ortogonales, de tal manera que se garantice la estabilidad, tanto de la estructura considerada como un todo, como de cada uno de sus elementos, ante movimientos sísmicos que puedan ocurrir en cualquier dirección horizontal."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.5",
+      "title": "TRAYECTORIA DE LAS FUERZAS",
+      "content": "Las fuerzas deben transferirse desde su punto de aplicación hasta su punto final de resistencia. Por lo tanto debe proveerse una trayectoria o trayectorias continuas, con suficiente resistencia y rigidez para garantizar el adecuado traspaso de las fuerzas. La cimentación debe diseñarse para los efectos de las fuerzas y movimientos sísmicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.6",
+      "title": "SISTEMAS DE RESISTENCIA SÍSMICA ISOSTÁTICOS",
+      "content": "En lo posible el sistema estructural de resistencia sísmica debe ser hiperestático. En el diseño de edificaciones donde el sistema de resistencia sísmica no sea hiperestático, debe tenerse en cuenta el efecto adverso que implicaría la falla de uno de los miembros o conexiones en la estabilidad de la edificación."
+    }
+  ],
+  "references": [
+    "Título B",
+    "A.3.3-2",
+    "A.3.1.8",
+    "A.3.2",
+    "Capítulo A.8",
+    "Capítulo A.9",
+    "Capítulo A.2",
+    "A.3-1",
+    "A.3-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

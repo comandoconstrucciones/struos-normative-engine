@@ -1,0 +1,144 @@
+{
+  "page_number": 35,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "title": "Capítulo A.2 - Zonas de amenaza sísmica y movimientos sísmicos de diseño",
+      "content": "NSR-10"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "criterios para clasificar perfil de suelos tipo C, D o E. Los tres criterios se aplican así:\n(a)  vs en los 30 m superiores del perfil,\n(b) N en los 30 m superiores del perfil, o\n(c) Nch para los estratos de suelos existentes en los 30 m superiores que se clasifican como no\ncohesivos cuando IP <20, o el promedio ponderado su en los estratos de suelos cohesivos\nexistentes en los 30 m superiores del perfil, que tienen IP>20, lo que indique un perfil más\nblando."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-2",
+      "title": "Criterios para clasificar suelos dentro de los perfiles de suelo tipos C, D o E",
+      "table_headers": [
+        "Tipo de perfil",
+        "Vs",
+        "NoNch",
+        "Su"
+      ],
+      "table_rows": [
+        [
+          "C",
+          "entre 360 y 760 m/s",
+          "mayor que 50",
+          "mayor que 100 kPa (≈ 1 kgf/cm²)"
+        ],
+        [
+          "D",
+          "entre 180 y 360 m/s",
+          "entre 15 y 50",
+          "entre 100 y 50 kPa (0.5 a 1 kgf/cm²)"
+        ],
+        [
+          "E",
+          "menor de 180 m/s",
+          "menor de 15",
+          "menor de 50 kPa (≈0.5 kgf/cm²)"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.4",
+      "title": "Velocidad de la onda de cortante en roca",
+      "content": "La roca competente del perfil tipo A, debe\ndefinirse por medio de mediciones de velocidad de la onda de cortante en el sitio, o en perfiles de la misma\nformación donde haya meteorización y fracturación similares. En aquellos casos en que sabe que las\ncondiciones de la roca son continuas hasta una profundidad de al menos 30 m, la velocidad de onda de\ncortante superficial puede emplearse para definir vs. La velocidad de la onda de cortante en roca, para el\nperfil Tipo B, debe medirse en el sitio o estimarse, por parte del ingeniero geotecnista para roca competente\ncon meteorización y fracturación moderada. Para las rocas más blandas, o muy meteorizadas o fracturadas,\ndeben medirse en el sitio la velocidad de la onda de cortante, o bien clasificarse como perfil tipo C. Los\nperfiles donde existan más de 3 m de suelo entre la superficie de la roca y la parte inferior de la fundación, no\npueden clasificarse como perfiles tipo A o B."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.5",
+      "title": null,
+      "content": "En la tabla A.2.4-3 se dan los valores del coeficiente Fa que amplifica las ordenadas del espectro\nen roca para tener en cuenta los efectos de sitio en el rango de períodos cortos del orden de To, como\nmuestra la figura A.2.4-1. Para valores intermedios de Aa se permite interpolar linealmente entre valores del\nmismo tipo de perfil."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-3",
+      "title": "Valores del coeficiente Fa, para la zona de periodos cortos del espectro",
+      "table_headers": [
+        "Tipo de\nPerfil",
+        "Aa ≤0.1",
+        "A = 0.2",
+        "A2 = 0.3",
+        "A2 = 0.4",
+        "Aa ≥ 0.5"
+      ],
+      "table_rows": [
+        [
+          "A",
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8"
+        ],
+        [
+          "B",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ],
+        [
+          "C",
+          "1.2",
+          "1.2",
+          "1.1",
+          "1.0",
+          "1.0"
+        ],
+        [
+          "D",
+          "1.6",
+          "1.4",
+          "1.2",
+          "1.1",
+          "1.0"
+        ],
+        [
+          "E",
+          "2.5",
+          "1.7",
+          "1.2",
+          "0.9",
+          "0.9"
+        ],
+        [
+          "F",
+          "véase nota",
+          "véase nota",
+          "véase nota",
+          "Véase nota",
+          "véase nota"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Nota: Para el perfil tipo F debe realizarse una investigación geotécnica particular para el\nlugar específico y debe llevarse a cabo un análisis de amplificación de onda de acuerdo con\nA.2.10."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.6",
+      "title": null,
+      "content": "En la tabla A.2.4-4 se dan los valores del coeficiente F, que amplifica las ordenadas del\nespectro en roca para tener en cuenta los efectos de sitio en el rango de períodos intermedios del orden de 1\ns. Estos coeficientes se presentan también en la figura A.2.4-2. Para valores intermedios de A se permite\ninterpolar linealmente entre valores del mismo tipo de perfil."
+    }
+  ],
+  "references": [
+    "A.2.4-3",
+    "A.2.4-1",
+    "A.2.10",
+    "A.2.4-4",
+    "A.2.4-2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

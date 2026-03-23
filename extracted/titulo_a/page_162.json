@@ -1,0 +1,75 @@
+{
+  "page_number": 162,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.2",
+      "title": "Análisis",
+      "content": "La estructura se debe analizar para la aplicación de las acciones sísmicas ocurriendo simultáneamente con los efectos de carga muerta combinadas con no menos del 25 por ciento de las cargas vivas requeridas por el diseño, reducidas como se permita para el área de un piso individual. Las fuerzas laterales se deben aplicar al centro de la masa de cada nivel y deben ser proporcionales a la distribución obtenida de un análisis modal para el modo fundamental de respuesta en la dirección que se está considerando. Las cargas laterales se deben incrementar de manera monotónica.\n\nAl incremento j de la carga lateral, el total de la fuerza lateral aplicada al modelo se debe caracterizar por el término Vj. Los aumentos de la fuerza lateral se deben realizar en incrementos que sean lo suficientemente pequeños para permitir detectar cambios significativos en el comportamiento de los componentes individuales (tales como fluencia, pandeo o falla). El primer incremento en la carga lateral debe producir un comportamiento elástico. En cada paso del análisis se debe registrar el total de la fuerza lateral aplicada Vj, el desplazamiento lateral del punto de control 8j y las fuerzas y deformaciones de cada componente. El análisis se debe continuar hasta que el desplazamiento del punto de control sea por lo menos 150% del desplazamiento objetivo determinado de acuerdo con la Sección A-3.2.5. La estructura se debe diseñar para que el total de la fuerza lateral aplicada no disminuya en ningún paso del análisis para los desplazamientos del punto de control en un valor menor o igual al 125% del desplazamiento objetivo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.3",
+      "title": "Resistencia efectiva a la fluencia y periodo efectivo",
+      "content": "Se debe ajustar una curva bilineal a la curva de capacidad, de tal manera que el primer segmento de la curva bilineal coincida con la curva de capacidad al 60% de la capacidad efectiva a la fluencia; el segundo segmento debe coincidir con la curva de capacidad en el desplazamiento objetivo y el área bajo la curva bilineal debe ser igual al área bajo la curva de capacidad entre el origen y el desplazamiento objetivo. La resistencia efectiva a la fluencia Vy, corresponde al total de la fuerza lateral aplicada en la intersección de los dos segmentos. El desplazamiento efectivo de fluencia dy, corresponde al desplazamiento del punto de control en la intersección de los dos segmentos de línea."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.2-1",
+      "formula_latex": "T_e = T_i \\sqrt{\\frac{V_1 / \\delta_1}{V_y / \\delta_y}}",
+      "formula_python": "Te = Ti * ( (V1 / delta1) / (Vy / deltay) )**0.5",
+      "formula_variables": {
+        "Ti": "Periodo",
+        "V1": "Fuerza",
+        "delta1": "Desplazamiento",
+        "Vy": "Resistencia a la fluencia",
+        "deltay": "Desplazamiento efectivo de fluencia",
+        "Te": "Periodo efectivo fundamental"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Donde: V₁, δι, y Ti se determinan para el primer incremento de la carga lateral."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.4",
+      "title": "Vector característico de forma",
+      "content": "El vector característico de forma debe ser igual a la forma del primer modo de la estructura en la dirección que se está considerando, determinada por medio de un análisis modal de la estructura con las propiedades del primer incremento de la carga lateral, y normalizado para tener una amplitud unitaria en el nivel del punto de control. Se permite sustituir la forma deflectada de la estructura en el incremento en el que el desplazamiento del punto de control sea igual al desplazamiento efectivo de fluencia en lugar de la forma del modo, para determinar el vector de forma."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.5",
+      "title": "Desplazamiento Objetivo",
+      "content": "El desplazamiento objetivo del punto de control 8T, se debe determinar utilizando la ecuación A-3.2-2 de la siguiente manera:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.2-2",
+      "formula_latex": "\\delta_T = C_0 C_1 S_a \\left(\\frac{T_e}{2\\pi}\\right)^2 g",
+      "formula_python": "deltaT = C0 * C1 * Sa * (Te / (2 * pi))**2 * g",
+      "formula_variables": {
+        "C0": "Coeficiente",
+        "C1": "Coeficiente",
+        "Sa": "Aceleración espectral",
+        "Te": "Periodo efectivo fundamental",
+        "g": "Aceleración de gravedad",
+        "deltaT": "Desplazamiento objetivo"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Donde la aceleración espectral Sa, se determina como dice la Sección A.2.6 para el periodo fundamental efectivo Te, g es la aceleración de gravedad, y los coeficientes Co y C₁ se determinan de la siguiente manera:\nEl coeficiente Co se debe calcular utilizando la ecuación A-3.2-3 como:"
+    }
+  ],
+  "references": [
+    "A-3.2.5",
+    "A.2.6"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

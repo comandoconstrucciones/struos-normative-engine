@@ -1,0 +1,57 @@
+{
+  "page_number": 18,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Tabla A.1.3-1 (continuación) Procedimiento de diseño estructural para edificaciones nuevas y existentes",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Procedimiento de diseño estructural para edificaciones nuevas y existentes",
+      "table_headers": [
+        "Diseño de edificaciones nuevas",
+        "Intervención de edificaciones existentes"
+      ],
+      "table_rows": [
+        [
+          "Paso 10 – Verificación de derivas\nComprobación de que las derivas de diseño obtenidas no excedan los límites dados en el Capítulo A.6. Si la estructura excede los límites de deriva, calculada incluyendo los efectos torsionales de toda la estructura, es obligatorio rigidizarla, llevando a cabo nuevamente los pasos 8, 9 y 10, hasta cuando cumpla la comprobación de derivas.",
+          "Se debe cumplir lo indicado en la etapa 10 de A.10.1.4."
+        ],
+        [
+          "Paso 11 – Combinación de las diferentes solicitaciones\nLas diferentes solicitaciones que deben ser tenidas en cuenta, se combinan para obtener las fuerzas internas de diseño de la estructura, de acuerdo con los requisitos del Capítulo B.2 del Reglamento, por el método de diseño propio de cada material estructural. En cada una de las combinaciones de carga requeridas, las solicitaciones se multiplican por el coeficiente de carga prescrito para esa combinación en el Capítulo B.2 del Reglamento. En los efectos causados por el sismo de diseño se tiene en cuenta la capacidad de disipación de energía del sistema estructural, lo cual se logra empleando unos efectos sísmicos reducidos de diseño, E, obtenidos dividiendo las fuerzas sísmicas Fs, determinadas en el paso 7, por el coeficiente de capacidad de disipación de energía R (E=Fs/R). El coeficiente de capacidad de disipación de energía, R, es función de:\n(a) El sistema de resistencia sísmica de acuerdo con la clasificación dada en el Capítulo A.3,\n(b) Del grado de irregularidad de la edificación,\n(c) Del grado de redundancia o de ausencia de ella en el sistema estructural de resistencia sísmica, y\n(d) De los requisitos de diseño y detallado de cada material, para el grado de capacidad de disipación de energía correspondiente (DMI, DMO, o DES), tal como se especifica en el Capítulo A.3.",
+          "Se debe cumplir lo indicado en las etapas 6 a 8 de A.10.1.4."
+        ],
+        [
+          "Paso 12 – Diseño de los elementos estructurales\nSe lleva a cabo de acuerdo con los requisitos propios del sistema de resistencia sísmica y del material estructural utilizado. Los elementos estructurales deben diseñarse y detallarse de acuerdo con los requisitos propios del grado de capacidad de disipación de energía mínimo (DMI) moderado (DMO), o especial (DES) prescrito en el Capítulo A.3, según les corresponda, lo cual le permitirá a la estructura responder, ante la ocurrencia de un sismo, en el rango inelástico de respuesta y cumplir con los objetivos de las normas sismo resistentes. El diseño de los elementos estructurales debe realizarse para los valores más desfavorables obtenidos de las combinaciones obtenidas en el paso 11, tal como prescribe el Título B de este Reglamento.",
+          "Se debe cumplir lo indicado en las etapas 8, 11 y 12 de A.10.1.4 donde se indica como interpretar la resistencia efectiva de la edificación a la luz de las solicitaciones equivalentes y como se define la resistencia a proveer para reducir la vulnerabilidad de la edificación, cuando es vulnerable, para diseñar la intervención de la edificación."
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.5",
+      "title": "A.1.3.5 - DISEÑO DE LA CIMENTACIÓN",
+      "content": "Los efectos de las diferentes solicitaciones, incluyendo los efectos de los movimientos sísmicos de diseño sobre los elementos de la cimentación y el suelo de soporte se obtienen así:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.5 (a)",
+      "title": "",
+      "content": "(a) Para efectos del diseño estructural de los elementos que componen la cimentación, se emplean los resultados de las combinaciones realizadas en el paso 11 de A.1.3.4, empleando las cargas apropiadas y las fuerzas sísmicas reducidas de diseño, E, a partir de las reacciones de la estructura sobre estos elementos, tomando en cuenta la capacidad de la estructura. En el diseño de los elementos de cimentación deben seguirse los requisitos propios del material estructural y del Título H de este"
+    }
+  ],
+  "references": [
+    "A.6",
+    "A.10.1.4",
+    "B.2",
+    "A.3",
+    "Título B",
+    "A.1.3.4",
+    "Título H"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": true
+}

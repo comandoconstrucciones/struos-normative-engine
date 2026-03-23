@@ -1,0 +1,113 @@
+{
+  "page_number": 33,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10",
+      "title": "Capítulo A.2 - Zonas de amenaza sísmica y movimientos sísmicos de diseño",
+      "content": null
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "\\sum_{i=1}^{n} d_i = 30 \\text{ m siempre}",
+      "formula_python": "sum(di for i in range(1,n+1)) = 30",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.2",
+      "title": "Número medio de golpes del ensayo de penetración estándar",
+      "content": "El número medio de golpes del ensayo de penetración estándar se obtiene por medio de los dos procedimientos dados a continuación:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(a) Número medio de golpes del ensayo de penetración estándar en cualquier perfil de suelo",
+      "content": "El número medio de golpes del ensayo de penetración estándar en cualquier perfil de suelo, indistintamente que esté integrado por suelos no cohesivos o cohesivos, se obtiene por medio de:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.4-2",
+      "formula_latex": "\\bar{N} = \\frac{\\sum_{i=1}^{n} d_i}{\\sum_{i=1}^{n} N_i}",
+      "formula_python": "N_avg = sum(di for i in range(1, n+1)) / sum(Ni for i in range(1, n+1))",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "donde:",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Ni = número de golpes por píe obtenidos en el ensayo de penetración estándar, realizado in situ de acuerdo con la norma ASTM D 1586, haciendo corrección por energía N60, correspondiente al estrato i. El valor de Ni a emplear para obtener el valor medio, no debe exceder 100."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(b) Número medio de golpes del ensayo de penetración estándar en perfiles que contengan suelos no cohesivos",
+      "content": "En los estratos de suelos no cohesivos localizados en los 30 m superiores del perfil debe emplearse, la siguiente relación, la cual se aplica únicamente a los m estratos de suelos no cohesivos:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.4-3",
+      "formula_latex": "\\bar{N}_{ch} = \\frac{d_s}{\\sum_{i=1}^{m} N_i}",
+      "formula_python": "Nch_avg = ds / sum(Ni for i in range(1, m+1))",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "donde:",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "ds = es la suma de los espesores de los m estratos de suelos no cohesivos localizados dentro de los 30 m superiores del perfil."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.3",
+      "title": "Resistencia media al corte",
+      "content": "Para la resistencia al corte no drenada, s₁, obtenida de ensayos en los estratos de suelos cohesivos localizados en los 30 m superiores del perfil debe emplearse la siguiente relación, la cual se aplica únicamente a los k estratos de suelos cohesivos:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.4-4",
+      "formula_latex": "\\bar{s}_u = \\frac{d_c}{\\sum_{i=1}^{k} s_{ui}}",
+      "formula_python": "su_avg = dc / sum(sui for i in range(1, k+1))",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "donde:",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "dc = es la suma de los espesores de los k estratos de suelos cohesivos localizados dentro de los 30 m superiores del perfil.\nsui = es la resistencia al corte no drenado en kPa (kgf/cm²) del estrato i, la cual no debe exceder 250 kPa (2.5 kgf/cm²) para realizar el promedio ponderado. Esta resistencia se mide cumpliendo la norma NTC 1527 (ASTM D 2166) o la norma NTC 2041 (ASTM D 2850)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.4",
+      "title": "Índice de plasticidad",
+      "content": "En la clasificación de la los estratos de arcilla se emplea el Índice de Plasticidad (IP), el cual se obtiene cumpliendo la norma ASTM D 4318."
+    }
+  ],
+  "references": [
+    "ASTM D 1586",
+    "NTC 1527 (ASTM D 2166)",
+    "NTC 2041 (ASTM D 2850)",
+    "ASTM D 4318"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

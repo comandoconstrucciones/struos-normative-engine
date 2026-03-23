@@ -1,0 +1,77 @@
+{
+  "page_number": 125,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.11",
+      "title": "CAPÍTULO A.11 INSTRUMENTACIÓN SÍSMICA",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1",
+      "title": "A.11.1-GENERAL",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.1",
+      "title": "A.11.1.1 INSTRUMENTACIÓN",
+      "content": "En el presente Capítulo se indica cuándo deben colocarse instrumentos sísmicos en las edificaciones, en dónde deben localizarse y quién corre con los costos de los instrumentos, del espacio que éstos ocupen y del mantenimiento y vigilancia de los mismos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.2",
+      "title": "A.11.1.2 ACELERÓGRAFOS",
+      "content": "En la instrumentación sísmica de edificaciones deben emplearse acelerógrafos digitales de movimiento fuerte."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.2(a)",
+      "title": "(a) Objetivos de la instrumentación",
+      "content": "Dentro de los objetivos de este tipo de instrumentación se encuentra la recolección de registros que permitan, entre otros: la medición de los períodos de vibración de la edificación al verse sometida a movimientos sísmicos, la determinación del nivel de daño que ocurrió a la edificación debido a la ocurrencia de un sismo que la afecte, la identificación de efectos de sitio causados por la amplificación de las ondas sísmicas debida a los estratos de suelo subyacentes, el grado de atenuación que sufren las ondas sísmicas al viajar desde el lugar donde ocurre la liberación de energía hasta el sitio donde se encuentre localizada la edificación, y en general el mejoramiento sobre el conocimiento que se tiene a nivel nacional de los fenómenos sísmicos y sus efectos sobre las construcciones y los materiales de construcción nacionales. La valiosa información que se recolecta por medio de la instrumentación permitirá realizar ajustes a los requisitos del presente Reglamento en sus ediciones futuras; llevando, a una reducción de la vulnerabilidad sísmica de las edificaciones colombianas, y, muy seguramente, a una reducción de los costos de proveer seguridad sísmica a ellas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.2(b)",
+      "title": "(b) Aprobación del tipo de instrumento",
+      "content": "INGEOMINAS es la entidad gubernamental que opera la Red Nacional de Acelerógrafos y es la encargada de aprobar los tipos de instrumentos que se coloquen en las edificaciones que los requieran de acuerdo con los requisitos del presente Capítulo. EI INGEOMINAS mantendrá una lista de los tipos de instrumentos posibles de ser utilizados y las especificaciones mínimas de los mismos para ser colocados en edificaciones, tal como requiere el presente Capítulo. La Red Nacional de Acelerógrafos del INGEOMINAS y quien designe la autoridad municipal o distrital donde esté ubicada la edificación, deben recibir, sin costo alguno y por lo menos una vez al año, copia de los registros obtenidos, independientemente de quien sea el propietario del instrumento. Cuando el municipio o distrito donde se encuentra localizada la edificación haya, de acuerdo con A.2.9.3.7(d), desarrollado un plan de instalación, operación y mantenimiento de una red de acelerógrafos de movimientos fuertes, la entidad municipal o distrital que administre esta red podrá, si así lo desea, asumir las funciones que en esta misma sección se asignan al INGEOMINAS, a quien deberá informar sobre esta decisión."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3",
+      "title": "A.11.1.3 - LOCALIZACIÓN",
+      "content": "La definición de la localización de los instrumentos sísmicos acelerográficos dentro de las edificaciones es responsabilidad del Ingeniero que realice el diseño estructural del proyecto, atendiendo las recomendaciones dadas en la presente sección y en A.11.1.4. La localización de los instrumentos debe estar comprendida dentro uno de los siguientes tipos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3(a)",
+      "title": "(a) Instrumentación en la altura",
+      "content": "Se dispone un mínimo de tres instrumentos en la altura de la edificación, de tal manera que exista al menos uno en su base, uno aproximadamente a media altura de la edificación y uno en el nivel superior. En este caso el instrumento colocado en la base debe tener tres sensores triaxiales con dos componentes horizontales ortogonales y una componente vertical, y los otros dos instrumentos pueden tener solo dos sensores horizontales ortogonales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3(b)",
+      "title": "(b) Instrumento único en la edificación",
+      "content": "Cuando se coloca un solo instrumento en la edificación, éste debe localizarse en la base de la misma."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3(c)",
+      "title": "(c) Instrumento de campo abierto",
+      "content": "Se coloca un instrumento sobre el terreno, alejado de las edificaciones, por lo menos una distancia igual a su altura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3(d)",
+      "title": "(d) Arreglo de instrumentos",
+      "content": "Se dispone un conjunto de instrumentos que cubren las localizaciones anteriores. En este caso los instrumentos deben tener un dispositivo que inicie el registro de aceleraciones en todos ellos simultáneamente."
+    }
+  ],
+  "references": [
+    "A.2.9.3.7(d)",
+    "A.11.1.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

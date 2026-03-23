@@ -1,0 +1,50 @@
+{
+  "page_number": 73,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 1aP",
+      "title": "Irregularidad torsional",
+      "content": "Φρ = 0.9\n1.4 * ((Δ1 + Δ2)/2) >= Δ1 > 1.2 * ((Δ1 + Δ2)/2)"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 1bP",
+      "title": "Irregularidad torsional extrema",
+      "content": "Φρ = 0.8\nΔ1 > 1.4 * ((Δ1 + Δ2)/2)"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 2P",
+      "title": "Retrocesos en las esquinas",
+      "content": "Φρ = 0.9\nA > 0.15B y C > 0.15D"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 3P",
+      "title": "Irregularidad del diafragma",
+      "content": "Φρ = 0.9\n1) C x D > 0.5 A × B\n2) (C × D + C × E) > 0.5 A × B"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 4P",
+      "title": "Desplazamiento de los planos de Acción",
+      "content": "Φρ = 0.8"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 5P",
+      "title": "Sistemas no paralelos",
+      "content": "Φρ = 0.9\nSistemas no paralelos\nPLANTA"
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.3-1",
+      "title": "Irregularidades en planta",
+      "content": ""
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

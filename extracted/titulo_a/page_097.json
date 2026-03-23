@@ -1,0 +1,49 @@
+{
+  "page_number": 97,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.2.2",
+      "title": null,
+      "content": "Cuando el elemento estructural que no hace parte del sistema de resistencia sísmica, tiene apoyos que pueden desplazarse relativamente durante el sismo, como es el caso de elementos que están conectados a dos pisos diferentes de la edificación, deben tenerse en cuenta en el diseño, además de las fuerzas calculadas por medio de la ecuación A.8.2-2, las fuerzas que inducen los desplazamientos relativos entre sus apoyos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.3",
+      "title": "FUERZAS SOBRE LAS UNIONES AL SISTEMA DE RESISTENCIA SÍSMICA",
+      "content": "Además de los requisitos de A.3.6.4, las uniones, empalmes y amarres, de los elementos estructurales que no hacen parte del sistema de resistencia sísmica, deben ser capaces de resistir la totalidad de las fuerzas sísmicas reducidas de diseño sobre el elemento tal como las define A.8.2.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.3",
+      "title": "DEFORMACIONES DE DISEÑO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.3.1",
+      "title": null,
+      "content": "Los elementos estructurales que no hacen parte del sistema de resistencia sísmica deben ser capaces de resistir, sin deterioro, las deformaciones que les impone la respuesta sísmica de la estructura. Como mínimo deben ser capaces de resistir las deformaciones que se obtienen de las derivas máximas de diseño determinadas como se indica en el Capítulo A.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.4",
+      "title": "REQUISITOS DE DISEÑO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.4.1",
+      "title": null,
+      "content": "Los requisitos que deben seguirse en el diseño de los elementos estructurales que no hacen parte del sistema de resistencia sísmica para cada uno de los materiales cubiertos por el Reglamento, deben ser los que se indiquen en cada uno de los Títulos correspondientes dentro del Reglamento, y en su defecto, los del nivel de capacidad de disipación de energía menor de los dados para cada material."
+    }
+  ],
+  "references": [
+    "A.8.2-2",
+    "A.3.6.4",
+    "A.8.2.2",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,57 @@
+{
+  "page_number": 47,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.9-1",
+      "title": "Variación del coeficiente de disipación de energía R",
+      "content": "Gráfico del espectro de la Norma - Capítulo A.2 y gráfico del espectro de la microzonificación. También se muestra la variación de R para el espectro de la Norma del Capítulo A.2 y la variación de R para el espectro de la microzonificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.5",
+      "title": "ARMONIZACIÓN DE LOS ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA CON LA PRESENTE VERSIÓN DEL REGLAMENTO",
+      "content": "Los estudios de microzonificación sísmica aprobados por la autoridad competente antes de la expedición de la presente versión del Reglamento, deben armonizarse con respecto a los requisitos contenidos en la presente versión del Reglamento. Para el efecto, estas autoridades deben solicitar un concepto de la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes, creada por medio de la Ley 400 de 1997 y adscrita al Ministerio de Ambiente, Vivienda y Desarrollo Territorial, presentando una evaluación asociada con esta armonización indicando en que medida el estudio de microzonificación realizado en su oportunidad cubre el alcance descrito en A.2.9.3, e indicando, además, en que medida antes del estudio de amplificación de onda se tienen asociados espectros que cubran suficientemente lo requerido en el literal (d) del numeral A.2.9.3.4. En caso de no cumplirse con lo indicado en A.4.9.3.4(d) se deberá señalar cual es el efecto de las falencias que se tengan en el estudio disponible, así como un planteamiento de cómo superarlas en una segunda parte del proceso de armonización que en tal caso deberá realizarse.\n\nUna vez validada la armonización, la Comisión expedirá un concepto indicando que los resultados de esta modificación están en todo de acuerdo con lo contenido en la presente versión del Reglamento. En tanto se obtiene este concepto por parte de la Comisión es deseable que las autoridades municipales o distritales expidan una reglamentación de transición que permita solicitar y tramitar licencias de construcción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10",
+      "title": "ESTUDIOS SÍSMICOS PARTICULARES DE SITIO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.1",
+      "title": "PROPÓSITO",
+      "content": "Se prevén los siguientes casos de utilización de estudios sísmicos particulares de sitio cuyo alcance se define en A.2.10.2:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.2.10.1.1",
+      "title": null,
+      "content": "En todos los casos de perfil de suelo tipo F, según A.2.4, el ingeniero geotecnista responsable del estudio geotécnico de la edificación debe definir los efectos locales particulares para el lugar donde se encuentra localizada la edificación (véase la tabla A.2.10-1)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.1.2",
+      "title": null,
+      "content": "En edificaciones cuya altura, grupo de uso, tamaño, o características especiales lo ameriten a juicio del ingeniero geotecnista responsable, del diseñador estructural, o del propietario."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.1.3",
+      "title": null,
+      "content": "Cuando se considere que lo efectos de sitio descritos a través de los requisitos de A.2.4 o de un"
+    }
+  ],
+  "references": [
+    "A.2.9.3",
+    "A.2.9.3.4",
+    "A.4.9.3.4(d)",
+    "A.2.4",
+    "tabla A.2.10-1",
+    "A.2.4"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

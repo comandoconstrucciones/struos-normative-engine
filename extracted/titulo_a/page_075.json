@@ -1,0 +1,212 @@
+{
+  "page_number": 75,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.4",
+      "title": "CAPÍTULO A.4\nMÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE",
+      "content": "MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.0",
+      "title": "A.4.0 — NOMENCLATURA",
+      "content": "NOMENCLATURA"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "AB",
+      "definition": "= área de la edificación en su base, en m²."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Awi",
+      "definition": "= área mínima de cortante de la sección de un muro estructural i, medida en un plano horizontal, en el\nprimer nivel de la estructura y en la dirección en estudio, en m². Véase A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Av",
+      "definition": "= coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño, dado en A.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Ct",
+      "definition": "= coeficiente utilizado para calcular el período de la estructura, definido en A.4.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Cu",
+      "definition": "= coeficiente utilizado para calcular el período máximo permisible la estructura, definido en A.4.2.1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Cvx",
+      "definition": "= coeficiente definido en A.4.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "l wi",
+      "definition": "= longitud medida horizontalmente, en metros, de un muro estructural i en el primer nivel de la estructura y\nen la dirección en estudio. Véase A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Fi, Fx",
+      "definition": "= fuerzas sísmicas horizontales en los niveles i o x respectivamente. Véase A.4.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Fv",
+      "definition": "= coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los\nefectos de sitio, adimensional."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "f;",
+      "definition": "= fuerza sísmica horizontal en el nivel i para ser utilizada en la ecuación A.4.2-1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "g",
+      "definition": "= aceleración debida a la gravedad (9.8 m/s²)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "hi, hx",
+      "definition": "= altura en metros, medida desde la base, del nivel i o x. Véase A.4.3.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "hn",
+      "definition": "= altura en metros, medida desde la base, del piso más alto del edificio. Véase A.4.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "hp",
+      "definition": "= altura del piso medida desde la superficie del diafragma del piso hasta la superficie del diafragma del piso\ninmediatamente inferior."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "hwi",
+      "definition": "= altura del muro i medida desde la base, en m."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "I",
+      "definition": "= coeficiente de importancia dado en A.2.5.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "k",
+      "definition": "= exponente relacionado con el período fundamental de la edificación dado en A.4.3.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "M",
+      "definition": "= masa total de la edificación — M debe ser igual a la masa total de la estructura más la masa de aquellos\nelementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc.\nEn depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los\nelementos que causan la carga viva del piso. Capítulos A.4 y A.5 (en kg)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "mi, mx",
+      "definition": "= parte de M que está colocada en el nivel i o x respectivamente"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "N",
+      "definition": "= número de pisos de la edificación."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "nw",
+      "definition": "= número de muros de la edificación efectivos para resistir las fuerzas sísmicas horizontales en la dirección\nbajo estudio."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Sa",
+      "definition": "= valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración\nhorizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de\nun grado de libertad con un período de vibración T. Está definido en A.2.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "T",
+      "definition": "= período fundamental del edificio como se determina en A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Ta",
+      "definition": "= período de vibración fundamental aproximado. Véase A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "Vs",
+      "definition": "= cortante sísmico en la base, para las fuerzas sísmicas. Véase A.4.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "α",
+      "definition": "= exponente para ser utilizado en el cálculo del período aproximado Ta. Véase A.4.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.4.0",
+      "variable": "δi",
+      "definition": "= desplazamiento horizontal del nivel i con respecto a la base de la estructura, debido a las fuerzas\nhorizontales fi, para ser utilizado en la ecuación A.4.2-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.1",
+      "title": "A.4.1 — GENERAL",
+      "content": "GENERAL"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.1.1",
+      "title": "A.4.1.1",
+      "content": "- Los requisitos de este Capítulo controlan la obtención de las fuerzas sísmicas horizontales de la edificación\ny el análisis sísmico de la misma, de acuerdo con los requisitos dados en el Capítulo A.3 para la utilización del método\nde la fuerza horizontal equivalente."
+    }
+  ],
+  "references": [
+    "A.4.2",
+    "A.2.2",
+    "A.4.2.2",
+    "A.4.2.1",
+    "A.4.3",
+    "A.4.2-1",
+    "A.4.3.2",
+    "A.2.5.2",
+    "A.4.3.2",
+    "A.4",
+    "A.5",
+    "A.2.6",
+    "A.4.2",
+    "A.4.3",
+    "A.4.2.2",
+    "A.4.2-1",
+    "A.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

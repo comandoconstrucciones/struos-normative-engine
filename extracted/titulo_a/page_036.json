@@ -1,0 +1,84 @@
+{
+  "page_number": 36,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-4",
+      "title": "Valores del coeficiente Fᵥ, para la zona de períodos intermedios del espectro",
+      "table_headers": [
+        "Tipo de Perfil",
+        "Aᵥ ≤ 0.1",
+        "Aᵥ = 0.2",
+        "Aᵥ = 0.3",
+        "Aᵥ = 0.4",
+        "Aᵥ ≥ 0.5"
+      ],
+      "table_rows": [
+        [
+          "A",
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8",
+          "0.8"
+        ],
+        [
+          "B",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ],
+        [
+          "C",
+          "1.7",
+          "1.6",
+          "1.5",
+          "1.4",
+          "1.3"
+        ],
+        [
+          "D",
+          "2.4",
+          "2.0",
+          "1.8",
+          "1.6",
+          "1.5"
+        ],
+        [
+          "E",
+          "3.5",
+          "3.2",
+          "2.8",
+          "2.4",
+          "2.4"
+        ],
+        [
+          "F",
+          "véase nota",
+          "véase nota",
+          "véase nota",
+          "véase nota",
+          "véase nota"
+        ]
+      ]
+    },
+    {
+      "type": "NOTE",
+      "section_path": "Nota",
+      "content": "Para el perfil tipo F debe realizarse una investigación geotécnica particular para el lugar específico y debe llevarse a cabo un análisis de amplificación de onda de acuerdo con A.2.10."
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.4-1",
+      "title": "Coeficiente de amplificación Fa del suelo para la zona de períodos cortos del espectro",
+      "content": null
+    }
+  ],
+  "references": [
+    "A.2.10"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

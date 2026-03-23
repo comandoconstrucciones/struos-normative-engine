@@ -1,0 +1,252 @@
+[
+  {
+    "source": "titulo_d",
+    "target": "cap_D.1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.3",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.4",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.5",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.6",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.7",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.8",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.9",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.10",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.11",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "cap_D.12",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_reforzada",
+    "relation": "clasifica"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_cavidad",
+    "relation": "clasifica"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_parcial",
+    "relation": "clasifica"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_no_reforzada",
+    "relation": "clasifica"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_confinada",
+    "relation": "clasifica"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tipo_diafragma",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_mortero_h",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_mortero_m",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_mortero_s",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_mortero_n",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_relleno_fino",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "mat_relleno_grueso",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "unidad_arcilla",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "unidad_concreto",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "unidad_silico",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "unidad_maciza",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.3",
+    "target": "unidad_hueca",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "prop_fm",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "prop_fr",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "prop_vm",
+    "relation": "define"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "prop_em",
+    "relation": "define"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_3_4_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_3_5_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_3_6_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_3_7_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_4_2_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_4_2_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_4_6_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_5_4_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_5_8_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_5_8_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_5_8_3",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_10_3_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_d",
+    "target": "tabla_D_11_1_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "formula_Vm",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "formula_Pn",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "formula_Em_arcilla",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_D.5",
+    "target": "formula_Em_concreto",
+    "relation": "usa"
+  }
+]

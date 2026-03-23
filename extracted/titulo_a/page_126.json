@@ -1,0 +1,35 @@
+{
+  "page_number": 126,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3.1",
+      "title": null,
+      "content": "En todas las edificaciones donde se coloquen instrumentos sísmicos, se debe realizar un estudio geotécnico cuyo alcance permita definir las propiedades dinámicas del suelo en el sitio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3.2",
+      "title": null,
+      "content": "Las Curadurías o las entidades encargadas de expedir las licencias de construcción de acuerdo con lo requerido en la Ley 388 de 1997 y sus decretos reglamentarios se abstendrán de expedir la correspondiente licencia de construcción, incluyendo las de remodelaciones y reforzamientos futuros, cuando en los casos que se requiera instrumentación sísmica según el presente Reglamento no se hayan dispuesto en el proyecto arquitectónico los espacios a que hace referencia este Capítulo y no se haya consignado en el reglamento de propiedad horizontal de la edificación, cuando se trate de copropiedades, las obligaciones de la copropiedad respecto a la ubicación, suministro, mantenimiento y vigilancia del instrumento. La autoridad competente se abstendrá de expedir el certificado de permiso de ocupación al que se refiere el Artículo 46 del Decreto 564 de 2006 cuando no se haya instalado el instrumento o instrumentos que se requieren de acuerdo con lo dispuesto en el presente Capítulo del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.4",
+      "title": "CARACTERÍSTICAS DEL ESPACIO DONDE SE COLOCA EL INSTRUMENTO",
+      "content": "El espacio físico donde se coloca el instrumento debe tener al menos un área de dos metros cuadrados con una dimensión mínima en planta de un metro y una altura libre mínima de dos metros, debe estar alejado de las zonas alta circulación, de maquinarias y equipos que induzcan vibraciones. El espacio debe ser cerrado, pero con ventilación adecuada, y ser de un material adecuado para garantizar la seguridad del instrumento. Además se debe colocar dentro de él una toma eléctrica doble, un breaker de 15 amperios y una salida de iluminación eléctrica con interruptor. El piso debe ser de concreto y de un espesor suficiente para permitir el anclaje del instrumento (mínimo 15 cm). El espacio no puede ser utilizado para ningún otro fin diferente al de albergar el instrumento. Cuando se utilice un arreglo de instrumentos, los espacios que alberguen los diferentes instrumentos, deben disponer de una conexión entre ellos por medio de un tubo de PVC de diámetro mínimo de una pulgada (1\") para poder realizar las conexiones eléctricas entre instrumentos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.5",
+      "title": "COSTOS",
+      "content": "Los diferentes costos en que se incurre en la instrumentación de una edificación se distribuyen de la siguiente manera:\n(a) Costo de los instrumentos - Los instrumentos serán adquiridos por la persona, natural o jurídica, a cuyo nombre se expida la licencia de construcción de la edificación, quien además debe costear su instalación. EI INGEOMINAS se reserva el derecho de colocar instrumentos adicionales, a su costo, dentro de los espacios que se destinen para la instrumentación sísmica. La propiedad de los instrumentos será de quienes los adquieran. Independientemente de quien sea el propietario del instrumento, la Red Sismológica Nacional y quien designe la autoridad municipal o distrital donde esté ubicada la edificación, deben recibir copia, sin costo alguno, de los registros obtenidos por medio de los instrumentos.\n(b) Costo de los espacios donde se colocan los instrumentos - El costo del espacio o espacios donde se colocan los instrumentos será de cargo de los propietarios de la edificación. El propietario, ο propietarios, de la edificación darán libre acceso a estos espacios a los funcionarios del INGEOMINAS, ο a quienes ellos deleguen, para efectos de instalación, mantenimiento y retiro de los registros del instrumento. Cuando se trate de una copropiedad, en el reglamento de copropiedad deben incluirse cláusulas al respecto.\n(c) Costo del mantenimiento de los instrumentos - El costo de mantenimiento de los instrumentos correrá por cuenta del propietario o propietarios de la edificación. Esta obligación debe quedar incluida en el reglamento de copropiedad. Quien preste el mantenimiento debe ser aprobado por el INGEOMINAS. EI mantenimiento debe realizarse con la frecuencia que requiera el fabricante del instrumento; no obstante, ésta debe realizarse con una periodicidad no mayor de un año.\n(d) Costo de la vigilancia del instrumento Los costos de vigilancia de los instrumentos correrán por cuenta de los propietarios de la edificación donde se encuentren localizados, sean éstos de su propiedad o no. Los propietarios son responsables del instrumento para efectos de su seguridad, y deben adquirir y mantener una póliza de seguros, la cual debe cubrir el costo de reposición del instrumento en caso de hurto, substracción u otra eventualidad."
+    }
+  ],
+  "references": [
+    "Capítulo",
+    "Artículo 46 del Decreto 564 de 2006"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

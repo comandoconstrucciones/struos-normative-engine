@@ -1,0 +1,32 @@
+{
+  "page_number": 49,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.4",
+      "title": "Estudio de amplificación de onda y obtención de los movimientos sísmicos de diseño en superficie",
+      "content": "Con base en información obtenida y definida en los pasos anteriores, debe determinarse lo siguiente:\n(a) Análisis de la respuesta dinámica del subsuelo, empleando en principio la propagación ondulatoria unidimensional, bidimensional o tridimensional, pero soportada por los estudios geotécnicos anotados.\n(b) Definición de una curva promedio de transferencia de la señal sísmica por los estratos de suelo localizados entre roca y la superficie, la cual permita definir las variaciones, de amplificación o deamplificación, de las ondas sísmicas para los diferentes períodos de vibración de interés. El resultado de esta curva promedio de transferencia debe corresponder a las amplificaciones obtenidas para los diferentes acelerogramas, considerando, de ser el caso, las incertidumbres en las propiedades mecánicas de los depósitos de los suelos subyacentes a la edificación. Se utilizará la media de las respuestas calculadas para los diferentes acelerogramas y valores que representan la variación en las propiedades de los suelos. Dentro del estudio no se deben incluir aquellos estratos de suelo que se retiren debido a la construcción de sótanos en la edificación y debe incluir los estratos de suelo que realmente existan una vez construida la edificación.\n(c) Determinación, con base en los valores de amplificación promedio deducidos del espectro en superficie para el lugar de interés según A.2.10.2.2, el cual se empleará en el diseño considerando el conjunto de sus ordenadas espectrales.\n(d) La zona del espectro propuesto en superficie correspondiente a los valores del período fundamental de la edificación en las dos direcciones de análisis en planta tomada desde el menor valor del período fundamental de la edificación y 1.4 veces el mayor valor del período fundamental de la edificación debe estudiarse en mayor detalle.\n(e) La superficie, para efectos de la definición de los movimientos sísmicos de diseño propuestos en el estudio sísmico particular de sitio debe corresponder a la base de la edificación tal como se define en el presente Título A del Reglamento.\n(f) Los valores mínimos exigidos en el diseño de la edificación deben ser los que se obtendrían para un perfil tipo B según el numeral A.2.4 de la presente versión del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.5",
+      "title": null,
+      "content": "Si estos efectos locales particulares se definen utilizando un espectro de diseño, éste debe calcularse para un coeficiente de amortiguamiento estructural igual a 5 por ciento del crítico. Si se definen por medio de familias de acelerogramas, deben cumplirse, además, los requisitos dados en A.2.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.6",
+      "title": null,
+      "content": "Cuando se trate de edificaciones que serán objeto del procedimiento de seguridad limitada a ser utilizado en el Capítulo A.10 o de edificaciones cubiertas por los requisitos del Capítulo A.12, el estudio particular de sitio debe definir las formas espectrales del espectro de seguridad limitada para el Capítulo A.10 de la NSR-10 y del espectro de umbral de daño del Capítulo A.12 de la NSR-10, los cuales se deben ajustar a los niveles de probabilidad de excedencia y período de retorno promedio indicados en estos capítulos respectivamente y su amplificación en superficie debe ser consistente con los demás parámetros del espectro de diseño propuesto y tener en cuenta para el espectro de umbral de daño que éste último está definido para un coeficiente de amortiguamiento crítico de 2%."
+    }
+  ],
+  "references": [
+    "A.2.10.2.2",
+    "A.2.4",
+    "A.2.7",
+    "Capítulo A.10",
+    "Capítulo A.12"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

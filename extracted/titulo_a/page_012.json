@@ -1,0 +1,22 @@
+{
+  "page_number": 12,
+  "elements": [
+    {
+      "type": "TEXT",
+      "content": "NSR-10 - Título A – Requisitos generales de diseño y construcción sismo resistente"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "NOTAS:",
+      "title": "NOTAS:",
+      "content": ""
+    },
+    {
+      "type": "TEXT",
+      "content": "X"
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

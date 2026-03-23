@@ -1,0 +1,187 @@
+{
+  "page_number": 66,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-2",
+      "title": "Tabla A.3-2 (continuación) Sistema estructural combinado (Nota 1)",
+      "table_headers": [
+        "B. SISTEMA COMBINADO\nSistema resistencia sísmica\n(fuerzas horizontales)",
+        "Sistema resistencia para\ncargas verticales",
+        "Valor\nR0\n(Nota\n2)",
+        "Valor\nΩ0\n(Nota\n4)",
+        "zonas de amenaza sísmica\nalta",
+        "intermedia",
+        "baja",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "table_rows": [
+        [
+          "n. Muros de cortante\ncompuestos con placa de\nacero y concreto",
+          "pórticos de acero resistente o\nno a momentos",
+          "6.5",
+          "2.5",
+          "uso\npermit",
+          "altura\nmáx.",
+          "uso\npermit",
+          "altura\nmáx.",
+          "uso\npermit",
+          "altura\nmáx.",
+          "si",
+          "50 m",
+          "si",
+          "Sin\nlímite",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "o. Muros de concreto\nreforzado (DES) mixtos con\nelementos de acero",
+          "pórticos de acero resistente o\nno a momentos",
+          "6.0",
+          "2.5",
+          "si",
+          "50 m",
+          "si",
+          "Sin\nlímite",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "p. Muros de concreto\nreforzado (DMO) mixtos con\nelementos de acero",
+          "pórticos de acero resistente o\nno a momentos",
+          "5.5",
+          "2.5",
+          "No se permite",
+          "",
+          "No se permite",
+          "",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "q. Muros de concreto\nreforzado (DMI) mixtos con\nelementos de acero",
+          "pórticos de acero resistentes o\nno a momentos",
+          "5.0",
+          "2.5",
+          "no se permite",
+          "",
+          "no se permite",
+          "",
+          "si",
+          "45 m"
+        ],
+        [
+          "3. Pórticos con diagonales\nconcéntricas",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "a. Pórticos de acero con\ndiagonales concéntricas (DES)",
+          "pórticos de acero no\nresistentes a momentos",
+          "5.0",
+          "2.5",
+          "si",
+          "30 m",
+          "si",
+          "45 m",
+          "si",
+          "60 m"
+        ],
+        [
+          "b. Pórticos de acero con\ndiagonales concéntricas (DMI)",
+          "pórticos de acero no\nresistentes a momentos",
+          "4.0",
+          "2.5",
+          "no se permite",
+          "",
+          "si",
+          "10 m",
+          "si",
+          "60 m"
+        ],
+        [
+          "c. Pórticos mixtos con\ndiagonales concéntricas (DES)",
+          "pórticos de acero resistentes o\nno a momentos",
+          "5.0",
+          "2.0",
+          "si",
+          "50 m",
+          "si",
+          "sin\nlímite",
+          "si",
+          "sin\nlímite"
+        ],
+        [
+          "d. Pórticos mixtos con\ndiagonales concéntricas (DMI)",
+          "pórticos de acero resistentes o\nno a momentos",
+          "3.0",
+          "2.0",
+          "no se permite\n(nota 5)",
+          "",
+          "no se permite\n(nota 5)",
+          "",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "e. Pórticos de acero con\ndiagonales concéntricas\nrestringidas a pandeo, con\nconexiones viga-columna\nresistentes a momento",
+          "pórticos de acero no\nresistentes a momentos",
+          "7.0",
+          "2.5",
+          "si",
+          "30 m",
+          "si",
+          "45 m",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "f. Pórticos de acero con\ndiagonales concéntricas\nrestringidas a pandeo, con\nconexiones viga-columna no\nresistentes a momento",
+          "pórticos de acero no\nresistentes a momentos",
+          "6.0",
+          "2.5",
+          "si",
+          "30 m",
+          "si",
+          "45 m",
+          "si",
+          "Sin\nlímite"
+        ],
+        [
+          "g. Pórticos de concreto con\ndiagonales concéntricas con\ncapacidad moderada de\ndisipación de energía (DMO)",
+          "pórticos de concreto con\ncapacidad moderada de\ndisipación de energía (DMO)",
+          "3.5",
+          "2.5",
+          "no se permite",
+          "",
+          "si",
+          "24 m",
+          "si",
+          "30 m"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Notas",
+      "title": "Notas:",
+      "content": "1. El sistema combinado es un sistema estructural en el cual: (a) las cargas verticales son resistidas por un pórtico no resistente a momentos, esencialmente completo, y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales, o (b) las cargas verticales y horizontales son resistidas por un pórtico resistente a momentos, esencialmente completo, combinado con muros estructurales o pórticos con diagonales, y que no cumple los requisitos de un sistema dual.\n2. Para edificaciones clasificadas como irregulares el valor de Ro debe multiplicarse por  фа, Фр  y Фr , para obtener R = ФафpфrRo\n(Véase A.3.3.3).\n3. Los pórticos losa-columna incluyen el reticular celulado.\n4. El valor de 2 puede reducirse restándole 0.5 en estructuras con diafragma flexible, pero no debe ser menos de 2.0 para cualquier estructura.\n5. Se permite una altura de 20 m en edificios de un piso (naves industriales o similares) que no sean del grupo de uso IV."
+    }
+  ],
+  "references": [
+    "A.3.3.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": true
+}

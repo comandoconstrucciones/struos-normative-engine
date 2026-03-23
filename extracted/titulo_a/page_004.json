@@ -1,0 +1,458 @@
+{
+  "page_number": 4,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.1",
+      "title": "MOVIMIENTOS SISMICOS PRESCRITOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2",
+      "title": "EFECTOS LOCALES DIFERENTES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2.1",
+      "title": "Estudios de microzonificación sísmica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2.2",
+      "title": "Estudios sísmicos particulares de sitio",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.3",
+      "title": "MOVIMIENTOS SÍSMICOS DIFERENTES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.2",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.2-1",
+      "title": "Valores de Aa y de Av según las regiones de los mapas de las figuras A2.3-2 y A.2.3-3",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3",
+      "title": "ZONAS DE AMENAZA SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3.1",
+      "title": "ZONA DE AMENAZA SÍSMICA BAJA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3.2",
+      "title": "ZONA DE AMENAZA SÍSMICA INTERMEDIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3.3",
+      "title": "ZONA DE AMENAZA SÍSMICA ALTA",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.3-1",
+      "title": "Nivel de amenaza sísmica según valores de Aa y de Av",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.3-2",
+      "title": "Valor de Aa y de Av para las ciudades capitales de departamento",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4",
+      "title": "EFECTOS LOCALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1.1",
+      "title": "Estabilidad de depósito de suelo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1.2",
+      "title": "Procedimientos alternos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.2",
+      "title": "TIPOS DE PERFIL DE SUELO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3",
+      "title": "PARÁMETROS EMPLEADOS EN LA DEFINICIÓN DEL TIPO DE PERFIL DE SUELO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.1",
+      "title": "Velocidad media de la onda de cortante",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.2",
+      "title": "– Número medio de golpes del ensayo de penetración estándar",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.3",
+      "title": "Resistencia media al corte",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.4",
+      "title": "Índice de plasticidad",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.5",
+      "title": "Contenido de agua",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.4",
+      "title": "DEFINICIÓN DEL TIPO DE PERFIL DE SUELO",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-1",
+      "title": "Clasificación de los perfiles de suelo",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5",
+      "title": "PROCEDIMIENTO DE CLASIFICACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.1",
+      "title": "Paso 1",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.2",
+      "title": "Paso 2",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.3",
+      "title": "Paso 3",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-2",
+      "title": "Criterios para clasificar suelos dentro de los perfiles de suelo tipos C, D o E",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.4",
+      "title": "Velocidad de la onda de cortante en roca",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-3",
+      "title": "Valores del coeficiente Fa para la zona de períodos cortos del espectro",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-4",
+      "title": "Valores del coeficiente Fv para la zona de períodos intermedios del espectro",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5",
+      "title": "COEFICIENTES DE IMPORTANCIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1",
+      "title": "GRUPOS DE USO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.1",
+      "title": "Grupo IV - Edificaciones indispensables",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.2",
+      "title": "Grupo III - Edificaciones de atención a la comunidad.",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.3",
+      "title": "Grupo II - Estructuras de ocupación especial",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.4",
+      "title": "Grupo I - Estructuras de ocupación normal",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.2",
+      "title": "COEFICIENTE DE IMPORTANCIA",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.5.-1",
+      "title": "Valores del coeficiente de importancia, I",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6",
+      "title": "ESPECTRO DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.1",
+      "title": "Espectro de aceleraciones",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.2",
+      "title": "Espectro de velocidades",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.3",
+      "title": "Espectro de desplazamientos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.7",
+      "title": "FAMILIAS DE ACELEROGRAMAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.8",
+      "title": "COMPONENTE VERTICAL DE LOS MOVIÉNDOOS SÍSMICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9",
+      "title": "ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.1",
+      "title": "Geología y neotectónica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.2",
+      "title": "Sismología regional",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.3",
+      "title": "Definición de fuentes sismogénicas",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3-4",
+      "title": "Determinación de la aceleración y velocidad esperada para las ondas sísmicas de diseño en roca",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3-5",
+      "title": "Estudios geotécnicos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.6",
+      "title": "Estudios de amplificación de onda, zonificación y obtención de movimientos sísmicos de diseño en superficie",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.7",
+      "title": "Aprobación del estudio de microzonificación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9-4",
+      "title": "EMPLEO DEL COEFICIENTE DE DISIPACIÓN DE ENERGÍA, R",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9-5",
+      "title": "ARMONIZACIÓN DE LOS ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA CON LA PRESENTE VERSIÓN DEL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10",
+      "title": "ESTUDIOS SÍSMICOS PARTICULARES DE SITIO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10-1",
+      "title": "PROPÓSITO",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.10-1",
+      "title": "Casos en los cuales se requiere estudio sísmico particular de sitio",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10-2",
+      "title": "ALCANCE Y METODOLOGÍA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2-1",
+      "title": "Entorno geológico y tectónico, sismología regional, y fuentes sismogénicas",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2-2",
+      "title": "Espectro de aceleración de diseño en roca y familias de acelerogramas a utilizar",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2-3",
+      "title": "Exploración geotécnica adicional a la requerida para el diseño de la cimentación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.4",
+      "title": "Estudio de amplificación de onda y obtención de los movimientos sísmicos de diseño en superficie",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10-3",
+      "title": "UTILIZACIÓN DE LOS RESULTADOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.11",
+      "title": "NORMAS TÉCNICAS MENCIONADAS EN ESTE CAPÍTULO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.3",
+      "title": "REQUISITOS GENERALES DE DISEÑO SISMO RESISTENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1",
+      "title": "BASES GENERALES DE DISEÑO SISMO RESISTENTE",
+      "content": ""
+    }
+  ],
+  "references": [
+    "A2.3-2",
+    "A.2.3-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

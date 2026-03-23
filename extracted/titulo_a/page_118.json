@@ -1,0 +1,100 @@
+{
+  "page_number": 118,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10",
+      "title": "Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "NSR-10 - Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.5",
+      "content": "(d) Obtención de un índice de flexibilidad general de la edificación, definido con base en el procedimiento definido en A.10.4.3.5. El inverso del índice de flexibilidad general expresa la vulnerabilidad sísmica de la edificación como una fracción de la rigidez que tendría una edificación nueva construida de acuerdo con los requisitos de la presente versión del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.2",
+      "title": "EDIFICACIONES INDISPENSABLES",
+      "content": "A.10.5.2 - EDIFICACIONES INDISPENSABLES En la verificación de la vulnerabilidad sísmica de edificaciones indispensables existentes se debe incluir, además de lo indicado en A.10.5.1, al menos los siguientes aspectos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.2 (a)",
+      "content": "(a) Identificar la influencia de los movimientos sísmicos de diseño de Capítulo A.2, y de los movimientos sísmicos correspondientes al umbral de daño del Capítulo A.12,"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.2 (b)",
+      "content": "(b) Determinar el cortante basal resistente de la edificación en su totalidad, ya sea por flexión o por esfuerzos cortantes, teniendo en cuenta los diferentes mecanismos de colapso posibles. Esta evaluación puede realizarse utilizando el procedimiento definido en el Apéndice A-3. Esta verificación puede realizarse para la distribución, en la altura de la edificación, de las fuerzas sísmicas horizontales que prescribe el método de la fuerza horizontal equivalente, Capítulo A.4, o el método del análisis dinámico, Capítulo A.5, y"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.2 (c)",
+      "content": "(c) Debe, por medio de metodologías inelásticas adecuadamente sustentadas como la presentada en el Apéndice A-3, llevar a cabo la identificación del modo de falla prevaleciente, ya sea por flexión o por cortante. El valor del coeficiente de capacidad de disipación de energía R' a emplear, debe ser concordante con la sustentación indicada, con la secuencia de degradación de rigidez y resistencia esperadas, y con su influencia en la vulnerabilidad sísmica de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6",
+      "title": "TIPOS DE MODIFICACIÓN",
+      "content": "A.10.6 - TIPOS DE MODIFICACIÓN\nSe consideran los siguientes tipos de modificación a la estructura existente:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.1",
+      "title": "AMPLIACIONES",
+      "content": "A.10.6.1 - AMPLIACIONES Cubre aquellas edificaciones donde se amplía su área con o sin modificación en su altura. Se dividen en:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.1 (a)",
+      "title": "Ampliación adosada",
+      "content": "(a) Ampliación adosada - Es aquella en que se amplía el área sin modificar su altura. La ampliación debe diseñarse y construirse siguiendo los requisitos de A.10.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.1 (b)",
+      "title": "Ampliación en altura",
+      "content": "(b) Ampliación en altura Es aquella en que se modifica la altura de la edificación con o sin aumento en planta del área construida. El diseño y la construcción de este tipo de ampliación debe llevarse a cabo siguiendo los requisitos de A.10.8."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.2",
+      "title": "ACTUALIZACIÓN AL REGLAMENTO",
+      "content": "A.10.6.2 ACTUALIZACIÓN AL REGLAMENTO Cubre aquellas edificaciones donde no hay ampliación ni en el área ni en su altura y donde voluntariamente el propietario desea modificar la capacidad del sistema estructural para que sea capaz de resistir las solicitaciones que exige la presente versión del Reglamento y así obtener un mejor comportamiento sísmico de la edificación. La actualización debe hacerse siguiendo los requisitos que se dan en A.10.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.3",
+      "title": "MODIFICACIONES",
+      "content": "Α.10.6.3- MODIFICACIONES Cubre aquellas construcciones o renovaciones en una edificación distintas de una ampliación adosada o en su altura. Las modificaciones se permiten en una construcción sin requerir validar la capacidad resultante de la estructura, en la medida que la modificación en sí cumpla con el presente reglamento y la modificación no incremente la solicitación sísmica en cualquier elemento de la estructura existente en más de un 10% ni reduzca la capacidad estructural de cualquier elemento en más de un 10%. En caso que alguna de estas condiciones sea superada, deberá revisarse la capacidad estructural ante cargas sísmicas de la totalidad de la construcción incluyendo la modificación propuesta según los requerimientos del presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7",
+      "title": "AMPLIACIÓN ADOSADA",
+      "content": "A.10.7 AMPLIACIÓN ADOSADA\nA continuación se dan los requisitos que se deben cumplir en el diseño y construcción de una ampliación adosada:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.1",
+      "title": "NECESIDAD DE INTERVENCIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": "A.10.7.1 NECESIDAD DE INTERVENCIÓN DE LA ESTRUCTURA EXISTENTE Cuando los índices de sobreesfuerzo y flexibilidad de la estructura existente son menores que la unidad no hay necesidad de intervenir el sistema estructural existente, siempre y cuando la porción nueva de la edificación se separe de la antigua con una junta apropiada de acuerdo con los requisitos del Capítulo A.6 del Reglamento. En este caso la porción nueva debe"
+    }
+  ],
+  "references": [
+    "A.10.4.3.5",
+    "A.10.5.1",
+    "Capítulo A.2",
+    "Capítulo A.12",
+    "Apéndice A-3",
+    "Capítulo A.4",
+    "Capítulo A.5",
+    "A.10.7",
+    "A.10.8",
+    "A.10.9",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

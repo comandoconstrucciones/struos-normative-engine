@@ -1,0 +1,547 @@
+{
+  "page_number": 174,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-4",
+      "title": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": "NSR-10 - Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Municipios",
+      "title": "Valores Aa Av Ae Ad de algunos municipios colombianos",
+      "table_headers": [
+        "Municipio",
+        "Código",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Bagadó",
+          "27073",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Bahía Solano",
+          "27075",
+          "0.45",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Bajo Baudó",
+          "27077",
+          "0.45",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Belén de Bajirá",
+          "27086",
+          "0.25",
+          "0.30",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Bojayá",
+          "27099",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Cantón de San Pablo",
+          "27135",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Carmen del Darién",
+          "27150",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Certeguí",
+          "27160",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Condoto",
+          "27205",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "El Carmen de Atrato",
+          "27245",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "El Litoral del San Juan",
+          "27250",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.20",
+          "0.10"
+        ],
+        [
+          "Itsmína",
+          "27361",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.23",
+          "0.10"
+        ],
+        [
+          "Juradó",
+          "27372",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Lloró",
+          "27413",
+          "0.40",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Medio Atrato",
+          "27425",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Medio Baudó",
+          "27430",
+          "0.45",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Medio San Juan",
+          "27450",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Nóvita",
+          "27491",
+          "0.40",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Nuquí",
+          "27495",
+          "0.45",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Río Iro",
+          "27580",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Río Quito",
+          "27600",
+          "0.35",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Riosucio",
+          "27615",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "San José del Palmar",
+          "27660",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Sipí",
+          "27745",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Tadó",
+          "27787",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Unguía",
+          "27800",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.07"
+        ],
+        [
+          "Unión Panamericana",
+          "27810",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento de Córdoba",
+      "title": "Departamento de Córdoba",
+      "content": "Departamento de Córdoba"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Córdoba",
+      "title": "Valores Aa Av Ae Ad del departamento de Córdoba",
+      "table_headers": [
+        "Municipio",
+        "Código\nMunicipio",
+        "Aa",
+        "Av",
+        "Zona de\nAmenaza\nSísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Montería",
+          "23001",
+          "0.10",
+          "0.20",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Ayapel",
+          "23068",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Buenavista",
+          "23079",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Canalete",
+          "23090",
+          "0.10",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Cereté",
+          "23162",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.04"
+        ],
+        [
+          "Chimá",
+          "23168",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Chinú",
+          "23182",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Ciénaga de Oro",
+          "23189",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Cotorra",
+          "23300",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "La Apartada",
+          "23350",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Lorica",
+          "23417",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Los Córdobas",
+          "23419",
+          "0.10",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.05"
+        ],
+        [
+          "Moñitos",
+          "23500",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Momil",
+          "23464",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Montelíbano",
+          "23466",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Planeta Rica",
+          "23555",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Pueblo Nuevo",
+          "23570",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.05"
+        ],
+        [
+          "Puerto Escondido",
+          "23574",
+          "0.10",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.04"
+        ],
+        [
+          "Puerto Libertador",
+          "23580",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Purísima",
+          "23586",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Sahagún",
+          "23660",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "San Andrés de Sotavento",
+          "23670",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "San Antero",
+          "23672",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "San Bernardo del Viento",
+          "23675",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "San Carlos",
+          "23678",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "San Pelayo",
+          "23686",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Tierralta",
+          "23807",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Valencia",
+          "23855",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

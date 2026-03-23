@@ -1,0 +1,38 @@
+{
+  "page_number": 164,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-3",
+      "title": "Procedimiento no lineal estático de plastificación progresiva \"Push-Over\"",
+      "content": "gravedad no debe exceder:\n(i) Dos tercios de la deformación que resulta en pérdida de capacidad para soportar cargas de gravedad.\n(ii) Dos tercios de la deformación a la cual la resistencia del elemento se ha deteriorado a menos del 70% de la resistencia pico del modelo del componente. La deformación de un elemento no requerida para soportar las cargas gravitacionales no debe exceder los dos tercios del valor al cual la resistencia del elemento se ha deteriorado a menos del 70% de la resistencia pico del modelo del componente. Alternativamente, se permite considerar la deformación del elemento como aceptable si la deformación no excede el valor determinado que establecen los criterios de aceptación para procedimientos no lineales dados en el Pre-Estándar y Comentario para la Rehabilitación Sísmica de Edificios (FEMA 356) para el nivel de desempeño de Seguridad de la Vida.\nLas fuerzas del elemento se deben considerar aceptables si no exceden las capacidades esperadas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.10",
+      "title": "Revisión del Diseño",
+      "content": "Un comité independiente integrado por al menos dos miembros, compuesto por ingenieros facultados según la Ley 400 de 1997 para diseñar en las disciplinas apropiadas y otros con experiencia en métodos de análisis sísmico y en la teoría y aplicación de análisis sísmico no lineal y comportamiento estructural bajo cargas sísmicas, debe llevar a cabo la revisión del diseño sismo resistente y los análisis estructurales de soporte. La revisión del diseño debe incluir:\n(i) Revisión de cualquier criterio sísmico específico para el sitio empleado en el análisis, incluyendo, de ser el caso, el desarrollo del espectro específico del sitio y\n(ii) Revisión de la determinación del desplazamiento objetivo y la resistencia efectiva de fluencia de la estructura.\nPara aquellas estructuras con resistencia efectiva de fluencia inferior al producto del factor de sobreresistencia del sistema como lo suministra las tablas A.3-1 a A.3-4 del Capítulo A.3 y el cortante sísmico en la base determinado en la Sección A.4.3.1 del Capítulo A.4, modificada para usar el periodo fundamental efectivo Te en lugar de T para la determinación de Cs, la revisión de diseño además debe incluir pero no se debe limitar a lo siguiente:\n(1) Revisión de los criterios de aceptación utilizados para demostrar la idoneidad de los elementos estructurales y de los sistemas para resistir la fuerza calculada y las demandas de deformación, junto con datos de laboratorio y demás datos usados para soportar tales criterios. Revisión de los criterios de aceptación para procedimientos no lineales dados en el Pre-Estándar y Comentario para la Rehabilitación Sísmica de Edificios (FEMA 356) es discrecional por parte del equipo de revisión del diseño.\n(2) Revisión del diseño final de todo el sistema estructural y todos los análisis de soporte. El equipo de revisión del diseño debe producir un informe que identifique, dentro del alcance de la revisión, las preocupaciones significativas y cualquier discrepancia de cumplimiento general con las disposiciones del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "REFERENCIAS",
+      "title": "REFERENCIAS",
+      "content": "ATC 40 (SSC, 1996) Seismic Evaluation and Retrofit of Concrete Buildings, SSC Report No. 96-01, Seismic Safety Commission, State of California, Sacramento, California, Developed by the Applied Technology Council, Redwood City, California.\nFEMA 250 (FEMA 2000a), Recommended Seismic Design Criteria for New Steel Moment-Frame Buildings, Federal Emergency Management Agency, Washington D.C.\nFEMA 356 (FEMA, 2000b), Prestandard and Commentary for Seismic Rehabilitation of Buidings, Federal Emergency Management Agency, Washington D.C.\nHAZUS (NIBS, 1999), HAZUS99 Technical Manual, National Institute of Building Science, Washington D.C. Developed by the Federal Emergency Management Agency through agreements with the National Institute of Building Sciences.\nASCE/SEI (2003), \"Seismic Evaluation of Existing Buildings\", ASCE/SEI 31-03, American Society of Civil Engineers, Reston, Virginia, USA, 2003\nASCE/SEI (2006), \"Seismic Rehabilitation of Existing Buildings\", ASCE/SEI 41-06, American Society of Civil Engineers, Reston, Virginia, USA, 2006"
+    }
+  ],
+  "references": [
+    "FEMA 356",
+    "A.3-1",
+    "A.3-4",
+    "A.3",
+    "A.4.3.1",
+    "A.4",
+    "ATC 40",
+    "FEMA 250",
+    "HAZUS",
+    "ASCE/SEI (2003)",
+    "ASCE/SEI (2006)"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

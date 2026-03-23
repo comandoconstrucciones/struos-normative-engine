@@ -1,0 +1,87 @@
+{
+  "page_number": 100,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2",
+      "title": "GRADO DE DESEMPEÑO DE LOS ELEMENTOS NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.1",
+      "title": "DEFINICIÓN DEL DESEMPEÑO",
+      "content": "Se denomina desempeño el comportamiento de los elementos no estructurales de la edificación ante la ocurrencia del sismo de diseño que la afecte. El desempeño se clasifica en los siguientes grados:\n(a) Superior - Es aquel en el cual el daño que se presenta en los elementos no estructurales es mínimo y no interfiere con la operación de la edificación debido a la ocurrencia del sismo de diseño.\n(b) Bueno Es aquel en el cual el daño que se presenta en los elementos no estructurales es totalmente reparable y puede haber alguna interferencia con la operación de la edificación con posterioridad a la ocurrencia del sismo de diseño.\n(c) Bajo Es aquel en el cual se presentan daños graves en los elementos no estructurales, inclusive no reparables, pero sin desprendimiento o colapso, debido a la ocurrencia del sismo de diseño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.2",
+      "title": "CLASIFICACIÓN EN UNO DE LOS GRADOS DE DESEMPEÑO",
+      "content": "La edificación debe clasificarse dentro de uno de los tres grados de desempeño de los elementos no estructurales definidos en A.9.2.1. Este grado de desempeño no puede ser inferior al mínimo permisible fijado en A.9.2.3. El propietario de la edificación, de manera voluntaria, puede exigir que los diseños se realicen para un grado de desempeño mejor que el mínimo exigido, comunicándolo por escrito a los diseñadores. En ausencia de esta comunicación, los diseñadores solo están obligados a cumplir con el grado mínimo permisible fijado en A.9.2.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.3",
+      "title": "GRADO DE DESEMPEÑO MÍNIMO",
+      "content": "Como mínimo debe cumplirse el grado de desempeño indicado en la tabla A.9.2-1, para cada uno de los grupos de uso definidos en A.2.5.1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.9.2-1",
+      "title": "Grado de desempeño mínimo requerido",
+      "table_headers": [
+        "Grupo\nde Uso",
+        "Grado de\ndesempeño"
+      ],
+      "table_rows": [
+        [
+          "IV",
+          "Superior"
+        ],
+        [
+          "III",
+          "Superior"
+        ],
+        [
+          "II",
+          "Bueno"
+        ],
+        [
+          "I",
+          "Bajo"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3",
+      "title": "RESPONSABILIDADES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.1",
+      "title": "DEL DISEÑADOR RESPONSABLE",
+      "content": "La responsabilidad del diseño sísmico de los elementos no estructurales recae en los profesionales bajo cuya dirección se elaboran los diferentes diseños particulares. Se presume que el hecho de que un elemento no estructural figure en un plano o memoria de diseño, es porque se han tomado todas las medidas necesarias para cumplir el grado de desempeño apropiado y por lo tanto el profesional que firma o rotula el plano se hace responsable de que el diseño se realizó para el grado de desempeño apropiado. El constructor quien suscribe la licencia de construcción debe cumplir lo indicado en A.1.3.6.5 y es el responsable final de que los diseños de los elementos estructurales se haya realizado adecuadamente y que su construcción se realice apropiadamente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.9.3.1.1",
+      "content": "En aquellos casos en los cuales en los diseños se especifican elementos no estructurales cuyo suministro e instalación se realiza por parte de su fabricante, el diseñador se debe limitar a especificar en sus planos, memorias o especificaciones, el grado de desempeño que deben cumplir los elementos. El constructor que suscribe la licencia de construcción debe cumplir también en estos casos lo indicado en A.1.3.6.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.2",
+      "title": "DEL SUPERVISOR TÉCNICO",
+      "content": "El supervisor técnico debe verificar que la construcción e instalación de los elementos no estructurales se realice siguiendo los planos y especificaciones correspondientes. En aquellos casos en los cuales en los documentos de diseño (planos, memorias y especificaciones) sólo se indica el grado de desempeño requerido, es responsabilidad del supervisor técnico el verificar que los elementos no estructurales que se instalen en la edificación, efectivamente estén en capacidad de cumplir el grado de desempeño especificado por el diseñador."
+    }
+  ],
+  "references": [
+    "A.9.2.1",
+    "A.9.2.3",
+    "A.2.5.1",
+    "A.1.3.6.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,67 @@
+{
+  "page_number": 157,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A-2.2-1",
+      "title": "Coeficiente de amortiguamiento crítico de la cimentación, βο",
+      "content": "Gráfico con curvas que muestran el coeficiente de amortiguamiento crítico de la cimentación (βo) en función de T/T para diferentes valores de h/r y Aa."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.2",
+      "title": "DISTRIBUCIÓN EN LA ALTURA DE LAS FUERZAS SÍSMICAS",
+      "content": "La distribución en la altura del cortante en la base corregido por efectos de interacción suelo-estructura se debe tomar igual a la de la estructura sin interacción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.3",
+      "title": "OTROS EFECTOS",
+      "content": "Los cortantes de piso, los momentos de vuelco y los efectos torsionales deben determinarse de la misma manera que para edificaciones en las cuales no se ha tomado en cuenta la interacción suelo-estructura, pero utilizando las fuerzas horizontales reducidas por efectos de interacción. Las deflexiones modificadas deben determinarse por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2.2.3",
+      "formula_latex": "\\overline{\\delta}_{x} = \\frac{\\overline{V}_{s}}{V_{s}} \\left( \\delta_{x} + \\frac{M_{0} h_{x}}{K_{\\theta}} \\right)",
+      "formula_python": "deltabar_x = (Vbar_s / Vs) * (delta_x + (M0 * hx) / Ktheta)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3",
+      "title": "MÉTODO DEL ANÁLISIS MODAL",
+      "content": "Los siguientes requisitos complementan, en lo concerniente a interacción suelo-estructura, lo presentado en el Capítulo A.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.1",
+      "title": "CORTANTES MODALES EN LA BASE",
+      "content": "Para tener en cuenta los efectos de interacción suelo-estructura, el cortante sísmico de diseño en la base, correspondiente al modo fundamental, Vij, en la dirección j, determinado por medio de la ecuación A.5.4-3, puede modificarse a:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2.3.1",
+      "formula_latex": "\\overline{V}_{ij} = V_{ij} - \\Delta V_{1j}",
+      "formula_python": "Vbar_ij = Vij - DeltaV1j",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.1",
+      "content": "y el valor de la reducción en el cortante sísmico en la base correspondiente al modo fundamental, debe calcularse utilizando la ecuación A-2-13:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2.3.1",
+      "formula_latex": "\\Delta V_{1j} = \\left[ S_{al} - \\overline{S}_{al} \\left( \\frac{0.05}{\\beta} \\right)^{0.4} \\right] g \\overline{M}_{1j}",
+      "formula_python": "DeltaV1j = [Sal - Sbar_al * (0.05 / beta)**0.4] * g * Mbar_1j",
+      "formula_variables": {}
+    }
+  ],
+  "references": [
+    "A.5",
+    "A.5.4-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,74 @@
+{
+  "page_number": 117,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.4",
+      "title": "Resistencia efectiva",
+      "content": "La resistencia efectiva Nef de los elementos, o de la estructura en general, debe evaluarse como el producto de la resistencia existente Nex, multiplicada por los coeficientes de reducción de resistencia фс у фе, así:\nNef = ΦΦΕ Nex\n(A.10-1)\ndonde a фс у фe se les asigna el valor dado en la Tabla A.10.4-1, dependiendo de la calificación de la calidad y estado de la estructura definidas en A.10.2.2.1 y A.10.2.2.2."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.10-1",
+      "formula_latex": "N_{ef} = \\Phi_c \\Phi_E N_{ex}",
+      "formula_python": "Nef = Phi_c * Phi_E * Nex",
+      "formula_variables": {
+        "Phi_c": "Coeficiente de reducción de resistencia",
+        "Phi_E": "Coeficiente de reducción de resistencia",
+        "N_{ex}": "Resistencia existente"
+      }
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.4-1",
+      "title": "Valores de ф У Фе",
+      "table_headers": [
+        "Calidad del diseño y la construcción,\no del estado de la edificación",
+        "Buena",
+        "Regular",
+        "Mala"
+      ],
+      "table_rows": [
+        [
+          "ФС о фе",
+          "1.0",
+          "0.8",
+          "0.6"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.5",
+      "title": "Definición del índice de flexibilidad",
+      "content": "Debe determinarse un índice de flexibilidad, el cual indica la susceptibilidad de la estructura a tener deflexiones o derivas excesivas, con respecto a las permitidas por el Reglamento. Tiene dos acepciones:\n(a) Índice de flexibilidad del piso — el cual se define como el cociente entre la deflexión o deriva obtenida del análisis de la estructura, y la permitida por el Reglamento, para cada uno de los pisos de la edificación, y\n(b) Indice de flexibilidad de la estructura — definido como el mayor valor de los índices de flexibilidad de piso de toda la estructura. Se debe evaluar para las deflexiones verticales y para las derivas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.4",
+      "title": "METODOLOGÍAS ALTERNAS",
+      "content": "Para la evaluación de edificaciones existentes, en reemplazo en lo prescrito en A.10.4, siempre y cuando se garanticen los criterios de resistencia y capacidad de funcionamiento establecidos en A.10.9, se permite alternativamente el uso de las recomendaciones que se presentan en los siguientes documentos:\n(a) \"Seismic Evaluation of Existing Buildings\", ASCE/SEI 31-03, American Society of Civil Engineers, Reston, Virginia, USA, 2003.\n(b) \"Seismic Evaluation and Retrofit of Concrete Buildings\", ATC-40, Vol 1, Appendices, Vol 2, Applied Technology Council, Redwood City, CA, USA, 1996.\n(c) \"NEHRP Handbook for Seismic Evaluation of Existing Buildings\", FEMA 178, Federal Emergency Management Agency / Building Seismic Safety Council, Washington, D.C., USA, 1992"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5",
+      "title": "ANÁLISIS DE VULNERABILIDAD",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.1",
+      "title": "GENERAL",
+      "content": "El análisis de vulnerabilidad sísmica de una edificación existente consiste en los siguientes aspectos:\n(a) Determinación de los índices de sobreesfuerzo individual de todos los elementos estructurales de la edificación, considerando las relaciones entre la demanda sísmica de esfuerzos y la capacidad de resistirlos,\n(b) Formulación de una hipótesis de secuencia de falla de la edificación con base en la línea de menor resistencia, identificando la incidencia de la falla progresiva de los elementos, iniciando con aquellos con un mayor índice de sobreesfuerzo,\n(c) Definición de un índice de sobreesfuerzo general de la edificación, definido con base en los resultados de (b). El inverso del índice de sobreesfuerzo general expresa la vulnerabilidad de la edificación como una fracción de la resistencia que tendría una edificación nueva construida de acuerdo con los requisitos de la presente versión del Reglamento, y"
+    }
+  ],
+  "references": [
+    "A.10.2.2.1",
+    "A.10.2.2.2",
+    "Tabla A.10.4-1",
+    "A.10.4",
+    "A.10.9"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

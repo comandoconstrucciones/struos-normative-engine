@@ -1,0 +1,45 @@
+{
+  "page_number": 17,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Procedimiento de diseño estructural para edificaciones nuevas y existentes",
+      "table_headers": [
+        "Diseño de edificaciones nuevas",
+        "Intervención de edificaciones existentes"
+      ],
+      "table_rows": [
+        [
+          "Paso 5 - Características de la estructuración y del material estructural empleado\nEl sistema estructural de resistencia sísmica de la edificación debe clasificarse dentro de uno de los sistemas estructurales prescritos en el Capítulo A.3: sistema de muros de carga, sistema combinado, sistema de pórtico, o sistema dual. El Reglamento define limitaciones en el empleo de los sistemas estructurales de resistencia sísmica en función de la zona de amenaza sísmica donde se encuentre localizada la edificación, del tipo de material estructural empleado (concreto estructural, estructura metálica, mampostería estructural, o madera), de la forma misma como se disponga el material en los elementos estructurales según esté en posibilidad de responder adecuadamente ante movimientos sísmicos como los esperados por medio de su capacidad de disipación de energía, la cual puede ser especial (DES), moderada (DMO) o mínima (DMI); de la altura de la edificación, y de su grado de irregularidad.",
+          "Dentro del alcance de la etapa 4 de A.10.4.1, para las edificaciones existentes se debe determinar, de acuerdo con las características del sistema estructural empleado originalmente en su construcción, una correspondencia con los sistemas estructurales que se permiten para edificaciones nuevas de acuerdo con lo prescrito en A.10.4.2."
+        ],
+        [
+          "Paso 6- Grado de irregularidad de la estructura y procedimiento de análisis\nDefinición del procedimiento de análisis sísmico de la estructura de acuerdo con la regularidad o irregularidad de la configuración de la edificación, tanto en planta como en alzado, su grado de redundancia o de ausencia de ella en el sistema estructural de resistencia sísmica, su altura, las características del suelo en el lugar, y el nivel de amenaza sísmica, siguiendo los preceptos dados en el Capítulo A.3 de este Reglamento.",
+          "Se aplican los mismos principios que para edificaciones nuevas."
+        ],
+        [
+          "Paso 7- Determinación de las fuerzas sísmicas\nObtención de las fuerzas sísmicas, Fs, que deben aplicarse a la estructura para lo cual deben usarse los movimientos sísmicos de diseño definidos en el paso 4.",
+          "Dentro del alcance de la etapa 4 de A.10.4.1, para las edificaciones existentes se determinan unas solicitaciones equivalentes a las de edificaciones nuevas, pero ajustadas a las propiedades de la estructura existente. Véase A.10.4.2."
+        ],
+        [
+          "Paso 8 - Análisis sísmico de la estructura\nEl análisis sísmico de la estructura se lleva a cabo aplicando los movimientos sísmicos de diseño prescritos, a un modelo matemático apropiado de la estructura, tal como se define en el Capítulo A.3. Este análisis se realiza para los movimientos sísmicos de diseño sin ser divididos por el coeficiente de capacidad de disipación de energía, R, y debe hacerse por el método que se haya definido en el paso 6. Deben determinarse los desplazamientos máximos que imponen los movimientos sísmicos de diseño a la estructura y las fuerzas internas que se derivan de ellos.",
+          "Se debe cumplir lo indicado en la etapa 5 de A.10.1.4."
+        ],
+        [
+          "Paso 9- Desplazamientos horizontales\nEvaluación de los desplazamientos horizontales, incluyendo los efectos torsionales de toda la estructura, y las derivas (desplazamiento relativo entre niveles contiguos), utilizando los procedimientos dados en el Capítulo A.6 y con base en los desplazamientos obtenidos en el paso 8.",
+          "Se debe cumplir lo indicado en la etapa 9 de A.10.1.4."
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "Capítulo A.3",
+    "A.10.4.1",
+    "A.10.4.2",
+    "A.10.1.4",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": true
+}

@@ -1,0 +1,61 @@
+{
+  "page_number": 16,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Tabla A.1.3-1 (continuación)",
+      "content": "Procedimiento de diseño estructural para edificaciones nuevas y existentes"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 2",
+      "title": "Paso 2 - Evaluación de las solicitaciones definitivas",
+      "content": "Con las dimensiones de los elementos de la estructura definidas como resultado del paso 1, se evalúan todas las solicitaciones que pueden afectar la edificación de acuerdo con los requisitos del Título B del Reglamento. Estas incluyen: el efecto gravitacional de la masa de los elementos estructurales, o peso propio, las cargas carg de acabados y elementos no estructurales, las cargas muertas, las fuerzas de viento, las deformaciones impuestas por efectos reológicos de los materiales estructurales y asentamientos del suelo que da apoyo a la fundación. Así mismo se debe determinar la masa de la edificación y su contenido cuando así lo exige el Reglamento, la cual será empleada en la determinación de los efectos sísmicos, de acuerdo con los pasos siguientes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 2",
+      "title": "Paso 2 - Evaluación de las solicitaciones definitivas",
+      "content": "Se debe realizar la etapa 4 de A.10.1.4 donde, entre otros aspectos, se debe determinar una información real análoga a la exigida para edificaciones nuevas, pero con base en la edificación existente de acuerdo con lo indicado en A.10.4.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 3",
+      "title": "Paso 3- Obtención del nivel de amenaza sísmica y los valores de Aa y Av",
+      "content": "Este paso consiste en localizar el lugar donde se construirá la edificación dentro de los mapas de zonificación sísmica dados en el Capítulo A.2 del Reglamento y en determinar el nivel de amenaza sísmica del lugar, de acuerdo con los valores de los parámetros Aa y A obtenidos en los mapas de zonificación sísmica del Capítulo A.2. El nivel de amenaza sísmica se clasificará como alta, intermedia o baja. En el Apéndice A-4 se presenta una enumeración de los municipios colombianos, con su definición de la zona de amenaza sísmica, y los valores de los parámetros Aa y Av, entre otros."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 3",
+      "title": "Paso 3- Obtención del nivel de amenaza sísmica y los valores de Aa y Av",
+      "content": "Dentro del alcance de la etapa 4 de A.10.4.1, para las edificaciones existentes los movimientos sísmicos de diseño se determinan de igual forma que para edificaciones nuevas, con la excepción de las edificaciones a las cuales el Reglamento les permite acogerse al uso de movimientos sísmicos para el nivel de seguridad limitada para rehabilitación sísmica. Para el uso de movimientos sísmicos para el nivel de seguridad limitada debe consultarse A.10.9.2.5, el cual solo aplica a edificaciones declaradas como patrimonio histórico y bajo las condiciones impuestas allí. En este caso se permite el uso de Ae, en vez de los valores de Aa y A tal como se indica en A.10.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 4",
+      "title": "Paso 4 - Movimientos sísmicos de diseño",
+      "content": "Deben definirse unos movimientos sísmicos de diseño en el lugar de la edificación, de acuerdo con los requisitos del Capítulo A.2 del Reglamento y, en el caso de Edificaciones cubiertas por A.1.2.3.3, con los requisitos del Capítulo A.12 del Reglamento, tomando en cuenta:\n(a) La amenaza sísmica para el lugar determinada en el paso 3, expresada a través de los parámetros Aay Av, o Ad, según sea el caso, los cuales representan la aceleración horizontal pico efectiva y la velocidad horizontal pico efectiva expresada en términos de aceleración del sismo de diseño,\n(b) Las características de la estratificación del suelo subyacente en el lugar a través de unos coeficientes de sitio Fa y Fy, y\n(c) La importancia de la edificación para la recuperación de la comunidad con posterioridad a la ocurrencia de un sismo a través de un coeficiente de importancia I.\nLas características de los movimientos sísmicos de diseño se expresan por medio de un espectro elástico de diseño. El Reglamento contempla descripciones alternativas del sismo de diseño, ya sea a través de familias de acelerogramas, o bien por medio de expresiones derivadas de estudios de microzonificación sísmica, las cuales deben determinarse siguiendo los requisitos dados en el Capítulo A.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso 4",
+      "title": "Paso 4 - Movimientos sísmicos de diseño",
+      "content": "Se deben seguir el mismo procedimiento que para edificaciones nuevas. Para el caso de edificaciones declaradas como patrimonio histórico y bajo las condiciones que lo permite A.10.9.2.5 se pueden utilizar los movimientos sísmicos para el nivel de seguridad limitada definido en A.10.3."
+    }
+  ],
+  "references": [
+    "Título B",
+    "A.10.1.4",
+    "A.10.4.2.6",
+    "Capítulo A.2",
+    "A.10.4.1",
+    "A.10.9.2.5",
+    "A.10.3",
+    "A.1.2.3.3",
+    "Capítulo A.12",
+    "Capítulo A.2"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": true
+}

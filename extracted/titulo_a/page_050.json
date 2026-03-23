@@ -1,0 +1,22 @@
+{
+  "page_number": 50,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.3",
+      "title": "UTILIZACIÓN DE LOS RESULTADOS",
+      "content": "Los estudios sísmicos particulares de sitio hacen parte de los estudios geotécnicos que deben presentarse para la obtención de la licencia de construcción de la edificación como se indica en A.1.3.2 y deben ser aprobados por los curadores urbanos o, en su defecto, las autoridades municipales encargadas de expedir las licencias de construcción, de acuerdo con lo establecido en la Ley 388 de 1997 y sus decretos reglamentarios para la presentación, revisión y aprobación de estudios geotécnicos cuando estos hacen parte de la documentación que se debe allegar para obtener la licencia de construcción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.11",
+      "title": "NORMAS TÉCNICAS MENCIONADAS EN ESTE CAPÍTULO",
+      "content": "En este Capítulo se utilizan las siguientes normas técnicas NTC expedidas por Icontec y en su defecto las expedidas por la Sociedad Americana de Ensayos y Materiales - ASTM, las cuales hacen parte del presente Reglamento:\n\nNTC 1495 - Suelos. Ensayo para determinar el contenido de agua de suelos y rocas, con base en la masa (ASTM D 2166 - Standard Test Method for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass)\nNTC 1527 - Suelos. Método de ensayo para determinar la resistencia a la compresión incofinada de suelos cohesivos (ASTM D 2166 - Standard Test Method for Unconfined Compressive Strength of Cohesive Soil)\nNTC 2041 - Suelos. Determinación de la resistencia a la compresión triaxial no consolidada no drenada en suelos cohesivos. (ASTM D 2850 Standard Test Method for Unconsolidated-Undrained Triaxial Compression Test on Cohesive Soils)\nASTM D 1586 - Standard Test Method for Penetration Test and Split-barrel Sampling of Soils\nASTM D 4318 Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils"
+    }
+  ],
+  "references": [
+    "A.1.3.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

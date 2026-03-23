@@ -1,0 +1,119 @@
+{
+  "page_number": 155,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-2",
+      "title": "Recomendaciones para el cálculo de los efectos de interacción dinámica suelo-estructura",
+      "content": "desplazamientos y fuerzas secundarias asociadas con los efectos P-Delta. Los requisitos para ser utilizados con el método de la fuerza horizontal equivalente se presentan en A-2.2 y para el método del análisis dinámico modal elástico en A-2.3. Estos requisitos no deben ser usados si se empleó un modelo de base flexible donde la cimentación se modela directamente en el análisis de la estructura, y no un modelo de base empotrada."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2",
+      "title": "MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE",
+      "content": "Los requisitos que se presentan a continuación, complementan en lo concerniente a interacción suelo-estructura los dados en el Capítulo A.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1",
+      "title": "CORTANTE EN LA BASE",
+      "content": "Para tener en cuenta los efectos de interacción suelo-estructura, el cortante sísmico de diseño en la base, Vs, determinado por medio de la ecuación A.4-5, puede modificarse a:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-1",
+      "formula_latex": "V_s = V_s - \\Delta V_s",
+      "formula_python": "Vs = Vs - AVs",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": "A-2.2.1",
+      "content": "y el valor de la reducción en el cortante sísmico en la base, para diseño, debe calcularse por medio de:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-2",
+      "formula_latex": "\\Delta V_s = \\left[ S_a - \\bar{S_a} - \\left( \\frac{0.05}{\\beta} \\right)^{0.4} \\right] g \\bar{M}",
+      "formula_python": "AVs = (Sa - Sa_bar - (0.05/beta)**0.4) * g * M_bar",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": "A-2.2.1",
+      "content": "El valor del cortante sísmico en la base modificado, Vs, no puede ser menor que 0.7V."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.1",
+      "title": "Período efectivo de la edificación",
+      "content": "El período efectivo, T, debe determinarse por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-3",
+      "formula_latex": "\\bar{T} = T \\sqrt{1 + \\frac{\\bar{k}}{K_y} \\left( 1 + \\frac{K_y h^2}{K_\\theta} \\right)}",
+      "formula_python": "T_bar = T * (1 + k_bar/Ky * (1 + Ky*h**2/Ktheta))**0.5",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": "A-2.2.1.1",
+      "content": "y"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-2-4",
+      "formula_latex": "\\bar{k} = 4 \\pi^2 \\left( \\frac{\\bar{M}}{T^2} \\right)",
+      "formula_python": "k_bar = 4 * pi**2 * (M_bar / T**2)",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": "A-2.2.1.1",
+      "content": "Las rigideces de la cimentación, Ky y Kθ, deben determinarse por medio de principios establecidos de mecánica de suelos, utilizando propiedades del suelo que sean representativas de su comportamiento a niveles de deformación unitaria, conmensurables con los que producen los movimientos sísmicos de diseño. En aquellos casos en los cuales el estudio geotécnico no lo indique, el módulo promedio de cortante, G, para los suelos localizados debajo de la cimentación, en condiciones de deformaciones unitarias apreciables, y la velocidad de la onda de cortante, vs, asociada con estas deformaciones unitarias, pueden determinarse utilizando la tabla A.-2.1-1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A-2.1-1",
+      "title": "Valores de G/Go y Vs/Vso",
+      "table_headers": [
+        "Valor de Aₐ",
+        "≤ 0.10",
+        "≤ 0.15",
+        "≤ 0.20",
+        "≥ 0.30"
+      ],
+      "table_rows": [
+        [
+          "Valor de G/Go",
+          "0.81",
+          "0.64",
+          "0.49",
+          "0.42"
+        ],
+        [
+          "Valor de vs/Vso",
+          "0.90",
+          "0.80",
+          "0.70",
+          "0.65"
+        ]
+      ]
+    },
+    {
+      "type": "CONTENT",
+      "section_path": "A-2.2.1.1",
+      "content": "Alternativamente, para edificaciones cuya cimentación sea una losa de fundación superficial o aproximadamente superficial, que se construye de una manera tal que se pueda considerar que el contacto entre los muros de contención y el suelo no restringe el libre movimiento de la estructura, el período de"
+    }
+  ],
+  "references": [
+    "A-2.2",
+    "A-2.3",
+    "A.7",
+    "A.4-5",
+    "A.-2.1-1"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,94 @@
+{
+  "page_number": 134,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.12 - Capítulo A.12",
+      "title": "Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV",
+      "content": "Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.1",
+      "title": "Período fundamental de la edificación",
+      "content": "Puede utilizarse el período de vibración fundamental determinado de acuerdo con los requisitos de A.4.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.2",
+      "title": "Fuerzas sísmicas horizontales del umbral de daño",
+      "content": "Las fuerzas sísmicas correspondientes a los movimientos sísmicos del umbral de daño corresponden a la distribución en la altura de la edificación del cortante sísmico en la base, Vsd. Este cortante sísmico en la base es equivalente a la totalidad de los efectos inerciales horizontales producidos por los movimientos sísmicos del umbral de daño, en la dirección en estudio, y se obtiene por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.4-1",
+      "formula_latex": "V_{sd} = S_{ad} g M",
+      "formula_python": "Vsd = Sad * g * M",
+      "formula_variables": {
+        "Vsd": "Cortante sísmico en la base",
+        "Sad": "Valor de la aceleración leída del espectro sísmico",
+        "g": "Aceleración gravitacional",
+        "M": "Masa"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "El valor de Sad en la ecuación anterior corresponde al valor de la aceleración leída del espectro sísmico definido en A.12.3 para el período T de la edificación. La fuerza sísmica horizontal del umbral de daño en cualquier nivel puede obtenerse de las ecuaciones A.4.3-1 y A.4.3-2, utilizando Vsd en vez de Vs."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.3",
+      "title": "Análisis de la estructura para las fuerzas sísmicas horizontales del umbral de daño",
+      "content": "Por medio de un análisis estructural realizado empleando las fuerzas sísmicas correspondientes al umbral de daño obtenidas como se indica en A.12.4.3.2, se obtienen las fuerzas internas del umbral de daño, Ed. Deben utilizarse los requisitos de A.4.4.1 con la excepción del literal (f). En las estructuras de concreto reforzado y mampostería estructural, el grado de fisuración debe ser compatible con las fuerzas sísmicas del umbral de daño, tomando en cuenta que la estructura actúa dentro del rango lineal de respuesta. Como resultados del análisis se deben obtener los desplazamientos horizontales de la estructura, incluyendo los efectos torsionales, los cuales se emplean para evaluar el cumplimiento de los requisitos de deriva para el umbral de daño. Si los elementos no estructurales fueron incluidos en el análisis deben determinarse sus deformaciones y esfuerzos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.4",
+      "title": "USO DEL MÉTODO DE ANÁLISIS DINÁMICO EN LA EVALUACIÓN DEL UMBRAL DE DAÑO",
+      "content": "Cuando se utilice el método del análisis dinámico deben emplearse los requisitos del Capítulo A.5, empleando los movimientos sísmicos correspondientes al umbral de daño en vez de los movimientos sísmicos de diseño. El ajuste de los resultados indicado en A.5.4.5 debe hacerse con respecto al valor de Vsd, obtenido por medio de la ecuación A.12.4-1, en vez de Vs."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5",
+      "title": "REQUISITOS DE LA DERIVA PARA EL UMBRAL DE DAÑO",
+      "content": "REQUISITOS DE LA DERIVA PARA EL UMBRAL DE DAÑO"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.1",
+      "title": "DESPLAZAMIENTOS TOTALES HORIZONTALES PARA EL UMBRAL DE DAÑO",
+      "content": "Los desplazamientos horizontales, en las dos direcciones principales en planta, que tienen todos los grados de libertad de la estructura al verse afectada por los movimientos sísmicos para el umbral de daño, definidos en A.12.2, se determinan por medio del análisis estructural realizado utilizando el método de análisis definido en A.12.4 y con las rigideces indicadas en A.12.4.2. Los desplazamientos horizontales para el umbral de daño, en cualquiera de las direcciones principales en planta y para cualquier grado de libertad de la estructura, se obtienen por medio de la ecuación A.6.2-1, con la excepción de que no hay necesidad de incluir los desplazamientos causados por los efectos P-Delta."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.2",
+      "title": "DERIVA MÁXIMA PARA EL UMBRAL DE DAÑO",
+      "content": "La deriva máxima, para el umbral de daño, en cualquier punto del piso bajo estudio se obtiene por medio de la ecuación A.6.3-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.3",
+      "title": "LÍMITES DE LA DERIVA PARA EL UMBRAL DE DAÑO",
+      "content": "La deriva máxima, para el umbral de daño, evaluada en cualquier punto de la estructura, determinada de acuerdo con el procedimiento de A.12.5.2, no puede exceder los límites establecidos en la tabla A.12.5-1, en la cual la deriva máxima se expresa como un porcentaje de la altura de piso hpi :"
+    }
+  ],
+  "references": [
+    "A.4.2",
+    "A.12.3",
+    "A.4.3-1",
+    "A.4.3-2",
+    "A.4.4.1",
+    "A.5",
+    "A.5.4.5",
+    "A.12.2",
+    "A.12.4",
+    "A.12.4.2",
+    "A.6.2-1",
+    "A.6.3-1",
+    "A.12.5-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

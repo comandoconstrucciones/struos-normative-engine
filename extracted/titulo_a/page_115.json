@@ -1,0 +1,85 @@
+{
+  "page_number": 115,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3.3",
+      "title": null,
+      "content": "Alternativamente cuando el municipio o distrito, realice un estudio de microzonificación sísmica, o disponga de una red acelerográfica local, con base en el estudio de microzonificación o en los registros obtenidos, es posible modificar, por medio de un acuerdo municipal, el valor de Ae, con respecto a los valores dados aquí, pero en ningún caso este valor podrá ser menor al dado en el presente Reglamento. Véase A.2.9.3.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3.4",
+      "title": null,
+      "content": "La forma de los espectros de diseño para la evaluación y la intervención de edificaciones existentes con seguridad limitada se obtiene de la sección A.2.6, sustituyendo allí los valores de Aa y Av por el valor de Ae dado en A.10.3.2 y A.10.3.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3.5",
+      "title": null,
+      "content": "Cuando se realice un estudio particular de sitio y se utilice el procedimiento de diseño con seguridad limitada, se deben cumplir los requisitos de A.2.10.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4",
+      "title": "CRITERIOS DE EVALUACIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.1",
+      "title": "GENERAL",
+      "content": "Debe determinarse si la edificación en su estado actual está en capacidad de resistir adecuadamente las cargas prescritas por el presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2",
+      "title": "SOLICITACIONES EQUIVALENTES",
+      "content": "Debe establecerse una equivalencia entre las solicitaciones que prescribe este Reglamento y las que la estructura está en capacidad de resistir en su estado actual. Al respecto se deben utilizar los siguientes criterios:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.1",
+      "title": "Movimientos sísmicos para un nivel de seguridad equivalente al de una edificación nueva",
+      "content": "Se deben utilizar los movimientos sísmicos de diseño que prescribe el Capítulo A.2 para el lugar en que se encuentre la edificación, para el Grupo de Uso que va a tener una vez se lleve a cabo la modificación, con el fin de analizar la estructura como si fuera una edificación nueva."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.2",
+      "title": "Movimientos sísmicos para un nivel de seguridad limitada",
+      "content": "Se deben utilizar los movimientos sísmicos de diseño que prescribe A.10.3 para el lugar en que se encuentre la edificación, para el Grupo de Uso que va a tener una vez se lleve a cabo la modificación, cuando de acuerdo al A.10.9 este Reglamento explícitamente permita que el análisis de la estructura se realice para un nivel de seguridad limitada."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.3",
+      "title": "Clasificación del sistema estructural",
+      "content": "El sistema estructural debe clasificarse dentro de uno de los sistemas estructurales que define el Capítulo A.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.4",
+      "title": "Coeficiente de capacidad de disipación de energía, R'",
+      "content": "De acuerdo con el sistema estructural a que corresponda la edificación y a los requisitos constructivos y de diseño que se hayan seguido en la ejecución de la estructura original debe asignarse un valor del coeficiente de capacidad de disipación de energía, R (R = ΦₐΦₚΦᵣR₀), el cual se denominará R' dentro del presente Capítulo. La asignación debe hacerse de acuerdo con la información disponible sobre la estructura.\n(a) Cuando se disponga de buena información sobre el diseño original, tal como planos y memorias, se permite, de acuerdo con el mejor criterio del ingeniero que lleva a cabo la evaluación, determinar un valor de coeficiente de capacidad de disipación de energía, R', por comparación con los requisitos que para el material y el sistema estructural fija el Reglamento. La selección del coeficiente de capacidad de disipación de energía, R', cuando haya cumplimiento parcial de los requisitos puede aproximarse interpolando entre los valores de R que da el Capítulo A.3.\n(b) Cuando no se disponga de buena información sobre el diseño original, o ésta sea incompleta o fragmentaria, el ingeniero que lleve a cabo la evaluación debe definir un valor de R' de acuerdo con su mejor criterio. Este valor no puede ser mayor que el valor que el Capítulo A.3 establezca para mismo sistema estructural y el mismo material.\n(c) Cuando no exista ningún tipo de información, se permite utilizar un valor de R' correspondiente a tres cuartos del valor que fija el Capítulo A.3 para el mismo sistema estructural y el mismo material. El valor así obtenido no hay necesidad de que sea menor que la unidad."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.10.4.2.4",
+      "formula_latex": "R = \\Phi_a \\Phi_p \\Phi_r R_0",
+      "formula_python": "R = Phi_a * Phi_p * Phi_r * R0",
+      "formula_variables": {}
+    }
+  ],
+  "references": [
+    "A.2.9.3.6",
+    "A.2.6",
+    "A.10.3.2",
+    "A.10.3.3",
+    "A.2.10.2.6",
+    "Capítulo A.2",
+    "A.10.3",
+    "A.10.9",
+    "Capítulo A.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

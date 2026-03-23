@@ -1,0 +1,71 @@
+{
+  "page_number": 48,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2",
+      "title": "ALCANCE Y METODOLOGÍA",
+      "content": "El alcance del estudio sísmico particular de sitio debe cubrir, como mínimo, los siguientes temas, los cuales deben consignarse en un informe detallado en el cual se describan las labores realizadas, los resultados de estas labores y las fuentes de información provenientes de terceros:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.1",
+      "title": "Entorno geológico y tectónico, sismología regional, y fuentes sismogénicas",
+      "content": "Cuando no se realice un estudio con alcance equivalente al que se exige en A.2.9.3.1, A.2.9.3.2 y A.2.9.3.3, se permite la utilización de estudios realizados por terceros, que hayan sido publicados y que sean de aceptación general dentro de los especialistas que conozcan sobre estos aspectos en la región. Cuando exista una microzonificación sísmica vigente deben utilizarse los resultados de las fases del estudio de microzonificación sísmica descritas en A.2.9.3.1, A.2.9.3.2 y A.2.9.3.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.2",
+      "title": "Espectro de Aceleración de diseño en roca y familias de acelerogramas a utilizar",
+      "content": "Para efectos de definir el espectro de aceleración a utilizar en roca puede utilizarse el indicado en A.2.6 con los valores indicados en A.2.2 para la ciudad, o puede realizarse un estudio con el alcance indicado en A.2.9.3.4 y teniendo en cuenta que la utilización de aceleraciones espectrales menores de las dadas en A.2.6 requiere una autorización especial de la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes, creada por medio de la Ley 400 de 1997 y adscrita al Ministerio de Ambiente, Vivienda y Desarrollo Territorial por medio de una solicitud al respecto debidamente sustentada. Cuando exista una microzonificación sísmica vigente deben utilizarse los resultados de la fase del estudio de microzonificación sísmica descrita en A.2.9.3.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.10.2.3",
+      "title": "Exploración geotécnica adicional a la requerida para el diseño de la cimentación",
+      "content": "Adicionalmente a la exploración geotécnica requerida por el Título H del Reglamento para la edificación en particular con el fin de determinar el tipo de cimentación y los parámetros de diseño de la misma, el alcance de la exploración geotécnica debe incluir los siguientes aspectos para efectos del estudio sísmico particular de sitio:\n(a) Realización de al menos un sondeo hasta roca o hasta un material que presente una velocidad de la onda de cortante sensiblemente mayor que la de los materiales localizados sobre él y se presente un contraste de velocidad de onda de cortante que permita inferir que por encima de este estrato del perfil se presenta la amplificación de las ondas sísmicas. En caso que dicha profundidad hasta la roca o hasta un material que presente una velocidad de la onda de cortante sensiblemente mayor que la de los materiales localizados sobre él supere los 50 m, se podrá limitar la exploración hasta dicha profundidad en la medida que se pueda complementar la información del sondeo por métodos geofísicos y/o por estudios regionales que provean la información asociada a los estratos bajo dicho nivel.\n(b) Definición de las propiedades del suelo en la profundidad del perfil desde el punto de vista de ingeniería, tales como: peso específico, peso unitario, contenido de agua, resistencia al corte, comportamiento bajo cargas cíclicas a través del módulo dinámico de cortante y valores de la capacidad de amortiguamiento histerético. Estas propiedades deben establecerse utilizando, según sea el caso aplicable, mediciones en el sitio, o ensayos de laboratorio sobre muestras inalteradas obtenidas del sondeo o los sondeos si se realizó más de uno. El estudio de clasificación y características de los suelos debe identificar la presencia de suelos granulares saturados y poco compactos, con el fin de establecer la susceptibilidad a la licuación. Para el"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.10-1",
+      "title": "Casos en los cuales se requiere estudio sísmico particular de sitio",
+      "table_headers": [
+        "Perfil de suelo tipo",
+        "Subtipo de perfil",
+        "Descripción del perfil"
+      ],
+      "table_rows": [
+        [
+          "F",
+          "F1",
+          "Suelos susceptibles a la falla o colapso causado por la excitación sísmica, tales como: suelos licuables, arcillas sensitivas, suelos dispersivos o débilmente cementados, entre otros."
+        ],
+        [
+          "F",
+          "F2",
+          "Turba y arcillas orgánicas y muy orgánicas (H > 3 m para turba o arcillas orgánicas y muy orgánicas)"
+        ],
+        [
+          "F",
+          "F3",
+          "Arcillas de muy alta plasticidad (H > 7.5 m con Índice de Plasticidad IP > 75)"
+        ],
+        [
+          "F",
+          "F4",
+          "Perfiles de gran espesor de arcillas de rigidez mediana a blanda (H > 36 m)"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.2.9.3.1",
+    "A.2.9.3.2",
+    "A.2.9.3.3",
+    "A.2.6",
+    "A.2.2",
+    "A.2.9.3.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,424 @@
+{
+  "page_number": 7,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.3",
+      "title": "PROCEDIMIENTO RECOMENDADO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2",
+      "title": "INFORMACIÓN GEOTÉCNICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.1",
+      "title": "EXPLORACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.2",
+      "title": "LABORATORIO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.3",
+      "title": "INTERPRETACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.4",
+      "title": "REVISIÓN Y EVALUACIÓN DE LOS RESULTADOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3",
+      "title": "ANÁLISIS Y DISEÑO ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.1",
+      "title": "TIPO DE MODELO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.2",
+      "title": "FUERZAS DE DISEÑO DE LOS ELEMENTOS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.3",
+      "title": "DERIVAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.4",
+      "title": "CORTANTE SÍSMICO EN LA BASE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.5",
+      "title": "VALORES MÁXIMOS Y MÍNIMOS DE LOS EFECTOS DE INTERACCIÓN SUELO-ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.8",
+      "title": "EFECTOS SÍSMICOS SOBRE ELEMENTOS ESTRUCTURALES QUE NO HACEN PARTE DEL SISTEMA DE RESISTENCIA SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.1.1",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.1.2",
+      "title": "RESPONSABILIDAD DEL DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.1.3",
+      "title": "CRITERIO DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2",
+      "title": "FUERZAS HORIZONTALES DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1",
+      "title": "ACELERACIÓN HORIZONTAL SOBRE EL ELEMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.1",
+      "title": "Método de la fuerza horizontal equivalente",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.2",
+      "title": "Método del análisis dinámico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.2",
+      "title": "FUERZAS HORIZONTALES SOBRE EL ELEMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.3",
+      "title": "FUERZAS SOBRE LAS UNIONES AL SISTEMA DE RESISTENCIA SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.3",
+      "title": "DEFORMACIONES DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.4",
+      "title": "REQUISITOS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.9",
+      "title": "ELEMENTOS NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.1",
+      "title": "PROPÓSITO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.2",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.3",
+      "title": "EXENCIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2",
+      "title": "GRADO DE DESEMPEÑO DE LOS ELEMENTOS NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.1",
+      "title": "DEFINICIÓN DEL DESEMPEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.2",
+      "title": "CLASIFICACIÓN EN UNO DE LOS GRADOS DE DESEMPEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.2.3",
+      "title": "GRADO DE DESEMPEÑO MÍNIMO",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.9.2-1",
+      "title": "Grado de desempeño mínimo requerido",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3",
+      "title": "RESPONSABILIDADES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.1",
+      "title": "DEL DISEÑADOR RESPONSABLE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.2",
+      "title": "DEL SUPERVISOR TÉCNICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.3",
+      "title": "COORDINACIÓN ENTRE DISEÑOS DE ELEMENTOS QUE HACEN PARTE DE DIFERENTES SISTEMAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4",
+      "title": "CRITERIO DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.1",
+      "title": "Aceleración en el punto de soporte del elemento – a.c.",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.2",
+      "title": "Amplificación dinámica del elemento no estructural - ap",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.3",
+      "title": "Capacidad de disipación de energía en el rango inelástico del elemento no estructural - Rp",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.3",
+      "title": "CAPACIDAD DE DEFORMACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.4",
+      "title": "APLICACIÓN DE LAS FUERZAS SÍSMICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.5",
+      "title": "TRANSFERENCIA DE LAS FUERZAS SÍSMICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.6",
+      "title": "OTRAS SOLICITACIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.7",
+      "title": "DISEÑO UTILIZANDO EL MÉTODO DE ESFUERZOS DE TRABAJO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.8",
+      "title": "ELEMENTOS NO ESTRUCTURALES LOCALIZADOS EN LA BASE DE LA ESTRUCTURA Y POR DEBAJO DE ELLA, O FUERA DE ELLA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9",
+      "title": "TIPOS DE ANCLAJE SEGÚN EL VALOR DE R, PERMITIDO PARA EL ELEMENTO NO ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.1",
+      "title": "Especiales (R = 6)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.2",
+      "title": "Dúctiles (R, = 6)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.3",
+      "title": "– No dúctiles (R, = 1.5)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.4",
+      "title": "– Húmedos (R = 0.5)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.10",
+      "title": "ELEMENTOS DE CONEXIÓN PARA COMPONENTES NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5",
+      "title": "ACABADOS Y ELEMENTOS ARQUITECTÓNICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.2",
+      "title": "ELEMENTOS QUE REQUIEREN ESPECIAL CUIDADO EN SU DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.3",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.4",
+      "title": "FUERZAS DE VIENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.5",
+      "title": "ANCLAJE DE LAS FACHADAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.6",
+      "title": "CAPACIDAD DE DEFORMACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.7",
+      "title": "FUERZAS SÍSMICAS EN LA DIRECCIÓN PERPENDICULAR AL PLANO DEL MURO NO ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.8",
+      "title": "CIELOS RASOS",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.9.5-1",
+      "title": "Coeficiente de amplificación dinámica, ap, y tipo de anclajes o amarres requeridos, usado para determinar el coeficiente de capacidad de disipación de energía R,, para elementos arquitectónicos y acabados",
+      "table_headers": [],
+      "table_rows": []
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

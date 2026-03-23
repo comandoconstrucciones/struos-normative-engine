@@ -1,0 +1,89 @@
+{
+  "page_number": 161,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2",
+      "title": "PROCEDIMIENTO NO LINEAL ESTÁTICO",
+      "content": "Se deben utilizar los requisitos de esta sección cuando se use el procedimiento no lineal estático para diseñar estructuras."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.1",
+      "title": "Modelación",
+      "content": "Se debe definir un modelo matemático de la estructura que represente adecuadamente la distribución espacial de la masa y de la rigidez del sistema estructural considerando los efectos de la no linealidad de los componentes para los niveles de deformación que excedan el límite proporcional. Se deben incluir los efectos P-Delta en el análisis.\n\nPara estructuras regulares con sistemas de resistencia sísmica ortogonales, se permite usar modelos independientes bi-dimensionales para representar cada sistema. Para estructuras que tienen irregularidades en planta Tipos 4P y 5P, como se define en la Tabla A.3-6 o estructuras sin sistemas ortogonales independientes se debe usar un modelo tridimensional que incorpore un mínimo de tres grados de libertad para cada nivel de la estructura, consistentes en la translación en dos direcciones ortogonales y la rotación torsional respecto al eje vertical. Cuando los diafragmas no son rígidos comparados con los elementos verticales del sistema de resistencia sísmica, el modelo debe incluir la representación de la flexibilidad del diafragma.\n\nA menos que el análisis indique que el componente permanece en el rango elástico, se debe usar un modelo fuerza-deformación no lineal para representar la rigidez de los componentes antes de llegar a la fluencia, la resistencia a la fluencia y las propiedades de rigidez de los componentes a diferentes niveles de deformación después de la fluencia. Las propiedades de los componentes de los modelos no lineales deben ser consistentes con los principios de la mecánica o con datos experimentales. Las propiedades que representan el comportamiento de los componentes antes de la fluencia deben ser consistentes con lo indicado en el Capítulo A.5. La resistencia de los elementos no debe exceder los valores esperados teniendo en cuenta la sobre resistencia del material y el endurecimiento por deformación. Las propiedades de los elementos y componentes más allá de fluencia deben tener en cuenta la degradación de la resistencia y la rigidez de acuerdo con los principios de la mecánica estructural o los resultados de ensayos experimentales. El modelo para las columnas debe tener en cuenta la influencia de la carga axial cuando se excede el 15% de la resistencia a la compresión. Igualmente se deben considerar los efectos de fisuración de la sección en el caso de las propiedades de rigidez de elementos de concreto y mampostería, así como la contribución de las deformaciones de las zonas de panel para los desplazamientos generalizados de piso en los pórticos de acero resistentes a momentos. Se debe suponer que la estructura tiene una base fija o alternativamente se debe permitir usar consideraciones reales con relación a la rigidez y a las características de capacidad de carga de las fundaciones, consistentemente con los datos del suelo específico del sitio y los principios racionales de la mecánica de suelos.\n\nSe debe seleccionar un punto de control para cada modelo. Para estructuras sin altillos el punto de control debe ser en el centro de la masa del nivel más alto de la estructura. Para estructuras con altillos, el punto de control debe estar en el centro de la masa del nivel en la base del altillo."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Te",
+      "content": "el periodo fundamental efectivo de la estructura en la dirección que se está considerando, como se determina en la Sección A-3.2.3"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vj",
+      "content": "la fuerza lateral total aplicada al incremento de carga j"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vi",
+      "content": "la fuerza lateral total aplicada al primer incremento de la carga lateral"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vy",
+      "content": "resistencia efectiva a la fluencia determinada de una curva bilineal ajustada a la curva de capacidad de acuerdo con la Sección A-3.2.3"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Δ",
+      "content": "deriva del piso como se determina la Sección A-3.2.6"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Yi",
+      "content": "las deformaciones del miembro i"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δj",
+      "content": "el desplazamiento del punto de control a un incremento de carga j"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δT",
+      "content": "el desplazamiento objetivo del punto de control determinado de acuerdo con la Sección A-3.2.5"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δi",
+      "content": "el desplazamiento del punto de control al primer incremento de la carga lateral"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δy",
+      "content": "el desplazamiento efectivo de fluencia del punto de control determinado de una curva bilineal ajustada a la curva de capacidad de acuerdo con la Sección A-3.2.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φi",
+      "content": "la amplitud del vector característico de forma al Niveli, determinada de acuerdo con la Sección A-3.2.4"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Ωo",
+      "content": "coeficiente de sobreresistencia. Véase A.3.3.9."
+    }
+  ],
+  "references": [
+    "A.2.6",
+    "A-3.2.3",
+    "A-3.2.6",
+    "A-3.2.5",
+    "A-3.2.4",
+    "A.3.3.9",
+    "Tabla A.3-6",
+    "Capítulo A.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

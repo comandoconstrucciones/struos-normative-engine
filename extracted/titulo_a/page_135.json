@@ -1,0 +1,66 @@
+{
+  "page_number": 135,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.12",
+      "title": "NSR-10 - Capítulo A.12 - Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV",
+      "content": "NSR-10 - Capítulo A.12 - Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.5-1",
+      "title": "Tabla A.12.5-1\nDerivas máximas para el umbral de daño como porcentaje de hpi",
+      "table_headers": [
+        "Estructuras de:",
+        "Deriva máxima"
+      ],
+      "table_rows": [
+        [
+          "concreto reforzado, metálicas, de madera, y de mampostería que cumplen los requisitos de A.12.5.3.1",
+          "0.40% (Amax ≤ 0.0040 hpi)"
+        ],
+        [
+          "de mampostería que cumplen los requisitos de A.12.5.3.2",
+          "0.20% (Amax ≤ 0.0020 hpi hpi)"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.3.1",
+      "title": null,
+      "content": "Se permite emplear el límite de deriva máxima permisible de 0.0040hpi en edificaciones construidas con mampostería estructural cuando éstas estén compuestas por muros cuyo modo prevaleciente de falla sea la flexión ante fuerzas paralelas al plano del muro, diseñados esencialmente como elementos verticales esbeltos que actúan como voladizos apoyados en su base o cimentación y que se construyen de tal manera que la transferencia de momento entre muros a través de los elementos horizontales de acople en los diafragmas de entrepiso, ya sean losas, vigas de enlace, antepechos o dinteles, sea despreciable."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.3.2",
+      "title": null,
+      "content": "Cuando se trate de muros de mampostería poco esbeltos o cuyo modo prevaleciente de falla sea causado por esfuerzos cortantes, debe emplearse el límite de deriva máxima permisible de 0.0020hpi."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6",
+      "title": "VERIFICACIÓN DE ESFUERZOS",
+      "content": "VERIFICACIÓN DE ESFUERZOS"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6.1",
+      "title": "ELEMENTOS ESTRUCTURALES",
+      "content": "ELEMENTOS ESTRUCTURALES — No hay necesidad de verificar los elementos estructurales para los esfuerzos generados por el sismo del umbral de daño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6.2",
+      "title": "MUROS NO ESTRUCTURALES",
+      "content": "MUROS NO ESTRUCTURALES — No hay necesidad de verificar los elementos no estructurales para los esfuerzos generados por el sismo del umbral de daño."
+    }
+  ],
+  "references": [
+    "A.12.5.3.1",
+    "A.12.5.3.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

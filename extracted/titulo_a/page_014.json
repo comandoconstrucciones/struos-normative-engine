@@ -1,0 +1,95 @@
+{
+  "page_number": 14,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.2.2",
+      "title": null,
+      "content": "Una edificación diseñada siguiendo los requisitos de este Reglamento, debe ser capaz de resistir, además de las fuerzas que le impone su uso, temblores de poca intensidad sin daño, temblores moderados sin daño estructural, pero posiblemente con algún daño a los elementos no estructurales y un temblor fuerte con daños a elementos estructurales y no estructurales pero sin colapso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.2.3",
+      "title": null,
+      "content": "Además de la defensa de la vida, con el cumplimiento de los niveles prescritos por el presente Reglamento para los movimientos sísmicos de diseño, los cuales corresponden a requisitos mínimos establecidos para el diseño de elementos estructurales y elementos no estructurales, se permite proteger en alguna medida el patrimonio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.2.4",
+      "title": null,
+      "content": "Los movimientos sísmicos de diseño prescritos en el presente Reglamento corresponden a los que afectarían las edificaciones de presentarse un sismo fuerte. Ante la ocurrencia, en el territorio nacional, de un sismo fuerte que induzca movimientos de características similares a los movimientos sísmicos de diseño prescritos en el presente Reglamento deben esperarse, en las edificaciones construidas cumpliendo con el Reglamento, daños estructurales y no estructurales reparables, aunque en algunos casos pueda que no sea económicamente factible su reparación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.2.5",
+      "title": null,
+      "content": "Para las edificaciones indispensables y de atención a la comunidad como las define el Capítulo A.2 del presente Reglamento, se espera que el daño producido por movimientos sísmicos de características similares a los movimientos sísmicos de diseño prescritos en él sea reparable y no sea tan severo que inhiba la operación y ocupación inmediata y continuada de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.3",
+      "title": "ALCANCE",
+      "content": "El presente Reglamento de Construcciones Sismo Resistentes, NSR-10, contiene:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.3.1",
+      "title": null,
+      "content": "Los requisitos mínimos para el diseño y construcción de edificaciones nuevas, con el fin de que sean capaces de resistir las fuerzas que les impone la naturaleza o su uso y para incrementar su resistencia a los efectos producidos por los movimientos sísmicos. Además establece, en el Título E, requisitos simplificados de diseño y construcción para casas de uno y dos pisos que pertenezcan al grupo de uso I tal como lo define A.2.5.1.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.3.2",
+      "title": null,
+      "content": "Para edificaciones construidas antes de la vigencia del presente Reglamento, el Capítulo A.10 establece los requisitos a emplear en la evaluación, adición, modificación y remodelación del sistema estructural; el análisis de vulnerabilidad, el diseño de las intervenciones de reforzamiento y rehabilitación sísmica, y la reparación de edificaciones con posterioridad a la ocurrencia de un sismo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.3.3",
+      "title": null,
+      "content": "En el Capítulo A.12 se establecen requisitos especiales para el diseño y construcción sismo resistente de edificaciones indispensables pertenecientes al grupo de uso IV tal como lo define A.2.5.1.1 y las incluidas en los literales (a), (b), (c) y (d) del grupo de uso III, tal como lo define A.2.5.1.2, esenciales para la recuperación de la comunidad con posterioridad a la ocurrencia de una emergencia, incluyendo un sismo. En relación con las edificaciones incluidas en los literales (e) y (f) del grupo de uso III, como lo define A.2.5.1.2, queda a decisión del propietario en el primer caso o de la autoridad competente en el segundo definir si se requiere adelantar el diseño de ellas según los requisitos especiales del Capítulo A.12."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4",
+      "title": "EXCEPCIONES",
+      "content": "El presente Reglamento de Construcciones Sismo Resistentes, NSR-10, es aplicable a edificaciones (construcciones cuyo uso primordial es la habitación u ocupación por seres humanos) y no se aplica a:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4.1",
+      "title": null,
+      "content": "El diseño y construcción de estructuras especiales tales como puentes, torres de transmisión, torres y equipos industriales, muelles, estructuras hidráulicas y todas aquellas construcciones diferentes de edificaciones."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4.2",
+      "title": null,
+      "content": "Estructuras cuyo comportamiento dinámico y respuesta ante los movimientos sísmicos de diseño difiera del de edificaciones convencionales. Cuando el uso de estas estructuras es la habitación u ocupación por seres humanos, su diseño y construcción debe someterse a lo prescrito en el Capítulo II, Artículos 8° a 14° de la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4.3",
+      "title": null,
+      "content": "Estructuras que no estén cubiertas dentro de las limitaciones de cada uno de los materiales estructurales prescritos dentro de este Reglamento. Cuando el uso de estas estructuras es la habitación u ocupación por seres humanos, su diseño y construcción debe someterse a lo prescrito en el Capítulo II, Artículos 8° a 14° de la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4.4",
+      "title": null,
+      "content": "Para el diseño sismo resistente de algunas estructuras que se salen del alcance del Reglamento,"
+    }
+  ],
+  "references": [
+    "A.2",
+    "A.2.5.1.4",
+    "A.10",
+    "A.12",
+    "A.2.5.1.1",
+    "A.2.5.1.2",
+    "Capítulo A.12",
+    "Capítulo II"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

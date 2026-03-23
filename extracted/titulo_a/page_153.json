@@ -1,0 +1,24 @@
+{
+  "page_number": 153,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-2.0",
+      "title": "NOMENCLATURA",
+      "content": "Aa = coeficiente que representa la aceleración pico efectiva, para diseño, dado en A.2.2.\nAo = área de la cimentación.\nDs = profundidad del estrato blando. Véase A-2.2.1.2.\nGo = yvs0^2 = módulo de cortante promedio para los suelos localizados bajo la cimentación para deformaciones unitarias pequeñas.\ng = aceleración de la gravedad (9.8 m/s²)\nhx = altura medida desde la base del nivel en estudio.\nh = altura efectiva de la edificación, la cual debe tomarse igual a 0.7 veces la altura total, hn. En edificios en los cuales toda la masa M de la edificación está concentrada en un solo piso, debe tomarse igual a la altura del piso, medida desde la base.\nIo = momento de inercia de la cimentación con respecto a un eje horizontal, perpendicular a la dirección en estudio.\nk = rigidez de la estructura considerándola como empotrada en la base. Se calcula por medio de la ecuación A-2-4.\nKy = rigidez lateral de la cimentación de la edificación, la cual se define como la fuerza estática horizontal aplicada en la cimentación, que produce una deflexión horizontal unitaria. Tanto la fuerza estática como la deflexión horizontal se toman en la dirección en estudio.\nKθ = rigidez rotacional, o de balanceo, de la cimentación de la edificación, definida como el momento estático necesario para producir una rotación unitaria, en promedio, de la cimentación con respecto a un eje horizontal perpendicular a la dirección en estudio.\nLo = longitud total de la cimentación en la dirección en estudio.\nMo = momento de vuelco en la base de la edificación calculado utilizando las fuerzas horizontales de diseño sin incluir la reducción por efectos de interacción suelo-estructura.\nM1o = momento de vuelco en la base de la edificación calculado utilizando las fuerzas horizontales correspondientes al primer modo sin incluir la reducción por efectos de interacción suelo-estructura.\nM = masa participante de la edificación, el cual puede tomarse igual a 0.7M, excepto en aquellos casos en los cuales toda la masa M de la edificación está concentrado en un solo piso, caso en el cual debe tomarse igual a M.\nMij = masa participante de la edificación, para el modo fundamental de la edificación en la dirección j, calculado utilizando la ecuación A.5.4-2.\nr = longitud característica de la cimentación. Se determina por medio de las ecuaciones A-2-7 ο Α-2-8.\nra = longitud característica de la cimentación. Definida por medio de la ecuación A-2-7.\nrm = longitud característica de la cimentación. Definida por medio de la ecuación A-2-8.\nSa = valor del espectro de aceleraciones de diseño, determinado de acuerdo con los requisitos del Capítulo Α.2, correspondiente al período fundamental de la estructura, To Ta, considerada empotrada en su base, calculado de acuerdo con lo prescrito en A.4.2.\nSal = valor del espectro de aceleraciones de diseño, determinado de acuerdo con los requisitos del Capítulo Α.2, correspondiente al período del modo fundamental de la estructura, T₁, considerada empotrada en su base.\nSa = valor del espectro de aceleraciones de diseño, determinado de acuerdo con los requisitos del Capítulo Α.2, correspondiente al período fundamental de la estructura, T, cuando éste se calcula considerando los efectos de la interacción suelo-estructura, tal como se define en A-2.2.1.1.\nSal = valor del espectro de aceleraciones de diseño, determinado de acuerdo con los requisitos del Capítulo A.2,"
+    }
+  ],
+  "references": [
+    "A.2.2",
+    "A-2.2.1.2",
+    "A-2-4",
+    "A.5.4-2",
+    "A-2-7",
+    "Α-2-8",
+    "Α.2",
+    "A.4.2",
+    "A-2.2.1.1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

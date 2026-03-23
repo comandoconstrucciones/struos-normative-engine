@@ -1,0 +1,63 @@
+{
+  "page_number": 89,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1.4",
+      "title": null,
+      "content": "Cuando se trate de muros de mampostería estructural poco esbeltos o cuyo modo prevaleciente de falla sea causado por esfuerzos cortantes, debe emplearse el límite de deriva máxima permisible de 0.005hpi."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1.5",
+      "title": null,
+      "content": "No hay límites de deriva en edificaciones de un piso, siempre que los muros y las particiones interiores y exteriores así como los cielorrasos se diseñen para acomodar las derivas del piso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5",
+      "title": "SEPARACIÓN ENTRE ESTRUCTURAS ADYACENTES POR CONSIDERACIONES SÍSMICAS",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.1",
+      "title": "DENTRO DE LA MISMA CONSTRUCCIÓN",
+      "content": "Todas las partes de la estructura deben diseñarse y construirse para que actúen como una unidad integral para efectos de resistir las fuerzas sísmicas, a menos que se separen una distancia suficiente para evitar la colisión nociva entre las partes. Para determinar la distancia mínima de separación debe sumarse el valor absoluto de los desplazamientos horizontales totales obtenidos en A.6.2.1 para cada una de las porciones de la edificación en la dirección perpendicular a la junta que las separe, a menos que se tomen medidas para que no se presente daño a la estructura al utilizar una distancia menor."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2",
+      "title": "ENTRE EDIFICACIONES VECINAS QUE NO HAGAN PARTE DE LA MISMA CONSTRUCCIÓN",
+      "content": "La separación entre edificaciones vecinas, para evitar efectos nocivos ante la ocurrencia de un sismo, debe cumplir los siguientes requisitos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.1",
+      "title": "Alcance",
+      "content": "La presente reglamentación es aplicable en los siguientes casos:\n(a) En municipios localizados en Zonas de Amenaza Sísmica Baja según lo dispone el presente Reglamento en su Capítulo A.2 no se requieren consideraciones de separación sísmica entre edificaciones vecinas.\n(b) Solo aplica para la obtención de licencias de construcción de edificaciones nuevas que se soliciten por primera vez con posterioridad a la adopción del presente Reglamento.\n(c) No aplica para el caso de edificaciones que sean objeto del trámite de Reconocimiento.\n(d) Para el caso de rehabilitaciones sísmicas de edificaciones existentes aplican los requisitos especiales que se indican en A.10.7.\n(e) Los requisitos de esta sección del Reglamento pueden ser modificados por la administración municipal o distrital, siempre y cuando los requisitos de la separación sísmica que resulten de la aplicación de la reglamentación municipal o distrital no sean menores que los dados aquí."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.2",
+      "title": "Definiciones",
+      "content": "En el Capítulo A.13 deben consultarse las siguientes definiciones: altura del piso, altura de la edificación en la colindancia, cerramiento, coincidencia de las losas de entrepiso en la colindancia, nivel (medido desde la base) de un piso en la colindancia, número de pisos aéreos de la edificación, número de pisos aéreos en la colindancia, y separación sísmica en la colindancia. Además debe tenerse en cuenta cuando el terreno es inclinado en la colindancia, o haya diferentes alturas de piso en la colindancia, o exista un número diferente de pisos aéreos en la colindancia, que debe utilizarse la altura de piso, o el número de pisos aéreos que conduzca a la mayor separación sísmica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.5.2.3",
+      "title": "Requisitos de separación sísmica con respecto al paramento del lote para edificaciones nuevas",
+      "content": "Deben cumplirse los siguientes requisitos para efectos de determinar la separación sísmica con respecto al paramento del lote en edificaciones nuevas cubiertas por el alcance dado en A.6.5.2.1:\n(a) Cuando el paramento del lote sea colindante con vía pública o zona verde pública no requiere separación sísmica con respecto al paramento en ese costado o costados. Ello no exime cumplir los requisitos urbanísticos de las normas municipales para la edificación en lo referente a retrocesos.\n(b) Cuando en la colindancia haya un cerramiento, y la edificación nueva esté separada de este cerramiento en una distancia que supera la señalada para el piso crítico en la Tabla A.6.5-1 no se"
+    }
+  ],
+  "references": [
+    "A.6.2.1",
+    "A.2",
+    "A.10.7",
+    "A.13",
+    "A.6.5.2.1",
+    "Tabla A.6.5-1"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

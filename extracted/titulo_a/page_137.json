@@ -1,0 +1,22 @@
+{
+  "page_number": 137,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "CAPÍTULO A.13\nDEFINICIONES Y NOMENCLATURA DEL TÍTULO A",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13.1",
+      "title": "DEFINICIONES",
+      "content": "Las definiciones siguientes corresponden al Título A de este Reglamento:\nAcabados — Partes y componentes de una edificación que no hacen parte de la estructura o de su cimentación.\nVéase elementos no estructurales\n\nAceleración pico efectiva, Aa — Es un parámetro utilizado para determinar el espectro de diseño y se da en A.2.2.\n\nAcelerograma — Descripción en el tiempo de las aceleraciones a que estuvo sometido el terreno durante la ocurrencia de un sismo real.\n\nAcelerógrafo — Instrumento que permite registrar las aceleraciones a que se ve sometido el terreno durante la ocurrencia de un sismo. Este registro queda consignado en un acelerograma.\n\nAltura de la edificación en la colindancia — Es la suma de las alturas de piso en la colindancia.\n\nAltura del piso — Es la distancia vertical medida entre el terminado de la losa de piso o de nivel de terreno y el terminado de la losa del nivel inmediatamente superior. En el caso que el nivel inmediatamente superior corresponda a la cubierta de la edificación esta medida se llevará hasta el nivel de enrace de la cubierta cuando esta sea inclinada o hasta al nivel de la impermeabilización o elemento de protección contra la intemperie cuando la cubierta sea plana. En los casos en los cuales la altura de piso medida como se indica anteriormente exceda 6 m, se considerará para efectos de calcular el número de pisos como dos pisos. Se permite que para el primer piso aéreo la altura del piso se mida desde la corona del muro de contención de la edificación nueva contra el paramento que está en la colindancia, cuando éste exista.\n\nAmenaza sísmica — Es el valor esperado de futuras acciones sísmicas en el sitio de interés y se cuantifica en términos de una aceleración horizontal del terreno esperada, que tiene una probabilidad de excedencia dada en un lapso de tiempo predeterminado.\n\nAmortiguamiento — Pérdida de energía en un movimiento ondulatorio.\n\nAmplificación de la onda sísmica — Aumento en la amplitud de las ondas sísmicas, producido por su paso desde la roca hasta la superficie del terreno a través de los estratos de suelo.\n\nAnálisis dinámico — Procedimiento matemático por medio del cual se resuelven las ecuaciones de equilibrio dinámico, con el fin de obtener las deformaciones y esfuerzos de la estructura al ser sometida a una excitación que varía en el tiempo.\n\nAnálisis dinámico elástico — Tipo de análisis dinámico en el cual las propiedades de rigidez y resistencia de la estructura permanecen dentro del rango de respuesta lineal.\n\nAnálisis dinámico inelástico — Tipo de análisis dinámico en el cual se tiene en cuenta que las propiedades de rigidez y resistencia de la estructura pueden salirse del rango de respuesta lineal y entrar en el rango de respuesta inelástica.\n\nAnálisis espectral - Tipo de análisis dinámico modal en el cual la respuesta dinámica máxima de cada modo se obtiene utilizando la ordenada del espectro, correspondiente al período de vibración del modo.\n\nAnálisis modal — Procedimiento de análisis dinámico por medio del cual la respuesta dinámica de la estructura se obtiene como la superposición de las respuestas de los diferentes modos, o formas de vibración.\n\nApéndice — Es un elemento no estructural que sobresale del volumen general de la edificación.\n\nArmadura - Véase cercha."
+    }
+  ],
+  "references": [
+    "A.2.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

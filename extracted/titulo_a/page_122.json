@@ -1,0 +1,40 @@
+{
+  "page_number": 122,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10",
+      "title": "REPARACIÓN DE EDIFICACIONES DAÑADAS POR SISMOS",
+      "content": "A.10.10.1 GENERAL Con posterioridad a la ocurrencia de un sismo, las edificaciones que hayan sufrido daños moderados a severos en su estructura, o daños moderados a severos en sus elementos no estructurales, o ambos, deberán ser evaluadas con base en los estudios e investigaciones como las estipuladas en la sección A.10.10.2, lo que permitirá establecer si es técnicamente factible adelantar su reparación. Ello proveerá criterios básicos para orientar la decisión del dueño o de la autoridad competente para, de ser el caso, designar la estructura para demolición total, o para apelar la decisión de demolición si ella ha sido tomada por la autoridad competente o el censo que se hay realizado para el efecto, antes de contar con el estudio referido. La reparación de aquellas edificaciones que finalmente no hayan sido designadas como de obligatoria demolición total, debe ser adelantada de acuerdo con las exigencias y criterios que a continuación se establecen:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.1",
+      "title": "Objeto",
+      "content": "Una edificación reparada de acuerdo con los requisitos establecidos aquí, debe cumplir el propósito mismo de las normas sismo resistentes como se indica en el artículo 1º de la Ley 400 de 1997 y en A.1.2.2 del presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.2",
+      "title": "Alcance de la reparación",
+      "content": "De acuerdo con el tipo de daños presentados, con excepción de las edificaciones de los grupos de uso III y IV las cuales deben cumplir con lo establecido en A.10.9.2.1, el alcance de la reparación se podrá enfocar de una de las siguientes maneras:\n1. Daños en los elementos no estructurales, sin daño en los elementos estructurales La reparación se limitará a intervenir los elementos no estructurales afectados, de acuerdo con los requisitos del Capítulo A.9 del Reglamento.\n2. Daños estructurales imputables a interacción adversa con elementos no estructurales Εl alcance de la reparación se puede limitar a reparar los elementos estructurales afectados, eliminando la interacción adversa de los elementos no estructurales, siguiendo los requisitos del Capítulo A.9.\n3. Otro tipo de daños El alcance de la reparación estará dictado por la capacidad de cumplir los objetivos estructurales primordiales del diseño sismo resistente de proveer resistencia adecuada ante las solicitaciones impuestas por el sismo sin que la estructura tenga deflexiones horizontales (derivas) excesivas al verse afectada por ellas. Para garantizar el cumplimiento de estos objetivos debe realizarse una evaluación de la estructura en general y de acuerdo con los resultados de esta evaluación determinar los elementos de la edificación que deben intervenirse, los cuales en muchos casos comprenden más de los que simplemente hay que reparar. El alcance de la intervención debe cubrir como mínimo:\n(a) Los elementos estructurales que sufrieron daño,\n(b) Los elementos estructurales del sistema de resistencia sísmica necesarios para dar la resistencia sísmica mínima requerida,\n(c) Los elementos estructurales del sistema de resistencia sísmica necesarios para cumplir los requisitos de deriva, y\n(d) Los elementos no estructurales que sufrieron daño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.3",
+      "title": "Ocupación de la edificación durante su reparación",
+      "content": "La edificación puede ser ocupada durante la ejecución de la reparación, si los profesionales encargados de su diseño y dirección emiten un concepto positivo al respecto, con base en que no haya peligro para la vida de los ocupantes."
+    }
+  ],
+  "references": [
+    "A.10.4",
+    "A.10.9",
+    "A.10.10.2",
+    "Ley 400 de 1997",
+    "A.1.2.2",
+    "A.10.9.2.1",
+    "Capítulo A.9"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

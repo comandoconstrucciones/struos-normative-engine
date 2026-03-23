@@ -1,0 +1,102 @@
+{
+  "page_number": 87,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.6",
+      "title": "Capítulo A.6 - Requisitos de la deriva",
+      "content": "Capítulo A.6 - Requisitos de la deriva"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2",
+      "title": "A.6.2",
+      "content": "La deflexión adicional causada por el efecto P-Delta en la dirección bajo estudio y para el piso i, se calcula por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.2-3",
+      "formula_latex": "\\delta_{pd} = \\delta_{cm} \\left( \\frac{Q_i}{1-Q_i} \\right)",
+      "formula_python": "delta_pd = delta_cm * (Qi / (1-Qi))",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.3.1",
+      "title": "A.6.2.3.1",
+      "content": "Alternativamente, los efectos P-Delta pueden evaluarse siguiendo los requisitos de C.10.11 en estructuras de concreto reforzado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.3.2",
+      "title": "A.6.2.3.2",
+      "content": "Cuando el índice de estabilidad es mayor de 0.10, los efectos P-Delta en las fuerzas internas de la estructura causadas por las cargas laterales deben aumentarse, multiplicándolas en cada piso por el factor 1/(1-Qi)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.4",
+      "title": "A.6.2.4 - DESPLAZAMIENTOS HORIZONTALES TOTALES",
+      "content": "DESPLAZAMIENTOS HORIZONTALES TOTALES — Los desplazamientos horizontales, en las dos direcciones principales ortogonales en planta, que tienen todos los grados de libertad de la estructura al verse afectada por los movimientos sísmicos de diseño definidos en A.2.2, se determinan por medio del análisis estructural realizado utilizando el método de análisis definido en A.3.4 y con las rigideces indicadas en A.3.4.3. Los desplazamientos totales horizontales, δtot,j ,en cualquiera de las direcciones principales en planta, j, y para cualquier grado de libertad de la estructura, se obtienen de la siguiente suma de valores absolutos:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.2-4",
+      "formula_latex": "\\delta_{tot,j} = |\\delta_{cm,j}| + |\\delta_{t,j}| + |\\delta_{pd,j}|",
+      "formula_python": "delta_tot_j = abs(delta_cm_j) + abs(delta_t_j) + abs(delta_pd_j)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.4_description",
+      "content": "donde δcm,j corresponde al desplazamiento horizontal del centro de masa en la dirección bajo estudio, j; δt,j el desplazamiento adicional causado por los efectos torsionales en la dirección bajo estudio cuando el diafragma sea rígido, j, y δpd,j al desplazamiento adicional causado por el efecto P-Delta en la dirección bajo estudio, j. Cuando se utilicen los procedimientos de interacción suelo-estructura, o cuando A.3.4.2 así lo requiera porque se realizó el análisis de la estructura suponiéndola empotrada en su base, deben incluirse dentro de los desplazamientos totales, los desplazamientos adicionales obtenidos de acuerdo con el procedimiento del Capítulo A.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3",
+      "title": "A.6.3 - EVALUACIÓN DE LA DERIVA MÁXIMA",
+      "content": "A.6.3 - EVALUACIÓN DE LA DERIVA MÁXIMA"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1",
+      "title": "A.6.3.1 - DERIVA MÁXIMA",
+      "content": "A.6.3.1 - DERIVA MÁXIMA - La deriva máxima para cualquier piso debe obtenerse así:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1.1",
+      "title": "A.6.3.1.1",
+      "content": "En edificaciones regulares e irregulares que no tengan irregularidades en planta de los tipos 1aP ó 1bP (véase la tabla A.3-6), o edificaciones con diafragma flexible, la deriva máxima para el piso i, Δimax, corresponde a la mayor deriva de las dos direcciones principales en planta, j, calculada como el valor absoluto de la diferencia algebraica de los desplazamientos horizontales del centro de masa del diafragma del piso i, δcm,j, en la dirección principal en planta bajo estudio con respecto a los del diafragma del piso inmediatamente inferior (i-1) en la misma dirección, incluyendo los efectos P-Delta."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1.2",
+      "title": "A.6.3.1.2",
+      "content": "En edificaciones que tengan irregularidades en planta de los tipos 1aP ó 1bP (véase la tabla A.3-6) la deriva máxima en cualquier punto del piso i, se puede obtener como la diferencia entre los desplazamientos horizontales totales máximos, de acuerdo con A.6.2.4, del punto en el piso i y los desplazamientos horizontales totales máximos de un punto localizado en el mismo eje vertical en el piso inmediatamente inferior (i-1), por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.3-1",
+      "formula_latex": "\\Delta_{max}^{i} = \\sqrt{\\sum_{j=1}^{2} {(\\delta_{tot,j}^{i} - \\delta_{tot,j}^{i-1})^2}}",
+      "formula_python": "Delta_max_i = (sum((delta_tot_j_i - delta_tot_j_i_minus_1)**2 for j in range(1,3)))**0.5",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1.2_alternative",
+      "content": "Alternativamente se pueden usar procedimientos para estimar respuestas máximas de cantidades vectoriales. El cumplimiento del cálculo de la deriva para cualquier punto del piso se puede realizar verificándola solamente en todos los ejes verticales de columna y en los puntos localizados en los bordes de los muros"
+    }
+  ],
+  "references": [
+    "C.10.11",
+    "A.2.2",
+    "A.3.4",
+    "A.3.4.3",
+    "A.3.4.2",
+    "Capítulo A.7",
+    "tabla A.3-6",
+    "A.6.2.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

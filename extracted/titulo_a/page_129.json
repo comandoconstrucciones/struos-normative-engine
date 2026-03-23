@@ -1,0 +1,48 @@
+{
+  "page_number": 129,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.12.0",
+      "title": "NOMENCLATURA",
+      "content": "Ad = coeficiente que representa la aceleración pico efectiva, para el umbral de daño, dado en A.12.2.\nEd = fuerzas sísmicas del umbral de daño.\nFv = coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los\nefectos de sitio, adimensional, dado en A.2.4.5.\ng = aceleración debida a la gravedad (g = 9.8 m/s²).\nhpi = altura del piso i, medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del\npiso inmediatamente inferior, i-1.\nI = coeficiente de importancia definido en A.2.5.2\nM = masa total de la edificación - M se expresa en kg. Debe ser igual a la masa total de la estructura más la\nmasa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y\nsus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa\ncorrespondiente a los elementos que causan la carga viva del piso. Capítulos A.4 y A.5.\nS = coeficiente de sitio dado en A.12.3.\nS̃ = coeficiente de sitio para ser empleado en el espectro sísmico del umbral de daño (S̃ = 1.25S).\nSad = valor del espectro sísmico del umbral de daño, para un período de vibración dado. Máxima aceleración\nhorizontal para el umbral de daño, expresada como una fracción de la aceleración de la gravedad, para un\nsistema de un grado de libertad con un período de vibración T. Está definido en A.12.3.\nT = período de vibración del sistema elástico, en segundos.\nTCd = período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante\ndel espectro sísmico del umbral de daño, para períodos cortos y la parte descendiente del mismo. Véase\nA.12.\nTLd = período de vibración, en segundos, correspondiente a la transición entre la zona de desplazamiento\nconstante del espectro sísmico del umbral de daño, para períodos largos. Véase A.12.3\nVs = cortante sísmico en la base de la estructura, calculado por el método de la fuerza horizontal equivalente\ndel Capítulo A.4.\nVsd = cortante sísmico en la base, para las fuerzas sísmicas del umbral de daño. Véase A.12.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1",
+      "title": "GENERAL",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.1",
+      "title": "PROPÓSITO",
+      "content": "El presente Capítulo contiene los requisitos adicionales, a los contenidos en los capítulos\nrestantes del presente Título, que se deben cumplir en el diseño y construcción sismo resistente de las edificaciones\npertenecientes al grupo de uso IV, definido en A.2.5.1.1, y las incluidas en los literales (a), (b), (c) y (d) del grupo de\nuso III, tal como lo define A.2.5.1.2, esenciales para la recuperación de la comunidad con posterioridad a la\nocurrencia de una emergencia, incluyendo un sismo, con el fin de garantizar que puedan operar durante y después de\nla ocurrencia de un temblor, con el fin de garantizar que puedan operar durante y después de la ocurrencia de un\ntemblor. En relación con las edificaciones incluidas en los literales (e) y (f) del Grupo III, como lo define A.2.5.1.2,\nqueda a decisión del propietario en el primer caso o de la autoridad competente en el segundo definir si se requiere\nadelantar el diseño de ellas según los requisitos especiales del Capítulo A.12."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.2",
+      "title": "ALCANCE",
+      "content": "Los requisitos del presente Capítulo deben emplearse en el diseño de las edificaciones\nindispensables enumeradas en A.2.5.1.1, las incluidas en los literales (a), (b), (c) y (d) del grupo de Uso III, tal como\nlo define A.2.5.1.2 y de las demás que la comunidad designe como tales."
+    }
+  ],
+  "references": [
+    "A.12.2",
+    "A.2.4.5",
+    "A.2.5.2",
+    "A.4",
+    "A.5",
+    "A.12.3",
+    "A.12",
+    "A.12.3",
+    "A.4",
+    "A.12.4",
+    "A.2.5.1.1",
+    "A.2.5.1.2",
+    "A.12",
+    "A.2.5.1.1",
+    "A.2.5.1.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

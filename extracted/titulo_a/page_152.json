@@ -1,0 +1,110 @@
+{
+  "page_number": 152,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-1",
+      "title": "Recomendaciones sísmicas para algunas estructuras que se salen del alcance del Reglamento",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.2",
+      "title": "MASA TOTAL, M",
+      "content": "La masa total, M, debe incluir la masa correspondiente a todas las cargas muertas y las masas correspondientes al contenido operacional normal de la estructura, especialmente en tanques, silos y otras estructuras de almacenamiento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.3",
+      "title": "COEFICIENTE DE IMPORTANCIA, I",
+      "content": "Debe tomarse un coeficiente de importancia, I, igual a la unidad, a menos que la estructura sea parte o pueda afectar edificaciones de los grupos de usos II, III o IV. En el caso de estructuras que sean parte de sistemas de líneas vitales, la definición del coeficiente de importancia a emplear se debe basar en consideraciones que incluyan el nivel de redundancia del sistema y el potencial de que una eventual falla de la estructura pueda afectar la operación o estabilidad de edificaciones indispensables."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.4",
+      "title": "DISTRIBUCIÓN EN LA ALTURA DE LAS FUERZAS SÍSMICAS",
+      "content": "La distribución en la altura de las fuerzas sísmicas horizontales puede realizarse por cualquiera de los procedimientos presentados en los Capítulos A.4 o A.5 del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.5",
+      "title": "COEFICIENTE BÁSICO DE DISIPACIÓN DE ENERGÍA, R0",
+      "content": "Se recomienda utilizar los valores del coeficiente de capacidad de disipación de energía, R0, dados en la tabla A-1.3-1 del presente Apéndice."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A-1.3-1",
+      "title": "Coeficiente de capacidad de disipación de energía, R0, para algunas estructuras especiales",
+      "table_headers": [
+        "Tipo de estructura",
+        "Valor de R0"
+      ],
+      "table_rows": [
+        [
+          "Tanques, contenedores de líquidos y gases a presión, apoyados sobre columnas arriostradas, con diagonales, o no",
+          "2.0"
+        ],
+        [
+          "Silos y chimeneas de concreto reforzado vaciado en sitio, cuyas paredes son continuas hasta la fundación",
+          "3.5"
+        ],
+        [
+          "Estructuras en forma de torre cuya masa está distribuida en la altura, tales como chimeneas, silos y tanques, cuyos apoyos consisten en faldones.",
+          "3.0"
+        ],
+        [
+          "Torres en celosía, autoportantes o con templetes, chimeneas y torres con templetes.",
+          "3.0"
+        ],
+        [
+          "Estructuras de tipo péndulo invertido",
+          "2.0"
+        ],
+        [
+          "Tolvas sobre columnas, con o sin contravientos.",
+          "3.0"
+        ],
+        [
+          "Torres de enfriamiento",
+          "3.5"
+        ],
+        [
+          "Torres o anaqueles de almacenamiento",
+          "3.0"
+        ],
+        [
+          "Avisos y vallas publicitarias",
+          "3.5"
+        ],
+        [
+          "Monumentos y estructuras de parques de diversión",
+          "2.0"
+        ],
+        [
+          "Otras estructuras autoportantes, no incluidas anteriormente",
+          "3.0"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.4",
+      "title": "REQUISITOS DE DERIVA",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.4.1",
+      "title": null,
+      "content": "Los requisitos para la deriva presentados en el Capítulo A.6, no son aplicables directamente a estructuras especiales diferentes de las cubiertas por el Reglamento en su alcance. Los límites de la deriva deben ser establecidos por el diseñador tomando en cuenta el peligro que represente para la vida la falla de elementos estructurales y no estructurales, como consecuencia de los desplazamientos que sufre la estructura al verse afectada por los movimientos sísmicos de diseño"
+    }
+  ],
+  "references": [
+    "Tabla A-1.3-1",
+    "Capítulos A.4",
+    "A.5",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

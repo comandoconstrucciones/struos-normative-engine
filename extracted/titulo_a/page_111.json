@@ -1,0 +1,109 @@
+{
+  "page_number": 111,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Capítulo A.10",
+      "title": "Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "en la Etapa 5 para las solicitaciones equivalentes definidas en la Etapa 4 y la resistencia efectiva obtenida en la Etapa 7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Etapa 9",
+      "title": null,
+      "content": "Utilizando los desplazamientos horizontales obtenidos en el análisis de la Etapa 5 deben obtenerse las derivas de la estructura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Etapa 10",
+      "title": null,
+      "content": "Debe determinarse un índice de flexibilidad por efectos horizontales como el máximo cociente entre las derivas obtenidas en la Etapa 9 y las derivas permitidas por el Reglamento en el Capítulo A.6. Igualmente debe determinarse un índice de flexibilidad por efectos verticales como el máximo cociente entre las deflexiones verticales medidas en la edificación y las deflexiones permitidas por el presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "INTERVENCIÓN DEL SISTEMA ESTRUCTURAL",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Etapa 11",
+      "title": null,
+      "content": "La intervención estructural debe definirse de acuerdo con el tipo de modificación establecida en A.10.6 dentro de una de tres categorías: (a) Ampliaciones adosadas, (b) Ampliaciones en altura y (c) Actualización al Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Etapa 12",
+      "title": null,
+      "content": "El conjunto debe analizarse nuevamente incluyendo la intervención propuesta, la cual debe diseñarse para las fuerzas y esfuerzos obtenidos de este nuevo análisis. El diseño geotécnico y estructural y la construcción deben llevarse a cabo de acuerdo con los requisitos que para cada tipo de modificación establece el presente Capítulo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.5",
+      "title": "CÁLCULOS, MEMORIAS Y PLANOS",
+      "content": "Debe elaborarse una memoria justificativa de cálculos en la cual deben quedar claramente consignados los siguientes aspectos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(a)",
+      "title": null,
+      "content": "Una relación de los documentos de diseño y construcción de la edificación original que fueron utilizados en la evaluación y diseño de las modificaciones, tales como: planos arquitectónicos y estructurales, memorias de cálculo, estudios de suelos y diseño de las cimentaciones, registros de la interventoría, libros de obra, consultas personales a profesionales que participaron en el diseño o construcción, etc."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(b)",
+      "title": null,
+      "content": "Una descripción de la evaluación del estado actual de la edificación y de su sistema de cimentación Ilevada a cabo como lo exige A.10.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(c)",
+      "title": null,
+      "content": "Una descripción muy clara justificando la definición de los parámetros de evaluación y diseño que provienen del estudio de la situación actual de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(d)",
+      "title": null,
+      "content": "Memoria de cálculos del diseño de la modificación a la estructura con la correspondiente justificación de que la estructura final tendrá la resistencia y comportamiento esperados, cuando actúa en conjunto con la estructura original."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "(e)",
+      "title": null,
+      "content": "Los otros documentos apropiados, a juicio del diseñador, de aquellos que exige el presente Reglamento para edificaciones nuevas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.5.1",
+      "title": null,
+      "content": "Esta memoria debe ir firmada por un Ingeniero Civil debidamente matriculado, que cumpla las condiciones establecidas en los Artículos 26 y 27 de la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.6",
+      "title": "SUPERVISIÓN TÉCNICA",
+      "content": "La construcción de la intervención del sistema estructural existente debe someterse, en todos los casos, a una supervisión técnica dentro del alcance que se da en el Título I del presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.6.1",
+      "title": null,
+      "content": "El Supervisor Técnico debe dejar constancia en los registros de la supervisión de que las hipótesis en que se basó el diseñador fueron confirmadas en la obra. En caso de presentarse discrepancias debe quedar constancia escrita de que el diseñador fue informado de ellas y de las acciones correctivas que él fijó."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.7",
+      "title": "CRITERIO Y RESPONSABILIDAD DEL INGENIERO",
+      "content": "El tipo de diseño a que hace referencia en su alcance este documento exige el mejor criterio y experiencia por parte del ingeniero que lo lleva a cabo, dado que el diseñador se hace responsable, dentro del mismo alcance que tiene esa responsabilidad en el presente Reglamento, de la correcta aplicación de los requisitos del Reglamento y del comportamiento de la edificación en el futuro."
+    }
+  ],
+  "references": [
+    "A.6",
+    "A.10.6",
+    "A.10.2",
+    "Título I"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Graph NSR-10 — Struos.AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        #network { width: 100%; height: calc(100vh - 200px); border: 1px solid #e5e7eb; border-radius: 12px; }
+        .legend-item { display: flex; align-items: center; gap: 8px; }
+        .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+                <div>
+                    <h1 class="text-xl font-bold">Knowledge Graph NSR-10</h1>
+                    <p class="text-gray-400 text-sm">Struos.AI — Motor Normativo</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <div class="text-right text-sm">
+                    <p><span class="text-gray-400">Nodos:</span> <span id="nodeCount" class="font-mono text-emerald-400">0</span></p>
+                    <p><span class="text-gray-400">Aristas:</span> <span id="edgeCount" class="font-mono text-emerald-400">0</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="container mx-auto px-6 py-6">
+        
+        <!-- Controls -->
+        <div class="flex flex-wrap gap-4 mb-6">
+            <!-- Search -->
+            <div class="flex-1 min-w-[300px]">
+                <div class="relative">
+                    <input type="text" id="searchInput" 
+                        placeholder="Buscar sección (ej: A.6.4, deriva, periodo...)"
+                        class="w-full px-4 py-3 pl-12 rounded-lg border border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none">
+                    <svg class="w-5 h-5 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Filters -->
+            <div class="flex gap-2">
+                <button onclick="filterByType('all')" class="filter-btn px-4 py-2 rounded-lg bg-slate-800 text-white">Todos</button>
+                <button onclick="filterByType('SECTION')" class="filter-btn px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Secciones</button>
+                <button onclick="filterByType('TABLE')" class="filter-btn px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Tablas</button>
+                <button onclick="filterByType('FORMULA')" class="filter-btn px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Fórmulas</button>
+                <button onclick="filterByType('DEFINITION')" class="filter-btn px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200">Definiciones</button>
+            </div>
+            
+            <!-- Layout -->
+            <select id="layoutSelect" onchange="changeLayout(this.value)" 
+                class="px-4 py-2 rounded-lg border border-gray-200">
+                <option value="hierarchical">Jerárquico</option>
+                <option value="force">Fuerzas</option>
+                <option value="radial">Radial</option>
+            </select>
+        </div>
+
+        <!-- Legend -->
+        <div class="flex flex-wrap gap-6 mb-4 text-sm">
+            <div class="legend-item"><span class="legend-dot bg-blue-500"></span> Sección</div>
+            <div class="legend-item"><span class="legend-dot bg-emerald-500"></span> Tabla</div>
+            <div class="legend-item"><span class="legend-dot bg-purple-500"></span> Fórmula</div>
+            <div class="legend-item"><span class="legend-dot bg-amber-500"></span> Definición</div>
+            <div class="legend-item"><span class="legend-dot bg-red-500"></span> Requisito</div>
+            <div class="legend-item"><span class="legend-dot bg-slate-700"></span> Título/Norma</div>
+        </div>
+
+        <!-- Network Container -->
+        <div id="network"></div>
+
+        <!-- Node Details Panel -->
+        <div id="detailsPanel" class="hidden fixed right-6 top-24 w-96 bg-white rounded-xl shadow-xl border border-gray-200 p-6 max-h-[70vh] overflow-y-auto">
+            <button onclick="closeDetails()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+            <div id="detailsContent"></div>
+        </div>
+
+    </main>
+
+    <!-- Loading -->
+    <div id="loading" class="fixed inset-0 bg-white/80 flex items-center justify-center z-50">
+        <div class="text-center">
+            <div class="w-12 h-12 border-4 border-emerald-500 border-t-transparent rounded-full animate-spin mx-auto"></div>
+            <p class="mt-4 text-gray-600">Cargando Knowledge Graph...</p>
+        </div>
+    </div>
+
+    <script>
+        // Supabase config
+        const SUPABASE_URL = 'https://vdakfewjadwaczulcmvj.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_kwWO-ExDSmgCEbkgE92gsQ_Sq4sxU9w';
+
+        // Global state
+        let network = null;
+        let allNodes = [];
+        let allEdges = [];
+        let nodesDataset = null;
+        let edgesDataset = null;
+
+        // Colors by type
+        const typeColors = {
+            'NORM': '#1e293b',
+            'TITLE': '#334155',
+            'SECTION': '#3b82f6',
+            'SECTION_TITLE': '#60a5fa',
+            'SUBSECTION': '#93c5fd',
+            'TABLE': '#10b981',
+            'FORMULA': '#8b5cf6',
+            'DEFINITION': '#f59e0b',
+            'REQUIREMENT': '#ef4444',
+            'FIGURE': '#ec4899',
+            'NOTE': '#6b7280',
+            'LIST_ITEM': '#a3a3a3',
+            'default': '#94a3b8'
+        };
+
+        // Load data from Supabase
+        async function loadData() {
+            try {
+                // Fetch nodes (ahora con más campos)
+                const nodesRes = await fetch(`${SUPABASE_URL}/rest/v1/kg_nodes?select=id,type,section_path,title,content,formula_latex,formula_variables,table_headers,source_pdf&limit=800`, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`
+                    }
+                });
+                const nodes = await nodesRes.json();
+
+                // Fetch edges
+                const edgesRes = await fetch(`${SUPABASE_URL}/rest/v1/kg_edges?select=id,source_id,target_id,edge_type&limit=1000`, {
+                    headers: {
+                        'apikey': SUPABASE_KEY,
+                        'Authorization': `Bearer ${SUPABASE_KEY}`
+                    }
+                });
+                const edges = await edgesRes.json();
+
+                return { nodes, edges };
+            } catch (error) {
+                console.error('Error loading data:', error);
+                return { nodes: [], edges: [] };
+            }
+        }
+
+        // Transform data for vis.js
+        function transformData(data) {
+            const nodeMap = new Map();
+            
+            allNodes = data.nodes.map(n => {
+                const label = n.section_path || n.title || n.type;
+                const shortLabel = label.length > 20 ? label.substring(0, 17) + '...' : label;
+                
+                nodeMap.set(n.id, n);
+                
+                // Crear label legible
+                let displayLabel = n.section_path || n.title || n.type;
+                if (displayLabel.length > 15) {
+                    displayLabel = displayLabel.substring(0, 12) + '...';
+                }
+                
+                return {
+                    id: n.id,
+                    label: displayLabel,
+                    title: `${n.section_path || ''}\n${n.title || ''}\n${(n.content || '').substring(0, 100)}...`,
+                    color: {
+                        background: typeColors[n.type] || typeColors.default,
+                        border: typeColors[n.type] || typeColors.default,
+                        highlight: { background: '#1e293b', border: '#0f172a' }
+                    },
+                    type: n.type,
+                    section_path: n.section_path,
+                    fullTitle: n.title,
+                    content: n.content,
+                    formula_latex: n.formula_latex,
+                    formula_variables: n.formula_variables,
+                    table_headers: n.table_headers,
+                    source_pdf: n.source_pdf,
+                    size: n.type === 'NORM' ? 50 : (n.type === 'TITLE' ? 40 : (n.type === 'TABLE' ? 25 : 20)),
+                    font: { 
+                        color: '#1e293b', 
+                        size: 14,
+                        face: 'Inter',
+                        strokeWidth: 3,
+                        strokeColor: '#ffffff'
+                    },
+                    borderWidth: 2
+                };
+            });
+
+            allEdges = data.edges
+                .filter(e => nodeMap.has(e.source_id) && nodeMap.has(e.target_id))
+                .map(e => ({
+                    id: e.id,
+                    from: e.source_id,
+                    to: e.target_id,
+                    arrows: 'to',
+                    color: { color: '#cbd5e1', highlight: '#64748b' },
+                    type: e.edge_type
+                }));
+
+            return { nodes: allNodes, edges: allEdges };
+        }
+
+        // Initialize network
+        function initNetwork(data) {
+            const container = document.getElementById('network');
+            
+            nodesDataset = new vis.DataSet(data.nodes);
+            edgesDataset = new vis.DataSet(data.edges);
+
+            const options = {
+                nodes: {
+                    shape: 'dot',
+                    scaling: { min: 15, max: 50 },
+                    font: { 
+                        size: 14, 
+                        face: 'Inter',
+                        strokeWidth: 3,
+                        strokeColor: '#ffffff'
+                    }
+                },
+                edges: {
+                    width: 1,
+                    smooth: { type: 'cubicBezier', roundness: 0.5 }
+                },
+                physics: {
+                    enabled: true,
+                    hierarchicalRepulsion: {
+                        nodeDistance: 150,
+                        springLength: 100
+                    }
+                },
+                layout: {
+                    hierarchical: {
+                        enabled: true,
+                        direction: 'UD',
+                        sortMethod: 'directed',
+                        levelSeparation: 100,
+                        nodeSpacing: 50
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200,
+                    zoomView: true,
+                    dragView: true
+                }
+            };
+
+            network = new vis.Network(container, { nodes: nodesDataset, edges: edgesDataset }, options);
+
+            // Click handler
+            network.on('click', function(params) {
+                if (params.nodes.length > 0) {
+                    showNodeDetails(params.nodes[0]);
+                }
+            });
+
+            // Update counts
+            document.getElementById('nodeCount').textContent = data.nodes.length;
+            document.getElementById('edgeCount').textContent = data.edges.length;
+
+            // Hide loading
+            document.getElementById('loading').classList.add('hidden');
+        }
+
+        // Show node details
+        function showNodeDetails(nodeId) {
+            const node = allNodes.find(n => n.id === nodeId);
+            if (!node) return;
+
+            const panel = document.getElementById('detailsPanel');
+            const content = document.getElementById('detailsContent');
+
+            // Construir contenido del panel
+            let detailsHtml = `
+                <div class="space-y-4">
+                    <div>
+                        <span class="px-2 py-1 rounded text-xs font-semibold text-white" 
+                            style="background-color: ${typeColors[node.type] || typeColors.default}">
+                            ${node.type}
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800">${node.section_path || 'Sin sección'}</h3>
+                    ${node.fullTitle ? `<p class="text-gray-600 font-medium">${node.fullTitle}</p>` : ''}
+            `;
+            
+            // Si es FIGURA, mostrar imagen
+            if (node.type === 'FIGURE' && node.source_pdf && node.source_pdf.includes('supabase')) {
+                detailsHtml += `
+                    <div class="mt-4">
+                        <img src="${node.source_pdf}" class="w-full rounded-lg border" alt="${node.section_path}">
+                    </div>
+                `;
+            }
+            
+            // Si es FÓRMULA, mostrar LaTeX y variables
+            if (node.type === 'FORMULA') {
+                if (node.formula_latex) {
+                    detailsHtml += `
+                        <div class="mt-4">
+                            <h4 class="text-sm font-semibold text-gray-500 mb-2">Fórmula (LaTeX)</h4>
+                            <code class="text-sm bg-gray-100 p-2 rounded block overflow-x-auto">${node.formula_latex}</code>
+                        </div>
+                    `;
+                }
+                if (node.formula_variables && Object.keys(node.formula_variables).length > 0) {
+                    detailsHtml += `
+                        <div class="mt-4">
+                            <h4 class="text-sm font-semibold text-gray-500 mb-2">Variables</h4>
+                            <ul class="text-sm space-y-1">
+                    `;
+                    for (const [varName, desc] of Object.entries(node.formula_variables)) {
+                        detailsHtml += `<li><code class="bg-purple-100 px-1 rounded">${varName}</code>: ${desc}</li>`;
+                    }
+                    detailsHtml += `</ul></div>`;
+                }
+            }
+            
+            // Si es TABLA, mostrar headers
+            if (node.type === 'TABLE' && node.table_headers) {
+                detailsHtml += `
+                    <div class="mt-4">
+                        <h4 class="text-sm font-semibold text-gray-500 mb-2">Columnas</h4>
+                        <div class="flex flex-wrap gap-1">
+                            ${node.table_headers.map(h => `<span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded text-xs">${h}</span>`).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Contenido general
+            if (node.content) {
+                detailsHtml += `
+                    <div class="mt-4">
+                        <h4 class="text-sm font-semibold text-gray-500 mb-2">Contenido</h4>
+                        <p class="text-sm text-gray-700 bg-gray-50 p-3 rounded-lg max-h-60 overflow-y-auto">
+                            ${node.content}
+                        </p>
+                    </div>
+                `;
+            }
+            
+            detailsHtml += `
+                    <div class="mt-4 pt-4 border-t">
+                        <button onclick="focusNode('${nodeId}')" 
+                            class="text-sm text-emerald-600 hover:text-emerald-700 font-medium">
+                            Centrar en grafo →
+                        </button>
+                    </div>
+                </div>
+            `;
+            
+            content.innerHTML = detailsHtml;
+
+            panel.classList.remove('hidden');
+        }
+
+        function closeDetails() {
+            document.getElementById('detailsPanel').classList.add('hidden');
+        }
+
+        function focusNode(nodeId) {
+            network.focus(nodeId, { scale: 1.5, animation: true });
+            network.selectNodes([nodeId]);
+        }
+
+        // Filter by type
+        function filterByType(type) {
+            // Update button styles
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('bg-slate-800', 'text-white');
+                btn.classList.add('bg-gray-100');
+            });
+            event.target.classList.remove('bg-gray-100');
+            event.target.classList.add('bg-slate-800', 'text-white');
+
+            if (type === 'all') {
+                nodesDataset.clear();
+                nodesDataset.add(allNodes);
+            } else {
+                const filtered = allNodes.filter(n => n.type === type);
+                nodesDataset.clear();
+                nodesDataset.add(filtered);
+            }
+        }
+
+        // Change layout
+        function changeLayout(layout) {
+            const options = {
+                physics: { enabled: true }
+            };
+
+            if (layout === 'hierarchical') {
+                options.layout = {
+                    hierarchical: {
+                        enabled: true,
+                        direction: 'UD',
+                        sortMethod: 'directed'
+                    }
+                };
+            } else if (layout === 'force') {
+                options.layout = { hierarchical: { enabled: false } };
+                options.physics = {
+                    forceAtlas2Based: {
+                        gravitationalConstant: -50,
+                        springLength: 100
+                    },
+                    solver: 'forceAtlas2Based'
+                };
+            } else if (layout === 'radial') {
+                options.layout = { hierarchical: { enabled: false } };
+                options.physics = {
+                    repulsion: { nodeDistance: 200 }
+                };
+            }
+
+            network.setOptions(options);
+        }
+
+        // Search
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+            
+            if (query.length < 2) {
+                nodesDataset.clear();
+                nodesDataset.add(allNodes);
+                return;
+            }
+
+            const matches = allNodes.filter(n => 
+                (n.section_path && n.section_path.toLowerCase().includes(query)) ||
+                (n.fullTitle && n.fullTitle.toLowerCase().includes(query)) ||
+                (n.content && n.content.toLowerCase().includes(query))
+            );
+
+            nodesDataset.clear();
+            nodesDataset.add(matches);
+
+            // Focus on first match
+            if (matches.length > 0) {
+                setTimeout(() => {
+                    network.fit({ nodes: matches.slice(0, 10).map(m => m.id), animation: true });
+                }, 300);
+            }
+        });
+
+        // Init
+        async function init() {
+            const data = await loadData();
+            const transformed = transformData(data);
+            initNetwork(transformed);
+        }
+
+        init();
+    </script>
+
+</body>
+</html>

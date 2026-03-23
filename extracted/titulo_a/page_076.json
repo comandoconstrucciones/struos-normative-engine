@@ -1,0 +1,115 @@
+{
+  "page_number": 76,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2",
+      "title": "PERÍODO FUNDAMENTAL DE LA EDIFICACIÓN",
+      "content": "A.4.2 - PERÍODO FUNDAMENTAL DE LA EDIFICACIÓN"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2.1",
+      "title": null,
+      "content": "A.4.2.1 — El valor del período fundamental de la edificación, T, debe obtenerse a partir de las propiedades de su sistema de resistencia sísmica, en la dirección bajo consideración, de acuerdo con los principios de la dinámica estructural, utilizando un modelo matemático linealmente elástico de la estructura. Este requisito puede suplirse por medio del uso de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.2.1",
+      "formula_latex": "T = 2\\pi \\sqrt{\\frac{\\sum_{i=1}^{n} (m_i \\delta_i^2)}{\\sum_{i=1}^{n} (f_i \\delta_i)}}",
+      "formula_python": "T = 2*pi * (sum(mi * delta_i**2) / sum(fi * delta_i))**0.5",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Los valores de fi representan unas fuerzas horizontales distribuidas aproximadamente de acuerdo con las ecuaciones A.4.3-2 y A.4.3-3, o utilizando cualquier otra distribución racional que se aproxime a la del modo fundamental de la estructura en la dirección en estudio. Las deflexiones horizontales, δi, deben calcularse utilizando las fuerzas horizontales fi."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "El valor de T no puede exceder CuTa, donde Cu se calcula por medio de la ecuación A.4.2-2 y Ta se calcula de acuerdo con A.4.2-3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "C_u = 1.75 - 1.2 A_v F_v",
+      "formula_python": "Cu = 1.75 - 1.2 * Av * Fv",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "pero Cu no debe ser menor de 1.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2.2",
+      "title": null,
+      "content": "A.4.2.2 — Alternativamente el valor de T puede ser igual al período fundamental aproximado, Ta, que se obtenga por medio de la ecuación A.4.2-3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.2.2",
+      "formula_latex": "T_a = C_t h^\\alpha",
+      "formula_python": "Ta = Ct * h**alpha",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "donde Ct y α tienen los valores dados en la tabla A.4.2-1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4.2-1",
+      "title": "Valor de los parámetros Ct y α para el cálculo del período aproximado Ta",
+      "table_headers": [
+        "Sistema estructural de resistencia sísmica",
+        "Ct",
+        "α"
+      ],
+      "table_rows": [
+        [
+          "Pórticos resistentes a momentos de concreto reforzado que resisten la totalidad de las fuerzas sísmicas y que no están limitados o adheridos a componentes más rígidos, estructurales o no estructurales, que limiten los desplazamientos horizontales al verse sometidos a las fuerzas sísmicas.",
+          "0.047",
+          "0.9"
+        ],
+        [
+          "Pórticos resistentes a momentos de acero estructural que resisten la totalidad de las fuerzas sísmicas y que no están limitados o adheridos a componentes más rígidos, estructurales o no estructurales, que limiten los desplazamientos horizontales al verse sometidos a las fuerzas sísmicas.",
+          "0.072",
+          "0.8"
+        ],
+        [
+          "Pórticos arriostrados de acero estructural con diagonales excéntricas restringidas a pandeo.",
+          "0.073",
+          "0.75"
+        ],
+        [
+          "Todos los otros sistemas estructurales basados en muros de rigidez similar o mayor a la de muros de concreto o mampostería",
+          "0.049",
+          "0.75"
+        ],
+        [
+          "Alternativamente, para estructuras que tengan muros estructurales de concreto reforzado o mampostería estructural, pueden emplearse los siguientes parámetros Ct y α, donde Cw se calcula utilizando la ecuación A.4.2-4.",
+          "0.0062/√Cw",
+          "1.00"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.4.3-2",
+    "A.4.3-3",
+    "A.4.2-2",
+    "A.4.2-3",
+    "Tabla A.4.2-1",
+    "A.4.2-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,1562 @@
+[
+  {
+    "term": "Acabados",
+    "definition": "Partes y componentes de una edificación que no hacen parte de la estructura o de su cimentación.",
+    "see_also": [
+      "elementos no estructurales"
+    ],
+    "source_page": 137
+  },
+  {
+    "term": "Aceleración pico efectiva, Aa",
+    "definition": "Es un parámetro utilizado para determinar el espectro de diseño y se da en A.2.2.",
+    "source_page": 137
+  },
+  {
+    "term": "Acelerograma",
+    "definition": "Descripción en el tiempo de las aceleraciones a que estuvo sometido el terreno durante la ocurrencia de un sismo real.",
+    "source_page": 137
+  },
+  {
+    "term": "Acelerógrafo",
+    "definition": "Instrumento que permite registrar las aceleraciones a que se ve sometido el terreno durante la ocurrencia de un sismo. Este registro queda consignado en un acelerograma.",
+    "source_page": 137
+  },
+  {
+    "term": "Altura de la edificación en la colindancia",
+    "definition": "Es la suma de las alturas de piso en la colindancia.",
+    "source_page": 137
+  },
+  {
+    "term": "Altura del piso",
+    "definition": "Es la distancia vertical medida entre el terminado de la losa de piso o de nivel de terreno y el terminado de la losa del nivel inmediatamente superior. En el caso que el nivel inmediatamente superior corresponda a la cubierta de la edificación esta medida se llevará hasta el nivel de enrace de la cubierta cuando esta sea inclinada o hasta al nivel de la impermeabilización o elemento de protección contra la intemperie cuando la cubierta sea plana. En los casos en los cuales la altura de piso medida como se indica anteriormente exceda 6 m, se considerará para efectos de calcular el número de pisos como dos pisos. Se permite que para el primer piso aéreo la altura del piso se mida desde la corona del muro de contención de la edificación nueva contra el paramento que está en la colindancia, cuando éste exista.",
+    "source_page": 137
+  },
+  {
+    "term": "Amenaza sísmica",
+    "definition": "Es el valor esperado de futuras acciones sísmicas en el sitio de interés y se cuantifica en términos de una aceleración horizontal del terreno esperada, que tiene una probabilidad de excedencia dada en un lapso de tiempo predeterminado.",
+    "source_page": 137
+  },
+  {
+    "term": "Amortiguamiento",
+    "definition": "Pérdida de energía en un movimiento ondulatorio.",
+    "source_page": 137
+  },
+  {
+    "term": "Amplificación de la onda sísmica",
+    "definition": "Aumento en la amplitud de las ondas sísmicas, producido por su paso desde la roca hasta la superficie del terreno a través de los estratos de suelo.",
+    "source_page": 137
+  },
+  {
+    "term": "Análisis dinámico",
+    "definition": "Procedimiento matemático por medio del cual se resuelven las ecuaciones de equilibrio dinámico, con el fin de obtener las deformaciones y esfuerzos de la estructura al ser sometida a una excitación que varía en el tiempo.",
+    "source_page": 137
+  },
+  {
+    "term": "Análisis dinámico elástico",
+    "definition": "Tipo de análisis dinámico en el cual las propiedades de rigidez y resistencia de la estructura permanecen dentro del rango de respuesta lineal.",
+    "source_page": 137
+  },
+  {
+    "term": "Análisis dinámico inelástico",
+    "definition": "Tipo de análisis dinámico en el cual se tiene en cuenta que las propiedades de rigidez y resistencia de la estructura pueden salirse del rango de respuesta lineal y entrar en el rango de respuesta inelástica.",
+    "source_page": 137
+  },
+  {
+    "term": "Análisis espectral",
+    "definition": "Tipo de análisis dinámico modal en el cual la respuesta dinámica máxima de cada modo se obtiene utilizando la ordenada del espectro, correspondiente al período de vibración del modo.",
+    "source_page": 137
+  },
+  {
+    "term": "Análisis modal",
+    "definition": "Procedimiento de análisis dinámico por medio del cual la respuesta dinámica de la estructura se obtiene como la superposición de las respuestas de los diferentes modos, o formas de vibración.",
+    "source_page": 137
+  },
+  {
+    "term": "Apéndice",
+    "definition": "Es un elemento no estructural que sobresale del volumen general de la edificación.",
+    "source_page": 137
+  },
+  {
+    "term": "Armadura",
+    "definition": "Véase cercha.",
+    "see_also": [
+      "cercha"
+    ],
+    "source_page": 137
+  },
+  {
+    "term": "Base",
+    "definition": "Es el nivel en el que los movimientos sísmicos son transmitidos a la estructura o el nivel en el que la estructura, considerada como un oscilador, está apoyada.",
+    "source_page": 138
+  },
+  {
+    "term": "Capacidad de disipación de energía",
+    "definition": "Es la capacidad que tiene un sistema estructural, un elemento estructural, o una sección de un elemento estructural, de trabajar dentro del rango inelástico de respuesta sin perder su resistencia. Se cuantifica por medio de la energía de deformación que el sistema, elemento o sección es capaz de disipar en ciclos histeréticos consecutivos. Cuando hace referencia al sistema de resistencia sísmica de la edificación como un todo, se define por medio del coeficiente de capacidad de disipación de energía básico Ro, el cual después se afecta debido a irregularidades de la estructura y a ausencia de redundancia en el sistema de resistencia sísmica, para obtener el coeficiente de disipación de energía R(R = φaφpφrRo). El grado de capacidad de disipación de energía se clasifica como especial (DES), moderado (DMO) y mínimo (DMI).",
+    "source_page": 138
+  },
+  {
+    "term": "Capacidad de rotación de la sección",
+    "definition": "Es la capacidad que tiene una sección de un elemento estructural de admitir rotaciones en el rango inelástico sin perder su capacidad de resistir momentos flectores y fuerzas cortantes. Se mide en términos de su capacidad de disipación de energía a la rotación.",
+    "source_page": 138
+  },
+  {
+    "term": "Carga muerta",
+    "definition": "Es la carga vertical debida a los efectos gravitacionales de la masa, o peso, de todos los elementos permanentes ya sean estructurales o no estructurales. Debe consultarse el Título B de este Reglamento.",
+    "source_page": 138
+  },
+  {
+    "term": "Carga gravitacional o peso, (M.g)",
+    "definition": "Es el efecto vertical de la aceleración debida a la gravedad sobre la masa, M, de la edificación. M debe ser igual a la masa de la estructura más la masa de los elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos y bodegas debe incluirse además un 25 por ciento de la masa que produce la carga viva.",
+    "source_page": 138
+  },
+  {
+    "term": "Carga viva",
+    "definition": "Es la carga debida al uso de la estructura, sin incluir la carga muerta, fuerza de viento o sismo. Debe consultarse el Título B de este Reglamento.",
+    "source_page": 138
+  },
+  {
+    "term": "Casa",
+    "definition": "Edificación unifamiliar destinada a vivienda. Esta definición se incluye únicamente para efectos de la aplicación del Título E del Reglamento.",
+    "source_page": 138
+  },
+  {
+    "term": "Centro de masa del piso",
+    "definition": "Es el lugar geométrico donde estaría localizada, en planta, toda la masa del piso al suponer el diafragma del piso como un cuerpo infinitamente rígido en su propio plano.",
+    "source_page": 138
+  },
+  {
+    "term": "Centro de rigidez del piso",
+    "definition": "Es el lugar geométrico, localizado en planta y determinado bajo el supuesto de que el diafragma del piso es infinitamente rígido en su propio plano, donde al aplicar una fuerza horizontal, en cualquier dirección, no se presenta rotación del diafragma alrededor de un eje vertical.",
+    "source_page": 138
+  },
+  {
+    "term": "Cercha",
+    "definition": "Es un conjunto de elementos estructurales unidos entre si, los cuales resisten primordialmente fuerzas axiales.",
+    "source_page": 138
+  },
+  {
+    "term": "Cerramiento",
+    "definition": "Muro localizado en el paramento del lote de terreno y que se encuentra separado de la edificación en la dirección perpendicular al paramento del lote de terreno, que no hace parte del sistema estructural de soporte de la edificación, y cuya altura no excede 4 metros.",
+    "source_page": 138
+  },
+  {
+    "term": "Coeficiente de amortiguamiento crítico",
+    "definition": "Es, para un sistema elástico, de un grado de libertad con amortiguamiento viscoso, el cociente entre la cantidad de amortiguamiento del sistema y el amortiguamiento mínimo que inhibe toda oscilación.",
+    "source_page": 138
+  },
+  {
+    "term": "Coeficiente de capacidad de disipación de energía básico, Ro",
+    "definition": "Coeficiente que se prescribe para cada sistema estructural de resistencia sísmica, cuyo valor depende del tipo de sistema estructural y de las características de capacidad de disipación de energía propias del material estructural que se utiliza en el sistema. Es una medida de la capacidad de disipación de energía general del sistema de resistencia sísmica cuando los movimientos sísmicos hacen que responda inelásticamente.",
+    "source_page": 138
+  },
+  {
+    "term": "Coeficiente de capacidad de disipación de energía, R",
+    "definition": "Coeficiente que corresponde al coeficiente de capacidad de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación debido a irregularidades en alzado, φa, irregularidad en planta, φp, y a ausencia de redundancia del sistema estructural de",
+    "source_page": 138
+  },
+  {
+    "term": "Coincidencia de las losas de entrepiso en la colindancia",
+    "definition": "Se considera que las losas de entrepiso de dos estructuras colindantes coinciden o están en contacto cuando al menos la mitad de la altura de la losa de entrepiso de la edificación cuya licencia de construcción se solicita, coincida en nivel con la losa de entrepiso de la edificación colindante existente.",
+    "source_page": 139
+  },
+  {
+    "term": "Construcción sismo resistente",
+    "definition": "Es el tipo de construcción que cumple el objetivo expresado en A.1.2.2, a través de un diseño y una construcción que cumplan los requisitos de la Ley 400 de 1997 y del presente Reglamento.",
+    "source_page": 139
+  },
+  {
+    "term": "Constructor",
+    "definition": "Es el profesional, ingeniero civil, arquitecto o constructor en arquitectura e ingeniería, bajo cuya responsabilidad se adelante la construcción de la edificación.",
+    "source_page": 139
+  },
+  {
+    "term": "Cortante de piso, Vx",
+    "definition": "Es la suma algebraica de las fuerzas sísmicas horizontales que actúan por encima del piso en consideración.",
+    "source_page": 139
+  },
+  {
+    "term": "Cortante en la base, Vs",
+    "definition": "Es la suma algebraica, tomada en la base, de todas las fuerzas sísmicas horizontales del edificio.",
+    "source_page": 139
+  },
+  {
+    "term": "Cuerda",
+    "definition": "Es el elemento de borde de un diafragma, el cual resiste principalmente esfuerzos axiales, en una forma análoga a las aletas de una viga.",
+    "source_page": 139
+  },
+  {
+    "term": "Deriva de piso",
+    "definition": "Es la diferencia entre los desplazamientos horizontales de los niveles entre los cuales está comprendido el piso.",
+    "source_page": 139
+  },
+  {
+    "term": "Desempeño de los elementos no estructurales",
+    "definition": "Se denomina desempeño el comportamiento de los elementos no estructurales de la edificación ante la ocurrencia de un sismo que la afecte. El desempeño se clasifica en grado superior, bueno y bajo.",
+    "source_page": 139
+  },
+  {
+    "term": "(a) Grado de desempeño superior",
+    "definition": "Es aquel en el cual el daño que se presenta en los elementos no estructurales es mínimo y no interfiere con la operación de la edificación en ningún aspecto.",
+    "source_page": 139
+  },
+  {
+    "term": "(b) Grado de desempeño bueno",
+    "definition": "Es aquel en el cual el daño que se presenta en los elementos no estructurales es totalmente reparable y puede haber alguna interferencia con la operación de la edificación con posterioridad a la ocurrencia del sismo.",
+    "source_page": 139
+  },
+  {
+    "term": "(c) Grado de desempeño bajo",
+    "definition": "Es aquel en el cual se presentan daños graves en los elementos no estructurales, inclusive no reparables.",
+    "source_page": 139
+  },
+  {
+    "term": "DES",
+    "definition": "Capacidad especial de disipación de energía.",
+    "source_page": 139
+  },
+  {
+    "term": "Diafragma",
+    "definition": "Conjunto de elementos estructurales, tal como una losa de entrepiso, que transmite las fuerzas inerciales horizontales a los elementos verticales del sistema de resistencia sísmica. El término diafragma incluye conjuntos arriostrados horizontales.",
+    "see_also": [
+      "sistema de arriostramiento horizontal"
+    ],
+    "source_page": 139
+  },
+  {
+    "term": "Diagonal",
+    "definition": "Es un elemento estructural que hace parte de un pórtico con diagonales. La diagonal puede ser concéntrica, en pórticos con diagonales de concreto reforzado o de acero estructural, o excéntrica en pórticos de acero estructural.",
+    "source_page": 139
+  },
+  {
+    "term": "Diagonal concéntrica",
+    "definition": "Es una diagonal cuyos dos extremos llegan a conexiones entre viga y columna.",
+    "source_page": 139
+  },
+  {
+    "term": "Diagonal excéntrica",
+    "definition": "Es una diagonal en la cual uno de sus extremos llega a la viga en un punto alejado de la conexión entre viga y columna. Solo se utiliza en pórticos de acero estructural con diagonales.",
+    "source_page": 139
+  },
+  {
+    "term": "Diseñador arquitectónico",
+    "definition": "Es el arquitecto bajo cuya responsabilidad se realizan el diseño y los planos arquitectónicos de la edificación, y quien los firma o rotula.",
+    "source_page": 139
+  },
+  {
+    "term": "Diseñador de los elementos no estructurales",
+    "definition": "Es el profesional facultado para este fin, bajo cuya responsabilidad se realizan el diseño y los planos de los elementos no estructurales de la edificación, y quien los firma o rotula.",
+    "source_page": 139
+  },
+  {
+    "term": "Diseñador estructural",
+    "definition": "Es el ingeniero civil, facultado para ese fin, bajo cuya responsabilidad se realiza el diseño y los planos estructurales de la edificación, y quien los firma o rotula.",
+    "source_page": 139
+  },
+  {
+    "term": "DMO",
+    "definition": "Capacidad moderada de disipación de energía.",
+    "source_page": 140
+  },
+  {
+    "term": "DMI",
+    "definition": "Capacidad mínima de disipación de energía.",
+    "source_page": 140
+  },
+  {
+    "term": "Ductilidad",
+    "definition": "Capacidad que tiene un material estructural de resistir, sin fallar, deformaciones que lleven al material estructural más allá del límite elástico, o límite donde las deformaciones son linealmente proporcionales al esfuerzo o fuerza aplicada. (Véase capacidad de disipación de energía, pues muchas veces estos términos son confundidos.)\nDependiendo del parámetro que describe las deformaciones, la ductilidad puede hacer referencia, entre otras, a:",
+    "see_also": [
+      "capacidad de disipación de energía"
+    ],
+    "source_page": 140
+  },
+  {
+    "term": "(a) Ductilidad de curvatura",
+    "definition": "cuando la ductilidad se mide con respecto a la curvatura de la sección del elemento estructural. La curvatura se define como el cociente entre el momento flector aplicado y la rigidez de la sección,",
+    "source_page": 140
+  },
+  {
+    "term": "(b) Ductilidad de rotación",
+    "definition": "cuando la ductilidad se mide con respecto a la rotación que tiene un sector longitudinal del elemento estructural. La rotación se define como la pendiente de la línea elástica del elemento medida con respecto a la posición original del eje longitudinal del elemento,",
+    "source_page": 140
+  },
+  {
+    "term": "(c) Ductilidad de desplazamiento",
+    "definition": "cuando la ductilidad se mide con respecto al desplazamiento o deflexión que tiene el elemento estructural. El desplazamiento se mide con respecto a la posición original del eje longitudinal del elemento, y",
+    "source_page": 140
+  },
+  {
+    "term": "(d) Ductilidad de deformación",
+    "definition": "cuando la ductilidad se mide con respecto a la deformación unitaria de una fibra paralela al eje neutro de la sección.",
+    "source_page": 140
+  },
+  {
+    "term": "Edificación",
+    "definition": "Es una construcción cuyo uso primordial es la habitación u ocupación por seres humanos.",
+    "source_page": 140
+  },
+  {
+    "term": "Edificación de atención a la comunidad",
+    "definition": "Son los equipamentos urbanos necesarios para atender emergencias, preservar la salud y la seguridad de las personas, tales como estaciones de bomberos, cuarteles de policía y fuerzas militares, instalaciones de salud, sedes de organismos operativos de emergencias, entre otros.",
+    "source_page": 140
+  },
+  {
+    "term": "Edificaciones indispensables",
+    "definition": "Son aquellos equipamentos urbanos de atención a la comunidad que deben funcionar durante y después de un sismo, cuya operación no puede ser trasladada rápidamente a un lugar alterno, tales como hospitales y centrales de operación y control de líneas vitales.",
+    "source_page": 140
+  },
+  {
+    "term": "Efectos gravitacionales",
+    "definition": "Véase peso.",
+    "see_also": [
+      "peso"
+    ],
+    "source_page": 140
+  },
+  {
+    "term": "Elemento o miembro estructural",
+    "definition": "Componente del sistema estructural de la edificación. En las estructuras metálicas los dos términos no son sinónimos pues un miembro está compuesto por elementos. Por ejemplo en una viga con sección en I, la viga en sí es el miembro estructural, y su alma y alas son elementos del miembro.",
+    "source_page": 140
+  },
+  {
+    "term": "Elemento colector",
+    "definition": "Es un elemento que sirve para transmitir las fuerzas inerciales generadas dentro del diafragma, hasta los elementos del sistema de resistencia sísmica.",
+    "source_page": 140
+  },
+  {
+    "term": "Elemento de borde",
+    "definition": "Es un elemento que se coloca en los bordes de las aberturas, en el perímetro de los muros de cortante o en el perímetro de los diafragmas.",
+    "source_page": 140
+  },
+  {
+    "term": "Elementos flexibles (o sistemas flexibles)",
+    "definition": "Son aquellos cuya deformación, al ser solicitados por una fuerza horizontal, es significativamente mayor que la de los elementos adyacentes del sistema.",
+    "source_page": 140
+  },
+  {
+    "term": "Elementos no estructurales",
+    "definition": "Elementos o componentes de la edificación que no hacen parte de la estructura o su cimentación. Véase acabados.",
+    "see_also": [
+      "acabados"
+    ],
+    "source_page": 140
+  },
+  {
+    "term": "Efectos ortogonales",
+    "definition": "Son los que se producen en los elementos estructurales que pertenecen, simultáneamente, a sistemas resistentes situados en dos ejes ortogonales, cuando las fuerzas sísmicas actúan en una dirección distinta a la de estos dos ejes.",
+    "source_page": 140
+  },
+  {
+    "term": "Efectos P-Delta",
+    "definition": "Son los efectos de segundo orden en los desplazamientos horizontales y fuerzas internas de la estructura, causados por la acción de las cargas verticales de la edificación al verse desplazadas horizontalmente.",
+    "source_page": 140
+  },
+  {
+    "term": "Espectro",
+    "definition": "Es la colección de valores máximos, ya sea de aceleración, velocidad o desplazamiento, que tienen los sistemas de un grado de libertad durante un sismo.",
+    "source_page": 140
+  },
+  {
+    "term": "Espectro de diseño",
+    "definition": "Es el espectro correspondiente a los movimientos sísmicos de diseño.",
+    "source_page": 140
+  },
+  {
+    "term": "Espectro del umbral de daño",
+    "definition": "Es el espectro correspondiente a los movimientos sísmicos al nivel del umbral de daño.",
+    "source_page": 141
+  },
+  {
+    "term": "Estructura",
+    "definition": "Es un ensamblaje de elementos, diseñado para soportar las cargas gravitacionales y resistir las fuerzas horizontales. Las estructuras pueden ser catalogadas como estructuras de edificaciones o estructuras diferentes a las de las edificaciones.",
+    "source_page": 141
+  },
+  {
+    "term": "Falla geológica",
+    "definition": "Ruptura, o zona de ruptura, en la roca de la corteza terrestre cuyos lados han tenido movimientos paralelos al plano de ruptura.",
+    "source_page": 141
+  },
+  {
+    "term": "Falla geológica activa",
+    "definition": "Falla geológica que se considera que es capaz de producir movimientos sísmicos. Para efectos del presente Reglamento una falla activa es aquella que haya tenido actividad sismogénica recurrente durante el Cuaternario (véase A.2.9.3.1).",
+    "see_also": [
+      "A.2.9.3.1"
+    ],
+    "source_page": 141
+  },
+  {
+    "term": "Fuerzas mayoradas",
+    "definition": "Son las fuerzas que han sido multiplicadas por sus respectivos coeficientes de carga, tal como los define B.2.1 de este Reglamento.",
+    "source_page": 141
+  },
+  {
+    "term": "Fuerzas sísmicas",
+    "definition": "Son los efectos inerciales causados por la aceleración del sismo, expresados como fuerzas para ser utilizadas en el análisis y diseño de la estructura.",
+    "source_page": 141
+  },
+  {
+    "term": "Grupo de uso",
+    "definition": "Clasificación de las edificaciones según su importancia para la atención y recuperación de las personas que habitan en una región que puede ser afectada por un sismo, o cualquier tipo de desastre.",
+    "source_page": 141
+  },
+  {
+    "term": "Histéresis",
+    "definition": "Fenómeno por medio del cual dos, o más, propiedades físicas se relacionan de una manera que depende de la historia de su comportamiento previo. En general hace referencia al comportamiento de los materiales estructurales cuando se ven sometidos a deformaciones o esfuerzos que están fuera del rango lineal, o elástico, de comportamiento. Una gran parte de la energía que es capaz de disipar el material estructural en el rango inelástico de respuesta se asocia con el área comprendida dentro de los ciclos de histéresis.",
+    "source_page": 141
+  },
+  {
+    "term": "Índice de deriva",
+    "definition": "Es la deriva del piso dividida por la altura del mismo.",
+    "source_page": 141
+  },
+  {
+    "term": "Ingeniero geotecnista",
+    "definition": "Es el ingeniero civil, quien firma el estudio geotécnico, bajo cuya responsabilidad se realizan los estudios geotécnicos o de suelos, por medio de los cuales se fijan los parámetros de diseño de la cimentación, los efectos de amplificación de la onda sísmica causados por el tipo y estratificación del suelo subyacente a la edificación, y la definición de los parámetros del suelo que se deben utilizar en la evaluación de los efectos de interacción suelo-estructura.",
+    "source_page": 141
+  },
+  {
+    "term": "Instalaciones indispensables",
+    "definition": "Véase edificaciones indispensables.",
+    "see_also": [
+      "edificaciones indispensables"
+    ],
+    "source_page": 141
+  },
+  {
+    "term": "Interacción suelo-estructura",
+    "definition": "Es el efecto que tienen en la respuesta estática y dinámica de la estructura las propiedades de rigidez del suelo que da apoyo a la edificación, en conjunto con las propiedades de rigidez de la cimentación y de la estructura.",
+    "source_page": 141
+  },
+  {
+    "term": "Interventor",
+    "definition": "Es el profesional, ingeniero civil, arquitecto o constructor en arquitectura e ingeniería, que representa al propietario durante la construcción de la edificación y bajo cuya responsabilidad se verifica que ésta se adelante de acuerdo con todas las reglamentaciones correspondientes y siguiendo los planos, diseños y especificaciones realizados por los diseñadores. Véase supervisión técnica. La Interventoría incluye igualmente actividades de cuantificación de obra y puede extenderse a tareas administrativas.",
+    "see_also": [
+      "supervisión técnica"
+    ],
+    "source_page": 141
+  },
+  {
+    "term": "Licencia de construcción",
+    "definition": "Acto por medio del cual se autoriza, a solicitud del interesado, la realización de obras en un predio con construcciones, cualquiera que ellas sean, acordes con el plan de ordenamiento territorial y las normas urbanísticas del distrito o municipio.",
+    "source_page": 141
+  },
+  {
+    "term": "Licuación",
+    "definition": "Respuesta de los suelos sometidos a vibraciones, en la cual éstos se comportan como un fluido denso y no como una masa de suelo húmeda.",
+    "source_page": 141
+  },
+  {
+    "term": "Líneas vitales",
+    "definition": "Infraestructura básica de redes, tuberías o elementos conectados o continuos, que permite la movilización de energía eléctrica, aguas, combustibles, información y el transporte de personas o productos, esencial para realizar con eficiencia y calidad las actividades de la sociedad.",
+    "source_page": 141
+  },
+  {
+    "term": "Mampostería estructural",
+    "definition": "Véanse las Definiciones en el Título D de éste Reglamento.",
+    "see_also": [
+      "las Definiciones en el Título D de éste Reglamento"
+    ],
+    "source_page": 141
+  },
+  {
+    "term": "Masa",
+    "definition": "Cantidad de materia que posee un cuerpo. En el Sistema Internacional de Medidas (SI) se expresa en kilogramos, kg.",
+    "source_page": 142
+  },
+  {
+    "term": "Método de la fuerza horizontal equivalente",
+    "definition": "Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se expresan por medio de unas fuerzas horizontales estáticas equivalentes.",
+    "source_page": 142
+  },
+  {
+    "term": "Método del análisis dinámico elástico",
+    "definition": "Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se determinan por medio de la solución de las ecuaciones de equilibrio dinámico, considerando que las propiedades de rigidez de la estructura permanecen dentro del rango de respuesta lineal o elástica.",
+    "source_page": 142
+  },
+  {
+    "term": "Método del análisis dinámico inelástico",
+    "definition": "Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se determinan por medio de la solución de las ecuaciones de equilibrio dinámico, considerando que las propiedades de rigidez de la estructura se salen del rango de respuesta lineal o elástica.",
+    "source_page": 142
+  },
+  {
+    "term": "Microzonificación sísmica",
+    "definition": "División de una región o de un área urbana, en zonas más pequeñas que presentan un cierto grado de similitud en la forma como se ven afectados los movimientos sísmicos, dadas las características de los estratos de suelo subyacente.",
+    "source_page": 142
+  },
+  {
+    "term": "Modos de vibración",
+    "definition": "Son las diferentes formas de vibración propias de la estructura. A cada modo de vibración corresponde una frecuencia de vibración propia. La respuesta dinámica de la estructura, en el rango elástico, se puede expresar como la superposición de los efectos de los diferentes modos. Una estructura tiene tantos modos de vibración, como grados de libertad tenga.",
+    "source_page": 142
+  },
+  {
+    "term": "Modo fundamental",
+    "definition": "Es el modo de vibración correspondiente al período fundamental de la estructura en la dirección horizontal de interés.",
+    "source_page": 142
+  },
+  {
+    "term": "Movimientos sísmicos de diseño",
+    "definition": "Es una caracterización de los movimientos del terreno, en el sitio donde se encuentra localizada la edificación, que se producirían como consecuencia de la ocurrencia del sismo de diseño.",
+    "source_page": 142
+  },
+  {
+    "term": "Movimientos sísmicos para el umbral de daño",
+    "definition": "Es una caracterización de los movimientos del terreno, en el sitio donde se encuentra localizada la edificación, que se producirían como consecuencia de la ocurrencia del sismo correspondiente al umbral de daño.",
+    "source_page": 142
+  },
+  {
+    "term": "Movimiento telúrico",
+    "definition": "Movimiento de la corteza terrestre.",
+    "see_also": [
+      "sismo"
+    ],
+    "source_page": 142
+  },
+  {
+    "term": "Muro de carga",
+    "definition": "Es un muro estructural, continuo hasta la cimentación, que soporta principalmente cargas verticales.",
+    "source_page": 142
+  },
+  {
+    "term": "Muro de cortante",
+    "definition": null,
+    "see_also": [
+      "muro estructural"
+    ],
+    "source_page": 142
+  },
+  {
+    "term": "Muro divisorio o partición",
+    "definition": "Es un muro que no cumple una función estructural y que se utiliza para dividir espacios.",
+    "source_page": 142
+  },
+  {
+    "term": "Muro estructural",
+    "definition": "Es un muro, de carga o no, que se diseña para resistir fuerzas horizontales, de sismo o de viento, paralelas al plano del muro.",
+    "source_page": 142
+  },
+  {
+    "term": "Muro no estructural",
+    "definition": null,
+    "see_also": [
+      "muro divisorio"
+    ],
+    "source_page": 142
+  },
+  {
+    "term": "Nivel (medido desde la base) de un piso en la colindancia",
+    "definition": "Es la suma de las alturas de piso en la colindancia medidas desde la base hasta la parte superior del piso bajo estudio.",
+    "source_page": 142
+  },
+  {
+    "term": "Número de pisos aéreos de la edificación",
+    "definition": "Para efectos de la aplicación de la reglamentación de separación entre edificaciones de A.6.5.2, el máximo número de pisos aéreos de una edificación corresponde al número de losas de entrepiso aéreas, contando dentro de ellas la cubierta como una losa de entrepiso, y sin contar los sótanos. Una losa de entrepiso aérea es aquella que no esta en contacto con el terreno en ningún punto. Cuando un piso tenga más de 6 m de altura, se contará como dos pisos para efectos de calcular el número de pisos aéreos de la edificación.",
+    "source_page": 142
+  },
+  {
+    "term": "Número de pisos aéreos en la colindancia",
+    "definition": "Corresponde al número de pisos aéreos de la edificación, que se extienden hasta el paramento del lote de terreno en la zona de colindancia bajo estudio. Cuando un piso en la colindancia tenga más de 6 m de altura, se contará como dos pisos para efectos de calcular el número de pisos",
+    "source_page": 142
+  },
+  {
+    "term": "Perfil de suelo",
+    "definition": "Son los diferentes estratos de suelo existentes debajo del sitio de la edificación.",
+    "source_page": 143
+  },
+  {
+    "term": "Período de vibración, T",
+    "definition": "Es el tiempo que transcurre dentro de un movimiento armónico ondulatorio, o vibratorio, para que éste se repita.",
+    "source_page": 143
+  },
+  {
+    "term": "Período de vibración fundamental",
+    "definition": "Es el mayor período de vibración de la estructura en la dirección horizontal de interés.",
+    "source_page": 143
+  },
+  {
+    "term": "Peso",
+    "definition": "Efecto gravitacional sobre la masa. Se obtiene de multiplicar la masa en kg, por la aceleración debida a la gravedad, g (g= 9.8 m/s²). Se expresa en newtons, N (1 N = 1 kg · 1 m/s²).",
+    "source_page": 143
+  },
+  {
+    "term": "Piso",
+    "definition": "Es el espacio comprendido entre dos niveles de una edificación. Piso x es el que está debajo del nivel x.",
+    "source_page": 143
+  },
+  {
+    "term": "Piso flexible",
+    "definition": "Es aquel en el cual la rigidez ante fuerzas horizontales, del sistema de resistencia sísmica, es menor que el 70% de la rigidez ante fuerzas horizontales, del sistema de resistencia sísmica, del piso inmediatamente superior.",
+    "source_page": 143
+  },
+  {
+    "term": "Piso débil",
+    "definition": "Es aquel en el cual la resistencia ante fuerzas horizontales, del sistema de resistencia sísmica, del piso es menor que el 70% de la resistencia ante fuerzas horizontales, del sistema de resistencia sísmica, del piso inmediatamente superior.",
+    "source_page": 143
+  },
+  {
+    "term": "Plastificación progresiva, método de",
+    "definition": "Método de análisis no lineal estático conocido en inglés con el nombre de \"push-over\" (Véase Apéndice A-3).",
+    "see_also": [
+      "Apéndice A-3"
+    ],
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico",
+    "definition": "Es un conjunto de vigas, columnas y, en algunos casos, diagonales, todos ellos interconectados entre si por medio de conexiones o nudos que pueden ser, o no, capaces de transmitir momentos flectores de un elemento a otro. Dependiendo de sus características tiene las siguientes denominaciones:",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico arriostrado",
+    "definition": "Véase la definición de pórtico con diagonales.",
+    "see_also": [
+      "pórtico con diagonales"
+    ],
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico-cercha de acero resistente a momentos",
+    "definition": "Pórtico en el que las vigas son cerchas cuyo tramo central, denominado segmento especial, se diseña para que actúe como elemento disipador de energía, de modo que todos los elementos diferentes al segmento especial permanezcan en el rango elástico.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico con diagonales",
+    "definition": "Pórtico compuesto por vigas, columnas y diagonales excéntricas, o concéntricas, que se utiliza primordialmente para resistir fuerzas horizontales. Sus elementos trabajan principalmente deformándose axialmente, como en una cercha. Sus nudos pueden, o no, ser capaces de transmitir momentos flectores, dependiendo del material estructural que se emplee.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico con diagonales concéntricas",
+    "definition": "Es un pórtico con diagonales en el cual éstas llegan a los nudos conformados por las conexiones entre vigas y columnas.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico con diagonales excéntricas",
+    "definition": "Es un pórtico, de acero estructural, con diagonales que cumple los requisitos presentados en el Capítulo F.3.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico de acero con diagonales restringidas a pandeo",
+    "definition": "Es un pórtico con diagonales cuyo pandeo se restringe mediante el empleo de camisas rellenas de concreto.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico espacial",
+    "definition": "Es un sistema estructural tridimensional, que no tiene muros de carga, compuesto por elementos interconectados de tal manera que el conjunto actúe como una unidad, con o sin la ayuda de diafragmas horizontales o sistemas de arriostramiento horizontal. (Véase pórtico plano).",
+    "see_also": [
+      "pórtico plano"
+    ],
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico losa-columna",
+    "definition": "Es un sistema estructural tridimensional aporticado en el cual las losas cumplen la función de las vigas. Este sistema tiene numerosas restricciones impuestas por el Reglamento en su uso. Véase reticular cedulado.",
+    "see_also": [
+      "reticular cedulado"
+    ],
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico no arriostrado",
+    "definition": "Es un pórtico resistente a momentos que soporta las fuerzas horizontales por medio de momentos flectores en sus elementos, y que no tiene diagonales ni muros estructurales.",
+    "source_page": 143
+  },
+  {
+    "term": "Pórtico no resistente a momentos",
+    "definition": "Es un pórtico cuyas conexiones no son resistentes a momentos y que por lo tanto es inestable ante una solicitación de fuerzas horizontales, a menos que la responsabilidad de la resistencia ante estas fuerzas sea atendida por diagonales dentro del mismo pórtico o por conjuntos de elemento estructurales, tales como muros estructurales o pórticos con diagonales.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico para carga verticales",
+    "definition": "Es un pórtico espacial diseñado para resistir únicamente cargas verticales.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico plano",
+    "definition": "Es un pórtico en el cual todos sus elementos están contenidos dentro de un plano vertical. Este tipo de pórticos no puede utilizarse a menos que existan elementos estructurales que restrinjan los desplazamientos en la dirección perpendicular al plano del pórtico, tales como otros pórticos o muros estructurales y que exista un diafragma que amarre horizontalmente el conjunto. (Véase A.3.1.5) Los enlaces entre pórticos planos a través de la viguetería del sistema de entrepiso no se consideran adecuados para efectos de restringir los desplazamientos en la dirección perpendicular al plano de pórtico, caso en el cual deben disponerse vigas paralelas a la viguetería que enlacen las columnas y conformen un pórtico espacial.",
+    "see_also": [
+      "A.3.1.5"
+    ],
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico resistente a momentos",
+    "definition": "Es un pórtico espacial en el cual sus miembros y nudos son capaces de resistir las fuerzas, principalmente, por flexión.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico resistente a momentos, sin capacidad de disipación de energía",
+    "definition": "Es un pórtico de concreto reforzado que no cumple con los requisitos especiales de detallado del refuerzo para lograr un comportamiento dúctil, o que no está dispuesto espacialmente y no tiene resistencia ante fuerzas horizontales en la dirección perpendicular a su propio plano.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico resistente a momentos con capacidad especial de disipación de energía (DES)",
+    "definition": "Es un pórtico espacial diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado o del Capítulo F.3 cuando es de acero estructural.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico resistente a momentos con capacidad mínima de disipación de energía (DMI)",
+    "definition": "Es un pórtico espacial diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado o de los Capítulos F.1 y F.2 cuando es de acero estructural.",
+    "source_page": 144
+  },
+  {
+    "term": "Pórtico resistente a momentos con capacidad moderada de disipación de energía (DMO)",
+    "definition": "Es un pórtico espacial, diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado, o del Capítulo F.3 cuando es de acero estructural.",
+    "source_page": 144
+  },
+  {
+    "term": "Probabilidad",
+    "definition": "Es el cociente del número de casos que realmente ocurren, dividido por el número total de casos posibles.",
+    "source_page": 144
+  },
+  {
+    "term": "Propietario",
+    "definition": "Para efectos de este Reglamento, es la persona, natural o jurídica, titular de derechos reales principales, poseedor, propietario del derecho de dominio a título de fiducia y los fideicomitentes de las mismas fiducias, a nombre de la cual se expide la licencia de construcción.",
+    "source_page": 144
+  },
+  {
+    "term": "Resistencia",
+    "definition": "Es la capacidad útil de una estructura, o de sus miembros, para resistir cargas, dentro de los límites de deformación establecidos en este Reglamento.",
+    "source_page": 144
+  },
+  {
+    "term": "Reticular celulado",
+    "definition": "Es un tipo de pórtico losa-columna, en el cual la losa trabaja en dos direcciones y es aligerada en las zonas lejanas de las columnas y maciza, o con capiteles, en las zonas aledañas a las columnas. Este sistema tiene numerosas restricciones impuestas por el Reglamento en su uso.",
+    "source_page": 144
+  },
+  {
+    "term": "Revisor de los diseños",
+    "definition": "Es el ingeniero civil, diferente del diseñador e independiente laboralmente de él, que tiene la responsabilidad de revisar los diseños estructurales y estudios geotécnicos, o el arquitecto, ingeniero civil o mecánico, que revisa los diseños de elementos no estructurales; dentro del trámite de expedición de una licencia de construcción, para constatar que la edificación propuesta cumple con los requisitos exigidos por la Ley 400 de 1997 y el presente Reglamento.",
+    "source_page": 144
+  },
+  {
+    "term": "Riesgo sísmico",
+    "definition": "Corresponde a la determinación de las consecuencias económicas y sociales, expresada en términos monetarios, o de víctimas, respectivamente, para el sitio de interés en función de su probabilidad de excedencia para un tiempo de exposición dado.",
+    "source_page": 144
+  },
+  {
+    "term": "Rigidez de piso",
+    "definition": "Para un piso x, es el cociente entre el cortante de piso, Vx, y la deriva que éste cortante produce en el piso.",
+    "source_page": 145
+  },
+  {
+    "term": "Riostra",
+    "definition": "Véase diagonal.",
+    "see_also": [
+      "diagonal"
+    ],
+    "source_page": 145
+  },
+  {
+    "term": "Riostra del diafragma (riostra transmisora, amarre, elemento colector)",
+    "definition": "Es el elemento de un diafragma, paralelo a la fuerza aplicada, que recoge y transmite el cortante del diafragma a los elementos resistentes verticales o el que distribuye las fuerzas dentro del diafragma. Estos miembros pueden estar sometidos a efectos axiales de tensión o de compresión.",
+    "see_also": [
+      "sistemas de arriostramiento horizontal"
+    ],
+    "source_page": 145
+  },
+  {
+    "term": "Sello seco registrado",
+    "definition": "Marca realzada que queda colocada sobre un plano de construcción y que reemplaza la firma del diseñador responsable de los diseños expresados en él. La marca que produce debe contener el nombre del profesional, su profesión (ingeniero civil, arquitecto, etc.) y el número de la matricula profesional.",
+    "source_page": 145
+  },
+  {
+    "term": "Separación sísmica en la colindancia",
+    "definition": "Es la distancia horizontal en dirección perpendicular al plano vertical levantado sobre el lindero entre los dos lotes de terreno, medida desde la losa de entrepiso de la edificación hasta este plano.",
+    "source_page": 145
+  },
+  {
+    "term": "Sismo, temblor o terremoto",
+    "definition": "Vibraciones de la corteza terrestre inducidas por el paso de ondas sísmicas provenientes de un lugar o zona donde han ocurrido movimientos súbitos de la corteza terrestre.",
+    "source_page": 145
+  },
+  {
+    "term": "Sismo característico",
+    "definition": "Es un sismo definido para una falla activa que tiene una magnitud igual al mejor estimativo que pueda hacerse sobre la máxima magnitud que pueda ocurrir en la falla, pero no menor que la mayor magnitud que haya ocurrido históricamente en la falla.",
+    "source_page": 145
+  },
+  {
+    "term": "Sismo de diseño",
+    "definition": "Es la caracterización de los movimientos sísmicos mínimos que deben utilizarse en la realización del diseño sismo resistente. Para efectos del presente Reglamento, es un sismo cuyos efectos en el lugar de interés tienen una probabilidad de sólo diez por ciento de ser excedidos en un lapso de cincuenta años, lo cual conduce a un período promedio de retorno de 475 años. El diseño sismo resistente tiene dentro de sus objetivos la protección de la vida ante la ocurrencia del sismo de diseño.",
+    "source_page": 145
+  },
+  {
+    "term": "Sismo de seguridad limitada",
+    "definition": "Es la caracterización de los movimientos sísmicos que pueden utilizarse alternativamente en la evaluación e intervención de ciertas estructuras existentes. Para efectos del presente Reglamento, es un sismo cuyos efectos en el lugar de interés tienen una probabilidad del veinte por ciento de ser excedidos en un lapso de cincuenta años, lo cual corresponde a un período promedio de retorno de 225 años. Su uso está sometido a las limitaciones dadas en A.10.3.",
+    "source_page": 145
+  },
+  {
+    "term": "Sismo del umbral de daño",
+    "definition": "Es un sismo cuyos efectos en el lugar de interés tienen una probabilidad del ochenta por ciento de ser excedidos en un lapso de cincuenta años, lo cual conduce a un período promedio de retorno de 31 años. Corresponde a un sismo de intensidad relativamente baja, ante cuya ocurrencia no deben producirse daños a los elementos estructurales y no estructurales, que en caso de que ocurran, éstos deben ser reparables y no deben interferir con el funcionamiento de la edificación.",
+    "source_page": 145
+  },
+  {
+    "term": "Sistema combinado",
+    "definition": "Es un sistema estructural en el cual las cargas verticales son resistidas por un pórtico, resistente a momentos o no, esencialmente completo, y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales.",
+    "see_also": [
+      "A.3.2.1.2"
+    ],
+    "source_page": 145
+  },
+  {
+    "term": "Sistema de muros de carga",
+    "definition": "Es un sistema estructural que no dispone de un pórtico esencialmente completo y en el cual las cargas verticales son llevadas hasta la cimentación por los muros de carga y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales.",
+    "see_also": [
+      "A.3.2.1.1"
+    ],
+    "source_page": 145
+  },
+  {
+    "term": "Sistema de pórtico",
+    "definition": "Es un sistema estructural compuesto por un pórtico espacial, resistente a momentos, esencialmente completo, no arriostrado, que resiste todas las cargas verticales y las fuerzas horizontales.",
+    "see_also": [
+      "Α.3.2.1.3"
+    ],
+    "source_page": 145
+  },
+  {
+    "term": "Sistema dual",
+    "definition": "Es el sistema estructural resultante de la combinación de un pórtico espacial resistente a momentos (de capacidad moderada o alta de disipación de energía) con muros estructurales o pórticos con diagonales, diseñado de acuerdo con A.3.2.1.4.",
+    "source_page": 145
+  },
+  {
+    "term": "Sistema de arriostramiento horizontal",
+    "definition": "Es un sistema de cercha, o armadura, horizontal que cumple las mismas",
+    "source_page": 145
+  },
+  {
+    "term": "Sistema de resistencia sísmica",
+    "definition": "Es aquella parte de la estructura que según el diseño aporta la resistencia requerida para soportar los movimientos sísmicos de diseño.",
+    "source_page": 146
+  },
+  {
+    "term": "Sistema Internacional de Medidas (SI)",
+    "definition": "El sistema Sl se estableció en la Decimoprimera Conferencia Mundial de Pesos y Medidas, que tuvo lugar en Sevres, Francia, en 1960. Por medio del Decreto 1731 de 18 de Septiembre de 1967, el único sistema de medidas permitido en el país es el Sistema Internacional de Medidas SI. El sistema está basado en siete unidades básicas, que son para longitud el metro (m), para masa el kilogramo (kg), para tiempo el segundo (s), para corriente eléctrica el amperio (A), para temperatura el kelvin (K), para intensidad luminosa el candela (cd) y para cantidad de substancia el mol (mol).",
+    "source_page": 146
+  },
+  {
+    "term": "Unidades básicas",
+    "definition": "para distancia el metro (m), para masa el kilogramo (kg), y para tiempo el segundo (s).",
+    "source_page": 146
+  },
+  {
+    "term": "Unidades suplementarias",
+    "definition": "para ángulo plano el radian (rad)",
+    "source_page": 146
+  },
+  {
+    "term": "Unidades derivadas",
+    "definition": "para frecuencia el hertz (Hz) [1 Hz = 1 s¹], para fuerza el newton (N) [1 N = 1 kg · m/s²], para esfuerzo, o fuerza por unidad de área, el pascal (Pa) [1 Pa = 1 N/m²], y para energía o trabajo el joule (J) [1 J = N · m]",
+    "source_page": 146
+  },
+  {
+    "term": "Solicitaciones",
+    "definition": "Son las fuerzas u otras acciones que afectan la estructura, dentro de las cuales se cuentan: los efectos gravitacionales sobre su propia masa, o peso propio, las cargas generadas por los elementos no estructurales, por sus ocupantes y sus posesiones, los efectos ambientales tales como el viento o el sismo, los asentamientos diferenciales, y los cambios dimensionales causados por variaciones en la temperatura o efectos reológicos de los materiales. En general corresponden a todo lo que puede afectar la estructura.",
+    "source_page": 146
+  },
+  {
+    "term": "Supervisión técnica",
+    "definition": "Es la verificación de que la construcción de la estructura de la edificación se adelante de acuerdo con los diseños, planos y especificaciones realizadas por el diseñador estructural. Así mismo, que los elementos no estructurales se construyan siguiendo los diseños, planos, y especificaciones realizadas por el diseñador de elementos no estructurales, de acuerdo con el grado de desempeño requerido.",
+    "source_page": 146
+  },
+  {
+    "term": "Supervisor técnico",
+    "definition": "Es el profesional, ingeniero civil, arquitecto o constructor en arquitectura e ingeniería, bajo cuya responsabilidad se realiza la supervisión técnica. El alcance de la supervisión técnica está definido en el Título I de este Reglamento. La supervisión técnica puede ser realizada por el mismo profesional que realiza la interventoría.",
+    "see_also": [
+      "interventor"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "Temblor, terremoto",
+    "definition": "Véase sismo.",
+    "see_also": [
+      "sismo"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "Umbral de daño",
+    "definition": "Corresponde al nivel de movimiento sísmico a partir del cual se pueden presentar daños a los elementos estructurales y no estructurales.",
+    "source_page": 147
+  },
+  {
+    "term": "Velocidad de la onda de cortante",
+    "definition": "Es la velocidad con que se desplaza la onda sísmica de cortante dentro de un suelo.",
+    "source_page": 147
+  },
+  {
+    "term": "Vulnerabilidad",
+    "definition": "Es la cuantificación del potencial de mal comportamiento de una edificación con respecto a alguna solicitación.",
+    "source_page": 147
+  },
+  {
+    "term": "Zona de amenaza sísmica (baja, intermedia o alta)",
+    "definition": "Son regiones del país donde la amenaza sísmica se considera baja, intermedia o alta, tal como se define en A.2.3. Los requisitos de análisis y diseño estructural varían de una zona a otra.",
+    "source_page": 147
+  },
+  {
+    "term": "a\n  p",
+    "definition": "= coeficiente de amplificación dinámica del elemento no estructural. Véase el Capítulo A.9.",
+    "see_also": [
+      "el Capítulo A.9"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "a\n  x",
+    "definition": "= aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, o sobre el elemento no estructural, localizado en el piso x. Véanse los Capítulos A.8 y A.9.",
+    "see_also": [
+      "los Capítulos A.8 y A.9"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "A\n  a",
+    "definition": "= coeficiente que representa la aceleración horizontal pico efectiva, para diseño, dado en A.2.2.",
+    "source_page": 147
+  },
+  {
+    "term": "A\n  B",
+    "definition": "= área de la edificación en su base, en m².",
+    "source_page": 147
+  },
+  {
+    "term": "A\n  d",
+    "definition": "= coeficiente que representa la aceleración pico efectiva, para el umbral de daño, dado en A.12.2.",
+    "source_page": 147
+  },
+  {
+    "term": "A\n  e",
+    "definition": "= coeficiente que representa la aceleración pico efectiva reducida para diseño con seguridad limitada, dado en A.10.3.",
+    "source_page": 147
+  },
+  {
+    "term": "A\n  s",
+    "definition": "= aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero, Véanse ecuaciones A.3.6-3, Α.8.2-1 ο Α.9.4-2.",
+    "see_also": [
+      "ecuaciones A.3.6-3",
+      "Α.8.2-1",
+      "Α.9.4-2"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "A\n  v",
+    "definition": "= coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño, dado en A.2.2.",
+    "source_page": 147
+  },
+  {
+    "term": "A\n  wi",
+    "definition": "= área mínima de cortante de la sección de un muro estructurali, medida en un plano horizontal, en el primer nivel de la estructura y en la dirección en estudio, en m². Véase A.4.2.",
+    "see_also": [
+      "A.4.2"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "A\n  x",
+    "definition": "= coeficiente de amplificación de la torsión accidental en el nivel x, definido en A.3.6.7.",
+    "source_page": 147
+  },
+  {
+    "term": "a\n  i",
+    "definition": "= aceleración en el niveli, Véanse ecuaciones A.3.6-3 y A.8.2-1.",
+    "see_also": [
+      "ecuaciones A.3.6-3",
+      "A.8.2-1"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "C\n  t",
+    "definition": "= coeficiente utilizado para calcular el período de la estructura, definido en A.4.2.2",
+    "source_page": 147
+  },
+  {
+    "term": "C\n  u",
+    "definition": "= coeficiente utilizado para calcular el período máximo permisible la estructura, definido en A.4.2.1",
+    "source_page": 147
+  },
+  {
+    "term": "C\n  vx",
+    "definition": "= coeficiente definido en A.4.3.",
+    "source_page": 147
+  },
+  {
+    "term": "d\n  c",
+    "definition": "= es la suma de los espesores de los k estratos de suelos cohesivos localizados dentro de los 30 m superiores del perfil.",
+    "source_page": 147
+  },
+  {
+    "term": "d\n  i",
+    "definition": "= espesor del estratoi, localizado dentro de los 30 m superiores del perfil",
+    "source_page": 147
+  },
+  {
+    "term": "d\n  s",
+    "definition": "= es la suma de los espesores de los m estratos de suelos no cohesivos localizados dentro de los 30 m superiores del perfil.",
+    "source_page": 147
+  },
+  {
+    "term": "E",
+    "definition": "= fuerzas sísmicas reducidas de diseño (E = F/R), o (E=Fp/Rp), 0 o fuerzas sísmicas reducidas para revisión de la estructura existente y diseño de la ampliación (E = F/R').",
+    "source_page": 147
+  },
+  {
+    "term": "E\n  d",
+    "definition": "= fuerzas sísmicas del umbral de daño. Véase el Capítulo A.12.",
+    "see_also": [
+      "el Capítulo A.12"
+    ],
+    "source_page": 147
+  },
+  {
+    "term": "f\n  i",
+    "definition": "= fuerza sísmica horizontal en el nivel i para ser utilizada en la ecuación A.4.2-1.",
+    "source_page": 147
+  },
+  {
+    "term": "F₊",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos cortos, debida a los efectos de sitio, adimensional.",
+    "source_page": 148
+  },
+  {
+    "term": "F₋",
+    "definition": "parte del cortante sísmico en la base que se genera en el nivel i, véase A.3.6.6.",
+    "see_also": [
+      "A.3.6.6"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "F₋ , Fₓ",
+    "definition": "fuerzas sísmicas horizontales en los niveles i o x respectivamente. Véase A.4.3.",
+    "see_also": [
+      "A.4.3"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "Fₙ",
+    "definition": "fuerza horizontal sobre un elemento estructural que no hace parte del sistema de resistencia sísmica, o elemento no estructural, componente o equipo de una edificación, aplicada en su centro de masa. Véanse los Capítulos A.8 y A.9",
+    "source_page": 148
+  },
+  {
+    "term": "Fₛ",
+    "definition": "fuerzas sísmicas, véase A.3.1.1, o fuerzas sísmicas equivalentes, véase",
+    "see_also": [
+      "A.3.1.1"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "Fₓ",
+    "definition": "coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los efectos de sitio, adimensional, dado en A.2.4.5.",
+    "source_page": 148
+  },
+  {
+    "term": "Fₓₘₘ",
+    "definition": "parte del cortante sísmico modal Vₘ que se genera en el nivel x, de acuerdo con A.5.4.",
+    "source_page": 148
+  },
+  {
+    "term": "g",
+    "definition": "aceleración debida a la gravedad ( g = 9.8 m/s²).",
+    "source_page": 148
+  },
+  {
+    "term": "hₑₔ",
+    "definition": "altura equivalente del sistema de un grado de libertad que simula la edificación, véase A.3.6.8.2, A.8.2.1.1 y A.9.4.2.1.",
+    "source_page": 148
+  },
+  {
+    "term": "h₋",
+    "definition": "altura en metros, medida desde la base, del nivel i, véase A.3.6.8.2, A.8.2.1.1 y A.9.4.2.1.",
+    "source_page": 148
+  },
+  {
+    "term": "h₋ , hₓ",
+    "definition": "altura en metros, medida desde la base, del nivel i o x. Véase A.4.3.2.",
+    "see_also": [
+      "A.4.3.2"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "hₙ",
+    "definition": "altura en metros, medida desde la base, del piso más alto del edificio, véase A.3.6.8.2, A.4.2.2, A.8.2.1.1 y A.9.4.2.1.",
+    "source_page": 148
+  },
+  {
+    "term": "hₙᵢ",
+    "definition": "altura del piso i , medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del piso inmediatamente inferior, i – 1. Véanse los Capítulos A.4, A.6 y A.12.",
+    "source_page": 148
+  },
+  {
+    "term": "hₜᵢ",
+    "definition": "altura del muro i medida desde la base, en m.",
+    "source_page": 148
+  },
+  {
+    "term": "H",
+    "definition": "espesor total en m de los estratos de suelos cohesivos.",
+    "source_page": 148
+  },
+  {
+    "term": "I",
+    "definition": "coeficiente de importancia dado en A.2.5.2.",
+    "source_page": 148
+  },
+  {
+    "term": "IP",
+    "definition": "índice de plasticidad, el cual se obtiene cumpliendo la norma ASTM D 4318.",
+    "source_page": 148
+  },
+  {
+    "term": "j",
+    "definition": "índice de una de las direcciones ortogonales principales en planta, puede ser x o y. Véase el Capítulo A.6.",
+    "source_page": 148
+  },
+  {
+    "term": "k",
+    "definition": "exponente relacionado con el período fundamental de la edificación dado en A.4.3.2.",
+    "source_page": 148
+  },
+  {
+    "term": "ℓₜᵢ",
+    "definition": "longitud medida horizontalmente, en metros, de un muro estructural i en el primer nivel de la estructura y en la dirección en estudio. Véase A.4.2.",
+    "see_also": [
+      "A.4.2"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "m₋",
+    "definition": "parte de M que está colocada en el nivel i , en kg. Véase A.4.3.2.",
+    "see_also": [
+      "A.4.3.2"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "m₋ , mₓ",
+    "definition": "parte de M que está colocada en el nivel i o x respectivamente. Véanse los Capítulos A.3 y A.4.",
+    "see_also": [
+      "A.3",
+      "A.4"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "M",
+    "definition": "masa total de la edificación — M debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso. Capítulos A.4 y A.5 (en kg).",
+    "source_page": 148
+  },
+  {
+    "term": "Mₙ",
+    "definition": "masa de un elemento o componente, en kg. Véanse los Capítulos A.3, A.8, y A.9.",
+    "source_page": 148
+  },
+  {
+    "term": "¯M₊",
+    "definition": "masa actuante total de la edificación en la dirección j. Ecuación A.5.4-1.",
+    "source_page": 148
+  },
+  {
+    "term": "Mₘ",
+    "definition": "masa efectiva modal del modo m , determinada de acuerdo con la ecuación A.5.4-2.",
+    "source_page": 148
+  },
+  {
+    "term": "nₜ",
+    "definition": "número de muros de la edificación efectivos para resistir las fuerzas sísmicas horizontales en la dirección bajo estudio.",
+    "source_page": 148
+  },
+  {
+    "term": "N",
+    "definition": "número de pisos de la edificación.",
+    "source_page": 148
+  },
+  {
+    "term": "Nₑₑ",
+    "definition": "resistencia efectiva. Véase el Capítulo A.10.",
+    "see_also": [
+      "A.10"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "Nₑₓ",
+    "definition": "resistencia existente. Véase el Capítulo A.10.",
+    "see_also": [
+      "A.10"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "N₋",
+    "definition": "número de golpes por pie obtenido en el ensayo de penetración estándar, realizado in situ de acuerdo con la norma ASTM D 1586, sin hacerle corrección por energía N60. El valor de N₋ usado para obtener el valor medio no debe exceder 100.",
+    "source_page": 148
+  },
+  {
+    "term": "p",
+    "definition": "número total de modos utilizado en el análisis modal de la estructura. Véase el Capítulo A.5.",
+    "see_also": [
+      "A.5"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "P₋",
+    "definition": "suma de la carga vertical total, incluyendo muerta y viva, que existe en el piso i , y todos los pisos localizados por encima. Para el cálculo de los efectos P-Delta de diseño, no hay necesidad que los coeficientes de carga de sean mayores que la unidad. Véase el Capítulo A.6.",
+    "see_also": [
+      "A.6"
+    ],
+    "source_page": 148
+  },
+  {
+    "term": "Qi",
+    "definition": "índice de estabilidad del piso i utilizado en la evaluación de los efectos P-Delta. Véase A.6.2.3.",
+    "see_also": [
+      "A.6.2.3"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "rj",
+    "definition": "proyección, sobre la dirección perpendicular en planta a la dirección en estudio, j, de la distancia entre el centro de masa del piso y el punto de interés. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "R",
+    "definition": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = ΦaΦpΦrRo). Véase el Capítulo A.3.",
+    "see_also": [
+      "Capítulo A.3"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "R'",
+    "definition": "coeficiente de capacidad de disipación de energía que se le asigna a la edificación existente de acuerdo con lo prescrito en el Capítulo A.10.",
+    "source_page": 149
+  },
+  {
+    "term": "Ro",
+    "definition": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural. Véase el Capítulo A.3.",
+    "see_also": [
+      "Capítulo A.3"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "RC",
+    "definition": "coeficiente de capacidad de disipación de energía definido para la zona de períodos cortos menores de Tc en función del valor de R, cuando se exige así en los estudios de microzonificación. Definido en la ecuación A.2.9-1",
+    "source_page": 149
+  },
+  {
+    "term": "Rp",
+    "definition": "coeficiente de capacidad de disipación de energía del elemento no estructural y sus sistema de soporte. Se da en las tablas A.9.5-1 у А.9.6-1.",
+    "source_page": 149
+  },
+  {
+    "term": "Sui",
+    "definition": "es la resistencia al corte no drenado en kPa (kgf/cm²) del estrato i, la cual no debe exceder 250 kPa (2.5 kgf/cm²) para realizar el promedio ponderado. Esta resistencia se mide cumpliendo la norma NTC 1527 (ASTM D 2166) o la norma NTC 2041 (ASTM D 2850).",
+    "source_page": 149
+  },
+  {
+    "term": "S",
+    "definition": "coeficiente de sitio considerado en A.12.3",
+    "source_page": 149
+  },
+  {
+    "term": "S",
+    "definition": "coeficiente de sitio para ser empleado en el espectro sísmico del umbral de daño (S= 1.25S).",
+    "source_page": 149
+  },
+  {
+    "term": "Sa",
+    "definition": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.",
+    "source_page": 149
+  },
+  {
+    "term": "Sad",
+    "definition": "valor del espectro sísmico del umbral de daño, para un período de vibración dado. Máxima aceleración horizontal para el umbral de daño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.12.3.",
+    "source_page": 149
+  },
+  {
+    "term": "Sam",
+    "definition": "valor del espectro de aceleraciones de diseño para el período de vibración Tm, correspondiente al modo de vibración m. Véase el Capítulo A.5.",
+    "see_also": [
+      "Capítulo A.5"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "Sd",
+    "definition": "valor del espectro de desplazamientos de diseño para un período de vibración dado. Máximo desplazamiento horizontal de diseño, expresado en m, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.3.",
+    "source_page": 149
+  },
+  {
+    "term": "Sv",
+    "definition": "valor del espectro de velocidades de diseño para un período de vibración dado. Máxima velocidad horizontal de diseño, expresada en m/s, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.2.",
+    "source_page": 149
+  },
+  {
+    "term": "T",
+    "definition": "período fundamental del edificio como se determina en A.4.2.",
+    "source_page": 149
+  },
+  {
+    "term": "To",
+    "definition": "período de vibración al cual inicia la zona de aceleraciones constantes del espectro de aceleraciones, en s.",
+    "source_page": 149
+  },
+  {
+    "term": "Ta",
+    "definition": "período de vibración fundamental aproximado, en segundos, calculado de acuerdo con A.4.2.",
+    "source_page": 149
+  },
+  {
+    "term": "Tc",
+    "definition": "período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante del espectro de diseño, para períodos cortos, y la parte descendiente del mismo. Véase A.2.6.",
+    "see_also": [
+      "A.2.6"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "Tcd",
+    "definition": "período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante del espectro sísmico del umbral de daño para períodos cortos y la parte descendiente del mismo. Véase el Capítulo A.12.",
+    "see_also": [
+      "Capítulo A.12"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "TL",
+    "definition": "período de vibración, en segundos, correspondiente al inicio de la zona de desplazamiento aproximadamente constante del espectro de diseño, para períodos largos. (Véase A.2.6).",
+    "see_also": [
+      "A.2.6"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "TLd",
+    "definition": "período de vibración, en segundos, correspondiente al inicio de la zona de desplazamiento aproximadamente constante del espectro de umbral de daño, para períodos largos. (Véase A.12.3.4).",
+    "see_also": [
+      "A.12.3.4"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "Tm",
+    "definition": "período de vibración correspondiente al modo de vibración m, en seg. Véase el Capítulo A.5.",
+    "see_also": [
+      "Capítulo A.5"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "Ts",
+    "definition": "período de vibración fundamental, en segundos, del depósito de suelo subyacente en el sitio. Véase A.2.4.",
+    "see_also": [
+      "A.2.4"
+    ],
+    "source_page": 149
+  },
+  {
+    "term": "Vsi",
+    "definition": "velocidad media de la onda de cortante del suelo del estrato i, medida en campo, en m/s.",
+    "source_page": 149
+  },
+  {
+    "term": "Vmj",
+    "definition": "cortante sísmico en la base correspondiente al modo m en la dirección horizontal j. Véase el Capítulo A.5.",
+    "see_also": [
+      "Capítulo A.5"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Vi, Vx",
+    "definition": "fuerza cortante del piso i o x, respectivamente, en la dirección en estudio, sin dividir por R. Se determina por medio de las ecuaciones del numeral A.4.3. Corresponde a la suma de las fuerzas horizontales sísmicas de diseño que se aplican al nivel i o x, y todos los niveles localizados por encima de él.",
+    "source_page": 150
+  },
+  {
+    "term": "Vs",
+    "definition": "cortante sísmico de diseño en la base de la estructura, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4.",
+    "source_page": 150
+  },
+  {
+    "term": "Vsd",
+    "definition": "cortante sísmico en la base, para las fuerzas sísmicas del umbral de daño. Véase A.12.4.",
+    "see_also": [
+      "A.12.4"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Vtj",
+    "definition": "cortante sísmico total en la base en la dirección horizontal j. Véase el Capítulo A.5.",
+    "see_also": [
+      "Capítulo A.5"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Vx",
+    "definition": "fuerza cortante sísmica en el nivel x. Véase A.3.6.6.",
+    "see_also": [
+      "A.3.6.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "W",
+    "definition": "contenido de agua en porcentaje, el cual se determina por medio de la norma NTC 1495 (ASTM D 2166).",
+    "source_page": 150
+  },
+  {
+    "term": "α",
+    "definition": "exponente para ser utilizado en el cálculo del período aproximado Ta. Véase A.4.2.2.",
+    "see_also": [
+      "A.4.2.2"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "δcm,j",
+    "definition": "desplazamiento horizontal, del centro de masa del piso i, en la dirección j. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "δι",
+    "definition": "desplazamiento horizontal del nivel i con respecto a la base de la estructura, debido a las fuerzas horizontales fi, para ser utilizado en la ecuación A.4.2-1, o desplazamiento horizontal del centro de masas del nivel i de la estructura, en metros, utilizado en el Capítulo A.6.",
+    "source_page": 150
+  },
+  {
+    "term": "δmax",
+    "definition": "desplazamiento horizontal máximo en el nivel x. Véase ecuación A.3.6-2.",
+    "source_page": 150
+  },
+  {
+    "term": "δpd,j",
+    "definition": "desplazamiento horizontal adicional, del centro de masa del piso i, causado por efectos P-Delta, en la dirección j. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "δprom",
+    "definition": "promedio de los desplazamientos horizontales en puntos extremos de la estructura en el nivel x. Véase ecuación A.3.6-2.",
+    "source_page": 150
+  },
+  {
+    "term": "δti,j",
+    "definition": "desplazamiento horizontal adicional causado por efectos de torsión, de cualquier punto del diafragma del piso i, en la dirección j. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "δtoti, j",
+    "definition": "desplazamiento total horizontal, de cualquier punto del diafragma del piso i en la dirección j Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Δicm,j",
+    "definition": "deriva del piso i, en la dirección bajo estudio, j, medida en el centro de masa del piso, como la diferencia entre el desplazamiento horizontal del piso i menos el del piso i-1 en la misma dirección j. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Δij",
+    "definition": "deriva del piso i en la dirección principal en planta j.",
+    "source_page": 150
+  },
+  {
+    "term": "Δimax",
+    "definition": "deriva máxima de diseño para cualquier punto del piso i. Véase el Capítulo A.6.",
+    "see_also": [
+      "Capítulo A.6"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φa",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en altura de la edificación. Véase A.3.3.3.",
+    "see_also": [
+      "A.3.3.3"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φe",
+    "definition": "coeficiente de reducción de resistencia por estado de la estructura. Véase A.10.4.3.4.",
+    "see_also": [
+      "A.10.4.3.4"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φc",
+    "definition": "coeficiente de reducción de resistencia por calidad del diseño y construcción de la estructura. Véase A.10.4.3.4.",
+    "see_also": [
+      "A.10.4.3.4"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φijm",
+    "definition": "amplitud de desplazamiento del nivel i de la edificación, en la dirección j, cuando está vibrando en el modo m. Véase el Capítulo A.5.",
+    "see_also": [
+      "Capítulo A.5"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φp",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en planta de la edificación. Véase A.3.3.3.",
+    "see_also": [
+      "A.3.3.3"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Φr",
+    "definition": "coeficiente de reducción de la capacidad de disipación de energía causado por ausencia de redundancia en el sistema estructural de resistencia sísmica. Véase A.3.3.8.",
+    "see_also": [
+      "A.3.3.8"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "Ω0",
+    "definition": "coeficiente de sobreresistencia. Véase A.3.3.9.",
+    "see_also": [
+      "A.3.3.9"
+    ],
+    "source_page": 150
+  },
+  {
+    "term": "θi",
+    "definition": "rotación alrededor de un eje vertical que pasa por el centro de masa del pisoi, causada por los efectos torsionales, en radianes. Véase el Capítulo Α.6.",
+    "see_also": [
+      "Capítulo Α.6"
+    ],
+    "source_page": 150
+  }
+]

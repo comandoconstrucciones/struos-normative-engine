@@ -1,0 +1,68 @@
+{
+  "page_number": 21,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.13",
+      "title": "CONSTRUCCIÓN RESPONSABLE AMBIENTALMENTE",
+      "content": "Las construcciones que se adelanten en el territorio nacional deben cumplir con la legislación y reglamentación nacional, departamental y municipal o distrital respecto al uso responsable ambientalmente de materiales y procedimientos constructivos. Se deben utilizar adecuadamente los recursos naturales y tener en cuenta el medio ambiente sin producir deterioro en él y sin vulnerar la renovación o disponibilidad futura de estos materiales. Esta responsabilidad ambiental debe desarrollarse desde la etapa de diseño y aplicarse y verificarse en la etapa de construcción, por todos los profesionales y demás personas que intervengan en dichas etapas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4",
+      "title": "CONSIDERACIONES ESPECIALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4.1",
+      "title": "POR TAMAÑO Y GRUPO DE USO",
+      "content": "En toda edificación del grupo de uso I, como las define A.2.5.1, que tenga más de 3000 m² de área en conjunto, o que forme parte de un programa de quince o más unidades de vivienda, y en todas las edificaciones de los grupos de usos II, III y IV, como las define A.2.5.1, debe tenerse en cuenta la obligatoriedad de la supervisión técnica, profesionalmente calificada, de la construcción, según lo requerido en A.1.3.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4.2",
+      "title": "SISTEMAS PREFABRICADOS",
+      "content": "De acuerdo con lo establecido en el Artículo 12 de la Ley 400 de 1997, se permite el uso de sistemas de resistencia sísmica que estén compuestos, parcial o totalmente, por elementos prefabricados, que no estén cubiertos por este Reglamento, siempre y cuando cumpla uno de los dos procedimientos siguientes:\n(a) Se utilicen los criterios de diseño sísmico presentados en A.3.1.7, o\n(b) Se obtenga una autorización previa de la Comisión Asesora Permanente para el Régimen de Construcciones Sismo Resistentes, de acuerdo con los requisitos y responsabilidades establecidas en el Artículo 14 de la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5",
+      "title": "DISEÑOS, PLANOS, MEMORIAS Y ESTUDIOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.1",
+      "title": "DISEÑADOR RESPONSABLE",
+      "content": "La responsabilidad de los diseños de los diferentes elementos que componen la edificación recae en los profesionales bajo cuya dirección se elaboran los diferentes diseños particulares. Se presume, que cuando un elemento figure en un plano o memoria de diseño, es porque se han tomado todas las medidas necesarias para cumplir el propósito del Reglamento y por lo tanto el profesional que firma o rotula el plano es el responsable del diseño correspondiente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.1.1",
+      "content": "Deben consultarse en el Título II de la Ley 400 de 1997, así como en el Capítulo A.13 de este Reglamento, las definiciones de constructor, diseñador arquitectónico, diseñador estructural, ingeniero geotecnista, propietario y supervisor técnico, para efectos de la asignación de las responsabilidades correspondientes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.1.2",
+      "content": "En aquellos casos en los cuales en los diseños se especifican elementos cuyo suministro e instalación se realiza por parte de su fabricante o siguiendo sus instrucciones, el diseñador puede limitarse a especificar en sus planos, memorias o especificaciones, las características que deben cumplir los elementos, y la responsabilidad de que se cumplan estas características recae en el constructor que suscribe la licencia de construcción y este cumplimiento debe ser verificado por el supervisor técnico, cuando la edificación deba contar con su participación según el A.1.3.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2",
+      "title": "PLANOS",
+      "content": "Los planos arquitectónicos, estructurales y de elementos no estructurales, que se presenten para la obtención de la licencia de construcción deben ser iguales a los utilizados en la construcción de la obra, y por lo menos una copia debe permanecer en archivo de la Curaduría, departamento administrativo o dependencia distrital o municipal encargada de expedir las licencias de construcción. La Curaduría Urbana o la dependencia municipal o distrital encargada de expedir las licencias de construcción, podrá solicitar una copia en medio magnético del proyecto estructural (planos y memorias), en los formatos digitales que ésta defina. En los proyectos que requieran supervisión técnica, de acuerdo con el presente Reglamento, se deberá cumplir adicionalmente con lo especificado en el Título I"
+    }
+  ],
+  "references": [
+    "A.1.3.9",
+    "A.2.5.1",
+    "A.1.3.9",
+    "A.3.1.7",
+    "A.13",
+    "A.1.3.9",
+    "Título I"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

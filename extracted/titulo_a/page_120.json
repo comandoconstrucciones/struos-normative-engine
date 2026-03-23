@@ -1,0 +1,74 @@
+{
+  "page_number": 120,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10",
+      "title": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2.2",
+      "title": "Fuerzas horizontales",
+      "content": "Las solicitaciones sísmicas deben determinarse utilizando el mismo coeficiente de capacidad de disipación de energía, R', utilizado en la determinación del índice de sobreesfuerzo, calculado de acuerdo con A.10.4.3.4. Estas solicitaciones deben calcularse para toda la edificación, incluyendo la parte nueva y la antigua. La resistencia de los elementos de la porción antigua no puede sobrepasar la resistencia efectiva evaluada de acuerdo con las prescripciones de A.10.4.3.3. Para efectos de esta evaluación el coeficiente de reducción de resistencia por el estado de la estructura, φe, puede actualizarse al nivel del estado que se obtiene después de la intervención."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.3",
+      "title": "ELEMENTOS ESTRUCTURALES ADICIONALES EN LA PORCIÓN ANTIGUA",
+      "content": "En caso de que al calcular, para el conjunto, el índice de sobreesfuerzo o de flexibilidad, se encuentre que la porción antigua no tiene suficiente resistencia o rigidez para garantizar un buen comportamiento, deben proveerse elementos adicionales que den suficiente resistencia y rigidez para obtener un índice de sobreesfuerzo y un índice de flexibilidad menor que la unidad."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.4",
+      "title": "EMPALME DE ELEMENTOS NUEVOS CON ELEMENTOS ANTIGUOS",
+      "content": "Debe demostrase por análisis o ensayo que los empalmes entre elementos nuevos y antiguos son capaces de transferir las fuerzas resultado de las solicitaciones."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.5",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": "Todos los elementos estructurales nuevos, colocados en la porción nueva o antigua, deben cumplir los requisitos que para el material estructural exija el Reglamento, para el grado de capacidad de disipación de energía apropiado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.6",
+      "title": "EFECTOS EN LA CIMENTACIÓN",
+      "content": "El efecto de las fuerzas horizontales y verticales en la cimentación de la estructura, tomada en conjunto, debe ser investigado bajo la supervisión de un ingeniero geotecnista. Debe demostrarse que la cimentación es capaz de comportarse adecuadamente desde el punto de vista de capacidad portante, asentamientos y especialmente para el efecto de vuelco producido por la fuerzas horizontales trabajando con una nueva altura mayor de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9",
+      "title": "REHABILITACIÓN SÍSMICA",
+      "content": "A continuación se establecen los requisitos que se deben cumplir en la intervención de estructuras de edificaciones que deben ser reforzadas o actualizadas a la presente versión del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.1",
+      "title": "ALCANCE",
+      "content": "Los requisitos de la presente sección aplican para las siguientes edificaciones:\n(a) Las designadas por la Ley 400 de 1997 y sus decretos reglamentarios, como de obligatoria actualización.\n(b) Las que deben ser reforzadas por cambio de uso o modificaciones que exigen intervención estructural.\n(c) Las que hayan sido dañadas por sismos, y\n(d) Las que su propietario desee actualizar voluntariamente, conforme al presente reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS SEGÚN EL USO Y LA EDAD DE LA EDIFICACIÓN",
+      "content": "A continuación se definen los requisitos mínimos que se deben cumplir para el refuerzo y rehabilitación sísmica, según el uso y la edad de las edificaciones:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.1",
+      "title": "Intervención de edificaciones indispensables y de atención a la comunidad",
+      "content": "El diseño de las edificaciones pertenecientes a los grupos de uso III y IV, tal como los define A.2.5, independientemente de la época de construcción de la edificación, debe cumplir los requisitos establecidos en A.10.4.2.1, con el fin de lograr un nivel de seguridad equivalente al de una edificación nueva, y de acuerdo con los criterios y requisitos del presente Reglamento, de tal manera que la edificación una vez intervenida quede con un índice de sobreesfuerzo y un índice de flexibilidad menores que la unidad. La intervención de los elementos no estructurales puede limitarse a elementos de fachada y columnas cortas o cautivas y a aquellos que se encuentren en mal estado y representen un peligro para la vida ante la ocurrencia de un sismo en el futuro. Al respecto debe consultarse A.9.5.2. Si la edificación perteneciente a los grupos de uso III o IV ya fue intervenida durante la vigencia del Reglamento NSR-98 para cumplir con él y si se mantiene el mismo grupo de uso, no requiere obligatoriamente ser intervenida de nuevo para los requerimientos del presente Reglamento."
+    }
+  ],
+  "references": [
+    "A.10.4.3.4",
+    "A.10.4.3.3",
+    "A.2.5",
+    "A.10.4.2.1",
+    "A.9.5.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

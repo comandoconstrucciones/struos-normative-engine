@@ -1,0 +1,84 @@
+{
+  "page_number": 15,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1",
+      "title": "Capítulo A.1 - Introducción",
+      "content": "puede consultarse el Apéndice A-1, el cual no tiene carácter obligatorio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.5",
+      "title": "DEFINICIONES",
+      "content": "En el Capítulo A.13 del presente Reglamento de Construcciones Sismo Resistentes se dan las definiciones de los términos empleados en el presente Título A del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3",
+      "title": "PROCEDIMIENTO DE DISEÑO Y CONSTRUCCIÓN DE EDIFICACIONES, DE ACUERDO CON EL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.1",
+      "title": "GENERAL",
+      "content": "El diseño y construcción de una edificación sometida a este Reglamento debe llevarse a cabo como se indica a continuación. Las diferentes etapas de los estudios, construcción y supervisión técnica, se amplían en las secciones pertinentes del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.2",
+      "title": "ESTUDIOS GEOTÉCNICOS",
+      "content": "Debe realizarse una exploración del subsuelo en el lugar en que se va a construir la edificación, complementada con una consideración de sus alrededores para detectar, de ser el caso, movimientos de suelo. El alcance de la exploración y el programa de ensayos de laboratorio se establecen en el Título H - Estudios Geotécnicos. El ingeniero geotecnista debe elaborar un informe en el cual relacione la exploración y los resultados obtenidos en el laboratorio, se den las recomendaciones que debe seguir el ingeniero estructural en el diseño de la cimentación y obras de contención, la definición de los efectos sísmicos locales, los procedimientos constructivos que debe emplear el constructor, y los aspectos especiales a ser tenidos en cuenta por el supervisor técnico. En el reporte se deben indicar los asentamientos esperados, su variabilidad en el tiempo y las medidas que deben tomarse para no afectar adversamente las construcciones vecinas. El reporte debe ir firmado, o rotulado, por un ingeniero civil facultado para este fin de acuerdo con la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.3",
+      "title": "DISEÑO ARQUITECTÓNICO",
+      "content": "El proyecto arquitectónico de la edificación debe cumplir la reglamentación urbana vigente, los requisitos especificados en el Título J y en el Título K y además debe indicar, para efectos de este Reglamento, los usos de cada una de las partes de la edificación y su clasificación dentro de los grupos de uso definidos en el Capítulo A.2, el tipo de cada uno de los elementos no estructurales y el grado de desempeño mínimo que deben tener de acuerdo con los requisitos del Capítulo A.9. El proyecto arquitectónico debe ir firmado por un arquitecto con matricula profesional vigente. Cuando los planos arquitectónicos incluyan los diseños sísmicos de los elementos no estructurales, éstos deben ir firmados, o rotulados, por un profesional facultado para este fin de acuerdo con la Ley 400 de 1997. Véase A.1.3.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.4",
+      "title": "DISEÑO ESTRUCTURAL",
+      "content": "El diseño estructural debe ser realizado por un ingeniero civil facultado para este fin, de acuerdo con la Ley 400 de 1997. La estructura de la edificación debe diseñarse para que tenga resistencia y rigidez adecuadas ante las cargas mínimas de diseño prescritas por el Reglamento y debe, además, verificarse que dispone de rigidez adecuada para limitar la deformabilidad ante las cargas de servicio, de tal manera que no se vea afectado el funcionamiento de la edificación. A continuación en la tabla A.1.3-1 se especifican las etapas que deben llevarse a cabo, dentro del alcance de este Reglamento, en el diseño estructural de edificaciones nuevas y existentes, diferentes a las cubiertas en A.1.3.11. En la tabla A.1.3-1 se ha seguido el orden del procedimiento de diseño de edificaciones nuevas, el cual no necesariamente coincide con el de edificaciones existentes, pues este último se debe ajustar a la secuencia prescrita en el Capítulo A.10 y lo indicado en la tabla A.1.3-1 tiene simplemente carácter informativo para las edificaciones existentes."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Procedimiento de diseño estructural para edificaciones nuevas y existentes",
+      "table_headers": [
+        "Diseño de edificaciones nuevas",
+        "Intervención de edificaciones existentes"
+      ],
+      "table_rows": [
+        [
+          "Paso 1 — Predimensionamiento y coordinación con los otros profesionales",
+          ""
+        ],
+        [
+          "Definición del sistema estructural, dimensiones tentativas para evaluar preliminarmente las diferentes solicitaciones tales como: la masa de la estructura, las cargas muertas, las cargas vivas, los efectos sísmicos, y las fuerzas de viento. Estas dimensiones preliminares se coordinan con los otros profesionales que participan en el diseño.",
+          "Además de la coordinación con otros profesionales respecto al proyecto, debe establecerse si la intervención está comprendida dentro del alcance dado en A.10.1.3. Si está cubierto, se deben realizar las etapas 1 y 2 de A.10.1.4 y con esa información se debe realizar la etapa 3 de ese numeral."
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "Capítulo A.13",
+    "Título A",
+    "Título H",
+    "Título J",
+    "Título K",
+    "Capítulo A.2",
+    "Capítulo A.9",
+    "A.1.3.6",
+    "A.1.3-1",
+    "A.1.3.11",
+    "Capítulo A.10",
+    "A.1.3-1",
+    "A.10.1.3",
+    "A.10.1.4"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

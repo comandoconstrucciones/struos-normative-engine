@@ -1,0 +1,43 @@
+{
+  "page_number": 51,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.0",
+      "title": "NOMENCLATURA",
+      "content": "Aa = coeficiente que representa la aceleración horizontal pico efectiva, para diseño, dado en A.2.2.\nAv = coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño, dado en A.2.2.\nAs = aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero, Véase ecuación A.3.6-3.\nAx = coeficiente de amplificación de la torsión accidental en el nivel x, definido en A.3.6.7.\nai = aceleración en el nivel i, Véase ecuación A.3.6-3.\nE = fuerzas sísmicas reducidas de diseño (E = Fs/R)\nFi = parte del cortante sísmico en la base que se genera en el nivel i, véase A.3.6.6.\nFs = fuerzas sísmicas, véase A.3.1.1.\ng = aceleración debida a la gravedad (g = 9.8 m/s²).\nhi = altura en metros, medida desde la base, del nivel i, véase ecuación A.3.6-3.\nhn = altura en metros, medida desde la base, del piso más alto de la edificación, véase ecuación A.3.6-3.\nheq = altura equivalente del sistema de un grado de libertad que simula la edificación, véase ecuación A.3.6-3.\nI = coeficiente de importancia dado en A.2.5.2.\nM = masa total de la edificación M se expresa en kg. Debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso. Capítulos A.4 y A.5.\nMp = masa de un elemento o componente, en kg.\nmi = parte de M que está colocada en el nivel i, en kg. Véase ecuación A.4.3-3.\nRo = coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural. Véase el Capítulo A.3.\nR = coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = ΦaΦpΦrRo). Véase el Capítulo A.3.\nSa = valor de la aceleración espectral de diseño para un período de vibración dado. Véase ecuación A.3.6-3\nVx = fuerza cortante sísmica en el nivel x. Véase A.3.6.6.\ndmax = desplazamiento horizontal máximo en el nivel x. Véase ecuación A.3.6-2.\ndprom = promedio de los desplazamientos horizontales en puntos extremos de la estructura en el nivel x. Véase ecuación A.3.6-2.\nΦa = coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en altura de la edificación. Véase A.3.3.3.\nΦp = coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en planta de la edificación. Véase A.3.3.3.\nΦr = coeficiente de reducción de la capacidad de disipación de energía causado por ausencia de redundancia en el sistema de resistencia sísmica. Véase A.3.3.8.\nΩ0 = coeficiente de sobrerresistencia. Véase A.3.3.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1",
+      "title": "BASES GENERALES DE DISEÑO SISMO RESISTENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.1",
+      "title": "PROCEDIMIENTO DE DISEÑO",
+      "content": "En A.1.3 se establecen los pasos que se deben seguir en el diseño sismo resistente de una edificación. En el Capítulo A.2 se establecen los movimientos sísmicos de diseño. En el presente Capítulo se establecen:"
+    }
+  ],
+  "references": [
+    "A.2.2",
+    "A.3.6-3",
+    "A.3.6.7",
+    "A.3.6.6",
+    "A.3.1.1",
+    "A.2.5.2",
+    "A.4",
+    "A.5",
+    "A.4.3-3",
+    "Capítulo A.3",
+    "A.3.6-2",
+    "A.3.3.3",
+    "A.3.3.8",
+    "A.3.3.9",
+    "A.1.3",
+    "Capítulo A.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,254 @@
+{
+  "page_number": 186,
+  "elements": [
+    {
+      "type": "TEXT",
+      "section_path": null,
+      "title": null,
+      "content": "NSR-10 - Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": null,
+      "title": null,
+      "table_headers": [
+        "Municipio",
+        "Código",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Sevilla",
+          "76736",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.13",
+          "0.08"
+        ],
+        [
+          "Toro",
+          "76823",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.14"
+        ],
+        [
+          "Trujillo",
+          "76828",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.10"
+        ],
+        [
+          "Tuluá",
+          "76834",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.12",
+          "0.07"
+        ],
+        [
+          "Ulloa",
+          "76845",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "Versalles",
+          "76863",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "Vijes",
+          "76869",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "Yotocó",
+          "76890",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "Yumbo",
+          "76892",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "Zarzal",
+          "76895",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.10"
+        ]
+      ]
+    },
+    {
+      "type": "TEXT",
+      "section_path": null,
+      "title": null,
+      "content": "Departamento del Vaupés"
+    },
+    {
+      "type": "TABLE",
+      "section_path": null,
+      "title": null,
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Mitú",
+          "97001",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Carurú",
+          "97161",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Pacoa",
+          "97511",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Papunahua",
+          "97777",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Taraira",
+          "97666",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Yavarate",
+          "97889",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "type": "TEXT",
+      "section_path": null,
+      "title": null,
+      "content": "Departamento del Vichada"
+    },
+    {
+      "type": "TABLE",
+      "section_path": null,
+      "title": null,
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Puerto Carreño",
+          "99001",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Cumaribo",
+          "99773",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "La Primavera",
+          "99524",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Santa Rosalía",
+          "99624",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

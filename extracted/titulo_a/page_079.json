@@ -1,0 +1,62 @@
+{
+  "page_number": 79,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.5.0",
+      "title": "NOMENCLATURA",
+      "content": "E = fuerzas sísmicas reducidas de diseño (E = Fs/R)\nFs = fuerzas sísmicas, véase A.3.1.1.\ng = aceleración debida a la gravedad (9.8 m/s²).\nM = masa total de la edificación M debe ser igual a la masa total de la estructura más la masa de aquellos\nelementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc.\nEn depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los\nelementos que causan la carga viva del piso. Capítulos A.4 y A.5 (en kg).\nMj = masa actuante total de la edificación en la dirección j. Ecuación A.5.4-1.\nMm = masa efectiva modal del modo m, determinada de acuerdo con la ecuación A.5.4-2.\nmi, mx = parte de M que está colocada en el nivel i o x, respectivamente.\np = número total de modos utilizado en el análisis modal de la estructura.\nRo = coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada\ngrado de capacidad de disipación de energía del material estructural. Capítulo A.3.\nR = coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al\ncoeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de\ncapacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia\nen el sistema estructural de resistencia sísmica (R = ΦaΦpΦrRo).\nSam = valor del espectro de aceleraciones de diseño para el período de vibración Tm, correspondiente al modo\nde vibración m.\nTa = período de vibración fundamental aproximado, en segundos, calculado de acuerdo con A.4.2.\nTm = período de vibración correspondiente al modo de vibración m, en s.\nVmj = cortante sísmico en la base correspondiente al modo m en la dirección horizontal j.\nVs = cortante sísmico de diseño en la base de la estructura, calculado por el método de la fuerza horizontal\nequivalente del Capítulo A.4.\nVtj = cortante sísmico en la base total en la dirección horizontal j.\nΦijm = amplitud de desplazamiento del nivel i, en la dirección j, cuando está vibrando en el modo m."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1.1",
+      "title": null,
+      "content": "Los métodos de análisis dinámico deben cumplir los requisitos de este Capítulo y los demás del presente\ntítulo del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1.2",
+      "title": null,
+      "content": "Los métodos de análisis dinámico pueden utilizarse en el diseño sísmico de todas las edificaciones\ncubiertas por este Reglamento y deben utilizarse en el diseño de las edificaciones indicadas en A.3.4.2.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1.3",
+      "title": null,
+      "content": "Los resultados obtenidos utilizando los métodos de análisis dinámico deben ajustarse a los valores\nmínimos prescritos en este Capítulo para cada uno de ellos. Los valores mínimos a los cuales deben ajustarse están\nreferidos a los valores que se obtienen utilizando el método de la fuerza horizontal equivalente presentado en el\nCapítulo A.4. (Véase A.5.4.5)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1.4",
+      "title": null,
+      "content": "Todas las metodologías de análisis dinámico que se utilicen deben estar basadas en principios\nestablecidos de la mecánica estructural, que estén adecuadamente sustentados analítica o experimentalmente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.1.5",
+      "title": null,
+      "content": "El ingeniero diseñador debe asegurarse que los procedimientos de análisis dinámico, manuales o"
+    }
+  ],
+  "references": [
+    "A.3.1.1",
+    "A.4",
+    "A.5",
+    "A.5.4-1",
+    "A.5.4-2",
+    "A.3",
+    "A.4.2",
+    "A.4",
+    "A.3.4.2.2",
+    "A.4",
+    "A.5.4.5"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

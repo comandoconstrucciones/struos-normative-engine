@@ -1,0 +1,221 @@
+{
+  "page_number": 28,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "title": "Zonas de amenaza sísmica y movimientos sísmicos de diseño",
+      "content": "NSR-10 Capítulo A.2 - Zonas de amenaza sísmica y movimientos sísmicos de diseño"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.3-2",
+      "title": "Valor de Aa y de Av para las ciudades capitales de departamento",
+      "table_headers": [
+        "Ciudad",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica"
+      ],
+      "table_rows": [
+        [
+          "Arauca",
+          "0.15",
+          "0.15",
+          "Intermedia"
+        ],
+        [
+          "Armenia",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Barranquilla",
+          "0.10",
+          "0.10",
+          "Baja"
+        ],
+        [
+          "Bogotá D. C.",
+          "0.15",
+          "0.20",
+          "Intermedia"
+        ],
+        [
+          "Bucaramanga",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Cali",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Cartagena",
+          "0.10",
+          "0.10",
+          "Baja"
+        ],
+        [
+          "Cúcuta",
+          "0.35",
+          "0.30",
+          "Alta"
+        ],
+        [
+          "Florencia",
+          "0.20",
+          "0.15",
+          "Intermedia"
+        ],
+        [
+          "Ibagué",
+          "0.20",
+          "0.20",
+          "Intermedia"
+        ],
+        [
+          "Leticia",
+          "0.05",
+          "0.05",
+          "Baja"
+        ],
+        [
+          "Manizales",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Medellín",
+          "0.15",
+          "0.20",
+          "Intermedia"
+        ],
+        [
+          "Mitú",
+          "0.05",
+          "0.05",
+          "Baja"
+        ],
+        [
+          "Mocoa",
+          "0.30",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Montería",
+          "0.10",
+          "0.15",
+          "Intermedia"
+        ],
+        [
+          "Neiva",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Pasto",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Pereira",
+          "0.25",
+          "0.25",
+          "Alta"
+        ],
+        [
+          "Popayán",
+          "0.25",
+          "0.20",
+          "Alta"
+        ],
+        [
+          "Puerto Carreño",
+          "0.05",
+          "0.05",
+          "Baja"
+        ],
+        [
+          "Puerto Inírida",
+          "0.05",
+          "0.05",
+          "Baja"
+        ],
+        [
+          "Quibdó",
+          "0.35",
+          "0.35",
+          "Alta"
+        ],
+        [
+          "Riohacha",
+          "0.10",
+          "0.15",
+          "Intermedia"
+        ],
+        [
+          "San Andrés, Isla",
+          "0.10",
+          "0.10",
+          "Baja"
+        ],
+        [
+          "Santa Marta",
+          "0.15",
+          "0.10",
+          "Intermedia"
+        ],
+        [
+          "San José del Guaviare",
+          "0.05",
+          "0.05",
+          "Baja"
+        ],
+        [
+          "Sincelejo",
+          "0.10",
+          "0.15",
+          "Intermedia"
+        ],
+        [
+          "Tunja",
+          "0.20",
+          "0.20",
+          "Intermedia"
+        ],
+        [
+          "Valledupar",
+          "0.10",
+          "0.10",
+          "Baja"
+        ],
+        [
+          "Villavicencio",
+          "0.35",
+          "0.30",
+          "Alta"
+        ],
+        [
+          "Yopal",
+          "0.30",
+          "0.20",
+          "Alta"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "Tabla A.2.3-2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

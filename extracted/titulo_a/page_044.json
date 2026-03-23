@@ -1,0 +1,45 @@
+{
+  "page_number": 44,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "desarrollo de la evaluaciones (a) o (b) anteriores, se pueda contar tan solo con los valores de velocidad horizontal en roca sin contar con los de aceleración horizontal en roca, las velocidades horizontales pueden convertirse en aceleraciones horizontales efectivas equivalentes dividiéndolas por 0.75 m/s para expresarlas en fracción de g, o en el caso de contar solo con la aceleración efectiva se podrá usar la relación contraria para obtener las velocidades efectivas en roca."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(c) Evaluación de aceleraciones espectrales para diseño en roca",
+      "content": "Alternativamente al procedimiento señalado en (b), pueden evaluarse las tasas de excedencia de aceleraciones espectrales en roca para un número suficiente de períodos estructurales de tal manera que, haciendo uso de tasa de excedencia de aceleraciones espectrales estimadas, se puedan estimar espectros de amenaza uniforme a nivel de roca para varias probabilidades de excedencia, dentro de las que debe incluirse una probabilidad de excedencia de 10 por ciento en un lapso de 50 años. Para este espectro deben evaluarse los parámetros Aa, Av. To, TC y T₁ que mejor se ajusten a las formas espectrales propuestas por este reglamento en la sección A.2.6. Al igual que lo señalado en (b), para la metodología considerada en (c), esta parte del estudio debe incorporar interpretaciones científicas apropiadas, incluyendo las incertidumbres en los modelos y los valores de los parámetros para las fuentes sismogénicas y los movimientos sísmicos. El estudio debe documentarse en el reporte final."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(d) Comparación con los valores de Aa y A del Reglamento",
+      "content": "Los valores de aceleración horizontal efectiva y velocidad horizontal efectiva convertida en aceleración, obtenidos en (a), (b) o (c) deben compararse con los valores de Aa y Av dados en el presente Reglamento en A.2.2. Para efectos del estudio de microzonificación sísmica y la reglamentación de la ciudad deben utilizarse los mayores valores de Aa y Av entre los obtenidos en (a), en (b) o en (c), y los dados en A.2.2 para la ciudad. Si se desea utilizar un menor valor que el dado en A.2.2 debe obtenerse una autorización especial de la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes, creada por medio de la Ley 400 de 1997 y adscrita al Ministerio de Ambiente, Vivienda y Desarrollo Territorial, por medio de una solicitud al respecto debidamente sustentada. Igual autorización debe obtenerse de la Comisión Asesora si se desea utilizar un valor de To mayor o valores de Tc y T₁ menores que los dados en A.2.6.1.3, A.2.6.1.1 y A.2.6.1.2 respectivamente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(e) Definición de familias de acelerogramas",
+      "content": "En consistencia con lo indicado en A.2.7, debe determinarse un número plural de acelerogramas que sean representativos de movimientos sísmicos, en roca, descriptivos de lo que se pueda presentar en terreno firme (roca) en la ciudad o en la roca subyacente bajo ella. El número de acelerogramas no debe ser menor de tres por cada tipo de fuente sísmica representativa de la amenaza y deben ser compatibles con las condiciones que afecten su contenido frecuencial, entorno tectónico, distancia epicentral, tipo de fuente sismogénica que los genera y niveles de aceleración y velocidad máxima horizontal que representan según lo estudiado para el caso en particular. Estos acelerogramas pueden ser escalados ya sea en aceleración o en velocidad con base en estudios de atenuación o amplificación cuando correspondan a registros tomados a distancias epicentrales sensiblemente diferentes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.5",
+      "title": "Estudios geotécnicos",
+      "content": "Con base en información de estudios geotécnicos existentes y sondeos realizados especialmente para el estudio de microzonificación sísmica, debe determinarse lo siguiente:\n(a) Identificación y estudio de aspectos geotécnicos y geológicos locales en diferentes lugares de la ciudad, referentes a la posición y espesores de la estratificación dominante, la profundidad de la roca de base, y la localización del nivel freático.\n(b) Definición de las propiedades del suelo en la profundidad de los perfiles desde el punto de vista de ingeniería, tales como: peso específico, peso unitario, contenido de agua, límites de consistencia, resistencia al corte, comportamiento bajo cargas cíclicas a través del módulo dinámico de cortante, valores de la capacidad de amortiguamiento histerético. Estas propiedades deben establecerse utilizando mediciones en el sitio, o ensayos de laboratorio sobre muestras inalteradas obtenidas de los sondeos, según sea el caso. El estudio de clasificación y características de los suelos debe identificar la presencia de suelos granulares saturados y poco compactos, con el fin de establecer la susceptibilidad a la licuación.\n(c) Determinación de las velocidades de las ondas P y S, utilizando procedimientos de medición en el sitio (métodos geofísicos de propagación de ondas tales como técnicas de cross-hole o down-hole, entre otros) o utilizando correlaciones con otros parámetros representativos para"
+    }
+  ],
+  "references": [
+    "A.2.6",
+    "A.2.2",
+    "A.2.6.1.3",
+    "A.2.6.1.1",
+    "A.2.6.1.2",
+    "A.2.7"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "titulo_c",
+    "label": "Título C: Concreto Estructural",
+    "tipo": "titulo",
+    "contenido": "Requisitos para diseño y construcción de elementos de concreto estructural según ACI 318",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.1",
+    "label": "Capítulo C.1: General",
+    "tipo": "capitulo",
+    "contenido": "Alcance, planos, especificaciones, supervisión técnica",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.2",
+    "label": "Capítulo C.2: Notación y Definiciones",
+    "tipo": "capitulo",
+    "contenido": "Símbolos y terminología del diseño en concreto",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.3",
+    "label": "Capítulo C.3: Materiales",
+    "tipo": "capitulo",
+    "contenido": "Cemento, agregados, agua, acero de refuerzo, aditivos",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.4",
+    "label": "Capítulo C.4: Requisitos de Durabilidad",
+    "tipo": "capitulo",
+    "contenido": "Clases de exposición, protección contra corrosión y sulfatos",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.5",
+    "label": "Capítulo C.5: Calidad del Concreto",
+    "tipo": "capitulo",
+    "contenido": "f'c, f'cr, mezclas de prueba, control de calidad",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.6",
+    "label": "Capítulo C.6: Formaletas y Cimbras",
+    "tipo": "capitulo",
+    "contenido": "Diseño, remoción, requisitos de soporte",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.7",
+    "label": "Capítulo C.7: Detalles del Refuerzo",
+    "tipo": "capitulo",
+    "contenido": "Ganchos, doblado, recubrimiento, espaciamiento",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.8",
+    "label": "Capítulo C.8: Análisis y Diseño",
+    "tipo": "capitulo",
+    "contenido": "Métodos de análisis, redistribución de momentos",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.9",
+    "label": "Capítulo C.9: Requisitos de Resistencia",
+    "tipo": "capitulo",
+    "contenido": "Resistencia requerida, factores φ, deflexiones",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.10",
+    "label": "Capítulo C.10: Flexión y Carga Axial",
+    "tipo": "capitulo",
+    "contenido": "Diseño de vigas, columnas, elementos a flexocompresión",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.11",
+    "label": "Capítulo C.11: Cortante y Torsión",
+    "tipo": "capitulo",
+    "contenido": "Diseño por cortante, punzonamiento, torsión",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.12",
+    "label": "Capítulo C.12: Desarrollo y Empalmes",
+    "tipo": "capitulo",
+    "contenido": "Longitudes de desarrollo, traslapos, anclajes",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.13",
+    "label": "Capítulo C.13: Sistemas de Losa",
+    "tipo": "capitulo",
+    "contenido": "Losas en dos direcciones, método directo, pórtico equivalente",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.14",
+    "label": "Capítulo C.14: Muros",
+    "tipo": "capitulo",
+    "contenido": "Diseño de muros de corte, muros de contención",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.15",
+    "label": "Capítulo C.15: Cimentaciones",
+    "tipo": "capitulo",
+    "contenido": "Zapatas, pedestales, pilotes, muros de cimentación",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.18",
+    "label": "Capítulo C.18: Concreto Preesforzado",
+    "tipo": "capitulo",
+    "contenido": "Pretensado, postensado, pérdidas, esfuerzos admisibles",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.19",
+    "label": "Capítulo C.19: Cáscaras y Láminas",
+    "tipo": "capitulo",
+    "contenido": "Estructuras especiales tipo membrana",
+    "metadata": {}
+  },
+  {
+    "id": "cap_C.21",
+    "label": "Capítulo C.21: Diseño Sísmico",
+    "tipo": "capitulo",
+    "contenido": "DES, DMO, DMI, pórticos especiales, muros especiales",
+    "metadata": {}
+  },
+  {
+    "id": "mat_fc",
+    "label": "f'c - Resistencia especificada",
+    "tipo": "propiedad_material",
+    "contenido": "Resistencia a compresión especificada del concreto a 28 días, MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_fcr",
+    "label": "f'cr - Resistencia promedio requerida",
+    "tipo": "propiedad_material",
+    "contenido": "Resistencia promedio para dosificación de mezcla",
+    "metadata": {}
+  },
+  {
+    "id": "mat_fy",
+    "label": "fy - Fluencia del acero",
+    "tipo": "propiedad_material",
+    "contenido": "Esfuerzo de fluencia especificado del refuerzo, típico 420 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_ec",
+    "label": "Ec - Módulo de elasticidad",
+    "tipo": "propiedad_material",
+    "contenido": "Módulo de elasticidad del concreto, Ec = 4700√f'c MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_es",
+    "label": "Es - Módulo del acero",
+    "tipo": "propiedad_material",
+    "contenido": "Módulo de elasticidad del acero de refuerzo, 200,000 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "exp_F",
+    "label": "Exposición F: Congelamiento y deshielo",
+    "tipo": "clase_exposicion",
+    "contenido": "Clases: F0, F1, F2, F3",
+    "metadata": {}
+  },
+  {
+    "id": "exp_S",
+    "label": "Exposición S: Sulfatos",
+    "tipo": "clase_exposicion",
+    "contenido": "Clases: S0, S1, S2, S3",
+    "metadata": {}
+  },
+  {
+    "id": "exp_P",
+    "label": "Exposición P: Permeabilidad",
+    "tipo": "clase_exposicion",
+    "contenido": "Clases: P0, P1",
+    "metadata": {}
+  },
+  {
+    "id": "exp_C",
+    "label": "Exposición C: Corrosión por cloruros",
+    "tipo": "clase_exposicion",
+    "contenido": "Clases: C0, C1, C2",
+    "metadata": {}
+  },
+  {
+    "id": "phi_traccion",
+    "label": "φ = 0.90",
+    "tipo": "factor_phi",
+    "contenido": "Secciones controladas por tracción",
+    "metadata": {}
+  },
+  {
+    "id": "phi_compresion_espiral",
+    "label": "φ = 0.75",
+    "tipo": "factor_phi",
+    "contenido": "Compresión con refuerzo en espiral",
+    "metadata": {}
+  },
+  {
+    "id": "phi_compresion_otros",
+    "label": "φ = 0.65",
+    "tipo": "factor_phi",
+    "contenido": "Compresión con estribos",
+    "metadata": {}
+  },
+  {
+    "id": "phi_cortante",
+    "label": "φ = 0.75",
+    "tipo": "factor_phi",
+    "contenido": "Cortante y torsión",
+    "metadata": {}
+  },
+  {
+    "id": "phi_aplastamiento",
+    "label": "φ = 0.65",
+    "tipo": "factor_phi",
+    "contenido": "Aplastamiento del concreto",
+    "metadata": {}
+  },
+  {
+    "id": "elem_viga",
+    "label": "Vigas",
+    "tipo": "elemento_estructural",
+    "contenido": "Elementos sometidos principalmente a flexión",
+    "metadata": {}
+  },
+  {
+    "id": "elem_columna",
+    "label": "Columnas",
+    "tipo": "elemento_estructural",
+    "contenido": "Elementos sometidos a compresión y flexión",
+    "metadata": {}
+  },
+  {
+    "id": "elem_losa",
+    "label": "Losas",
+    "tipo": "elemento_estructural",
+    "contenido": "Elementos planos horizontales",
+    "metadata": {}
+  },
+  {
+    "id": "elem_muro",
+    "label": "Muros",
+    "tipo": "elemento_estructural",
+    "contenido": "Elementos verticales planos",
+    "metadata": {}
+  },
+  {
+    "id": "elem_zapata",
+    "label": "Zapatas",
+    "tipo": "elemento_estructural",
+    "contenido": "Cimentaciones superficiales",
+    "metadata": {}
+  },
+  {
+    "id": "elem_pilote",
+    "label": "Pilotes",
+    "tipo": "elemento_estructural",
+    "contenido": "Cimentaciones profundas",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_min_viga",
+    "label": "ρmin vigas",
+    "tipo": "cuantia",
+    "contenido": "0.25√f'c/fy ≥ 1.4/fy",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_max_viga",
+    "label": "ρmax vigas",
+    "tipo": "cuantia",
+    "contenido": "0.75ρb para secciones controladas por tracción",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_columna",
+    "label": "ρg columnas",
+    "tipo": "cuantia",
+    "contenido": "0.01 ≤ ρg ≤ 0.08",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_muro_vert",
+    "label": "ρℓ muros vertical",
+    "tipo": "cuantia",
+    "contenido": "≥ 0.0025",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_muro_horiz",
+    "label": "ρt muros horizontal",
+    "tipo": "cuantia",
+    "contenido": "≥ 0.0025",
+    "metadata": {}
+  },
+  {
+    "id": "cuant_rho_losa",
+    "label": "ρmin losas",
+    "tipo": "cuantia",
+    "contenido": "0.0018 para fy=420 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "sis_des",
+    "label": "DES - Disipación Especial",
+    "tipo": "categoria_sismica",
+    "contenido": "Pórticos y muros especiales para zonas de alta sismicidad",
+    "metadata": {}
+  },
+  {
+    "id": "sis_dmo",
+    "label": "DMO - Disipación Moderada",
+    "tipo": "categoria_sismica",
+    "contenido": "Requisitos intermedios para zonas de sismicidad moderada",
+    "metadata": {}
+  },
+  {
+    "id": "sis_dmi",
+    "label": "DMI - Disipación Mínima",
+    "tipo": "categoria_sismica",
+    "contenido": "Requisitos básicos para zonas de baja sismicidad",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_4_2_1",
+    "label": "Tabla C.4.2.1: Categorías y clases de exposición",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_exposicion_concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_4_3_1",
+    "label": "Tabla C.4.3.1: Requisitos por clase de exposición",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_requisitos_concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_4_4_1",
+    "label": "Tabla C.4.4.1: Contenido de aire",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_aire_concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_5_3_2",
+    "label": "Tabla C.5.3.2: Resistencia promedio f'cr",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_fcr",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_7_2",
+    "label": "Tabla C.7.2: Diámetros de doblado",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_doblado_barras",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_7_7_1",
+    "label": "Tabla C.7.7.1: Recubrimientos mínimos",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_recubrimientos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_9_3_2",
+    "label": "Tabla C.9.3.2: Factores φ",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_phi_concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_9_5a",
+    "label": "Tabla C.9.5(a): Espesores mínimos",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_espesores_minimos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_C_9_5b",
+    "label": "Tabla C.9.5(b): Deflexiones admisibles",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_deflexiones",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Mn",
+    "label": "Momento nominal",
+    "tipo": "formula",
+    "contenido": "Mn = As × fy × (d - a/2)\nFlexión simple",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Vn",
+    "label": "Cortante nominal",
+    "tipo": "formula",
+    "contenido": "Vn = Vc + Vs\nCortante",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Vc",
+    "label": "Cortante del concreto",
+    "tipo": "formula",
+    "contenido": "Vc = 0.17√f'c × bw × d\nContribución del concreto",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Vs",
+    "label": "Cortante del acero",
+    "tipo": "formula",
+    "contenido": "Vs = Av × fy × d / s\nContribución de estribos",
+    "metadata": {}
+  },
+  {
+    "id": "formula_ld",
+    "label": "Longitud de desarrollo",
+    "tipo": "formula",
+    "contenido": "ld = db × fy / (1.7√f'c)\nBarras a tracción",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Ec",
+    "label": "Módulo de elasticidad",
+    "tipo": "formula",
+    "contenido": "Ec = 4700√f'c\nEn MPa",
+    "metadata": {}
+  }
+]

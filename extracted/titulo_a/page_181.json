@@ -1,0 +1,524 @@
+{
+  "page_number": 181,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.4",
+      "title": "Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla municipios colombianos",
+      "title": "Valores de Aa, Av, Ae y Ad para municipios colombianos (primera parte)",
+      "table_headers": [
+        "Municipio",
+        "Código",
+        "Aa",
+        "Av",
+        "Zona de Amenaza",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Bucarasica",
+          "54109",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "Cáchira",
+          "54128",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Cácota",
+          "54125",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Chinácota",
+          "54172",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.16",
+          "0.07"
+        ],
+        [
+          "Chitagá",
+          "54174",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Convención",
+          "54206",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Cucutilla",
+          "54223",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Durania",
+          "54239",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.06"
+        ],
+        [
+          "El Carmen",
+          "54245",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "El Tarra",
+          "54250",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "El Zulia",
+          "54261",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.22",
+          "0.09"
+        ],
+        [
+          "Gramalote",
+          "54313",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Hacarí",
+          "54344",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Herrán",
+          "54347",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.19",
+          "0.08"
+        ],
+        [
+          "La Esperanza",
+          "54385",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "La Playa",
+          "54398",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Labateca",
+          "54377",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.14",
+          "0.06"
+        ],
+        [
+          "Los Patios",
+          "54405",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.22",
+          "0.09"
+        ],
+        [
+          "Lourdes",
+          "54418",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Mutiscua",
+          "54480",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Ocaña",
+          "54498",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.03"
+        ],
+        [
+          "Pamplona",
+          "54518",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Pamplonita",
+          "54520",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.13",
+          "0.06"
+        ],
+        [
+          "Puerto Santander",
+          "54553",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "Ragonvalia",
+          "54599",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.20",
+          "0.09"
+        ],
+        [
+          "Salazar",
+          "54660",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "San Calixto",
+          "54670",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "San Cayetano",
+          "54673",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.19",
+          "0.08"
+        ],
+        [
+          "Santiago",
+          "54680",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.06"
+        ],
+        [
+          "Sardinata",
+          "54720",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.06"
+        ],
+        [
+          "Silos",
+          "54743",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Teorama",
+          "54800",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Tibú",
+          "54810",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.11",
+          "0.04"
+        ],
+        [
+          "Toledo",
+          "54820",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Villa Caro",
+          "54871",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Villa del Rosario",
+          "54874",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.25",
+          "0.10"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Putumayo",
+      "title": "Departamento del Putumayo",
+      "content": "Departamento del Putumayo"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Putumayo",
+      "title": "Valores de Aa, Av, Ae y Ad para municipios del Putumayo",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Mocoa",
+          "86001",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.20",
+          "0.10"
+        ],
+        [
+          "Colón",
+          "86219",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.13",
+          "0.08"
+        ],
+        [
+          "Orito",
+          "86320",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.08",
+          "0.05"
+        ],
+        [
+          "Puerto Asís",
+          "86568",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Caicedo",
+          "86569",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Guzmán",
+          "86571",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Leguízamo",
+          "86573",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "San Francisco",
+          "86755",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.10"
+        ],
+        [
+          "San Miguel",
+          "86757",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Santiago",
+          "86760",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.17",
+          "0.10"
+        ],
+        [
+          "Sibundoy",
+          "86749",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Valle del Guamuez",
+          "86865",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Villagarzón",
+          "86885",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.08",
+          "0.05"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Quindío",
+      "title": "Departamento del Quindío",
+      "content": "Departamento del Quindío"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Quindío",
+      "title": "Valores de Aa, Av, Ae y Ad para municipios del Quindío",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Armenia",
+          "63001",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.20",
+          "0.10"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "titulo_e",
+    "label": "Título E: Casas de Uno y Dos Pisos",
+    "tipo": "titulo",
+    "contenido": "Requisitos simplificados para viviendas de 1 y 2 pisos"
+  },
+  {
+    "id": "cap_E.1",
+    "label": "Capítulo E.1: Requisitos Generales",
+    "tipo": "capitulo",
+    "contenido": "Alcance, clasificación, limitaciones"
+  },
+  {
+    "id": "cap_E.2",
+    "label": "Capítulo E.2: Cimentaciones",
+    "tipo": "capitulo",
+    "contenido": "Cimientos corridos, profundidad, refuerzo"
+  },
+  {
+    "id": "cap_E.3",
+    "label": "Capítulo E.3: Mampostería Confinada",
+    "tipo": "capitulo",
+    "contenido": "Muros estructurales, espesores, longitudes"
+  },
+  {
+    "id": "cap_E.4",
+    "label": "Capítulo E.4: Elementos de Confinamiento",
+    "tipo": "capitulo",
+    "contenido": "Columnas y vigas de amarre"
+  },
+  {
+    "id": "cap_E.5",
+    "label": "Capítulo E.5: Losas de Entrepiso y Cubierta",
+    "tipo": "capitulo",
+    "contenido": "Losas macizas, aligeradas, refuerzo"
+  },
+  {
+    "id": "cap_E.6",
+    "label": "Capítulo E.6: Requisitos Adicionales",
+    "tipo": "capitulo",
+    "contenido": "Dinteles, antepechos, tanques"
+  },
+  {
+    "id": "cap_E.7",
+    "label": "Capítulo E.7: Bahareque Encementado",
+    "tipo": "capitulo",
+    "contenido": "Sistema tradicional con guadua"
+  },
+  {
+    "id": "cap_E.8",
+    "label": "Capítulo E.8: Entrepisos Bahareque",
+    "tipo": "capitulo",
+    "contenido": "Viguetas de guadua y madera"
+  },
+  {
+    "id": "cap_E.9",
+    "label": "Capítulo E.9: Cubiertas Bahareque",
+    "tipo": "capitulo",
+    "contenido": "Correas y estructura de techo"
+  },
+  {
+    "id": "sistema_mamposteria_confinada",
+    "label": "Mampostería Confinada",
+    "tipo": "sistema_constructivo",
+    "contenido": "Sistema tradicional colombiano"
+  },
+  {
+    "id": "sistema_bahareque",
+    "label": "Bahareque Encementado",
+    "tipo": "sistema_constructivo",
+    "contenido": "Muros de guadua con mortero"
+  },
+  {
+    "id": "sistema_madera",
+    "label": "Madera Estructural",
+    "tipo": "sistema_constructivo",
+    "contenido": "Entramados de madera"
+  },
+  {
+    "id": "mat_guadua",
+    "label": "Guadua Angustifolia",
+    "tipo": "material",
+    "contenido": "Bambú estructural colombiano"
+  },
+  {
+    "id": "mat_madera_es1",
+    "label": "Madera ES1-ES2",
+    "tipo": "material",
+    "contenido": "Maderas blandas"
+  },
+  {
+    "id": "mat_madera_es3",
+    "label": "Madera ES3",
+    "tipo": "material",
+    "contenido": "Maderas intermedias"
+  },
+  {
+    "id": "mat_madera_es4",
+    "label": "Madera ES4-ES6",
+    "tipo": "material",
+    "contenido": "Maderas duras"
+  },
+  {
+    "id": "mat_mamposteria",
+    "label": "Unidades de Mampostería",
+    "tipo": "material",
+    "contenido": "Bloques y ladrillos"
+  },
+  {
+    "id": "tabla_E_1_3_1",
+    "label": "Tabla E.1.3-1: Separación sísmica",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_separacion"
+  },
+  {
+    "id": "tabla_E_2_2_1",
+    "label": "Tabla E.2.2-1: Cimentaciones",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_cimentacion"
+  },
+  {
+    "id": "tabla_E_3_5_1",
+    "label": "Tabla E.3.5-1: Espesores muros",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_muros_espesor"
+  },
+  {
+    "id": "tabla_E_3_6_1",
+    "label": "Tabla E.3.6-1: Coeficiente Mo",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_coef_mo"
+  },
+  {
+    "id": "tabla_E_5_1_1",
+    "label": "Tabla E.5.1-1: Espesores losas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_losas"
+  },
+  {
+    "id": "tabla_E_5_1_2",
+    "label": "Tabla E.5.1-2: Refuerzo losas macizas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_refuerzo_losa"
+  },
+  {
+    "id": "tabla_E_5_1_3",
+    "label": "Tabla E.5.1-3: Refuerzo viguetas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_refuerzo_losa"
+  },
+  {
+    "id": "tabla_E_7_8_1",
+    "label": "Tabla E.7.8-1: Coeficiente CB bahareque",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_bahareque"
+  },
+  {
+    "id": "tabla_E_7_10_1",
+    "label": "Tabla E.7.10-1: Columnas guadua",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_guadua"
+  },
+  {
+    "id": "tabla_E_8_2_1",
+    "label": "Tabla E.8.2-1: Viguetas guadua",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_guadua"
+  },
+  {
+    "id": "tabla_E_8_2_2",
+    "label": "Tabla E.8.2-2: Viguetas madera",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_madera"
+  },
+  {
+    "id": "tabla_E_9_2_1",
+    "label": "Tabla E.9.2-1: Correas guadua",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_guadua"
+  },
+  {
+    "id": "tabla_E_9_2_2",
+    "label": "Tabla E.9.2-2: Correas madera",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_casas_madera"
+  }
+]

@@ -1,0 +1,224 @@
+Error processing line 1 of /usr/lib/python3/dist-packages/matplotlib-3.6.3-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "<frozen site>", line 201, in addpackage
+    File "<string>", line 1, in <module>
+    File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+  AttributeError: 'NoneType' object has no attribute 'loader'
+
+Remainder of file ignored
+/root/clawd/leonardo/projects/normative-engine/scripts/extract_titulo_a.py:15: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+
+============================================================
+📚 Extracción NSR-10 Título A con Gemini
+============================================================
+Inicio: 03:04:24
+
+📄 PDF: NSR-10-Titulo-A.pdf (186 páginas)
+
+  ✓ Página   1/186 |  3 elementos | 0.4 pág/s | ETA: 8.5 min
+  ✓ Página   2/186 |  5 elementos | 0.3 pág/s | ETA: 10.3 min
+  ✓ Página   3/186 | 51 elementos | 0.1 pág/s | ETA: 29.2 min
+  ✓ Página   4/186 | 73 elementos | 0.1 pág/s | ETA: 42.7 min
+  ✓ Página   5/186 | 74 elementos | 0.1 pág/s | ETA: 51.3 min
+  ✓ Página   6/186 | 69 elementos | 0.1 pág/s | ETA: 58.6 min
+  ✓ Página   7/186 | 69 elementos | 0.0 pág/s | ETA: 60.7 min
+  ✓ Página   8/186 | 72 elementos | 0.0 pág/s | ETA: 63.0 min
+  ✓ Página   9/186 | 63 elementos | 0.0 pág/s | ETA: 63.8 min
+  ✓ Página  10/186 | 66 elementos | 0.0 pág/s | ETA: 63.9 min
+  ✓ Página  11/186 | 20 elementos | 0.0 pág/s | ETA: 59.9 min
+  ✓ Página  12/186 |  1 elementos | 0.1 pág/s | ETA: 55.2 min
+  ✓ Página  13/186 |  3 elementos | 0.1 pág/s | ETA: 52.0 min
+  ✓ Página  14/186 | 13 elementos | 0.1 pág/s | ETA: 50.7 min
+  ✓ Página  15/186 |  8 elementos | 0.1 pág/s | ETA: 49.3 min
+  ✓ Página  16/186 |  1 elementos | 0.1 pág/s | ETA: 48.0 min
+  ✓ Página  17/186 |  1 elementos | 0.1 pág/s | ETA: 46.3 min
+  ✓ Página  18/186 |  3 elementos | 0.1 pág/s | ETA: 45.2 min
+  ✓ Página  19/186 |  9 elementos | 0.1 pág/s | ETA: 44.2 min
+  ✓ Página  20/186 |  9 elementos | 0.1 pág/s | ETA: 43.8 min
+  ✓ Página  21/186 |  9 elementos | 0.1 pág/s | ETA: 42.7 min
+  ✓ Página  22/186 |  7 elementos | 0.1 pág/s | ETA: 41.8 min
+  ✓ Página  23/186 |  9 elementos | 0.1 pág/s | ETA: 41.0 min
+  ✓ Página  24/186 |  1 elementos | 0.1 pág/s | ETA: 39.3 min
+  ✓ Página  25/186 |  1 elementos | 0.1 pág/s | ETA: 38.5 min
+  ✓ Página  26/186 | 13 elementos | 0.1 pág/s | ETA: 37.9 min
+  ✓ Página  27/186 |  6 elementos | 0.1 pág/s | ETA: 36.9 min
+  ✓ Página  28/186 |  2 elementos | 0.1 pág/s | ETA: 36.3 min
+  ✓ Página  29/186 |  1 elementos | 0.1 pág/s | ETA: 35.1 min
+  ✓ Página  30/186 |  2 elementos | 0.1 pág/s | ETA: 34.1 min
+  ✓ Página  31/186 |  2 elementos | 0.1 pág/s | ETA: 33.2 min
+  ✓ Página  32/186 |  9 elementos | 0.1 pág/s | ETA: 32.9 min
+  ✓ Página  33/186 | 17 elementos | 0.1 pág/s | ETA: 32.6 min
+  ✓ Página  34/186 |  7 elementos | 0.1 pág/s | ETA: 32.4 min
+  ✓ Página  35/186 |  8 elementos | 0.1 pág/s | ETA: 32.2 min
+  ✓ Página  36/186 |  3 elementos | 0.1 pág/s | ETA: 31.5 min
+  ✓ Página  37/186 |  5 elementos | 0.1 pág/s | ETA: 30.9 min
+  ✓ Página  38/186 | 10 elementos | 0.1 pág/s | ETA: 30.7 min
+  ✓ Página  39/186 | 11 elementos | 0.1 pág/s | ETA: 30.4 min
+  ✓ Página  40/186 | 10 elementos | 0.1 pág/s | ETA: 30.1 min
+  ✓ Página  41/186 |  6 elementos | 0.1 pág/s | ETA: 29.6 min
+  ✓ Página  42/186 |  8 elementos | 0.1 pág/s | ETA: 29.5 min
+  ✓ Página  43/186 |  3 elementos | 0.1 pág/s | ETA: 29.2 min
+  ✓ Página  44/186 |  5 elementos | 0.1 pág/s | ETA: 28.8 min
+  ✓ Página  45/186 | 12 elementos | 0.1 pág/s | ETA: 28.6 min
+  ✓ Página  46/186 |  4 elementos | 0.1 pág/s | ETA: 28.2 min
+  ✓ Página  47/186 |  7 elementos | 0.1 pág/s | ETA: 27.8 min
+  ✓ Página  48/186 |  7 elementos | 0.1 pág/s | ETA: 27.6 min
+  ✓ Página  49/186 |  3 elementos | 0.1 pág/s | ETA: 27.2 min
+  ✓ Página  50/186 |  2 elementos | 0.1 pág/s | ETA: 26.7 min
+  ✓ Página  51/186 |  3 elementos | 0.1 pág/s | ETA: 26.4 min
+  ✓ Página  52/186 |  6 elementos | 0.1 pág/s | ETA: 26.2 min
+  ✓ Página  53/186 |  8 elementos | 0.1 pág/s | ETA: 26.0 min
+  ✓ Página  54/186 | 12 elementos | 0.1 pág/s | ETA: 25.8 min
+  ✓ Página  55/186 | 11 elementos | 0.1 pág/s | ETA: 25.5 min
+  ✓ Página  56/186 |  6 elementos | 0.1 pág/s | ETA: 25.3 min
+  ✓ Página  57/186 |  7 elementos | 0.1 pág/s | ETA: 25.1 min
+  ✓ Página  58/186 | 11 elementos | 0.1 pág/s | ETA: 24.8 min
+  ✓ Página  59/186 | 11 elementos | 0.1 pág/s | ETA: 24.7 min
+  ✓ Página  60/186 | 14 elementos | 0.1 pág/s | ETA: 24.5 min
+  ✓ Página  61/186 |  6 elementos | 0.1 pág/s | ETA: 24.3 min
+  ✓ Página  62/186 |  9 elementos | 0.1 pág/s | ETA: 24.0 min
+  ✓ Página  63/186 |  2 elementos | 0.1 pág/s | ETA: 23.5 min
+  ✓ Página  64/186 |  3 elementos | 0.1 pág/s | ETA: 23.4 min
+  ✓ Página  65/186 |  1 elementos | 0.1 pág/s | ETA: 23.3 min
+  ✓ Página  66/186 |  2 elementos | 0.1 pág/s | ETA: 23.2 min
+  ✓ Página  67/186 |  2 elementos | 0.1 pág/s | ETA: 23.3 min
+  ✓ Página  68/186 |  1 elementos | 0.1 pág/s | ETA: 23.2 min
+  ✓ Página  69/186 |  2 elementos | 0.1 pág/s | ETA: 22.9 min
+  ✓ Página  70/186 |  1 elementos | 0.1 pág/s | ETA: 22.6 min
+  ✓ Página  71/186 |  2 elementos | 0.1 pág/s | ETA: 22.3 min
+  ✓ Página  72/186 |  2 elementos | 0.1 pág/s | ETA: 22.0 min
+  ✓ Página  73/186 | 13 elementos | 0.1 pág/s | ETA: 21.7 min
+  ✓ Página  74/186 |  8 elementos | 0.1 pág/s | ETA: 21.4 min
+  ✓ Página  75/186 |  4 elementos | 0.1 pág/s | ETA: 21.1 min
+  ✓ Página  76/186 | 11 elementos | 0.1 pág/s | ETA: 20.9 min
+  ✓ Página  77/186 | 17 elementos | 0.1 pág/s | ETA: 20.7 min
+  ⚠️ Página  78/186 |  0 elementos | 0.1 pág/s | ETA: 20.5 min
+  ✓ Página  79/186 |  7 elementos | 0.1 pág/s | ETA: 20.3 min
+  ✓ Página  80/186 |  9 elementos | 0.1 pág/s | ETA: 20.1 min
+  ✓ Página  81/186 |  8 elementos | 0.1 pág/s | ETA: 19.8 min
+  ⚠️ Página  82/186 |  0 elementos | 0.1 pág/s | ETA: 19.6 min
+  ✓ Página  83/186 |  9 elementos | 0.1 pág/s | ETA: 19.4 min
+  ✓ Página  84/186 |  2 elementos | 0.1 pág/s | ETA: 19.1 min
+  ✓ Página  85/186 |  5 elementos | 0.1 pág/s | ETA: 18.8 min
+  ✓ Página  86/186 | 11 elementos | 0.1 pág/s | ETA: 18.6 min
+  ✓ Página  87/186 | 14 elementos | 0.1 pág/s | ETA: 18.4 min
+  ✓ Página  88/186 | 10 elementos | 0.1 pág/s | ETA: 18.2 min
+  ✓ Página  89/186 |  8 elementos | 0.1 pág/s | ETA: 18.0 min
+  ✓ Página  90/186 |  9 elementos | 0.1 pág/s | ETA: 17.8 min
+  ✓ Página  91/186 |  4 elementos | 0.1 pág/s | ETA: 17.5 min
+  ✓ Página  92/186 |  2 elementos | 0.1 pág/s | ETA: 17.2 min
+  ✓ Página  93/186 |  7 elementos | 0.1 pág/s | ETA: 17.0 min
+  ✓ Página  94/186 | 10 elementos | 0.1 pág/s | ETA: 16.8 min
+  ✓ Página  95/186 |  6 elementos | 0.1 pág/s | ETA: 16.6 min
+  ✓ Página  96/186 | 12 elementos | 0.1 pág/s | ETA: 16.4 min
+  ✓ Página  97/186 |  6 elementos | 0.1 pág/s | ETA: 16.1 min
+  ✓ Página  98/186 |  2 elementos | 0.1 pág/s | ETA: 15.8 min
+  ✓ Página  99/186 |  5 elementos | 0.1 pág/s | ETA: 15.6 min
+  ✓ Página 100/186 |  9 elementos | 0.1 pág/s | ETA: 15.4 min
+  ✓ Página 101/186 |  9 elementos | 0.1 pág/s | ETA: 15.2 min
+  ✓ Página 102/186 |  7 elementos | 0.1 pág/s | ETA: 15.0 min
+  ✓ Página 103/186 | 10 elementos | 0.1 pág/s | ETA: 14.8 min
+  ✓ Página 104/186 |  4 elementos | 0.1 pág/s | ETA: 14.6 min
+  ✓ Página 105/186 |  5 elementos | 0.1 pág/s | ETA: 14.4 min
+  ✓ Página 106/186 |  7 elementos | 0.1 pág/s | ETA: 14.2 min
+  ✓ Página 107/186 |  2 elementos | 0.1 pág/s | ETA: 14.0 min
+  ✓ Página 108/186 |  1 elementos | 0.1 pág/s | ETA: 13.8 min
+  ✓ Página 109/186 |  5 elementos | 0.1 pág/s | ETA: 13.6 min
+  ✓ Página 110/186 | 18 elementos | 0.1 pág/s | ETA: 13.4 min
+  ✓ Página 111/186 | 16 elementos | 0.1 pág/s | ETA: 13.2 min
+  ✓ Página 112/186 |  8 elementos | 0.1 pág/s | ETA: 13.0 min
+  ✓ Página 113/186 |  3 elementos | 0.1 pág/s | ETA: 12.8 min
+  ✓ Página 114/186 |  3 elementos | 0.1 pág/s | ETA: 12.5 min
+  ✓ Página 115/186 | 14 elementos | 0.1 pág/s | ETA: 12.4 min
+  ✓ Página 116/186 | 12 elementos | 0.1 pág/s | ETA: 12.2 min
+  ✓ Página 117/186 | 16 elementos | 0.1 pág/s | ETA: 12.0 min
+  ✓ Página 118/186 | 13 elementos | 0.1 pág/s | ETA: 11.8 min
+  ✓ Página 119/186 | 10 elementos | 0.1 pág/s | ETA: 11.7 min
+  ✓ Página 120/186 | 10 elementos | 0.1 pág/s | ETA: 11.5 min
+  ✓ Página 121/186 |  6 elementos | 0.1 pág/s | ETA: 11.3 min
+  ✓ Página 122/186 |  5 elementos | 0.1 pág/s | ETA: 11.1 min
+  ✓ Página 123/186 |  7 elementos | 0.1 pág/s | ETA: 10.9 min
+  ✓ Página 124/186 |  2 elementos | 0.1 pág/s | ETA: 10.7 min
+  ✓ Página 125/186 | 11 elementos | 0.1 pág/s | ETA: 10.5 min
+  ✓ Página 126/186 |  4 elementos | 0.1 pág/s | ETA: 10.3 min
+  ✓ Página 127/186 |  4 elementos | 0.1 pág/s | ETA: 10.1 min
+  ✓ Página 128/186 |  2 elementos | 0.1 pág/s | ETA: 9.9 min
+  ✓ Página 129/186 |  5 elementos | 0.1 pág/s | ETA: 9.7 min
+  ✓ Página 130/186 |  8 elementos | 0.1 pág/s | ETA: 9.6 min
+  ✓ Página 131/186 |  3 elementos | 0.1 pág/s | ETA: 9.3 min
+  ✓ Página 132/186 | 11 elementos | 0.1 pág/s | ETA: 9.2 min
+  ✓ Página 133/186 | 12 elementos | 0.1 pág/s | ETA: 9.0 min
+  ✓ Página 134/186 | 11 elementos | 0.1 pág/s | ETA: 8.8 min
+  ✓ Página 135/186 |  7 elementos | 0.1 pág/s | ETA: 8.6 min
+  ✓ Página 136/186 |  2 elementos | 0.1 pág/s | ETA: 8.4 min
+  ✓ Página 137/186 |  2 elementos | 0.1 pág/s | ETA: 8.3 min
+  ✓ Página 138/186 | 15 elementos | 0.1 pág/s | ETA: 8.1 min
+  ✓ Página 139/186 | 20 elementos | 0.1 pág/s | ETA: 7.9 min
+  ✓ Página 140/186 | 17 elementos | 0.1 pág/s | ETA: 7.8 min
+  ✓ Página 141/186 | 18 elementos | 0.1 pág/s | ETA: 7.6 min
+  ✓ Página 142/186 |  1 elementos | 0.1 pág/s | ETA: 7.4 min
+  ✓ Página 143/186 |  1 elementos | 0.1 pág/s | ETA: 7.2 min
+  ✓ Página 144/186 | 14 elementos | 0.1 pág/s | ETA: 7.1 min
+  ✓ Página 145/186 | 15 elementos | 0.1 pág/s | ETA: 6.9 min
+  ✓ Página 146/186 |  6 elementos | 0.1 pág/s | ETA: 6.8 min
+  ✓ Página 147/186 | 28 elementos | 0.1 pág/s | ETA: 6.6 min
+  ✓ Página 148/186 | 34 elementos | 0.1 pág/s | ETA: 6.5 min
+  ✓ Página 149/186 |  1 elementos | 0.1 pág/s | ETA: 6.3 min
+  ✓ Página 150/186 | 27 elementos | 0.1 pág/s | ETA: 6.1 min
+  ✓ Página 151/186 |  9 elementos | 0.1 pág/s | ETA: 6.0 min
+  ✓ Página 152/186 |  8 elementos | 0.1 pág/s | ETA: 5.8 min
+  ✓ Página 153/186 |  1 elementos | 0.1 pág/s | ETA: 5.6 min
+  ✓ Página 154/186 |  3 elementos | 0.1 pág/s | ETA: 5.5 min
+  ✓ Página 155/186 |  8 elementos | 0.1 pág/s | ETA: 5.3 min
+  ⚠️ Página 156/186 |  0 elementos | 0.1 pág/s | ETA: 5.1 min
+  ✓ Página 157/186 |  9 elementos | 0.1 pág/s | ETA: 4.9 min
+  ✓ Página 158/186 |  7 elementos | 0.1 pág/s | ETA: 4.7 min
+  ✓ Página 159/186 |  9 elementos | 0.1 pág/s | ETA: 4.6 min
+  ✓ Página 160/186 | 28 elementos | 0.1 pág/s | ETA: 4.4 min
+  ✓ Página 161/186 |  2 elementos | 0.1 pág/s | ETA: 4.2 min
+  ✓ Página 162/186 |  8 elementos | 0.1 pág/s | ETA: 4.1 min
+  ✓ Página 163/186 | 12 elementos | 0.1 pág/s | ETA: 3.9 min
+  ✓ Página 164/186 |  3 elementos | 0.1 pág/s | ETA: 3.7 min
+  ✓ Página 165/186 |  4 elementos | 0.1 pág/s | ETA: 3.6 min
+  ✓ Página 166/186 |  2 elementos | 0.1 pág/s | ETA: 3.4 min
+  ✓ Página 167/186 |  8 elementos | 0.1 pág/s | ETA: 3.2 min
+  ✓ Página 168/186 |  4 elementos | 0.1 pág/s | ETA: 3.1 min
+  ✓ Página 169/186 |  4 elementos | 0.1 pág/s | ETA: 2.9 min
+  ✓ Página 170/186 |  2 elementos | 0.1 pág/s | ETA: 2.8 min
+  ✓ Página 171/186 |  6 elementos | 0.1 pág/s | ETA: 2.6 min
+  ✓ Página 172/186 |  6 elementos | 0.1 pág/s | ETA: 2.5 min
+  ✓ Página 173/186 |  6 elementos | 0.1 pág/s | ETA: 2.3 min
+  ✓ Página 174/186 |  4 elementos | 0.1 pág/s | ETA: 2.1 min
+  ✓ Página 175/186 |  2 elementos | 0.1 pág/s | ETA: 2.0 min
+  ✓ Página 176/186 |  2 elementos | 0.1 pág/s | ETA: 1.8 min
+  ✓ Página 177/186 | 13 elementos | 0.1 pág/s | ETA: 1.6 min
+  ✓ Página 178/186 |  4 elementos | 0.1 pág/s | ETA: 1.4 min
+  ✓ Página 179/186 |  6 elementos | 0.1 pág/s | ETA: 1.3 min
+  ✓ Página 180/186 |  4 elementos | 0.1 pág/s | ETA: 1.1 min
+  ✓ Página 181/186 |  6 elementos | 0.1 pág/s | ETA: 0.9 min
+  ✓ Página 182/186 |  6 elementos | 0.1 pág/s | ETA: 0.7 min
+  ✓ Página 183/186 |  3 elementos | 0.1 pág/s | ETA: 0.6 min
+  ⚠️ Página 184/186 |  0 elementos | 0.1 pág/s | ETA: 0.4 min
+  ✓ Página 185/186 |  4 elementos | 0.1 pág/s | ETA: 0.2 min
+  ✓ Página 186/186 |  6 elementos | 0.1 pág/s | ETA: 0.0 min
+
+============================================================
+📊 Extracción Completada
+============================================================
+  Páginas: 186
+  Elementos: 1814
+  Errores: 4
+  Tiempo: 34.4 minutos
+  Output: /root/clawd/leonardo/projects/normative-engine/extracted/titulo_a/complete_extraction.json
+  Páginas con error: [78, 82, 156, 184]
+============================================================
+

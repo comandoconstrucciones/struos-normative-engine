@@ -1,0 +1,60 @@
+{
+  "page_number": 106,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6",
+      "title": "INSTALACIONES HIDRÁULICAS, SANITARIAS, MECÁNICAS Y ELÉCTRICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.1",
+      "title": "GENERAL",
+      "content": "Los elementos no estructurales enumerados en la tabla A.9.6-1 y sus anclajes a la estructura deben diseñarse y detallarse de acuerdo con los requisitos de esta sección. Los cálculos y diseños de los elementos de instalaciones hidráulicas, sanitarias, mecánicas y eléctricas deben incluirse como parte de las memorias de diseño de cada uno de los sistemas. Puede hacerse un análisis del mecanismo de soporte de sus componentes, de acuerdo con principios establecidos de dinámica estructural, para justificar una reducción de las fuerzas determinadas en A.9.6.2. Deben investigarse los estados de esfuerzos combinados tales como tensión y cortante en los pernos de anclaje, de acuerdo con principios establecidos de mecánica estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.2",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": "Los componentes hidráulicos, mecánicos y eléctricos y sus anclajes deben diseñarse para fuerzas sísmicas reducidas de diseño determinadas por medio de la ecuación A.9.4-1, empleando los coeficientes dados en la tabla A.9.6-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.3",
+      "title": "SOPORTES",
+      "content": "Los sistemas de soporte deben diseñarse para las fuerzas sísmicas reducidas de diseño definidas en A.9.6.2 y de acuerdo con los requisitos correspondientes del material estructural del soporte, de acuerdo con lo establecido en el Título correspondiente al material estructural. Los soportes deben ser capaces de resistir los desplazamientos de la estructura inducidos por los movimientos sísmicos, calculados de acuerdo con los requisitos del Capítulo A.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.4",
+      "title": "EMPATES CON LAS REDES DE SERVICIOS PÚBLICOS",
+      "content": "Deben disponerse conexiones flexibles en los empates con las redes de servicios públicos en todos los casos en los cuales el empate está localizado en un lugar donde la estructura se puede desplazar con respecto al terreno como consecuencia de los movimientos sísmicos. El empate flexible debe ser capaz de resistir, sin daño, unos desplazamientos calculados como lo indica el Capítulo A.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.5",
+      "title": "INTERRUPTORES AUTOMÁTICOS",
+      "content": "En los empates con las redes de servicios públicos de electricidad y de gas, en edificaciones que pertenezcan al grupo de uso IV, localizadas en zonas de amenaza sísmica intermedia y alta, debe colocarse, del lado de la edificación, un interruptor automático. El interruptor automático debe activarse cuando se presente una aceleración horizontal del terreno mayor que 0.5Aa."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.6",
+      "title": "ASCENSORES EN EDIFICACIONES DEL GRUPO DE USO IV",
+      "content": "En las edificaciones del grupo de uso IV localizadas en zonas de amenaza sísmica alta, el diseño, construcción y montaje de los ascensores debe realizarse cumpliendo los requisitos de la norma ANSI/ASME A.17.1 \"American National Standard Safety Code for Elevators and Escalators\", incluyendo el Apéndice F."
+    }
+  ],
+  "references": [
+    "A.9.6-1",
+    "A.9.6.2",
+    "A.9.4-1",
+    "A.9.6-1",
+    "A.9.6.2",
+    "A.6",
+    "A.6",
+    "ANSI/ASME A.17.1",
+    "Apéndice F"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

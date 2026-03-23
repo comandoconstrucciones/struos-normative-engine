@@ -1,0 +1,104 @@
+{
+  "page_number": 77,
+  "elements": [
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.2-4",
+      "formula_latex": "C_w = \\frac{100}{A_B} \\sum_{i=1}^{n_w} \\left[ \\left( \\frac{h_n}{h_{wi}} \\right)^2 \\frac{A_{wi}}{1 + 0.83 \\left( \\frac{h_{wi}}{l_{wi}} \\right)^2} \\right]",
+      "formula_python": "Cw = (100/AB) * sum([(hn/hwi)**2 * Awi / (1 + 0.83 * (hwi/lwi)**2) for i in range(1, nw+1)])",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2",
+      "title": "A.4.2-5",
+      "content": "Alternativamente, para edificaciones de 12 pisos o menos con alturas de piso, hp, no mayores de 3 m cuyo sistema estructural de resistencia sísmica está compuesto por pórticos resistentes a momentos de concreto reforzado o acero estructural, el período de vibración aproximado, Ta, en s, puede determinarse por medio de la ecuación A.4.2-5."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.2-5",
+      "formula_latex": "T_a = 0.1N",
+      "formula_python": "Ta = 0.1 * N",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.2.3",
+      "title": "A.4.2.3",
+      "content": "El valor de T obtenido al utilizar las ecuaciones A.4.2-1, A.4.2-3 ο Α.4.2-5 es un estimativo inicial razonable del período estructural para predecir las fuerzas a aplicar sobre la estructura con el fin de dimensionar su sistema de resistencia sísmica. Sin embargo, una vez dimensionada la estructura, debe calcularse el valor ajustado de T mediante la aplicación de análisis modal o de la ecuación A.4.2-1 para compararlo con el estimado inicial; si el periodo de la estructura diseñada difiriera en más del 10% con el periodo estimado inicialmente, debe repetirse el proceso de análisis, utilizando el último periodo calculado como nuevo estimado, hasta que se converja en un resultado dentro de la tolerancia del 10% señalada."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.3",
+      "title": "A.4.3 - FUERZAS SÍSMICAS HORIZONTALES EQUIVALENTES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.3.1",
+      "title": "A.4.3.1",
+      "content": "El cortante sísmico en la base, Vs, equivalente a la totalidad de los efectos inerciales horizontales producidos por los movimientos sísmicos de diseño, en la dirección en estudio, se obtiene por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.3-1",
+      "formula_latex": "V_s = S_a g M",
+      "formula_python": "Vs = Sa * g * M",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "",
+      "content": "El valor de Sa en la ecuación anterior corresponde al valor de la aceleración, como fracción de la de la gravedad, leída en el espectro definido en A.2.6 para el período T de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.3.2",
+      "title": "A.4.3.2",
+      "content": "La fuerza sísmica horizontal, Fx, en cualquier nivel x, para la dirección en estudio, debe determinarse usando la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.3-2",
+      "formula_latex": "F_x = C_{Vx} V_s",
+      "formula_python": "Fx = Cvx * Vs",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.4.3-3",
+      "formula_latex": "C_{vx} = \\frac{m_x h_x^k}{\\sum_{i=1}^{n} (m_i h_i^k)}",
+      "formula_python": "Cvx = (mx * hx**k) / sum([mi * hi**k for i in range(1,n+1)])",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "",
+      "content": "donde k es un exponente relacionado con el período fundamental, T, de la edificación de la siguiente manera:\n(a) Para T menor o igual a 0.5 segundos, k = 1.0,\n(b) Para T entre 0.5 y 2.5 segundos, k = 0.75+0.5T, y\n(c) Para T mayor que 2.5 segundos, k = 2.0 ."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.4",
+      "title": "A.4.4 - ANÁLISIS DE LA ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.4.4.1",
+      "title": "A.4.4.1",
+      "content": "El efecto de las fuerzas sísmicas, obtenidas de acuerdo con los requisitos de A.4.3, correspondientes a cada nivel, debe evaluarse por medio de un análisis realizado utilizando un modelo matemático linealmente elástico de la estructura, que represente adecuadamente las características del sistema estructural. El análisis, realizado de acuerdo con los principios de la mecánica estructural, debe tenerse en cuenta, como mínimo:"
+    }
+  ],
+  "references": [
+    "A.4.2-1",
+    "A.4.2-3",
+    "Α.4.2-5",
+    "A.4.2-1",
+    "A.2.6",
+    "A.4.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

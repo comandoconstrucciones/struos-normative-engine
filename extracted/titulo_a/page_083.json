@@ -1,0 +1,80 @@
+{
+  "page_number": 83,
+  "elements": [
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.4-5",
+      "formula_latex": "0.90 \\frac{V_s}{V_{tj}}",
+      "formula_python": "0.90 * Vs / Vtj",
+      "formula_variables": {
+        "Vs": "Cortante sísmico",
+        "Vtj": "Cortante sísmico en la base"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.6",
+      "title": "EFECTOS DIRECCIONALES",
+      "content": "Los efectos direccionales de los movimientos sísmicos de diseño deben tenerse en cuenta de acuerdo con los requisitos de A.3.6.3. Los efectos de la aceleración vertical de los movimientos sísmicos en los voladizos y elementos preesforzados debe tenerse en cuenta siguiendo los requisitos de A.3.6.13 o alternativamente por medio de un procedimiento de análisis dinámico, pero en ningún caso los resultados obtenidos por medio de este procedimiento alternativo puede conducir a resultados menores que los obtenidos por medio de A.3.6.13."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.7",
+      "title": "TORSIÓN",
+      "content": "El análisis dinámico debe tener en cuenta los efectos torsionales de toda la estructura según lo indicado en A.3.6.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.8",
+      "title": "SISTEMAS DUALES",
+      "content": "Cuando el sistema de resistencia sísmica corresponda a un sistema dual, tal como lo define A.3.2.1.4, el sistema debe ser capaz, en conjunto, de resistir el cortante total en la base que se obtiene por medio del análisis dinámico. El análisis del pórtico espacial resistente a momentos, actuando independientemente como lo prescribe A.3.2.1.4 (b), puede llevarse a cabo por medio de un análisis dinámico apropiado, o por medio de un análisis de fuerza horizontal equivalente de acuerdo con los requisitos del Capítulo A.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5",
+      "title": "MÉTODO DE ANÁLISIS DINÁMICO CRONOLÓGICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.1",
+      "title": "GENERALIDADES",
+      "content": "La metodología de análisis dinámico cronológico puede ser utilizada cuando a juicio del ingeniero diseñador ella describe adecuadamente las propiedades dinámicas de la estructura y conduce a resultados representativos de los movimientos sísmicos de diseño. El modelo matemático empleado puede ser linealmente elástico o inelástico. Si se utilizan métodos de análisis dinámico inelástico, debe tenerse especial cuidado en cumplir lo requerido en A.3.4.2.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.2",
+      "title": "RESPUESTA MÁXIMA",
+      "content": "Deben determinarse las respuestas máximas de las deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos, para el conjunto de registros de la familia de acelerogramas requerida por A.2.7.1, los cuales, en este caso, no deben ser menos de tres registros."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.3",
+      "title": "AJUSTE DE LOS RESULTADOS",
+      "content": "El valor del máximo cortante dinámico total en la base, Vtj, obtenido para cualquiera de las direcciones principales, j, no puede ser menor que el cortante sísmico en la base, Vs, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4 y cumpliendo lo indicado en A.5.4.5(a). Debe notarse que en caso de utilizar modelo matemático inelástico, los resultados ya tienen involucrado el efecto asociado al R, lo que debe tomarse en cuenta para el ajuste requerido.\nCuando el valor máximo del cortante dinámico total en la base, Vtj, obtenido para cualquiera de las direcciones principales, j, sea menor que el cortante sísmico en la base, Vs, calculado como se indicó anteriormente, todos los parámetros de la respuesta dinámica, tales como deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos de la correspondiente dirección j deben multiplicarse por el siguiente factor de modificación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.5-1",
+      "formula_latex": "\\frac{V_s}{V_{tj}}",
+      "formula_python": "Vs / Vtj",
+      "formula_variables": {
+        "Vs": "Cortante sísmico en la base",
+        "Vtj": "Cortante dinámico total en la base"
+      }
+    }
+  ],
+  "references": [
+    "A.3.6.3",
+    "A.3.6.13",
+    "A.3.6.7",
+    "A.3.2.1.4",
+    "Capítulo A.4",
+    "A.3.2.1.4 (b)",
+    "A.3.4.2.3",
+    "A.2.7.1",
+    "A.5.4.5(a)"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

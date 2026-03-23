@@ -1,0 +1,23 @@
+{
+  "page_number": 63,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.9.2",
+      "title": null,
+      "content": "En el diseño y construcción de estructuras que tengan elementos disipadores de energía, se deben cumplir los requisitos de los Artículos 10 y 11 de la Ley 400 de 1997, asumiendo el diseñador estructural y el constructor las responsabilidades que allí se indican."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.9.3",
+      "title": null,
+      "content": "La construcción de una edificación que utilice elementos disipadores de energía debe someterse a una supervisión técnica permanente, como la describe el Título I."
+    }
+  ],
+  "references": [
+    "Artículos 10 y 11 de la Ley 400 de 1997",
+    "Título I"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

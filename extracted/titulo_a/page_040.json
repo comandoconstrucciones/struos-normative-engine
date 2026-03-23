@@ -1,0 +1,107 @@
+{
+  "page_number": 40,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.2.2",
+      "title": null,
+      "content": "Para períodos de vibración mayores que TL, calculados de acuerdo con la ecuación A.2.6-4, el valor de Sv, en m/s, no puede ser menor que el dado por la ecuación A.2.6-10."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.2.2",
+      "formula_latex": "S_v = \\frac{1.87 A_v F_v I T_L}{T} (m/s)",
+      "formula_python": "Sv = (1.87 * Av * Fv * I * TL) / T",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.2.3",
+      "title": null,
+      "content": "Cuando se utilice el análisis dinámico, tal como se define en el Capítulo A.5, para períodos de vibración diferentes del fundamental, en la dirección en estudio, menores de To calculado de acuerdo con la ecuación A.2.6-6, el espectro de velocidades de diseño, en m/s, puede obtenerse de la ecuación A.2.6-11."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.2.3",
+      "formula_latex": "S_v = 3.9 A_a F_a IT \\left( 0.4 + 0.6 \\frac{T}{T_0} \\right) (m/s)",
+      "formula_python": "Sv = 3.9 * Aa * Fa * I * T * (0.4 + 0.6 * (T / T0))",
+      "formula_variables": {}
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.6-2",
+      "title": "Espectro Elástico de Velocidades (m/s) de Diseño",
+      "content": null
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "Figura A.2.6-2",
+      "formula_latex": "T_0 = 0.1 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "T0 = 0.1 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "Figura A.2.6-2",
+      "formula_latex": "T_C = 0.48 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "TC = 0.48 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "Figura A.2.6-2",
+      "formula_latex": "T_L = 2.4 F_v",
+      "formula_python": "TL = 2.4 * Fv",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.3",
+      "title": "Espectro de desplazamientos",
+      "content": "La forma del espectro elástico de desplazamientos en m, para un coeficiente de cinco por ciento (5%) del amortiguamiento crítico, que se debe utilizar en el diseño, se da en la figura A.2.6-3 y se define por medio de la ecuación A.2.6-12, con las limitaciones dadas en A.2.6.3.1 a A.2.6.3.3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.3",
+      "formula_latex": "S_d = 0.3 A_v F_v IT (m)",
+      "formula_python": "Sd = 0.3 * Av * Fv * I * T",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.3.1",
+      "title": null,
+      "content": "Para períodos de vibración menores de TC, calculado de acuerdo con la ecuación A.2.6-2, el valor de Sd, en m, puede limitarse al obtenido de la ecuación A.2.6-13."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.3.1",
+      "formula_latex": "S_d = 0.62 A_a F_a IT^2 (m)",
+      "formula_python": "Sd = 0.62 * Aa * Fa * I * T**2",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.3.2",
+      "title": null,
+      "content": "Para períodos de vibración mayores que TL, calculado de acuerdo con la ecuación A.2.6-4, el valor de Sd, en m, no puede ser menor que el dado por la ecuación A.2.6-14."
+    }
+  ],
+  "references": [
+    "A.2.6-4",
+    "A.2.6-10",
+    "Capítulo A.5",
+    "A.2.6-6",
+    "A.2.6-11",
+    "A.2.6-3",
+    "A.2.6-12",
+    "A.2.6.3.1",
+    "A.2.6.3.3",
+    "A.2.6-2",
+    "A.2.6-13",
+    "A.2.6-4",
+    "A.2.6-14"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

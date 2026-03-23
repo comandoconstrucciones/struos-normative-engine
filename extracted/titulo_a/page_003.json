@@ -1,0 +1,360 @@
+{
+  "page_number": 3,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1.1",
+      "title": "NORMAS SISMO RESISTENTES COLOMBIANAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2",
+      "title": "ORGANIZACIÓN DEL PRESENTE REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.1",
+      "title": "TEMARIO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.2",
+      "title": "OBJETO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.3",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.4",
+      "title": "EXCEPCIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.2.5",
+      "title": "DEFINICIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3",
+      "title": "PROCEDIMIENTO DE DISEÑO Y CONSTRUCCIÓN DE EDIFICACIONES, DE ACUERDO CON EL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.2",
+      "title": "ESTUDIOS GEOTÉCNICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.3",
+      "title": "DISEÑO ARQUITECTÓNICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.4",
+      "title": "DISEÑO ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.1.3-1",
+      "title": "Procedimiento de diseño estructural para edificaciones nuevas y existentes",
+      "table_headers": [],
+      "table_rows": [
+        [
+          "Paso 1",
+          "- Predimensionamiento y coordinación con los otros profesionales"
+        ],
+        [
+          "Paso 2",
+          "- Evaluación de las solicitaciones definitivas"
+        ],
+        [
+          "Paso 3",
+          "- Obtención del nivel de amenaza sísmica y los valores de Aa y Av"
+        ],
+        [
+          "Paso 4",
+          "- Movimientos sísmicos de diseño"
+        ],
+        [
+          "Paso 5",
+          "- Características de la estructuración y del material estructural empleado"
+        ],
+        [
+          "Paso 6",
+          "- Grado de irregularidad de la estructura y procedimiento de análisis"
+        ],
+        [
+          "Paso 7",
+          "- Determinación de las fuerzas sísmicas"
+        ],
+        [
+          "Paso 8",
+          "- Análisis sísmico de la estructura"
+        ],
+        [
+          "Paso 9",
+          "- Desplazamientos horizontales"
+        ],
+        [
+          "Paso 10",
+          "- Verificación de derivas"
+        ],
+        [
+          "Paso 11",
+          "- Combinación de las diferentes solicitaciones"
+        ],
+        [
+          "Paso 12",
+          "-Diseño de los elementos estructurales"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.5",
+      "title": "DISEÑO DE LA CIMENTACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6",
+      "title": "DISEÑO SÍSMICO DE LOS ELEMENTOS NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.7",
+      "title": "REVISIÓN DE LOS DISEÑOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.8",
+      "title": "CONSTRUCCIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9",
+      "title": "SUPERVISIÓN TÉCNICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.1",
+      "title": "Edificaciones indispensables y de atención a la comunidad",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.2",
+      "title": "Edificaciones diseñadas y construidas de acuerdo con el Título E del Reglamento",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.3",
+      "title": "Supervisión técnica exigida por los diseñadores",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.4",
+      "title": "Idoneidad del supervisor técnico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.5",
+      "title": "Alcance de la supervisión técnica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.6",
+      "title": "Edificaciones donde no se requiere supervisión técnica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.10",
+      "title": "EDIFICACIONES INDISPENSABLES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.11",
+      "title": "CASAS DE UNO Y DOS PISOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.12",
+      "title": "ASPECTOS FUNDAMENTALES DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.13",
+      "title": "CONSTRUCCIÓN RESPONSABLE AMBIENTALMENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4",
+      "title": "CONSIDERACIONES ESPECIALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4.1",
+      "title": "POR TAMAÑO Y GRUPO DE USO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.4.2",
+      "title": "SISTEMAS PREFABRICADOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5",
+      "title": "DISEÑOS, PLANOS, MEMORIAS Y ESTUDIOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.1",
+      "title": "DISEÑADOR RESPONSABLE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2",
+      "title": "PLANOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.1",
+      "title": "Planos estructurales",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.2",
+      "title": "Planos arquitectónicos y de elementos no estructurales arquitectónicos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.3",
+      "title": "Planos hidráulicos y sanitarios, eléctricos, mecánicos y de instalaciones especiales",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3",
+      "title": "MEMORIAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3.1",
+      "title": "Memorias estructurales",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3.2",
+      "title": "Memorias de otros diseños",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.4",
+      "title": "ESTUDIO GEOTÉCNICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6",
+      "title": "OBLIGATORIEDAD DE LAS NORMAS TÉCNICAS CITADAS EN EL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.1",
+      "title": "NORMAS NTC",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.2",
+      "title": "OTRAS NORMAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.3",
+      "title": "REFERENCIAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7",
+      "title": "SISTEMA DE UNIDADES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7.1",
+      "title": "SISTEMA MÉTRICO SI",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7.2",
+      "title": "REFERENCIAS AL SISTEMA MÉTRICO mks",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "title": "ZONAS DE AMENAZA SÍSMICA Y MOVIMIENTOS SÍSMICOS DE DISEÑO.",
+      "content": "CAPÍTULO A.2 – "
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    }
+  ],
+  "references": [
+    "Título E del Reglamento"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

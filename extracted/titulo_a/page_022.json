@@ -1,0 +1,53 @@
+{
+  "page_number": 22,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1",
+      "title": "Capítulo A.1 - Introducción",
+      "content": "en relación con los planos finales de obra (planos record)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.1",
+      "title": "Planos estructurales",
+      "content": "Los planos estructurales deben ir firmados o rotulados con un sello seco por un ingeniero civil facultado para ese fin y quien obra como diseñador estructural responsable. Los planos estructurales deben contener como mínimo:\n(a) Especificaciones de los materiales de construcción que se van a utilizar en la estructura, tales como resistencia del concreto, resistencia del acero, calidad de las unidades de mampostería, tipo de mortero, calidad de la madera estructural, y toda información adicional que sea relevante para la construcción y supervisión técnica de la estructura. Cuando la calidad del material cambie dentro de la misma edificación, debe anotarse claramente cuál material debe usarse en cada porción de la estructura,\n(b) Tamaño y localización de todos los elementos estructurales así como sus dimensiones y refuerzo,\n(c) Precauciones que se deben tener en cuenta, tales como contraflechas, para contrarrestar cambios volumétricos de los materiales estructurales tales como: cambios por variaciones en la humedad ambiente, retracción de fraguado, flujo plástico o variaciones de temperatura,\n(d) Localización y magnitud de todas las fuerzas de preesfuerzo, cuando se utilice concreto preesforzado,\n(e) Tipo y localización de las conexiones entre elementos estructurales y los empalmes entre los elementos de refuerzo, así como detalles de conexiones y sistema de limpieza y protección anticorrosiva en el caso de estructuras de acero,\n(f) El grado de capacidad de disipación de energía bajo el cual se diseñó el material estructural del sistema de resistencia sísmica,\n(g) Las cargas vivas y de acabados supuestas en los cálculos, y\n(h) El grupo de uso al cual pertenece la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.2",
+      "title": "Planos arquitectónicos y de elementos no estructurales arquitectónicos",
+      "content": "Los planos arquitectónicos deben ir firmados o rotulados con un sello seco por un arquitecto facultado para ese fin y quien obra como diseñador arquitectónico responsable. Para efectos del presente Reglamento deben contener el grado de desempeño sísmico de los elementos no estructurales arquitectónicos, tal como los define el Capítulo A.9, y además todos los detalles y especificaciones, compatibles con este grado de desempeño, necesarios para garantizar que la construcción pueda ejecutarse y supervisarse apropiadamente. El diseñador de los elementos no estructurales, cuando el diseño sísmico de los elementos no estructurales se realice por un profesional diferente del arquitecto, debe firmar o rotular los planos arquitectónicos generales, además de los de los diseños particulares. Véase A.1.3.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.2.3",
+      "title": "Planos hidráulicos y sanitarios, eléctricos, mecánicos y de instalaciones especiales",
+      "content": "Los planos de instalaciones hidráulicas y sanitarias, eléctricas, mecánicas y de instalaciones especiales, deben ir firmados o rotulados con un sello seco por profesionales facultados para ese fin. Para efectos del presente Reglamento deben contener el grado de desempeño de los elementos no estructurales diferentes de arquitectónicos, tal como los define el Capítulo A.9, y además todos los detalles y especificaciones, compatibles con este grado de desempeño, necesarios para garantizar que la construcción pueda ejecutarse y supervisarse apropiadamente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3",
+      "title": "MEMORIAS",
+      "content": "Los planos deben ir acompañados por memorias de diseño y cálculo en las cuales se describan los procedimientos por medio de los cuales se realizaron los diseños."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3.1",
+      "title": "Memorias estructurales",
+      "content": "Los planos estructurales que se presenten para obtener la licencia de construcción deben ir acompañados de la memoria justificativa de cálculos, firmada por el Ingeniero que realizó el diseño estructural. En esta memoria debe incluirse una descripción del sistema estructural usado, y además deben anotarse claramente las cargas verticales, el grado de capacidad de disipación de energía del sistema de resistencia sísmica, el cálculo de la fuerza sísmica, el tipo de análisis estructural utilizado y la verificación de que las derivas máximas no fueron excedidas. Cuando se use un equipo de procesamiento automático de información, además de lo anterior, debe entregarse una descripción de los principios bajo los cuales se realiza el modelo digital y su análisis estructural y los datos de entrada al procesador automático debidamente identificados. Los datos de salida pueden utilizarse para ilustrar los resultados y pueden incluirse en su totalidad en un anexo a las memorias de cálculo, pero no pueden constituirse en sí mismos como memorias de cálculo, requiriéndose de una memoria explicativa de su utilización en el diseño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.3.2",
+      "title": "Memorias de otros diseños",
+      "content": "Las justificaciones para el grado de desempeño de los elementos no estructurales deben consignarse en una memoria. Esta memoria debe ser elaborada por el"
+    }
+  ],
+  "references": [
+    "Capítulo A.9",
+    "A.1.3.6"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

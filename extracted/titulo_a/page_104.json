@@ -1,0 +1,41 @@
+{
+  "page_number": 104,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9",
+      "title": "Capítulo A.9 Elementos no estructurales",
+      "content": "llevar a la falla de elementos estructurales críticos, como pueden ser las columnas. Dentro de estos elementos se encuentran, entre otros, los siguientes:\n(a) Muros de fachada las fachadas deben diseñarse y construirse para que sus componentes no se disgreguen como consecuencia del sismo, y además el conjunto debe amarrarse adecuadamente a la estructura con el fin de que no exista posibilidad de que caiga poniendo en peligro a los transeúntes al nivel de calzada. Para sistemas vidriados de fachadas véase el Capítulo K4.\n(b) Muros interiores deben tenerse precauciones para evitar el vuelco de los muros interiores y particiones. Para sistemas vidriados de fachadas véase el Capítulo K4.\n(c) Cielos rasos el desprendimiento y caída de los cielos rasos representa un peligro grave para las personas.\n(d) Enchapes de fachada - el desprendimiento y caída de los enchapes de fachada representa un peligro grave para los transeúntes. Los enchapes deben ser considerados para su diseño como un sistema que involucra todos sus componentes (soporte, morteros de relleno o revoque, adhesivos y enchape). Especial consideración deberá prestarse en el diseño de los movimientos del sistema de fachada por efectos de temperatura, cambios de humedad, integridad por meteorización, o deformación del soporte.\n(e) Áticos, parapetos y antepechos existe el mismo peligro potencial que presentan los muros de fachada. Cuando la cubierta de la edificación esté compuesta por tejas o elementos frágiles debe considerarse en el diseño la posibilidad de que el parapeto falle hacia adentro, cayendo sobre la cubierta, produciendo su falla y poniendo en peligro a los habitantes del último piso.\n(f) Vidrios la rotura de vidrios generada por la deformación del marco de la ventana representa un peligro para las personas que estén dentro o fuera de la edificación. Deben tenerse precauciones para dejar holguras suficientes dentro del montaje del vidrio o de la ventanería para evitar su rotura o garantizar que la rotura se produzca de forma segura. La colocación de películas protectoras, vidrios templados y vidrios tripliados son otras alternativas para evitar el peligro asociado con la rotura del vidrio. La utilización de vidrios de seguridad es una alternativa para disminuir el riesgo asociado a la rotura del vidrio. Para especificaciones de vidrio, productos de vidrio y sistemas vidriados, véase el Capítulo K4.\n(g) Paneles prefabricados de fachada cuando se utilicen paneles prefabricados de fachada, deben dejarse holguras suficientes que permitan la deformación de la estructura sin afectar el panel. Además el panel debe estar adecuadamente adherido al sistema estructural de resistencia sísmica, para evitar su desprendimiento. En caso que ellos sean de vidrio, véase Capítulo K4.\n(h) Columnas cortas o columnas cautivas ciertos tipos de interacción entre los elementos no estructurales y la estructura de la edificación deben evitarse a toda costa. Dentro de este tipo de interacción se encuentra el caso de las \"columnas cortas\" o \"columnas cautivas\" en las cuales la columna está restringida en su desplazamiento lateral por un muro no estructural que no llega hasta la losa de entrepiso en su parte superior. En este caso el muro debe separarse de la columna, o ser llevado hasta la losa de entrepiso en su parte superior, si se deja adherido a la columna."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.3",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": "Los elementos arquitectónicos y acabados y sus anclajes a la estructura deben diseñarse para resistir las fuerzas sísmicas reducidas de diseño determinadas por medio de la ecuación A.9.4-1, empleando los coeficientes dados en la tabla A.9.5-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.4",
+      "title": "FUERZAS DE VIENTO",
+      "content": "Cuando las fuerzas de viento, positivas o negativas, sobrepasen 0.7F, para muros no estructurales de fachada, estas fuerzas deben ser las empleadas en diseño del elemento no estructural, y sus anclajes deben diseñarse para resistir 1.4 veces las fuerzas de viento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.5",
+      "title": "ANCLAJE DE LAS FACHADAS",
+      "content": "Los anclajes y amarres de los muros no estructurales de fachada, a la estructura de la edificación y a los muros interiores, deben ser capaces de resistir las fuerzas sísmicas reducidas de diseño obtenidas por medio de la ecuación A.9.4-1 y además deben tener la suficiente ductilidad y capacidad de rotación para aceptar desplazamientos, en cada piso, entre su base y la parte superior, iguales a la deriva de diseño, calculada de acuerdo con los requisitos del Capítulo A.6. El muro debe ser capaz de resistir la flexión que le imponen las fuerzas sísmicas reducidas de diseño actuando en una dirección perpendicular al plano del muro."
+    }
+  ],
+  "references": [
+    "Capítulo K4",
+    "Capítulo K4",
+    "Capítulo K4",
+    "Capítulo K4",
+    "A.9.4-1",
+    "A.9.5-1",
+    "A.9.4-1",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

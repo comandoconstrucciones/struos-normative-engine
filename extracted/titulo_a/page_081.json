@@ -1,0 +1,68 @@
+{
+  "page_number": 81,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.4",
+      "title": "RIGIDEZ EN LOS MÉTODOS DINÁMICOS INELÁSTICOS",
+      "content": "Los modelos matemáticos utilizados para describir la rigidez de los elementos estructurales del sistema de resistencia sísmica, cuando se empleen métodos dinámicos inelásticos, deben ser consistentes con el grado de capacidad de disipación de energía del material, con los niveles esperados de deformación y con las secuencias de esfuerzos y deformaciones que se presenten durante la respuesta, a través de modelos histeréticos que describan la degradación de rigidez y resistencia, los efectos de estrangulamiento de las formas histeréticas, y los efectos del endurecimiento por deformación del acero. Los modelos de rigidez utilizados deben estar adecuadamente sustentados analítica o experimentalmente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3",
+      "title": "REPRESENTACIÓN DE LOS MOVIMIENTOS SÍSMICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.1",
+      "title": "GENERALIDADES",
+      "content": "De acuerdo con la representación de los movimientos sísmicos de diseño empleada en el análisis dinámico, los procedimientos se dividen en:\n(a) Procedimientos espectrales, y\n(b) Procedimientos de análisis cronológico."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.2",
+      "title": "PROCEDIMIENTOS ESPECTRALES",
+      "content": "En los procedimientos espectrales debe utilizarse el espectro de diseño definido en A.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.3.3",
+      "title": "PROCEDIMIENTOS CRONOLÓGICOS",
+      "content": "En los procedimientos cronológicos deben utilizarse familias de acelerogramas, tal como las define A.2.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4",
+      "title": "ANÁLISIS DINÁMICO ELÁSTICO ESPECTRAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.1",
+      "title": "METODOLOGÍA DEL ANÁLISIS",
+      "content": "Deben tenerse en cuenta los siguientes requisitos, cuando se utilice el método de análisis dinámico elástico espectral:\n(a) Obtención de los modos de vibración Los modos de vibración deben obtenerse utilizando metodologías establecidas de dinámica estructural. Deben utilizarse todos los modos de vibración de la estructura que contribuyan de una manera significativa a la respuesta dinámica de la misma, cumpliendo los requisitos de A.5.4.2.\n(b) Respuesta espectral modal - La respuesta máxima de cada modo se obtiene utilizando las ordenadas del espectro de diseño definido en A.5.3.2, para el período de vibración propio del modo.\n(c) Respuesta total - Las respuestas máximas modales, incluyendo las de deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos, se combinan de una manera estadística para obtener la respuesta total de la estructura a los movimientos sísmicos de diseño. Deben cumplirse los requisitos de A.5.4.4 en la combinación estadística de las respuestas modales máximas.\n(d) Ajuste de los resultados - Si los resultados de la respuesta total son menores que los valores mínimos prescritos en A.5.4.5, los resultados totales del análisis dinámico deben ser ajustados como se indica allí. El ajuste debe cubrir todos los resultados del análisis dinámico, incluyendo las deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos.\n(e) Evaluación de las derivas - Se debe verificar que las derivas totales obtenidas, debidamente ajustadas de acuerdo con los requisitos de A.5.4.5, no excedan los límites establecidos en el Capítulo A.6.\n(f) Fuerzas de diseño en los elementos - Las fuerzas sísmicas internas totales de los elementos, F, debidamente ajustadas de acuerdo con los requisitos de A.5.4.5, se dividen por el valor del coeficiente de capacidad de disipación de energía, R, del sistema de resistencia sísmica, modificado de acuerdo con la irregularidad y la ausencia de redundancia según los requisitos de A.3.3.3, para obtener las fuerzas sísmicas reducidas de diseño, E, y se combinan con las otras cargas prescritas por este Reglamento, de acuerdo con el Título B.\n(g) Diseño de los elementos estructurales - Los elementos estructurales se diseñan y detallan siguiendo los requisitos propios del grado de capacidad de disipación de energía correspondiente del material, de acuerdo con los requisitos del Capitulo A.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.2",
+      "title": "NÚMERO DE MODOS DE VIBRACIÓN",
+      "content": "Deben incluirse en el análisis dinámico todos los modos de vibración que contribuyan de una manera significativa a la respuesta dinámica de la estructura. Se considera que se ha cumplido este requisito cuando se demuestra que, con el número de modos empleados, p, se ha incluido en el cálculo de la respuesta, de cada una de las direcciones horizontales de análisis, j, por lo menos el 90 por ciento de la"
+    }
+  ],
+  "references": [
+    "A.2.6",
+    "A.2.7",
+    "A.5.4.2",
+    "A.5.3.2",
+    "A.5.4.4",
+    "A.5.4.5",
+    "Capítulo A.6",
+    "A.5.4.5",
+    "A.3.3.3",
+    "Título B",
+    "Capitulo A.3"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

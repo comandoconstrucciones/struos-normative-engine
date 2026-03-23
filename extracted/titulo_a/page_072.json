@@ -1,0 +1,81 @@
+{
+  "page_number": 72,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-7",
+      "title": "Tabla A.3-7\nIrregularidades en la altura",
+      "table_headers": [
+        "Tipo",
+        "Descripción de la irregularidad en altura",
+        "Фа",
+        "Referencias"
+      ],
+      "table_rows": [
+        [
+          "1aA",
+          "Piso flexible (Irregularidad en rigidez) — Cuando la rigidez ante fuerzas\nhorizontales de un piso es menor del 70 por ciento pero superior o igual al 60\npor ciento de la rigidez del piso superior o menor del 80 por ciento pero\nsuperior o igual al 70 por ciento del promedio de la rigidez de los tres pisos\nsuperiores, la estructura se considera irregular.",
+          "0.9",
+          "A.3.3.5.1,\nA.3.4.2,"
+        ],
+        [
+          "1bA",
+          "Piso flexible (Irregularidad extrema en rigidez) - Cuando la rigidez ante\nfuerzas horizontales de un piso es menor del 60 por ciento de la rigidez del\npiso superior o menor del 70 por ciento del promedio de la rigidez de los tres\npisos superiores, la estructura se considera irregular.",
+          "0.8",
+          "A.3.3.5.1,\nA.3.4.2,"
+        ],
+        [
+          "2A",
+          "Irregularidad en la distribución de las masas — Cuando la masa, m₁, de\ncualquier piso es mayor que 1.5 veces la masa de uno de los pisos contiguos,\nla estructura se considera irregular. Se exceptúa el caso de cubiertas que\nsean más livianas que el piso de abajo.",
+          "0.9",
+          "A.3.3.5.1,\nA.3.4.2."
+        ],
+        [
+          "3A",
+          "Irregularidad geométrica Cuando la dimensión horizontal del sistema de\nresistencia sísmica en cualquier piso es mayor que 1.3 veces la misma\ndimensión en un piso adyacente, la estructura se considera irregular. Se\nexceptúa el caso de los altillos de un solo piso.",
+          "0.9",
+          "A.3.4.2."
+        ],
+        [
+          "4A",
+          "Desplazamientos dentro del plano de acción La estructura se considera\nirregular cuando existen desplazamientos en el alineamiento de elementos\nverticales del sistema de resistencia sísmica, dentro del mismo plano que los\ncontiene, y estos desplazamientos son mayores que la dimensión horizontal\ndel elemento. Cuando los elementos desplazados solo sostienen la cubierta\nde la edificación sin otras cargas adicionales de tanques o equipos, se eximen\nde esta consideración de irregularidad.",
+          "0.8",
+          "A.3.3.7,\nA.3.4.2,\nA.3.6.12."
+        ],
+        [
+          "5aA",
+          "Piso débil - Discontinuidad en la resistencia Cuando la resistencia del\npiso es menor del 80 por ciento de la del piso inmediatamente superior pero\nsuperior o igual al 65 por ciento, entendiendo la resistencia del piso como la\nsuma de las resistencias de todos los elementos que comparten el cortante\ndel piso para la dirección considerada, la estructura se considera irregular.",
+          "0.9",
+          "A.3.2.4.1,\nA.3.3.6,\nA.3.3.7,\nA.3.4.2."
+        ],
+        [
+          "5bA",
+          "Piso débil Discontinuidad extrema en la resistencia Cuando la\nresistencia del piso es menor del 65 por ciento de la del piso inmediatamente\nsuperior, entendiendo la resistencia del piso como la suma de las resistencias\nde todos los elementos que comparten el cortante del piso para la dirección\nconsiderada, la estructura se considera irregular.",
+          "0.8",
+          "A.3.2.4.1,\nA.3.3.6,\nA.3.3.7,\nA.3.4.2."
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Notas",
+      "title": "Notas:",
+      "content": "1. Cuando la deriva de cualquier piso es menor de 1.3 veces la deriva del piso siguiente hacia arriba, puede considerarse que\nno existen irregularidades de los tipos 1aA, 1bA, 2A, ó 3A (Véase A.3.3.5.1).\n2. En zonas de amenaza sísmica intermedia para edificaciones pertenecientes al grupo de uso I, la evaluación de irregularidad\nse puede limitar a las irregularidades de los tipos 4A, 5aA y 5bA (Véase A.3.3.7).\n3. En zonas de amenaza sísmica baja para edificaciones pertenecientes a los grupos de usos I y II, la evaluación de\nirregularidad se puede limitar a la irregularidad tipo 5aA y 5bA (Véase A.3.3.6)."
+    }
+  ],
+  "references": [
+    "A.3.3.5.1",
+    "A.3.4.2",
+    "A.3.3.7",
+    "A.3.6.12",
+    "A.3.2.4.1",
+    "A.3.3.6",
+    "A.3.3.7",
+    "A.3.4.2",
+    "A.3.3.5.1",
+    "A.3.3.7",
+    "A.3.3.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,455 @@
+{
+  "page_number": 5,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.1",
+      "title": "PROCEDIMIENTO DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.2",
+      "title": "CARACTERÍSTICAS DE LA ESTRUCTURACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.3",
+      "title": "CAPACIDAD DE DISIPACIÓN DE ENERGÍA MÍNIMA REQUERIDA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.4",
+      "title": "RESISTENCIA SÍSMICA EN LAS DIFERENTES DIRECCIONES HORIZONTALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.5",
+      "title": "TRAYECTORIA DE LAS FUERZAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.6",
+      "title": "SISTEMAS DE RESISTENCIA SÍSMICA ISOSTATICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.7",
+      "title": "SISTEMAS ESTRUCTURALES DE RESISTENCIA SÍSMICA PREFABRICADOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.8",
+      "title": "MATERIALES ESTRUCTURALES DISEÑADOS USANDO EL MÉTODO DE ESFUERZOS DE TRABAJO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2",
+      "title": "SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1",
+      "title": "TIPOS DE SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.1",
+      "title": "Sistema de muros de carga",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.2",
+      "title": "Sistema combinado",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.3",
+      "title": "Sistema de pórtico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.4",
+      "title": "Sistema dual",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.2",
+      "title": "CLASIFICACIÓN EN UNO DE LOS SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.3",
+      "title": "LIMITES DE ALTURA PARA LOS SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4",
+      "title": "COMBINACIÓN DE SISTEMAS ESTRUCTURALES EN LA ALTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.1",
+      "title": "Máximo valor de R permitido",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.2",
+      "title": "Pisos livianos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.3",
+      "title": "Estructura flexible apoyada sobre una estructura con mayor rigidez",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.4",
+      "title": "Estructura rígida apoyada sobre una estructura con menor rigidez",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5",
+      "title": "COMBINACIÓN DE SISTEMAS ESTRUCTURALES EN PLANTA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.6",
+      "title": "ELEMENTOS COMUNES A VARIOS SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3",
+      "title": "CONFIGURACIÓN ESTRUCTURAL DE LA EDIFICACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.2",
+      "title": "DEFINICIÓN DE LA CONFIGURACIÓN ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.3",
+      "title": "REDUCCIÓN DEL VALOR DE R PARA ESTRUCTURAS IRREGULARES Y CON AUSENCIA DE REDUNDANCIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.4",
+      "title": "CONFIGURACIÓN EN PLANTA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.5",
+      "title": "CONFIGURACIÓN EN LA ALTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.5.1",
+      "title": "Excepciones a las irregularidades en altura",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.6",
+      "title": "EDIFICACIONES EN ZONAS DE AMENAZA SÍSMICA BAJA DE LOS GRUPOS DE USO I Y II",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.7",
+      "title": "EDIFICACIONES EN ZONAS DE AMENAZA SÍSMICA INTERMEDIA DEL GRUPO DE USO I",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8",
+      "title": "AUSENCIA DE REDUNDANCIA EN EL SISTEMA ESTRUCTURAL DE RESISTENCIA SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8-1",
+      "title": "En edificaciones con un sistema estructural con capacidad de disipación de energía mínima (DMI)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8-2",
+      "title": "En edificaciones con un sistema estructural con capacidad de disipación de energía moderada (DMO) y Especial (DES)",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.9",
+      "title": "USO DEL COEFICIENTE DE SOBRERRESISTENCIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4",
+      "title": "MÉTODOS DE ANÁLISIS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.1",
+      "title": "MÉTODOS RECONOCIDOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2",
+      "title": "MÉTODO DE ANÁLISIS A UTILIZAR",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.1",
+      "title": "Método de la fuerza horizontal equivalente",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.2",
+      "title": "Método del análisis dinámico elástico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.3",
+      "title": "Método del análisis dinámico inelástico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.4",
+      "title": "Método del análisis no lineal estático de plastificación progresiva",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.3",
+      "title": "RIGIDEZ DE LA ESTRUCTURA Y SUS ELEMENTOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.5",
+      "title": "REQUISITOS PARA LOS MATERIALES ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6",
+      "title": "EFECTOS SÍSMICOS EN LOS ELEMENTOS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1",
+      "title": "GENERALIDADES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1.1",
+      "title": "Elementos del sistema de resistencia sísmica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1.2",
+      "title": "Elementos estructurales que no hacen parte del sistema de resistencia sísmica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.2",
+      "title": "COMBINACIÓN DE LOS EFECTOS DE CARGA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.3",
+      "title": "DIRECCIÓN DE APLICACIÓN DE LAS FUERZAS SÍSMICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.4",
+      "title": "AMARRES Y CONTINUIDAD",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.4-1",
+      "title": "Partes de la edificación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.4-2",
+      "title": "Vigas de amarre en la cimentación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.5",
+      "title": "ELEMENTOS COLECTORES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.6",
+      "title": "DISTRIBUCIÓN DE LA FUERZA CORTANTE EN EL PISO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7",
+      "title": "TORSIÓN EN EL PISO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.1",
+      "title": "Torsión accidental",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.2",
+      "title": "Torsión debida a la no coincidencia del centro de masa y de rigidez",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.3",
+      "title": "Torsión de diseño",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8",
+      "title": "DIAFRAGMAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.9",
+      "title": "ELEMENTOS LOCALIZADOS DEBAJO DE LA BASE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.10",
+      "title": "MUROS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.11",
+      "title": "ESTRUCTURAS DE TIPO PÉNDULO INVERTIDO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.12",
+      "title": "ELEMENTOS VERTICALES DISCONTINUOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.13",
+      "title": "EFECTO DE LAS ACELERACIONES VERTICALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO DE LOS ELEMENTOS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7.1",
+      "title": "SISTEMA DE RESISTENCIA SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7.2",
+      "title": "CIMENTACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.8",
+      "title": "ESTRUCTURAS AISLADAS SÍSMICAMENTE EN SU BASE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.9",
+      "title": "USO DE ELEMENTOS DISIPADORES DE ENERGÍA",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-1",
+      "title": "Sistema estructural de muros de carga",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-2",
+      "title": "Sistema estructural combinado",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-3",
+      "title": "Sistema estructural de pórtico resistente a momentos",
+      "table_headers": [],
+      "table_rows": []
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

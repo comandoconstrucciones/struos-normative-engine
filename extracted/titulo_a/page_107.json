@@ -1,0 +1,141 @@
+{
+  "page_number": 107,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "TABLA A.9.6-1",
+      "title": "Coeficiente de amplificación dinámica, ap, y tipo de anclajes o amarres requeridos, usado para determinar el coeficiente de capacidad de disipación de energía, Rp, para elementos hidráulicos, mecánicos o eléctricosa",
+      "table_headers": [
+        "Elemento no estructural",
+        "ap b",
+        "Tipo de anclajes o amarres para determinar el coeficiente de capacidad de disipación de energía, Rp, mínimo requerido en A.9.4.9",
+        "Grado de desempeño",
+        "Superior",
+        "Bueno",
+        "Bajo"
+      ],
+      "table_rows": [
+        [
+          "Sistemas de protección contra el fuego",
+          "2.5",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No dúctiles"
+        ],
+        [
+          "Plantas eléctricas de emergencia",
+          "1.0",
+          null,
+          null,
+          "No dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ],
+        [
+          "Maquinaria de ascensores, guías y rieles del ascensor y el contrapeso",
+          "1.0",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ],
+        [
+          "Equipo en general\nCalderas, hornos, incineradores, calentadores de agua y otros equipos que utilicen combustibles, y sus chimeneas y escapes.\nSistemas de comunicación\nDuctos eléctricos, cárcamos y bandejas de cablesc\nEquipo eléctrico, transformadores, subestaciones, motores, etc.\nBombas hidráulicas\nTanques, condensadores, intercambiadores de calor, equipos de presión\nEmpates con las redes de servicios públicos",
+          "1.0",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ],
+        [
+          "Maquinaria de producción industrial",
+          "1.0",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "Húmedos"
+        ],
+        [
+          "Sistemas de tuberías",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Tuberías de gases y combustibles",
+          "2.5",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No dúctiles"
+        ],
+        [
+          "Tuberías del sistema contra incendio",
+          "2.5",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No dúctiles"
+        ],
+        [
+          "Otros sistemas de tuberíasd",
+          "2.5",
+          null,
+          null,
+          "No dúctiles",
+          "No requeridog",
+          "No requeridog"
+        ],
+        [
+          "Sistemas de aire acondicionado, calefacción y ventilación, y sus ductose",
+          "1.0",
+          null,
+          null,
+          "Dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ],
+        [
+          "Paneles de control y gabinetes eléctricos",
+          null,
+          null,
+          null,
+          "No dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ],
+        [
+          "Luminarias y sistemas de iluminación¹",
+          "1.0",
+          null,
+          null,
+          "No dúctiles",
+          "No dúctiles",
+          "No requeridog"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Notas",
+      "title": null,
+      "content": "(a) Véase las exenciones en A.9.1.3.\n(b) Los valores de ap dados son para la componente horizontal. Para la componente vertical deben incrementarse en un 33%.\n(c) No hay necesidad de disponer soportes sísmicos para las bandejas de cables eléctricos en las siguientes situaciones: (1) Ductos y bandejas de cables colgados de soportes individuales que tienen 300 mm o menos de longitud. (2) En espacios para equipos mecánicos y calderas, donde el ducto tiene menos de 30 mm de diámetro interior. (3) Cualquier ducto eléctrico de menos de 65 mm de diámetro interior, localizado en otros espacios.\n(d) No hay necesidad de disponer soportes sísmicos para las tuberías en las siguientes situaciones: (1) Tuberías colgadas de soportes individuales que tienen 300 mm o menos de longitud. (2) En espacios para equipos mecánicos y calderas, donde la tubería tiene menos de 30 mm de diámetro interior. (3) Cualquier tubería de menos de 65 mm de diámetro interior, localizado en otros espacios.\n(e) No hay necesidad de disponer soportes sísmicos para los ductos de calefacción, ventilación y aire acondicionado en las siguientes situaciones: (1) Ductos colgados de soportes individuales que tienen 300 mm o menos de longitud. (2) Ductos que tienen una sección con un área menor de 0.60 m².\n(f) Las luminarias dispuestas como péndulos deben diseñarse utilizando un valor de ap igual a 1.5. El soporte vertical debe diseñarse con un factor de seguridad igual a 4.0.\n(g) El elemento no estructural no requiere diseño y verificación sísmica."
+    }
+  ],
+  "references": [
+    "A.9.4.9",
+    "A.9.1.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

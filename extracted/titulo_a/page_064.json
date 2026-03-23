@@ -1,0 +1,196 @@
+{
+  "page_number": 64,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Tabla A.3-1",
+      "title": "Sistema estructural de muros de carga (Nota 1)",
+      "content": "A. SISTEMA DE MUROS DE CARGA"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-1",
+      "title": "Sistema estructural de muros de carga (Nota 1)",
+      "table_headers": [
+        "Sistema resistencia sísmica (fuerzas horizontales)",
+        "Sistema resistencia para cargas verticales",
+        "Valor R0 (Nota 2)",
+        "Valor Ω0 (Nota 4)",
+        "zonas de amenaza sísmica alta uso permit",
+        "zonas de amenaza sísmica alta altura máx.",
+        "zonas de amenaza sísmica intermedia uso permit",
+        "zonas de amenaza sísmica intermedia altura máx.",
+        "zonas de amenaza sísmica Baja uso permit",
+        "zonas de amenaza sísmica Baja Altura máx."
+      ],
+      "table_rows": [
+        [
+          "1. Paneles de cortante de madera",
+          "muros ligeros de madera laminada",
+          "3.0",
+          "2.5",
+          "si",
+          "6 m",
+          "si",
+          "9 m",
+          "si",
+          "12 m"
+        ],
+        [
+          "2. Muros estructurales a. Muros de concreto con capacidad especial de disipación de energía (DES)",
+          "el mismo",
+          "5.0",
+          "2.5",
+          "si",
+          "50 m",
+          "si",
+          "sin límite",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "2. Muros estructurales b. Muros de concreto con capacidad moderada de disipación de energía (DMO)",
+          "el mismo",
+          "4.0",
+          "2.5",
+          "no se permite",
+          "",
+          "si",
+          "50 m",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "2. Muros estructurales c. Muros de concreto con capacidad mínima de disipación de energía (DMI)",
+          "el mismo",
+          "2.5",
+          "2.5",
+          "no se permite",
+          "",
+          "no se permite",
+          "",
+          "si",
+          "50 m"
+        ],
+        [
+          "2. Muros estructurales d. Muros de mampostería reforzada de bloque de perforación vertical (DES) con todas las celdas rellenas",
+          "el mismo",
+          "3.5",
+          "2.5",
+          "si",
+          "50 m",
+          "si",
+          "sin límite",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "2. Muros estructurales e. Muros de mampostería reforzada de bloque de perforación vertical (DMO)",
+          "el mismo",
+          "2.5",
+          "2.5",
+          "si",
+          "30 m",
+          "si",
+          "50 m",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "2. Muros estructurales f. Muros de mampostería parcialmente reforzada de bloque de perforación vertical",
+          "el mismo",
+          "2.0",
+          "2.5",
+          "Grupo I",
+          "2 pisos",
+          "si",
+          "12 m",
+          "si",
+          "18 m"
+        ],
+        [
+          "2. Muros estructurales g. Muros de mampostería confinada",
+          "el mismo",
+          "2.0",
+          "2.5",
+          "Grupo I",
+          "2 pisos",
+          "Grupo I",
+          "12 m",
+          "Grupo I",
+          "18 m"
+        ],
+        [
+          "2. Muros estructurales h. Muros de mampostería de cavidad reforzada",
+          "el mismo",
+          "4.0",
+          "2.5",
+          "si",
+          "45 m",
+          "si",
+          "60 m",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "2. Muros estructurales i. Muros de mampostería no reforzada (no tiene capacidad de disipación de energía)",
+          "el mismo",
+          "1.0",
+          "2.5",
+          "no se permite",
+          "",
+          "no se permite",
+          "",
+          "Grupo I (Nota 3)",
+          "2 pisos"
+        ],
+        [
+          "3. Pórticos con diagonales (las diagonales llevan fuerza vertical) a. Pórticos de acero estructural con diagonales concéntricas (DES)",
+          "el mismo",
+          "5.0",
+          "2.5",
+          "si",
+          "24 m",
+          "si",
+          "30 m",
+          "si",
+          "Sin límite"
+        ],
+        [
+          "3. Pórticos con diagonales (las diagonales llevan fuerza vertical) b. Pórticos con diagonales de concreto con capacidad moderada de disipación de energía (DMO)",
+          "el mismo",
+          "3.5",
+          "2.5",
+          "no se permite",
+          "",
+          "si",
+          "30 m",
+          "si",
+          "30 m"
+        ],
+        [
+          "3. Pórticos con diagonales (las diagonales llevan fuerza vertical) c. Pórticos de madera con diagonales",
+          "el mismo",
+          "2.0",
+          "2.5",
+          "si",
+          "12 m",
+          "si",
+          "15 m",
+          "si",
+          "18 m"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Notas",
+      "content": "Notas:\n1. El sistema de muros de carga es un sistema estructural que no dispone de un pórtico esencialmente completo, en el cual las cargas verticales son resistidas por los muros de carga y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales.\n2. Para edificaciones clasificadas como irregulares el valor de Ro debe multiplicarse por φα, фр У фr para obtener R = Φαφpor Ro (Véase Α.3.3.3).\n3. La mampostería no reforzada sólo se permite en las regiones de las zonas de amenaza sísmica baja donde A sea menor o igual a 0.05 cuando se trata de edificaciones del grupo de uso I de uno y dos pisos.\n4. El valor de 2 puede reducirse restándole 0.5 en estructuras con diafragma flexible, pero no debe ser menos de 2.0 para cualquier estructura."
+    }
+  ],
+  "references": [
+    "A.3.3.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

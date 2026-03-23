@@ -1,0 +1,101 @@
+{
+  "page_number": 138,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Capítulo A.13 - Definiciones y nomenclatura del Título A",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Base",
+      "content": "Es el nivel en el que los movimientos sísmicos son transmitidos a la estructura o el nivel en el que la estructura, considerada como un oscilador, está apoyada."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Capacidad de disipación de energía",
+      "content": "Es la capacidad que tiene un sistema estructural, un elemento estructural, o una sección de un elemento estructural, de trabajar dentro del rango inelástico de respuesta sin perder su resistencia. Se cuantifica por medio de la energía de deformación que el sistema, elemento o sección es capaz de disipar en ciclos histeréticos consecutivos. Cuando hace referencia al sistema de resistencia sísmica de la edificación como un todo, se define por medio del coeficiente de capacidad de disipación de energía básico Ro, el cual después se afecta debido a irregularidades de la estructura y a ausencia de redundancia en el sistema de resistencia sísmica, para obtener el coeficiente de disipación de energía R(R = ΦₐΦₚΦᵣR₀). El grado de capacidad de disipación de energía se clasifica como especial (DES), moderado (DMO) y mínimo (DMI)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Capacidad de rotación de la sección",
+      "content": "Es la capacidad que tiene una sección de un elemento estructural de admitir rotaciones en el rango inelástico sin perder su capacidad de resistir momentos flectores y fuerzas cortantes. Se mide en términos de su capacidad de disipación de energía a la rotación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Carga muerta",
+      "content": "Es la carga vertical debida a los efectos gravitacionales de la masa, o peso, de todos los elementos permanentes ya sean estructurales o no estructurales. Debe consultarse el Título B de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Carga gravitacional o peso, (M.g)",
+      "content": "Es el efecto vertical de la aceleración debida a la gravedad sobre la masa, M, de la edificación. M debe ser igual a la masa de la estructura más la masa de los elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos y bodegas debe incluirse además un 25 por ciento de la masa que produce la carga viva."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Carga viva",
+      "content": "Es la carga debida al uso de la estructura, sin incluir la carga muerta, fuerza de viento o sismo. Debe consultarse el Título B de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Casa",
+      "content": "Edificación unifamiliar destinada a vivienda. Esta definición se incluye únicamente para efectos de la aplicación del Título E del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Centro de masa del piso",
+      "content": "Es el lugar geométrico donde estaría localizada, en planta, toda la masa del piso al suponer el diafragma del piso como un cuerpo infinitamente rígido en su propio plano."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Centro de rigidez del piso",
+      "content": "Es el lugar geométrico, localizado en planta y determinado bajo el supuesto de que el diafragma del piso es infinitamente rígido en su propio plano, donde al aplicar una fuerza horizontal, en cualquier dirección, no se presenta rotación del diafragma alrededor de un eje vertical."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Cercha",
+      "content": "Es un conjunto de elementos estructurales unidos entre si, los cuales resisten primordialmente fuerzas axiales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Cerramiento",
+      "content": "Muro localizado en el paramento del lote de terreno y que se encuentra separado de la edificación en la dirección perpendicular al paramento del lote de terreno, que no hace parte del sistema estructural de soporte de la edificación, y cuya altura no excede 4 metros."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Coeficiente de amortiguamiento crítico",
+      "content": "Es, para un sistema elástico, de un grado de libertad con amortiguamiento viscoso, el cociente entre la cantidad de amortiguamiento del sistema y el amortiguamiento mínimo que inhibe toda oscilación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Coeficiente de capacidad de disipación de energía básico, Ro",
+      "content": "Coeficiente que se prescribe para cada sistema estructural de resistencia sísmica, cuyo valor depende del tipo de sistema estructural y de las características de capacidad de disipación de energía propias del material estructural que se utiliza en el sistema. Es una medida de la capacidad de disipación de energía general del sistema de resistencia sísmica cuando los movimientos sísmicos hacen que responda inelásticamente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Coeficiente de capacidad de disipación de energía, R",
+      "content": "Coeficiente que corresponde al coeficiente de capacidad de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación debido a irregularidades en alzado, Φₐ, irregularidad en planta, Φₚ, y a ausencia de redundancia del sistema estructural de"
+    }
+  ],
+  "references": [
+    "Título B",
+    "Título E"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

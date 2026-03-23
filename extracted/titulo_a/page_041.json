@@ -1,0 +1,121 @@
+{
+  "page_number": 41,
+  "elements": [
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-14",
+      "formula_latex": "S_a = 0.3 A_v F_v I T_L (m)",
+      "formula_python": "Sa = 0.3 * Av * Fv * I * TL",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.3.3",
+      "title": null,
+      "content": "Cuando se utilice el análisis dinámico, tal como se define en el Capítulo A.5, para períodos de vibración diferentes del fundamental, en la dirección en estudio, menores de To calculado de acuerdo con la ecuación A.2.6-6, el espectro de desplazamientos de diseño, en m, puede obtenerse de la ecuación A.2.6-15."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-15",
+      "formula_latex": "S_d = 0.62 A_a F_a I T^2 (0.4 + 0.6 \\frac{T}{T_0}) (m)",
+      "formula_python": "Sd = 0.62 * Aa * Fa * I * T**2 * (0.4 + 0.6 * T / T0)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "S_a = 0.3 A_v F_v I T (m)",
+      "formula_python": "Sa = 0.3 * Av * Fv * I * T",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": null,
+      "title": null,
+      "content": "Nota: Este espectro está definido para un coeficiente de amortiguamiento del 5 por ciento del crítico"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "S_d = 0.62 A_a F_a I T^2 (m)",
+      "formula_python": "Sd = 0.62 * Aa * Fa * I * T**2",
+      "formula_variables": {}
+    },
+    {
+      "type": "CONTENT",
+      "section_path": null,
+      "title": null,
+      "content": "En análisis dinámico, solo para modos diferentes al fundamental en cada dirección principal en planta"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "S_d = 0.62 A_a F_a I T^2 (0.4 + 0.6 \\frac{T}{T_0}) (m)",
+      "formula_python": "Sd = 0.62 * Aa * Fa * I * T**2 * (0.4 + 0.6 * T / T0)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "T_0 = 0.1 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "T0 = 0.1 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "T_C = 0.48 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "TC = 0.48 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "T_L = 2.4 F_v",
+      "formula_python": "TL = 2.4 * Fv",
+      "formula_variables": {}
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.6-3",
+      "title": "Espectro Elástico de Desplazamientos (m) de Diseño",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.7",
+      "title": "FAMILIAS DE ACELEROGRAMAS",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.7.1",
+      "title": null,
+      "content": "Cuando se empleen procedimientos de análisis dinámico consistentes en evaluaciones contra el tiempo, obtenidas integrando paso a paso la ecuación de movimiento, los acelerogramas que se utilicen deben cumplir los siguientes requisitos:"
+    },
+    {
+      "type": "LIST_ITEM",
+      "section_path": "A.2.7.1(a)",
+      "content": "Debe utilizarse, para efectos de diseño, la respuesta ante la componente horizontal de un mínimo de tres (3) acelerogramas diferentes, (véase A.5.5), todos ellos representativos de los movimientos esperados del terreno teniendo en cuenta que deben provenir de registros tomados en eventos con magnitudes, distancias hipocentrales o a la falla causante, y mecanismos de ruptura similares a los de los movimientos sísmicos de diseño prescritos para el lugar, pero que cumplan la mayor gama de frecuencias y amplificaciones posible. Si se utilizan siete o más acelerogramas, en vez del mínimo de tres prescritos anteriormente, se puede utilizar el valor promedio de los valores obtenidos de todos los acelerogramas empleados en vez de considerar los valores máximos de los análisis individuales."
+    },
+    {
+      "type": "LIST_ITEM",
+      "section_path": "A.2.7.1(b)",
+      "content": "Cuando se considere que no es posible contar con el número requerido de registros reales con las condiciones descritas en (a), se permite suplir la diferencia por medio de registros sintéticos simulados adecuados para representar los movimientos sísmicos de diseño prescritos para el lugar."
+    },
+    {
+      "type": "LIST_ITEM",
+      "section_path": "A.2.7.1(c)",
+      "content": "Los espectros de respuesta de los acelerogramas empleados, apropiadamente escalados en consistencia con la amenaza, no pueden tener individualmente ordenadas espectrales, para cualquier"
+    }
+  ],
+  "references": [
+    "Capítulo A.5",
+    "A.2.6-6",
+    "A.2.6-15",
+    "A.5.5",
+    "A.2.7.1(a)"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

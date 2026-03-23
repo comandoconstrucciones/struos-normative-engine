@@ -1,0 +1,109 @@
+{
+  "page_number": 54,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.2",
+      "title": "CLASIFICACIÓN EN UNO DE LOS SISTEMAS ESTRUCTURALES",
+      "content": "Toda edificación o cualquier parte de ella, debe quedar clasificada dentro de uno de los cuatro sistemas estructurales de resistencia sísmica descritos en las tablas A.3-1 a A.3-4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.3",
+      "title": "LÍMITES DE ALTURA PARA LOS SISTEMAS ESTRUCTURALES",
+      "content": "En las tablas A.3-1 a A.3-4 se dan las alturas máximas, medidas en metros a partir de la base o en número de pisos por encima de la misma, que puede tener cada uno de los sistemas estructurales de resistencia sísmica prescritos, para cada una de las zonas de amenaza sísmica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4",
+      "title": "COMBINACIÓN DE SISTEMAS ESTRUCTURALES EN LA ALTURA",
+      "content": "Cuando se combinen en la altura diferentes sistemas estructurales dentro de una misma edificación, deben cumplirse los siguientes requisitos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.1",
+      "title": "Máximo valor de R permitido",
+      "content": "Con la excepción de lo dispuesto en A.3.2.4.2 a A.3.2.4.4, la estructura que combine en la altura diferentes sistemas estructurales se clasifica como irregular del tipo 5aA o 5bA (tabla A.3-7), y el valor del coeficiente de capacidad de disipación de energía, R, en cualquier dirección y en cualquier nivel, como máximo debe ser el menor valor de R de los sistemas estructurales que se estén combinando por encima de ese nivel y en la dirección considerada. Deben cumplirse los requisitos de diseño exigidos para cada sistema estructural y para cada grado de capacidad de disipación de energía del material estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.2",
+      "title": "Pisos livianos",
+      "content": "No hay necesidad de aplicar los requisitos de A.3.2.4.1 cuando la masa de los pisos localizados por encima del nivel donde se inicia un sistema estructural sea menor del 10 por ciento de la masa total, M, de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.3",
+      "title": "Estructura flexible apoyada sobre una estructura con mayor rigidez",
+      "content": "En estructuras que tengan una parte superior flexible apoyada en una con mayor rigidez y que cumplan los requisitos de la tabla A.3-5, puede utilizarse el procedimiento de diseño indicado allí."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.4.4",
+      "title": "Estructura rígida apoyada sobre una estructura con menor rigidez",
+      "content": "Este tipo de combinación de sistemas estructurales en la altura presenta inconvenientes en su comportamiento sísmico, por lo que para este Reglamento no es un sistema estructural aceptable."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5",
+      "title": "COMBINACIÓN DE SISTEMAS ESTRUCTURALES EN PLANTA",
+      "content": "Pueden combinarse sistemas estructurales en planta, sin que ésto de pié a que la estructura se clasifique como irregular, con las siguientes limitaciones:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5.a",
+      "content": "Los dos sistemas deben coexistir en toda la altura de la edificación, a menos que se cumplan los requisitos de A.3.2.4,"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5.b",
+      "content": "Cuando la estructura tiene un sistema de muros de carga únicamente en una dirección, el valor de R para diseñar la dirección ortogonal, no puede ser mayor que 1.25 veces el valor de R del sistema estructural de muros de carga,"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5.c",
+      "content": "Cuando la estructura tiene dos sistemas de muros de carga diferentes en la misma dirección, para el sistema que tiene el mayor valor de R el valor a emplear no puede ser mayor que 1.25 veces el valor de R del sistema con el menor valor de R, y"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.5.d",
+      "content": "Cuando la estructura tiene sistemas diferentes al de muros de carga en ambas direcciones, para el sistema que tiene un mayor valor de R, el valor a emplear no puede ser mayor que 1.25 veces el valor de R del sistema con el menor valor de R."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.6",
+      "title": "ELEMENTOS COMUNES A VARIOS SISTEMAS ESTRUCTURALES",
+      "content": "Los elementos estructurales comunes a diferentes sistemas estructurales deben diseñarse y detallarse siguiendo los requisitos más restrictivos dentro de los sistemas para los cuales son comunes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3",
+      "title": "CONFIGURACIÓN ESTRUCTURAL DE LA EDIFICACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.1",
+      "title": "GENERAL",
+      "content": "Para efectos de diseño sísmico la edificación debe clasificarse como regular o como irregular en planta y en altura o como redundante o con ausencia de redundancia de acuerdo con los requisitos de esta sección."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.2",
+      "title": "DEFINICIÓN DE LA CONFIGURACIÓN ESTRUCTURAL",
+      "content": "Se entiende por configuración estructural de la edificación, no solamente la forma exterior de ella y su tamaño, sino la naturaleza, las dimensiones y la localización"
+    }
+  ],
+  "references": [
+    "A.3-1",
+    "A.3-4",
+    "A.3.2.4.2",
+    "A.3.2.4.4",
+    "A.3-7",
+    "A.3.2.4.1",
+    "A.3-5",
+    "A.3.2.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

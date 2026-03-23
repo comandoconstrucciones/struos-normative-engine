@@ -1,0 +1,105 @@
+{
+  "page_number": 144,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico no resistente a momentos",
+      "content": "Es un pórtico cuyas conexiones no son resistentes a momentos y que por lo tanto es inestable ante una solicitación de fuerzas horizontales, a menos que la responsabilidad de la resistencia ante estas fuerzas sea atendida por diagonales dentro del mismo pórtico o por conjuntos de elemento estructurales, tales como muros estructurales o pórticos con diagonales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico para carga verticales",
+      "content": "Es un pórtico espacial diseñado para resistir únicamente cargas verticales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico plano",
+      "content": "Es un pórtico en el cual todos sus elementos están contenidos dentro de un plano vertical. Este tipo de pórticos no puede utilizarse a menos que existan elementos estructurales que restrinjan los desplazamientos en la dirección perpendicular al plano del pórtico, tales como otros pórticos o muros estructurales y que exista un diafragma que amarre horizontalmente el conjunto. (Véase A.3.1.5) Los enlaces entre pórticos planos a través de la viguetería del sistema de entrepiso no se consideran adecuados para efectos de restringir los desplazamientos en la dirección perpendicular al plano de pórtico, caso en el cual deben disponerse vigas paralelas a la viguetería que enlacen las columnas y conformen un pórtico espacial."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico resistente a momentos",
+      "content": "Es un pórtico espacial en el cual sus miembros y nudos son capaces de resistir las fuerzas, principalmente, por flexión."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico resistente a momentos, sin capacidad de disipación de energía",
+      "content": "Es un pórtico de concreto reforzado que no cumple con los requisitos especiales de detallado del refuerzo para lograr un comportamiento dúctil, o que no está dispuesto espacialmente y no tiene resistencia ante fuerzas horizontales en la dirección perpendicular a su propio plano."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico resistente a momentos con capacidad especial de disipación de energía (DES)",
+      "content": "Es un pórtico espacial diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado o del Capítulo F.3 cuando es de acero estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico resistente a momentos con capacidad mínima de disipación de energía (DMI)",
+      "content": "Es un pórtico espacial diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado o de los Capítulos F.1 y F.2 cuando es de acero estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico resistente a momentos con capacidad moderada de disipación de energía (DMO)",
+      "content": "Es un pórtico espacial, diseñado de acuerdo con las disposiciones correspondientes del Capítulo C.21 cuando es de concreto reforzado, o del Capítulo F.3 cuando es de acero estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Probabilidad",
+      "content": "Es el cociente del número de casos que realmente ocurren, dividido por el número total de casos posibles."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Propietario",
+      "content": "Para efectos de este Reglamento, es la persona, natural o jurídica, titular de derechos reales principales, poseedor, propietario del derecho de dominio a título de fiducia y los fideicomitentes de las mismas fiducias, a nombre de la cual se expide la licencia de construcción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Resistencia",
+      "content": "Es la capacidad útil de una estructura, o de sus miembros, para resistir cargas, dentro de los límites de deformación establecidos en este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Reticular celulado",
+      "content": "Es un tipo de pórtico losa-columna, en el cual la losa trabaja en dos direcciones y es aligerada en las zonas lejanas de las columnas y maciza, o con capiteles, en las zonas aledañas a las columnas. Este sistema tiene numerosas restricciones impuestas por el Reglamento en su uso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Revisor de los diseños",
+      "content": "Es el ingeniero civil, diferente del diseñador e independiente laboralmente de él, que tiene la responsabilidad de revisar los diseños estructurales y estudios geotécnicos, o el arquitecto, ingeniero civil o mecánico, que revisa los diseños de elementos no estructurales; dentro del trámite de expedición de una licencia de construcción, para constatar que la edificación propuesta cumple con los requisitos exigidos por la Ley 400 de 1997 y el presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Riesgo sísmico",
+      "content": "Corresponde a la determinación de las consecuencias económicas y sociales, expresada en términos monetarios, o de víctimas, respectivamente, para el sitio de interés en función de su probabilidad de excedencia para un tiempo de exposición dado."
+    }
+  ],
+  "references": [
+    "A.3.1.5",
+    "Capítulo C.21",
+    "Capítulo F.3",
+    "Capítulos F.1",
+    "F.2",
+    "Ley 400 de 1997"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

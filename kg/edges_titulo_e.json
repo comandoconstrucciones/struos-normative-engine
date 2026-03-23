@@ -1,0 +1,152 @@
+[
+  {
+    "source": "titulo_e",
+    "target": "cap_E.1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.3",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.4",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.5",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.6",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.7",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.8",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "cap_E.9",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "sistema_mamposteria_confinada",
+    "relation": "permite"
+  },
+  {
+    "source": "titulo_e",
+    "target": "sistema_bahareque",
+    "relation": "permite"
+  },
+  {
+    "source": "titulo_e",
+    "target": "sistema_madera",
+    "relation": "permite"
+  },
+  {
+    "source": "cap_E.7",
+    "target": "mat_guadua",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_E.7",
+    "target": "mat_madera_es1",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_E.7",
+    "target": "mat_madera_es3",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_E.7",
+    "target": "mat_madera_es4",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_E.7",
+    "target": "mat_mamposteria",
+    "relation": "usa"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_1_3_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_2_2_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_3_5_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_3_6_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_5_1_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_5_1_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_5_1_3",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_7_8_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_7_10_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_8_2_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_8_2_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_9_2_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_e",
+    "target": "tabla_E_9_2_2",
+    "relation": "contiene"
+  }
+]

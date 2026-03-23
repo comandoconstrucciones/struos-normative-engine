@@ -1,0 +1,135 @@
+{
+  "tables": [
+    {
+      "id": "A.1.3-1",
+      "title": "Procedimiento de diseño estructural para edificaciones nuevas y existentes"
+    },
+    {
+      "id": "A.2.2-1",
+      "title": "Valores de Aa y de A, según las regiones de los mapas de las figuras A2.3-2 y A.2.3-3"
+    },
+    {
+      "id": "A.2.3-1",
+      "title": "Nivel de amenaza sísmica según valores de Aa y de Av"
+    },
+    {
+      "id": "A.2.3-2",
+      "title": "Valor de Aa y de A, para las ciudades capitales de departamento"
+    },
+    {
+      "id": "A.2.4-1",
+      "title": "Clasificación de los perfiles de suelo"
+    },
+    {
+      "id": "A.2.4-2",
+      "title": "Criterios para clasificar suelos dentro de los perfiles de suelo tipos C, D o E"
+    },
+    {
+      "id": "A.2.4-3",
+      "title": "Valores del coeficiente Fa para la zona de períodos cortos del espectro"
+    },
+    {
+      "id": "A.2.4-4",
+      "title": "Valores del coeficiente Fv para la zona de períodos intermedios del espectro"
+    },
+    {
+      "id": "A.2.5.-1",
+      "title": "Valores del coeficiente de importancia, I"
+    },
+    {
+      "id": "A.2.10-1",
+      "title": "Casos en los cuales se requiere estudio sísmico particular de sitio"
+    },
+    {
+      "id": "A.3-1",
+      "title": "Sistema estructural de muros de carga"
+    },
+    {
+      "id": "A.3-2",
+      "title": "Sistema estructural combinado"
+    },
+    {
+      "id": "A.3-3",
+      "title": "Sistema estructural de pórtico resistente a momentos"
+    },
+    {
+      "id": "A.3-4",
+      "title": "Sistema estructural dual"
+    },
+    {
+      "id": "A.3-5",
+      "title": "Mezcla de sistemas estructurales en la altura"
+    },
+    {
+      "id": "A.3-6",
+      "title": "Irregularidades en planta"
+    },
+    {
+      "id": "A.3-7",
+      "title": "Irregularidades en la altura"
+    },
+    {
+      "id": "A.4.2-1",
+      "title": "Valor de los parámetros C, y a para el cálculo del período aproximado Ta"
+    },
+    {
+      "id": "A.6.4-1",
+      "title": "Derivas máximas como porcentaje hpi"
+    },
+    {
+      "id": "A.6.5-1",
+      "title": "Separación sísmica mínima en la cubierta entre edificaciones colindantes que no hagan parte de la Misma construcción"
+    },
+    {
+      "id": "A.9.2-1",
+      "title": "Grado de desempeño mínimo requerido"
+    },
+    {
+      "id": "A.9.5-1",
+      "title": "Coeficiente de amplificación dinámica, ap, y tipo de anclajes o amarres requeridos, usado para determinar el coeficiente de capacidad de disipación de energía Rp, para elementos arquitectónicos y acabados"
+    },
+    {
+      "id": "A.9.6-1",
+      "title": "Coeficiente de amplificación dinámica, ap, y tipo de anclajes o amarres requeridos, usado para determinar el coeficiente de capacidad de disipación de energía R,, para elementos hidráulicos, mecánicos o eléctricos"
+    },
+    {
+      "id": "A 10.3-1",
+      "title": "Valor de A, según las regiones de los mapas de la figura A.10.3-1"
+    },
+    {
+      "id": "A.10.3-2",
+      "title": "Valor de A, para las ciudades capitales de departamento"
+    },
+    {
+      "id": "A.10.4-1",
+      "title": "Valores de фс у фе"
+    },
+    {
+      "id": "A.12.2-1",
+      "title": "Valores de Ad según la región del mapa de la figura A.12-1"
+    },
+    {
+      "id": "A.12.2-2",
+      "title": "Valores de Ad para las ciudades capitales de departamento"
+    },
+    {
+      "id": "A.12.5-1",
+      "title": "Derivas máximas para el umbral de daño como porcentaje de hpi"
+    },
+    {
+      "id": "A-1.3-1",
+      "title": "Coeficiente de capacidad de disipación de energía, Ro, para algunas estructuras especiales"
+    },
+    {
+      "id": "A-2.1-1",
+      "title": "Valores de G/Go y vs/vso"
+    }
+  ],
+  "figures": [
+    {
+      "id": "A.12-1",
+      "title": "Valores de Ad según la región del mapa de la figura A.12-1"
+    }
+  ],
+  "formulas": []
+}

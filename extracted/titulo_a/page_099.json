@@ -1,0 +1,63 @@
+{
+  "page_number": 99,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9",
+      "title": "CAPÍTULO A.9 ELEMENTOS NO ESTRUCTURALES",
+      "content": "CAPÍTULO A.9\nELEMENTOS NO ESTRUCTURALES"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.0",
+      "title": "A.9.0 - NOMENCLATURA",
+      "content": "A_a = coeficiente que representa la aceleración horizontal pico efectiva, para diseño, dado en A.2.2.\nA_s = aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero, Véase A.9.4.2.1.\na_p = coeficiente de amplificación dinámica del elemento no estructural. Se da en las tablas A.9.5-1 у А.9.6-1.\na_x = aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento no estructural, localizado en el piso x\nE = fuerzas sísmicas reducidas de diseño (E=Fp/Rp)\nF_p = fuerza sísmica horizontal sobre el elemento no estructural, aplicada en su centro de masa.\ng = aceleración debida a la gravedad (g = 9.8 m/s²).\nh_eq = altura equivalente del sistema de un grado de libertad que simula la edificación, véase A.9.4.2.1.\nh_x = altura en metros, medida desde la base, del nivel de apoyo del elemento no estructural.\nh_n = altura en metros, medida desde la base, del piso más alto de la edificación, véase A.8.2.1.1.\nI = coeficiente de importancia dado en A.2.5.2.\nM_p = masa del elemento no estructural.\nR_p = coeficiente de capacidad de disipación de energía del elemento no estructural y sus sistema de soporte. Se da en las tablas A.9.5-1 у А.9.6-1.\nS_a = valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1",
+      "title": "A.9.1 - GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.1",
+      "title": "A.9.1.1 - PROPÓSITO",
+      "content": "Los requisitos del presente Capítulo tienen como objetivo establecer los criterios de diseño de elementos que no hacen parte de la estructura de la construcción, con el fin de que se cumpla el propósito del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.2",
+      "title": "A.9.1.2 - ALCANCE",
+      "content": "El presente Capítulo cubre las previsiones sísmicas que deben tenerse en el diseño de los elementos no estructurales y de sus anclajes a la estructura, con la excepción de lo indicado en A.9.1.3. Dentro de los elementos no estructurales que deben ser diseñados sísmicamente se incluyen:\n(a) Acabados y elementos arquitectónicos y decorativos,\n(b) Instalaciones hidráulicas y sanitarias,\n(c) Instalaciones eléctricas,\n(d) Instalaciones de gas,\n(e) Equipos mecánicos,\n(f) Estanterías e\n(g) Instalaciones especiales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.1.3",
+      "title": "A.9.1.3 - EXENCIONES",
+      "content": "Están exentas de los requisitos del presente Capítulo todas las edificaciones pertenecientes a los grupos de uso I y II localizadas en zonas de amenaza sísmica baja."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.9.0",
+      "formula_latex": "E = \\frac{F_p}{R_p}",
+      "formula_python": "E = Fp / Rp",
+      "formula_variables": {
+        "Fp": "fuerza sísmica horizontal sobre el elemento no estructural",
+        "Rp": "coeficiente de capacidad de disipación de energía"
+      }
+    }
+  ],
+  "references": [
+    "A.2.2",
+    "A.9.4.2.1",
+    "A.9.5-1",
+    "A.9.6-1",
+    "A.2.5.2",
+    "A.2.6",
+    "A.9.1.3",
+    "A.8.2.1.1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

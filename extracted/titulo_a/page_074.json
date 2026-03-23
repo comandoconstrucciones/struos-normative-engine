@@ -1,0 +1,56 @@
+{
+  "page_number": 74,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 1aA",
+      "title": "Piso flexible",
+      "content": "фа = 0.9\n0.60 Rigidez KD ≤ Rigidez Kc < 0.70 Rigidez KD\n0\n0.70 (KD+KE+KF) /3 < Rigidez Kc < 0.80 (Kp+KE+KF) /3"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 1bA",
+      "title": "Piso flexible extremo",
+      "content": "фа = 0.8\nRigidez Kc < 0.60 Rigidez KD\n0\nRigidez Kc < 0.70 (KD+KE+KF) /3"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 2A",
+      "title": "Distribución masa",
+      "content": "фа = 0.9\nMD > 1.50 ME\n0\nmp > 1.50 mc"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 3A",
+      "title": "Geométrica",
+      "content": "фа = 0.9\na > 1.30 b"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 4A",
+      "title": "Desplazamiento dentro del plano de acción",
+      "content": "фа = 0.8\nb > a"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 5aA",
+      "title": "Piso débil",
+      "content": "фа = 0.9\n0.65 Resist. Piso C≤ Resist. Piso B < 0.80 Resist. Piso C"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Tipo 5bA",
+      "title": "Piso débil extremo",
+      "content": "фа = 0.8\nResistencia Piso B < 0.65 Resistencia Piso C"
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.3-2",
+      "title": "Irregularidades en la altura",
+      "content": null
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

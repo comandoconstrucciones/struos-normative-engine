@@ -1,0 +1,576 @@
+[
+  {
+    "id": "cap_B.1",
+    "label": "Capítulo B.1: Requisitos Generales",
+    "tipo": "capitulo",
+    "contenido": "Define alcance, requisitos básicos, integridad estructural y trayectorias de carga",
+    "metadata": {}
+  },
+  {
+    "id": "cap_B.2",
+    "label": "Capítulo B.2: Combinaciones de Carga",
+    "tipo": "capitulo",
+    "contenido": "Combinaciones para métodos de esfuerzos de trabajo (ASD) y resistencia (LRFD)",
+    "metadata": {}
+  },
+  {
+    "id": "cap_B.3",
+    "label": "Capítulo B.3: Cargas Muertas",
+    "tipo": "capitulo",
+    "contenido": "Masas de materiales, cargas de elementos no estructurales horizontales y verticales",
+    "metadata": {}
+  },
+  {
+    "id": "cap_B.4",
+    "label": "Capítulo B.4: Cargas Vivas",
+    "tipo": "capitulo",
+    "contenido": "Cargas vivas mínimas por ocupación, reducción, impacto, empozamiento",
+    "metadata": {}
+  },
+  {
+    "id": "cap_B.5",
+    "label": "Capítulo B.5: Cargas de Suelo",
+    "tipo": "capitulo",
+    "contenido": "Empuje en muros de contención, subpresión, suelos expansivos, zonas inundables",
+    "metadata": {}
+  },
+  {
+    "id": "cap_B.6",
+    "label": "Capítulo B.6: Fuerzas de Viento",
+    "tipo": "capitulo",
+    "contenido": "Procedimiento simplificado y analítico, velocidad básica, exposición, presiones",
+    "metadata": {}
+  },
+  {
+    "id": "titulo_b",
+    "label": "Título B: Cargas",
+    "tipo": "titulo",
+    "contenido": "Requisitos mínimos de cargas para diseño estructural diferentes al sismo",
+    "metadata": {}
+  },
+  {
+    "id": "carga_D",
+    "label": "D - Carga Muerta",
+    "tipo": "tipo_carga",
+    "contenido": "Cargas permanentes: estructura, muros, pisos, cubiertas, equipos fijos, preesfuerzo",
+    "metadata": {}
+  },
+  {
+    "id": "carga_L",
+    "label": "L - Carga Viva",
+    "tipo": "tipo_carga",
+    "contenido": "Cargas por uso y ocupación de la edificación",
+    "metadata": {}
+  },
+  {
+    "id": "carga_Lr",
+    "label": "Lr - Carga Viva Cubierta",
+    "tipo": "tipo_carga",
+    "contenido": "Cargas vivas en cubiertas incluyendo mantenimiento",
+    "metadata": {}
+  },
+  {
+    "id": "carga_W",
+    "label": "W - Carga de Viento",
+    "tipo": "tipo_carga",
+    "contenido": "Fuerzas laterales y de succión por viento",
+    "metadata": {}
+  },
+  {
+    "id": "carga_E",
+    "label": "E - Carga Sísmica",
+    "tipo": "tipo_carga",
+    "contenido": "Fuerzas sísmicas reducidas de diseño (del Título A)",
+    "metadata": {}
+  },
+  {
+    "id": "carga_H",
+    "label": "H - Carga de Suelo",
+    "tipo": "tipo_carga",
+    "contenido": "Peso y presión del suelo, agua en el suelo",
+    "metadata": {}
+  },
+  {
+    "id": "carga_F",
+    "label": "F - Carga de Fluidos",
+    "tipo": "tipo_carga",
+    "contenido": "Presión y peso de fluidos con densidades definidas",
+    "metadata": {}
+  },
+  {
+    "id": "carga_T",
+    "label": "T - Efectos Diferidos",
+    "tipo": "tipo_carga",
+    "contenido": "Asentamientos, flujo plástico, retracción, temperatura",
+    "metadata": {}
+  },
+  {
+    "id": "carga_G",
+    "label": "G - Carga de Granizo",
+    "tipo": "tipo_carga",
+    "contenido": "Acumulación de granizo en cubiertas",
+    "metadata": {}
+  },
+  {
+    "id": "carga_R",
+    "label": "R - Carga de Lluvia",
+    "tipo": "tipo_carga",
+    "contenido": "Empozamiento de agua en cubiertas",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_1",
+    "label": "Combinación B.2.4-1",
+    "tipo": "combinacion",
+    "contenido": "1.4D\nSolo carga muerta",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_2",
+    "label": "Combinación B.2.4-2",
+    "tipo": "combinacion",
+    "contenido": "1.2D + 1.6L + 0.5(Lr o G o R)\nCarga muerta + viva predominante",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_3",
+    "label": "Combinación B.2.4-3",
+    "tipo": "combinacion",
+    "contenido": "1.2D + 1.6(Lr o G o R) + (0.5L o 0.8W)\nCarga de cubierta predominante",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_4",
+    "label": "Combinación B.2.4-4",
+    "tipo": "combinacion",
+    "contenido": "1.2D + 1.6W + 0.5L + 0.5(Lr o G o R)\nCarga de viento predominante",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_5",
+    "label": "Combinación B.2.4-5",
+    "tipo": "combinacion",
+    "contenido": "1.2D + 1.0E + 0.5L\nCarga sísmica",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_6",
+    "label": "Combinación B.2.4-6",
+    "tipo": "combinacion",
+    "contenido": "0.9D + 1.6W\nVolteo por viento",
+    "metadata": {}
+  },
+  {
+    "id": "comb_lrfd_7",
+    "label": "Combinación B.2.4-7",
+    "tipo": "combinacion",
+    "contenido": "0.9D + 1.0E\nVolteo por sismo",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_reunion",
+    "label": "Reunión",
+    "tipo": "ocupacion",
+    "contenido": "Teatros, iglesias, gimnasios, estadios\nCarga típica: 5.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_oficinas",
+    "label": "Oficinas",
+    "tipo": "ocupacion",
+    "contenido": "Oficinas, restaurantes, corredores\nCarga típica: 2.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_educativos",
+    "label": "Educativos",
+    "tipo": "ocupacion",
+    "contenido": "Salones de clase, bibliotecas\nCarga típica: 2.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_fabricas",
+    "label": "Fábricas",
+    "tipo": "ocupacion",
+    "contenido": "Industrias livianas y pesadas\nCarga típica: 5.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_institucional",
+    "label": "Institucional",
+    "tipo": "ocupacion",
+    "contenido": "Hospitales, cárceles, guarderías\nCarga típica: 2.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_comercio",
+    "label": "Comercio",
+    "tipo": "ocupacion",
+    "contenido": "Tiendas minoristas y mayoristas\nCarga típica: 5.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_residencial",
+    "label": "Residencial",
+    "tipo": "ocupacion",
+    "contenido": "Viviendas, cuartos privados\nCarga típica: 1.8 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_almacenamiento",
+    "label": "Almacenamiento",
+    "tipo": "ocupacion",
+    "contenido": "Bodegas livianas y pesadas\nCarga típica: 6.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_garajes",
+    "label": "Garajes",
+    "tipo": "ocupacion",
+    "contenido": "Estacionamientos de vehículos\nCarga típica: 2.5 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "ocup_coliseos",
+    "label": "Coliseos y Estadios",
+    "tipo": "ocupacion",
+    "contenido": "Graderías, eventos masivos\nCarga típica: 5.0 kN/m²",
+    "metadata": {}
+  },
+  {
+    "id": "mat_acero",
+    "label": "Acero",
+    "tipo": "material",
+    "contenido": "Densidad: 7800 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_concreto_simple",
+    "label": "Concreto Simple",
+    "tipo": "material",
+    "contenido": "Densidad: 2300 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_concreto_reforzado",
+    "label": "Concreto Reforzado",
+    "tipo": "material",
+    "contenido": "Densidad: 2400 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mamposteria_arcilla",
+    "label": "Mampostería de Arcilla",
+    "tipo": "material",
+    "contenido": "Densidad: 1850 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mamposteria_concreto",
+    "label": "Mampostería de Concreto",
+    "tipo": "material",
+    "contenido": "Densidad: 2150 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_madera",
+    "label": "Madera Seca",
+    "tipo": "material",
+    "contenido": "Densidad: 600 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_vidrio",
+    "label": "Vidrio",
+    "tipo": "material",
+    "contenido": "Densidad: 2600 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "mat_agua",
+    "label": "Agua",
+    "tipo": "material",
+    "contenido": "Densidad: 1000 kg/m³",
+    "metadata": {}
+  },
+  {
+    "id": "elem_cielo_raso",
+    "label": "Cielo Raso",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: horizontal\nCanales, ductos, entramados, pañetes",
+    "metadata": {}
+  },
+  {
+    "id": "elem_relleno_piso",
+    "label": "Relleno de Piso",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: horizontal\nArena, concreto, morteros",
+    "metadata": {}
+  },
+  {
+    "id": "elem_acabados_piso",
+    "label": "Acabados de Piso",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: horizontal\nBaldosas, terrazzo, madera",
+    "metadata": {}
+  },
+  {
+    "id": "elem_cubiertas",
+    "label": "Elementos de Cubierta",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: horizontal\nTejas, membranas, aislantes",
+    "metadata": {}
+  },
+  {
+    "id": "elem_particiones",
+    "label": "Particiones",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: vertical\nMuros divisorios, drywall",
+    "metadata": {}
+  },
+  {
+    "id": "elem_fachadas",
+    "label": "Fachadas",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: vertical\nMuros cortina, enchapes",
+    "metadata": {}
+  },
+  {
+    "id": "elem_muros",
+    "label": "Muros No Estructurales",
+    "tipo": "elemento_ne",
+    "contenido": "Orientación: vertical\nMampostería, paneles",
+    "metadata": {}
+  },
+  {
+    "id": "exp_B",
+    "label": "Exposición B",
+    "tipo": "exposicion_viento",
+    "contenido": "Áreas urbanas y suburbanas, terreno boscoso\nα=7.0, Zg=365.8m",
+    "metadata": {}
+  },
+  {
+    "id": "exp_C",
+    "label": "Exposición C",
+    "tipo": "exposicion_viento",
+    "contenido": "Terreno abierto con obstrucciones dispersas <9m\nα=9.5, Zg=274.3m",
+    "metadata": {}
+  },
+  {
+    "id": "exp_D",
+    "label": "Exposición D",
+    "tipo": "exposicion_viento",
+    "contenido": "Terreno plano sin obstrucciones, costas, zonas inundables\nα=11.5, Zg=213.4m",
+    "metadata": {}
+  },
+  {
+    "id": "cat_viento_I",
+    "label": "Categoría I",
+    "tipo": "categoria_viento",
+    "contenido": "Edificaciones temporales, agrícolas\nFactor I=0.87",
+    "metadata": {}
+  },
+  {
+    "id": "cat_viento_II",
+    "label": "Categoría II",
+    "tipo": "categoria_viento",
+    "contenido": "Edificaciones normales\nFactor I=1.0",
+    "metadata": {}
+  },
+  {
+    "id": "cat_viento_III",
+    "label": "Categoría III",
+    "tipo": "categoria_viento",
+    "contenido": "Edificaciones de alta ocupación\nFactor I=1.15",
+    "metadata": {}
+  },
+  {
+    "id": "cat_viento_IV",
+    "label": "Categoría IV",
+    "tipo": "categoria_viento",
+    "contenido": "Edificaciones esenciales\nFactor I=1.15",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_2_1",
+    "label": "Tabla B.3.2-1: Masas de los Materiales",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_masas_materiales",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_1_1",
+    "label": "Tabla B.3.4.1-1: Cargas Muertas - Cielo Raso",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_1_2",
+    "label": "Tabla B.3.4.1-2: Cargas Muertas - Relleno Pisos",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_1_3",
+    "label": "Tabla B.3.4.1-3: Cargas Muertas - Pisos",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_1_4",
+    "label": "Tabla B.3.4.1-4: Cargas Muertas - Cubiertas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_2_1",
+    "label": "Tabla B.3.4.2-1: Cargas Muertas - Recubrimiento Muros",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_2_2",
+    "label": "Tabla B.3.4.2-2: Cargas Muertas - Particiones",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_2_3",
+    "label": "Tabla B.3.4.2-3: Cargas Muertas - Enchapes",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_2_4",
+    "label": "Tabla B.3.4.2-4: Cargas Muertas - Muros",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_2_5",
+    "label": "Tabla B.3.4.2-5: Cargas Muertas - Ventanas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_elementos",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_3_4_3_1",
+    "label": "Tabla B.3.4.3-1: Valores Alternativos Carga Muerta",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_muertas",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_4_2_1_1",
+    "label": "Tabla B.4.2.1-1: Cargas Vivas Mínimas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_vivas",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_4_2_1_2",
+    "label": "Tabla B.4.2.1-2: Cargas Vivas en Cubiertas",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_cargas_cubiertas",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_6_5_1",
+    "label": "Tabla B.6.5-1: Factor de Importancia I (Viento)",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_viento",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_6_5_2",
+    "label": "Tabla B.6.5-2: Constantes de Exposición",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_exposicion_viento",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_6_5_3",
+    "label": "Tabla B.6.5-3: Coeficientes Kh y Kz",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_coef_kz",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_B_6_5_4",
+    "label": "Tabla B.6.5-4: Factor Kd Direccionalidad",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_viento",
+    "metadata": {}
+  },
+  {
+    "id": "formula_reduccion_L",
+    "label": "Reducción Carga Viva",
+    "tipo": "formula",
+    "contenido": "L = Lo × (0.25 + 4.57/√AI)\nRef: B.4.5.1\nAI = área de influencia ≥ 37m²",
+    "metadata": {}
+  },
+  {
+    "id": "formula_presion_q",
+    "label": "Presión por Velocidad",
+    "tipo": "formula",
+    "contenido": "qz = 0.613 × Kz × Kzt × Kd × V² × I\nRef: B.6.5.10\nqz en N/m², V en m/s",
+    "metadata": {}
+  },
+  {
+    "id": "formula_kz_formula",
+    "label": "Coeficiente Kz",
+    "tipo": "formula",
+    "contenido": "Kz = 2.01 × (z/Zg)^(2/α)\nRef: B.6.5-3\nPara z ≥ 4.0m",
+    "metadata": {}
+  },
+  {
+    "id": "formula_presion_viento",
+    "label": "Presión de Viento",
+    "tipo": "formula",
+    "contenido": "p = q × G × Cp - qi × (GCpi)\nRef: B.6.5.12\nG=factor ráfaga, Cp=coef presión",
+    "metadata": {}
+  },
+  {
+    "id": "titulo_a_ref",
+    "label": "Título A: Sismo Resistencia",
+    "tipo": "referencia",
+    "contenido": "Referencia cruzada al Título A",
+    "metadata": {}
+  },
+  {
+    "id": "grupo_I",
+    "label": "Grupo I: Ocupación Normal",
+    "tipo": "grupo_uso",
+    "contenido": "Edificaciones de ocupación normal",
+    "metadata": {}
+  },
+  {
+    "id": "grupo_II",
+    "label": "Grupo II: Ocupación Especial",
+    "tipo": "grupo_uso",
+    "contenido": "Reuniones >500 personas, comercio >500m²",
+    "metadata": {}
+  },
+  {
+    "id": "grupo_III",
+    "label": "Grupo III: Atención a la Comunidad",
+    "tipo": "grupo_uso",
+    "contenido": "Colegios, universidades, guarderías",
+    "metadata": {}
+  },
+  {
+    "id": "grupo_IV",
+    "label": "Grupo IV: Indispensables",
+    "tipo": "grupo_uso",
+    "contenido": "Hospitales, bomberos, telecomunicaciones",
+    "metadata": {}
+  }
+]

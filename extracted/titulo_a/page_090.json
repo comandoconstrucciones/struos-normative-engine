@@ -1,0 +1,60 @@
+{
+  "page_number": 90,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.6",
+      "title": "Capítulo A.6 - Requisitos de la deriva",
+      "content": "requiere separación sísmica del cerramiento de la edificación nueva con respecto al paramento del lote."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(c)",
+      "content": "Las edificaciones con uno o dos pisos aéreos en la colindancia no requieren separación sísmica (véase también la Tabla A.6.5-1)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(d)",
+      "content": "Las edificaciones de más de dos pisos aéreos en la colindancia deben separarse del paramento en la colindancia así (véase también la Tabla A.6.5-1 y la Figura A.6.5-1):"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(d)(i)",
+      "title": "Edificaciones hasta de tres pisos aéreos en la colindancia",
+      "content": "No se requiere separación sísmica de la edificación nueva con respecto al paramento cuando no haya edificación vecina existente, o cuando las losas de la edificación nueva coinciden en la colindancia (véanse las definiciones) con las de la edificación vecina existente en la misma colindancia. Si las losas de entrepiso de la edificación nueva no coinciden con las de la edificación existente se requiere una separación sísmica de la edificación nueva con respecto al paramento igual al 1% (uno por ciento) de la altura de la edificación nueva en la colindancia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(d)(ii)",
+      "title": "Edificaciones de más de tres pisos aéreos en la colindancia",
+      "content": "Cuando las losas de la edificación nueva coinciden en la colindancia (véanse las definiciones) con las de la edificación vecina existente en la misma colindancia la edificación nueva debe retirarse del paramento en la colindancia una distancia de separación sísmica igual al 2% (dos por ciento) de la altura de la edificación nueva en la colindancia. Cuando las losas de entrepiso de la edificación nueva no coincidan con las de la edificación existente en la colindancia, esta separación sísmica debe ser del 3% (tres por ciento) de la altura de la edificación nueva en la colindancia. Si no existe edificación vecina en la colindancia (cubre además el caso de que sea solo un cerramiento), esta separación sísmica debe ser del 1% (uno por ciento) de la altura de la edificación nueva en la colindancia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(e)",
+      "content": "Cuando se requiera separación sísmica, la separación en cualquier piso en particular corresponde a la distancia horizontal en dirección perpendicular al plano vertical levantado sobre el lindero entre los dos lotes de terreno, medida desde la losa de entrepiso de la edificación hasta este plano, calculada utilizando la altura sobre el nivel del terreno del piso en particular multiplicada por el coeficiente que indique la Tabla A.6.5-1 para ese caso. Véase también la Figura A.6.5-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(f)",
+      "content": "Deben tomarse precauciones para que no se depositen materiales extraños dentro de la separación sísmica entre edificaciones. Así mismo debe colocarse un protección de humedad apropiada para que el agua lluvia no entre dentro de la abertura de la separación sísmica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(g)",
+      "content": "Para el caso de edificaciones objeto de reforzamiento y rehabilitación sísmica el ingeniero diseñador de la rehabilitación debe dejar constancia de que estudió el potencial efecto nocivo de la interacción con las edificaciones vecinas colindantes y que tomó las medidas apropiadas según su mejor criterio dentro de lo requerido en A.10.1.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6(h)",
+      "content": "El paramento del lote y la separación sísmica requerida deben quedar claramente indicados en los planos arquitectónicos que se presentan a la autoridad competente o curaduría para la obtención de la licencia de construcción."
+    }
+  ],
+  "references": [
+    "Tabla A.6.5-1",
+    "Figura A.6.5-1",
+    "A.10.1.7"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

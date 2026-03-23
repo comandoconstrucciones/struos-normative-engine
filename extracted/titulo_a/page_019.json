@@ -1,0 +1,67 @@
+{
+  "page_number": 19,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6",
+      "title": "DISEÑO SÍSMICO DE LOS ELEMENTOS NO ESTRUCTURALES",
+      "content": "El diseño sísmico de los elementos no estructurales debe realizarse de acuerdo con los siguientes requisitos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6.1",
+      "content": "Se debe cumplir el grado de desempeño superior, bueno o bajo que define el Capítulo A.9 según el grupo de uso al cual pertenezca la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6.2",
+      "content": "El diseño de los elementos no estructurales debe ser llevado a cabo por profesionales facultados para este fin de acuerdo con los artículos 26 y 29 de la Ley 400 de 1997 y siguiendo los requisitos del Capítulo A.9, considerando para el efecto los parámetros de diseño sísmico aportados por el diseñador estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6.3",
+      "content": "Dentro de la clasificación de elementos no estructurales se incluyen sistemas como las estanterías, cuyo tratamiento deberá ser como el de sistemas estructurales, los cuales pueden hacer parte de la estructura de la edificación, o ser un sistema estructural independiente de la estructura de la edificación donde se alojan. El diseño de este tipo de sistemas debe ser llevado a cabo por ingenieros estructurales, siguiendo requisitos de diseño sismo resistente acordes con las condiciones de carga específicas de cada aplicación, de acuerdo con el Capítulo A.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6.4",
+      "content": "Se permite el uso de elementos diseñados e instalados por su fabricante, o cuya instalación se hace siguiendo sus instrucciones, cumpliendo lo indicado en A.1.5.1.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.6.5",
+      "content": "El constructor quien suscribe la licencia de construcción debe:\n(a) Recopilar los diseños de los diferentes elementos no estructurales y las características y documentación de aquellos que se acojan a lo permitido en A.1.5.1.2, para presentarlos en una sola memoria ante la Curaduría u oficina o dependencia encargada de estudiar, tramitar, y expedir las licencias de construcción.\n(b) Los diferentes diseños de los elementos no estructurales deben ser firmados por el Constructor que suscribe la licencia, indicando así que se hace responsable que los elementos no estructurales se construyan de acuerdo con lo diseñado, cumpliendo con el grado de desempeño especificado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.7",
+      "title": "REVISIÓN DE LOS DISEÑOS",
+      "content": "Los planos, memorias y estudios realizados deben ser revisados para efectos de la obtención de la licencia de construcción tal como lo indica la Ley 400 de 1997, la Ley 388 de 1997 y sus respectivos reglamentos. Esta revisión debe ser realizada en la curaduría o en las oficinas o dependencias encargadas de estudiar, tramitar, y expedir las licencias de construcción, o bien por un profesional independiente, a costo de quien solicita la licencia. Los revisores de los diseños deben tener las cualidades establecidas en la Ley 400 de 1997."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.8",
+      "title": "CONSTRUCCIÓN",
+      "content": "La construcción de la estructura, y de los elementos no estructurales, de la edificación se realiza de acuerdo con los requisitos propios del material, para el grado de capacidad de disipación de energía para el cual fue diseñada, y bajo una supervisión técnica, cuando así lo exija la Ley 400 de 1997, realizada de acuerdo con los requisitos del Título I. En la construcción deben cumplirse los requisitos dados por el Reglamento para cada material estructural y seguirse los procedimientos y especificaciones dados por los diseñadores. La dirección de la construcción debe ser realizada por un ingeniero civil, o arquitecto, o un ingeniero mecánico para el caso de estructuras metálicas o prefabricadas, facultados para este fin, de acuerdo con la Ley 400 de 1997, o un constructor en arquitectura o ingeniería facultado para este fin por la Ley 1229 de 2008."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9",
+      "title": "SUPERVISIÓN TÉCNICA",
+      "content": "De acuerdo con el Título V de la Ley 400 de 1997, la construcción de estructuras de edificaciones, o unidades constructivas, que tengan más de 3000 m² de área construida, independientemente de su uso, debe someterse a una supervisión técnica realizada de acuerdo con lo establecido en esta sección y en el Título I de este Reglamento."
+    }
+  ],
+  "references": [
+    "B.2.3",
+    "Título H",
+    "Capítulo A.9",
+    "Ley 400 de 1997",
+    "A.1.5.1.2",
+    "Ley 388 de 1997",
+    "Título I",
+    "Ley 1229 de 2008",
+    "Título V"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

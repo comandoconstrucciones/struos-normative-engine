@@ -1,0 +1,70 @@
+{
+  "page_number": 112,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10",
+      "title": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2",
+      "title": "ESTUDIOS E INVESTIGACIONES REQUERIDAS",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.1",
+      "title": "INFORMACIÓN PREVIA",
+      "content": "Deben realizarse investigaciones sobre la construcción existente, tendientes a determinar los siguientes aspectos acerca de ella:\n(a) Cuando se disponga de documentos descriptivos del diseño de la estructura y su sistema de cimentación original, debe constatarse en el sitio su concordancia con la construcción tal como se encuentra en el momento. Deben hacerse exploraciones en lugares representativos y dejar constancia del alcance de estas exploraciones.\n(b) La calidad de la construcción de la estructura original debe determinarse de una manera cualitativa.\n(c) El estado de conservación de la estructura debe evaluarse de una manera cualitativa.\n(d) Debe investigarse la estructura con el fin de determinar su estado a través de evidencia de fallas locales, deflexiones excesivas, corrosión de las armaduras y otros indicios de su comportamiento.\n(e) Debe investigarse la ocurrencia de asentamientos de la cimentación y su efecto en la estructura.\n(f) Debe determinarse la posible ocurrencia en el pasado de eventos extraordinarios que hayan podido afectar la integridad de la estructura, debidos a explosión, incendio, sismo, remodelaciones previas, colocación de acabados que hayan aumentado las cargas, y otras modificaciones."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2",
+      "title": "ESTADO DEL SISTEMA ESTRUCTURAL",
+      "content": "Debe calificarse el estado del sistema estructural de la edificación de una manera totalmente cualitativa con base en la calidad del diseño y construcción de la estructura original y en su estado actual. Esta calificación se debe realizar de la manera prescrita a continuación:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2.1",
+      "title": "Calidad del diseño y la construcción de la estructura original",
+      "content": "Esta calificación se define en términos de la mejor tecnología existente en la época en que se construyó la edificación. Al respecto se puede utilizar información tal como: registros de interventoría la construcción y ensayos realizados especialmente para ello. Dentro de la calificación debe tenerse en cuenta el potencial de mal comportamiento de la edificación debido a distribución irregular de la masa o la rigidez, ausencia de diafragmas, anclajes, amarres y otros elementos necesarios para garantizar su buen comportamiento de ella ante las distintas solicitaciones. La calidad del diseño y la construcción de la estructura original deben calificarse como buena, regular o mala."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2.2",
+      "title": "Estado de la estructura",
+      "content": "Debe hacerse una calificación del estado actual de la estructura de la edificación, basada en aspectos tales como: sismos que la puedan haber afectado, fisuración por cambios de temperatura, corrosión de las armaduras, asentamientos diferenciales, reformas, deflexiones excesivas, estado de elementos de unión y otros aspectos que permitan determinar su estado actual. El estado de la estructura existente debe calificarse como bueno, regular o malo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO CON SEGURIDAD LIMITADA",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3.1",
+      "title": null,
+      "content": "Para las situaciones cuando según A.10.9 este Reglamento lo permite para efectos de evaluación e intervención de edificaciones existentes, los movimientos sísmicos de diseño con seguridad limitada se definen para una probabilidad del veinte por ciento de ser excedidos en un lapso de cincuenta años, en función de la aceleración pico efectiva reducida, representada por el parámetro Ae El valor de este coeficiente, para efectos del presente Reglamento, debe determinarse de acuerdo con A.10.3.2 y A.10.3.3. Los movimientos sísmicos de diseño de seguridad limitada no son aplicables a edificaciones nuevas y no se pueden utilizar en el diseño de edificaciones nuevas baja ninguna circunstancia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3.2",
+      "title": null,
+      "content": "Se determina el número de la región en donde está localizada la edificación usando el mapa de la figura A.10.3-1. El valor de Ae se obtiene de la tabla A.10.3-1, en función del número de la región, o para las ciudades capitales de departamento utilizando la tabla A.10.3-2 y para los municipios del país en el Apéndice A-4, incluido al final del presente Título."
+    }
+  ],
+  "references": [
+    "A.10.9",
+    "A.10.3.2",
+    "A.10.3.3",
+    "A.10.3-1",
+    "A.10.3-1",
+    "A.10.3-2",
+    "Apéndice A-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,120 @@
+{
+  "page_number": 163,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2-3",
+      "content": "(A-3.2-3)"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.2-3",
+      "formula_latex": "C_0 = \\frac{\\sum_{i=1}^{n} m_i \\phi_i}{\\sum_{i=1}^{n} m_i \\phi_i^2}",
+      "formula_python": "C0 = sum(mi * phi_i) / sum(mi * phi_i**2)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2-3",
+      "title": "Donde:",
+      "content": "mi = la porción de la masa total M localizada en el Nivel i\nΦi = la amplitud del vector característico de forma al Nivel i"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "content": "Cuando el periodo fundamental efectivo de la estructura en la dirección bajo consideración, Te, es mayor que Tc como lo define el numeral A.2.6.1.1, el coeficiente C₁ se debe tomar como 1.0. De lo contrario el valor del coeficiente C₁ se debe calcular utilizando la ecuación A-3.2-4 así:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2-4",
+      "content": "(A-3.2-4)"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.2-4",
+      "formula_latex": "C_1 = \\frac{1}{R_d} (1 + \\frac{(R_d - 1) T_c}{T_e})",
+      "formula_python": "C1 = (1 / Rd) * (1 + ((Rd - 1) * Tc) / Te)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2-4",
+      "title": "Donde:",
+      "content": "Rd es dado por la ecuación A-3.2-5 de la siguiente manera:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2-5",
+      "content": "(A-3.2-5)"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.2-5",
+      "formula_latex": "R_d = \\frac{S_a M g}{V_y}",
+      "formula_python": "Rd = (Sa * M * g) / Vy",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "content": "Tc y Vy se definen arriba, Sa es la aceleración espectral del diseño en el periodo efectivo fundamental, Te es el período efectivo fundamental definido en la sección A-3.2.3 y M se define en la Sección A-3.1.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.6",
+      "title": "Deriva de Piso",
+      "content": "La deriva de piso Δ, tomada como el valor obtenido para cada piso al paso en el cual se alcanza el desplazamiento objetivo no debe exceder el límite de la deriva especificada en la Sección A.6.4.1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.7",
+      "title": "Resistencia de los elementos",
+      "content": "Además de satisfacer los requisitos de este apéndice, la resistencia de los elementos también debe satisfacer los requerimientos del paso 11 del numeral A.1.3.4 utilizando E = 0, excepto que el numeral A.3.3.9 deba aplicarse cuando el presente Reglamento específicamente requiere la consideración de sobreresistencia estructural en la fuerza sísmica de diseño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.7",
+      "content": "Cuando este Reglamento requiere la consideración de sobreresistencia estructural de acuerdo con el numeral A.3.3.9, el valor de la fuerza individual del miembro obtenida del análisis al nivel del desplazamiento objetivo debe ser substituida por Ω₀Fs/R."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.8",
+      "title": "Distribución de las fuerzas sísmicas de diseño",
+      "content": "Las fuerzas laterales utilizadas para diseñar los elementos se deben aplicar a la masa de cada nivel y deben ser proporcionales a la distribución obtenida de un análisis modal para el modo fundamental de respuesta en la dirección que se está considerando."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9",
+      "title": "Evaluación Detallada",
+      "content": "No hay necesidad de cumplir con la Sección A-3.2.9.1 y la Sección A-3.2.9.2 si la resistencia efectiva de fluencia excede el producto del factor de sobreresistencia del sistema dado en las Tablas A.3-1 a A.3-4 del Capítulo A.3 y el cortante sísmico en la base determinado en la Sección A.4.3.1 del Capítulo A.4 modificada para usar el periodo Te fundamental efectivo, en lugar de T para la determinación de Cs."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9.1",
+      "title": "Fuerza y deformación requeridas para el elemento",
+      "content": "Para cada análisis estático no lineal los parámetros de respuesta del diseño, incluyendo las fuerzas individuales del elemento y las deformaciones del elemento γi, deben ser tomadas como los valores obtenidos del análisis en la iteración en la cual el desplazamiento objetivo se alcanza."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9.2",
+      "title": "Elementos",
+      "content": "La competencia de los elementos individuales y sus conexiones para resistir las fuerzas y las deformaciones de los elementos γi, se debe evaluar con base en datos de ensayos de laboratorio para componentes similares. Los efectos de gravedad y demás cargas sobre la capacidad de deformación de los elementos se deben considerar en estas evaluaciones. La deformación de un elemento para soportar las cargas de"
+    }
+  ],
+  "references": [
+    "A.2.6.1.1",
+    "A-3.2.3",
+    "A-3.1.4",
+    "A.6.4.1",
+    "A.1.3.4",
+    "A.3.3.9",
+    "A-3.2.9.1",
+    "A-3.2.9.2",
+    "Tablas A.3-1 a A.3-4",
+    "Capítulo A.3",
+    "Sección A.4.3.1",
+    "Capítulo A.4"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

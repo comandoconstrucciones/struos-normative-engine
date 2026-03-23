@@ -1,0 +1,41 @@
+{
+  "page_number": 37,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.4-2",
+      "title": "Coeficiente de amplificación Fv del suelo para la zona de períodos intermedios del espectro",
+      "content": "Gráfico con curvas para Suelo Tipo E, Suelo Tipo D, Suelo Tipo C, Suelo Tipo B, Suelo Tipo A. Eje vertical: Fv. Eje horizontal: Av"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.7",
+      "title": null,
+      "content": "Los valores de los coeficientes Fa y Fv no tienen en cuenta efectos de ladera. De haberlos, deberán considerarse complementariamente con base en una reglamentación expedida por la municipalidad o, en ausencia de dicha reglamentación, con base en estudios particulares, realizados por el ingeniero geotecnista de la edificación, debidamente sustentados."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5",
+      "title": "COEFICIENTE DE IMPORTANCIA",
+      "content": "En esta sección se definen los grupos de tipo de uso y los valores del coeficiente de importancia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1",
+      "title": "GRUPOS DE USO",
+      "content": "Todas las edificaciones deben clasificarse dentro de uno de los siguientes Grupos de Uso:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.1",
+      "title": "Grupo IV – Edificaciones indispensables",
+      "content": "Son aquellas edificaciones de atención a la comunidad que deben funcionar durante y después de un sismo, y cuya operación no puede ser trasladada rápidamente a un lugar alterno. Este grupo debe incluir:\n(a) Todas las edificaciones que componen hospitales clínicas y centros de salud que dispongan de servicios de cirugía, salas de cuidados intensivos, salas de neonatos y/o atención de urgencias,\n(b) Todas las edificaciones que componen aeropuertos, estaciones ferroviarias y de sistemas masivos de transporte, centrales telefónicas, de telecomunicación y de radiodifusión,\n(c) Edificaciones designadas como refugios para emergencias, centrales de aeronavegación, hangares de aeronaves de servicios de emergencia,\n(d) Edificaciones de centrales de operación y control de líneas vitales de energía eléctrica, agua, combustibles, información y transporte de personas y productos,\n(e) Edificaciones que contengan agentes explosivos, tóxicos y dañinos para el público, y\n(f) En el grupo IV deben incluirse las estructuras que alberguen plantas de generación eléctrica de emergencia, los tanques y estructuras que formen parte de sus sistemas contra incendio, y los accesos, peatonales y vehiculares de las edificaciones tipificadas en los literales a, b, c, d y e del presente numeral."
+    }
+  ],
+  "references": [
+    "Fa",
+    "Fv"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

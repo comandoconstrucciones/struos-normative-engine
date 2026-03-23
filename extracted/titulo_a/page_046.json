@@ -1,0 +1,39 @@
+{
+  "page_number": 46,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "title": "Capítulo A.2 - Zonas de amenaza sísmica y movimientos sísmicos de diseño",
+      "content": "NSR-10 - Capítulo A.2 - Zonas de amenaza sísmica y movimientos sísmicos de diseño\namplificación en superficie debe ser consistente con los demás parámetros del espectro de diseño propuesto y tener en cuenta para el espectro de umbral de daño que éste último está definido para un coeficiente de amortiguamiento crítico de 2%.\n(i) En lo posible, comprobación experimental local de los resultados mediante estudios de respuesta de vibración ambiental, con el fin de establecer la concordancia entre los resultados experimentales y los factores de amplificación obtenidos en (g) para en caso de intensidades muy bajas.\n(j) En caso que sea aplicable, definición de los criterios a emplear en las zonas de transición entre un tipo de comportamiento del suelo y otro.\n(k) Definición de los criterios a emplear cuando se realicen estudios sísmicos de sitio particulares, según A.2.10, para una edificación en particular, cuyos valores mínimos exigidos en el diseño de la edificación deben ser los que se obtendrían para un perfil tipo B según el numeral A.2.4 de la presente versión del Reglamento sin la existencia de la microzonificación sísmica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.7",
+      "title": "Aprobación del estudio de microzonificación",
+      "content": "A.2.9.3.7 — Aprobación del estudio de microzonificación — Para que el estudio de microzonificación sísmica pueda ser exigido en la obtención de licencias de construcción de edificaciones, tal como las definen las Leyes 388 y 400 de 1997, los resultados de los estudios cuyo alcance se define aquí deben cumplir las siguientes condiciones:\n(a) Que se cumplan todos los requisitos exigidos por las Leyes 388 y 400 de 1997 al respecto.\n(b) Que haya un concepto de la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes, creada por medio de la Ley 400 de 1997 y adscrita al Ministerio de Ambiente, Vivienda y Desarrollo Territorial por medio del cual la Comisión indique que el estudio se ajusta a los requisitos de la presente versión del Reglamento.\n(c) Que se haya consultado a los ingenieros estructurales de la ciudad o distrito objeto del estudio facultados para presentar diseños estructurales, según la Ley 400 de 1997 y sus decretos reglamentarios, canalizando sus observaciones a través de las organizaciones gremiales que los representan en la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes, a saber: la Sociedad Colombiana de Ingenieros (SCI), la Asociación Colombiana de Ingeniería Sísmica (AIS), la Asociación Colombiana de Ingeniería Estructural (ACIES) y la Cámara Colombiana de la Construcción (CAMACOL).\n(d) Que la ciudad objeto de la microzonificación sísmica desarrolle un plan de instalación, operación y mantenimiento de una red de acelerógrafos de movimientos fuertes que cubra las zonas definidas en la microzonificación sísmica y manifieste su intención de mantener los equipos, hacer de dominio público los registros obtenidos, interpretar a la luz de la microzonificación sísmica los registros obtenidos y actualizar dentro de un plazo prudencial, los requisitos de la microzonificación sísmica con base en los registros obtenidos.\n(e) Cuando para la elaboración del estudio de microzonificación se empleen fondos de entidades de la Nación, los resultados de estos estudios y su armonización con la reglamentación sismo resistente vigente, deben ser revisados por la Comisión Asesora Permanente del Régimen de Construcciones Sismo Resistentes creada por la Ley 400 de 1997, antes de que las autoridades distritales o municipales puedan expedir la reglamentación sustitutiva de que habla el ordinal A.2.9.1 de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.4",
+      "title": "EMPLEO DEL COEFICIENTE DE DISIPACIÓN DE ENERGÍA, R",
+      "content": "A.2.9.4 — EMPLEO DEL COEFICIENTE DE DISIPACIÓN DE ENERGÍA, R — Cuando en el estudio de microzonificación sísmica se propongan espectros que tiendan a la aceleración del terreno cuando el período de vibración tiende a cero, el coeficiente de disipación de energía, Rc, a emplear en el diseño de la estructura cuando se utiliza este tipo de espectros, tiene un valor variable en la zona de períodos cortos, iniciando en el valor prescrito en el Capítulo A.3, R (R = Φαφporo), para un período igual a To y tendiendo a la unidad cuando el período tiende a cero, como muestra la Figura A.2.9-1. El valor de Rc está descrito por la ecuación A.2.9-1:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.9-1",
+      "formula_latex": "R_c = (R-1)\\frac{T}{T_0}+1 \\leq R",
+      "formula_python": "Rc = (R-1)*(T/T0)+1 <= R",
+      "formula_variables": {}
+    }
+  ],
+  "references": [
+    "A.2.10",
+    "A.2.4",
+    "A.2.9.1",
+    "Capítulo A.3",
+    "Figura A.2.9-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

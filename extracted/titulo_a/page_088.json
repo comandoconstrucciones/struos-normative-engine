@@ -1,0 +1,79 @@
+{
+  "page_number": 88,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.6.3.1.3",
+      "title": null,
+      "content": "En los pisos superiores de edificaciones que cumplen las condiciones (a) a (e) presentadas a continuación, se permite calcular la deriva máxima del piso de la forma alternativa que se obtiene con la expresión A.6.3-2 indicada en esta sección.\n(a) La edificación tiene diez o más pisos de altura sobre su base.\n(b) El procedimiento alternativo solo es aplicable en los pisos superiores localizados por encima de dos tercios de la altura de la edificación medida desde su base.\n(c) El sistema estructural de resistencia sísmica es diferente a pórtico resistente a momento.\n(d) La edificación se clasifica como regular tanto en planta como en altura de acuerdo con los requisitos del Capítulo A.3.\n(e) El índice de estabilidad, Qi, es menor de 0.10 en todos los pisos donde sería aplicable este procedimiento alternativo."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.3-2",
+      "formula_latex": "\\Delta_j^i = \\delta_{cm,j}^i - 0.5\\left( \\frac{\\left(\\delta_{cm,j}^{i-1} - \\delta_{cm,j}^{i-2}\\right)\\left(h_p^i + h_p^{i-1}\\right)}{h_p^{i-1}} + \\delta_{cm,j}^{i-2} - 0.5\\delta_{cm,j}^{i-1}\\right)",
+      "formula_python": "Delta_j_i = delta_cm_j_i - 0.5*((delta_cm_j_i_minus_1 - delta_cm_j_i_minus_2)*(hp_i + hp_i_minus_1)/hp_i_minus_1 + delta_cm_j_i_minus_2 - 0.5*delta_cm_j_i_minus_1)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4",
+      "title": "LÍMITES DE LA DERIVA",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1",
+      "title": null,
+      "content": "La deriva máxima para cualquier piso determinada de acuerdo con el procedimiento de A.6.3.1, no puede exceder los límites establecidos en la tabla A.6.4-1, en la cual la deriva máxima se expresa como un porcentaje de la altura de piso hpi :"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.6.4-1",
+      "title": "Derivas máximas como porcentaje de hpi",
+      "table_headers": [
+        "Estructuras de:",
+        "Deriva máxima"
+      ],
+      "table_rows": [
+        [
+          "concreto reforzado, metálicas, de madera, y de mampostería que cumplen los requisitos de A.6.4.2.2",
+          "1.0% $\\left(\\Delta_{max}^i \\leq 0.010 h_{pi}\\right)$"
+        ],
+        [
+          "de mampostería que cumplen los requisitos de A.6.4.2.3",
+          "0.5% $\\left(\\Delta_{max}^i \\leq 0.005 h_{pi}\\right)$"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1.1",
+      "title": null,
+      "content": "Cuando se utilicen secciones fisuradas, tanto en concreto reforzado, como en mampostería y en el caso de estructuras mixtas con acero, las derivas pueden multiplicarse por 0.7 antes de hacer la comparación con los límites dados en la tabla A.6.4-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1.2",
+      "title": null,
+      "content": "Cuando se haya efectuado un análisis inelástico verificando el desempeño de la totalidad de los elementos estructurales en un rango de desempeño no mayor a \"Protección de la Vida\" (LS según los requerimientos del ASCE 31 y ASCE 41), las derivas pueden multiplicarse por 0.7 antes de hacer la comparación con los límites dados en la tabla A.6.4-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.4.1.3",
+      "title": null,
+      "content": "Se permite emplear el límite de deriva máxima permisible de 0.010hpi en edificaciones construidas con mampostería estructural cuando éstas estén compuestas por muros cuyo modo prevaleciente de falla sea la flexión ante fuerzas paralelas al plano del muro, diseñados esencialmente como elementos verticales esbeltos que actúan como voladizos apoyados en su base o cimentación, y que se construyen de tal manera que la transferencia de momento entre muros a través de los elementos horizontales de acople en los diafragmas de entrepiso, ya sean losas, vigas de enlace, antepechos o dinteles, sea despreciable."
+    }
+  ],
+  "references": [
+    "A.6.3-2",
+    "A.6.3.1",
+    "Tabla A.6.4-1",
+    "A.6.4.2.2",
+    "A.6.4.2.3",
+    "ASCE 31",
+    "ASCE 41",
+    "Capítulo A.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

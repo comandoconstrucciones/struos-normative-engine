@@ -1,0 +1,30 @@
+{
+  "page_number": 70,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-5",
+      "title": "Mezcla de sistemas estructurales en la altura",
+      "table_headers": [
+        "Descripción de la combinación",
+        "Requisitos"
+      ],
+      "table_rows": [
+        [
+          "Estructura flexible apoyada sobre una estructura con mayor rigidez\nPuede utilizarse los requisitos dados aquí si la estructura cumple las siguientes condiciones:\n(a) Ambas partes de la estructura, consideradas separadamente, puedan ser clasificadas como regulares de acuerdo con los requisitos de A.3.3,\n(b) El promedio de las rigideces de piso de la parte baja sea por lo menos 10 veces el promedio de las rigideces de piso de la parte alta y\n(c) El período de la estructura, considerada como un todo, no sea mayor de 1.1 veces el período de la parte superior, al ser considerada como una estructura independiente empotrada en la base.\nSi no se cumplen las condiciones anteriores la estructura se considera irregular y deben seguirse los requisitos de A.3.3.",
+          "Se permite que esta combinación de sistemas estructurales no se considere irregular ($\\phi_p = \\phi_a = 1.0$), y el sistema puede diseñarse sísmicamente utilizando el método de la fuerza horizontal equivalente, tal como lo prescribe el Capítulo A.4, de la siguiente manera:\n(1) La parte superior flexible puede ser analizada y diseñada como una estructura separada, apoyada para efecto de las fuerzas horizontales por la parte más rígida inferior, usando el valor apropiado de $R_0$ para su sistema estructural\n(2) La parte rígida inferior debe ser analizada y diseñada como una estructura separada, usando el valor apropiado de $R_0$ para su sistema estructural, y las reacciones de la parte superior, obtenidas de su análisis, deben ser amplificadas por la relación entre el valor de $R_0$ para la parte superior y el valor de $R_0$ de la parte inferior."
+        ],
+        [
+          "Estructura rígida apoyada sobre una estructura con menor rigidez\nCorresponde a edificaciones en las cuales se suspende antes de llegar a la base de la estructura, parcial o totalmente, un sistema estructural más rígido que el que llega a la base de la estructura.\nEste tipo de combinación de sistemas estructurales en la altura presenta inconvenientes en su comportamiento sísmico. No es aceptable como una solución estructural para el presente Reglamento.",
+          "(1) No es aceptable como solución estructural para el presente Reglamento."
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.3.3",
+    "Capítulo A.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

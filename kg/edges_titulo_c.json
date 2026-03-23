@@ -1,0 +1,312 @@
+[
+  {
+    "source": "titulo_c",
+    "target": "cap_C.1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.3",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.4",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.5",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.6",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.7",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.8",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.9",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.10",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.11",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.12",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.13",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.14",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.15",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.18",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.19",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "cap_C.21",
+    "relation": "contiene"
+  },
+  {
+    "source": "cap_C.3",
+    "target": "mat_fc",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.3",
+    "target": "mat_fcr",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.3",
+    "target": "mat_fy",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.3",
+    "target": "mat_ec",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.3",
+    "target": "mat_es",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.4",
+    "target": "exp_F",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_C.4",
+    "target": "exp_S",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_C.4",
+    "target": "exp_P",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_C.4",
+    "target": "exp_C",
+    "relation": "clasifica"
+  },
+  {
+    "source": "cap_C.9",
+    "target": "phi_traccion",
+    "relation": "establece"
+  },
+  {
+    "source": "cap_C.9",
+    "target": "phi_compresion_espiral",
+    "relation": "establece"
+  },
+  {
+    "source": "cap_C.9",
+    "target": "phi_compresion_otros",
+    "relation": "establece"
+  },
+  {
+    "source": "cap_C.9",
+    "target": "phi_cortante",
+    "relation": "establece"
+  },
+  {
+    "source": "cap_C.9",
+    "target": "phi_aplastamiento",
+    "relation": "establece"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "elem_viga",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "elem_columna",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.13",
+    "target": "elem_losa",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.14",
+    "target": "elem_muro",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.15",
+    "target": "elem_zapata",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.15",
+    "target": "elem_pilote",
+    "relation": "diseña"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_min_viga",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_max_viga",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_columna",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_muro_vert",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_muro_horiz",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "cuant_rho_losa",
+    "relation": "requiere"
+  },
+  {
+    "source": "cap_C.21",
+    "target": "sis_des",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.21",
+    "target": "sis_dmo",
+    "relation": "define"
+  },
+  {
+    "source": "cap_C.21",
+    "target": "sis_dmi",
+    "relation": "define"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_4_2_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_4_3_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_4_4_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_5_3_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_7_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_7_7_1",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_9_3_2",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_9_5a",
+    "relation": "contiene"
+  },
+  {
+    "source": "titulo_c",
+    "target": "tabla_C_9_5b",
+    "relation": "contiene"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_Mn",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_Vn",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_Vc",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_Vs",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_ld",
+    "relation": "usa"
+  },
+  {
+    "source": "cap_C.10",
+    "target": "formula_Ec",
+    "relation": "usa"
+  }
+]

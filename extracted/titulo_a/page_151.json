@@ -1,0 +1,68 @@
+{
+  "page_number": 151,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A-1.0",
+      "title": "NOMENCLATURA",
+      "content": "g = aceleración debida a la gravedad (g = 9.8 m/s²).\nI = coeficiente de importancia dado en A.2.5.2.\nM = masa total de la edificación; M debe ser igual a la masa total de la estructura más su contenido. En\nestructuras tales como tanques, silos y otras estructuras de almacenamiento debe incluir la masa\ncorrespondiente al contenido operacional normal de la estructura.\nRo = coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada\ngrado de capacidad de disipación de energía del material estructural. Véase el Capítulo A.3.\nR = coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al\ncoeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de\ncapacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia\nen el sistema estructural de resistencia sísmica (R = ϕaϕpϕrRo). Véase el Capítulo A.3.\nT = período fundamental de la estructura.\nW = peso total de la edificación; W = Mg."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.1",
+      "title": "PROPÓSITO",
+      "content": "En el presente Apéndice se dan recomendaciones que permiten determinar las fuerzas\nsísmicas de diseño de algunas estructuras especiales no cubiertas por el alcance de las Normas Sismo Resistentes\nColombianas y su Reglamento. Complementariamente, se puede consultar el documento \"Norma AIS-180\nRequisitos de diseño sismo resistente para algunas estructuras diferentes a edificaciones\", 2010, de la Asociación\nColombiana de Ingeniería Sísmica AIS, el que corresponde a la traducción y adaptación del Capítulo 14 del\ndocumento NEHRP 2003 y el cual analiza en detalle el comportamiento de tanques, recipientes y silos principalmente.\nEl presente Apéndice y el documento de AIS señalado, contienen recomendaciones de diseño que no tienen carácter\nobligatorio, y se incluyen únicamente por razones ilustrativas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.2",
+      "title": "ALCANCE",
+      "content": "Los requisitos del presente Apéndice pueden emplearse en el diseño sismo resistente de\nconstrucciones que se salen del alcance de la Ley 400 de 1997 y sus reglamentos. Se dan los parámetros de diseño\nsismo resistente de una forma compatible con lo que se requiere para edificaciones en el presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.3",
+      "title": "REQUISITOS APLICABLES",
+      "content": "En general se recomienda seguir los requisitos del Reglamento con las\nexcepciones anotadas en el presente Capítulo. Debe tenerse especial cuidado con las fuerzas de viento sobre estas\nestructuras especiales, pues en muchos casos son mayores que las fuerzas sísmicas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.2",
+      "title": "PERÍODO FUNDAMENTAL DE LA ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.2.1",
+      "title": null,
+      "content": "El valor del período fundamental de la estructura, T, debe obtenerse a partir de las propiedades de su\nsistema de resistencia sísmica, en la dirección bajo consideración, de acuerdo con los principios de la dinámica\nestructural, utilizando un modelo matemático linealmente elástico de la estructura. Este requisito puede suplirse por\nmedio del uso de la ecuación A.4.2-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3",
+      "title": "CALCULO DE LAS FUERZAS SÍSMICAS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.1",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO",
+      "content": "Debe utilizarse la definición de los movimientos sísmicos de\ndiseño dada en el Capítulo A.2 del Reglamento."
+    }
+  ],
+  "references": [
+    "A.2.5.2",
+    "Capítulo A.3",
+    "Capítulo A.3",
+    "A.4.2-1",
+    "Capítulo A.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

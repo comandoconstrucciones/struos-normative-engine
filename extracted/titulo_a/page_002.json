@@ -1,0 +1,24 @@
+{
+  "page_number": 2,
+  "elements": [
+    {
+      "type": "TEXT",
+      "content": "Ministerio de Ambiente, Vivienda y Desarrollo Territorial\nViceministerio de Vivienda y Desarrollo Territorial\nDirección del Sistema Habitacional\nRepública de Colombia"
+    },
+    {
+      "type": "TEXT",
+      "content": "COMISION ASESORA PERMANENTE PARA EL REGIMEN\nDE CONSTRUCCIONES SISMO RESISTENTES\n(Creada por la Ley 400 de 1997)"
+    },
+    {
+      "type": "TEXT",
+      "content": "NOTAS:"
+    },
+    {
+      "type": "TEXT",
+      "content": "Secretaría de la Comisión:\nais Asociación Colombiana de Ingeniería Sísmica\nCarrera 20 N° 84-14 Oficina 502 Bogotá, D. C., COLOMBIA Teléfono: 530-0826 Fax: 530-0827"
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,47 @@
+{
+  "page_number": 62,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3",
+      "title": "Capítulo A.3 Requisitos generales de diseño sismo resistente",
+      "content": "NSR-10ausencia de redundancia del sistema estructural de resistencia sísmica (R = ΦaΦpΦrRo). El diseño de los elementos estructurales y sus conexiones se realiza cumpliendo los requisitos exigidos para el grado de capacidad de disipación de energía requerido del material. Estas fuerzas de diseño de los elementos estructurales obtenidas siguiendo el procedimiento anotado, son fuerzas al nivel de resistencia, o sea que corresponden a fuerzas mayoradas que ya han sido multiplicadas por sus coeficientes de carga. Para elementos que se diseñan utilizando el método de esfuerzos de trabajo, debe consultarse A.3.1.8.\nLos elementos frágiles de conexión entre elementos y otros que de acuerdo con los requisitos de los materiales estructurales que los constituyen requieran el uso del coeficiente de sobrerresistencia Ω0, se diseñan utilizando las fuerzas sísmicas de diseño E obtenidas de la ecuación A.3.3-2."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3",
+      "formula_latex": "R = \\Phi_a \\Phi_p \\Phi_r R_0",
+      "formula_python": "R = Phi_a * Phi_p * Phi_r * R0",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.7.2",
+      "title": "CIMENTACIÓN",
+      "content": "— Las fuerzas sísmicas que actúan sobre la cimentación y el suelo de soporte se obtienen así:\n(a) Para efectos del diseño estructural de los elementos que componen la cimentación (incluidas las pantallas y los demás elementos a los que se conecte la estructura), se emplea el procedimiento indicado en A.3.7.1, empleando las cargas apropiadas y las fuerzas sísmicas reducidas de diseño, E, a partir de las reacciones de la estructura sobre estos elementos, calificando el valor de R usado en la estructura para establecer las cargas a la cimentación. En caso que se requiera una evaluación particular, las acciones de la estructura sobre la cimentación deberán determinarse con uno de los siguientes métodos: (1) mediante procedimientos de análisis inelástico de la estructura. (2) Evaluando el desempeño de la estructura (curvas de demanda y capacidad) (3) calculando las acciones que la estructura aplicará a los elementos que componen la cimentación, cuando a la estructura se aplique la carga cortante necesaria para producir el mecanismo de plastificación. En el diseño de los elementos de cimentación deben seguirse los requisitos propios del material estructural y del Título H de este Reglamento.\n(b) Para efectos de obtener los esfuerzos sobre el suelo de cimentación, a partir de las reacciones de la estructura y su cimentación sobre el suelo, se emplean las combinaciones de carga para el método de esfuerzos de trabajo de la sección B.2.3, empleando las cargas apropiadas y las fuerzas sísmicas reducidas de diseño, E. Los efectos sobre el suelo así obtenidos están definidos al nivel de esfuerzos de trabajo y deben evaluarse de acuerdo con los requisitos del Título H de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.8",
+      "title": "ESTRUCTURAS AISLADAS SÍSMICAMENTE EN SU BASE",
+      "content": "A.3.8.1 Se permite el empleo de estructuras aisladas sísmicamente en su base, siempre y cuando se cumplan en su totalidad los requisitos al respecto de uno de los dos documentos siguientes:\n(a) “NEHRP Recommended Provisions for Seismic Regulations for New Buildings — Provisions and Commentary”, 2003 Edition, Federal Emergency Management Agency, FEMA 450, Building Seismic Safety Council, National Institute of Buildings Sciences, Washington, D.C., USA, 2004,\n(b) “Minimum Design Loads for Building and Other Structures”, ASCE/SEI 7-05, Structural Engineering Institute of the American Society of Civil Engineers, Reston, Virginia, USA, 2006\nA.3.8.2 En el diseño y construcción de estructuras aisladas sísmicamente en su base, se deben cumplir los requisitos de los Artículos 10 y 11 de la Ley 400 de 1997, asumiendo el diseñador estructural y el constructor las responsabilidades que allí se indican.\nA.3.8.3- La construcción de una edificación que utilice sistemas de aislamiento sísmico en su base debe someterse a una supervisión técnica permanente, como la describe el Título I."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.9",
+      "title": "USO DE ELEMENTOS DISIPADORES DE ENERGÍA",
+      "content": "A.3.9.1 Se permite el empleo de elementos disipadores de energía, siempre y cuando se cumplan en su totalidad los requisitos al respecto de uno de los dos documentos siguientes:\n(a) “NEHRP Recommended Provisions for Seismic Regulations for New Buildings — Provisions and Commentary”, 2003 Edition, Federal Emergency Management Agency, FEMA 450, Building Seismic"
+    }
+  ],
+  "references": [
+    "A.3.1.8",
+    "A.3.3-2",
+    "A.3.7.1",
+    "B.2.3",
+    "Título H",
+    "Artículos 10 y 11",
+    "Título I"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

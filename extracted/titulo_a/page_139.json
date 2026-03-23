@@ -1,0 +1,130 @@
+{
+  "page_number": 139,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 Capítulo A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "resistencia sísmica, Φr. (R = ΦaΦpΦrR0)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Coincidencia de las losas de entrepiso en la colindancia",
+      "content": "Se considera que las losas de entrepiso de dos estructuras colindantes coinciden o están en contacto cuando al menos la mitad de la altura de la losa de entrepiso de la edificación cuya licencia de construcción se solicita, coincida en nivel con la losa de entrepiso de la edificación colindante existente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Construcción sismo resistente",
+      "content": "Es el tipo de construcción que cumple el objetivo expresado en A.1.2.2, a través de un diseño y una construcción que cumplan los requisitos de la Ley 400 de 1997 y del presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Constructor",
+      "content": "Es el profesional, ingeniero civil, arquitecto o constructor en arquitectura e ingeniería, bajo cuya responsabilidad se adelante la construcción de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Cortante de piso, Vx",
+      "content": "Es la suma algebraica de las fuerzas sísmicas horizontales que actúan por encima del piso en consideración."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Cortante en la base, Vs",
+      "content": "Es la suma algebraica, tomada en la base, de todas las fuerzas sísmicas horizontales del edificio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Cuerda",
+      "content": "Es el elemento de borde de un diafragma, el cual resiste principalmente esfuerzos axiales, en una forma análoga a las aletas de una viga."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Deriva de piso",
+      "content": "Es la diferencia entre los desplazamientos horizontales de los niveles entre los cuales está comprendido el piso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Desempeño de los elementos no estructurales",
+      "content": "Se denomina desempeño el comportamiento de los elementos no estructurales de la edificación ante la ocurrencia de un sismo que la afecte. El desempeño se clasifica en grado superior, bueno y bajo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(a) Grado de desempeño superior",
+      "content": "Es aquel en el cual el daño que se presenta en los elementos no estructurales es mínimo y no interfiere con la operación de la edificación en ningún aspecto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(b) Grado de desempeño bueno",
+      "content": "Es aquel en el cual el daño que se presenta en los elementos no estructurales es totalmente reparable y puede haber alguna interferencia con la operación de la edificación con posterioridad a la ocurrencia del sismo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "(c) Grado de desempeño bajo",
+      "content": "Es aquel en el cual se presentan daños graves en los elementos no estructurales, inclusive no reparables."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DES",
+      "content": "Capacidad especial de disipación de energía."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diafragma",
+      "content": "Conjunto de elementos estructurales, tal como una losa de entrepiso, que transmite las fuerzas inerciales horizontales a los elementos verticales del sistema de resistencia sísmica. El término diafragma incluye conjuntos arriostrados horizontales. Véase sistema de arriostramiento horizontal."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diagonal",
+      "content": "Es un elemento estructural que hace parte de un pórtico con diagonales. La diagonal puede ser concéntrica, en pórticos con diagonales de concreto reforzado o de acero estructural, o excéntrica en pórticos de acero estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diagonal concéntrica",
+      "content": "Es una diagonal cuyos dos extremos llegan a conexiones entre viga y columna."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diagonal excéntrica",
+      "content": "Es una diagonal en la cual uno de sus extremos llega a la viga en un punto alejado de la conexión entre viga y columna. Solo se utiliza en pórticos de acero estructural con diagonales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diseñador arquitectónico",
+      "content": "Es el arquitecto bajo cuya responsabilidad se realizan el diseño y los planos arquitectónicos de la edificación, y quien los firma o rotula."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diseñador de los elementos no estructurales",
+      "content": "Es el profesional facultado para este fin, bajo cuya responsabilidad se realizan el diseño y los planos de los elementos no estructurales de la edificación, y quien los firma o rotula."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diseñador estructural",
+      "content": "Es el ingeniero civil, facultado para ese fin, bajo cuya responsabilidad se realiza el diseño y los planos estructurales de la edificación, y quien los firma o rotula."
+    }
+  ],
+  "references": [
+    "A.1.2.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,118 @@
+{
+  "page_number": 142,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Masa - Cantidad de materia que posee un cuerpo. En el Sistema Internacional de Medidas (SI) se expresa en kilogramos, kg."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Método de la fuerza horizontal equivalente - Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se expresan por medio de unas fuerzas horizontales estáticas equivalentes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Método del análisis dinámico elástico - Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se determinan por medio de la solución de las ecuaciones de equilibrio dinámico, considerando que las propiedades de rigidez de la estructura permanecen dentro del rango de respuesta lineal o elástica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Método del análisis dinámico inelástico - Es el método de análisis sísmico en el cual los efectos de los movimientos sísmicos de diseño se determinan por medio de la solución de las ecuaciones de equilibrio dinámico, considerando que las propiedades de rigidez de la estructura se salen del rango de respuesta lineal o elástica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Microzonificación sísmica - División de una región o de un área urbana, en zonas más pequeñas que presentan un cierto grado de similitud en la forma como se ven afectados los movimientos sísmicos, dadas las características de los estratos de suelo subyacente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Modos de vibración - Son las diferentes formas de vibración propias de la estructura. A cada modo de vibración corresponde una frecuencia de vibración propia. La respuesta dinámica de la estructura, en el rango elástico, se puede expresar como la superposición de los efectos de los diferentes modos. Una estructura tiene tantos modos de vibración, como grados de libertad tenga."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Modo fundamental - Es el modo de vibración correspondiente al período fundamental de la estructura en la dirección horizontal de interés."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Movimientos sísmicos de diseño - Es una caracterización de los movimientos del terreno, en el sitio donde se encuentra localizada la edificación, que se producirían como consecuencia de la ocurrencia del sismo de diseño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Movimientos sísmicos para el umbral de daño - Es una caracterización de los movimientos del terreno, en el sitio donde se encuentra localizada la edificación, que se producirían como consecuencia de la ocurrencia del sismo correspondiente al umbral de daño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Movimiento telúrico - Movimiento de la corteza terrestre. Véase sismo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Muro de carga - Es un muro estructural, continuo hasta la cimentación, que soporta principalmente cargas verticales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Muro de cortante - Véase muro estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Muro divisorio o partición - Es un muro que no cumple una función estructural y que se utiliza para dividir espacios."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Muro estructural - Es un muro, de carga o no, que se diseña para resistir fuerzas horizontales, de sismo o de viento, paralelas al plano del muro."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Muro no estructural - Véase muro divisorio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Nivel (medido desde la base) de un piso en la colindancia - Es la suma de las alturas de piso en la colindancia medidas desde la base hasta la parte superior del piso bajo estudio."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Número de pisos aéreos de la edificación - Para efectos de la aplicación de la reglamentación de separación entre edificaciones de A.6.5.2, el máximo número de pisos aéreos de una edificación corresponde al número de losas de entrepiso aéreas, contando dentro de ellas la cubierta como una losa de entrepiso, y sin contar los sótanos. Una losa de entrepiso aérea es aquella que no esta en contacto con el terreno en ningún punto. Cuando un piso tenga más de 6 m de altura, se contará como dos pisos para efectos de calcular el número de pisos aéreos de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "Número de pisos aéreos en la colindancia - Corresponde al número de pisos aéreos de la edificación, que se extienden hasta el paramento del lote de terreno en la zona de colindancia bajo estudio. Cuando un piso en la colindancia tenga más de 6 m de altura, se contará como dos pisos para efectos de calcular el número de pisos"
+    }
+  ],
+  "references": [
+    "A.6.5.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

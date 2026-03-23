@@ -1,0 +1,64 @@
+{
+  "page_number": 53,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.7",
+      "title": "SISTEMAS ESTRUCTURALES DE RESISTENCIA SÍSMICA PREFABRICADOS",
+      "content": "Pueden construirse edificaciones cuyo sistema de resistencia sísmica esté compuesto por elementos prefabricados. El sistema prefabricado debe diseñarse para las fuerzas sísmicas obtenidas de acuerdo con este Reglamento usando un coeficiente de capacidad de disipación de energía básico, tal como lo define el Capítulo A.13 igual a uno y medio (R0 = 1.5). Cuando se demuestre con evidencia experimental y de análisis, que el sistema propuesto tiene una resistencia, capacidad de disipación de energía y capacidad de trabajo en el rango inelástico igual o mayor a las obtenidas con la estructura construida utilizando uno de los materiales prescritos por este Reglamento, deben cumplirse los requisitos de los Artículos 10 y 12 de la Ley 400 de 1997, pero en ningún caso el valor de Ro podrá ser mayor que el fijado por el presente Reglamento para sistemas de resistencia sísmica construidos monolíticamente con el mismo material estructural. Al respecto debe consultarse A.1.4.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.1.8",
+      "title": "MATERIALES ESTRUCTURALES DISEÑADOS USANDO EL MÉTODO DE ESFUERZOS DE TRABAJO",
+      "content": "Cuando el material estructural se diseña utilizando el método de esfuerzos de trabajo, tal como lo define B.2.3 de este Reglamento, para obtener los efectos de las fuerzas sísmicas reducidas de diseño al nivel de esfuerzos de trabajo que se emplean en el diseño de los elementos estructurales debe utilizarse un coeficiente de carga de 0.7 como lo presenta B.2.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2",
+      "title": "SISTEMAS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1",
+      "title": "TIPOS DE SISTEMAS ESTRUCTURALES",
+      "content": "Se reconocen cuatro tipos generales de sistemas estructurales de resistencia sísmica, los cuales se definen en esta sección. Cada uno de ellos se subdivide según los tipos de elementos verticales utilizados para resistir las fuerzas sísmicas y el grado de capacidad de disipación de energía del material estructural empleado. Los sistemas estructurales de resistencia sísmica que reconoce este Reglamento son los siguientes:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.1",
+      "title": "Sistema de muros de carga",
+      "content": "Es un sistema estructural que no dispone de un pórtico esencialmente completo y en el cual las cargas verticales son resistidas por los muros de carga y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales. Véase la tabla A.3-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.2",
+      "title": "Sistema combinado",
+      "content": "Es un sistema estructural, (véase la tabla A.3-2), en el cual:\n(a) Las cargas verticales son resistidas por un pórtico no resistente a momentos, esencialmente completo, y las fuerzas horizontales son resistidas por muros estructurales o pórticos con diagonales, o\n(b) Las cargas verticales y horizontales son resistidas por un pórtico resistente a momentos, esencialmente completo, combinado con muros estructurales o pórticos con diagonales, y que no cumple los requisitos de un sistema dual."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.3",
+      "title": "Sistema de pórtico",
+      "content": "Es un sistema estructural compuesto por un pórtico espacial, resistente a momentos, esencialmente completo, sin diagonales, que resiste todas las cargas verticales y fuerzas horizontales. Véase la tabla A.3-3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.2.1.4",
+      "title": "Sistema dual",
+      "content": "Es un sistema estructural que tiene un pórtico espacial resistente a momentos y sin diagonales, combinado con muros estructurales o pórticos con diagonales. Véase la tabla A.3-4. Para que el sistema estructural se pueda clasificar como sistema dual se deben cumplir los siguientes requisitos:\n(a) El pórtico espacial resistente a momentos, sin diagonales, esencialmente completo, debe ser capaz de soportar las cargas verticales.\n(b) Las fuerzas horizontales son resistidas por la combinación de muros estructurales o pórticos con diagonales, con el pórtico resistente a momentos, el cual puede ser un pórtico de capacidad especial de disipación de energía (DES), cuando se trata de concreto reforzado o acero estructural, un pórtico con capacidad moderada de disipación de energía (DMO) de concreto reforzado, o un pórtico con capacidad mínima de disipación de energía (DMI) de acero estructural. El pórtico resistente a momentos, actuando independientemente, debe diseñarse para que sea capaz de resistir como mínimo el 25 por ciento del cortante sísmico en la base.\n(c) Los dos sistemas deben diseñarse de tal manera que en conjunto sean capaces de resistir la totalidad del cortante sísmico en la base, en proporción a sus rigideces relativas, considerando la interacción del sistema dual en todos los niveles de la edificación, pero en ningún caso la responsabilidad de los muros estructurales, o de los pórticos con diagonales, puede ser menor del 75 por ciento del cortante sísmico en la base."
+    }
+  ],
+  "references": [
+    "Capítulo A.13",
+    "A.1.4.2",
+    "B.2.3",
+    "tabla A.3-1",
+    "tabla A.3-2",
+    "tabla A.3-3",
+    "tabla A.3-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

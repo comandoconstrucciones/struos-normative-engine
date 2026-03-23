@@ -1,0 +1,104 @@
+{
+  "page_number": 96,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.8",
+      "title": "Capítulo A.8 - Efectos sísmicos sobre elementos estructurales que no hacen parte del sistema de resistencia sísmica",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8",
+      "content": "(b) La capacidad de resistir las deformaciones, que al elemento le impone el sistema de resistencia sísmica al responder a los movimientos sísmicos de diseño, y la influencia que pueda tener el elemento en la respuesta sísmica de la estructura, como puede ser el caso de las escaleras y rampas, las cuales pueden actuar como arriostramientos (o diagonales) de un piso con otro."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2",
+      "title": "FUERZAS HORIZONTALES DE DISEÑO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1",
+      "title": "ACELERACIÓN HORIZONTAL SOBRE EL ELEMENTO",
+      "content": "El elemento se ve sometido, ante la ocurrencia de los movimientos sísmicos de diseño, a las mismas aceleraciones horizontales que se ve sometido el sistema de resistencia sísmica en la misma altura sobre la base de la edificación en que se encuentre el elemento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1",
+      "content": "Las fuerzas inerciales a que se ve sometido el elemento o cualquier porción de él, corresponden a la masa del elemento multiplicada por la aceleración que le imponen los movimientos causados por el sismo. Esta aceleración se determina por medio de uno de los procedimientos siguientes:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.1",
+      "title": "Método de la fuerza horizontal equivalente",
+      "content": "Cuando se utilice el método de la fuerza horizontal equivalente, tal como lo prescribe el Capítulo A.4, la aceleración horizontal, aᵢ, expresada como una fracción de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, localizado en el piso i, se obtiene por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.8.2-1",
+      "formula_latex": "a_i = A_s + \\frac{(S_a - A_s)h_i}{h_{eq}}  \t h_i \\leq h_{eq} \\\\ a_i = S_a \\frac{h_i}{h_{eq}} \t h_i \\geq h_{eq}",
+      "formula_python": "ai = As + ((Sa - As)*hi)/heq if hi <= heq else Sa * (hi/heq)",
+      "formula_variables": {
+        "Sa": "Aceleración espectral",
+        "As": "Aceleración en el suelo",
+        "hi": "Altura del piso i",
+        "heq": "Altura equivalente"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.1",
+      "content": "hₑ𝓆 puede estimarse simplificadamente como 0.75hₙ"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.1",
+      "content": "Alternativamente a la ecuación A.8.2-1 para calcular las fuerzas que deben resistir los diafragmas de piso o de cubierta, pueden usarse estimaciones más precisas de las aceleraciones absolutas máximas a que estarían sometidos estos diafragmas, resultado por ejemplo, de análisis dinámicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.1.2",
+      "title": "Método del análisis dinámico",
+      "content": "Cuando se utilice el método del análisis dinámico, la aceleración horizontal, ax, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, localizado en el piso x, es igual a la aceleración a que se ve sometido el piso después de realizar el ajuste de resultados prescrito en A.5.4.5. ΕΙ valor de la aceleración obtenida por medio del método del análisis dinámico no puede ser menor que el que se obtiene por medio de la ecuación A.8.2-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.2",
+      "title": "FUERZAS HORIZONTALES SOBRE EL ELEMENTO",
+      "content": "La fuerza sísmica horizontal reducida de diseño, que puede actuar en cualquier dirección, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica en su centro de masa, se obtiene por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.8.2-2",
+      "formula_latex": "F_p = \\frac{a_x g}{R_0} M_p",
+      "formula_python": "Fp = (ax * g / R0) * Mp",
+      "formula_variables": {
+        "Fp": "Fuerza sísmica horizontal",
+        "ax": "Aceleración horizontal",
+        "g": "Aceleración de la gravedad",
+        "R0": "Coeficiente de disipación de energía",
+        "Mp": "Masa del elemento"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.2",
+      "content": "donde R₀ es el coeficiente de capacidad de disipación de energía correspondiente a los requisitos de diseño del elemento estructural, como se indica en A.8.4. La anterior ecuación puede aplicarse a elementos que tienen un solo apoyo, o cuando no hay desplazamientos relativos entre sus apoyos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.8.2.2.1",
+      "content": "Cuando el elemento estructural que no hace parte del sistema de resistencia sísmica, tiene características dinámicas que amplifiquen su respuesta ante la aceleración ax, estas características deben tenerse en cuenta en la evaluación de las fuerzas horizontales que lo puedan afectar. Esto ocurre especialmente en apéndices de la edificación."
+    }
+  ],
+  "references": [
+    "A.4",
+    "A.5.4.5",
+    "A.8.2-1",
+    "A.8.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,111 @@
+{
+  "page_number": 60,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.3",
+      "title": "Torsión de diseño",
+      "content": "El momento torsional de diseño en cualquier nivel de la estructura se obtiene como la suma de las torsiones de diseño de todos los niveles localizados por encima del nivel en estudio. La porción de la torsión aportada por cada nivel se obtiene como la torsión accidental del nivel, más el producto de la fuerza sísmica horizontal, correspondiente a ese nivel por una dimensión igual a la proyección, en la dirección perpendicular a la dirección de las fuerzas, de la distancia entre el centro de masa y el centro de rigidez del nivel."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8",
+      "title": "DIAFRAGMAS",
+      "content": "En las zonas de amenaza sísmica intermedia y alta, en el diseño de los pisos y cubiertas que actúan como diafragmas debe tenerse en cuenta lo siguiente:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.1",
+      "content": "La deflexión en el plano del diafragma no debe exceder la deflexión permisible de los elementos que estén adheridos a él. La deflexión permisible debe ser aquella que permita a los elementos adheridos mantener su integridad estructural bajo las fuerzas impuestas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.2",
+      "content": "Los diafragmas de piso o de cubierta deben diseñarse para que sean capaces de resistir las fuerzas causadas por la aceleración en cada nivel, expresada como una fracción de la gravedad, determinada por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6.8.2",
+      "formula_latex": "a_i = A_s + \\frac{(S_a - A_s)h_i}{h_{eq}}",
+      "formula_python": "ai = As + (Sa - As) * hi / heq",
+      "formula_variables": {}
+    },
+    {
+      "type": "REQUIREMENT",
+      "section_path": "A.3.6.8.2",
+      "content": "h_i \\le h_{eq}",
+      "requirement_condition": "hi <= heq"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6.8.2",
+      "formula_latex": "a_i = S_a \\frac{h_i}{h_{eq}}",
+      "formula_python": "ai = Sa * hi / heq",
+      "formula_variables": {}
+    },
+    {
+      "type": "REQUIREMENT",
+      "section_path": "A.3.6.8.2",
+      "content": "h_i \\ge h_{eq}",
+      "requirement_condition": "hi >= heq"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6.8.2",
+      "formula_latex": "h_{eq}",
+      "formula_python": "heq",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6.8.2",
+      "formula_latex": "(A.3.6-3)",
+      "formula_python": "(A.3.6-3)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.2",
+      "content": "puede estimarse simplificadamente como 0.75hn"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.2",
+      "content": "Alternativamente a la ecuación A.3.6-3 para calcular las fuerzas que deben resistir los diafragmas de piso o de cubierta, pueden usarse estimaciones más precisas de las aceleraciones absolutas máximas a que estarían sometidos estos diafragmas, resultado por ejemplo, de análisis dinámicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.2",
+      "content": "Cuando el diafragma debe transmitir fuerzas provenientes de los elementos verticales del sistema de resistencia sísmica que se encuentren por encima del diafragma, a elementos verticales del sistema de resistencia sísmica que se encuentren por debajo del diafragma, debido a desplazamientos en la localización de los elementos, o por cambios en la rigidez de los elementos verticales, las fuerzas correspondientes se deben adicionar a las obtenidas por medio de la ecuación A.3.6-3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.3",
+      "content": "Los diafragmas que den apoyo a muros de concreto reforzado o de mampostería, deben tener amarres continuos entre los diferentes elementos del diafragma con el fin de distribuir las fuerzas de anclaje especificadas en A.3.6.10."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.4",
+      "content": "Las conexiones del diafragma a los elementos verticales o a los elementos colectores, o entre elementos colectores, en estructuras localizadas en zonas de amenaza sísmica alta que tengan irregularidades en planta de los tipos 1aP, 1bP, 2P, 3P ó 4P (tabla A.3-6), deben diseñarse para las fuerzas sísmicas correspondientes, multiplicadas por 1.25."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.8.5",
+      "content": "En las edificaciones localizadas en zonas de amenaza sísmica alta que tengan irregularidades en planta del tipo 2P (tabla A.3-6), los elementos del diafragma deben diseñarse considerando movimientos independientes de las alas que se proyectan hacia afuera de la estructura. Cada uno de los elementos del diafragma debe diseñarse para la condición más severa producida por el movimiento de las alas del diafragma en la misma dirección, o en direcciones opuestas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.9",
+      "title": "ELEMENTOS LOCALIZADOS DEBAJO DE LA BASE",
+      "content": "La resistencia y rigidez de los elementos que formen parte del sistema de resistencia sísmica que se encuentren localizados entre la base y la cimentación no"
+    }
+  ],
+  "references": [
+    "A.3.6-3",
+    "A.3.6.10",
+    "tabla A.3-6",
+    "A.3.6-3"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

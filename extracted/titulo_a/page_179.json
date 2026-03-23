@@ -1,0 +1,524 @@
+{
+  "page_number": 179,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-4",
+      "title": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": "NSR-10 - Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Apéndice A-4",
+      "title": "Valores de Aa, Av, Ae y Ad",
+      "table_headers": [
+        "Municipio",
+        "Código",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Salamina",
+          "47675",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "San Sebastián de Buenavista",
+          "47692",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "San Zenón",
+          "47703",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Santa Ana",
+          "47707",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Santa Bárbara de Pinto",
+          "47720",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Sitionuevo",
+          "47745",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.02"
+        ],
+        [
+          "Tenerife",
+          "47798",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Zapayán",
+          "47960",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Zona Bananera",
+          "47980",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Meta",
+      "title": "Departamento del Meta",
+      "content": "Departamento del Meta"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento del Meta",
+      "title": "Valores de Aa, Av, Ae y Ad para el departamento del Meta",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Villavicencio",
+          "50001",
+          "0.25",
+          "0.30",
+          "Alta",
+          "0.20",
+          "0.07"
+        ],
+        [
+          "Acacias",
+          "50006",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.17",
+          "0.06"
+        ],
+        [
+          "Barranca de Upía",
+          "50110",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Cabuyaro",
+          "50124",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Castilla la Nueva",
+          "50150",
+          "0.20",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Cumaral",
+          "50226",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "El Calvario",
+          "50245",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.26",
+          "0.08"
+        ],
+        [
+          "El Castillo",
+          "50251",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.04"
+        ],
+        [
+          "El Dorado",
+          "50270",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Fuente de Oro",
+          "50287",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.05",
+          "0.02"
+        ],
+        [
+          "Granada",
+          "50313",
+          "0.20",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Guamal",
+          "50318",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.28",
+          "0.08"
+        ],
+        [
+          "La Macarena",
+          "50350",
+          "0.05",
+          "0.10",
+          "Baja",
+          "0.03",
+          "0.02"
+        ],
+        [
+          "La Uribe",
+          "50370",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.10",
+          "0.04"
+        ],
+        [
+          "Lejanías",
+          "50400",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.19",
+          "0.08"
+        ],
+        [
+          "Mapiripán",
+          "50325",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.02",
+          "0.02"
+        ],
+        [
+          "Mesetas",
+          "50330",
+          "0.20",
+          "0.25",
+          "Alta",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Puerto Concordia",
+          "50450",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Gaitán",
+          "50568",
+          "0.05",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Lleras",
+          "50577",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto López",
+          "50573",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Rico",
+          "50590",
+          "0.05",
+          "0.10",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Restrepo",
+          "50606",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.13",
+          "0.05"
+        ],
+        [
+          "San Carlos Guaroa",
+          "50680",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "San Juan de Arama",
+          "50683",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "San Juanito",
+          "50686",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.20",
+          "0.08"
+        ],
+        [
+          "San Luis de Cubarral",
+          "50223",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.20",
+          "0.08"
+        ],
+        [
+          "San Martín",
+          "50689",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Vista Hermosa",
+          "50711",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento de Nariño",
+      "title": "Departamento de Nariño",
+      "content": "Departamento de Nariño"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento de Nariño",
+      "title": "Valores de Aa, Av, Ae y Ad para el departamento de Nariño",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Pasto",
+          "52001",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Albán",
+          "52019",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Aldana",
+          "52022",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Ancuyá",
+          "52036",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Arboleda",
+          "52051",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Barbacoas",
+          "52079",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Belén",
+          "52083",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Buesaco",
+          "52110",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Chachagui",
+          "52240",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.07"
+        ],
+        [
+          "Colón",
+          "52203",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Consacá",
+          "52207",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.07"
+        ],
+        [
+          "Contadero",
+          "52210",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.12",
+          "0.07"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,77 @@
+{
+  "page_number": 20,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.1",
+      "title": "Edificaciones indispensables y de atención a la comunidad",
+      "content": "De acuerdo con el Artículo 20 de la Ley 400 de 1997, las edificaciones de los grupos de uso III y IV, independientemente del área que tengan, deben someterse a una Supervisión Técnica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.2",
+      "title": "Edificaciones diseñadas y construidas de acuerdo con el Título E del Reglamento",
+      "content": "De acuerdo con el Parágrafo 1º del Artículo 18 de la Ley 400 de 1997, se excluyen de la obligatoriedad de la supervisión técnica, las estructuras que se diseñen y construyan siguiendo las recomendaciones del Título E, siempre y cuando se trate de menos de 15 unidades de vivienda."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.3",
+      "title": "Supervisión técnica exigida por los diseñadores",
+      "content": "De acuerdo con el Parágrafo 2º del Artículo 18 de la Ley 400 de 1997, el diseñador estructural, o el ingeniero geotecnista, de acuerdo con su criterio, pueden requerir supervisión técnica en edificaciones de cualquier área; cuya complejidad, procedimientos constructivos especiales o materiales empleados, la hagan necesaria, consignado este requisito en los planos estructurales o en el estudio geotécnico respectivamente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.4",
+      "title": "Idoneidad del supervisor técnico",
+      "content": "El supervisor técnico debe ser un profesional, ingeniero civil o arquitecto, que cumpla las cualidades exigidas por el Capítulo V del Título VI de la Ley 400 de 1997 о un constructor en arquitectura e ingeniería según los artículos 3º y 4º de la Ley 1229 de 2008. El profesional, bajo su responsabilidad, puede delegar en personal no profesional algunas de las labores de la supervisión. La supervisión técnica corresponde a una parte de la interventoría y puede ser llevada a cabo por un profesional diferente al interventor."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.5",
+      "title": "Alcance de la supervisión técnica",
+      "content": "El alcance de las labores que debe realizar el supervisor técnico están establecidas en el Título I de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.9.6",
+      "title": "Edificaciones donde no se requiere supervisión técnica",
+      "content": "En aquellas edificaciones donde no se requiera la supervisión técnica, este hecho no exime al constructor de realizar los controles de calidad de los materiales que el Reglamento requiere para los diferentes materiales estructurales, ni de llevar registros y controles de las condiciones de cimentación y geotécnicas del proyecto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.10",
+      "title": "EDIFICACIONES INDISPENSABLES",
+      "content": "Las edificaciones indispensables, pertenecientes al grupo de uso IV, tal como las define A.2.5.1.1, y las incluidas en los literales (a), (b), (c) y (d) del grupo de uso III, tal como las define A.2.5.1.2, deben diseñarse y construirse cumpliendo los requisitos presentados en el procedimiento de diseño definido en A.1.3.2 a A.1.3.8, y además los requisitos adicionales dados en el Capítulo A.12, dentro de los cuales se amplía el Paso 10 de A.1.3.4, exigiendo una verificación de la edificación para los movimientos sísmicos correspondientes al umbral de daño de la edificación. En relación con las edificaciones incluidas en los literales (e) y (f) del grupo de uso III, como lo define A.2.5.1.2, queda a decisión del propietario en el primer caso o de la autoridad competente en el segundo definir si se requiere adelantar el diseño de ellas según los requisitos especiales del Capítulo A.12."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.11",
+      "title": "CASAS DE UNO Y DOS PISOS",
+      "content": "Las edificaciones de uno y dos pisos deben diseñarse de acuerdo con los Capítulos A.1 a A.12 de este Reglamento. Las casas de uno y dos pisos del grupo de uso I, tal como lo define A.2.5.1.4, que no formen parte de programas de quince o más unidades de vivienda ni tengan más de 3000 m² de área en conjunto, pueden diseñarse alternativamente de acuerdo con los requisitos del Título E de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.3.12",
+      "title": "ASPECTOS FUNDAMENTALES DE DISEÑO",
+      "content": "En toda edificación del grupo de uso I, como las define A.2.5.1, que tenga más de 3000 m² de área en conjunto, que forme parte de un programa de quince o más unidades de vivienda, en todas las edificaciones de los grupos de usos II, III y IV, como las define A.2.5.1 y cuando con base en las características de la edificación o del lugar alguno de los diseñadores lo estime conveniente, deben considerarse los siguientes aspectos especiales en su diseño, construcción y supervisión técnica:\n(a) Influencia del tipo de suelo en la amplificación de los movimientos sísmicos y la respuesta sísmica de las edificaciones que igualmente pueden verse afectadas por la similitud entre los períodos de la estructura y alguno de los períodos del depósito,\n(b) Potencial de licuación del suelo en el lugar,\n(c) Posibilidad de falla de taludes o remoción en masa debida al sismo,\n(d) Comportamiento en grupo del conjunto ante solicitaciones sísmicas, eólicas y térmicas de acuerdo con las juntas que tenga el proyecto,\n(e) Especificaciones complementarias acerca de la calidad de los materiales a utilizar y del alcance de los ensayos de comprobación técnica de la calidad real de estos materiales, y"
+    }
+  ],
+  "references": [
+    "Artículo 20 de la Ley 400 de 1997",
+    "Título E",
+    "Artículo 18 de la Ley 400 de 1997",
+    "Capítulo V del Título VI de la Ley 400 de 1997",
+    "Ley 1229 de 2008",
+    "Título I",
+    "A.2.5.1.1",
+    "A.2.5.1.2",
+    "A.1.3.2",
+    "A.1.3.8",
+    "Capítulo A.12",
+    "A.1.3.4",
+    "A.2.5.1.4",
+    "Capítulos A.1 a A.12"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,82 @@
+{
+  "page_number": 58,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.5",
+      "title": "REQUISITOS PARA LOS MATERIALES ESTRUCTURALES",
+      "content": "A.3.5.1 Los requisitos especiales para el diseño y los detalles propios de cada material estructural se dan para el grado de capacidad de disipación de energía; mínima (DMI), moderada (DMO) o especial (DES), que se requiera del material y para cada uno de los sistemas estructurales de resistencia sísmica en las tablas A.3-1 a A.3-4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6",
+      "title": "EFECTOS SÍSMICOS EN LOS ELEMENTOS ESTRUCTURALES",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1",
+      "title": "GENERALIDADES",
+      "content": "Todos los elementos estructurales deben diseñarse para los efectos de los movimientos sísmicos de diseño que actúen sobre ellos, adicionalmente a todas las cargas que los puedan afectar, tal como lo prescribe el Título B de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1.1",
+      "title": "Elementos del sistema de resistencia sísmica",
+      "content": "Solamente los elementos que pertenezcan al sistema estructural de resistencia sísmica pueden contribuir a la resistencia sísmica de la edificación y deben diseñarse de acuerdo con los requisitos propios de su material estructural y para el grado de capacidad de disipación de energía requerido, además de los requisitos adicionales dados en la presente sección."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.1.2",
+      "title": "Elementos estructurales que no hacen parte del sistema de resistencia sísmica",
+      "content": "Los elementos estructurales que no formen parte del sistema estructural de resistencia sísmica, deben investigarse con el fin de determinar si pueden mantener su capacidad de resistir cargas verticales cuando se ven sometidos a los desplazamientos horizontales y a las derivas, causados por los movimientos sísmicos de diseño, pero sólo hay necesidad de que cumplan los requisitos del grado de capacidad de disipación de energía mínimo para su material estructural. Sus anclajes y amarres al sistema de resistencia sísmica deben cumplir los requisitos dados en la presente sección y en el Capítulo A.8."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.2",
+      "title": "COMBINACIÓN DE LOS EFECTOS DE CARGA",
+      "content": "Los coeficientes de carga que deben emplearse en la combinación de cargas de gravedad y de fuerzas sísmicas se establecen en el Título B de este Reglamento. Debe tenerse en cuenta que las fuerzas sísmicas obtenidas siguiendo éste Reglamento, están definidas al nivel de resistencia, por lo tanto ya están mayoradas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.3",
+      "title": "DIRECCIÓN DE APLICACIÓN DE LAS FUERZAS SÍSMICAS",
+      "content": "En zonas de amenaza sísmica intermedia o alta deben considerarse los efectos ortogonales, salvo que (1) la estructura tenga diafragmas flexibles o (2) se trate de edificios de un piso (naves industriales o similares) en los cuales no haya irregularidades en planta del tipo 5P. Los efectos ortogonales pueden tenerse en cuenta suponiendo la concurrencia simultánea del 100% de las fuerzas sísmicas en una dirección y el 30% de las fuerzas sísmicas en la dirección perpendicular. Debe utilizarse la combinación que requiera la mayor resistencia del elemento. Alternativamente, los efectos ortogonales pueden calcularse como la raíz cuadrada de la suma de los cuadrados de los efectos producidos por el 100% de las fuerzas sísmicas actuando independientemente en las dos direcciones ortogonales, asignándole el signo que conduzca al resultado más conservador. La fuerza sísmica debe combinarse con las cargas verticales de acuerdo con los requisitos del Título B de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.3.6.4",
+      "title": "AMARRES Y CONTINUIDAD",
+      "content": "Todos los elementos estructurales deben interconectarse. La conexión y los elementos conectores deben ser capaces de transmitir las fuerzas sísmicas inducidas por las partes que conectan; además de los requisitos del Capítulo A.8, deben cumplirse los siguientes requisitos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.3.6.4.1",
+      "title": "Partes de la edificación",
+      "content": "Cualquier parte o porción de la edificación que forme un conjunto indistintamente diferenciado del resto de la estructura, pero que esté estructuralmente vinculado a ésta, debe estar vinculada y amarrada al resto de la edificación por medio de elementos de conexión cuya resistencia se diseñe teniendo en cuenta las fuerzas axiales, de corte y de flexión transmitidas por la interacción entre las partes bajo las combinaciones de carga especificadas en el Título B. La fuerza sísmica involucrada, como mínimo, debe ser (0.40Aag) veces la masa de la parte o porción. Es particularmente importante que, en el caso de esta conexión, en el análisis no se utilice nudo maestro u otro método de igualación de grados de libertad para el análisis bajo cargas laterales."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "Α.3.6.4.1",
+      "formula_latex": "F = 0.40 A_a g",
+      "formula_python": "F = 0.40 * Aa * g",
+      "formula_variables": {
+        "Aa": "Aceleración horizontal pico efectiva para diseño"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.4.2",
+      "title": "Vigas de amarre en la cimentación",
+      "content": "Los elementos de cimentación, tales como zapatas,"
+    }
+  ],
+  "references": [
+    "A.3-1",
+    "A.3-4",
+    "Título B",
+    "Capítulo A.8"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

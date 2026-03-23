@@ -1,0 +1,73 @@
+{
+  "page_number": 91,
+  "elements": [
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "NSR-10 - Capítulo A.6",
+      "title": "Requisitos de la deriva",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.6.5-1",
+      "title": "Separación sísmica mínima en la cubierta entre edificaciones colindantes que no hagan parte de la misma construcción",
+      "table_headers": [
+        "Altura de la edificación nueva",
+        "Tipo de Colindancia\nExiste edificación vecina que no ha dejado la separación sísmica requerida",
+        "No existe\nedificación vecina\no la que existe ha\ndejado la\nseparación sísmica\nrequerida"
+      ],
+      "table_rows": [
+        [
+          "",
+          "Coinciden las losas de entrepiso",
+          "No coinciden las losas de entrepiso",
+          ""
+        ],
+        [
+          "1 y 2 pisos",
+          "no requiere separación",
+          "no requiere separación",
+          "no requiere separación"
+        ],
+        [
+          "3 pisos",
+          "no requiere separación",
+          "0.01 veces la altura de la edificación nueva (1% de hn)",
+          "no requiere separación"
+        ],
+        [
+          "Más de 3 pisos",
+          "0.02 veces la altura de la edificación nueva (2% de hn)",
+          "0.03 veces la altura de la edificación nueva (3% de h₁)",
+          "0.01 veces la altura de la edificación nueva (1% de hn)"
+        ]
+      ]
+    },
+    {
+      "type": "NOTE",
+      "section_path": "Notas",
+      "content": "Para obtener la separación sísmica en pisos diferentes a la cubierta se aplicará el coeficiente indicado en la Tabla multiplicado por la altura sobre el terreno del piso en particular."
+    },
+    {
+      "type": "NOTE",
+      "section_path": "Notas",
+      "content": "Cuando el terreno en la colindancia sea inclinado en el sentido del paramento, o haya diferentes alturas de piso o diferentes números de pisos aéreos en la colindancia, se tomará en la edificación nueva la altura de piso, o el número de pisos aéreos que conduzca a la mayor separación sísmica."
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.6.5-1",
+      "title": "Medición de la separación sísmica (vista en elevación)",
+      "content": null
+    },
+    {
+      "type": "TEXT",
+      "section_path": null,
+      "content": "Separación sísmica para cualquier piso, es como mínimo la distancia que se obtiene al multiplicar el coeficiente indicado en la Tabla A.6.5-1 por el correspondiente h₁."
+    }
+  ],
+  "references": [
+    "Tabla A.6.5-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,17 @@
+{
+  "page_number": 29,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.3-1",
+      "title": "Zonas de Amenaza Sísmica aplicable a edificaciones para la NSR-10 en función de Aa y Av",
+      "content": "Mapa de Colombia con las zonas de amenaza sísmica (Baja, Intermedia, Alta) marcadas geográficamente por ciudades."
+    }
+  ],
+  "references": [
+    "Aa",
+    "Av"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

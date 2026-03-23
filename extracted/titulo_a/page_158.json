@@ -1,0 +1,73 @@
+{
+  "page_number": 158,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "NSR-10 - Apéndice A-2 - Recomendaciones para el cálculo de los efectos de interacción dinámica suelo-estructura",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "El período T₁ se calcula utilizando la ecuación A-2-3 o A-2-5, según corresponda, utilizando T₁ en vez de T, determinando k por medio de la ecuación A-2-4, utilizando M₁j en vez de M, y calculando h por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "\\bar{h} = \\frac{\\sum_{i=1}^{n} m_i \\phi_i^1 h_i}{\\sum_{i=1}^{n} m_i \\phi_i^1}",
+      "formula_python": "h_bar = sum(mi * phi_i_1 * hi) / sum(mi * phi_i_1)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "(A-2-14)",
+      "formula_python": null,
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Los valores mencionados de T₁, T₁, M₁j, y h se utilizan para calcular α en la ecuación A-2-6 y el coeficiente β₀ de la figura A-2.2-1. No debe realizarse ninguna reducción en las contribuciones de los modos de vibración diferentes al fundamental por efectos de interacción suelo-estructura. El cortante en la base de diseño, en ningún caso puede ser menor que 0.7V."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.2",
+      "title": "OTROS EFECTOS MODALES",
+      "content": "Los cortantes de piso, y los momentos de vuelco deben determinarse de la misma manera que para edificaciones en las cuales no se ha tomado en cuenta la interacción suelo-estructura, tal como lo prescribe el Capítulo A.5, pero utilizando el valor de V̄₁j en vez de V₁j. Las deflexiones modificadas del primer modo deben determinarse por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "\\bar{\\delta}_{1x} = \\frac{\\bar{V}_1}{V_1} (\\delta_{1x} + \\frac{M_{1o} h_x}{K_{\\Theta}})",
+      "formula_python": "delta_1x_bar = (V1_bar / V1) * (delta_1x + (M1o * hx) / K_Theta)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": null,
+      "formula_latex": "(A-2-15)",
+      "formula_python": null,
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.3",
+      "title": "VALORES DE DISEÑO",
+      "content": "Se determinan utilizando los procedimientos indicados en el Capítulo A.5, pero utilizando los valores modificados del los efectos del primer modo en cada una de las direcciones principales, en planta, de la edificación."
+    }
+  ],
+  "references": [
+    "A-2-3",
+    "A-2-5",
+    "A-2-4",
+    "A-2-6",
+    "A-2.2-1",
+    "Capítulo A.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

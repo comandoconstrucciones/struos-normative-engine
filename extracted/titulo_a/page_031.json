@@ -1,0 +1,67 @@
+{
+  "page_number": 31,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.3-3",
+      "title": "Mapa de valores de Av",
+      "content": "Mapa de Colombia con isolíneas representando los valores de Av. Tabla adyacente que relaciona la región con el valor de Av."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla de valores de Av",
+      "title": "Tabla de valores de Av",
+      "table_headers": [
+        "Región",
+        "Av"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "0.05"
+        ],
+        [
+          "2",
+          "0.10"
+        ],
+        [
+          "3",
+          "0.15"
+        ],
+        [
+          "4",
+          "0.20"
+        ],
+        [
+          "5",
+          "0.25"
+        ],
+        [
+          "6",
+          "0.30"
+        ],
+        [
+          "7",
+          "0.35"
+        ],
+        [
+          "8",
+          "0.40"
+        ],
+        [
+          "9",
+          "0.45"
+        ],
+        [
+          "10",
+          "0.50"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.2.3-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

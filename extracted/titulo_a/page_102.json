@@ -1,0 +1,57 @@
+{
+  "page_number": 102,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.2",
+      "title": "Amplificación dinámica del elemento no estructural, ap",
+      "content": "Dependiendo de la rigidez, distribución de su masa y características de apoyo sobre la estructura, el elemento no estructural amplifica las aceleraciones que se presentan en su punto de soporte debido a efectos de resonancia. Estos efectos de resonancia dependen de la relación que exista entre el período fundamental de la estructura y el del elemento no estructural, incluyendo la acción de sus soportes. Cuando el elemento no estructural es rígido, su masa se encuentra localizada cerca del punto de apoyo y está firmemente anclado a la estructura, su amplificación dinámica es menor, esto se presenta en elementos no estructurales con períodos de vibración del orden de 0.06s o menos. Cuando el elemento no estructural es flexible, o su masa se encuentra distribuida en la altura, o concentrada lejos del punto de soporte, o sus apoyos permiten desplazamientos apreciables, las aceleraciones a que se ve sometido se amplifican apreciablemente con respecto a las aceleraciones que se presentan en su punto de soporte. Esta amplificación, ap, debe determinarse por medio de análisis dinámicos detallados o ensayos dinámicos experimentales. En ausencia de éstos, pueden emplearse los valores aproximados dados en las tablas A.9.5-1 y A.9.6-1, donde los valores de a, varían entre 1.0 y 2.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.3",
+      "title": "Capacidad de disipación de energía en el rango inelástico del elemento no estructural, Rp",
+      "content": "Este coeficiente representa, en conjunto, la capacidad de disipación de energía en el rango inelástico de respuesta del elemento en sí y de su sistema de anclaje o amarre a la estructura de la edificación. Un valor de Rp bajo, cercano a la unidad, indica fragilidad, poca capacidad de disipación de energía, y anclajes o amarres a la estructura con poca capacidad de deformarse inelásticamente. En la medida que se atienden estos grados potenciales de comportamiento deficiente es posible incrementar los valores de Rp. En las tablas A.9.5-1 y A.9.6-1, se dan las condiciones para los valores de Rp, mínimos permitidos para cada grado de desempeño, los cuales varían entre 0.5 y 6.0, según A.9.4.9."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.3",
+      "title": "CAPACIDAD DE DEFORMACIÓN",
+      "content": "Los elementos no estructurales al verse sometidos a los movimientos sísmicos de diseño sufren desplazamientos con respecto a la estructura de la edificación que no deben exceder las holguras de separación que se dejen, o deformaciones del mismo elemento que pongan en peligro su integridad. Los desplazamientos de verificación de los elementos no estructurales y sus anclajes o amarres se fijan en función de las derivan máximas aceptables para la estructura que se prescriben en el Capítulo A.6 del Reglamento. Por lo tanto, debe tenerse en cuenta en el diseño que el elemento debe ser capaz de resistir, sin sufrir un nivel de daño mayor que el admisible para su grado de desempeño, las deformaciones que le impone la respuesta sísmica de la estructura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.4",
+      "title": "APLICACIÓN DE LAS FUERZAS SÍSMICAS",
+      "content": "Las fuerzas sísmicas sobre cualquier elemento no estructural actúan de acuerdo con la distribución de la masa y la rigidez del elemento. Se permite suponer que se aplican en el centro de gravedad del elemento, teniendo en cuenta que éstas pueden obrar en cualquier dirección horizontal. Para efectos del diseño de los elementos mecánicos y eléctricos, debe tenerse en cuenta en el diseño una fuerza vertical que actúa hacia arriba o hacia abajo, adicional a su peso, igual a un tercio de él, la cual no debe amplificarse por los coeficientes a, ni ap, ni dividirse por el coeficiente Rp."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.5",
+      "title": "TRANSFERENCIA DE LAS FUERZAS SÍSMICAS",
+      "content": "Los elementos no estructurales que requieran ser diseñados para resistir fuerzas sísmicas, deben amarrarse o anclarse de tal manera que éstas fuerzas sean finalmente transferidas a la estructura de la edificación. El amarre debe ser una conexión o anclaje que permita resistir tensiones y compresiones, sin contar con efectos de fricción, ni de resistencia a la tensión de morteros de pega."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.6",
+      "title": "OTRAS SOLICITACIONES",
+      "content": "El diseñador de los elementos no estructurales debe tener en cuenta en sus diseños las demás solicitaciones que puedan afectar el comportamiento de los elementos no estructurales, de las mencionadas en el Título B del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.7",
+      "title": "DISEÑO UTILIZANDO EL MÉTODO DE ESFUERZOS DE TRABAJO",
+      "content": "Cuando el material del elemento no estructural se diseña utilizando el método de esfuerzos de trabajo, tal como lo define B.2.3, las fuerzas sísmicas reducidas de diseño, E, que se determinan de acuerdo con los requisitos del presente Capítulo, debe multiplicarse por un coeficiente de carga de 0.7, tal como lo indican las combinaciones de carga de B.2.3 para obtener las fuerzas sísmicas reducidas de diseño, al nivel de esfuerzos de trabajo, que se utilizan en el diseño de los elementos y sus anclajes."
+    }
+  ],
+  "references": [
+    "A.9.5-1",
+    "A.9.6-1",
+    "A.9.4.9",
+    "A.6",
+    "B.2.3",
+    "Título B"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

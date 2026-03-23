@@ -1,0 +1,359 @@
+[
+  {
+    "id": "titulo_d",
+    "label": "Título D: Mampostería Estructural",
+    "tipo": "titulo",
+    "contenido": "Requisitos para diseño y construcción de estructuras de mampostería",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.1",
+    "label": "Capítulo D.1: Requisitos Generales",
+    "tipo": "capitulo",
+    "contenido": "Alcance, terminología, notación",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.2",
+    "label": "Capítulo D.2: Requisitos de Diseño",
+    "tipo": "capitulo",
+    "contenido": "Filosofía de diseño, métodos de análisis",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.3",
+    "label": "Capítulo D.3: Materiales",
+    "tipo": "capitulo",
+    "contenido": "Morteros, unidades, resistencia f'm",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.4",
+    "label": "Capítulo D.4: Requisitos de Construcción",
+    "tipo": "capitulo",
+    "contenido": "Refuerzo, tolerancias, inyección",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.5",
+    "label": "Capítulo D.5: Mampostería Reforzada",
+    "tipo": "capitulo",
+    "contenido": "Diseño por resistencia, flexión, cortante",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.6",
+    "label": "Capítulo D.6: Mampostería de Cavidad Reforzada",
+    "tipo": "capitulo",
+    "contenido": "Muros de doble hoja",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.7",
+    "label": "Capítulo D.7: Mampostería Parcialmente Reforzada",
+    "tipo": "capitulo",
+    "contenido": "Requisitos mínimos",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.8",
+    "label": "Capítulo D.8: Mampostería No Reforzada",
+    "tipo": "capitulo",
+    "contenido": "Muros de gravedad",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.9",
+    "label": "Capítulo D.9: Mampostería de Muros Confinados",
+    "tipo": "capitulo",
+    "contenido": "Pórticos confinantes",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.10",
+    "label": "Capítulo D.10: Mampostería Confinada",
+    "tipo": "capitulo",
+    "contenido": "Sistema tradicional colombiano",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.11",
+    "label": "Capítulo D.11: Muros Diafragma",
+    "tipo": "capitulo",
+    "contenido": "Relleno en pórticos",
+    "metadata": {}
+  },
+  {
+    "id": "cap_D.12",
+    "label": "Capítulo D.12: Diseño Sísmico",
+    "tipo": "capitulo",
+    "contenido": "Requisitos especiales sismo",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_reforzada",
+    "label": "Mampostería Reforzada",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Refuerzo en celdas inyectadas",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_cavidad",
+    "label": "Mampostería de Cavidad",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Doble hoja con cavidad reforzada",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_parcial",
+    "label": "Mampostería Parcialmente Reforzada",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Refuerzo mínimo",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_no_reforzada",
+    "label": "Mampostería No Reforzada",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Solo para cargas gravitacionales",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_confinada",
+    "label": "Mampostería Confinada",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Elementos de confinamiento en concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tipo_diafragma",
+    "label": "Muros Diafragma",
+    "tipo": "tipo_mamposteria",
+    "contenido": "Relleno de mampostería en pórticos",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mortero_h",
+    "label": "Mortero Tipo H",
+    "tipo": "material",
+    "contenido": "Alta resistencia, 17.5 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mortero_m",
+    "label": "Mortero Tipo M",
+    "tipo": "material",
+    "contenido": "Media-alta, 12.5 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mortero_s",
+    "label": "Mortero Tipo S",
+    "tipo": "material",
+    "contenido": "Normal, 7.5 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_mortero_n",
+    "label": "Mortero Tipo N",
+    "tipo": "material",
+    "contenido": "Baja resistencia, 5.0 MPa",
+    "metadata": {}
+  },
+  {
+    "id": "mat_relleno_fino",
+    "label": "Mortero Relleno Fino",
+    "tipo": "material",
+    "contenido": "Agregado fino",
+    "metadata": {}
+  },
+  {
+    "id": "mat_relleno_grueso",
+    "label": "Mortero Relleno Grueso",
+    "tipo": "material",
+    "contenido": "Agregado grueso",
+    "metadata": {}
+  },
+  {
+    "id": "unidad_arcilla",
+    "label": "Unidades de Arcilla",
+    "tipo": "unidad_mamposteria",
+    "contenido": "Ladrillos y bloques cerámicos",
+    "metadata": {}
+  },
+  {
+    "id": "unidad_concreto",
+    "label": "Unidades de Concreto",
+    "tipo": "unidad_mamposteria",
+    "contenido": "Bloques de concreto",
+    "metadata": {}
+  },
+  {
+    "id": "unidad_silico",
+    "label": "Unidades Sílico-Calcáreas",
+    "tipo": "unidad_mamposteria",
+    "contenido": "Cal y arena",
+    "metadata": {}
+  },
+  {
+    "id": "unidad_maciza",
+    "label": "Unidad Maciza",
+    "tipo": "unidad_mamposteria",
+    "contenido": "Área neta ≥ 75% área bruta",
+    "metadata": {}
+  },
+  {
+    "id": "unidad_hueca",
+    "label": "Unidad Hueca",
+    "tipo": "unidad_mamposteria",
+    "contenido": "Área neta < 75% área bruta",
+    "metadata": {}
+  },
+  {
+    "id": "prop_fm",
+    "label": "f'm - Resistencia mampostería",
+    "tipo": "propiedad",
+    "contenido": "Resistencia a compresión de la mampostería",
+    "metadata": {}
+  },
+  {
+    "id": "prop_fr",
+    "label": "fr - Módulo de ruptura",
+    "tipo": "propiedad",
+    "contenido": "Resistencia a tracción por flexión",
+    "metadata": {}
+  },
+  {
+    "id": "prop_vm",
+    "label": "Vm - Cortante nominal",
+    "tipo": "propiedad",
+    "contenido": "Resistencia a cortante de la mampostería",
+    "metadata": {}
+  },
+  {
+    "id": "prop_em",
+    "label": "Em - Módulo elasticidad",
+    "tipo": "propiedad",
+    "contenido": "Em = 750 f'm para arcilla, 900 f'm para concreto",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_3_4_1",
+    "label": "Tabla D.3.4-1: Morteros de pega",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_morteros_pega",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_3_5_1",
+    "label": "Tabla D.3.5-1: Morteros de relleno",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_morteros_relleno",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_3_6_1",
+    "label": "Tabla D.3.6-1: Espesores mínimos",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_espesores",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_3_7_1",
+    "label": "Tabla D.3.7-1: Factor esbeltez",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_esbeltez",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_4_2_1",
+    "label": "Tabla D.4.2-1: Diámetros doblado",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_doblado",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_4_2_2",
+    "label": "Tabla D.4.2-2: Tolerancias",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_tolerancias",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_4_6_1",
+    "label": "Tabla D.4.6-1: Altura inyección",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_inyeccion",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_5_4_1",
+    "label": "Tabla D.5.4-1: Coef machones",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_machones",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_5_8_1",
+    "label": "Tabla D.5.8-1: Módulo ruptura",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_ruptura",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_5_8_2",
+    "label": "Tabla D.5.8-2: Cortante Vm",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_cortante",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_5_8_3",
+    "label": "Tabla D.5.8-3: Vn máximo",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_vn_max",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_10_3_1",
+    "label": "Tabla D.10.3-1: Mampostería confinada",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_mamposteria_confinada",
+    "metadata": {}
+  },
+  {
+    "id": "tabla_D_11_1_1",
+    "label": "Tabla D.11.1-1: Muros diafragma",
+    "tipo": "tabla",
+    "contenido": "SQL: nsr10_muros_diafragma",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Vm",
+    "label": "Cortante mampostería",
+    "tipo": "formula",
+    "contenido": "Vm = 0.30*Amv*sqrt(f'm) + 0.25*Pu\nMu/(Vu*d) <= 0.25",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Pn",
+    "label": "Carga axial nominal",
+    "tipo": "formula",
+    "contenido": "Pn = 0.80*[0.85*f'm*(An-As) + fy*As]\nCapacidad axial",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Em_arcilla",
+    "label": "Módulo arcilla",
+    "tipo": "formula",
+    "contenido": "Em = 750*f'm\nMPa",
+    "metadata": {}
+  },
+  {
+    "id": "formula_Em_concreto",
+    "label": "Módulo concreto",
+    "tipo": "formula",
+    "contenido": "Em = 900*f'm\nMPa",
+    "metadata": {}
+  }
+]

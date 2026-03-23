@@ -1,0 +1,141 @@
+{
+  "page_number": 154,
+  "elements": [
+    {
+      "type": "DEFINITION",
+      "content": "correspondiente al período fundamental de la estructura, T₁, cuando éste se calcula considerando los efectos de la interacción suelo-estructura.",
+      "defined_term": "T̄₁"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "valor del período fundamental del edificio, calculado de acuerdo con lo prescrito en A.4.2.",
+      "defined_term": "T"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "valor del período fundamental del edificio, correspondiente al primer modo de vibración.",
+      "defined_term": "T̄"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "valor del período fundamental del edificio tomando en cuenta la interacción suelo-estructura. Se determina de acuerdo con los requisitos de A-2.2.1.1.",
+      "defined_term": "T̃₁"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "valor del período fundamental del edificio, correspondiente al primer modo de vibración, tomando en cuenta la interacción suelo-estructura.",
+      "defined_term": "T̃₁"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "cortante sísmico de diseño en la base de la estructura, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4.",
+      "defined_term": "Vs"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "cortante sísmico en la base de la estructura, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4, utilizando un período de vibración igual a CuTa",
+      "defined_term": "V's"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "cortante sísmico de diseño en la base de la estructura en la dirección j, contribuido por el modo fundamental en esa dirección, calculado de acuerdo con la ecuación A.5.4-3 y sin ser afectado por efectos de interacción suelo-estructura.",
+      "defined_term": "Vij"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "cortante sísmico de diseño en la base de la estructura, calculado tomando en cuenta la interacción suelo-estructura.",
+      "defined_term": "V̄s"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "cortante sísmico de diseño en la base de la estructura en la dirección j, contribuido por el modo fundamental en esa dirección, y afectado por la interacción suelo-estructura.",
+      "defined_term": "V̄ij"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "reducción en el cortante sísmico de diseño en la base de la estructura, debido a los efectos de la interacción suelo-estructura. Ecuación A-2-2.",
+      "defined_term": "ΔVs"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "reducción en el cortante sísmico de diseño en la base de la estructura en la dirección j, contribuido por el modo fundamental en esa dirección, debida a los efectos de la interacción suelo-estructura.",
+      "defined_term": "ΔVij"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "velocidad promedio de la onda de cortante, de los suelos localizados debajo de la cimentación, para niveles bajos de deformación unitaria, menores de 0.00001 (0.001%).",
+      "defined_term": "Vso"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "parámetro que describe la densidad relativa de la estructura y el suelo bajo ella. Definida en la ecuación A-2-6.",
+      "defined_term": "α"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "modificador de la rigidez dinámica de la cimentación para tener en cuenta el balanceo.",
+      "defined_term": "αθ"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "coeficiente de amortiguamiento crítico del sistema estructural, considerando la interacción suelo-estructura, calculado de acuerdo con lo prescrito en A-2.2-1.",
+      "defined_term": "β"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "coeficiente de amortiguamiento crítico de la cimentación. Se determina por medio de la figura A-2.2-1.",
+      "defined_term": "β₀"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "deflexión horizontal en el nivel x de la estructura, calculada siguiendo el método de la fuerza horizontal equivalente y utilizando las fuerzas sísmicas de diseño sin ser modificadas por los efectos de la interacción suelo-estructura.",
+      "defined_term": "δx"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "deflexión horizontal en el nivel x de la estructura, calculada para el primer modo de vibración sin incluir los efectos de la interacción suelo-estructura.",
+      "defined_term": "δlx"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "deflexión horizontal en el nivel x de la estructura, modificada por los efectos de la interacción suelo-estructura. Ecuación A-2-11.",
+      "defined_term": "δ̄x"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "deflexión horizontal en el nivel x de la estructura, para el primer modo de vibración, modificada por los efectos de la interacción suelo-estructura.",
+      "defined_term": "δ̄lx"
+    },
+    {
+      "type": "DEFINITION",
+      "content": "masa unitaria promedio del suelo.",
+      "defined_term": "γ"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.1.1",
+      "title": null,
+      "content": "Los requisitos presentados en este Apéndice pueden utilizarse para tener en cuenta los efectos de interacción suelo-estructura en la determinación de las fuerzas sísmicas de diseño y las deformaciones que éstas imponen a la estructura. Su uso se permite dentro de las limitaciones que da el Capítulo A.7 cuando el modelo matemático utilizado para determinar la respuesta de la estructura no incorpora directamente la flexibilidad de la cimentación (uso de modelos empotrados en la base). En general el uso de estos requisitos disminuye los valores de diseño del cortante sísmico en la base, las fuerzas horizontales y los momentos de vuelco, pero aumenta las deflexiones horizontales de la estructura, y por ende las derivas, en sitios particulares de la estructura, además de los"
+    }
+  ],
+  "references": [
+    "A.4.2",
+    "A-2.2.1.1",
+    "Capítulo A.4",
+    "A.5.4-3",
+    "Ecuación A-2-2",
+    "A-2-6",
+    "A-2.2-1",
+    "Figura A-2.2-1",
+    "Ecuación A-2-11",
+    "Capítulo A.7"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

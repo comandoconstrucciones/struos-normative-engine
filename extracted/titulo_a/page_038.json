@@ -1,0 +1,101 @@
+{
+  "page_number": 38,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.2",
+      "title": "Grupo III - Edificaciones de atención a la comunidad",
+      "content": "Este grupo comprende aquellas edificaciones, y sus accesos, que son indispensables después de un temblor para atender la emergencia y preservar la salud y la seguridad de las personas, exceptuando las incluidas en el grupo IV. Este grupo debe incluir:\n(a) Estaciones de bomberos, defensa civil, policía, cuarteles de las fuerzas armadas, y sedes de las oficinas de prevención y atención de desastres,\n(b) Garajes de vehículos de emergencia,\n(c) Estructuras y equipos de centros de atención de emergencias,\n(d) Guarderías, escuelas, colegios, universidades y otros centros de enseñanza,\n(e) Aquellas del grupo II para las que el propietario desee contar con seguridad adicional, y\n(f) Aquellas otras que la administración municipal, distrital, departamental o nacional designe como tales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.3",
+      "title": "Grupo II - Estructuras de ocupación especial",
+      "content": "Cubre las siguientes estructuras:\n(a) Edificaciones en donde se puedan reunir más de 200 personas en un mismo salón,\n(b) Graderías al aire libre donde pueda haber más de 2000 personas a la vez,\n(c) Almacenes y centros comerciales con más de 500 m² por piso,\n(d) Edificaciones de hospitales, clínicas y centros de salud, no cubiertas en A.2.5.1.1.\n(e) Edificaciones donde trabajen o residan más de 3000 personas, y\n(f) Edificios gubernamentales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.1.4",
+      "title": "Grupo I - Estructuras de ocupación normal",
+      "content": "Todas la edificaciones cubiertas por el alcance de este Reglamento, pero que no se han incluido en los Grupos II, III y IV."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.5.2",
+      "title": "COEFICIENTE DE IMPORTANCIA",
+      "content": "El Coeficiente de Importancia, I, modifica el espectro, y con ello las fuerzas de diseño, de acuerdo con el grupo de uso a que esté asignada la edificación para tomar en cuenta que para edificaciones de los grupos II, III y IV deben considerarse valores de aceleración con una probabilidad menor de ser excedidos que aquella del diez por ciento en un lapso de cincuenta años considerada en el numeral A.2.2.1. Los valores de I se dan en la tabla A.2.5-1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.5-1",
+      "title": "Valores del coeficiente de importancia, I",
+      "table_headers": [
+        "Grupo de Uso",
+        "Coeficiente de Importancia, I"
+      ],
+      "table_rows": [
+        [
+          "IV",
+          "1.50"
+        ],
+        [
+          "III",
+          "1.25"
+        ],
+        [
+          "II",
+          "1.10"
+        ],
+        [
+          "I",
+          "1.00"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6",
+      "title": "ESPECTRO DE DISEÑO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.1",
+      "title": "Espectro de aceleraciones",
+      "content": "La forma del espectro elástico de aceleraciones, Sa expresada como fracción de la gravedad, para un coeficiente de cinco por ciento (5%) del amortiguamiento crítico, que se debe utilizar en el diseño, se da en la figura A.2.6-1 y se define por medio de la ecuación A.2.6-1, con las limitaciones dadas en A.2.6.1.1 a A.2.6.1.3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.1",
+      "formula_latex": "S_a = \\frac{1.2 A_v F_v I}{T}",
+      "formula_python": "Sa = (1.2 * Av * Fv * I) / T",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.1.1",
+      "title": null,
+      "content": "Para períodos de vibración menores de Tc, calculado de acuerdo con la ecuación A.2.6-2, el valor de Sa puede limitarse al obtenido de la ecuación A.2.6-3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6.1.1",
+      "formula_latex": "T_C = 0.48 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "Tc = 0.48 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {}
+    }
+  ],
+  "references": [
+    "IV",
+    "A.2.5.1.1",
+    "A.2.2.1",
+    "Tabla A.2.5-1",
+    "A.2.6-1",
+    "A.2.6.1.1",
+    "A.2.6.1.3",
+    "A.2.6-2",
+    "A.2.6-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

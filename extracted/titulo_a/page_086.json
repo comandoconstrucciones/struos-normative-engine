@@ -1,0 +1,84 @@
+{
+  "page_number": 86,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Capítulo A.6",
+      "title": "Requisitos de la deriva",
+      "content": "elementos no estructurales, tales como muros divisorios, particiones, enchapes, acabados, instalaciones eléctricas, mecánicas, etc.\n(d) Alarma y pánico entre las personas que ocupen la edificación.\nPor las razones anteriores es fundamental llevar a cabo durante el diseño un estricto cumplimiento de los requisitos de deriva dados en el presente Capítulo, con el fin de garantizar el cumplimiento del propósito del Reglamento y un adecuado comportamiento de la estructura y su contenido."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2",
+      "title": "CÁLCULO DEL DESPLAZAMIENTO HORIZONTAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.1",
+      "title": "DESPLAZAMIENTOS HORIZONTALES EN EL CENTRO DE MASA DEL PISO, 8cm,j",
+      "content": "Corresponden a los desplazamientos horizontales, en las dos direcciones principales en planta, que tiene el centro de masa del piso. En caso de cálculo de desplazamientos haciendo uso del método de análisis dinámico deberá tomarse en cuenta lo indicado en A.5.4.4 para la combinación de los modos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.1.1",
+      "title": null,
+      "content": "Cuando se utilice el método de la fuerza horizontal equivalente, las fuerzas horizontales que se empleen para determinar los desplazamientos horizontales y torsionales en el centro de masa pueden calcularse utilizando el período, T, que se obtiene por medio de la ecuación A.4.2-1, aplicando el límite de CuTa indicado allí, o alternativamente el período T obtenido por alguna de las ecuaciones A.4.2-3 ο Α.4.2-5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.1.2",
+      "title": null,
+      "content": "En las edificaciones pertenecientes a los grupos de uso II, III y IV, para la determinación de las fuerzas horizontales que se empleen para calcular los desplazamientos horizontales en el centro de masa, se permite que el coeficiente de importancia I, tenga un valor igual a la unidad (I = 1.0), y las fuerzas de diseño a emplear para obtener la resistencia de la estructura deben utilizar el valor del coeficiente de importancia I correspondiente al grupo de uso de la edificación, tal como se define en A.2.5.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.2",
+      "title": "DESPLAZAMIENTOS HORIZONTALES CAUSADOS POR EFECTOS TORSIONALES. 8t,j",
+      "content": "Corresponden a los desplazamientos horizontales adicionales, en las dos direcciones principales ortogonales en planta, causados por la rotación de toda la estructura con respecto a un eje vertical y debida a los efectos torsionales definidos en A.3.6.7. Este efecto solo debe evaluarse cuando los diafragmas son rígidos. Cuando los diafragmas son rígidos el incremento en desplazamiento horizontal causado por los efectos torsionales en cualquiera de las dos direcciones principales en planta, se obtiene de:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.2-1",
+      "formula_latex": "\\delta_{t,j} = r_j \\theta_i",
+      "formula_python": "delta_tj = rj * theta_i",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "donde δt,j es el incremento en desplazamiento horizontal causado por los efectos torsionales en un punto dentro del nivel i, en una de las direcciones principales en planta, rj es la proyección sobre la dirección perpendicular en planta a la dirección bajo estudio, j, de la distancia entre el centro de masa del piso y el punto de interés, y θi es la rotación alrededor de una eje vertical que pasa por el centro de masa del nivel i, causada por los efectos torsionales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.2.3",
+      "title": "DESPLAZAMIENTOS HORIZONTALES CAUSADOS POR EFECTOS P-DELTA, 8pd,j",
+      "content": "Corresponden a los efectos adicionales, en las dos direcciones principales en planta, causados por los efectos de segundo orden (efectos P-Delta) de la estructura. Los efectos P-Delta producen un aumento en las deflexiones horizontales y en las fuerzas internas de la estructura. Estos efectos deben tenerse en cuenta cuando el índice de estabilidad, Qi, es mayor de 0.10. El índice de estabilidad, para el piso i y en la dirección bajo estudio, se calcula por medio de la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.6.2-2",
+      "formula_latex": "Q_i = \\frac{P_i \\Delta_{cm}}{V_i h_{pi}}",
+      "formula_python": "Qi = Pi * Delta_cm / (Vi * hpi)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "El índice de estabilidad de cualquier piso, Qi, no debe exceder el valor de 0.30. Cuando el valor de Qi es mayor que 0.30, la estructura es potencialmente inestable y debe rigidizarse, a menos que se cumplan, en estructuras de concreto reforzado, la totalidad de los requisitos enumerados en C.10.11.6.2(b)."
+    }
+  ],
+  "references": [
+    "A.5.4.4",
+    "A.4.2-1",
+    "A.4.2-3",
+    "Α.4.2-5",
+    "A.2.5.2",
+    "A.3.6.7",
+    "C.10.11.6.2(b)"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

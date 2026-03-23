@@ -1,0 +1,209 @@
+{
+  "page_number": 160,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 - Apéndice A-3",
+      "title": "Procedimiento no lineal estático de plastificación progresiva \"Push-Over\"",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Componente (Component)",
+      "content": "Una parte o elemento de un sistema arquitectónico, eléctrico, mecánico o estructural."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Corte Basal (Base shear)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Curva de Capacidad (Capacity curve)",
+      "content": "Un gráfico de la fuerza lateral total Vf confrontada contra el desplazamiento lateral del punto de control, tal como se determina en un análisis no lineal estático."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Desplazamiento de fluencia efectivo (Effective yield displacement)",
+      "content": "El desplazamiento del punto de control en la intersección de la primera y segunda ramas de una curva bilineal que se ajusta a la curva de capacidad de acuerdo con la Sección A-3.2.3"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Desplazamiento Objetivo",
+      "content": "Un estimado del desplazamiento máximo esperado del punto de control calculado para el sismo de diseño de acuerdo con la sección A-3.2.5"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diafragma (Diaphragm)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Diseñador Estructural (Structural engineer of record)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Edificación (Building)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Estructura (Structure)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Movimientos sísmicos de diseño (Design earthquake ground motion)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Piso (Story)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Punto de Control (Control point)",
+      "content": "Un punto utilizado para indexar el desplazamiento lateral de la estructura en un análisis no lineal estático, determinado de acuerdo con la Sección A-3.2.1"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Resistencia efectiva a fluencia (Effective yield strength)",
+      "content": "Es la fuerza lateral total aplicada en la intersección de la primera y segunda ramas de una curva bilineal que se ajusta a la curva de capacidad de acuerdo con la Sección A-3.2.3"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Sistema de Resistencia Sísmica (Seismic-force-resisting system)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.4",
+      "title": "Nomenclatura",
+      "content": null
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "C_s = \\text{coeficiente de respuesta sísmica, resultado de dividir } S_a \\text{ por } R",
+      "formula_python": "Cs = 'coeficiente de respuesta sísmica, resultado de dividir Sa por R'",
+      "formula_variables": {
+        "Sa": null,
+        "R": null
+      }
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "C_0 = \\text{un factor de modificación para relacionar el desplazamiento del punto de control con el desplazamiento de un sistema representativo de un grado simple de libertad, como lo determina la Ecuación A-3.2-3}",
+      "formula_python": "C0 = 'un factor de modificación para relacionar el desplazamiento del punto de control con el desplazamiento de un sistema representativo de un grado simple de libertad, como lo determina la Ecuación A-3.2-3'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "C_1 = \\text{un factor de modificación para tener en cuenta la influencia del comportamiento inelástico sobre la respuesta del sistema como lo determina la ecuación A-3.2-4}",
+      "formula_python": "C1 = 'un factor de modificación para tener en cuenta la influencia del comportamiento inelástico sobre la respuesta del sistema como lo determina la ecuación A-3.2-4'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "g = \\text{aceleración de gravedad (9.8 m/s²)}",
+      "formula_python": "g = 'aceleración de gravedad (9.8 m/s²)'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "j = \\text{el incremento de la carga lateral}",
+      "formula_python": "j = 'el incremento de la carga lateral'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "M = \\text{masa total de la edificación}",
+      "formula_python": "M = 'masa total de la edificación'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "m_i = \\text{la porción de la masa total de la edificación } M, \\text{ al Nivel i}",
+      "formula_python": "mi = 'la porción de la masa total de la edificación M, al Nivel i'",
+      "formula_variables": {
+        "M": null
+      }
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "R = \\text{coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, } R_0, \\text{ multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica} (R = \\Phi_a \\Phi_p \\Phi_r R_0).",
+      "formula_python": "R = 'coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, Ro, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = Φα Φρ Φr Ro).'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "R_d = \\text{el factor de ductilidad del sistema analizado por \"push-over\" como lo determina la ecuación A-3.2-5}",
+      "formula_python": "Rd = 'el factor de ductilidad del sistema analizado por \"push-over\" como lo determina la ecuación A-3.2-5'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "S_a = \\text{valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración } T. \\text{Está definido en A.2.6.}",
+      "formula_python": "Sa = 'valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "T_I = \\text{el periodo fundamental de la estructura en la dirección que está bajo consideración determinado en la primera iteración del análisis de \"push-over\".}",
+      "formula_python": "TI = 'el periodo fundamental de la estructura en la dirección que está bajo consideración determinado en la primera iteración del análisis de \"push-over\".'",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A-3.1.4",
+      "formula_latex": "T_c = \\text{período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante}",
+      "formula_python": "Tc = 'período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante'",
+      "formula_variables": {}
+    }
+  ],
+  "references": [
+    "Capítulo A.13",
+    "Sección A-3.2.3",
+    "sección A-3.2.5",
+    "Capítulo A.13",
+    "Capítulo A.13",
+    "Capítulo A.13",
+    "Capítulo A.13",
+    "Capítulo A.13",
+    "Sección A-3.2.1",
+    "Sección A-3.2.3",
+    "Capítulo A.13",
+    "Ecuación A-3.2-3",
+    "ecuación A-3.2-4",
+    "ecuación A-3.2-5",
+    "A.2.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

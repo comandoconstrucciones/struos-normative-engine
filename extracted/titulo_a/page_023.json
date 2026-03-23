@@ -1,0 +1,69 @@
+{
+  "page_number": 23,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.1",
+      "title": "Capítulo A.1 - Introducción",
+      "content": "profesional responsable de los diseños, ya sea el arquitecto o el diseñador de los elementos no estructurales, y los diseñadores hidráulicos, eléctricos, mecánicos o de instalaciones especiales. Véase A.1.3.6. Igualmente debe contarse con una memoria de las especificaciones sobre materiales, elementos estructurales, medios de ingreso y egreso y sistemas de detección y extinción de incendios relacionadas con la seguridad a la vida, de acuerdo con los Títulos J y K de este Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.5.4",
+      "title": "ESTUDIO GEOTÉCNICO",
+      "content": "Para efectos de obtener una licencia de construcción debe presentarse un estudio geotécnico realizado de acuerdo con los requisitos del Título H del presente Reglamento. El estudio geotécnico debe ir firmado por un ingeniero civil facultado para ese fin, y debe hacer referencia a:\n(a) Lo exigido en A.1.3.2,\n(b) A la definición del los efectos locales exigida en A.2.4, incluyendo el caso en el que se realice un estudio sísmico particular de sitio según lo indicado en A.2.10,\n(c) A la obtención de los parámetros del suelo para efectos de la evaluación de la interacción suelo-estructura tal como la define el Capítulo A.7, cuando esta es requerida por el Capítulo A.3, y\n(d) A las demás que exija el Título H."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6",
+      "title": "OBLIGATORIEDAD DE LAS NORMAS TÉCNICAS CITADAS EN EL REGLAMENTO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.1",
+      "title": "NORMAS NTC",
+      "content": "Las Normas Técnicas Colombianas NTC, citadas en el presente Reglamento, hacen parte de él. Las normas NTC son promulgadas por el Instituto Colombiano de Normas Técnicas y Certificación ICONTEC, único organismo nacional de normalización reconocido por el gobierno de Colombia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.2",
+      "title": "OTRAS NORMAS",
+      "content": "En aquellos casos en los cuales no exista una norma NTC se acepta la utilización de normas de la Sociedad Americana de Ensayo y Materiales (American Society for Testing and Materials - ASTM) o de otras instituciones, las cuales también hacen parte del Reglamento cuando no exista la correspondiente norma NTC."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.6.3",
+      "title": "REFERENCIAS",
+      "content": "Al lado de las normas NTC se ha colocado entre paréntesis una norma de la ASTM o de otra institución. Esto se hace únicamente como referencia y la norma obligatoria siempre será la norma NTC. Esta norma de referencia corresponde a una norma ASTM, o de otra institución, que es compatible con los requisitos correspondientes del Reglamento, y no necesariamente corresponde a la norma de antecedente de la norma NTC. Las normas de antecedente de las normas NTC son las que se encuentran consignadas en el texto de la misma norma."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7",
+      "title": "SISTEMA DE UNIDADES",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7.1",
+      "title": "SISTEMA MÉTRICO SI",
+      "content": "De acuerdo con lo exigido por el Decreto 1731 de 18 de Septiembre de 1967, el presente Reglamento Colombiano de Construcciones Sismo Resistentes NSR-10, se ha expedido utilizando el Sistema Internacional de Medidas (SI), el cual es de uso obligatorio en el territorio nacional. Debe consultarse la norma NTC 1000 (ISO 1000), expedida por el ICONTEC, para efectos de la correcta aplicación del Sistema Internacional de Medidas SI."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.1.7.2",
+      "title": "REFERENCIAS AL SISTEMA MÉTRICO mks",
+      "content": "La unidades que se utilizan en las ecuaciones del Reglamento son las unidades del sistema SI. Al final de algunos Títulos hay un apéndice en el cual se relacionan las ecuaciones correspondientes en los sistemas de unidades Sl y mks. En general todas las ecuaciones en las cuales se utiliza la raíz cuadrada de un esfuerzo, que por definición sigue teniendo unidades de esfuerzo, como es el caso de  √f'c en concreto reforzado, √f'm en mampostería reforzada, ó √Fy en estructuras metálicas, producen resultados inconsistentes si se emplean en esfuerzos expresados en el sistema mks (kgf/cm²), y solo pueden emplearse con esfuerzos expresados en el Sistema Internacional de Medidas (SI)."
+    }
+  ],
+  "references": [
+    "A.1.3.6",
+    "A.1.3.2",
+    "A.2.4",
+    "A.2.10",
+    "Capítulo A.7",
+    "Capítulo A.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

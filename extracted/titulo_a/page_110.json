@@ -1,0 +1,121 @@
+{
+  "page_number": 110,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.1",
+      "title": "Reparaciones y cambios menores",
+      "content": "Se considera que el sistema estructural de la edificación no sufre modificación cuando se hacen reparaciones y cambios menores que no afecten el sistema de resistencia sísmica ni la integridad estructural de la edificación. En este caso no hay necesidad de llevar a cabo los estudios a que hace referencia el presente Capítulo, con la excepción anotada en A.10.1.3.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.2",
+      "title": "Cambio de uso",
+      "content": "Cuando se modifique el uso de una edificación, aun en los casos que menciona A.10.1.3.1, entendido el cambio de uso como una modificación de acuerdo a normas urbanísticas (de residencial a multifamiliar, de alguno de ellos a comercial, entre otros), así como cambio de uno de los Grupos de Uso descritos en A.2.5.1 a otro superior dentro de ese numeral, deben evaluarse las implicaciones causadas por este cambio de uso, ante cargas verticales, fuerzas horizontales y especialmente ante efectos sísmicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.3",
+      "title": "Vulnerabilidad sísmica",
+      "content": "Los criterios presentados en este Capítulo se pueden utilizar en el diagnóstico o evaluación de la vulnerabilidad sísmica de edificaciones existentes antes de la vigencia de la presente versión del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.4",
+      "title": "Modificaciones",
+      "content": "Los criterios presentados en este Capítulo deben ser empleados para el diseño y construcción de ampliaciones adosadas o ampliaciones en altura, actualizaciones al reglamento y/o alteraciones, entendidas como cualquier construcción o renovación de una construcción distinta de una ampliación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.5",
+      "title": "Reforzamiento estructural",
+      "content": "Los requisitos del Capítulo A.10 y en especial los de A.10.9 deben ser empleados en actualización y rehabilitación sísmica de edificaciones existentes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.6",
+      "title": "Reparación de edificaciones dañadas por sismos",
+      "content": "Los requisitos del Capítulo A.10 y en especial los de A.10.10 deben ser empleados en la reparación de edificaciones que hayan sufrido daños moderados a severos en su estructura, o daños moderados a severos en sus elementos no estructurales, o ambos, y que no hayan sido designadas como de obligatoria demolición total por la autoridad competente o por el censo que se realice para ese efecto con posterioridad a la ocurrencia del sismo, según sea el caso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.4",
+      "title": "PROCEDIMIENTO DE EVALUACIÓN DE LA INTERVENCIÓN",
+      "content": "En la aplicación del presente Capítulo deben seguirse las siguientes etapas:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "INFORMACIÓN PRELIMINAR",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 1",
+      "content": "Debe verificarse que la intervención esté cubierta por el alcance dado en A.10.1.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 2",
+      "content": "Debe recopilarse y estudiarse la información existente acerca del diseño geotécnico y estructural así como del proceso de construcción de la edificación original y sus posteriores modificaciones y deben hacerse exploraciones en la edificación, todo esto de acuerdo con A.10.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 3",
+      "content": "El estado del sistema estructural debe calificarse con respecto a: (a) la calidad del diseño de la estructura original y su sistema de cimentación y de la construcción de la misma y (b) el estado de mantenimiento y conservación. Esta calificación debe hacerse de acuerdo con los requisitos de A.10.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "EVALUACIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 4",
+      "content": "Deben determinarse unas solicitaciones equivalentes de acuerdo con los requisitos de A.10.4.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 5",
+      "content": "Debe llevarse a cabo un análisis elástico de la estructura y de su sistema de cimentación para las solicitaciones equivalentes definidas en la Etapa 4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 6",
+      "content": "La resistencia existente de la estructura debe determinarse utilizando los requisitos de A.10.4.3.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 7",
+      "content": "Se debe obtener una resistencia efectiva de la estructura, a partir de la resistencia existente, afectándola por dos coeficientes de reducción de resistencia obtenidos de los resultados de la calificación llevada a cabo en la Etapa 3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Etapa 8",
+      "content": "Debe determinarse un índice de sobreesfuerzo como el máximo cociente obtenido para cualquier elemento o sección de éste, entre las fuerzas internas solicitadas obtenidas del análisis estructural realizado"
+    }
+  ],
+  "references": [
+    "A.10.1.3.2",
+    "A.10.1.3.1",
+    "A.2.5.1",
+    "A.10",
+    "A.10.9",
+    "A.10.10",
+    "A.10.1.3",
+    "A.10.2",
+    "A.10.4.2",
+    "A.10.4.3.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

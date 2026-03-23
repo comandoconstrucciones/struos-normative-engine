@@ -1,0 +1,50 @@
+{
+  "page_number": 56,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3",
+      "title": "Capítulo A.3 - Requisitos generales de diseño sismo resistente",
+      "content": "Capítulo A.3 - Requisitos generales de diseño sismo resistente\ndel 35 por ciento del corte basal en la dirección bajo estudio el sistema estructural de resistencia sísmica\ncumpla las siguientes condiciones de redundancia:\n(a) En sistemas compuestos por pórticos con arriostramientos concéntricos — La falla de\ncualquiera de las diagonales o sus conexiones al pórtico no resulta en una reducción de más del\n33 por ciento de la resistencia ante fuerzas horizontales del piso ni produce una irregularidad\ntorsional en planta extrema (Tipo 1bP).\n(b) En sistemas compuestos por pórticos con arriostramientos excéntricos — La pérdida de\nresistencia a momento (si se trata de vínculos a momento), o a cortante (para el caso de vínculos a\ncorte), de los dos extremos de un vínculo no resulta en una reducción de más del 33 por ciento de\nla resistencia ante fuerzas horizontales del piso ni produce una irregularidad torsional en planta\nextrema (Tipo 1bP).\n(c) En sistemas de pórtico resistente a momentos — La pérdida de la resistencia a momento en\nla conexión viga-columna de los dos extremos de una viga no resulta en una reducción de más\ndel 33 por ciento de la resistencia ante fuerzas horizontales del piso ni produce una irregularidad\ntorsional en planta extrema (Tipo 1bP).\n(d) En sistemas con muros estructurales de concreto estructural — La falla de un muro\nestructural o de una porción de él que tengan una relación de la altura del piso a su longitud\nhorizontal mayor de la unidad, o de los elementos colectores que lo conectan al diafragma, no\nresulta en una reducción de más del 33 por ciento de la resistencia ante fuerzas horizontales del\npiso ni produce una irregularidad torsional en planta extrema (Tipo 1bP).\n(e) Para otros sistemas — No hay requisitos especiales.\nEn los sistemas estructurales que no cumplan las condiciones enunciadas en (a) a (d) el factor de reducción\nde resistencia por ausencia de redundancia en el sistema estructural de resistencia sísmica, $r, se le debe\nasignar un valor de $r = 0.75. Aunque no se cumplan las condiciones enunciadas en (a) a (d) el factor de\nreducción de resistencia por ausencia de redundancia en el sistema estructural de resistencia sísmica, $r, se\nle debe asignar un valor igual a la unidad ($r = 1.0) si todos los pisos que resistan más del 35 por ciento del\ncorte basal en la dirección bajo estudio el sistema estructural de resistencia sísmica sean regulares en planta\ny tengan al menos dos vanos compuestos por elementos que sean parte del sistema de resistencia sísmica\nlocalizados en la periferia a ambos lados de la planta en las dos direcciones principales. Cuando se trate de\nmuros estructurales para efectos de contar el número de vanos equivalentes se calcula como la longitud\nhorizontal del muro dividida por la altura del piso."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.9",
+      "title": "USO DEL COEFICIENTE DE SOBRERRESISTENCIA Ω0",
+      "content": "USO DEL COEFICIENTE DE SOBRERRESISTENCIA Ω0 — Cuando los requisitos para el material\nestructural y el grado de disipación de energía requieren que los elementos frágiles o las conexiones entre elementos\nse diseñen para fuerzas sísmicas, E, amplificadas por el coeficiente de sobrerresistencia, Ω0, éste debe emplearse\nde la siguiente manera para obtener las fuerzas de diseño que incluyen los efectos sísmicos:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.3-2",
+      "formula_latex": "E = \\frac{\\Omega_0 F_s}{R} \\pm 0.5 A_a F_a D",
+      "formula_python": "E = (Omega0 * Fs) / R  +/- 0.5 * Aa * Fa * D",
+      "formula_variables": {
+        "Ω0": "Coeficiente de sobrerresistencia",
+        "Fs": "Fuerzas sísmicas obtenidas del análisis",
+        "R": "Coeficiente de capacidad de disipación de energía",
+        "Aa": "Aceleración espectral horizontal máxima en roca",
+        "Fa": "Factor de amplificación de la aceleración espectral horizontal",
+        "D": "Carga muerta"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4",
+      "title": "MÉTODOS DE ANÁLISIS",
+      "content": "Donde F corresponde a las fuerzas sísmicas obtenidas del análisis, R es el coeficiente de capacidad de disipación\nde energía correspondiente al sistema estructural de resistencia sísmica R = фa фp фr Ro, y D corresponde a la carga\nmuerta que actúa sobre el elemento tal como se define en el Título B del Reglamento y el signo de la parte derecha\nde la ecuación es el que conduce al mayor valor de E, dependiendo del signo de Fs."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.1",
+      "title": "MÉTODOS RECONOCIDOS",
+      "content": "A.3.4.1 — MÉTODOS RECONOCIDOS — Se reconocen los siguientes métodos de análisis del sistema de\nresistencia sísmica para efectos de su diseño:\n(a) Método de la fuerza horizontal equivalente, el cual está descrito en el Capítulo A.4,\n(b) Métodos de análisis dinámico elástico, de acuerdo con los requisitos del Capítulo A.5,\n(c) Métodos de análisis dinámico inelástico, de acuerdo con los requisitos del Capítulo A.5, y\n(d) Métodos de análisis alternos, los cuales deben tener en cuenta las características dinámicas de la\nedificación, el comportamiento inelástico de los materiales, y deben ser de aceptación general en la"
+    }
+  ],
+  "references": [
+    "Capítulo A.4",
+    "Capítulo A.5",
+    "Título B"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,204 @@
+{
+  "page_number": 132,
+  "elements": [
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "NSR-10",
+      "title": "NSR-10 - Capítulo A.12 - Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV",
+      "content": "NSR-10 - Capítulo A.12 - Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.2-2",
+      "title": "Tabla A.12.2-2\nValores de Ad para las ciudades capitales de departamento",
+      "table_headers": [
+        "Ciudad",
+        "Ad",
+        "Ciudad",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Arauca",
+          "0.04",
+          "Neiva",
+          "0.08"
+        ],
+        [
+          "Armenia",
+          "0.10",
+          "Pasto",
+          "0.08"
+        ],
+        [
+          "Barranquilla",
+          "0.03",
+          "Pereira",
+          "0.10"
+        ],
+        [
+          "Bogotá",
+          "0.06",
+          "Popayán",
+          "0.08"
+        ],
+        [
+          "Bucaramanga",
+          "0.09",
+          "Puerto Carreño",
+          "0.02"
+        ],
+        [
+          "Cali",
+          "0.09",
+          "Puerto Inírida",
+          "0.02"
+        ],
+        [
+          "Cartagena",
+          "0.03",
+          "Quibdó",
+          "0.13"
+        ],
+        [
+          "Cúcuta",
+          "0.10",
+          "Riohacha",
+          "0.04"
+        ],
+        [
+          "Florencia",
+          "0.05",
+          "San Andrés, Isla",
+          "0.03"
+        ],
+        [
+          "Ibagué",
+          "0.06",
+          "San José del Guaviare",
+          "0.02"
+        ],
+        [
+          "Leticia",
+          "0.02",
+          "Santa Marta",
+          "0.04"
+        ],
+        [
+          "Manizales",
+          "0.10",
+          "Sincelejo",
+          "0.04"
+        ],
+        [
+          "Medellín",
+          "0.07",
+          "Tunja",
+          "0.07"
+        ],
+        [
+          "Mitú",
+          "0.02",
+          "Valledupar",
+          "0.03"
+        ],
+        [
+          "Mocoa",
+          "0.10",
+          "Villavicencio",
+          "0.07"
+        ],
+        [
+          "Montería",
+          "0.04",
+          "Yopal",
+          "0.06"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3",
+      "title": "A.12.3 — ESPECTRO SÍSMICO PARA EL UMBRAL DE DAÑO",
+      "content": "A.12.3 — ESPECTRO SÍSMICO PARA EL UMBRAL DE DAÑO"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3.1",
+      "title": "A.12.3.1",
+      "content": "A.12.3.1 - Los parámetros para determinar el espectro de aceleraciones horizontales para el umbral de daño en el campo elástico, para un amortiguamiento crítico de dos por ciento (2%), que se debe utilizar en las verificaciones del umbral de daño, se dan en la figura A.12.3-1. El espectro del umbral de daño se define por medio de la ecuación A.12.3-1, en la cual el valor T es el mismo que se utilizó para obtener el espectro sísmico de diseño de la edificación en el Capítulo A.2 y el valor de S es igual a 1.25F, siendo F, el valor del coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios debida a los efectos de sitio que se obtiene de acuerdo con la sección A.2.4, empleando allí para A, el valor de Aa según A.12.2. Además deben cumplirse las limitaciones dadas en A.12.3.2 a A.12.3.4."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3.1",
+      "formula_latex": "S_{ad} = \\frac{1.5A_d \\overline{S}}{T}",
+      "formula_python": "Sad = (1.5 * Ad * S_bar) / T",
+      "formula_variables": {
+        "Ad": "valor de Ad según A.12.2",
+        "S_bar": "valor de S",
+        "T": "periodo"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3.2",
+      "title": "A.12.3.2",
+      "content": "A.12.3.2 - Para períodos de vibración menores de 0.25 segundos, el espectro sísmico del umbral de daño puede obtenerse de la ecuación A.12.3-2."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3.2",
+      "formula_latex": "S_{ad} = A_d (1.0+ 8T)",
+      "formula_python": "Sad = Ad * (1.0 + 8*T)",
+      "formula_variables": {
+        "Ad": "Tabla A.12.2-2",
+        "T": "periodo"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3.3",
+      "title": "A.12.3.3",
+      "content": "A.12.3.3 - Para períodos de vibración mayores de 0.25 segundos y menores de Tcd, calculado de acuerdo con la ecuación A.12.3-3, el valor de Sad puede limitarse al obtenido de la ecuación A.12.3-4."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3.3",
+      "formula_latex": "T_{cd} = 0.5\\overline{S}",
+      "formula_python": "Tcd = 0.5 * S_bar",
+      "formula_variables": {
+        "S_bar": "valor de S"
+      }
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3.3",
+      "formula_latex": "S_{ad} = 3.0A_d",
+      "formula_python": "Sad = 3.0 * Ad",
+      "formula_variables": {
+        "Ad": "Tabla A.12.2-2"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3.4",
+      "title": "A.12.3.4",
+      "content": "A.12.3.4 - Para períodos de vibración mayores de Tld, calculado de acuerdo con la ecuación A.12.3-5, el valor de Sad puede limitarse al obtenido de la ecuación A.12.3-6."
+    }
+  ],
+  "references": [
+    "A.12.2",
+    "A.12.3-1",
+    "A.2",
+    "A.2.4",
+    "A.12.3.2",
+    "A.12.3.4",
+    "A.12.3-2",
+    "A.12.3-3",
+    "A.12.3-4",
+    "A.12.3-5",
+    "A.12.3-6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

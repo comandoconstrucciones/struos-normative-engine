@@ -1,0 +1,130 @@
+{
+  "page_number": 130,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.12",
+      "title": "Capítulo A.12 - Requisitos especiales para edificaciones indispensables de los grupos de uso III y IV",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.3",
+      "title": "METODOLOGÍA",
+      "content": "La determinación de la operatividad de la edificación con posterioridad a la ocurrencia de un sismo se realiza verificando que la edificación se mantiene dentro del rango elástico de respuesta al verse sometida a unas solicitaciones sísmicas correspondientes al inicio del daño, o umbral de daño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "PROCEDIMIENTO DE VERIFICACIÓN",
+      "content": "Además de los pasos que deben cumplirse en el diseño de la edificación presentados en A.1.3.4, deben realizarse los siguientes pasos adicionales, con el fin de verificar que la estructura y los elementos no estructurales se mantienen dentro del rango elástico de respuesta cuando se presenten los movimientos sísmicos correspondientes al umbral de daño:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso A",
+      "title": "Movimientos sísmicos correspondientes al umbral de daño",
+      "content": "Determinación de los movimientos sísmicos del umbral de daño para el lugar, de acuerdo con lo establecido en A.12.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso B",
+      "title": "Fuerzas sísmicas correspondientes al umbral de daño",
+      "content": "Obtención de las fuerzas sísmicas del umbral de daño bajo las cuales debe verificarse el comportamiento de la estructura de la edificación como de los elementos no estructurales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso C",
+      "title": "Análisis de la estructura para las fuerzas sísmicas correspondientes al umbral de daño",
+      "content": "El análisis de la estructura por medio de un modelo matemático apropiado. El análisis se lleva a cabo aplicando los movimientos sísmicos correspondientes al umbral de daño, tal como se define en A.12.4. Deben determinarse los desplazamientos máximos que imponen los movimientos sísmicos correspondientes al umbral de daño a la estructura y las fuerzas internas que se derivan de ellos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Paso D",
+      "title": "Verificación para el umbral de daño",
+      "content": "Comprobación de que las deflexiones para el umbral de daño no exceden los límites establecidos por este Reglamento. Si se exceden los límites de las derivas máximas para el umbral de daño, establecidas en A.12.5, la estructura debe ser rigidizada hasta cuando cumpla la comprobación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.2",
+      "title": "MOVIMIENTOS SÍSMICOS DEL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.2.1",
+      "title": null,
+      "content": "Los movimientos sísmicos del umbral de daño, se definen para una probabilidad del ochenta por ciento de ser excedidos en un lapso de cincuenta años, en función de la aceleración pico efectiva al nivel del umbral de daño, representada por el parámetro Ad. El valor de este coeficiente, para efectos del presente Reglamento, debe determinarse de acuerdo con A.12.2.2 y A.12.2.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.2.2",
+      "title": null,
+      "content": "Se determina el número de la región en donde está localizada la edificación usando el Mapa de la figura A.12.2-1. El valor de Ad se obtiene de la tabla A.12.2-1, en función del número de la región, o para las ciudades capitales de departamento utilizando la tabla A.12.2-2 y para los municipios del país en el Apéndice A-4, incluido al final del presente Título."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.2.3",
+      "title": null,
+      "content": "Alternativamente cuando el municipio o distrito, realice un estudio de microzonificación sísmica, o disponga de una red acelerográfica local; con base en el estudio de microzonificación o en los registros obtenidos, es posible variar, por medio de una ordenanza municipal, el valor de Ad, con respecto a los valores dados aquí, pero en ningún caso este valor podrá se menor al dado en el presente Reglamento."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.2-1",
+      "title": "Valores de Ad según la región del mapa de la figura A.12.2-1",
+      "table_headers": [
+        "Región Nº",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "7",
+          "0.13-0.14"
+        ],
+        [
+          "6",
+          "0.11-0.12"
+        ],
+        [
+          "5",
+          "0.09-0.10"
+        ],
+        [
+          "4",
+          "0.07-0.08"
+        ],
+        [
+          "3",
+          "0.05-0.06"
+        ],
+        [
+          "2",
+          "0.03-0.04"
+        ],
+        [
+          "1",
+          "0.00-0.02"
+        ]
+      ]
+    },
+    {
+      "type": "NOTE",
+      "section_path": "Tabla A.12.2-1",
+      "content": "Nota: Las regiones representan rangos de valores. Debe consultarse el Apéndice A-4 para determinar el valor de A, en cada municipio."
+    }
+  ],
+  "references": [
+    "A.1.3.4",
+    "A.12.2",
+    "A.12.4",
+    "A.12.5",
+    "A.12.2.2",
+    "A.12.2.3",
+    "A.12.2-1",
+    "Tabla A.12.2-1",
+    "A.12.2-2",
+    "Apéndice A-4",
+    "A.12.2-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

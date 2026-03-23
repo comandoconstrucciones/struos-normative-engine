@@ -1,0 +1,134 @@
+{
+  "page_number": 146,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Capítulo A.13 - Definiciones y nomenclatura del Título A",
+      "content": "funciones de un diafragma."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Sistema de resistencia sísmica",
+      "content": "Es aquella parte de la estructura que según el diseño aporta la resistencia requerida para soportar los movimientos sísmicos de diseño."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Sistema Internacional de Medidas (SI)",
+      "content": "El sistema SI se estableció en la Decimoprimera Conferencia Mundial de Pesos y Medidas, que tuvo lugar en Sevres, Francia, en 1960. Por medio del Decreto 1731 de 18 de Septiembre de 1967, el único sistema de medidas permitido en el país es el Sistema Internacional de Medidas SI. El sistema está basado en siete unidades básicas, que son para longitud el metro (m), para masa el kilogramo (kg), para tiempo el segundo (s), para corriente eléctrica el amperio (A), para temperatura el kelvin (K), para intensidad luminosa el candela (cd) y para cantidad de substancia el mol (mol).\nPara efectos del presente Reglamento se utilizan las siguientes unidades:\nUnidades básicas - para distancia el metro (m), para masa el kilogramo (kg), y para tiempo el segundo (s).\nUnidades suplementarias - para ángulo plano el radian (rad)\nUnidades derivadas - para frecuencia el hertz (Hz) [1 Hz = 1 s¹], para fuerza el newton (N) [1 N = 1 kg · m/s²], para esfuerzo, o fuerza por unidad de área, el pascal (Pa) [1 Pa = 1 N/m²], y para energía o trabajo el joule (J) [1 J = N · m]\nEl sistema Sl utiliza los siguientes prefijos:"
+    },
+    {
+      "type": "TABLE",
+      "section_path": null,
+      "title": "Prefijos del Sistema Internacional (SI)",
+      "table_headers": [
+        "",
+        "",
+        ""
+      ],
+      "table_rows": [
+        [
+          "exa",
+          "E",
+          "10¹⁸",
+          "1 000 000 000 000 000 000."
+        ],
+        [
+          "peta",
+          "P",
+          "10¹⁵",
+          "1 000 000 000 000 000."
+        ],
+        [
+          "tera",
+          "T",
+          "10¹²",
+          "1 000 000 000 000."
+        ],
+        [
+          "giga",
+          "G",
+          "10⁹",
+          "1 000 000 000."
+        ],
+        [
+          "mega",
+          "M",
+          "10⁶",
+          "1 000 000."
+        ],
+        [
+          "kilo",
+          "k",
+          "10³",
+          "1.000."
+        ],
+        [
+          "mili",
+          "m",
+          "10⁻³",
+          "0.001"
+        ],
+        [
+          "micro",
+          "μ",
+          "10⁻⁶",
+          "0.000 001"
+        ],
+        [
+          "nano",
+          "n",
+          "10⁻⁹",
+          "0.000 000 001"
+        ],
+        [
+          "pico",
+          "p",
+          "10⁻¹²",
+          "0.000 000 000 001"
+        ],
+        [
+          "femto",
+          "f",
+          "10⁻¹⁵",
+          "0.000 000 000 000 001"
+        ],
+        [
+          "atto",
+          "a",
+          "10⁻¹⁸",
+          "0.000 000 000 000 000 001"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Con el fin de evitar confusión en el uso del sistema SI, existen las siguientes reglas aceptadas internacionalmente respecto a la sintaxis que debe emplearse:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "(a) Nunca se intercambian minúsculas y mayúsculas: mm y no MM, o kg y no KG.\n(b) Los símbolos no se alteran en el plural: kg, y no kgs.\n(c) No se deja espacio entre el prefijo y el símbolo: MPa y no M Pa.\n(d) No se agrega punto al final del símbolo, a menos que sea el punto final de una oración.\n(e) Los símbolos no son abreviaturas, por lo tanto: Pa y no Pasc, m y no mts.\n(f) En los productos de símbolos se utiliza un punto levantado: kN . m.\n(g) En los cocientes se utiliza un solo símbolo de división, o pueden utilizarse potencias negativas: kg/(m·s), o kg·m⁻¹·s⁻¹, pero no kg/m/s.\n(h) Puede utilizarse punto, o coma, para indicar los decimales, dependiendo de la costumbre local. Esto significa que ninguno de los dos se debe utilizar para separar grupos de dígitos, para esto se utiliza un blanco. Ejemplo: g = 9.806 650 m/s².\n(i) Para números menores que la unidad, nunca se omite el cero inicial: 0.123 y no .123.\n(j) Debe haber siempre un espacio entre el número y las unidades: 12.3 m/s, excepto cuando se trata de grados Celsius: 12°C.\n(k) La unidades cuyo nombre es el apellido de un científico, se emplean con mayúscula: N, Pa, etc., pero cuando se refiere a ellas no se utiliza la mayúscula: pascales, etc."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Solicitaciones",
+      "content": "Son las fuerzas u otras acciones que afectan la estructura, dentro de las cuales se cuentan: los efectos gravitacionales sobre su propia masa, o peso propio, las cargas generadas por los elementos no estructurales, por sus ocupantes y sus posesiones, los efectos ambientales tales como el viento o el sismo, los asentamientos diferenciales, y los cambios dimensionales causados por variaciones en la temperatura o efectos reológicos de los materiales. En general corresponden a todo lo que puede afectar la estructura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Supervisión técnica",
+      "content": "Es la verificación de que la construcción de la estructura de la edificación se adelante de acuerdo con los diseños, planos y especificaciones realizadas por el diseñador estructural. Así mismo, que los elementos no estructurales se construyan siguiendo los diseños, planos, y especificaciones realizadas por el diseñador de elementos no estructurales, de acuerdo con el grado de desempeño requerido."
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

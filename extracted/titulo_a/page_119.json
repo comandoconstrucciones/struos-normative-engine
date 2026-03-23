@@ -1,0 +1,70 @@
+{
+  "page_number": 119,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.1.1",
+      "title": null,
+      "content": "En aquellos casos en que para la edificación existente el índice de sobreesfuerzo o el índice de flexibilidad sea mayor que la unidad, hay necesidad de intervenir el sistema estructural de la porción existente hasta el punto en que el índice de sobreesfuerzo y el de flexibilidad sean menores que la unidad, aún en aquellos casos en que se separe la porción antigua de la nueva por medio de una junta."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS",
+      "content": "La edificación resultante de la modificación, incluyendo la parte nueva y la antigua, debe ser analizada nuevamente y los elementos estructurales nuevos deben diseñarse de tal manera que la edificación quede con un índice de sobreesfuerzo y un índice de flexibilidad menores que la unidad."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.2.1",
+      "title": null,
+      "content": "Cuando la porción nueva se separe de la porción existente por medio de una junta apropiada, la porción nueva debe diseñarse en su totalidad siguiendo los requisitos del Reglamento. La porción existente debe modificarse de tal manera que su índice de sobreesfuerzo y su índice de flexibilidad sean menores o iguales a la unidad. Sólo en aquellos casos en que la licencia de construcción de la ampliación no cubra la porción antigua puede dejarse esta porción sin intervención y se debe marcar claramente en los planos y documentos el hecho de que esta porción no fue intervenida, y que por lo tanto su comportamiento esperado puede ser diferente al de la porción nueva."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.2.2",
+      "title": null,
+      "content": "Cuando las dos edificaciones, antigua y nueva, trabajen en conjunto ante las solicitaciones requeridas, la fuerzas horizontales deben distribuirse en proporción a las rigideces relativas de las dos porciones teniendo especial cuidado en evitar efectos torsionales nocivos al unir las porciones antigua y nueva de la edificación. El diseñador debe demostrar que el efecto torsional fue tomado en cuenta. Cuando la porción antigua se intervenga adecuadamente, se permite modificar el valor de R' así como la clasificación del estado de la edificación y utilizar el nuevo valor del coeficiente de reducción de resistencia por estado de la edificación, φe en el cálculo del índice de sobreesfuerzo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.3",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": "La porción nueva debe diseñarse y construirse siguiendo los requisitos propios para el material y el sistema estructural que el Reglamento fije para la zona de amenaza sísmica donde se encuentre localizada la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.4",
+      "title": "EFECTOS EN LA CIMENTACIÓN",
+      "content": "Debe demostrarse que la cimentación de la porción nueva no afecta la cimentación de la parte antigua y que el conjunto se comportará adecuadamente desde el punto de vista de asentamientos y capacidad portante del suelo. En aquellos casos en que la cimentación antigua deba soportar cargas de la porción nueva, debe hacerse una exploración de la cimentación antigua, supervisada por un ingeniero geotecnista, que demuestre que existe la capacidad adecuada para resistir las nuevas cargas que se le imponen sin efectos nocivos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8",
+      "title": "AMPLIACIÓN EN ALTURA",
+      "content": "A continuación se dan los requisitos que deben cumplirse en el diseño y construcción de ampliaciones en la altura:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.1",
+      "title": "TRABAJO EN CONJUNTO",
+      "content": "En este tipo de modificaciones las dos porciones de la edificación trabajan en conjunto tanto para fuerzas horizontales como para cargas verticales, por lo tanto todo análisis y diseño debe tener en cuenta de una manera integrada la porción antigua y la porción nueva; y se deben tomar todas las precauciones necesarias para que la acción en conjunto ocurra, disponiendo elementos de amarre adecuados."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS",
+      "content": "La edificación en conjunto debe analizarse nuevamente y utilizando las fuerzas y esfuerzos obtenidos de este nuevo análisis debe demostrarse que es capaz de resistir las solicitaciones que exige el Reglamento tanto para cargas verticales como para fuerzas horizontales. Además debe demostrarse que la cimentación, incluyendo las modificaciones que se le hagan, es capaz de resistir las cargas que fija el Reglamento. La resistencia se debe evaluar de acuerdo con lo siguiente:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2.1",
+      "title": "Cargas verticales",
+      "content": "La estructura en su totalidad debe ser capaz de resistir las cargas verticales que fija el Reglamento. La resistencia que se utilice en la evaluación de los elementos de la porción antigua no puede tenerse en un valor mayor que la resistencia efectiva calculada de acuerdo con A.10.4.3.4. Para efectos de esta evaluación el coeficiente de reducción de resistencia por estado de la estructura, φe,"
+    }
+  ],
+  "references": [
+    "A.10.4.3.4"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

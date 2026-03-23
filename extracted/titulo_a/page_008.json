@@ -1,0 +1,447 @@
+{
+  "page_number": 8,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6",
+      "title": "INSTALACIONES HIDRÁULICAS, SANITARIAS, MECÁNICAS Y ELÉCTRICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.2",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.3",
+      "title": "SOPORTES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.4",
+      "title": "EMPATES CON LAS REDES DE SERVICIOS PÚBLICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.5",
+      "title": "INTERRUPTORES AUTOMÁTICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.6.6",
+      "title": "ASCENSORES EN EDIFICACIONES DEL GRUPO DE USO IV",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.9.6-1",
+      "title": "Coeficiente de amplificación dinámica, ap, y tipo de anclajes o amarres requeridos, usado para determinar el coeficiente de capacidad de disipación de energía Rp, para elementos hidráulicos, mecánicos o eléctricos",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.10",
+      "title": "EDIFICACIONES CONSTRUIDAS ANTES DE LA VIGENCIA DE LA PRESENTE VERSIÓN DEL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1",
+      "title": "PROPÓSITO Y ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.2",
+      "title": "PROPÓSITO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.1",
+      "title": "Reparaciones y cambios menores",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.2",
+      "title": "Cambio de uso",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.3",
+      "title": "Vulnerabilidad sísmica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.4",
+      "title": "Modificaciones",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.3.5",
+      "title": "Reforzamiento estructural",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.4",
+      "title": "PROCEDIMIENTO DE EVALUACIÓN DE LA INTERVENCIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.4",
+      "title": "INFORMACIÓN PRELIMINAR",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.4",
+      "title": "EVALUACIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.4",
+      "title": "INTERVENCIÓN DEL SISTEMA ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.5",
+      "title": "CÁLCULOS, MEMORIAS Y PLANOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.6",
+      "title": "SUPERVISIÓN TÉCNICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.1.7",
+      "title": "CRITERIO Y RESPONSABILIDAD DEL INGENIERO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2",
+      "title": "ESTUDIOS E INVESTIGACIONES REQUERIDAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.1",
+      "title": "INFORMACIÓN PREVIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2",
+      "title": "ESTADO DEL SISTEMA ESTRUCTURAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2.1",
+      "title": "Calidad del diseño y la construcción de la estructura original",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.2.2.2",
+      "title": "Estado de la estructura",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.3",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO CON SEGURIDAD LIMITADA",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A 10.3-1",
+      "title": "Valor de A, según las regiones de los mapas de la figura A.10.3-1",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.3-2",
+      "title": "Valor de A para las ciudades capitales de departamento",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4",
+      "title": "CRITERIOS DE EVALUACIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2",
+      "title": "SOLICITACIONES EQUIVALENTES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.1",
+      "title": "Movimientos sísmicos para un nivel de seguridad equivalente al de una edificación nueva",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.2",
+      "title": "Movimientos sísmicos para un nivel de seguridad limitado",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.3",
+      "title": "Clasificación del sistema estructural",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.4",
+      "title": "Coeficiente de capacidad de disipación de energía",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.5",
+      "title": "Fuerzas sísmicas",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.6",
+      "title": "Cargas diferentes a las solicitaciones sísmicas",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.7",
+      "title": "Análisis estructural",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.2.8",
+      "title": "Obtención de las solicitaciones equivalentes",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3",
+      "title": "RELACIÓN ENTRE DEMANDA Y CAPACIDAD",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.1",
+      "title": "Definición del índice de sobreesfuerzo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.2",
+      "title": "Determinación del índice de sobreesfuerzo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.3",
+      "title": "Resistencia existente de los elementos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.4",
+      "title": "Resistencia efectiva",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.4-1",
+      "title": "Valores de φe y φs",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.3.5",
+      "title": "Definición del índice de flexibilidad",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.4.4",
+      "title": "METODOLOGÍAS ALTERNAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5",
+      "title": "ANÁLISIS DE VULNERABILIDAD",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.5.2",
+      "title": "EDIFICACIONES INDISPENSABLES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6",
+      "title": "TIPOS DE MODIFICACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.1",
+      "title": "AMPLIACIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.2",
+      "title": "ACTUALIZACIÓN AL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.6.3",
+      "title": "MODIFICACIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7",
+      "title": "MODIFICACIONES ADOSADAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.1",
+      "title": "NECESIDAD DE INTERVENCIÓN DE LA ESTRUCTURA EXISTENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.3",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.7.4",
+      "title": "EFECTOS EN LA CIMENTACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8",
+      "title": "AMPLIACIÓN EN ALTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.1",
+      "title": "TRABAJO EN CONJUNTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2.1",
+      "title": "Cargas verticales",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.2.2",
+      "title": "Fuerzas horizontales",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.3",
+      "title": "ELEMENTOS ESTRUCTURALES ADICIONALES EN LA PORCIÓN ANTIGUA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.4",
+      "title": "EMPALME DE ELEMENTOS NUEVOS CON ELEMENTOS ANTIGUOS",
+      "content": ""
+    }
+  ],
+  "references": [
+    "A.10.3-1",
+    "A.10.3-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

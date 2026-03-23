@@ -1,0 +1,391 @@
+{
+  "page_number": 9,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.5",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.8.6",
+      "title": "EFECTOS EN LA CIMENTACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9",
+      "title": "REHABILITACIÓN SÍSMICA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.1",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2",
+      "title": "RESISTENCIA Y CAPACIDAD DE FUNCIONAMIENTO REQUERIDAS SEGÚN EL USO Y EDAD DE LA EDIFICACIÓN.",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.1",
+      "title": "Intervención de edificaciones indispensables y de atención a la comunidad",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.2",
+      "title": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Reglamento NSR, de la ley 400 de 1997",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.3",
+      "title": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Decreto 1400 de 1984",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.4",
+      "title": "Intervención de edificaciones diseñadas y construidas antes de la vigencia del Decreto 1400 de 1984",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.5",
+      "title": "Edificaciones declaradas como patrimonio histórico",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.3",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.4",
+      "title": "METODOLOGÍAS ALTERNAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10",
+      "title": "REPARACIÓN DE EDIFICACIONES DAÑADAS POR SISMOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.1",
+      "title": "Objeto",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.2",
+      "title": "Alcance de la reparación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.1.3",
+      "title": "Ocupación de la edificación durante su reparación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2",
+      "title": "ESTUDIOS E INVESTIGACIONES REQUERIDAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.1",
+      "title": "Procedimiento de evaluación de los daños y del diseño de la reparación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.2",
+      "title": "Información sobre la estructura y su estado",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.3",
+      "title": "Criterios para diseñar la reparación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.4",
+      "title": "Cálculos, memorias y planos de la reparación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.5",
+      "title": "Supervisión técnica",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.1",
+      "title": "INSTRUMENTACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.2",
+      "title": "ACELERÓGRAFOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.3",
+      "title": "LOCALIZACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.4",
+      "title": "CARACTERÍSTICAS DEL ESPACIO DONDE SE COLOCA EL INSTRUMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.1.5",
+      "title": "COSTOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2",
+      "title": "COLOCACIÓN DE INSTRUMENTOS SÍSMICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.1",
+      "title": "ZONAS DE AMENAZA SÍSMICA ALTA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.2",
+      "title": "ZONAS DE AMENAZA SÍSMICA INTERMEDIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.3",
+      "title": "ZONAS DE AMENAZA SÍSMICA BAJA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.1",
+      "title": "PROPÓSITO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.2",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.3",
+      "title": "METODOLOGÍA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "PROCEDIMIENTO DE VERIFICACIÓN",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "Paso A",
+      "content": "Movimientos sísmicos correspondientes al umbral de daño"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "Paso B",
+      "content": "Fuerzas sísmicas correspondientes al umbral de daño"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "Paso C",
+      "content": "Análisis de la estructura para las fuerzas sísmicas correspondientes al umbral de daño"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.1.4",
+      "title": "Paso D",
+      "content": "Verificación para el umbral de daño"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.2",
+      "title": "MOVIMIENTOS SÍSMICOS DEL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3",
+      "title": "ESPECTRO SÍSMICO PARA EL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4",
+      "title": "METODOLOGÍA DE ANÁLISIS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.1",
+      "title": "MÉTODO DE ANÁLISIS A UTILIZAR",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.2",
+      "title": "RIGIDEZ DE LA ESTRUCTURA Y SUS ELEMENTOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3",
+      "title": "USO DEL MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE EN LA EVALUACIÓN DEL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.1",
+      "title": "Período fundamental de la edificación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.2",
+      "title": "Fuerzas sísmicas horizontales del umbral de daño",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3.3",
+      "title": "Análisis de la estructura para las fuerzas sísmicas horizontales del umbral de daño",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.4",
+      "title": "USO DEL MÉTODO DE ANÁLISIS DINÁMICO EN LA EVALUACIÓN DEL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5",
+      "title": "REQUISITOS DE LA DERIVA PARA EL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.1",
+      "title": "DESPLAZAMIENTOS TOTALES HORIZONTALES PARA EL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.2",
+      "title": "DERIVA MÁXIMA PARA EL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.5.3",
+      "title": "LIMITES DE LA DERIVA PARA EL UMBRAL DE DAÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6",
+      "title": "VERIFICACIÓN DE ESFUERZOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6.1",
+      "title": "ELEMENTOS ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.6.2",
+      "title": "MUROS NO ESTRUCTURALES",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.2-1",
+      "title": "Valores de Aa según la región del mapa de la figura A.12-1",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.2-2",
+      "title": "Valores de Aa para las ciudades capitales de departamento",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.12.5-1",
+      "title": "Derivas máximas para el umbral de daño como porcentaje de hpi.",
+      "table_headers": [],
+      "table_rows": []
+    }
+  ],
+  "references": [
+    "A.12-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

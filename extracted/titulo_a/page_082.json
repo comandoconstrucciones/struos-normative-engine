@@ -1,0 +1,85 @@
+{
+  "page_number": 82,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.5",
+      "title": "Capítulo A.5 - Método del análisis dinámico",
+      "content": "masa participante de la estructura. La masa participante, Mj, en cada una de las direcciones de análisis, j, para el número de modos empleados, p, se determina por medio de las siguientes ecuaciones:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.4-1",
+      "formula_latex": "M_j = \\sum_{m=1}^{p} \\overline{M}_{mj} \\geq 0.90 M",
+      "formula_python": "Mj = sum(Mmj) >= 0.90 * M",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.4-2",
+      "formula_latex": "\\overline{M}_{mj} = \\frac{\\left(\\sum_{i=1}^{n} m_i \\phi_{ij}^{m}\\right)^2}{\\sum_{i=1}^{n} m_i \\left(\\phi_{ij}^{m}\\right)^2}",
+      "formula_python": "Mmj = (sum(mi * phijm)**2) / sum(mi * (phijm)**2)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.3",
+      "title": "CÁLCULO DEL CORTANTE MODAL EN LA BASE",
+      "content": "— La parte del cortante en la base contribuida por el modo m en la dirección horizontal j, Vmj, debe determinarse de acuerdo con la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.4-3",
+      "formula_latex": "V_{mj} = S_{am} g \\overline{M}_{mj}",
+      "formula_python": "Vmj = Sam * g * Mmj",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.3",
+      "content": "donde  Mmj está dado por la ecuación A.5.4-2, y Sam es el valor leído del espectro elástico de aceleraciones, Sa, para el período de vibración Tm correspondiente al modo de vibración m. El cortante modal total en la base, Vtj, en la dirección j se obtiene combinando los cortantes contribuidos por cada modo, Vmj, en la misma dirección de acuerdo con el procedimiento de A.5.4.4."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.4",
+      "title": "COMBINACIÓN DE LOS MODOS",
+      "content": "— Las respuestas máximas obtenidas para cada modo, m, de las deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos, deben combinarse utilizando métodos apropiados y debidamente sustentados, tales como el de la raíz cuadrada de la suma de los cuadrados u otros. Debe tenerse especial cuidado cuando se calculen las combinaciones de las derivas, calculando la respuesta máxima de la deriva causada por cada modo independientemente y combinándolas posteriormente. No es permitido obtener las derivas totales a partir de deflexiones horizontales que ya han sido combinadas. Cuando se utilicen modelos matemáticos de análisis tridimensional deben tenerse en cuenta los efectos de interacción modal, tales como la combinación cuadrática total."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.5",
+      "title": "AJUSTE DE LOS RESULTADOS",
+      "content": "— El valor del cortante dinámico total en la base, Vtj, obtenido después de realizar la combinación modal, para cualquiera de las direcciones de análisis, j, no puede ser menor que el 80 por ciento para estructuras regulares, o que el 90 por ciento para estructuras irregulares, del cortante sísmico en la base, Vs, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4. Además, se deben cumplir las siguientes condiciones:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.5 (a)",
+      "content": "Para efectos de calcular este valor de V, el período fundamental de la estructura obtenido en el análisis dinámico, T en segundos no debe exceder CuTa, de acuerdo con los requisitos del Capítulo A.4, y cuando se utilicen los procedimientos de interacción suelo-estructura se permite utilizar el valor de Vs reducido por esta razón."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.5 (b)",
+      "content": "Cuando el valor del cortante dinámico total en la base, Vtj, obtenido después de realizar la combinación modal, para cualquiera de las direcciones de análisis, j, sea menor que el 80 por ciento para estructuras regulares, o que el 90 por ciento para estructura irregulares, del cortante sísmico en la base, Vs, calculado como se indicó en (a), todos los parámetros de la respuesta dinámica, tales como deflexiones, derivas, fuerzas en los pisos, cortantes de piso, cortante en la base y fuerzas en los elementos de la correspondiente dirección j deben multiplicarse por el siguiente factor de modificación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.5.4-4",
+      "formula_latex": "0.80 \\frac{V_s}{V_{tj}}",
+      "formula_python": "0.80 * Vs / Vtj",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.4.5 (b)",
+      "content": "para estructuras regulares"
+    }
+  ],
+  "references": [
+    "A.5.4-2",
+    "A.5.4.4",
+    "Capítulo A.4",
+    "Capítulo A.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,66 @@
+{
+  "page_number": 32,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4",
+      "title": "EFECTOS LOCALES",
+      "content": "En esta sección se dan los tipos de perfil de suelo y los valores de los coeficientes de sitio. El perfil de suelo debe ser determinado por el ingeniero geotecnista a partir de unos datos geotécnicos debidamente sustentados."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1",
+      "title": "GENERAL",
+      "content": "Se prescriben dos factores de amplificación del espectro por efectos de sitio, Fa y Fv, los cuales afectan la zona del espectro de períodos cortos y períodos intermedios, respectivamente. Los efectos locales de la respuesta sísmica de la edificación deben evaluarse con base en los perfiles de suelo dados a continuación, independientemente del tipo de cimentación empleado. La identificación del perfil de suelo se realiza a partir de la superficie del terreno. Cuando existan sótanos, o en edificio en ladera, el ingeniero geotecnista, de acuerdo con el tipo de cimentación propuesta, puede variar el punto a partir del cual se inicia la definición del perfil, por medio de un estudio acerca de la interacción que pueda existir entre la estructura de contención y el suelo circundante; pero en ningún caso este punto puede estar por debajo de la losa sobre el terreno del sótano inferior."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1.1",
+      "title": "Estabilidad del depósito de suelo",
+      "content": "Los perfiles de suelo presentados en esta sección A.2.4 hacen referencia a depósitos estables de suelo. Cuando exista la posibilidad de que el depósito no sea estable, especialmente ante la ocurrencia de un sismo, como puede ser en sitios en ladera o en sitios con suelos potencialmente licuables, no deben utilizarse las definiciones dadas y hay necesidad de realizar una investigación geotécnica que identifique la estabilidad del depósito, además de las medidas correctivas, si son posibles, que se deben tomar para poder adelantar una construcción en el lugar. El estudio geotécnico debe indicar claramente las medidas correctivas y los coeficientes de sitio que se debe utilizar en el diseño, dado que se lleven a cabo las medidas correctivas planteadas. La construcción de edificaciones en el sitio no puede adelantarse sin tomar medidas correctivas, cuando éstas sean necesarias."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.1.2",
+      "title": "Procedimientos alternos",
+      "content": "Cuando según A.2.1.2 se permitan procedimientos alternos para definir los efectos locales, se debe cumplir con lo requerido allí en vez de lo presentado en esta sección."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.2.4.2",
+      "title": "TIPOS DE PERFIL DE SUELO",
+      "content": "Se definen seis tipos de perfil de suelo los cuales se presentan en la tabla A.2.4-1. Los parámetros utilizados en la clasificación son los correspondientes a los 30 m superiores del perfil para los perfiles tipo A a E. Aquellos perfiles que tengan estratos claramente diferenciables deben subdividirse, asignándoles un subíndice i que va desde 1 en la superficie, hasta n en la parte inferior de los 30 m superiores del perfil. Para el perfil tipo F se aplican otros criterios y la respuesta no debe limitarse a los 30 m superiores del perfil en los casos de perfiles con espesor de suelo significativo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3",
+      "title": "PARÁMETROS EMPLEADOS EN LA DEFINICIÓN DEL TIPO DE PERFIL DE SUELO",
+      "content": "A continuación se definen los parámetros que se utilizan para definir el tipo de perfil de suelo con base en los 30 m superiores del mismo y considerando ensayos realizados en muestras tomadas al menos cada 1.50 m de espesor del suelo. Estos parámetros son (a) la velocidad media de la onda de cortante, ṽs, en m/s, (b) el número medio de golpes del ensayo de penetración estándar, N, en golpes/píe a lo largo de todo el perfil, o, (c) cuando se trate de considerar por separado los estratos no cohesivos y los cohesivos del perfil, para los estratos de suelos no cohesivos se determinará el número medio de golpes del ensayo de penetración estándar, Nch, en golpes/píe, y para los cohesivos la resistencia media al corte obtenida del ensayo para determinar su resistencia no drenada, s̄u, en kPa. Además se emplean el Índice de Plasticidad (IP), y el contenido de agua en porcentaje, w."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.2.4.3.1",
+      "title": "Velocidad media de la onda de cortante",
+      "content": "La velocidad media de la onda de cortante se obtiene por medio de:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "Α.2.4.3.1",
+      "formula_latex": "\\bar{V}_s = \\frac{\\sum_{i=1}^{n} d_i}{\\sum_{i=1}^{n} \\frac{d_i}{V_{si}}}",
+      "formula_python": "Vs_avg = sum(di) / sum(di / Vsi)",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.2.4.3.1",
+      "content": "donde:\nvsi = velocidad media de la onda de cortante del suelo del estrato i, medida en campo, en m/s\ndi = espesor del estrato i, localizado dentro de los 30 m superiores del perfil"
+    }
+  ],
+  "references": [
+    "A.2.4",
+    "A.2.1.2",
+    "A.2.4-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

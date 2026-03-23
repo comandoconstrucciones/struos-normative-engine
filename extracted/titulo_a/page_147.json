@@ -1,0 +1,194 @@
+{
+  "page_number": 147,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Capítulo A.13 - Definiciones y nomenclatura del Título A",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Supervisor técnico",
+      "content": "Es el profesional, ingeniero civil, arquitecto o constructor en arquitectura e ingeniería, bajo cuya responsabilidad se realiza la supervisión técnica. El alcance de la supervisión técnica está definido en el Título I de este Reglamento. La supervisión técnica puede ser realizada por el mismo profesional que realiza la interventoría. Véase interventor."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Temblor, terremoto",
+      "content": "Véase sismo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Umbral de daño",
+      "content": "Corresponde al nivel de movimiento sísmico a partir del cual se pueden presentar daños a los elementos estructurales y no estructurales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Velocidad de la onda de cortante",
+      "content": "Es la velocidad con que se desplaza la onda sísmica de cortante dentro de un suelo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Vulnerabilidad",
+      "content": "Es la cuantificación del potencial de mal comportamiento de una edificación con respecto a alguna solicitación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Zona de amenaza sísmica (baja, intermedia o alta)",
+      "content": "Son regiones del país donde la amenaza sísmica se considera baja, intermedia o alta, tal como se define en A.2.3. Los requisitos de análisis y diseño estructural varían de una zona a otra."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13.2",
+      "title": "NOMENCLATURA",
+      "content": "La nomenclatura siguiente corresponde a las variables utilizadas en el Título A de este Reglamento:"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "a_p",
+      "definition": "= coeficiente de amplificación dinámica del elemento no estructural. Véase el Capítulo A.9."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "a_x",
+      "definition": "= aceleración horizontal, expresada como un porcentaje de la aceleración de la gravedad, sobre el elemento estructural que no hace parte del sistema de resistencia sísmica, o sobre el elemento no estructural, localizado en el piso x. Véanse los Capítulos A.8 y A.9."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_a",
+      "definition": "= coeficiente que representa la aceleración horizontal pico efectiva, para diseño, dado en A.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_B",
+      "definition": "= área de la edificación en su base, en m²."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_d",
+      "definition": "= coeficiente que representa la aceleración pico efectiva, para el umbral de daño, dado en A.12.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_e",
+      "definition": "= coeficiente que representa la aceleración pico efectiva reducida para diseño con seguridad limitada, dado en A.10.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_s",
+      "definition": "= aceleración máxima en la superficie del suelo estimada como la aceleración espectral correspondiente a un período de vibración igual a cero, Véanse ecuaciones A.3.6-3, A.8.2-1 o A.9.4-2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_v",
+      "definition": "= coeficiente de aceleración que representa la velocidad horizontal pico efectiva, para diseño, dado en A.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_{wi}",
+      "definition": "= área mínima de cortante de la sección de un muro estructural i, medida en un plano horizontal, en el primer nivel de la estructura y en la dirección en estudio, en m². Véase A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "A_x",
+      "definition": "= coeficiente de amplificación de la torsión accidental en el nivel x, definido en A.3.6.7."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "a_i",
+      "definition": "= aceleración en el nivel i, Véanse ecuaciones A.3.6-3 y A.8.2-1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "C_t",
+      "definition": "= coeficiente utilizado para calcular el período de la estructura, definido en A.4.2.2"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "C_u",
+      "definition": "= coeficiente utilizado para calcular el período máximo permisible la estructura, definido en A.4.2.1"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "C_{vx}",
+      "definition": "= coeficiente definido en A.4.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "d_c",
+      "definition": "= es la suma de los espesores de los k estratos de suelos cohesivos localizados dentro de los 30 m superiores del perfil."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "d_i",
+      "definition": "= espesor del estrato i, localizado dentro de los 30 m superiores del perfil"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "d_s",
+      "definition": "= es la suma de los espesores de los m estratos de suelos no cohesivos localizados dentro de los 30 m superiores del perfil."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "E",
+      "definition": "= fuerzas sísmicas reducidas de diseño (E = F_s/R), o (E=F_p/R_p), o fuerzas sísmicas reducidas para revisión de la estructura existente y diseño de la ampliación (E = F_s/R')."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "E_d",
+      "definition": "= fuerzas sísmicas del umbral de daño. Véase el Capítulo A.12."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "A.13.2",
+      "variable": "f_i",
+      "definition": "= fuerza sísmica horizontal en el nivel i para ser utilizada en la ecuación A.4.2-1."
+    }
+  ],
+  "references": [
+    "Título I",
+    "A.2.3",
+    "Capítulo A.9",
+    "Capítulos A.8",
+    "A.9",
+    "A.2.2",
+    "A.12.2",
+    "A.10.3",
+    "A.3.6-3",
+    "A.8.2-1",
+    "A.9.4-2",
+    "A.4.2",
+    "A.3.6.7",
+    "A.4.2.2",
+    "A.4.2.1",
+    "Capítulo A.12",
+    "A.4.2-1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

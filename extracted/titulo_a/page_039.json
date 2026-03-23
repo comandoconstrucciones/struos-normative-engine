@@ -1,0 +1,125 @@
+{
+  "page_number": 39,
+  "elements": [
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-3",
+      "formula_latex": "S_a = 2.5 A_a F_a I",
+      "formula_python": "Sa = 2.5 * Aa * Fa * I",
+      "formula_variables": {
+        "Sa": "Espectro de Aceleraciones",
+        "Aa": "Coeficiente relacionado con la aceleración horizontal pico efectiva",
+        "Fa": "Factor de amplificación que depende de las características del suelo",
+        "I": "Factor de importancia"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.1.2",
+      "title": null,
+      "content": "Para períodos de vibración mayores que T₁, calculado de acuerdo con la ecuación A.2.6-4, el valor de Sa no puede ser menor que el dado por la ecuación A.2.6-5."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-4",
+      "formula_latex": "T_L = 2.4 F_v",
+      "formula_python": "TL = 2.4 * Fv",
+      "formula_variables": {
+        "TL": "Periodo largo del espectro de diseño",
+        "Fv": "Factor de amplificación que depende de las características del suelo"
+      }
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-5",
+      "formula_latex": "S_a = \\frac{1.2 A_v F_v T_L I}{T^2}",
+      "formula_python": "Sa = (1.2 * Av * Fv * TL * I) / T**2",
+      "formula_variables": {
+        "Sa": "Espectro de Aceleraciones",
+        "Av": "Coeficiente relacionado con la velocidad horizontal pico efectiva",
+        "Fv": "Factor de amplificación que depende de las características del suelo",
+        "TL": "Periodo largo del espectro de diseño",
+        "I": "Factor de importancia",
+        "T": "Periodo"
+      }
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.6-1",
+      "title": "Espectro Elástico de Aceleraciones de Diseño como fracción de g",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.1.3",
+      "title": null,
+      "content": "Cuando se utilice el análisis dinámico, tal como se define en el Capítulo A.5, para períodos de vibración diferentes del fundamental, en la dirección en estudio, menores de T₀ calculado de acuerdo con la ecuación A.2.6-6, el espectro de diseño puede obtenerse de la ecuación A.2.6-7."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-6",
+      "formula_latex": "T_0 = 0.1 \\frac{A_v F_v}{A_a F_a}",
+      "formula_python": "T0 = 0.1 * (Av * Fv) / (Aa * Fa)",
+      "formula_variables": {
+        "T0": "Periodo corto del espectro de diseño",
+        "Av": "Coeficiente relacionado con la velocidad horizontal pico efectiva",
+        "Fv": "Factor de amplificación que depende de las características del suelo",
+        "Aa": "Coeficiente relacionado con la aceleración horizontal pico efectiva",
+        "Fa": "Factor de amplificación que depende de las características del suelo"
+      }
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-7",
+      "formula_latex": "S_a = 2.5 A_a F_a I \\left( 0.4 + 0.6 \\frac{T}{T_0} \\right)",
+      "formula_python": "Sa = 2.5 * Aa * Fa * I * (0.4 + 0.6 * (T / T0))",
+      "formula_variables": {
+        "Sa": "Espectro de Aceleraciones",
+        "Aa": "Coeficiente relacionado con la aceleración horizontal pico efectiva",
+        "Fa": "Factor de amplificación que depende de las características del suelo",
+        "I": "Factor de importancia",
+        "T": "Periodo",
+        "T0": "Periodo corto del espectro de diseño"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.2",
+      "title": "Espectro de velocidades",
+      "content": "La forma del espectro elástico de velocidades en m/s, para un coeficiente de cinco por ciento (5%) del amortiguamiento crítico, que se debe utilizar en el diseño, se da en la figura A.2.6-2 y se define por medio de la ecuación A.2.6-8, con las limitaciones dadas en A.2.6.2.1 a A.2.6.2.3."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.2.6-8",
+      "formula_latex": "S_v = 1.87 A_v F_v I \\text{ (m/s)}",
+      "formula_python": "Sv = 1.87 * Av * Fv * I",
+      "formula_variables": {
+        "Sv": "Espectro de velocidades",
+        "Av": "Coeficiente relacionado con la velocidad horizontal pico efectiva",
+        "Fv": "Factor de amplificación que depende de las características del suelo",
+        "I": "Factor de importancia"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.6.2.1",
+      "title": null,
+      "content": "Para períodos de vibración menores de Tc, calculado de acuerdo con la ecuación A.2.6-2, el valor de Sv, en m/s, puede limitarse al obtenido de la ecuación A.2.6-9."
+    }
+  ],
+  "references": [
+    "A.2.6-4",
+    "A.2.6-5",
+    "Capítulo A.5",
+    "A.2.6-6",
+    "A.2.6-7",
+    "A.2.6-2",
+    "A.2.6-8",
+    "Figura A.2.6-2",
+    "A.2.6.2.1",
+    "A.2.6.2.3",
+    "A.2.6-9"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,220 @@
+{
+  "page_number": 148,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "Capítulo A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": null,
+      "content": null
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fa",
+      "content": "coeficiente de amplificación que afecta la aceleración en la zona de períodos cortos, debida a los efectos de sitio, adimensional."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fi",
+      "content": "parte del cortante sísmico en la base que se genera en el nivel i, véase A.3.6.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fi, Fx",
+      "content": "fuerzas sísmicas horizontales en los niveles i o x respectivamente. Véase A.4.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fp",
+      "content": "fuerza horizontal sobre un elemento estructural que no hace parte del sistema de resistencia sísmica, o elemento no estructural, componente o equipo de una edificación, aplicada en su centro de masa. Véanse los Capítulos A.8 y A.9"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fs",
+      "content": "fuerzas sísmicas, véase A.3.1.1, o fuerzas sísmicas equivalentes, véase"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fv",
+      "content": "coeficiente de amplificación que afecta la aceleración en la zona de períodos intermedios, debida a los efectos de sitio, adimensional, dado en A.2.4.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Fxm",
+      "content": "parte del cortante sísmico modal Vm que se genera en el nivel x, de acuerdo con A.5.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "g",
+      "content": "aceleración debida a la gravedad (g = 9.8 m/s²)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "heq",
+      "content": "altura equivalente del sistema de un grado de libertad que simula la edificación, véase A.3.6.8.2, A.8.2.1.1 y A.9.4.2.1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "hi",
+      "content": "altura en metros, medida desde la base, del nivel i, véase A.3.6.8.2, A.8.2.1.1 y A.9.4.2.1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "hi, hx",
+      "content": "altura en metros, medida desde la base, del nivel i o x. Véase A.4.3.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "hn",
+      "content": "altura en metros, medida desde la base, del piso más alto del edificio, véase A.3.6.8.2, A.4.2.2, A.8.2.1.1 y A.9.4.2.1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "hpi",
+      "content": "altura del piso i, medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del piso inmediatamente inferior, i-1. Véanse los Capítulos A.4, A.6 y A.12."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "hwi",
+      "content": "altura del muro i medida desde la base, en m."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "H",
+      "content": "espesor total en m de los estratos de suelos cohesivos."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "I",
+      "content": "coeficiente de importancia dado en A.2.5.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "IP",
+      "content": "índice de plasticidad, el cual se obtiene cumpliendo la norma ASTM D 4318."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "j",
+      "content": "índice de una de las direcciones ortogonales principales en planta, puede ser x o y. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "k",
+      "content": "exponente relacionado con el período fundamental de la edificación dado en A.4.3.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "lwi",
+      "content": "longitud medida horizontalmente, en metros, de un muro estructural i en el primer nivel de la estructura y en la dirección en estudio. Véase A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "mi",
+      "content": "parte de M que está colocada en el nivel i, en kg. Véase A.4.3.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "mi, mx",
+      "content": "parte de M que está colocada en el nivel i o x respectivamente. Véanse los Capítulos A.3 y A.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "M",
+      "content": "masa total de la edificación — M debe ser igual a la masa total de la estructura más la masa de aquellos elementos tales como muros divisorios y particiones, equipos permanentes, tanques y sus contenidos, etc. En depósitos o bodegas debe incluirse además un 25 por ciento de la masa correspondiente a los elementos que causan la carga viva del piso. Capítulos A.4 y A.5 (en kg)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Mp",
+      "content": "masa de un elemento o componente, en kg. Véanse los Capítulos A.3, A.8, y A.9."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Mj",
+      "content": "masa actuante total de la edificación en la dirección j. Ecuación A.5.4-1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Mm",
+      "content": "masa efectiva modal del modo m, determinada de acuerdo con la ecuación A.5.4-2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "nw",
+      "content": "número de muros de la edificación efectivos para resistir las fuerzas sísmicas horizontales en la dirección bajo estudio."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "N",
+      "content": "número de pisos de la edificación."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Nef",
+      "content": "resistencia efectiva. Véase el Capítulo A.10."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Nex",
+      "content": "resistencia existente. Véase el Capítulo A.10."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Ni",
+      "content": "número de golpes por píe obtenido en el ensayo de penetración estándar, realizado in situ de acuerdo con la norma ASTM D 1586, sin hacerle corrección por energía N60. El valor de N; usado para obtener el valor medio, no debe exceder 100."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "P",
+      "content": "número total de modos utilizado en el análisis modal de la estructura. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Pi",
+      "content": "suma de la carga vertical total, incluyendo muerta y viva, que existe en el piso i, y todos los pisos localizados por encima. Para el cálculo de los efectos P-Delta de diseño, no hay necesidad que los coeficientes de carga de sean mayores que la unidad. Véase el Capítulo A.6."
+    }
+  ],
+  "references": [
+    "A.3.6.6",
+    "A.4.3",
+    "A.8",
+    "A.9",
+    "A.3.1.1",
+    "A.2.4.5",
+    "A.5.4",
+    "A.3.6.8.2",
+    "A.8.2.1.1",
+    "A.9.4.2.1",
+    "A.4.3.2",
+    "A.4.2.2",
+    "A.4",
+    "A.6",
+    "A.12",
+    "A.2.5.2",
+    "ASTM D 4318",
+    "A.6",
+    "A.4.3.2",
+    "A.4.2",
+    "A.3",
+    "A.4",
+    "A.4",
+    "A.5",
+    "A.3",
+    "A.8",
+    "A.9",
+    "A.5.4-1",
+    "A.5.4-2",
+    "A.10",
+    "A.10",
+    "ASTM D 1586",
+    "A.5",
+    "A.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

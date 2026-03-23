@@ -1,0 +1,524 @@
+{
+  "page_number": 172,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.4",
+      "title": "Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-1",
+      "title": "Valores de Aa, Av, Ae y Ad para algunos municipios",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "El Doncello",
+          "18247",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "El Paujil",
+          "18256",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "La Montañita",
+          "18410",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Milán",
+          "18460",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Morelia",
+          "18479",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Puerto Rico",
+          "18592",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "San José de la Fragua",
+          "18610",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "San Vicente del Caguán",
+          "18753",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Solano",
+          "18756",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Solita",
+          "18785",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Valparaíso",
+          "18860",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.03"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento de Casanare",
+      "title": "Departamento de Casanare",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-2",
+      "title": "Valores de Aa, Av, Ae y Ad para algunos municipios de Casanare",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Yopal",
+          "85001",
+          "0.30",
+          "0.20",
+          "Alta",
+          "0.15",
+          "0.06"
+        ],
+        [
+          "Aguazul",
+          "85010",
+          "0.30",
+          "0.20",
+          "Alta",
+          "0.14",
+          "0.06"
+        ],
+        [
+          "Chámeza",
+          "85015",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Hato Corozal",
+          "85125",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "La Salina",
+          "85136",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Maní",
+          "85139",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Monterrey",
+          "85162",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Nunchía",
+          "85225",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "Orocué",
+          "85230",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Paz de Ariporo",
+          "85250",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Pore",
+          "85263",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Recetor",
+          "85279",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Sabanalarga",
+          "85300",
+          "0.35",
+          "0.30",
+          "Alta",
+          "0.13",
+          "0.05"
+        ],
+        [
+          "Sácama",
+          "85315",
+          "0.35",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "San Luis de Palenque",
+          "85325",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Támara",
+          "85400",
+          "0.35",
+          "0.15",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Tauramena",
+          "85410",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Trinidad",
+          "85430",
+          "0.05",
+          "0.15",
+          "Intermedia",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Villanueva",
+          "85440",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.03"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Cauca",
+      "title": "Departamento del Cauca",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-3",
+      "title": "Valores de Aa, Av, Ae y Ad para algunos municipios del Cauca",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Popayán",
+          "19001",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Almaguer",
+          "19022",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Argelia",
+          "19050",
+          "0.35",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.06"
+        ],
+        [
+          "Balboa",
+          "19075",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Bolívar",
+          "19100",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.07"
+        ],
+        [
+          "Buenos Aires",
+          "19110",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Cajibío",
+          "19130",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Caldonó",
+          "19137",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.07"
+        ],
+        [
+          "Caloto",
+          "19142",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.07"
+        ],
+        [
+          "Corinto",
+          "19212",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.12",
+          "0.06"
+        ],
+        [
+          "El Tambo",
+          "19256",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Florencia",
+          "19290",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.07"
+        ],
+        [
+          "Guapí",
+          "19318",
+          "0.40",
+          "0.35",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Inzá",
+          "19355",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.12",
+          "0.06"
+        ],
+        [
+          "Jambaló",
+          "19364",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.11",
+          "0.06"
+        ],
+        [
+          "La Sierra",
+          "19392",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "La Vega",
+          "19397",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.07"
+        ],
+        [
+          "López",
+          "19418",
+          "0.40",
+          "0.30",
+          "Alta",
+          "0.14",
+          "0.07"
+        ],
+        [
+          "Mercaderes",
+          "19450",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Miranda",
+          "19455",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.13",
+          "0.06"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

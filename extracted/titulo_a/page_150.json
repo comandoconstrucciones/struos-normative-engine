@@ -1,0 +1,171 @@
+{
+  "page_number": 150,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": null
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vmj",
+      "content": "cortante sísmico en la base correspondiente al modo m en la dirección horizontal j. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vi, Vx",
+      "content": "fuerza cortante del piso i o x, respectivamente, en la dirección en estudio, sin dividir por R. Se determina por medio de las ecuaciones del numeral A.4.3. Corresponde a la suma de las fuerzas horizontales sísmicas de diseño que se aplican al nivel i o x, y todos los niveles localizados por encima de él."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vs",
+      "content": "cortante sísmico de diseño en la base de la estructura, calculado por el método de la fuerza horizontal equivalente del Capítulo A.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vsd",
+      "content": "cortante sísmico en la base, para las fuerzas sísmicas del umbral de daño. Véase A.12.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vtj",
+      "content": "cortante sísmico total en la base en la dirección horizontal j. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vx",
+      "content": "fuerza cortante sísmica en el nivel x. Véase A.3.6.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "w",
+      "content": "contenido de agua en porcentaje, el cual se determina por medio de la norma NTC 1495 (ASTM D 2166)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "α",
+      "content": "exponente para ser utilizado en el cálculo del período aproximado Ta. Véase A.4.2.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δicmj",
+      "content": "desplazamiento horizontal, del centro de masa del piso i, en la dirección j. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δi",
+      "content": "desplazamiento horizontal del nivel i con respecto a la base de la estructura, debido a las fuerzas horizontales fi, para ser utilizado en la ecuación A.4.2-1, o desplazamiento horizontal del centro de masas del nivel i de la estructura, en metros, utilizado en el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δmax",
+      "content": "desplazamiento horizontal máximo en el nivel x. Véase ecuación A.3.6-2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δipdj",
+      "content": "desplazamiento horizontal adicional, del centro de masa del piso i, causado por efectos P-Delta, en la dirección j. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δprom",
+      "content": "promedio de los desplazamientos horizontales en puntos extremos de la estructura en el nivel x. Véase ecuación A.3.6-2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δitj",
+      "content": "desplazamiento horizontal adicional causado por efectos de torsión, de cualquier punto del diafragma del piso i, en la dirección j. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "δitotj",
+      "content": "desplazamiento total horizontal, de cualquier punto del diafragma del piso i en la dirección j Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Δicmj",
+      "content": "deriva del piso i, en la dirección bajo estudio, j, medida en el centro de masa del piso, como la diferencia entre el desplazamiento horizontal del piso i menos el del piso i-1 en la misma dirección j. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Δij",
+      "content": "deriva del piso i en la dirección principal en planta j."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Δimax",
+      "content": "deriva máxima de diseño para cualquier punto del piso i. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φa",
+      "content": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en altura de la edificación. Véase A.3.3.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φe",
+      "content": "coeficiente de reducción de resistencia por estado de la estructura. Véase A.10.4.3.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φc",
+      "content": "coeficiente de reducción de resistencia por calidad del diseño y construcción de la estructura. Véase A.10.4.3.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φijm",
+      "content": "amplitud de desplazamiento del nivel i de la edificación, en la dirección j, cuando está vibrando en el modo m. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φp",
+      "content": "coeficiente de reducción de la capacidad de disipación de energía causado por irregularidades en planta de la edificación. Véase A.3.3.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Φr",
+      "content": "coeficiente de reducción de la capacidad de disipación de energía causado por ausencia de redundancia en el sistema estructural de resistencia sísmica. Véase A.3.3.8."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Ω0",
+      "content": "coeficiente de sobreresistencia. Véase A.3.3.9."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "θi",
+      "content": "rotación alrededor de un eje vertical que pasa por el centro de masa del piso i, causada por los efectos torsionales, en radianes. Véase el Capítulo A.6."
+    }
+  ],
+  "references": [
+    "Capítulo A.5",
+    "A.4.3",
+    "Capítulo A.4",
+    "A.12.4",
+    "Capítulo A.5",
+    "A.3.6.6",
+    "A.4.2.2",
+    "Capítulo A.6",
+    "A.4.2-1",
+    "Capítulo A.6",
+    "A.3.6-2",
+    "Capítulo A.6",
+    "A.3.6-2",
+    "Capítulo A.6",
+    "Capítulo A.6",
+    "Capítulo A.6",
+    "Capítulo A.6",
+    "Capítulo A.6",
+    "A.3.3.3",
+    "A.10.4.3.4",
+    "A.10.4.3.4",
+    "Capítulo A.5",
+    "A.3.3.3",
+    "A.3.3.8",
+    "A.3.3.9",
+    "Capítulo A.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

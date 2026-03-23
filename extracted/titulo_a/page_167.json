@@ -1,0 +1,492 @@
+{
+  "page_number": 167,
+  "elements": [
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "NSR-10 - Apéndice A-4",
+      "title": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Municipios",
+      "title": "Valores de Aa, Av, Ae y Ad",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "San Luis",
+          "05660",
+          "0.15",
+          "0.25",
+          "Alta",
+          "0.12",
+          "0.06"
+        ],
+        [
+          "San Pedro",
+          "05664",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.12",
+          "0.06"
+        ],
+        [
+          "San Pedro de Urabá",
+          "05665",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.06",
+          "0.04"
+        ],
+        [
+          "San Rafael",
+          "05667",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "San Roque",
+          "05670",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.05"
+        ],
+        [
+          "San Vicente",
+          "05674",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.11",
+          "0.06"
+        ],
+        [
+          "Santa Bárbara",
+          "05679",
+          "0.20",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.09"
+        ],
+        [
+          "Santa Rosa de Osos",
+          "05686",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Santafé de Antioquia",
+          "05042",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.13",
+          "0.07"
+        ],
+        [
+          "Santo Domingo",
+          "05690",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "Santuario",
+          "05697",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.11",
+          "0.06"
+        ],
+        [
+          "Segovia",
+          "05736",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Sonsón",
+          "05756",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.12",
+          "0.07"
+        ],
+        [
+          "Sopetrán",
+          "05761",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Támesis",
+          "05789",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.09"
+        ],
+        [
+          "Tarazá",
+          "05790",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Tarso",
+          "05792",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.09"
+        ],
+        [
+          "Titiribí",
+          "05809",
+          "0.20",
+          "0.20",
+          "Intermedia",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Toledo",
+          "05819",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.13",
+          "0.07"
+        ],
+        [
+          "Turbo",
+          "05837",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.13",
+          "0.07"
+        ],
+        [
+          "Uramita",
+          "05842",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.12",
+          "0.07"
+        ],
+        [
+          "Urrao",
+          "05847",
+          "0.30",
+          "0.30",
+          "Alta",
+          "0.17",
+          "0.10"
+        ],
+        [
+          "Valdivia",
+          "05854",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Valparaíso",
+          "05856",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.09"
+        ],
+        [
+          "Vegachí",
+          "05858",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.05"
+        ],
+        [
+          "Venecia",
+          "05861",
+          "0.20",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.08"
+        ],
+        [
+          "Vigía del Fuerte",
+          "05873",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.22",
+          "0.12"
+        ],
+        [
+          "Yalí",
+          "05885",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "Yarumal",
+          "05887",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "Yolombó",
+          "05890",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Yondó",
+          "05893",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.06",
+          "0.04"
+        ],
+        [
+          "Zaragoza",
+          "05895",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "Departamento de Arauca",
+      "title": "Departamento de Arauca",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Departamento de Arauca",
+      "title": "Valores de Aa, Av, Ae y Ad",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Arauca",
+          "81001",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.10",
+          "0.04"
+        ],
+        [
+          "Arauquita",
+          "81065",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.03"
+        ],
+        [
+          "Cravo Norte",
+          "81220",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.03",
+          "0.02"
+        ],
+        [
+          "Fortul",
+          "81300",
+          "0.30",
+          "0.20",
+          "Alta",
+          "0.32",
+          "0.12"
+        ],
+        [
+          "Puerto Rondón",
+          "81591",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.14",
+          "0.05"
+        ],
+        [
+          "Saravena",
+          "81736",
+          "0.30",
+          "0.25",
+          "Alta",
+          "0.21",
+          "0.08"
+        ],
+        [
+          "Tame",
+          "81794",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.31",
+          "0.10"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "Archipiélago de San Andrés",
+      "title": "Archipiélago de San Andrés",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Archipiélago de San Andrés",
+      "title": "Valores de Aa, Av, Ae y Ad",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "San Andrés",
+          "88001",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Providencia y Santa Catalina",
+          "88564",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION_TITLE",
+      "section_path": "Departamento de Atlántico",
+      "title": "Departamento de Atlántico",
+      "content": null
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Departamento de Atlántico",
+      "title": "Valores de Aa, Av, Ae y Ad",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Barranquilla",
+          "08001",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Baranoa",
+          "08078",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Campo de la Cruz",
+          "08137",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.03"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,57 @@
+{
+  "page_number": 123,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10",
+      "title": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2",
+      "title": "ESTUDIOS E INVESTIGACIONES REQUERIDAS",
+      "content": "Para efectos de establecer si la reparación es viable o no, deben realizarse, como mínimo, los estudios e investigaciones que se describen a continuación:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.1",
+      "title": "Procedimiento de evaluación de los daños y del diseño de la reparación",
+      "content": "Debe seguirse el procedimiento indicado en A.10.1.4, y en las etapas 11 y 12 se deben seguir los requisitos de la presente sección A.10.10."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.2",
+      "title": "Información sobre la estructura y su estado",
+      "content": "Deben seguirse los requisitos de A.10.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.3",
+      "title": "Criterios para diseñar la reparación",
+      "content": "Los criterios que se deben emplear para identificar la causa de los daños y su reparación, son los establecidos en A.10.4, modificados de acuerdo con lo indicado en A.10.9.2 según la edad de la edificación. Para edificaciones de concreto estructural y mampostería, en la parte metodológica para la evaluación y el diseño de la reparación se permite el empleo de las recomendaciones contenidas en los documentos:\n(a) \"Evaluation of Earthquake Damaged Concrete and Masonry Wall Buildings - Basic Procedures Manual\", FEMA 306, Federal Emergency Management Agency, Building Seismic Safety Council, Washington, D.C., USA, 1999.\n(b) \"Evaluation of Earthquake Damaged Concrete and Masonry Wall Buildings Technical Resources\", FEMA 307, Federal Emergency Management Agency, Building Seismic Safety Council, Washington, D.C., USA, 1999.\n(c) \"Repair of Earthquake Damaged Concrete and Masonry Wall Buildings. FEMA 308, Federal Emergency Management Agency, Building Seismic Safety Council, Washington, D.C., USA, 1999\n(d) \"Seismic Rehabilitation of Existing Buildings\", ASCE/SEI 41-06, American Society of Civil Engineers, Reston Virginia, USA, 2006."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.2",
+      "title": "Cálculos memorias y planos de la reparación",
+      "content": "Los cálculos, memorias y planos de la reparación deben ajustarse a lo requerido en A.10.1.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.10.2.3",
+      "title": "Supervisión técnica",
+      "content": "La reparación debe someterse a una supervisión técnica cuando la Ley 400 de 1997 y sus reglamentos la requieran."
+    }
+  ],
+  "references": [
+    "A.10.1.4",
+    "A.10.10",
+    "A.10.2",
+    "A.10.4",
+    "A.10.9.2",
+    "A.10.1.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

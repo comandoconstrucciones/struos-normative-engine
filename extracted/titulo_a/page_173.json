@@ -1,0 +1,518 @@
+{
+  "page_number": 173,
+  "elements": [
+    {
+      "type": "TITLE",
+      "content": "NSR-10 - Apéndice A-4 - Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-1",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Morales",
+          "19473",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Padilla",
+          "19513",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.07"
+        ],
+        [
+          "Páez",
+          "19517",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.11",
+          "0.05"
+        ],
+        [
+          "Patía",
+          "19532",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Piamonte",
+          "19533",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "Piendamó",
+          "19548",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Puerto Tejada",
+          "19573",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.13",
+          "0.08"
+        ],
+        [
+          "Puracé",
+          "19585",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.12",
+          "0.06"
+        ],
+        [
+          "Rosas",
+          "19622",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "San Sebastián",
+          "19693",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.15",
+          "0.07"
+        ],
+        [
+          "Santa Rosa",
+          "19701",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Santander de Quilichao",
+          "19698",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Silvia",
+          "19743",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Sotará",
+          "19760",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.13",
+          "0.07"
+        ],
+        [
+          "Suárez",
+          "19780",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Sucre",
+          "19785",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Timbío",
+          "19807",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.16",
+          "0.08"
+        ],
+        [
+          "Timbiquí",
+          "19809",
+          "0.40",
+          "0.30",
+          "Alta",
+          "0.14",
+          "0.08"
+        ],
+        [
+          "Toribío",
+          "19821",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.09",
+          "0.05"
+        ],
+        [
+          "Totoró",
+          "19824",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.10",
+          "0.05"
+        ],
+        [
+          "Villa Rica",
+          "19845",
+          "0.25",
+          "0.20",
+          "Alta",
+          "0.14",
+          "0.08"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION_TITLE",
+      "content": "Departamento del Cesar"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-2",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Cesar",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Valledupar",
+          "20001",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Aguachica",
+          "20011",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Agustín Codazzi",
+          "20013",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Astréa",
+          "20032",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Becerril",
+          "20045",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Bosconia",
+          "20060",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Chimichagua",
+          "20175",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Chiriguaná",
+          "20178",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Curumaní",
+          "20228",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "El Copey",
+          "20238",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "El Paso",
+          "20250",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Gamarra",
+          "20295",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "González",
+          "20310",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "La Gloria",
+          "20383",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "La Jagua de Ibirico",
+          "20400",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "La Paz",
+          "20621",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Manaure",
+          "20443",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Pailitas",
+          "20517",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Pelaya",
+          "20550",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Pueblo Bello",
+          "20570",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Río de Oro",
+          "20614",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "San Alberto",
+          "20710",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "San Diego",
+          "20750",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "San Martín",
+          "20770",
+          "0.20",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Tamalameque",
+          "20787",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION_TITLE",
+      "content": "Departamento del Chocó"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-3",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Chocó",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Quibdó",
+          "27001",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.25",
+          "0.13"
+        ],
+        [
+          "Acandí",
+          "27006",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.09",
+          "0.04"
+        ],
+        [
+          "Alto Baudó",
+          "27025",
+          "0.40",
+          "0.40",
+          "Alta",
+          "0.24",
+          "0.10"
+        ],
+        [
+          "Atrato",
+          "27050",
+          "0.35",
+          "0.35",
+          "Alta",
+          "0.24",
+          "0.10"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

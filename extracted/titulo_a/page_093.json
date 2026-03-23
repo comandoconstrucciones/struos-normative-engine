@@ -1,0 +1,55 @@
+{
+  "page_number": 93,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.7",
+      "title": "INTERACCIÓN SUELO-ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.1",
+      "title": "DEFINICIÓN",
+      "content": "La respuesta sísmica de la estructura está íntimamente ligada a la forma como los movimientos sísmicos del terreno afectan la estructura a través de su cimentación. Las características dinámicas del suelo subyacente, la rigidez y disposición de la cimentación y el tipo de sistema estructural de la edificación interactúan entre sí para caracterizar los efectos sísmicos sobre ella. El hecho de que no se tome en cuenta la rigidez de la cimentación y las características dinámicas del suelo subyacente en el análisis sísmico de la edificación puede conducir a variaciones apreciables entre la respuesta sísmica estimada y la respuesta real de la estructura. Por las razones anotadas es conveniente incluir los efectos de la interacción suelo-estructura en el análisis sísmico de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.2",
+      "title": "EFECTOS ASOCIADOS CON LA INTERACCIÓN SUELO-ESTRUCTURA",
+      "content": "Dependiendo de las características de la estructura, de su cimentación y del suelo subyacente, la respuesta de la estructura ante solicitaciones estáticas verticales y dinámicas (sismo) puede variar con respecto al estimativo que se realiza sin tener en cuenta la interacción suelo-estructura, en los siguientes aspectos:\n(a) La presencia de suelos blandos y compresibles en las distribución de esfuerzos y deformaciones bajo losas de fundación, tanto ante solicitaciones de cargas verticales como de fuerzas horizontales,\n(b) Aumento en el periodo del sistema suelo-estructura que considera la flexibilidad del suelo, respecto a la evaluación de los períodos de vibración de la edificación considerando un modelo de base empotrada,\n(c) Generalmente aumento del amortiguamiento viscoso equivalente del sistema estructura-cimentación-suelo respecto al considerado para solo la estructura, al involucrar la disipación adicional de energía producto de los amortiguamientos material y geométrico del suelo,\n(d) Aumento de los desplazamientos laterales de la estructura ante solicitaciones sísmicas, debidos en parte significativa a la rotación de la base por efecto de cabeceo, con cambios en las derivas (desplazamientos horizontales relativos) en función de la altura a la que se encuentren los niveles en consideración,\n(e) Variación en la distribución de las fuerzas cortantes horizontales producidas por los movimientos sísmicos, entre los diferentes elementos del sistema de resistencia sísmica, especialmente cuando se combinan elementos con rigideces y sistemas de apoyo en la cimentación diferentes, como puede ser el caso de combinación de pórticos y muros estructurales,\n(f) y otros."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.2.1",
+      "title": "",
+      "content": "Los efectos de interacción suelo-estructura no deben confundirse con los efectos de sitio, causados por la amplificación de la onda sísmica al viajar desde la roca hasta la superficie, los cuales se describen en el Capítulo A.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.1.3",
+      "title": "PROCEDIMIENTO RECOMENDADO",
+      "content": "El presente Capítulo define los criterios generales que deben ser tenidos en cuenta, tanto por el ingeniero estructural como por el ingeniero geotecnista, cuando se deban utilizar procedimientos de interacción suelo-estructura, de acuerdo con los requisitos de A.3.4.2. Si a juicio del ingeniero estructural y el ingeniero geotecnista se dispone de la información necesaria, obtenida con el mayor rigor posible, acerca de los parámetros geotécnicos y estructurales involucrados, se pueden utilizar los requisitos presentados en el Apéndice A-2 del presente Título del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2",
+      "title": "INFORMACIÓN GEOTÉCNICA",
+      "content": "A continuación se describe el alcance mínimo de la exploración, interpretación y recomendaciones que debe contener el estudio geotécnico, en un todo de acuerdo con lo señalado en el Título H del presente Reglamento:"
+    }
+  ],
+  "references": [
+    "Capítulo A.2",
+    "A.3.4.2",
+    "Apéndice A-2",
+    "Título H"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

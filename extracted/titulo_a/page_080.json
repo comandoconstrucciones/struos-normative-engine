@@ -1,0 +1,68 @@
+{
+  "page_number": 80,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.5",
+      "title": "Método del análisis dinámico",
+      "content": "electrónicos, que utilice, cumplen los principios de la mecánica estructural y en especial los requisitos del presente\nCapítulo. El Reglamento no exige un procedimiento determinado y deja en manos del diseñador su selección y por\nende la responsabilidad de que se cumplan los principios enunciados aquí. Es responsabilidad del diseñador\ngarantizar que los procedimientos electrónicos, si son utilizados, describan adecuadamente la respuesta dinámica de\nla estructura tal como la prescriben los requisitos del presente Capítulo."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2",
+      "title": "MODELO MATEMÁTICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1",
+      "title": "MODELO MATEMÁTICO A EMPLEAR",
+      "content": "El modelo matemático de la estructura debe describir la\ndistribución espacial de la masa y la rigidez de toda la estructura, de tal manera que sea adecuado para calcular las\ncaracterísticas relevantes de la respuesta dinámica de la misma. Como mínimo debe utilizarse uno de los siguientes\nprocedimientos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.1",
+      "title": "Modelo tridimensional con diafragma rígido",
+      "content": "En este tipo de modelo los entrepisos se\nconsideran diafragmas infinitamente rígidos en su propio plano. La masa de cada diafragma se considera\nconcentrada en su centro de masa. Los efectos direccionales pueden ser tomados en cuenta a través de las\ncomponentes apropiadas de los desplazamientos de los grados de libertad horizontales ortogonales del\ndiafragma. Este procedimiento debe utilizarse cuando se presentan irregularidades en planta del tipo 1aP,\n1bP, 4P o 5P, tal como las define A.3.3.4 (tabla A.3-6), y en aquellos casos en los cuales, a juicio del\ningeniero diseñador, este es el procedimiento más adecuado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.1.2",
+      "title": "Modelo tridimensional con diafragma flexible",
+      "content": "En este tipo de modelo se considera que las\nmasas aferentes a cada nudo de la estructura pueden desplazarse y girar en cualquier dirección horizontal o\nvertical. La rigidez de los elementos estructurales del sistema de resistencia sísmica se describe\ntridimensionalmente. El diafragma se representa por medio de elementos que describan adecuadamente su\nflexibilidad. Este procedimiento debe utilizarse cuando no existe un diafragma propiamente dicho, cuando el\ndiafragma es flexible en comparación con los elementos estructurales verticales del sistema estructural de\nresistencia sísmica, o cuando se presentan irregularidades en planta del tipo 2P o 3P, tal como las define\nA.3.3.4 (tabla A.3-6), y en aquellos casos en los cuales, a juicio del ingeniero diseñador, éste es el\nprocedimiento más adecuado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.5.2.1.3",
+      "title": "Modelos limitados a un plano vertical",
+      "content": "En este tipo de modelo la respuesta de la estructura\nse limita a movimientos horizontales en una sola dirección. Este modelo se permite en todos los casos que no\nestán cubiertos por A.5.2.1.1. y A.5.2.1.2. Los efectos torsionales de los pisos deben evaluarse\nindependientemente y adicionarse a los valores obtenidos del análisis en un plano cuando el diafragma es\nrígido y pueden despreciarse cuando el diafragma es flexible. De igual manera los efectos producidos por la\ndirección de incidencia de los movimientos sísmicos del terreno deben evaluarse por separado y adicionarse\na los valores obtenidos del análisis dinámico."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.5.2.1.4",
+      "title": "Otros modelos",
+      "content": "Si a juicio del ingeniero diseñador las características de rigidez o de masa de\nla estructura lo requieren, se permite el uso de modelos de análisis inelástico dinámico o de métodos alternos,\ntal como lo indica A.3.4.1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.2",
+      "title": "MASA DE LA EDIFICACIÓN",
+      "content": "Las masas de la edificación que se utilicen en el análisis dinámico deben\nser representativas de las masas que existirán en la edificación cuando ésta se vea sometida a los movimientos\nsísmicos de diseño. Para efectos de los requisitos de este Reglamento, la masa total de la edificación se puede tomar\ncomo M. La distribución de la masa de la edificación debe representar la distribución real de las distintas masas de la\nedificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.2.3",
+      "title": "RIGIDEZ EN LOS MÉTODOS DINÁMICOS ELÁSTICOS",
+      "content": "La rigidez que se utilice en los elementos\nestructurales del sistema de resistencia sísmica cuando se empleen métodos dinámicos elásticos, debe seleccionarse\ncuidadosamente y debe ser representativa de la rigidez cuando éstos se vean sometidos a los movimientos sísmicos\nde diseño. En las estructuras de concreto y mampostería, la rigidez que se asigne debe ser consistente con el grado\nde fisuración que puedan tener los diferentes elementos al verse sometidos a las deformaciones que imponen los\nmovimientos sísmicos de diseño. Cuando haya variaciones apreciables en la rigidez de los diferentes elementos\nverticales del sistema de resistencia sísmica que contribuyen a la resistencia de las mismas componentes del\nmovimiento, la rigidez que se le asigne a cada uno de ellos debe ser consistente con los niveles de deformación."
+    }
+  ],
+  "references": [
+    "A.3.3.4",
+    "A.3-6",
+    "A.5.2.1.1",
+    "A.5.2.1.2",
+    "A.3.4.1"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

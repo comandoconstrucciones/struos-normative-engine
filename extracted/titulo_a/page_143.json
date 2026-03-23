@@ -1,0 +1,128 @@
+{
+  "page_number": 143,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "NSR-10 Capítulo A.13",
+      "title": "Definiciones y nomenclatura del Título A",
+      "content": "aéreos de la edificación en la colindancia."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Perfil de suelo",
+      "content": "Son los diferentes estratos de suelo existentes debajo del sitio de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Período de vibración, T",
+      "content": "Es el tiempo que transcurre dentro de un movimiento armónico ondulatorio, o vibratorio, para que éste se repita."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Período de vibración fundamental",
+      "content": "Es el mayor período de vibración de la estructura en la dirección horizontal de interés."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Peso",
+      "content": "Efecto gravitacional sobre la masa. Se obtiene de multiplicar la masa en kg, por la aceleración debida a la gravedad, g (g= 9.8 m/s²). Se expresa en newtons, N (1 N = 1 kg · 1 m/s²)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Piso",
+      "content": "Es el espacio comprendido entre dos niveles de una edificación. Piso x es el que está debajo del nivel x."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Piso flexible",
+      "content": "Es aquel en el cual la rigidez ante fuerzas horizontales, del sistema de resistencia sísmica, es menor que el 70% de la rigidez ante fuerzas horizontales, del sistema de resistencia sísmica, del piso inmediatamente superior."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Piso débil",
+      "content": "Es aquel en el cual la resistencia ante fuerzas horizontales, del sistema de resistencia sísmica, del piso es menor que el 70% de la resistencia ante fuerzas horizontales, del sistema de resistencia sísmica, del piso inmediatamente superior."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Plastificación progresiva, método de",
+      "content": "Método de análisis no lineal estático conocido en inglés con el nombre de \"push-over\" (Véase Apéndice A-3)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico",
+      "content": "Es un conjunto de vigas, columnas y, en algunos casos, diagonales, todos ellos interconectados entre si por medio de conexiones o nudos que pueden ser, o no, capaces de transmitir momentos flectores de un elemento a otro. Dependiendo de sus características tiene las siguientes denominaciones:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico arriostrado",
+      "content": "Véase la definición de pórtico con diagonales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico-cercha de acero resistente a momentos",
+      "content": "Pórtico en el que las vigas son cerchas cuyo tramo central, denominado segmento especial, se diseña para que actúe como elemento disipador de energía, de modo que todos los elementos diferentes al segmento especial permanezcan en el rango elástico."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico con diagonales",
+      "content": "Pórtico compuesto por vigas, columnas y diagonales excéntricas, o concéntricas, que se utiliza primordialmente para resistir fuerzas horizontales. Sus elementos trabajan principalmente deformándose axialmente, como en una cercha. Sus nudos pueden, o no, ser capaces de transmitir momentos flectores, dependiendo del material estructural que se emplee."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico con diagonales concéntricas",
+      "content": "Es un pórtico con diagonales en el cual éstas llegan a los nudos conformados por las conexiones entre vigas y columnas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico con diagonales excéntricas",
+      "content": "Es un pórtico, de acero estructural, con diagonales que cumple los requisitos presentados en el Capítulo F.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico de acero con diagonales restringidas a pandeo",
+      "content": "Es un pórtico con diagonales cuyo pandeo se restringe mediante el empleo de camisas rellenas de concreto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico espacial",
+      "content": "Es un sistema estructural tridimensional, que no tiene muros de carga, compuesto por elementos interconectados de tal manera que el conjunto actúe como una unidad, con o sin la ayuda de diafragmas horizontales o sistemas de arriostramiento horizontal. (Véase pórtico plano)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico losa-columna",
+      "content": "Es un sistema estructural tridimensional aporticado en el cual las losas cumplen la función de las vigas. Este sistema tiene numerosas restricciones impuestas por el Reglamento en su uso. Véase reticular cedulado."
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Pórtico no arriostrado",
+      "content": "Es un pórtico resistente a momentos que soporta las fuerzas horizontales por medio de momentos flectores en sus elementos, y que no tiene diagonales ni muros estructurales."
+    }
+  ],
+  "references": [
+    "Apéndice A-3",
+    "Capítulo F.3",
+    "pórtico plano",
+    "reticular cedulado",
+    "pórtico con diagonales"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

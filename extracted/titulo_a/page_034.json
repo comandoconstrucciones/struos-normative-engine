@@ -1,0 +1,106 @@
+{
+  "page_number": 34,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.3.5",
+      "title": "Contenido de agua",
+      "content": "En la clasificación de los estratos de arcilla se emplea el contenido de agua en porcentaje, w, el cual se determina por medio de la norma NTC 1495 (ASTM D 2166)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.4",
+      "title": "DEFINICIÓN DEL TIPO DE PERFIL DE SUELO",
+      "content": "El procedimiento que se emplea para definir el tipo de perfil de suelo se basa en los valores de los parámetros del suelo de los 30 metros superiores del perfil, medidos en el sitio que se describieron en A.2.4.3. La clasificación se da en la tabla A.2.4-1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.4-1",
+      "title": "Clasificación de los perfiles de suelo",
+      "table_headers": [
+        "Tipo de perfil",
+        "Descripción",
+        "Definición"
+      ],
+      "table_rows": [
+        [
+          "A",
+          "Perfil de roca competente",
+          "Vs ≥ 1500 m/s"
+        ],
+        [
+          "B",
+          "Perfil de roca de rigidez media",
+          "1500 m/s > Vs ≥ 760 m/s"
+        ],
+        [
+          "C",
+          "Perfiles de suelos muy densos o roca blanda, que cumplan con el criterio de velocidad de la onda de cortante, o\nperfiles de suelos muy densos o roca blanda, que cumplan con cualquiera de los dos criterios",
+          "760 m/s> Vs ≥ 360 m/s"
+        ],
+        [
+          "D",
+          "Perfiles de suelos rígidos que cumplan con el criterio de velocidad de la onda de cortante, o\nperfiles de suelos rígidos que cumplan cualquiera de las dos condiciones",
+          "360 m/s > Vs ≥ 180 m/s"
+        ],
+        [
+          "",
+          "",
+          "N ≥ 50, o\nS≥ 100 kPa (≈1 kgf/cm²)"
+        ],
+        [
+          "",
+          "",
+          "50 > N ≥ 15, o\n100 kPa (≈1 kgf/cm²) > S ≥ 50 kPa (≈0.5 kgf/cm²)"
+        ],
+        [
+          "E",
+          "Perfil que cumpla el criterio de velocidad de la onda de cortante, o\nperfil que contiene un espesor total H mayor de 3 m de arcillas blandas",
+          "180 m/s > Vs"
+        ],
+        [
+          "",
+          "",
+          "IP > 20\nW ≥ 40%\n50 kPa (≈0.50 kgf/cm²) > Su"
+        ],
+        [
+          "F",
+          "Los perfiles de suelo tipo F requieren una evaluación realizada explícitamente en el sitio por un ingeniero geotecnista de acuerdo con el procedimiento de A.2.10. Se contemplan las siguientes subclases:\nF1 – Suelos susceptibles a la falla o colapso causado por la excitación sísmica, tales como: suelos licuables, arcillas sensitivas, suelos dispersivos o débilmente cementados, etc.\nF2 – Turba y arcillas orgánicas y muy orgánicas (H > 3 m para turba o arcillas orgánicas y muy orgánicas).\nF3 – Arcillas de muy alta plasticidad (H > 7.5 m con Índice de Plasticidad IP > 75)\nF4 – Perfiles de gran espesor de arcillas de rigidez mediana a blanda (H > 36 m)",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5",
+      "title": "PROCEDIMIENTO DE CLASIFICACIÓN",
+      "content": "El procedimiento para definir el perfil es el siguiente:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.1",
+      "title": "Paso 1",
+      "content": "Debe primero verificarse si el suelo cae dentro de la clasificación de alguna de las categorías de perfil de suelo tipo F, en cuyo caso debe realizarse un estudio sísmico particular de clasificación en el sitio, por parte de un ingeniero geotécnista siguiendo los lineamientos de A.2.10."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.2",
+      "title": "Paso 2",
+      "content": "Debe establecerse la existencia de estratos de arcilla blanda. La arcilla blanda se define como aquella que tiene una resistencia al corte no drenado menor de 50 kPa (0.50 kgf/cm²), un contenido de agua, w, mayor del 40%, y un índice de plasticidad, IP, mayor de 20. Si hay un espesor total, H, de 3 m o más de estratos de arcilla que cumplan estas condiciones el perfil se clasifica como tipo E."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.4.5.3",
+      "title": "Paso 3",
+      "content": "El perfil se clasifica utilizando uno de los tres criterios: vs, N, o la consideración conjunta de Nch y Su, seleccionando el aplicable como se indica a continuación. En caso que se cuente vs prevalecerá la clasificación basada en este criterio. En caso que no se cuente con vs se podrá utilizar el criterio basado en N que involucra todos los estratos del perfil. Alternativamente se podrá utilizar el criterio basado conjuntamente en Su, para la fracción de suelos cohesivos y el criterio Nch, que toma en cuenta la fracción de los suelos no cohesivos del perfil. Para esta tercera consideración, en caso que las dos evaluaciones respectivas indiquen perfiles diferentes, se debe utilizar el perfil de suelos más blandos de los dos casos, por ejemplo asignando un perfil tipo E en vez de tipo D. En la tabla A.2.4-2 se resumen los tres"
+    }
+  ],
+  "references": [
+    "A.2.4.3",
+    "Tabla A.2.4-1",
+    "A.2.10",
+    "Tabla A.2.4-2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,531 @@
+{
+  "glossary_links": {
+    "Aa": {
+      "term": "Aa",
+      "definition": "Coeficiente que representa la aceleración horizontal pico efectiva para diseño",
+      "defined_in": "A.2.2",
+      "references": [
+        "Paso 3",
+        "A.2.0",
+        "A.2.1.3",
+        "A.2.2.1",
+        "A.2.2.2",
+        "A.2.2.3",
+        "A.2.3.1",
+        "Α.2.3.2",
+        "A.2.3.3",
+        "Figura A.2.3-2",
+        "A.2.4.5.5",
+        "A.2.9.3.4",
+        "A.3.0",
+        "A.10.0",
+        "A.10.3.4",
+        "A.12.3.1",
+        "A.13.1",
+        "A-2.0",
+        "Figura A-2.2-1",
+        "A-4",
+        "NSR-10 - Apéndice A-4",
+        "A.4"
+      ],
+      "count": 76
+    },
+    "Av": {
+      "term": "Av",
+      "definition": "Coeficiente que representa la velocidad horizontal pico efectiva para diseño",
+      "defined_in": "A.2.2",
+      "references": [
+        "Paso 3",
+        "Paso 4",
+        "A.2.0",
+        "A.2.1.3",
+        "A.2.2.1",
+        "A.2.2.3",
+        "A.2.3.1",
+        "Α.2.3.2",
+        "Figura A.2.3-3",
+        "Figura A.2.4-2",
+        "A.2.9.3.4",
+        "A.3.0",
+        "A.10.0",
+        "A.10.3.4",
+        "A-4",
+        "NSR-10 - Apéndice A-4",
+        "A.4"
+      ],
+      "count": 62
+    },
+    "Fa": {
+      "term": "Fa",
+      "definition": "Coeficiente de amplificación que afecta la aceleración en la zona de periodos cortos, debido a los efectos de sitio",
+      "defined_in": "A.2.4",
+      "references": [
+        "Paso 4",
+        "A.2.0",
+        "A.2.4.1",
+        "A.2.4.5.5",
+        "A.2.4.5.7",
+        "A.2.9.3.6"
+      ],
+      "count": 16
+    },
+    "Fv": {
+      "term": "Fv",
+      "definition": "Coeficiente de amplificación que afecta la aceleración en la zona de periodos intermedios, debido a los efectos de sitio",
+      "defined_in": "A.2.4",
+      "references": [
+        "A.2.0",
+        "A.2.4.1",
+        "Figura A.2.4-2",
+        "A.2.4.5.7",
+        "A.2.9.3.6",
+        "A.12.0"
+      ],
+      "count": 14
+    },
+    "I": {
+      "term": "I",
+      "definition": "Coeficiente de importancia de la edificación según su grupo de uso",
+      "defined_in": "A.2.5",
+      "references": [
+        "A.1.2",
+        "A.1.2.3.1",
+        "Paso 4",
+        "A.1.3.8",
+        "A.1.3.9",
+        "A.1.3.9.5",
+        "A.1.3.11",
+        "A.1.3.12",
+        "A.1.4.1",
+        "A.1.5.2",
+        "A.2.0",
+        "Α.2.4.2",
+        "Α.2.4.3.1",
+        "A.2.5.2",
+        "A.2",
+        "A.3.0",
+        "A.3",
+        "A.3.3.6",
+        "A.3.3.7",
+        "A.3.4.2.1",
+        "A.3.8",
+        "A.3.9.3",
+        "Notas",
+        "A.5.0",
+        "A.6.0",
+        "A.6.2.1.2",
+        "A.6.2.3",
+        "A.6.2",
+        "A.6.3.1.1",
+        "A.6.3.1.2",
+        "A.8.0",
+        "A.8.2.1.1",
+        "A.9.0",
+        "A.9.1.3",
+        "A.10.1.6",
+        "A.12.0",
+        "A.13",
+        "Fi",
+        "Fi, Fx",
+        "hi",
+        "hi, hx",
+        "hpi",
+        "hwi",
+        "lwi",
+        "mi",
+        "mi, mx",
+        "Pi",
+        "Qi",
+        "Sui",
+        "Vsi",
+        "Vi, Vx",
+        "δicmj",
+        "δi",
+        "δipdj",
+        "δitj",
+        "δitotj",
+        "Δicmj",
+        "Δij",
+        "Δimax",
+        "Φijm",
+        "θi",
+        "A-1.0",
+        "A-1.3.3",
+        "Yi",
+        "A-3.2-3",
+        "NSR-10 - Apéndice A-3",
+        "A-3.2.10"
+      ],
+      "count": 258
+    },
+    "T": {
+      "term": "T",
+      "definition": "Periodo fundamental de vibración de la edificación",
+      "defined_in": "A.4.2",
+      "references": [
+        "A.2.0",
+        "A.2",
+        "A.4.2.1",
+        "A.4.2.2",
+        "A.4.2.3",
+        "A.5.4.5 (a)",
+        "A.6.0",
+        "A.6.2.1.1",
+        "A.8.0",
+        "A.9.0",
+        "A.12.0",
+        "A.12.3.1",
+        "Figura A.12.3-1",
+        "Sa",
+        "Sad",
+        "Sd",
+        "Sv",
+        "A-1.0",
+        "A-1.2.1",
+        "A-2.0",
+        "A-2.2.1.1",
+        "Figura A-2.2-1",
+        "A-3.2.9",
+        "A-3.2.10"
+      ],
+      "count": 82
+    },
+    "Ta": {
+      "term": "Ta",
+      "definition": "Periodo aproximado de vibración calculado con fórmulas empíricas",
+      "defined_in": "A.4.2.1",
+      "references": [
+        "A.4.2.2",
+        "A.4.2",
+        "A.5.0",
+        "A.6.0",
+        "α",
+        "A-2.0"
+      ],
+      "count": 14
+    },
+    "T0": {
+      "term": "T0",
+      "definition": "Periodo de vibración al cual inicia la zona de aceleraciones constantes del espectro (inicio de la meseta)",
+      "defined_in": "A.2.6",
+      "references": [],
+      "count": 0
+    },
+    "TC": {
+      "term": "TC",
+      "definition": "Periodo de vibración correspondiente a la transición entre la zona de aceleración constante (meseta) y la de velocidad constante (rama descendente)",
+      "defined_in": "A.2.6",
+      "references": [
+        "A.2.0",
+        "A.2.6.1.1",
+        "A.2.6.2.1",
+        "A.2.6.3.1",
+        "RC"
+      ],
+      "count": 20
+    },
+    "TL": {
+      "term": "TL",
+      "definition": "Periodo de vibración correspondiente al inicio de la zona de desplazamiento aproximadamente constante",
+      "defined_in": "A.2.6",
+      "references": [
+        "A.2.0",
+        "A.2.6.2.2",
+        "A.2.6.3.2"
+      ],
+      "count": 6
+    },
+    "Cu": {
+      "term": "Cu",
+      "definition": "Coeficiente para calcular el límite superior del periodo fundamental. Depende de la zona sísmica.",
+      "defined_in": "A.4.2.1",
+      "references": [],
+      "count": 4
+    },
+    "Sa": {
+      "term": "Sa",
+      "definition": "Aceleración espectral de diseño expresada como fracción de la gravedad. Varía con el periodo T.",
+      "defined_in": "A.2.6",
+      "references": [
+        "A.2.0",
+        "A.2.6.1",
+        "A.2.6.1.1",
+        "A.2.6.1.2",
+        "A.3.0",
+        "A.5.4.3",
+        "A.8.0",
+        "A-2.0"
+      ],
+      "count": 24
+    },
+    "R": {
+      "term": "R",
+      "definition": "Coeficiente de capacidad de disipación de energía en el rango inelástico. Depende del sistema estructural y sus irregularidades.",
+      "defined_in": "A.3.3",
+      "references": [
+        "A.2.0",
+        "A.2.9.4",
+        "Figura A.2.9-1",
+        "A.3.0",
+        "A.3",
+        "A.3.2.4.1",
+        "A.3.2.5.b",
+        "A.3.2.5.c",
+        "A.3.2.5.d",
+        "A.3.3.3",
+        "A.3.4",
+        "A.3.7.1",
+        "A.3.7.2",
+        "Notas",
+        "A.5.0",
+        "A.5.4.1",
+        "A.5.5.3",
+        "A.5.5.4",
+        "A.5.5.5",
+        "A.6.0",
+        "A.10.0",
+        "A.10.4.2.4",
+        "(d)",
+        "A.10.4.2.8",
+        "A.10.5.2 (c)",
+        "A.10.7.2.2",
+        "A.10.8.2.2",
+        "NSR-10 Capítulo A.13",
+        "R",
+        "RC",
+        "Vi, Vx",
+        "A-1.0",
+        "A-2.0",
+        "A-2.2.1.2",
+        "Figura A-2.2-1",
+        "A-3.2.7"
+      ],
+      "count": 160
+    },
+    "R0": {
+      "term": "R0",
+      "definition": "Coeficiente de capacidad de disipación de energía básico para el sistema estructural de resistencia sísmica",
+      "defined_in": "A.3.3",
+      "references": [
+        "A.3",
+        "A.3.1.7",
+        "R",
+        "A-1.3.5"
+      ],
+      "count": 8
+    },
+    "Ω0": {
+      "term": "Ω0",
+      "definition": "Coeficiente de sobrerresistencia del sistema estructural",
+      "defined_in": "A.3.6",
+      "references": [
+        "A.3.0",
+        "A.3.3.9",
+        "A.3"
+      ],
+      "count": 8
+    },
+    "Cd": {
+      "term": "Cd",
+      "definition": "Coeficiente de amplificación de deflexiones para calcular derivas inelásticas a partir de las elásticas",
+      "defined_in": "A.6.3",
+      "references": [],
+      "count": 2
+    },
+    "Δ": {
+      "term": "Δ (Delta)",
+      "definition": "Deriva o desplazamiento horizontal relativo entre dos pisos consecutivos",
+      "defined_in": "A.6.3",
+      "references": [],
+      "count": 0
+    },
+    "Δmax": {
+      "term": "Δmax",
+      "definition": "Deriva máxima permitida como porcentaje de la altura del piso. Varía según el sistema estructural.",
+      "defined_in": "A.6.4.1",
+      "references": [
+        "A.6.0"
+      ],
+      "count": 2
+    },
+    "hpi": {
+      "term": "hpi",
+      "definition": "Altura del piso i, medida desde la parte superior de un piso hasta la parte superior del siguiente",
+      "defined_in": "A.6.4",
+      "references": [
+        "A.6.4.1",
+        "A.12.0",
+        "A.12.5.3"
+      ],
+      "count": 6
+    },
+    "Vs": {
+      "term": "Vs",
+      "definition": "Cortante sísmico en la base de la estructura",
+      "defined_in": "A.4.3",
+      "references": [
+        "A.2.4.5.3",
+        "A.2.4.5.4",
+        "A.4.3.1",
+        "A.5.0",
+        "A.5.4.5",
+        "A.5.4.5 (a)",
+        "A.5.4.5 (b)",
+        "A.5.5.3",
+        "A.5.5.4",
+        "A.12.0",
+        "Figura A.12.3-1",
+        "A.12.4.4",
+        "A-2.2.1",
+        "A-2.2.1.1"
+      ],
+      "count": 40
+    },
+    "k": {
+      "term": "k",
+      "definition": "Exponente relacionado con el periodo de la estructura para la distribución vertical de fuerzas sísmicas",
+      "defined_in": "A.4.3",
+      "references": [
+        "A.1.2",
+        "A.1.3.3",
+        "A.1",
+        "A.2.0",
+        "A.2.4.3.3",
+        "A.2",
+        "A-2.0"
+      ],
+      "count": 30
+    },
+    "Ct": {
+      "term": "Ct",
+      "definition": "Coeficiente para el cálculo del periodo aproximado según el sistema estructural",
+      "defined_in": "A.4.2.1",
+      "references": [],
+      "count": 2
+    },
+    "α": {
+      "term": "α (alpha)",
+      "definition": "Exponente para el cálculo del periodo aproximado según el sistema estructural",
+      "defined_in": "A.4.2.1",
+      "references": [],
+      "count": 0
+    },
+    "φa": {
+      "term": "φa",
+      "definition": "Coeficiente de reducción de R por irregularidades en altura",
+      "defined_in": "A.3.3.4",
+      "references": [
+        "A.3.0",
+        "A.3.3.3",
+        "A.3.3.5",
+        "A.3.3.5.1",
+        "Notas",
+        "A.10.0"
+      ],
+      "count": 16
+    },
+    "φp": {
+      "term": "φp",
+      "definition": "Coeficiente de reducción de R por irregularidades en planta",
+      "defined_in": "A.3.3.5",
+      "references": [
+        "A.3.0",
+        "A.3.3.3",
+        "A.3.3.4",
+        "Notas",
+        "A.10.0"
+      ],
+      "count": 14
+    },
+    "φr": {
+      "term": "φr",
+      "definition": "Coeficiente de reducción de R por ausencia de redundancia estructural",
+      "defined_in": "A.3.3.8",
+      "references": [
+        "A.3.0",
+        "A.3.3.3",
+        "A.3.3.8",
+        "A.3.3.8.1",
+        "A.3.3.8.2",
+        "Notas",
+        "A.10.0",
+        "NSR-10 Capítulo A.13"
+      ],
+      "count": 22
+    },
+    "perfil_suelo": {
+      "term": "Perfil de suelo",
+      "definition": "Clasificación del suelo basada en las propiedades de los 30 metros superiores del perfil",
+      "defined_in": "A.2.4.1",
+      "references": [
+        "A.2.4",
+        "A.2.4.1",
+        "Α.2.4.2",
+        "A.2.4.3",
+        "A.2.4.4",
+        "A.2.4.5.1",
+        "Α.2.10.1.1",
+        "A.3.4.2.1",
+        "A.3.4.2.2"
+      ],
+      "count": 22
+    },
+    "zona_sismica": {
+      "term": "Zona de amenaza sísmica",
+      "definition": "Clasificación geográfica de la amenaza sísmica en Colombia",
+      "defined_in": "A.2.3",
+      "references": [
+        "Paso 3",
+        "A.3.4.2.1",
+        "A.10.7.3",
+        "A-4",
+        "NSR-10 - Apéndice A-4",
+        "A.4"
+      ],
+      "count": 32
+    }
+  },
+  "implicit_definitions": [
+    {
+      "term": "To",
+      "definition": "período de vibración al cual inicia la zona de aceleraciones constantes del espectro de aceleraciones, en s.",
+      "section": null,
+      "page": 26
+    },
+    {
+      "term": "Vsi",
+      "definition": "velocidad media de la onda de cortante del suelo del estrato i, medida en campo, en m/s",
+      "section": null,
+      "page": 26
+    },
+    {
+      "term": "W",
+      "definition": "contenido de agua en porcentaje, el cual se determina por medio de la norma NTC 1495 (ASTM D 2166).",
+      "section": null,
+      "page": 26
+    },
+    {
+      "term": "aceleración debida a la gravedad (g",
+      "definition": "9.8 m/s²).",
+      "section": "g",
+      "page": 148
+    },
+    {
+      "term": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, R0, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R",
+      "definition": "ΦaΦpΦrR0). Véase el Capítulo A.3.",
+      "section": "R",
+      "page": 149
+    },
+    {
+      "term": "coeficiente de sitio para ser empleado en el espectro sísmico del umbral de daño (S barra",
+      "definition": "1.25S).",
+      "section": "S barra",
+      "page": 149
+    }
+  ],
+  "stats": {
+    "terms_in_glossary": 28,
+    "definitions_extracted": 6,
+    "total_references": 940
+  }
+}

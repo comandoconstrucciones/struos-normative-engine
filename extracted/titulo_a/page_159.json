@@ -1,0 +1,69 @@
+{
+  "page_number": 159,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "APÉNDICE A-3",
+      "title": "PROCEDIMIENTO NO LINEAL ESTÁTICO DE PLASTIFICACIÓN PROGRESIVA “PUSH-OVER\"",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "PREFACIO",
+      "title": null,
+      "content": "Este apéndice trata del análisis no lineal estático, un procedimiento de análisis sísmico también conocido algunas veces como análisis \"push-over\", o método de capacidad, o método de la curva de capacidad.\nEste apéndice no es de carácter obligatorio y se ha incluido con el fin de que se estudie preliminarmente con el fin de adoptarlo en ediciones futuras del Reglamento si se considera conveniente.\nAunque el análisis estático no lineal se ha incluido solo recientemente en las disposiciones de diseño y construcción de edificaciones, el procedimiento en sí mismo no es nuevo y ha sido utilizado durante muchos años tanto en investigación como en aplicaciones de diseño. Por ejemplo, el análisis no lineal estático ha sido utilizado durante muchos años como metodología estándar en el diseño de estructuras para plataformas marinas para efectos hidrodinámicos, y ha sido adoptado recientemente en varias metodologías estándar para la evaluación y rehabilitación sísmica de edificaciones, incluyendo los Criterios Recomendados de Diseño Sísmico para Edificios con Estructura de Acero Resistente a Momentos (FEMA-350, 2000a), Pre-estándar y Comentarios para la Rehabilitación Sísmica de Edificios (FEMA 356, 2000b) y Evaluación Sísmica y Mejoramiento de Edificios (ATC 40, 1996). El análisis no lineal estático constituye el fundamento para los procedimientos de estimación de pérdidas por sismos contenida en HAZUS (NIBS, 1999), que es el modelo de estimación de pérdidas sísmicas de la oficina de atención de desastres norteamericana (FEMA). Aunque no aparece explícitamente en el Reglamento, la metodología del análisis no lineal estático también constituye la base para los procedimientos de la fuerza lateral equivalente contenidos en las disposiciones para estructuras aisladas en la base y estructuras con disipadores de energía.\nUna de las objeciones a la introducción de una metodología de esta naturaleza en el Reglamento se relaciona con la determinación de la deformación límite (llamada algunas veces desplazamiento de desempeño). Se han propuesto diferentes metodologías para determinar el desplazamiento inducido a la estructura por los movimientos del terreno producidos por un sismo y algunas de ellas han sido adoptadas como procedimiento normativo en diferentes países. El tratamiento presentado en este apéndice se basa en correlaciones estadísticas de los desplazamientos cuya predicción se ha realizado utilizando metodologías de análisis lineal y no lineal de la estructura, las cuales son similares a las contenidas en FEMA 356. Un segundo motivo de discusión tiene que ver con la falta de uniformidad de criterio respecto a la bondad del diseño una vez se han estimado las fuerzas y deformaciones producidas por el sismo de diseño. Se debe tener en cuenta que esta limitación aplica igualmente al tratamiento contra el tiempo de la respuesta no lineal, la cual ya ha sido adoptada en el Reglamento.\nEl análisis no lineal estático corresponde a un método simplificado para evaluar directamente la respuesta no lineal de estructuras a movimientos fuertes del terreno causados por un sismo. Esta es una alternativa atractiva en comparación a los procedimientos más complejos del análisis de respuesta no lineal contra el tiempo. Se espera que la consideración de esta metodología a través de su inclusión en este apéndice permitirá el desarrollo del consenso necesario para permitir una posterior integración en el Reglamento como tal."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1 - GENERAL",
+      "title": null,
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.1",
+      "title": "Propósito",
+      "content": "En el presente Apéndice se dan recomendaciones para realizar un análisis no lineal estático, también conocido como procedimiento \"push-over\". Este apéndice no tiene carácter obligatorio dentro del reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.2",
+      "title": "Alcance",
+      "content": "Los requisitos del presente Apéndice pueden emplearse en el análisis y diseño sismo resistente de edificaciones existentes y nuevas. Se dan los parámetros de análisis y diseño sismo resistente de una forma compatible con lo que se requiere en el Título A del Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.3",
+      "title": "Definiciones",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Base (Base)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Carga Muerta (Dead load)",
+      "content": "Véase Capítulo A.13"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "Carga Viva (Live load)",
+      "content": "Véase Capítulo A.13"
+    }
+  ],
+  "references": [
+    "FEMA-350, 2000a",
+    "FEMA 356, 2000b",
+    "ATC 40, 1996",
+    "NIBS, 1999",
+    "Capítulo A.13",
+    "Título A"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

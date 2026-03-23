@@ -1,0 +1,76 @@
+{
+  "page_number": 42,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "title": "Zonas de amenaza sísmica y movimientos sísmicos de diseño",
+      "content": "período de vibración en el rango comprendido entre 0.8T y 1.2T, donde T es el período de vibración fundamental inelástico esperado de la estructura en la dirección bajo estudio, menores que el 80% de las ordenadas espectrales del movimiento esperado del terreno definidas en A.2.6, y el promedio de las ordenadas espectrales de todos los registros utilizados, en el rango comprendido entre 0.2T y 1.5T, no debe ser menor que las ordenadas espectrales en el mismo rango de períodos para el movimiento esperado del terreno definido en A.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2",
+      "content": "(d) Cuando en el Capítulo A.5 estos registros se utilizan en análisis tridimensionales, deben utilizarse las dos componentes horizontales del mismo registro las cuales se deben escalar con el mismo factor de escala. En este caso, en vez del promedio mencionado en (c) se debe utilizar la raíz cuadrada de la suma de los cuadrados de los valores."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.8",
+      "title": "COMPONENTE VERTICAL DE LOS MOVIMIENTOS SÍSMICOS",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.8.1",
+      "content": "Cuando se utilice la componente vertical de los movimientos sísmicos de diseño, como mínimo debe tomarse como las dos terceras partes de los valores correspondientes a los efectos horizontales, ya sea en el espectro de diseño, o en las familias de acelerogramas, de contar en este caso con solo registros horizontales (Véase A.5.4.6). En caso de usar acelerogramas reales podrá emplearse la aceleración vertical registrada con el ajuste equivalente que se haya realizado a las componentes horizontales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9",
+      "title": "ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.1",
+      "content": "Cuando se adelanten estudios de microzonificación sísmica que cumplan con el alcance dado en la sección A.2.9.3, las autoridades municipales o distritales, están facultadas para expedir una reglamentación substitutiva de carácter obligatorio, que reemplace lo indicado en las secciones A.2.4 y A.2.6 del presente Reglamento. Los estudios de microzonificación sísmica cubiertos por el alcance del presente Reglamento, tienen como fin último dar parámetros de diseño para edificaciones respecto a la amplificación de las ondas sísmicas por efecto de los suelos subyacentes bajo la ciudad objeto de la microzonificación sísmica y por lo tanto se deben restringir a este fin. Estudios análogos para el diseño de construcciones diferentes a edificaciones y que cubran aspectos de diseño de líneas vitales o de otras construcciones no cubiertas por el alcance de la Ley 400 de 1997, deben ser objeto de un alcance, que aunque análogo, podría no ser el indicado en la presente sección del Reglamento y su trámite debe ser independiente de lo cubierto en el presente Reglamento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.2",
+      "content": "Las capitales de departamento y las ciudades de más de 100 000 habitantes, localizadas en las zonas de amenaza sísmica intermedia y alta, con el fin de tener en cuenta el efecto que sobre las construcciones tenga la propagación de la onda sísmica a través de los estratos de suelo subyacentes, deberán armonizar los instrumentos de planificación para el ordenamiento territorial, con un estudio o estudios de microzonificación sísmica, que cumpla con el alcance dado en la sección A.2.9.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3",
+      "title": "ALCANCE",
+      "content": "El alcance del estudio de microzonificación sísmica debe cubrir, como mínimo, los siguientes temas, los cuales deben consignarse en un informe detallado en el cual se describan las labores realizadas, los resultados de estas labores y las fuentes de información provenientes de terceros consideradas, si las hubo:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.1",
+      "title": "Geología y neotectónica",
+      "content": "Los estudios que deben realizarse corresponden a:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.1",
+      "content": "(a) Un estudio geológico y geomorfológico regional con énfasis especial en la identificación de la deformación tectónica sismogénica ocurrida durante el Cuaternario (Neotectónica) y en la determinación de la edad de tales deformaciones sismogénicas, orientado a la definición de tasas de recurrencia sísmica. El estudio neotectónico debe registrar todos los indicadores morfotectónicos y estratigráficos conducentes a identificar claramente la geometría y cinemática de las fallas sismogénicas que hallan tenido actividad sismogénica recurrente durante el Cuaternario, con lo cual, para efectos del presente Reglamento, dicha falla se considera activa. Además, dicho estudio geológico regional debe contener mapas de geología estructural regional que incluyan los tipos de roca, las estructuras geológicas de superficie y las fallas geológicas, incluyendo estimativos acerca de su longitud, continuidad y tipo de desplazamiento que han sufrido."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.9.3.1",
+      "content": "(b) Opcionalmente, cuando una falla geológica, que el estudio de neotectónica haya definido como activa, esté localizada a menos de veinte kilómetros alrededor del área que se está microzonificando, ésta puede investigarse por medio de estudios particulares de neotectónica y paleosismología, que entre otras técnicas pueden utilizar trincheras de exploración sismológica,"
+    }
+  ],
+  "references": [
+    "A.2.6",
+    "A.5",
+    "A.5.4.6",
+    "A.2.9.3",
+    "A.2.4",
+    "A.2.6",
+    "A.2.9.3"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

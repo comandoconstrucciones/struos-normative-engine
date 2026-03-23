@@ -1,0 +1,74 @@
+{
+  "page_number": 94,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.1",
+      "title": "EXPLORACIÓN",
+      "content": "Los procedimientos de exploración deben ser consistentes con el tipo de propiedades que deban estudiarse, ya sea por procedimientos de campo o de laboratorio. Debe tenerse especial cuidado respecto a los niveles de deformación a que se expresen las propiedades del suelo, los cuales deben ser compatibles con los niveles de deformación que le imponen los movimientos sísmicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.2",
+      "title": "LABORATORIO",
+      "content": "Los procedimientos de laboratorio deben cuantificar, directa o indirectamente, las características del material bajo condiciones dinámicas y a los niveles de deformación esperados durante los movimientos sísmicos."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.3",
+      "title": "INTERPRETACIÓN",
+      "content": "La información de campo y de laboratorio debe combinarse en un conjunto de recomendaciones que describan y sustenten las características que debe emplear el ingeniero estructural en los modelos matemáticos del fenómeno. Las recomendaciones deben fijar limitaciones y rangos de aplicabilidad, fáciles de identificar, con el fin de evitar el peligro que entraña la utilización de los parámetros recomendados, fuera del contexto bajo el cual se expresaron."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.2.4",
+      "title": "REVISIÓN Y EVALUACIÓN DE LOS RESULTADOS",
+      "content": "El ingeniero geotecnista debe revisar y avalar los resultados obtenidos por el ingeniero estructural, en lo concerniente a las recomendaciones para interacción suelo-estructura del estudio geotécnico y a la validez de los resultados de interacción suelo-estructura obtenidos con base en sus propias recomendaciones."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3",
+      "title": "ANÁLISIS Y DISEÑO ESTRUCTURAL",
+      "content": "A continuación se describe el alcance mínimo de los aspectos que debe tener en cuenta el ingeniero estructural para describir los efectos de interacción suelo-estructura:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.1",
+      "title": "ΤΙPO DE MODELO",
+      "content": "Los modelos matemáticos pueden ser estáticos o dinámicos y deben describir las características de rigidez de la estructura, la cimentación y el suelo, a niveles compatibles con las deformaciones esperadas. En los modelos estructurales utilizados en el análisis de la estructura deben introducirse condiciones de apoyo elástico de los muros, columnas y elementos del sistema de resistencia sísmica al nivel de la cimentación, consistentes con las rigideces supuestas para obtener la respuesta de la estructura teniendo en cuenta los efectos de interacción suelo-estructura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.2",
+      "title": "FUERZAS DE DISEÑO DE LOS ELEMENTOS ESTRUCTURALES",
+      "content": "El modelo matemático empleado debe utilizarse en la evaluación de las características propias de la respuesta de la estructura ante las diferentes solicitaciones. La distribución de las fuerzas internas de la estructura que se utilice en el diseño de la misma debe ser la que se obtiene a través del análisis que incluye los efectos de interacción suelo-estructura."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.3",
+      "title": "DERIVAS",
+      "content": "Las derivas obtenidas al utilizar los procedimientos de interacción suelo-estructura deben cumplir con los límites establecidos en el Capítulo A.6. Como se indicó en A.7.1.2 (d) hay casos en que deben esperarse derivas mayores que las que se obtendrían al suponer la estructura empotrada en su base."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.4",
+      "title": "CORTANTE SÍSMICO EN LA BASE",
+      "content": "En aquellos casos en los cuales se presente un aumento en el cortante sísmico en la base, el diseño debe realizarse para el cortante obtenido utilizando la interacción suelo-estructura. Cuando debido a un aumento en el periodo estructural equivalente y/o en el amortiguamiento efectivo se presente una disminución del cortante sísmico de diseño en la base, el valor del cortante sísmico de diseño en la base no puede ser menor que el que se obtendría utilizando el método de la fuerza horizontal equivalente del Capítulo A.4, empleando un período de vibración igual a CuTa según A.4.2.1 y los espectros del Capítulo A.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.7.3.5",
+      "title": "VALORES MÁXIMOS Y MÍNIMOS DE LOS EFECTOS DE INTERACCIÓN SUELO-ESTRUCTURA",
+      "content": "Debido a la incertidumbre que presenta la determinación de los parámetros del suelo utilizados en el análisis de interacción suelo-estructura, deben considerarse los valores máximos y mínimos esperados de tales parámetros y utilizarse aquellos que produzcan los efectos más desfavorables, tanto en la determinación de los cortantes sísmicos, como para el cálculo de las derivas de piso y las fuerzas de diseño de los elementos de la estructura y la cimentación."
+    }
+  ],
+  "references": [
+    "A.6",
+    "A.7.1.2",
+    "A.4",
+    "A.4.2.1",
+    "A.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

@@ -1,0 +1,477 @@
+{
+  "total_unique_norms": 21,
+  "norms_by_type": {
+    "NTC": [
+      "NTC 1000",
+      "NTC 1527",
+      "NTC 2041",
+      "NTC 1495"
+    ],
+    "ISO": [
+      "ISO 1000"
+    ],
+    "ASCE": [
+      "ASCE/SEI 7-05",
+      "ASCE 31",
+      "ASCE 41",
+      "ASCE/SEI 31-03",
+      "ASCE/SEI 41-06"
+    ],
+    "FEMA": [
+      "FEMA 450",
+      "FEMA 178",
+      "FEMA 306",
+      "FEMA 307",
+      "FEMA 308",
+      "FEMA 356",
+      "FEMA 250",
+      "FEMA 2000A"
+    ],
+    "EUROCODE": [
+      "EN 0",
+      "EN 300",
+      "EN 1960"
+    ]
+  },
+  "norms": [
+    {
+      "code": "NTC 1000",
+      "type": "NTC",
+      "cited_in": [
+        "A.1.7.1"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "ISO 1000",
+      "type": "ISO",
+      "cited_in": [
+        "A.1.7.1"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "NTC 1527",
+      "type": "NTC",
+      "cited_in": [
+        "A.2.0",
+        null,
+        "A.2.11",
+        "Sui"
+      ],
+      "citation_count": 4
+    },
+    {
+      "code": "NTC 2041",
+      "type": "NTC",
+      "cited_in": [
+        "A.2.0",
+        null,
+        "A.2.11",
+        "Sui"
+      ],
+      "citation_count": 4
+    },
+    {
+      "code": "NTC 1495",
+      "type": "NTC",
+      "cited_in": [
+        null,
+        "A.2.4.3.5",
+        "A.2.11",
+        "w"
+      ],
+      "citation_count": 4
+    },
+    {
+      "code": "ASCE/SEI 7-05",
+      "type": "ASCE",
+      "cited_in": [
+        "A.3.8"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "FEMA 450",
+      "type": "FEMA",
+      "cited_in": [
+        "A.3.8",
+        "A.3.9"
+      ],
+      "citation_count": 2
+    },
+    {
+      "code": "ASCE 31",
+      "type": "ASCE",
+      "cited_in": [
+        "A.6.4.1.2"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "ASCE 41",
+      "type": "ASCE",
+      "cited_in": [
+        "A.6.4.1.2"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "EN 0",
+      "type": "EUROCODE",
+      "cited_in": [
+        "A.9.5.4"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "EN 300",
+      "type": "EUROCODE",
+      "cited_in": [
+        "Notas"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "ASCE/SEI 31-03",
+      "type": "ASCE",
+      "cited_in": [
+        "A.10.4.4",
+        "REFERENCIAS"
+      ],
+      "citation_count": 2
+    },
+    {
+      "code": "FEMA 178",
+      "type": "FEMA",
+      "cited_in": [
+        "A.10.4.4"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "ASCE/SEI 41-06",
+      "type": "ASCE",
+      "cited_in": [
+        "A.10.10.2.3",
+        "REFERENCIAS"
+      ],
+      "citation_count": 2
+    },
+    {
+      "code": "FEMA 306",
+      "type": "FEMA",
+      "cited_in": [
+        "A.10.10.2.3"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "FEMA 307",
+      "type": "FEMA",
+      "cited_in": [
+        "A.10.10.2.3"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "FEMA 308",
+      "type": "FEMA",
+      "cited_in": [
+        "A.10.10.2.3"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "EN 1960",
+      "type": "EUROCODE",
+      "cited_in": [
+        null
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "FEMA 356",
+      "type": "FEMA",
+      "cited_in": [
+        "PREFACIO",
+        "NSR-10 - Apéndice A-3",
+        "A-3.2.10",
+        "REFERENCIAS"
+      ],
+      "citation_count": 4
+    },
+    {
+      "code": "FEMA 250",
+      "type": "FEMA",
+      "cited_in": [
+        "REFERENCIAS"
+      ],
+      "citation_count": 1
+    },
+    {
+      "code": "FEMA 2000A",
+      "type": "FEMA",
+      "cited_in": [
+        "REFERENCIAS"
+      ],
+      "citation_count": 1
+    }
+  ],
+  "section_to_norms": {
+    "A.1.7.1": [
+      "NTC 1000",
+      "ISO 1000"
+    ],
+    "A.2.0": [
+      "NTC 1527",
+      "NTC 2041"
+    ],
+    "null": [
+      "NTC 1495",
+      "NTC 1527",
+      "NTC 2041",
+      "EN 1960"
+    ],
+    "A.2.4.3.5": [
+      "NTC 1495"
+    ],
+    "A.2.11": [
+      "NTC 1495",
+      "NTC 1527",
+      "NTC 2041"
+    ],
+    "A.3.8": [
+      "ASCE/SEI 7-05",
+      "FEMA 450"
+    ],
+    "A.3.9": [
+      "FEMA 450"
+    ],
+    "A.6.4.1.2": [
+      "ASCE 31",
+      "ASCE 41"
+    ],
+    "A.9.5.4": [
+      "EN 0"
+    ],
+    "Notas": [
+      "EN 300"
+    ],
+    "A.10.4.4": [
+      "ASCE/SEI 31-03",
+      "FEMA 178"
+    ],
+    "A.10.10.2.3": [
+      "ASCE/SEI 41-06",
+      "FEMA 306",
+      "FEMA 307",
+      "FEMA 308"
+    ],
+    "Sui": [
+      "NTC 1527",
+      "NTC 2041"
+    ],
+    "w": [
+      "NTC 1495"
+    ],
+    "PREFACIO": [
+      "FEMA 356"
+    ],
+    "NSR-10 - Apéndice A-3": [
+      "FEMA 356"
+    ],
+    "A-3.2.10": [
+      "FEMA 356"
+    ],
+    "REFERENCIAS": [
+      "ASCE/SEI 31-03",
+      "ASCE/SEI 41-06",
+      "FEMA 250",
+      "FEMA 2000A",
+      "FEMA 356"
+    ]
+  },
+  "edges": [
+    {
+      "source_section": "A.1.7.1",
+      "target_norm": "NTC 1000",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.1.7.1",
+      "target_norm": "ISO 1000",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.0",
+      "target_norm": "NTC 1527",
+      "relation": "CITES"
+    },
+    {
+      "source_section": null,
+      "target_norm": "NTC 1527",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.11",
+      "target_norm": "NTC 1527",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "Sui",
+      "target_norm": "NTC 1527",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.0",
+      "target_norm": "NTC 2041",
+      "relation": "CITES"
+    },
+    {
+      "source_section": null,
+      "target_norm": "NTC 2041",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.11",
+      "target_norm": "NTC 2041",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "Sui",
+      "target_norm": "NTC 2041",
+      "relation": "CITES"
+    },
+    {
+      "source_section": null,
+      "target_norm": "NTC 1495",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.4.3.5",
+      "target_norm": "NTC 1495",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.2.11",
+      "target_norm": "NTC 1495",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "w",
+      "target_norm": "NTC 1495",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.3.8",
+      "target_norm": "ASCE/SEI 7-05",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.3.8",
+      "target_norm": "FEMA 450",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.3.9",
+      "target_norm": "FEMA 450",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.6.4.1.2",
+      "target_norm": "ASCE 31",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.6.4.1.2",
+      "target_norm": "ASCE 41",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.9.5.4",
+      "target_norm": "EN 0",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "Notas",
+      "target_norm": "EN 300",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.4.4",
+      "target_norm": "ASCE/SEI 31-03",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "REFERENCIAS",
+      "target_norm": "ASCE/SEI 31-03",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.4.4",
+      "target_norm": "FEMA 178",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.10.2.3",
+      "target_norm": "ASCE/SEI 41-06",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "REFERENCIAS",
+      "target_norm": "ASCE/SEI 41-06",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.10.2.3",
+      "target_norm": "FEMA 306",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.10.2.3",
+      "target_norm": "FEMA 307",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A.10.10.2.3",
+      "target_norm": "FEMA 308",
+      "relation": "CITES"
+    },
+    {
+      "source_section": null,
+      "target_norm": "EN 1960",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "PREFACIO",
+      "target_norm": "FEMA 356",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "NSR-10 - Apéndice A-3",
+      "target_norm": "FEMA 356",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "A-3.2.10",
+      "target_norm": "FEMA 356",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "REFERENCIAS",
+      "target_norm": "FEMA 356",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "REFERENCIAS",
+      "target_norm": "FEMA 250",
+      "relation": "CITES"
+    },
+    {
+      "source_section": "REFERENCIAS",
+      "target_norm": "FEMA 2000A",
+      "relation": "CITES"
+    }
+  ]
+}

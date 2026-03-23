@@ -1,0 +1,75 @@
+{
+  "page_number": 71,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.3-6",
+      "title": "Tabla A.3-6 Irregularidades en planta",
+      "table_headers": [
+        "Tipo",
+        "Descripción de la irregularidad en planta",
+        "Фр",
+        "Referencias"
+      ],
+      "table_rows": [
+        [
+          "1aP",
+          "Irregularidad torsional — La irregularidad torsional existe cuando en una edificación con diafragma rígido, la máxima deriva de piso de un extremo de la estructura, calculada incluyendo la torsión accidental y medida perpendicularmente a un eje determinado, es más de 1.2 y menor o igual a 1.4 veces la deriva promedio de los dos extremos de la estructura, con respecto al mismo eje de referencia.",
+          "0.9",
+          "A.3.3.6,\nA.3.4.2,\nA.3.6.3.1,\nA.3.6.7.1,\nA.3.6.8.4,\nA.5.2.1."
+        ],
+        [
+          "1bP",
+          "Irregularidad torsional extrema — La irregularidad torsional extrema existe cuando en una edificación con diafragma rígido, la máxima deriva de piso de un extremo de la estructura, calculada incluyendo la torsión accidental y medida perpendicularmente a un eje determinado, es más de 1.4 veces la deriva promedio de los dos extremos de la estructura, con respecto al mismo eje de referencia.",
+          "0.8",
+          "A.3.3.6,\nA.3.4.2,\nA.3.6.3.1,\nA.3.6.7.1,\nA.3.6.8.4,\nA.5.2.1."
+        ],
+        [
+          "2P",
+          "Retrocesos excesivos en las esquinas — La configuración de una estructura se considera irregular cuando ésta tiene retrocesos excesivos en sus esquinas. Un retroceso en una esquina se considera excesivo cuando las proyecciones de la estructura, a ambos lados del retroceso, son mayores que el 15 por ciento de la dimensión de la planta de la estructura en la dirección del retroceso.",
+          "0.9",
+          "A.3.4.2,\nA.3.6.8.4,\nA.3.6.8.5,\nA.5.2.1,"
+        ],
+        [
+          "3P",
+          "Discontinuidades en el diafragma — Cuando el diafragma tiene discontinuidades apreciables o variaciones en su rigidez, incluyendo las causadas por aberturas, entradas, retrocesos o huecos con áreas mayores al 50 por ciento del área bruta del diafragma o existen cambios en la rigidez efectiva del diafragma de más del 50 por ciento, entre niveles consecutivos, la estructura se considera irregular.",
+          "0.9",
+          "A.3.3.7,\nA.3.4.2,\nA.3.6.8.4,\nA.5.2.1."
+        ],
+        [
+          "4P",
+          "Desplazamientos del plano de acción de elementos verticales — La estructura se considera irregular cuando existen discontinuidades en las trayectorias de las fuerzas inducidas por los efectos sísmicos, tales como cuando se traslada el plano que contiene a un grupo de elementos verticales del sistema de resistencia sísmica, en una dirección perpendicular a él, generando un nuevo plano. Los altillos o manzardas de un solo piso se eximen de este requisito en la consideración de irregularidad.",
+          "0.8",
+          "A.3.3.7,\nA.3.4.2,\nA.3.6.8.4,\nA.3.6.12,\nA.5.2.1."
+        ],
+        [
+          "5P",
+          "Sistemas no paralelos — Cuando las direcciones de acción horizontal de los elementos verticales del sistema de resistencia sísmica no son paralelas o simétricas con respecto a los ejes ortogonales horizontales principales del sistema de resistencia sísmica, la estructura se considera irregular.",
+          "0.9",
+          "A.3.4.2,\nA.3.6.3.1,\nA.5.2.1."
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Notas",
+      "title": "Notas",
+      "content": "1. En zonas de amenaza sísmica intermedia para edificaciones pertenecientes al grupo de uso I, la evaluación de irregularidad\nse puede limitar a las irregularidades de los tipos 1aP, 1bP, 3P y 4P (Véase A.3.3.7).\n2. En zonas de amenaza sísmica baja para edificaciones pertenecientes a los grupos de uso I y II, la evaluación de\nirregularidad se puede limitar a las irregularidades tipo 1aP e 1bP (Véase A.3.3.6)."
+    }
+  ],
+  "references": [
+    "A.3.3.6",
+    "A.3.4.2",
+    "A.3.6.3.1",
+    "A.3.6.7.1",
+    "A.3.6.8.4",
+    "A.5.2.1",
+    "A.3.6.8.5",
+    "A.3.3.7",
+    "A.3.6.12",
+    "A.3.3.7",
+    "A.3.3.6"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

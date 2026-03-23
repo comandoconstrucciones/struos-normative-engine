@@ -1,0 +1,60 @@
+{
+  "page_number": 131,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.12.2-1",
+      "title": "Mapa de valores de Ad",
+      "content": "Mapa de Colombia con regiones sísmicas delimitadas y una tabla con los valores de Ad para cada región"
+    },
+    {
+      "type": "TABLE",
+      "section_path": null,
+      "title": null,
+      "table_headers": [
+        "Región",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "0.00-0.02"
+        ],
+        [
+          "2",
+          "0.03-0.04"
+        ],
+        [
+          "3",
+          "0.05-0.06"
+        ],
+        [
+          "4",
+          "0.07-0.08"
+        ],
+        [
+          "5",
+          "0.09-0.10"
+        ],
+        [
+          "6",
+          "0.11 -0.12"
+        ],
+        [
+          "7",
+          "0.13-0.14"
+        ]
+      ]
+    },
+    {
+      "type": "NOTE",
+      "section_path": null,
+      "content": "Nota: Las regiones representan rangos de valores. Debe consultarse el Apéndice A-4 para determinar el valor de Ad en cada municipio."
+    }
+  ],
+  "references": [
+    "Apéndice A-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

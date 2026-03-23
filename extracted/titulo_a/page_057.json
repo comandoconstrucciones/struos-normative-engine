@@ -1,0 +1,63 @@
+{
+  "page_number": 57,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3",
+      "title": "Capítulo A.3 Requisitos generales de diseño sismo resistente",
+      "content": "ingeniería. En la aplicación de cualquier método de análisis alterno no se pueden utilizar períodos fundamentales mayores de los permitidos en los Capítulos A.4 y A.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2",
+      "title": "MÉTODO DE ANÁLISIS A UTILIZAR",
+      "content": "Como mínimo deben emplearse los siguientes métodos de análisis:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.1",
+      "title": "Método de la fuerza horizontal equivalente",
+      "content": "Puede utilizarse el método de la fuerza horizontal equivalente en las siguientes edificaciones:\n(a) Todas las edificaciones, regulares e irregulares, en las zonas de amenaza sísmica baja,\n(b) Todas las edificaciones, regulares e irregulares, pertenecientes al grupo de uso I, localizadas en zonas de amenaza sísmica intermedia,\n(c) Edificaciones regulares, de 20 niveles o menos y 60 m de altura o menos medidos desde la base, en cualquier zona de amenaza sísmica, exceptuando edificaciones localizadas en lugares que tengan un perfil de suelo tipo D, E o F, con periodos de vibración mayores de 2TC,\n(d) Edificaciones irregulares que no tengan más de 6 niveles ni más de 18 m de altura medidos a partir de la base,\n(e) Estructuras flexibles apoyadas sobre estructuras más rígidas que cumplan los requisitos de Α.3.2.4.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.2",
+      "title": "Método del análisis dinámico elástico",
+      "content": "Debe utilizarse el método del análisis dinámico elástico en todas las edificaciones que no estén cubiertas por A.3.4.2.1, incluyendo las siguientes:\n(a) Edificaciones de más de 20 niveles o de más de 60 m de altura, exceptuando las edificaciones mencionadas en A.3.4.2.1 (a) y (b),\n(b) Edificaciones que tengan irregularidades verticales de los tipos 1aA, 1bA, 2A y 3A, tal como se definen en A.3.3.5,\n(c) Edificaciones que tengan irregularidades que no estén descritas en A.3.3.4 у А.3.3.5, exceptuando el caso descrito en A.3.2.4.3,\n(d) Edificaciones de más de 5 niveles o de más de 20 m de altura, localizadas en zonas de amenaza sísmica alta, que no tengan el mismo sistema estructural en toda su altura, con la excepción de los prescrito en A.3.2.4.3,\n(e) Estructuras, regulares o irregulares, localizadas en sitios que tengan un perfil de suelo D, E o F y que tengan un período mayor de 2TC. En este caso el análisis debe incluir los efectos de interacción suelo-estructura, tal como los prescribe el Capítulo A.7, cuando se realice un análisis de la estructura suponiéndola empotrada en su base."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.3",
+      "title": "Método del análisis dinámico inelástico",
+      "content": "Puede utilizarse el método del análisis dinámico inelástico en aquellos casos que a juicio del ingeniero diseñador, se presenten variaciones en la capacidad de disipación de energía en el rango inelástico que solo sea posible identificar por este procedimiento. Cuando se utilice este método de análisis deben cumplirse los requisitos dados en el Capítulo A.5. Los diseños realizados por esta metodología deben revisarse por dos profesionales, independientes del diseñador estructural, que cumplan los requisitos de idoneidad requeridos para revisores de diseños estructurales como lo prescribe la Ley 400 de 1997, quienes suscribirán un memorial en que se indique taxativamente que los procedimientos empleados consultan las mejores metodologías que se disponga sobre estos procedimientos y que la edificación así diseñada tiene resistencia y expectativas de comportamiento similares a los de una edificación diseñada por los otros métodos permitidos por el Reglamento, al verse sometida a movimientos sísmicos de intensidad similar a los movimientos sísmicos de diseño prescritos por este Reglamento. Este memorial se anexará a los documentos aportados para obtener la correspondiente licencia de construcción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.2.4",
+      "title": "Método de análisis no lineal estático de plastificación progresiva",
+      "content": "Puede utilizarse el método del análisis no lineal estático, conocido como procedimiento \"push-over\" o de plastificación progresiva, en aquellos casos que a juicio del ingeniero diseñador se desee evaluar la capacidad de disipación de energía en el rango inelástico por este procedimiento. Cuando se utilice este método de análisis deben cumplirse los requisitos dados en el Apéndice A-3 y además se deben confrontar con otro de los métodos de análisis permitidos por el Reglamento, utilizando en el diseño lo más exigente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.4.3",
+      "title": "RIGIDEZ DE LA ESTRUCTURA Y SUS ELEMENTOS",
+      "content": "Las rigideces que se empleen en el análisis estructural para el diseño sísmico deben ser definidas por el ingeniero diseñador de acuerdo con su criterio, teniendo en cuenta los preceptos dados para cada material estructural en el Título correspondiente de este Reglamento."
+    }
+  ],
+  "references": [
+    "A.4",
+    "A.5",
+    "Α.3.2.4.3",
+    "A.3.4.2.1",
+    "A.3.3.5",
+    "A.3.3.4",
+    "A.3.3.5",
+    "A.3.2.4.3",
+    "A.3.2.4.3",
+    "A.7",
+    "A.5",
+    "Apéndice A-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

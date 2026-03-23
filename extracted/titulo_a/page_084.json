@@ -1,0 +1,25 @@
+{
+  "page_number": 84,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.4",
+      "title": "FUERZAS DE DISEÑO EN LOS ELEMENTOS",
+      "content": "Para obtener las fuerzas de diseño de los elementos, se utilizan las fuerzas sísmicas internas máximas en los elementos, Fs, debidamente ajustadas de acuerdo con los requisitos de A.5.5.3, así:\n(a) Cuando se trate de un análisis dinámico elástico, se dividen por el valor del coeficiente de capacidad de disipación de energía, R, del sistema de resistencia sísmica, modificado de acuerdo con la irregularidad y ausencia de redundancia según los requisitos de A.3.3.3, para obtener las fuerzas sísmicas reducidas de diseño, E, y se combinan con las otras cargas prescritas por este Reglamento, de acuerdo con los requisitos del Título B, y\n(b) En los casos de análisis dinámico inelástico, las fuerzas al nivel en que ocurre la plastificación corresponde a las fuerzas sísmicas reducidas de diseño, E, y no deben ser divididas por el coeficiente de capacidad de disipación de energía. En este caso al aplicar el ajuste de los resultados indicado en A.5.5.3, se permite dividir el valor de Vs por R para efectos de hacer las comparaciones indicadas allí.\nDebe verificarse que las combinaciones de carga prescritas por este Reglamento, de acuerdo con los requisitos del Título B, exceptuando aquellas que incluyen sismo, en ningún caso conducen a esfuerzos mayores que los de plastificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.5.5.5",
+      "title": "FUERZAS DE DISEÑO EN LA CIMENTACIÓN",
+      "content": "Para obtener las fuerzas de diseño de la cimentación, se debe cumplir lo prescrito en A.3.7.2 cuando se trate de un análisis dinámico elástico. En el caso de un análisis dinámico inelástico no hay necesidad de dividir por R para encontrar las fuerzas sísmicas reducidas de diseño, E, de los elementos estructurales de la cimentación ni los esfuerzos sobre el suelo, los cuales solo deben multiplicarse por el coeficiente de carga igual a 0.7."
+    }
+  ],
+  "references": [
+    "A.5.5.3",
+    "A.3.3.3",
+    "Título B",
+    "A.3.7.2"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

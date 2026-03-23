@@ -1,0 +1,162 @@
+{
+  "page_number": 149,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.13",
+      "title": "Capítulo A.13 - Definiciones y nomenclatura del Título A",
+      "content": ""
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Qi",
+      "content": "índice de estabilidad del piso i utilizado en la evaluación de los efectos P-Delta. Véase A.6.2.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "rj",
+      "content": "proyección, sobre la dirección perpendicular en planta a la dirección en estudio, j, de la distancia entre el centro de masa del piso y el punto de interés. Véase el Capítulo A.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "R",
+      "content": "coeficiente de capacidad de disipación de energía para ser empleado en el diseño, corresponde al coeficiente de disipación de energía básico, R0, multiplicado por los coeficientes de reducción de capacidad de disipación de energía por irregularidades en altura, en planta, y por ausencia de redundancia en el sistema estructural de resistencia sísmica (R = ΦaΦpΦrR0). Véase el Capítulo A.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "R'",
+      "content": "coeficiente de capacidad de disipación de energía que se le asigna a la edificación existente de acuerdo con lo prescrito en el Capítulo A.10."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "R0",
+      "content": "coeficiente de capacidad de disipación de energía básico definido para cada sistema estructural y cada grado de capacidad de disipación de energía del material estructural. Véase el Capítulo A.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "RC",
+      "content": "coeficiente de capacidad de disipación de energía definido para la zona de períodos cortos menores de Tc en función del valor de R, cuando se exige así en los estudios de microzonificación. Definido en la ecuación A.2.9-1"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Rp",
+      "content": "coeficiente de capacidad de disipación de energía del elemento no estructural y sus sistema de soporte. Se da en las tablas A.9.5-1 у А.9.6-1."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sui",
+      "content": "es la resistencia al corte no drenado en kPa (kgf/cm²) del estrato i, la cual no debe exceder 250 kPa (2.5 kgf/cm²) para realizar el promedio ponderado. Esta resistencia se mide cumpliendo la norma NTC 1527 (ASTM D 2166) o la norma NTC 2041 (ASTM D 2850)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "S",
+      "content": "coeficiente de sitio considerado en A.12.3"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "S barra",
+      "content": "coeficiente de sitio para ser empleado en el espectro sísmico del umbral de daño (S barra = 1.25S)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sa",
+      "content": "valor del espectro de aceleraciones de diseño para un período de vibración dado. Máxima aceleración horizontal de diseño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sad",
+      "content": "valor del espectro sísmico del umbral de daño, para un período de vibración dado. Máxima aceleración horizontal para el umbral de daño, expresada como una fracción de la aceleración de la gravedad, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.12.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sam",
+      "content": "valor del espectro de aceleraciones de diseño para el período de vibración Tm, correspondiente al modo de vibración m. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sd",
+      "content": "valor del espectro de desplazamientos de diseño para un período de vibración dado. Máximo desplazamiento horizontal de diseño, expresado en m, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.3."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Sv",
+      "content": "valor del espectro de velocidades de diseño para un período de vibración dado. Máxima velocidad horizontal de diseño, expresada en m/s, para un sistema de un grado de libertad con un período de vibración T. Está definido en A.2.6.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "T",
+      "content": "período fundamental del edificio como se determina en A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "T0",
+      "content": "período de vibración al cual inicia la zona de aceleraciones constantes del espectro de aceleraciones, en s."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Ta",
+      "content": "período de vibración fundamental aproximado, en segundos, calculado de acuerdo con A.4.2."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Tc",
+      "content": "período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante del espectro de diseño, para períodos cortos, y la parte descendiente del mismo. Véase A.2.6."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Tcd",
+      "content": "período de vibración, en segundos, correspondiente a la transición entre la zona de aceleración constante del espectro sísmico del umbral de daño para períodos cortos y la parte descendiente del mismo. Véase el Capítulo A.12."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Tl",
+      "content": "período de vibración, en segundos, correspondiente al inicio de la zona de desplazamiento aproximadamente constante del espectro de diseño, para períodos largos. (Véase A.2.6)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Tld",
+      "content": "período de vibración, en segundos, correspondiente al inicio de la zona de desplazamiento aproximadamente constante del espectro de umbral de daño, para períodos largos. (Véase A.12.3.4)."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Tm",
+      "content": "período de vibración correspondiente al modo de vibración m, en seg. Véase el Capítulo A.5."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Ts",
+      "content": "período de vibración fundamental, en segundos, del depósito de suelo subyacente en el sitio. Véase A.2.4."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": "Vsi",
+      "content": "velocidad media de la onda de cortante del suelo del estrato i, medida en campo, en m/s."
+    }
+  ],
+  "references": [
+    "A.6.2.3",
+    "Capítulo A.6",
+    "A.3",
+    "Capítulo A.10",
+    "A.3",
+    "A.2.9-1",
+    "A.9.5-1",
+    "A.9.6-1",
+    "A.12.3",
+    "A.2.6",
+    "A.12.3",
+    "Capítulo A.5",
+    "A.2.6.3",
+    "A.2.6.2",
+    "A.4.2",
+    "A.4.2",
+    "A.2.6",
+    "Capítulo A.12",
+    "A.2.6",
+    "A.12.3.4",
+    "Capítulo A.5",
+    "A.2.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

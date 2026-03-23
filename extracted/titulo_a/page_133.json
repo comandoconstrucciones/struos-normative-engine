@@ -1,0 +1,62 @@
+{
+  "page_number": 133,
+  "elements": [
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3-5",
+      "formula_latex": "T_{Ld} = 2.4\\bar{S}",
+      "formula_python": "TLd = 2.4*S",
+      "formula_variables": {}
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.12.3-6",
+      "formula_latex": "S_{ad} = \\frac{1.5 A_d \\bar{S} T_{Ld}}{T^2}",
+      "formula_python": "Sad = (1.5 * Ad * S_bar * TLd) / (T**2)",
+      "formula_variables": {}
+    },
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.12.3-1",
+      "title": "Espectro de aceleraciones horizontales elástico del umbral de daño",
+      "content": "Gráfico de Sad (g) vs T (s) con los siguientes valores:\nSad = Ad (1+8T) (lineal creciente desde (0,Ad) hasta (0.25, valor máximo))\nSad = 3.0 Ad (constante entre 0.25s y Tcd)\nTcd = 0.5S\nSad = (1.5AdS)/T (decreciente entre Tcd y Tld)\nTLd = 2.4S\nSad = (1.5AdSTLd)/T^2 (decreciente a partir de Tld)\nNota: Este espectro está definido para un coeficiente de amortiguamiento del 2 por ciento del crítico"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.3.5",
+      "title": null,
+      "content": "Cuando la ciudad donde se encuentre localizada la edificación disponga de una reglamentación de microzonificación sísmica, debe utilizarse el espectro de umbral de daño definido allí. En su defecto, deben seguirse las prescripciones contenidas en la presente sección A.12.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4",
+      "title": "METODOLOGÍA DE ANÁLISIS",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.1",
+      "title": "MÉTODO DE ANÁLISIS A UTILIZAR",
+      "content": "En la verificación de la respuesta de la estructura a los movimientos sísmicos correspondientes al umbral de daño, como mínimo debe emplearse el método de la fuerza horizontal equivalente dado en el Capítulo A.4, aunque se permite el uso del método del análisis dinámico, prescrito en el Capítulo A.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.2",
+      "title": "RIGIDEZ DE LA ESTRUCTURA Y SUS ELEMENTOS",
+      "content": "Las rigideces que se empleen en el análisis estructural para verificación del umbral de daño deben ser compatibles con las fuerzas y deformaciones que le imponen los movimientos sísmicos correspondientes a la estructura. Al nivel de deformaciones del umbral de daño se considera que la estructura responde en el rango lineal y elástico de comportamiento y que los elementos no estructurales pueden contribuir a la rigidez de la estructura, si no están aislados de ella. Cuando los elementos no estructurales interactúan con la estructura al nivel de deformaciones del umbral de daño, debe tenerse en cuenta esta interacción, tanto en la estructura como en los elementos no estructurales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.12.4.3",
+      "title": "USO DEL MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE EN LA EVALUACIÓN DEL UMBRAL DE DAÑO",
+      "content": "Cuando se utilice el método de la fuerza horizontal equivalente en el análisis de la estructura para los movimientos sísmicos del umbral de daño deben tener en cuenta los siguientes aspectos:"
+    }
+  ],
+  "references": [
+    "A.12.3",
+    "Capítulo A.4",
+    "Capítulo A.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

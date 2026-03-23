@@ -1,0 +1,56 @@
+[
+  {
+    "code": "NTC 1495",
+    "title": "Suelos. Ensayo para determinar el contenido de agua de suelos y rocas, con base en la masa",
+    "equivalent": "ASTM D 2166",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "ASTM D 2166",
+    "title": "Standard Test Method for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass",
+    "equivalent": "NTC 1495",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "NTC 1527",
+    "title": "Suelos. Método de ensayo para determinar la resistencia a la compresión incofinada de suelos cohesivos",
+    "equivalent": "ASTM D 2166",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "ASTM D 2166",
+    "title": "Standard Test Method for Unconfined Compressive Strength of Cohesive Soil",
+    "equivalent": "NTC 1527",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "NTC 2041",
+    "title": "Suelos. Determinación de la resistencia a la compresión triaxial no consolidada no drenada en suelos cohesivos.",
+    "equivalent": "ASTM D 2850",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "ASTM D 2850",
+    "title": "Standard Test Method for Unconsolidated-Undrained Triaxial Compression Test on Cohesive Soils",
+    "equivalent": "NTC 2041",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "ASTM D 1586",
+    "title": "Standard Test Method for Penetration Test and Split-barrel Sampling of Soils",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  },
+  {
+    "code": "ASTM D 4318",
+    "title": "Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils",
+    "section_reference": "A.2.11",
+    "source_page": 50
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "page_number": 30,
+  "elements": [
+    {
+      "type": "FIGURE",
+      "section_path": "Figura A.2.3-2",
+      "title": "Mapa de valores de Aa",
+      "content": "Mapa de Colombia mostrando las zonas de amenaza sísmica con valores de Aa"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.3-2 (implícita)",
+      "title": "Valores de Aa por Región",
+      "table_headers": [
+        "Región",
+        "Aa"
+      ],
+      "table_rows": [
+        [
+          "1",
+          "0.05"
+        ],
+        [
+          "2",
+          "0.10"
+        ],
+        [
+          "3",
+          "0.15"
+        ],
+        [
+          "4",
+          "0.20"
+        ],
+        [
+          "5",
+          "0.25"
+        ],
+        [
+          "6",
+          "0.30"
+        ],
+        [
+          "7",
+          "0.35"
+        ],
+        [
+          "8",
+          "0.40"
+        ],
+        [
+          "9",
+          "0.45"
+        ],
+        [
+          "10",
+          "0.50"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.2.3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

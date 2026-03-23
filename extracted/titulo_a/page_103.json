@@ -1,0 +1,72 @@
+{
+  "page_number": 103,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.8",
+      "title": "ELEMENTOS NO ESTRUCTURALES LOCALIZADOS EN LA BASE DE LA ESTRUCTURA Y POR DEBAJO DE ELLA, O FUERA DE ELLA",
+      "content": "Los elementos no estructurales, localizados a la altura, o por debajo, de la base de la estructura, o por fuera de ella, deben diseñarse para unas fuerzas sísmicas reducidas de diseño determinadas de acuerdo con la ecuación A.9.4-1, para una aceleración ax igual a AaI."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9",
+      "title": "TIPOS DE ANCLAJE SEGÚN EL VALOR DE Rp PERMITIDO PARA EL ELEMENTO NO ESTRUCTURAL",
+      "content": "Los sistemas de anclaje de los elementos no estructurales deben tener capacidad de disipación de energía en el rango inelástico y ductilidad compatible con el nivel mínimo de Rp requerido para el elemento no estructural. A continuación se indican algunos de los tipos de anclaje empleados en el medio y su grado de aceptabilidad para los diferentes valores de Rp:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.1",
+      "title": "Especiales (Rp = 6)",
+      "content": "Se trata de anclajes diseñados siguiendo los requisitos del Título F para estructuras acero estructural para capacidad de disipación especial (DES). Deben cumplirse todos los requisitos dados allí para permitir este valor de Rp."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.2",
+      "title": "Dúctiles (Rp = 6)",
+      "content": "Cuando el anclaje se realiza por medio de anclajes profundos que emplean químicos (epóxicos), anclajes profundos vaciados en el sitio, o anclajes vaciados en el sitio que cumplen los requisitos del Capítulo C.21. No se permiten los pernos de expansión ni anclajes colocados por medios explosivos (tiros). Anclajes profundos son aquellos en los cuales la relación entre la porción embebida al diámetro del perno es mayor de 8. Este tipo de anclajes debe emplearse cuando el elemento no estructural es dúctil."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.3",
+      "title": "No dúctiles (Rp = 1.5)",
+      "content": "Cuando el anclaje se realiza por medio de pernos de expansión, anclajes superficiales que emplean químicos (epóxicos), anclajes superficiales vaciados en el sitio, o anclajes colocados por medio explosivos (tiros). Anclajes superficiales son aquellos en los cuales la relación entre la porción embebida al diámetro del perno es menor de 8. Dentro de este tipo de anclajes se encuentran las barras de acero de refuerzo con ganchos en los extremos que se embeben dentro del mortero de pega de la mampostería. Este tipo de anclajes se permiten cuando el elemento no estructural no es dúctil. Si se utilizan en elementos no estructurales dúctiles, éstos deben diseñarse para el mismo valor de Rp = 1.5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.9.4",
+      "title": "Húmedos (Rp = 0.5)",
+      "content": "Cuando se utiliza mortero, o adhesivos que pegan directamente al mortero o al concreto, sin ningún tipo de anclaje mecánico resistente a tracción."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.10",
+      "title": "ELEMENTOS DE CONEXIÓN PARA COMPONENTES NO ESTRUCTURALES",
+      "content": "El elemento de conexión es el aditamento que conecta el elemento no estructural con los anclajes a la estructura. En algunos casos es el mismo elemento de anclaje. Las conexiones que permiten movimiento deben disponerse de tal manera que pueda haber movimiento relativo entre la estructura y el elemento no estructural, por medio de agujeros alargados, agujeros de un tamaño mayor que los espigos o tornillos, por medio de elemento de acero que se flexionan, u otros procedimientos, pero debe ser capaz de resistir las fuerzas sísmicas reducidas de diseño prescritas en las direcciones en las cuales no se permite el movimiento. En fachadas el elemento de conexión en sí, debe diseñarse para resistir una fuerza sísmica reducida de diseño igual a 1.33Fp y todos los pernos, tornillos, soldaduras, y espigos que pertenezcan al sistema de conexión, deben diseñarse para 3.0Fp."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5",
+      "title": "ACABADOS Y ELEMENTOS ARQUITECTÓNICOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.1",
+      "title": "GENERAL",
+      "content": "Los acabados y elementos arquitectónicos enumerados en la tabla A.9.5-1 y sus anclajes a la estructura deben diseñarse y detallarse de acuerdo con los requisitos de esta sección. Los cálculos y diseños de los elementos arquitectónicos y acabados deben incluirse como parte de las memorias de diseño de acabados."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.5.2",
+      "title": "ELEMENTOS QUE REQUIEREN ESPECIAL CUIDADO EN SU DISEÑO",
+      "content": "El comportamiento sísmico de algunos elementos no estructurales representan un peligro especialmente grave para la vida y en otros casos pueden"
+    }
+  ],
+  "references": [
+    "A.9.4-1",
+    "Capítulo C.21",
+    "tabla A.9.5-1"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

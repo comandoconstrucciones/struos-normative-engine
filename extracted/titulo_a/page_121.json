@@ -1,0 +1,56 @@
+{
+  "page_number": 121,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.10",
+      "title": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento",
+      "content": "Capítulo A.10 - Evaluación e Intervención de Edificaciones construidas antes de la vigencia de la presente versión del Reglamento"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.2",
+      "title": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Reglamento NSR-98 de la Ley 400 de 1997",
+      "content": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Reglamento NSR-98 de la Ley 400 de 1997 - Las estructuras según A.10.9.1, diseñadas y construidas con posterioridad al 19 de febrero de 1998, dentro de la vigencia de la Ley 400 de 1997, deben intervenirse cumpliendo los requisitos establecidos en A.10.4.2.1 con el fin de lograr un nivel de seguridad equivalente al de una edificación nueva y tratarse de acuerdo con los criterios y requisitos del presente Reglamento, de tal manera que la edificación una vez intervenida quede con un índice de sobreesfuerzo y un índice de flexibilidad menores que la unidad."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.3",
+      "title": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Decreto 1400 de 1984",
+      "content": "Intervención de edificaciones diseñadas y construidas dentro de la vigencia del Decreto 1400 de 1984 - En la intervención de edificaciones según A.10.9.1 diseñadas y construidas después del 1° de diciembre de 1984 y antes del 19 de febrero de 1998, dentro de la vigencia del Decreto 1400 de 1984, se permite cumplir con los siguientes requisitos, sustitutivos de los requisitos correspondientes contenidos en el presente Reglamento:\n(a) En el caso de diseñarse la intervención cumpliendo los requisitos establecidos en A.10.4.2.1, con el fin de lograr un nivel de seguridad equivalente al de una edificación nueva, se permite que el índice de flexibilidad evaluado para la edificación reparada alcance, sin exceder, valores hasta de 1.5. El índice de sobreesfuerzos no puede exceder la unidad.\n(b) Alternativamente, el diseño de la intervención se podrá hacer cumpliendo los requisitos para el nivel de seguridad limitada, establecidos en A.10.4.2.2, y tratarse de acuerdo con los criterios y requisitos del presente Reglamento, de tal manera que la edificación una vez intervenida quede con un índice de sobreesfuerzo y un índice de flexibilidad menores que la unidad. Se permitirá este nivel de seguridad limitada siempre y cuando se acepte por parte del propietario y se incluya, dentro de los documentos que se presentan para obtener las licencias y permisos correspondientes, un memorial firmado por el diseñador estructural y el propietario en el cual se declare que se utilizó el nivel de seguridad limitada. Este memorial se debe protocolizar mediante escritura pública en Notaría.\n(c) La intervención de los elementos no estructurales puede limitarse a elementos de fachada y columnas cortas o cautivas y a aquellos que se encuentren en mal estado y representen un peligro para la vida ante la ocurrencia de un sismo en el futuro. Al respecto debe consultarse A.9.5.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.4",
+      "title": "Intervención de edificaciones diseñadas y construidas antes de la vigencia del Decreto 1400 de 1984",
+      "content": "Intervención de edificaciones diseñadas y construidas antes de la vigencia del Decreto 1400 de 1984 - Las estructuras según A.10.9.1, diseñadas y construidas antes del 1º de diciembre de 1984, fecha en que entró en vigencia el Decreto 1400 de 1984, deben obtener, como mínimo, al ser intervenidas, el nivel de seguridad limitada prescrito en A.10.4.2.2 y tratarse de acuerdo con los criterios y requisitos del presente Reglamento, de tal manera que la edificación una vez intervenida quede con un índice de sobreesfuerzo y un índice de flexibilidad menores que la unidad. Se permitirá este nivel de seguridad limitada siempre y cuando se acepte por parte del propietario y se incluya, dentro de los documentos que se presentan para obtener las licencias y permisos correspondientes, un memorial firmado por el diseñador estructural y el propietario en el cual se declare que se utilizó el nivel de seguridad limitada. Este memorial se debe protocolizar mediante escritura pública en Notaría."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.2.5",
+      "title": "Edificaciones declaradas como patrimonio histórico",
+      "content": "Edificaciones declaradas como patrimonio histórico Cuando se trate de intervenciones estructurales de edificaciones declaradas como patrimonio histórico, donde existan restricciones severas para lograr un nivel de seguridad equivalente al que el Reglamento exigiría a una edificación nueva o al prescrito en A.10.4.2.2, excepto que se trate de edificaciones pertenecientes a los grupos de uso III y IV, tal como lo define A.2.5, se permitirá un nivel menor de seguridad sísmica siempre y cuando este menor nivel se justifique por parte del ingeniero diseñador y se acepte por parte del propietario, incluyendo dentro de los documentos que se presentan para solicitar la respectiva licencia de construcción, un memorial firmado en conjunto en el cual se incluyan las razones que motivan la reducción, el nivel de seguridad sísmica propuesto, y las medidas que se adoptarán para restringir el acceso al público en general o los procedimientos colaterales que se adoptarán para proveer seguridad apropiada a los ocupantes. Este memorial se debe protocolizar mediante escritura pública en Notaría."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.3",
+      "title": "REQUISITOS CONSTRUCTIVOS",
+      "content": "REQUISITOS CONSTRUCTIVOS - La modificación debe llevarse a cabo cumpliendo los requisitos, para el material y sistema estructural de la edificación, exigidos para el grado de capacidad de disipación de energía utilizado en la determinación de índice de sobreesfuerzo de la edificación existente."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.10.9.4",
+      "title": "METODOLOGÍAS ALTERNAS",
+      "content": "METODOLOGÍAS ALTERNAS - Exclusivamente en la evaluación de vulnerabilidad de edificaciones"
+    }
+  ],
+  "references": [
+    "A.10.9.1",
+    "A.10.4.2.1",
+    "A.10.4.2.2",
+    "A.9.5.2",
+    "A.2.5"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

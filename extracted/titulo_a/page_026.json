@@ -1,0 +1,98 @@
+{
+  "page_number": 26,
+  "elements": [
+    {
+      "type": "DEFINITION",
+      "section_path": null,
+      "content": "To = período de vibración al cual inicia la zona de aceleraciones constantes del espectro de aceleraciones, en s."
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": null,
+      "content": "Vsi = velocidad media de la onda de cortante del suelo del estrato i, medida en campo, en m/s"
+    },
+    {
+      "type": "DEFINITION",
+      "section_path": null,
+      "content": "W = contenido de agua en porcentaje, el cual se determina por medio de la norma NTC 1495 (ASTM D 2166)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.1",
+      "title": "MOVIMIENTOS SÍSMICOS PRESCRITOS",
+      "content": "Para efectos del diseño sísmico de la estructura, ésta debe localizarse dentro de una de las zonas de amenaza sísmica, baja, intermedia o alta, y además deben utilizarse los movimientos sísmicos de diseño definidos en el presente Capítulo, los cuales se pueden expresar por medio del espectro elástico de diseño definido en A.2.6, o por medio de familias de acelerogramas que cumplan los requisitos de A.2.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2",
+      "title": "EFECTOS LOCALES DIFERENTES",
+      "content": "En A.2.4 el Reglamento prescribe un procedimiento para determinar los efectos en los movimientos sísmicos de diseño de la transmisión de las ondas sísmicas en el suelo existente debajo de la edificación. Pueden utilizarse movimientos sísmicos de diseño diferentes a los definidos en A.2.4, si se demuestra que fueron obtenidos utilizando mejor información proveniente de un estudio detallado de propagación de la onda sísmica a través del suelo existente debajo del sitio, o de la incidencia de la topografía del lugar, en los siguientes casos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2.1",
+      "title": "Estudios de microzonificación sísmica",
+      "content": "Cuando las autoridades municipales o distritales han aprobado un estudio de microzonificación sísmica, realizado de acuerdo con el alcance que fija la sección A.2.9, el cual contenga recomendaciones para el lugar donde se adelantará la edificación, ya sea por medio de unos efectos de sitio o formas espectrales especiales, se deben utilizar los resultados de ésta, así como los valores del coeficiente de sitio, dados en ella, en vez de los presentados en A.2.4 y A.2.6."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.2.2",
+      "title": "Estudios sísmicos particulares de sitio",
+      "content": "Cuando el ingeniero geotecnista responsable del estudio geotécnico de la edificación defina unos efectos locales particulares para el lugar donde se encuentra localizada la edificación, utilizando estudios de amplificación de las ondas sísmicas o estudios especiales referentes a efectos topográficos, o ambos, éstos deben realizarse de acuerdo con lo prescrito en A.2.10."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.1.3",
+      "title": "MOVIMIENTOS SÍSMICOS DIFERENTES",
+      "content": "Cuando se utilicen movimientos sísmicos de diseño obtenidos a partir de valores de Aa o Avo A diferentes de los dados en este Reglamento, estos valores de Aa, o Av, o ambos, o de Ae, deben ser aprobados por la oficina o dependencia distrital o municipal encargada de expedir las licencias de construcción, previo concepto de la Comisión Asesora Permanente para el Régimen de Construcciones Sismo Resistentes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.2",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.2.1",
+      "title": null,
+      "content": "Los movimientos sísmicos de diseño se definen en función de la aceleración pico efectiva, representada por el parámetro Aa, y de la velocidad pico efectiva, representada por el parámetro Av, para una probabilidad del diez por ciento de ser excedidos en un lapso de cincuenta años. Los valores de estos coeficientes, para efectos de este Reglamento, deben determinarse de acuerdo con A.2.2.2 y A.2.2.3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.2.2",
+      "title": null,
+      "content": "Se determina el número de la región en donde está localizada la edificación usando para Aa el mapa de la figura A.2.3-2 y el número de la región donde está localizada la edificación para A, en el mapa de la figura A.2.3-3."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.2.3",
+      "title": null,
+      "content": "Los valores de Aa y Av se obtienen de la tabla A.2.2-1, en función del número de la región determinado en A.2.2.2. Para las ciudades capitales de departamento del país los valores se presentan en la tabla A.2.3-2 y para todos los municipios del país en el Apéndice A-4 incluido al final del presente Título."
+    }
+  ],
+  "references": [
+    "A.2.6",
+    "A.2.7",
+    "A.2.4",
+    "A.2.9",
+    "A.2.6",
+    "A.2.10",
+    "A.2.2.2",
+    "A.2.2.3",
+    "A.2.3-2",
+    "A.2.3-3",
+    "A.2.2-1",
+    "A.2.2.2",
+    "A.2.3-2",
+    "Apéndice A-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

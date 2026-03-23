@@ -1,0 +1,165 @@
+{
+  "page_number": 113,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.3-1",
+      "title": "Valor de Ae según las regiones de los mapas de la figura A.10-3-1",
+      "table_headers": [
+        "Región Nº",
+        "Ae"
+      ],
+      "table_rows": [
+        [
+          "7",
+          "0.25-0.28"
+        ],
+        [
+          "6",
+          "0.21-0.24"
+        ],
+        [
+          "5",
+          "0.17-0.20"
+        ],
+        [
+          "4",
+          "0.13-0.16"
+        ],
+        [
+          "3",
+          "0.09-0.12"
+        ],
+        [
+          "2",
+          "0.05-0.08"
+        ],
+        [
+          "1",
+          "0.00-0.04"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Nota",
+      "title": "Nota",
+      "content": "Las regiones representan rangos de valores. Debe consultarse el Apéndice A-4 para determinar el valor de Ae en cada municipio."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.10.3-2",
+      "title": "Valor de Ae para las ciudades capitales de departamento",
+      "table_headers": [
+        "Ciudad",
+        "Ae",
+        "Ciudad",
+        "Ae"
+      ],
+      "table_rows": [
+        [
+          "Arauca",
+          "0.10",
+          "Neiva",
+          "0.20"
+        ],
+        [
+          "Armenia",
+          "0.15",
+          "Pasto",
+          "0.15"
+        ],
+        [
+          "Barranquilla",
+          "0.05",
+          "Pereira",
+          "0.20"
+        ],
+        [
+          "Bogotá",
+          "0.13",
+          "Popayán",
+          "0.15"
+        ],
+        [
+          "Bucaramanga",
+          "0.15",
+          "Puerto Carreño",
+          "0.04"
+        ],
+        [
+          "Cali",
+          "0.15",
+          "Puerto Inírida",
+          "0.04"
+        ],
+        [
+          "Cartagena",
+          "0.05",
+          "Quibdó",
+          "0.25"
+        ],
+        [
+          "Cúcuta",
+          "0.25",
+          "Riohacha",
+          "0.07"
+        ],
+        [
+          "Florencia",
+          "0.10",
+          "San Andrés, Isla",
+          "0.05"
+        ],
+        [
+          "Ibagué",
+          "0.15",
+          "San José del Guaviare",
+          "0.04"
+        ],
+        [
+          "Leticia",
+          "0.04",
+          "Santa Marta",
+          "0.10"
+        ],
+        [
+          "Manizales",
+          "0.20",
+          "Sincelejo",
+          "0.07"
+        ],
+        [
+          "Medellín",
+          "0.13",
+          "Tunja",
+          "0.15"
+        ],
+        [
+          "Mitú",
+          "0.04",
+          "Valledupar",
+          "0.05"
+        ],
+        [
+          "Mocoa",
+          "0.20",
+          "Villavicencio",
+          "0.20"
+        ],
+        [
+          "Montería",
+          "0.07",
+          "Yopal",
+          "0.15"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.10-3-1",
+    "A-4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

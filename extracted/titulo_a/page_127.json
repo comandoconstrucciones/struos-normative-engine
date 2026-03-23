@@ -1,0 +1,34 @@
+{
+  "page_number": 127,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2",
+      "title": "COLOCACIÓN DE INSTRUMENTOS SÍSMICOS",
+      "content": "Dentro de las construcciones que se adelanten en el territorio nacional, cubiertas por el alcance del presente Reglamento, deben colocarse instrumentos sísmicos en los siguientes casos:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.1",
+      "title": "ZONAS DE AMENAZA SÍSMICA ALTA",
+      "content": "En las siguientes edificaciones, localizadas en zonas de amenaza sísmica alta deben colocarse instrumentos sísmicos:\n(a) En toda edificación con un área construida de más de 20 000 m² y que tenga entre 3 y 10 pisos debe colocarse un instrumento sísmico como mínimo. El espacio para su colocación será colindante con el sistema estructural y debe localizarse en el nivel inferior de la edificación.\n(b) En toda edificación con un área construida de más de 20 000 m² que tenga entre 11 y 20 pisos, deben colocarse al menos 2 instrumentos sísmicos, en espacios colindantes con el sistema estructural, localizados, uno en el nivel inferior y otro cerca a la cubierta. En este caso el instrumento localizado cerca de la cubierta puede tener solo dos sensores horizontales ortogonales.\n(c) En toda edificación de 21 o más pisos, independientemente del área construida, deben colocarse 3 instrumentos, en espacios colindantes con el sistema estructural. Uno en el nivel inferior, uno aproximadamente a mitad de la altura y otro en inmediaciones de la cubierta. Los instrumentos deben conformar un arreglo. Alternativamente al arreglo de tres instrumentos, se puede realizar la instalación de tres sensores de aceleración, uno triaxial y dos biaxiales como indica A.11.1.3 (a), conectados a un sistema central de captura de datos.\n(d) En todo conjunto habitacional que tenga más de 200 unidades de vivienda, que no sean de interés social, se debe colocar un instrumento de campo abierto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.2",
+      "title": "ZONAS DE AMENAZA SÍSMICA INTERMEDIA",
+      "content": "En las siguientes edificaciones, localizadas en zonas de amenaza sísmica intermedia deben colocarse instrumentos sísmicos:\n(a) En toda edificación con un área construida de más de 30 000 m² y que tenga entre 5 y 15 pisos debe colocarse un instrumento como mínimo. El espacio donde se coloque el instrumento será colindante con el sistema estructural y debe localizarse en el nivel inferior de la edificación.\n(b) En toda edificación con un área construida de más de 30 000 m² que tenga entre 16 y 25 pisos, deben colocarse al menos 2 instrumentos sísmicos, en espacios colindantes con el sistema estructural, localizados, uno en el nivel inferior y otro cerca a la cubierta.\n(c) En toda edificación de más de 25 pisos, independientemente del área construida, deben colocarse 3 instrumentos sísmicos, en espacios colindantes con el sistema estructural. Uno en el nivel inferior, uno aproximadamente a mitad de la altura y otro en inmediaciones de la cubierta. Los instrumentos deben conformar un arreglo. Alternativamente al arreglo de tres instrumentos, se puede realizar la instalación de tres sensores triaxiales de aceleración, conectados a un sistema central de captura de datos.\n(d) Todo conjunto habitacional que tenga más de 300 unidades de vivienda, que no sean de interés social, debe colocarse un instrumento sísmico de campo abierto."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.11.2.3",
+      "title": "ZONAS DE AMENAZA SÍSMICA BAJA",
+      "content": "En las edificaciones localizadas en zonas de amenaza sísmica baja no hay obligación de colocar instrumentos sísmicos."
+    }
+  ],
+  "references": [
+    "A.11.1.3 (a)"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

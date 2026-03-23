@@ -1,0 +1,150 @@
+{
+  "page_number": 27,
+  "elements": [
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.2-1",
+      "title": "Valores de Aa y de Av, según las regiones De los mapas de las figuras A.2.3-2 Y A.2.3-3",
+      "table_headers": [
+        "Región Nº",
+        "Valor de\nAa o de Av"
+      ],
+      "table_rows": [
+        [
+          "10",
+          "0.50"
+        ],
+        [
+          "9",
+          "0.45"
+        ],
+        [
+          "8",
+          "0.40"
+        ],
+        [
+          "7",
+          "0.35"
+        ],
+        [
+          "6",
+          "0.30"
+        ],
+        [
+          "5",
+          "0.25"
+        ],
+        [
+          "4",
+          "0.20"
+        ],
+        [
+          "3",
+          "0.15"
+        ],
+        [
+          "2",
+          "0.10"
+        ],
+        [
+          "1",
+          "0.05"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3",
+      "title": "ZONAS DE AMENAZA SÍSMICA",
+      "content": "La edificación debe localizarse dentro de una de las zonas de amenaza sísmica que se definen en esta sección y que están presentadas en el Mapa de la figura A.2.3-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3.1",
+      "title": "ZONA DE AMENAZA SÍSMICA BAJA",
+      "content": "Es el conjunto de lugares en donde tanto Aa como Av son menores o iguales a 0.10. Véase la tabla A.2.3-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Α.2.3.2",
+      "title": "ΖΟNA DE AMENAZA SÍSMICA INTERMEDIA",
+      "content": "Es el conjunto de lugares en donde Aa o Av, o ambos, son mayores de 0.10 y ninguno de los dos excede 0.20. Véase la tabla A.2.3-1."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.2.3.3",
+      "title": "ZONA DE AMENAZA SÍSMICA ALTA",
+      "content": "Es el conjunto de lugares en donde Aa o A, o ambos, son mayores que 0.20. Véase la tabla A.2.3-1."
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.2.3-1",
+      "title": "Nivel de amenaza sísmica según valores de Aa y de Av",
+      "table_headers": [
+        "Mayor valor entre\nAa y Av",
+        "Asociado en mapas\nde las figuras A.2.3-2\ny A.2.3-3 a Región Nº",
+        "Amenaza\nSísmica"
+      ],
+      "table_rows": [
+        [
+          "0.50",
+          "10",
+          "Alta"
+        ],
+        [
+          "0.45",
+          "9",
+          "Alta"
+        ],
+        [
+          "0.40",
+          "8",
+          "Alta"
+        ],
+        [
+          "0.35",
+          "7",
+          "Alta"
+        ],
+        [
+          "0.30",
+          "6",
+          "Alta"
+        ],
+        [
+          "0.25",
+          "5",
+          "Alta"
+        ],
+        [
+          "0.20",
+          "4",
+          "Intermedia"
+        ],
+        [
+          "0.15",
+          "3",
+          "Intermedia"
+        ],
+        [
+          "0.10",
+          "2",
+          "Baja"
+        ],
+        [
+          "0.05",
+          "1",
+          "Baja"
+        ]
+      ]
+    }
+  ],
+  "references": [
+    "A.2.3-1",
+    "Tabla A.2.3-1",
+    "A.2.3-2",
+    "A.2.3-3"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

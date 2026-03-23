@@ -1,0 +1,88 @@
+{
+  "page_number": 55,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.3",
+      "title": "REDUCCIÓN DEL VALOR DE R PARA ESTRUCTURAS IRREGULARES Y CON AUSENCIA DE REDUNDANCIA",
+      "content": "Cuando una estructura se clasifique como irregular, el valor del coeficiente de capacidad de disipación de energía R que se utilice en el diseño sísmico de la edificación, debe reducirse multiplicándolo por Φp, debido a irregularidades en planta, por Φa debido a irregularidades en altura, y por Φr debido a ausencia de redundancia, como indica la ecuación A.3.3-1."
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.3-1",
+      "formula_latex": "R = Φ_a Φ_p Φ_r R_0",
+      "formula_python": "R = Pha * Php * Phr * R0",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Cuando una edificación tiene varios tipos de irregularidad en planta simultáneamente, se aplicará el menor valor de Φp. Análogamente, cuando una edificación tiene varios tipos de irregularidad en altura simultáneamente, se aplicará el menor valor de Φa."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.4",
+      "title": "CONFIGURACIÓN EN PLANTA",
+      "content": "La edificación se considera irregular cuando ocurra, véase la figura A.3-1, uno, o varios, de los casos descritos en la tabla A.3-6, donde se definen los valores de Φp."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.5",
+      "title": "CONFIGURACIÓN EN LA ALTURA",
+      "content": "Una edificación se clasifica como irregular en altura, véase la figura A.3-2, cuando ocurre uno, o varios, de los casos descritos en la tabla A.3-7, donde se definen los valores de Φa."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.5.1",
+      "title": "Excepciones a las irregularidades en altura",
+      "content": "Cuando para todos los pisos, la deriva de cualquier piso es menor de 1.3 veces la deriva del piso siguiente hacia arriba, puede considerarse que no existen irregularidades en altura de los tipos 1aA, 1bA, 2A, ó 3A, tal como se definen en la tabla A.3-7, y en este caso se aplica Φa = 1. No hay necesidad de considerar en esta evaluación las derivas de los dos pisos superiores de la edificación ni los sótanos que tengan muros de contención integrados a la estructura en toda su periferia. Las derivas utilizadas en la evaluación pueden calcularse sin incluir los efectos torsionales. Así mismo, no se considera irregular la estructura flexible apoyada sobre una estructura con mayor rigidez que cumpla los requisitos de A.3.2.4.3 y los correspondientes de la tabla A.3-5."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.6",
+      "title": "EDIFICACIONES EN ZONAS DE AMENAZA SÍSMICA BAJA DE LOS GRUPOS DE USO I Y II",
+      "content": "Para las edificaciones pertenecientes a los grupos de uso I y II, localizadas en zonas de amenaza sísmica baja, la evaluación para determinar si la edificación es irregular o no, puede limitarse a irregularidades en planta del tipo 1aP, 1bP (tabla A.3-6) y en altura del tipo 5aA y 5bA (tabla A.3-7)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.7",
+      "title": "EDIFICACIONES EN ZONAS DE AMENAZA SÍSMICA INTERMEDIA DEL GRUPO DE USO I",
+      "content": "Para las edificaciones pertenecientes al grupo de uso I, localizadas en zonas de amenaza sísmica intermedia, la evaluación para determinar si la edificación es irregular o no, puede limitarse a irregularidades en planta de los tipos 1aP, 1bP, 3P y 4P (tabla A.3-6) y en altura de los tipos 4A, 5aA y 5bA (tabla A.3-7)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8",
+      "title": "AUSENCIA DE REDUNDANCIA EN EL SISTEMA ESTRUCTURAL DE RESISTENCIA SÍSMICA",
+      "content": "Debe asignarse un factor de reducción de resistencia por ausencia de redundancia en el sistema estructural de resistencia sísmica, Φr, en las dos direcciones principales en planta de la siguiente manera:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8.1",
+      "title": "En edificaciones con un sistema estructural con capacidad de disipación de energía mínima (DMI)",
+      "content": "Para edificaciones cuyo sistema estructural de resistencia sísmica es de un material que cumple los requisitos de capacidad de disipación de energía mínima (DMI) el valor del factor de reducción de resistencia por ausencia de redundancia en el sistema estructural de resistencia sísmica, Φr, se le asigna un valor de la unidad (Φr = 1.0)."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.3.8.2",
+      "title": "En edificaciones con un sistema estructural con capacidad de disipación de energía moderada (DMO) y especial (DES)",
+      "content": "Para edificaciones cuyo sistema estructural es de un material que cumple los requisitos de capacidad de disipación de energía moderada (DMO) o especial (DES) el valor del factor de reducción de resistencia por ausencia de redundancia en el sistema estructural de resistencia sísmica, Φr, se le puede asignar un valor de la unidad (Φr = 1.0) cuando en todos los pisos que resistan más"
+    }
+  ],
+  "references": [
+    "A.3.3-1",
+    "A.3-1",
+    "tabla A.3-6",
+    "A.3-2",
+    "tabla A.3-7",
+    "A.3-7",
+    "A.3.2.4.3",
+    "tabla A.3-5",
+    "tabla A.3-6",
+    "tabla A.3-7",
+    "tabla A.3-6",
+    "tabla A.3-7"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

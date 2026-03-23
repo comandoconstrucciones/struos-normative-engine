@@ -1,0 +1,446 @@
+{
+  "page_number": 177,
+  "elements": [
+    {
+      "type": "TITLE",
+      "section_path": "NSR-10 - Apéndice A-4",
+      "title": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos",
+      "content": "Valores de Aa, Av, Ae y Ad y definición de la zona de amenaza sísmica de los municipios colombianos"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A.4-1",
+      "title": "Valores de Aa, Av, Ae y Ad para Zipacón y Zipaquirá",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Zipacón",
+          "25898",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.13",
+          "0.06"
+        ],
+        [
+          "Zipaquirá",
+          "25899",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.09",
+          "0.05"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Distrito Capital",
+      "title": "Distrito Capital",
+      "content": "Distrito Capital"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Distrito Capital",
+      "title": "Valores de Aa, Av, Ae y Ad para Bogotá D. C.",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Bogotá D. C.",
+          "11001",
+          "0.15",
+          "0.20",
+          "Intermedia",
+          "0.13",
+          "0.06"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Guainía",
+      "title": "Departamento del Guainía",
+      "content": "Departamento del Guainía"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento del Guainía",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Departamento del Guainía",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Puerto Inírida",
+          "94001",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Barranco Mina",
+          "94343",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Cacahual",
+          "94886",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "La Guadalupe",
+          "94885",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Mapiripaná",
+          "94663",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Morichal",
+          "94888",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Pana Pana",
+          "94887",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Puerto Colombia",
+          "94884",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "San Felipe",
+          "94883",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento de la Guajira",
+      "title": "Departamento de la Guajira",
+      "content": "Departamento de la Guajira"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento de la Guajira",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Departamento de la Guajira",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Riohacha",
+          "44001",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Albania",
+          "44035",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Barrancas",
+          "44078",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Dibulla",
+          "44090",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Distracción",
+          "44098",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "El Molino",
+          "44110",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.06",
+          "0.04"
+        ],
+        [
+          "Fonseca",
+          "44279",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Hatonuevo",
+          "44378",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "La Jagua del Pilar",
+          "44420",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Maicao",
+          "44430",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "Manaure",
+          "44560",
+          "0.10",
+          "0.15",
+          "Intermedia",
+          "0.07",
+          "0.04"
+        ],
+        [
+          "San Juan del Cesar",
+          "44650",
+          "0.15",
+          "0.10",
+          "Intermedia",
+          "0.05",
+          "0.03"
+        ],
+        [
+          "Uribía",
+          "44847",
+          "0.15",
+          "0.15",
+          "Intermedia",
+          "0.08",
+          "0.04"
+        ],
+        [
+          "Urumita",
+          "44855",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.06",
+          "0.03"
+        ],
+        [
+          "Villanueva",
+          "44874",
+          "0.10",
+          "0.10",
+          "Baja",
+          "0.05",
+          "0.03"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Guaviare",
+      "title": "Departamento del Guaviare",
+      "content": "Departamento del Guaviare"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento del Guaviare",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Departamento del Guaviare",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "San José Del Guaviare",
+          "95001",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Calamar",
+          "95015",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "El Retorno",
+          "95025",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ],
+        [
+          "Miraflores",
+          "95200",
+          "0.05",
+          "0.05",
+          "Baja",
+          "0.04",
+          "0.02"
+        ]
+      ]
+    },
+    {
+      "type": "SECTION",
+      "section_path": "Departamento del Huila",
+      "title": "Departamento del Huila",
+      "content": "Departamento del Huila"
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla Departamento del Huila",
+      "title": "Valores de Aa, Av, Ae y Ad para Municipios del Departamento del Huila",
+      "table_headers": [
+        "Municipio",
+        "Código Municipio",
+        "Aa",
+        "Av",
+        "Zona de Amenaza Sísmica",
+        "Ae",
+        "Ad"
+      ],
+      "table_rows": [
+        [
+          "Neiva",
+          "41001",
+          "0.25",
+          "0.25",
+          "Alta",
+          "0.20",
+          "0.08"
+        ],
+        [
+          "Acevedo",
+          "41006",
+          "0.30",
+          "0.15",
+          "Alta",
+          "0.17",
+          "0.06"
+        ],
+        [
+          "Agrado",
+          "41013",
+          "0.30",
+          "0.15",
+          "Alta",
+          "0.26",
+          "0.08"
+        ]
+      ]
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

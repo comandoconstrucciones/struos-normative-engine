@@ -1,0 +1,43 @@
+{
+  "page_number": 85,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.6.0",
+      "title": "NOMENCLATURA",
+      "content": "hi = altura en metros, medida desde la base, del nivel i.\nhn = altura en metros, medida desde la base, del piso más alto del edificio.\nhp\ni = altura del piso i, medida desde la superficie del diafragma del piso i hasta la superficie del diafragma del\npiso inmediatamente inferior, i-1.\nj = índice de una de las direcciones ortogonales principales en planta, puede ser x o y.\nPi = suma de la carga vertical total, incluyendo muerta y viva, que existe en el piso i, y todos los pisos\nlocalizados por encima. Para el cálculo de los efectos P-Delta, no hay necesidad que los coeficientes de\ncarga de sean mayores que la unidad.\nQi = índice de estabilidad, del piso i, utilizado en la evaluación de los efectos P-Delta. Véase A.6.2.3.\nrj = proyección, sobre la dirección perpendicular en planta a la dirección bajo estudio, j, de la distancia entre\nel centro de masa del piso y el punto de interés\nT = período fundamental del edificio como se determina en A.4.2.\nTa = período de vibración fundamental aproximado. Véase A.4.2.\nVi = fuerza cortante del piso i, en la dirección bajo estudio, sin dividir por R. Se determina por medio de las\necuaciones del numeral A.4.3. Corresponde a la suma de las fuerzas horizontales sísmicas que se aplican\nal nivel i, y todos los niveles localizados por encima de él.\nΔcm,j\ni = deriva del piso i, en la dirección bajo estudio, j, medida en el centro de masa del piso, como la diferencia\nentre el desplazamiento horizontal del piso i menos el del piso i-1 en la misma dirección j.\nΔj\ni = deriva del piso i en la dirección principal en planta j.\nΔmax\ni = deriva máxima para cualquier punto del piso i.\nδcm,j\ni = desplazamiento horizontal, del centro de masa del piso i, en la dirección j.\nδpd,j\ni = desplazamiento horizontal adicional, del centro de masa del piso i, causado por efectos P-Delta, en la\ndirección j.\nδt,j\ni = desplazamiento horizontal adicional causado por efectos de torsión de cualquier punto del diafragma del\npiso i en la dirección j.\nδtot,j\ni = desplazamiento total horizontal, de cualquier punto del diafragma del piso i en la dirección j\nθi = rotación alrededor de un eje vertical que pasa por el centro de masa del piso i, causada por los efectos\ntorsionales, en radianes."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1",
+      "title": "GENERAL",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.1",
+      "title": "ALCANCE",
+      "content": "En el presente Capítulo se dan los procedimientos para calcular la deriva así como sus\nlímites permisibles."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.2",
+      "title": "DEFINICIÓN DE DERIVA",
+      "content": "Se entiende por deriva el desplazamiento horizontal relativo entre dos puntos\ncolocados en la misma línea vertical, en dos pisos o niveles consecutivos de la edificación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.6.1.3",
+      "title": "NECESIDAD DE CONTROLAR LA DERIVA",
+      "content": "La deriva está asociada con los siguientes efectos durante\nun temblor:\n(a) Deformación inelástica de los elementos estructurales y no estructurales.\n(b) Estabilidad global de la estructura.\n(c) Daño a los elementos estructurales que no hacen parte del sistema de resistencia sísmica y a los"
+    }
+  ],
+  "references": [
+    "A.6.2.3",
+    "A.4.2",
+    "A.4.2",
+    "A.4.3"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,406 @@
+{
+  "page_number": 10,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "CAPÍTULO A.13",
+      "title": "DEFINICIONES Y NOMENCLATURA DEL TITULO A",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13.1",
+      "title": "DEFINICIONES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.13.2",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "APÉNDICE A-1",
+      "title": "RECOMENDACIONES SÍSMICAS PARA ALGUNAS ESTRUCTURAS QUE SE SALEN DEL ALCANCE DEL REGLAMENTO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.1",
+      "title": "PROPÓSITO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.2",
+      "title": "ALCANCE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.1.3",
+      "title": "REQUISITOS APLICABLES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.2",
+      "title": "PERIODO FUNDAMENTAL DE LA ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3",
+      "title": "CALCULO DE LAS FUERZAS SÍSMICAS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.1",
+      "title": "MOVIMIENTOS SÍSMICOS DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.2",
+      "title": "MASA TOTAL, M",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.3",
+      "title": "COEFICIENTE DE IMPORTANCIA, I",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.4",
+      "title": "DISTRIBUCIÓN EN LA ALTURA DE LAS FUERZAS SÍSMICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.3.5",
+      "title": "COEFICIENTE BÁSICO DE DISIPACIÓN DE ENERGÍA, Ro",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A-1.3-1",
+      "title": "Coeficiente de capacidad de disipación de energía, Ro, para algunas estructuras especiales",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-1.4",
+      "title": "REQUISITOS DE DERIVA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "APÉNDICE A-2",
+      "title": "RECOMENDACIONES PARA EL CALCULO DE LOS EFECTOS DE INTERACCIÓN DINÁMICA SUELO-ESTRUCTURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.0",
+      "title": "NOMENCLATURA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2",
+      "title": "MÉTODO DE LA FUERZA HORIZONTAL EQUIVALENTE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1",
+      "title": "CORTANTE EN LA BASE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.1",
+      "title": "Período efectivo de la edificación",
+      "content": ""
+    },
+    {
+      "type": "TABLE",
+      "section_path": "Tabla A-2.1-1",
+      "title": "Valores de G/Go y vg/vso",
+      "table_headers": [],
+      "table_rows": []
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.1.2",
+      "title": "Amortiguamiento efectivo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.2",
+      "title": "DISTRIBUCIÓN EN LA ALTURA DE LAS FUERZAS SÍSMICAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.2.3",
+      "title": "OTROS EFECTOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3",
+      "title": "MÉTODO DEL ANÁLISIS MODAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.1",
+      "title": "CORTANTES MODALES EN LA BASE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.2",
+      "title": "OTROS EFECTOS MODALES",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-2.3.3",
+      "title": "VALORES DE DISEÑO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "APÉNDICE A-3",
+      "title": "PROCEDIMIENTO NO LINEAL ESTÁTICO DE PLASTIFICACIÓN PROGRESIVA \"PUSH-OVER\"",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1",
+      "title": "GENERAL",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.1",
+      "title": "Propósito",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.2",
+      "title": "Alcance",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.3",
+      "title": "Definiciones",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.1.4",
+      "title": "Nomenclatura",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2",
+      "title": "PROCEDIMIENTO NO LINEAL ESTÁTICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.1",
+      "title": "Modelación",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.2",
+      "title": "Análisis",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.3",
+      "title": "Resistencia efectiva a la fluencia y periodo efectivo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.4",
+      "title": "Vector característico de forma",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.5",
+      "title": "Desplazamiento objetivo",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.6",
+      "title": "Deriva de piso",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.7",
+      "title": "Resistencia de los elementos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.8",
+      "title": "Distribución de las fuerzas sísmicas de diseño",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9",
+      "title": "Evaluación detallada",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9.1",
+      "title": "Fuerza y deformación requeridas para el elemento",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.9.2",
+      "title": "Elementos",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A-3.2.10",
+      "title": "Revisión del diseño",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "APÉNDICE A-4",
+      "title": "VALORES DE Aₐ Y Aᵥ Y DEFINICIÓN DE LA ZONA DE AMENAZA SÍSMICA DE LOS MUNICIPIOS COLOMBIANOS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE AMAZONAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE ANTIOQUIA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DE DEPARTAMENTO DE ARAUCA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "ARCHIPIÉLAGO DE SAN ANDRÉS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DE DEPARTAMENTO DE ATLÁNTICO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DE DEPARTAMENTO DE BOLÍVAR",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DE DEPARTAMENTO DE BOYACÁ",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CALDAS",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CAQUETA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CASANARE",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CAUCA",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CESAR",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CHOCO",
+      "content": ""
+    },
+    {
+      "type": "SECTION",
+      "section_path": "",
+      "title": "DEPARTAMENTO DE CÓRDOBA",
+      "content": ""
+    }
+  ],
+  "references": [],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

@@ -1,0 +1,89 @@
+{
+  "page_number": 59,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.3",
+      "title": "Capítulo A.3 Requisitos generales de diseño sismo resistente",
+      "content": "dados de pilotes, pilas o \"caissons\", etc., deben amarrarse por medio de elementos capaces de resistir en tensión o compresión una fuerza no menor de (0.25Aa) veces la carga vertical total del elemento que tenga la mayor carga entre los que interconecta, además de las fuerzas que le transmita la superestructura. Para efectos del diseño de la cimentación debe cumplirse lo prescrito en A.3.7."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.5",
+      "title": "ELEMENTOS COLECTORES",
+      "content": "Deben proveerse elementos colectores capaces de transferir las fuerzas sísmicas que se originan en otras partes de la edificación hasta el elemento vertical del sistema de resistencia sísmica que resiste esas fuerzas."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.6",
+      "title": "DISTRIBUCIÓN DE LA FUERZA CORTANTE EN EL PISO",
+      "content": "Cuando se utilice el método de la fuerza horizontal equivalente definido en el Capítulo A.4, la fuerza cortante, Vx, en el nivel x, debe determinarse de acuerdo con la siguiente fórmula:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6-1",
+      "formula_latex": "V_x = \\sum_{i=x}^{n} F_i",
+      "formula_python": "Vx = sum(Fi[i=x:n])",
+      "formula_variables": {
+        "Vx": "Fuerza cortante",
+        "Fi": "Fuerzas"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.6",
+      "content": "La fuerza cortante, Vx, y las torsiones asociadas deben distribuirse entre los diferentes pórticos y muros estructurales del sistema de resistencia sísmica de acuerdo con sus respectivas rigideces de desplazamiento y teniendo en cuenta la rigidez del diafragma, de acuerdo con la definición de la rigidez de los diafragmas dada en A.3.6.7.2."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7",
+      "title": "TORSIÓN EN EL PISO",
+      "content": "En el diseño deben tenerse en cuenta los efectos de torsión en el piso, considerando que estos provienen de la incertidumbre en la localización de las masas dentro del piso, lo cual conduce a una torsión accidental, o debido a la excentricidad entre el centro de masas y el centro de rigidez cuando los diafragmas se consideran rígidos en su propio plano, o de la asimetría en la distribución de la masa y la rigidez de elementos verticales, cuando los diafragmas no pueden considerarse como rígidos en su propio plano. En caso de realizarse análisis dinámico, el análisis mismo reflejará los efectos de las torsiones que se tengan en la estructura, quedando a opción diseñador si en él involucra o no condiciones de torsión accidental. En el caso que se utilice el método de la fuerza horizontal equivalente, para la consideración de la torsión en el piso deben cumplirse los requisitos de A.3.6.7.1 a A.3.6.7.3, descritos a continuación."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.1",
+      "title": "Torsión accidental",
+      "content": "Debe suponerse que la masa de todos los pisos está desplazada transversalmente, hacia cualquiera de los dos lados, del centro de masa calculado de cada piso, una distancia igual al 5 por ciento (0.05) de la dimensión de la edificación en ese piso, medida en la dirección perpendicular a la dirección en estudio. El efecto de la torsión que se genera debe tenerse en cuenta en la distribución del cortante del piso a los elementos verticales del sistema de resistencia sísmica. Cuando existan irregularidades en planta del tipo 1aP o 1bP, tal como las define A.3.3.4.1 (tabla A.3-6), debe aumentarse la torsión accidental en cada nivel x, multiplicándola por un coeficiente de amplificación, Aχ, determinado de acuerdo con la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.3.6-2",
+      "formula_latex": "A_x = \\left[\\frac{\\delta_{max}}{1.2 \\delta_{prom}}\\right]^2 \\le 3.0",
+      "formula_python": "Ax = (delta_max / (1.2 * delta_prom))**2",
+      "formula_variables": {
+        "delta_max": "máxima deflexión",
+        "delta_prom": "deflexión promedio"
+      }
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.2",
+      "title": "Torsión debida a la no coincidencia del centro de masa y de rigidez",
+      "content": "Cuando el diafragma puede considerarse rígido en su propio plano, debe tenerse en cuenta el aumento en los cortantes sobre los elementos verticales del sistema de resistencia sísmica debida a la distribución, en planta, de la rigidez de los elementos del sistema de resistencia sísmica."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.2 (a)",
+      "title": "Diafragma flexible",
+      "content": "El diafragma puede suponerse flexible, para los efectos de las prescripciones de esta sección, cuando la máxima deflexión horizontal dentro del diafragma, al verse sometido a las fuerzas sísmicas, Fs, es más de 2 veces el promedio de sus deflexiones horizontales. Esta determinación de la flexibilidad del diafragma puede realizarse comparando la deflexión horizontal debida a las fuerzas sísmicas, obtenida en el punto medio del diafragma, con la de cada uno de los elementos verticales del sistema de resistencia sísmica, al verse sometidos a una fuerza horizontal equivalente a la producida por la masa aferente al elemento."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.3.6.7.2 (b)",
+      "title": "Diafragma rígido en su propio plano",
+      "content": "El diafragma puede suponerse rígido en su propio plano cuando se dispone su rigidez y su resistencia de tal manera que éste actúe como una unidad y sus"
+    }
+  ],
+  "references": [
+    "A.3.7",
+    "Capítulo A.4",
+    "A.3.6.7.2",
+    "A.3.6.7.1",
+    "A.3.6.7.3",
+    "A.3.3.4.1",
+    "tabla A.3-6"
+  ],
+  "continues_on_next": true,
+  "continued_from_prev": false
+}

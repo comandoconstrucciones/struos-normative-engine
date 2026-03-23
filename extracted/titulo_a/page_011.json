@@ -1,0 +1,126 @@
+{
+  "page_number": 11,
+  "elements": [
+    {
+      "type": "TEXT",
+      "content": "NSR-10 - Título A – Requisitos generales de diseño y construcción sismo resistente"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE CUNDINAMARCA",
+      "content": "A-163"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DISTRITO CAPITAL",
+      "content": "A-165"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE GUAINÍA",
+      "content": "A-165"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE GUAJIRA",
+      "content": "A-165"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE GUAVIARE",
+      "content": "A-165"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE HUILA",
+      "content": "A-165"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE MAGDALENA",
+      "content": "A-166"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE META",
+      "content": "A-167"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE NARIÑO",
+      "content": "A-167"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE NORTE DE SANTANDER",
+      "content": "A-168"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE PUTUMAYO",
+      "content": "A-169"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE QUINDIO",
+      "content": "A-169"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE RISARALDA",
+      "content": "A-170"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE SANTANDER",
+      "content": "A-170"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE SUCRE",
+      "content": "A-172"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE TOLIMA",
+      "content": "A-172"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DEL VALLE DEL CAUCA",
+      "content": "A-173"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE VAUPÉS",
+      "content": "A-174"
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": "DEPARTAMENTO DE VICHADA",
+      "content": "A-174"
+    }
+  ],
+  "references": [],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}

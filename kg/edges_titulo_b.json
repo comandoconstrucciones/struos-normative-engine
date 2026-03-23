@@ -1,0 +1,698 @@
+[
+  {
+    "source": "titulo_b",
+    "target": "cap_B.1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_b",
+    "target": "cap_B.2",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_b",
+    "target": "cap_B.3",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_b",
+    "target": "cap_B.4",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_b",
+    "target": "cap_B.5",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_b",
+    "target": "cap_B.6",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_D",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_L",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_Lr",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_W",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_E",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_H",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_F",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_T",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_G",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "carga_R",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_1",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_2",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_3",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_4",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_5",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_6",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.2",
+    "target": "comb_lrfd_7",
+    "relation": "establece",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_reunion",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_reunion",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_oficinas",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_oficinas",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_educativos",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_educativos",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_fabricas",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_fabricas",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_institucional",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_institucional",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_comercio",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_comercio",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_residencial",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_residencial",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_almacenamiento",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_almacenamiento",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_garajes",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_garajes",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "ocup_coliseos",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "ocup_coliseos",
+    "target": "carga_L",
+    "relation": "determina",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_acero",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_acero",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_concreto_simple",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_concreto_simple",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_concreto_reforzado",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_concreto_reforzado",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_mamposteria_arcilla",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_mamposteria_arcilla",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_mamposteria_concreto",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_mamposteria_concreto",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_madera",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_madera",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_vidrio",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_vidrio",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "mat_agua",
+    "relation": "tabula",
+    "metadata": {}
+  },
+  {
+    "source": "mat_agua",
+    "target": "carga_D",
+    "relation": "contribuye_a",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_cielo_raso",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_cielo_raso",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_relleno_piso",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_relleno_piso",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_acabados_piso",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_acabados_piso",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_cubiertas",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_cubiertas",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_particiones",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_particiones",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_fachadas",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_fachadas",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "elem_muros",
+    "relation": "regula",
+    "metadata": {}
+  },
+  {
+    "source": "elem_muros",
+    "target": "carga_D",
+    "relation": "genera",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "exp_B",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "exp_B",
+    "target": "carga_W",
+    "relation": "modifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "exp_C",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "exp_C",
+    "target": "carga_W",
+    "relation": "modifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "exp_D",
+    "relation": "define",
+    "metadata": {}
+  },
+  {
+    "source": "exp_D",
+    "target": "carga_W",
+    "relation": "modifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "cat_viento_I",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "cat_viento_II",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "cat_viento_III",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "cat_viento_IV",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_2_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_1_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_1_2",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_1_3",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_1_4",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_2_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_2_2",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_2_3",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_2_4",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_2_5",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.3",
+    "target": "tabla_B_3_4_3_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "tabla_B_4_2_1_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.4",
+    "target": "tabla_B_4_2_1_2",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "tabla_B_6_5_1",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "tabla_B_6_5_2",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "tabla_B_6_5_3",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "cap_B.6",
+    "target": "tabla_B_6_5_4",
+    "relation": "contiene",
+    "metadata": {}
+  },
+  {
+    "source": "formula_reduccion_L",
+    "target": "carga_L",
+    "relation": "calcula",
+    "metadata": {}
+  },
+  {
+    "source": "formula_presion_q",
+    "target": "carga_W",
+    "relation": "calcula",
+    "metadata": {}
+  },
+  {
+    "source": "formula_kz_formula",
+    "target": "exp_B",
+    "relation": "usa",
+    "metadata": {}
+  },
+  {
+    "source": "formula_kz_formula",
+    "target": "exp_C",
+    "relation": "usa",
+    "metadata": {}
+  },
+  {
+    "source": "formula_kz_formula",
+    "target": "exp_D",
+    "relation": "usa",
+    "metadata": {}
+  },
+  {
+    "source": "carga_E",
+    "target": "titulo_a_ref",
+    "relation": "definido_en",
+    "metadata": {}
+  },
+  {
+    "source": "comb_lrfd_5",
+    "target": "titulo_a_ref",
+    "relation": "usa_de",
+    "metadata": {}
+  },
+  {
+    "source": "comb_lrfd_7",
+    "target": "titulo_a_ref",
+    "relation": "usa_de",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_a_ref",
+    "target": "grupo_I",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "grupo_I",
+    "target": "cat_viento_I",
+    "relation": "equivale",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_a_ref",
+    "target": "grupo_II",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "grupo_II",
+    "target": "cat_viento_II",
+    "relation": "equivale",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_a_ref",
+    "target": "grupo_III",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "grupo_III",
+    "target": "cat_viento_III",
+    "relation": "equivale",
+    "metadata": {}
+  },
+  {
+    "source": "titulo_a_ref",
+    "target": "grupo_IV",
+    "relation": "clasifica",
+    "metadata": {}
+  },
+  {
+    "source": "grupo_IV",
+    "target": "cat_viento_IV",
+    "relation": "equivale",
+    "metadata": {}
+  }
+]

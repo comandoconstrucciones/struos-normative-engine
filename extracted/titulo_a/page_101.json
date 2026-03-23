@@ -1,0 +1,66 @@
+{
+  "page_number": 101,
+  "elements": [
+    {
+      "type": "SECTION",
+      "section_path": "A.9.3.3",
+      "title": "COORDINACIÓN ENTRE DISEÑOS DE ELEMENTOS QUE HACEN PARTE DE DIFERENTES SISTEMAS",
+      "content": "La responsabilidad de la coordinación entre los diferentes diseños recae en el profesional que figura como diseñador arquitectónico en la solicitud de licencia de construcción. El profesional que realice la coordinación debe tomar todas las precauciones necesarias para que el diseño resultante de cada uno de los elementos no estructurales, realizado por profesionales diferentes a él, no afecte el desempeño de elementos diseñados por otros profesionales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4",
+      "title": "CRITERIO DE DISEÑO",
+      "content": null
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.1",
+      "title": "GENERAL",
+      "content": "El diseñador de los elementos no estructurales puede adoptar una de dos estrategias en el diseño:\n(a) Separarlos de la estructura — En este tipo de diseño los elementos no estructurales se aíslan lateralmente de la estructura dejando una separación suficiente para que la estructura al deformarse como consecuencia del sismo no los afecte adversamente. Los elementos no estructurales se apoyan en su parte inferior sobre la estructura, o se cuelgan de ella; por lo tanto deben ser capaces de resistir por si mismos las fuerzas inerciales que les impone el sismo, y sus anclajes a la estructura deben ser capaces de resistir y transferir a la estructura estas fuerzas inducidas por el sismo. Además la separación a la estructura de la edificación debe ser lo suficientemente amplia para garantizar que no entren en contacto, para los desplazamientos impuestos por el sismo de diseño. En el espacio resultante deberá evitarse colocar elementos que rigidicen la unión eliminando la flexibilidad requerida por el diseño.\n(b) Disponer elementos que admitan las deformaciones de la estructura — En este tipo de diseño se disponen elementos no estructurales que tocan la estructura y que por lo tanto deben ser lo suficientemente flexibles para poder resistir las deformaciones que la estructura les impone sin sufrir daño mayor que el que admite el grado de desempeño prefijado para los elementos no estructurales de la edificación. En este tipo de diseño debe haber una coordinación con el ingeniero estructural, con el fin de que éste tome en cuenta el potencial efecto nocivo sobre la estructura que pueda tener la interacción entre elementos estructurales y no estructurales."
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2",
+      "title": "FUERZAS SÍSMICAS DE DISEÑO",
+      "content": "Las fuerzas sísmicas horizontales reducidas de diseño que actúan sobre cualquier elemento no estructural deben calcularse utilizando la siguiente ecuación:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.9.4-1",
+      "formula_latex": "F_p = \\frac{a_x a_p}{R_p} g M_p \\geq \\frac{A_a I}{2} g M_p",
+      "formula_python": "Fp = (ax * ap / Rp) * g * Mp >= (Aa * I / 2) * g * Mp",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "Los parámetros que intervienen en esta ecuación, diferentes a la masa del elemento, M,, se definen de la siguiente manera:"
+    },
+    {
+      "type": "SECTION",
+      "section_path": "A.9.4.2.1",
+      "title": "Aceleración en el punto de soporte del elemento, ax",
+      "content": "Corresponde a la aceleración horizontal que ocurre en el punto donde el elemento no estructural está soportado, o anclado, al sistema estructural de la edificación, cuando ésta se ve afectada por los movimientos sísmicos de diseño. Esta aceleración depende de las características dinámicas del sistema de resistencia sísmica de la edificación y de la localización del elemento dentro de ella. Debe evaluarse por medio de un análisis dinámico de la estructura que tenga en cuenta su capacidad de disipación de energía en el rango inelástico, o bien por medio de la siguiente ecuación compatible con las fuerzas sísmicas que se obtienen por medio del método de fuerza horizontal equivalente tal como se presenta en el Capítulo A.4 del Reglamento:"
+    },
+    {
+      "type": "FORMULA",
+      "section_path": "A.9.4-2",
+      "formula_latex": "a_x = A_s + \\frac{(S_a - A_s) h_x}{h_{eq}}  \\qquad h_x \\leq h_{eq} \\newline a_x = S_a \\frac{h_x}{h_{eq}} \\qquad h_x \\geq h_{eq}",
+      "formula_python": "ax = As + (Sa - As) * hx / heq if hx <= heq else Sa * hx / heq",
+      "formula_variables": {}
+    },
+    {
+      "type": "SECTION",
+      "section_path": null,
+      "title": null,
+      "content": "heq puede estimarse simplificadamente como 0.75hn."
+    }
+  ],
+  "references": [
+    "Capítulo A.4"
+  ],
+  "continues_on_next": false,
+  "continued_from_prev": false
+}
