@@ -12,8 +12,8 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-# Config
-SUPABASE_URL = os.environ.get('STRUOS_SUPABASE_URL')
+# Config - usar STRUOS_SUPABASE_SERVICE_ROLE (no SUPABASE_SERVICE_ROLE_KEY que es de otro proyecto)
+SUPABASE_URL = os.environ.get('STRUOS_SUPABASE_URL', 'https://vdakfewjadwaczulcmvj.supabase.co')
 SUPABASE_KEY = os.environ.get('STRUOS_SUPABASE_SERVICE_ROLE')
 
 HEADERS = {
