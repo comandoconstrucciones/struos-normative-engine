@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struos.AI - La NSR-10 conectada a cualquier IA</title>
+    <meta name="description" content="Motor de inteligencia artificial para ingeniería estructural. Consulta la NSR-10 desde cualquier LLM.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E293B',
+                        secondary: '#334155',
+                        cta: '#22C55E',
+                        dark: '#0F172A',
+                        darker: '#020617',
+                        light: '#F8FAFC',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        * { scroll-behavior: smooth; }
+        
+        .glass {
+            background: rgba(30, 41, 59, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(248, 250, 252, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #22C55E 0%, #10B981 50%, #06B6D4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .parallax-slow { transform: translateY(calc(var(--scroll) * 0.3)); }
+        .parallax-medium { transform: translateY(calc(var(--scroll) * 0.5)); }
+        
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .typing-cursor::after {
+            content: '|';
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        .stat-number {
+            background: linear-gradient(180deg, #F8FAFC 0%, #94A3B8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .glow {
+            box-shadow: 0 0 60px rgba(34, 197, 94, 0.3);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .grid-bg {
+            background-image: 
+                linear-gradient(rgba(34, 197, 94, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(34, 197, 94, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            .reveal { transition: none; }
+            .parallax-slow, .parallax-medium { transform: none !important; }
+        }
+    </style>
+</head>
+<body class="bg-dark text-light font-sans antialiased overflow-x-hidden">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-cta rounded-lg flex items-center justify-center">
+                        <i data-lucide="building-2" class="w-5 h-5 text-dark"></i>
+                    </div>
+                    <span class="text-xl font-bold">Struos<span class="text-cta">.AI</span></span>
+                </div>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#features" class="text-sm text-gray-400 hover:text-white transition cursor-pointer">Features</a>
+                    <a href="#demo" class="text-sm text-gray-400 hover:text-white transition cursor-pointer">Demo</a>
+                    <a href="#pricing" class="text-sm text-gray-400 hover:text-white transition cursor-pointer">Pricing</a>
+                    <a href="https://github.com/comandoconstrucciones/struos-normative-engine" target="_blank" 
+                       class="text-sm text-gray-400 hover:text-white transition cursor-pointer flex items-center gap-1">
+                        <i data-lucide="github" class="w-4 h-4"></i> GitHub
+                    </a>
+                </div>
+                <a href="#demo" class="bg-cta hover:bg-green-400 text-dark font-semibold px-4 py-2 rounded-lg transition cursor-pointer text-sm">
+                    Probar Gratis
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero -->
+    <section class="min-h-screen flex items-center justify-center relative pt-16 grid-bg">
+        <div class="absolute inset-0 bg-gradient-to-b from-dark via-transparent to-dark pointer-events-none"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+            <div class="reveal">
+                <div class="inline-flex items-center gap-2 glass px-4 py-2 rounded-full mb-8">
+                    <span class="w-2 h-2 bg-cta rounded-full animate-pulse"></span>
+                    <span class="text-sm text-gray-400">Primer MCP de normativa estructural en LATAM</span>
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    La <span class="gradient-text">NSR-10</span> conectada<br>
+                    a cualquier <span class="gradient-text">IA</span>
+                </h1>
+                
+                <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
+                    Motor de inteligencia artificial para ingeniería estructural.
+                    <span id="typing-text" class="text-white typing-cursor"></span>
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#demo" class="bg-cta hover:bg-green-400 text-dark font-bold px-8 py-4 rounded-xl transition cursor-pointer flex items-center justify-center gap-2 glow">
+                        <i data-lucide="play" class="w-5 h-5"></i>
+                        Probar Gratis
+                    </a>
+                    <a href="#features" class="glass hover:bg-secondary/50 font-semibold px-8 py-4 rounded-xl transition cursor-pointer flex items-center justify-center gap-2">
+                        <i data-lucide="arrow-down" class="w-5 h-5"></i>
+                        Ver más
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <i data-lucide="chevron-down" class="w-6 h-6 text-gray-500"></i>
+        </div>
+    </section>
+    
+    <!-- Stats -->
+    <section class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="reveal text-center">
+                    <div class="stat-number text-5xl sm:text-6xl font-bold mb-2">259</div>
+                    <div class="text-gray-400">Tablas SQL</div>
+                </div>
+                <div class="reveal text-center" style="transition-delay: 100ms;">
+                    <div class="stat-number text-5xl sm:text-6xl font-bold mb-2">12,789</div>
+                    <div class="text-gray-400">Secciones FTS</div>
+                </div>
+                <div class="reveal text-center" style="transition-delay: 200ms;">
+                    <div class="stat-number text-5xl sm:text-6xl font-bold mb-2">3,109</div>
+                    <div class="text-gray-400">Nodos KG</div>
+                </div>
+                <div class="reveal text-center" style="transition-delay: 300ms;">
+                    <div class="stat-number text-5xl sm:text-6xl font-bold mb-2">11</div>
+                    <div class="text-gray-400">Títulos NSR-10</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features -->
+    <section id="features" class="py-20 relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Todo lo que necesitas</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Consulta la NSR-10 desde cualquier aplicación, agente o modelo de IA</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- MCP Server -->
+                <div class="reveal glass rounded-2xl p-6 feature-card transition-all duration-300 cursor-pointer">
+                    <div class="w-12 h-12 bg-cta/20 rounded-xl flex items-center justify-center mb-4">
+                        <i data-lucide="plug" class="w-6 h-6 text-cta"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">MCP Server</h3>
+                    <p class="text-gray-400 text-sm">Conecta Claude Desktop, GPT, Gemini o cualquier LLM compatible con Model Context Protocol</p>
+                </div>
+                
+                <!-- API REST -->
+                <div class="reveal glass rounded-2xl p-6 feature-card transition-all duration-300 cursor-pointer" style="transition-delay: 100ms;">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <i data-lucide="code" class="w-6 h-6 text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">API REST</h3>
+                    <p class="text-gray-400 text-sm">Integra en tu software con endpoints simples. /ask, /sql, /search — JSON everywhere</p>
+                </div>
+                
+                <!-- RAG -->
+                <div class="reveal glass rounded-2xl p-6 feature-card transition-all duration-300 cursor-pointer" style="transition-delay: 200ms;">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <i data-lucide="message-square" class="w-6 h-6 text-purple-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">RAG en Español</h3>
+                    <p class="text-gray-400 text-sm">Pregunta en lenguaje natural. 3,109 embeddings para búsqueda semántica precisa</p>
+                </div>
+                
+                <!-- SQL Directo -->
+                <div class="reveal glass rounded-2xl p-6 feature-card transition-all duration-300 cursor-pointer" style="transition-delay: 300ms;">
+                    <div class="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center mb-4">
+                        <i data-lucide="database" class="w-6 h-6 text-orange-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">SQL Directo</h3>
+                    <p class="text-gray-400 text-sm">259 tablas con datos normativos. Precisión 100% para valores tabulares</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How it works -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Así de simple</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal text-center">
+                    <div class="w-16 h-16 bg-cta/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-cta">1</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Conecta</h3>
+                    <p class="text-gray-400 text-sm">Configura el MCP Server en Claude Desktop o llama a la API</p>
+                </div>
+                <div class="reveal text-center" style="transition-delay: 150ms;">
+                    <div class="w-16 h-16 bg-cta/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-cta">2</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Pregunta</h3>
+                    <p class="text-gray-400 text-sm">"¿Cuál es el Fa para suelo D con Aa=0.25?" — en español natural</p>
+                </div>
+                <div class="reveal text-center" style="transition-delay: 300ms;">
+                    <div class="w-16 h-16 bg-cta/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-cta">3</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Obtén datos reales</h3>
+                    <p class="text-gray-400 text-sm">Fa = 1.00 — directo de la tabla NSR-10, sin alucinaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Demo -->
+    <section id="demo" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12 reveal">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Pruébalo ahora</h2>
+                <p class="text-gray-400">Consulta la NSR-10 en tiempo real</p>
+            </div>
+            
+            <div class="reveal glass rounded-3xl p-6 sm:p-8">
+                <div class="flex items-center gap-2 mb-4">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    <span class="ml-4 text-sm text-gray-500">Struos.AI Chat</span>
+                </div>
+                
+                <div class="bg-darker rounded-xl p-4 h-64 overflow-y-auto mb-4" id="chat-messages">
+                    <div class="flex gap-3 mb-4">
+                        <div class="w-8 h-8 bg-cta/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i data-lucide="bot" class="w-4 h-4 text-cta"></i>
+                        </div>
+                        <div class="glass rounded-xl rounded-tl-none p-3 max-w-[80%]">
+                            <p class="text-sm">¡Hola! Soy Struos.AI. Pregúntame sobre la NSR-10. Por ejemplo: "¿Parámetros sísmicos para Bogotá?"</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex gap-3">
+                    <input type="text" id="chat-input" 
+                           placeholder="Escribe tu pregunta sobre la NSR-10..." 
+                           class="flex-1 bg-darker border border-gray-700 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-cta transition">
+                    <button id="chat-send" class="bg-cta hover:bg-green-400 text-dark font-semibold px-6 py-3 rounded-xl transition cursor-pointer flex items-center gap-2">
+                        <i data-lucide="send" class="w-4 h-4"></i>
+                    </button>
+                </div>
+                
+                <div class="flex flex-wrap gap-2 mt-4">
+                    <button onclick="askDemo('¿Parámetros sísmicos para Medellín?')" class="text-xs glass px-3 py-1 rounded-full hover:bg-secondary/50 transition cursor-pointer">Sismo Medellín</button>
+                    <button onclick="askDemo('Coeficiente Fa para suelo D con Aa=0.25')" class="text-xs glass px-3 py-1 rounded-full hover:bg-secondary/50 transition cursor-pointer">Coef Fa</button>
+                    <button onclick="askDemo('Área de una barra #5')" class="text-xs glass px-3 py-1 rounded-full hover:bg-secondary/50 transition cursor-pointer">Barras refuerzo</button>
+                    <button onclick="askDemo('Deriva máxima para pórticos de concreto')" class="text-xs glass px-3 py-1 rounded-full hover:bg-secondary/50 transition cursor-pointer">Deriva máx</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pricing -->
+    <section id="pricing" class="py-20 relative">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Planes simples</h2>
+                <p class="text-gray-400">Empieza gratis, escala cuando lo necesites</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Free -->
+                <div class="reveal glass rounded-2xl p-8">
+                    <h3 class="text-xl font-bold mb-2">Free</h3>
+                    <div class="text-4xl font-bold mb-1">$0<span class="text-lg text-gray-400 font-normal">/mes</span></div>
+                    <p class="text-gray-400 text-sm mb-6">Para probar y proyectos pequeños</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> 100 consultas/mes</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> API REST</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> MCP Server</li>
+                        <li class="flex items-center gap-2 text-sm text-gray-500"><i data-lucide="x" class="w-4 h-4"></i> RAG avanzado</li>
+                    </ul>
+                    <button class="w-full glass hover:bg-secondary/50 font-semibold py-3 rounded-xl transition cursor-pointer">Empezar gratis</button>
+                </div>
+                
+                <!-- Pro -->
+                <div class="reveal glass rounded-2xl p-8 border-2 border-cta relative" style="transition-delay: 100ms;">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-cta text-dark text-xs font-bold px-3 py-1 rounded-full">Popular</div>
+                    <h3 class="text-xl font-bold mb-2">Pro</h3>
+                    <div class="text-4xl font-bold mb-1">$49<span class="text-lg text-gray-400 font-normal">/mes</span></div>
+                    <p class="text-gray-400 text-sm mb-6">Para equipos de ingeniería</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> Consultas ilimitadas</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> API REST</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> MCP Server</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> RAG avanzado</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> Soporte prioritario</li>
+                    </ul>
+                    <button class="w-full bg-cta hover:bg-green-400 text-dark font-bold py-3 rounded-xl transition cursor-pointer">Comenzar prueba</button>
+                </div>
+                
+                <!-- Enterprise -->
+                <div class="reveal glass rounded-2xl p-8" style="transition-delay: 200ms;">
+                    <h3 class="text-xl font-bold mb-2">Enterprise</h3>
+                    <div class="text-4xl font-bold mb-1">Custom</div>
+                    <p class="text-gray-400 text-sm mb-6">Despliegue privado</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> Todo de Pro</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> On-premise</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> Normas adicionales</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> SLA garantizado</li>
+                        <li class="flex items-center gap-2 text-sm"><i data-lucide="check" class="w-4 h-4 text-cta"></i> Entrenamiento</li>
+                    </ul>
+                    <button class="w-full glass hover:bg-secondary/50 font-semibold py-3 rounded-xl transition cursor-pointer">Contactar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4 text-center reveal">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">¿Listo para revolucionar tu flujo de trabajo?</h2>
+            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">Únete a los ingenieros que ya consultan la NSR-10 con IA</p>
+            <a href="#demo" class="inline-flex items-center gap-2 bg-cta hover:bg-green-400 text-dark font-bold px-8 py-4 rounded-xl transition cursor-pointer glow">
+                <i data-lucide="rocket" class="w-5 h-5"></i>
+                Empezar ahora
+            </a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-cta rounded-lg flex items-center justify-center">
+                        <i data-lucide="building-2" class="w-5 h-5 text-dark"></i>
+                    </div>
+                    <span class="text-xl font-bold">Struos<span class="text-cta">.AI</span></span>
+                </div>
+                
+                <div class="flex items-center gap-6">
+                    <a href="https://github.com/comandoconstrucciones/struos-normative-engine" target="_blank" 
+                       class="text-gray-400 hover:text-white transition cursor-pointer">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="mailto:claudio@comandoconstrucciones.com" class="text-gray-400 hover:text-white transition cursor-pointer">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+                
+                <p class="text-sm text-gray-500">© 2026 Struos.AI — Comando Construcciones</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Init Lucide icons
+        lucide.createIcons();
+        
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '-50px' });
+        
+        reveals.forEach(el => observer.observe(el));
+        
+        // Parallax
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    document.documentElement.style.setProperty('--scroll', window.scrollY + 'px');
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+        
+        // Typing effect
+        const phrases = [
+            'Consulta parámetros sísmicos al instante.',
+            'Diseña con datos reales de la norma.',
+            'Sin alucinaciones. Solo hechos.',
+            'Conecta tu IA favorita vía MCP.'
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingEl = document.getElementById('typing-text');
+        
+        function type() {
+            const phrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typingEl.textContent = phrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingEl.textContent = phrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            let delay = isDeleting ? 30 : 60;
+            
+            if (!isDeleting && charIndex === phrase.length) {
+                delay = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                delay = 500;
+            }
+            
+            setTimeout(type, delay);
+        }
+        type();
+        
+        // Chat demo
+        const chatMessages = document.getElementById('chat-messages');
+        const chatInput = document.getElementById('chat-input');
+        const chatSend = document.getElementById('chat-send');
+        
+        const demoResponses = {
+            'medellín': 'Medellín (Antioquia): Aa = 0.15, Av = 0.20, Zona de amenaza sísmica: Intermedia',
+            'bogotá': 'Bogotá D.C.: Aa = 0.15, Av = 0.20, Zona de amenaza sísmica: Intermedia',
+            'cali': 'Cali (Valle del Cauca): Aa = 0.25, Av = 0.25, Zona de amenaza sísmica: Alta',
+            'fa': 'Para suelo tipo D con Aa = 0.25: Fa = 1.00 (Tabla A.2.4-3 NSR-10)',
+            'fv': 'Para suelo tipo D con Av = 0.25: Fv = 1.60 (Tabla A.2.4-4 NSR-10)',
+            'barra': 'Barra #5: Ø15.9mm, Área = 199 mm², Peso = 1.552 kg/m (Tabla C.3.5.3-1)',
+            'deriva': 'Deriva máxima para pórticos de concreto/acero: 1.0% (Tabla A.6.4-1 NSR-10)',
+            'r': 'Pórticos de concreto DES: R₀ = 7.0, Ω₀ = 3.0, Cd = 5.5 (Tabla A.3-3)',
+            'default': 'Puedo ayudarte con parámetros sísmicos, coeficientes Fa/Fv/R, propiedades de barras, derivas máximas y más. ¿Qué necesitas saber de la NSR-10?'
+        };
+        
+        function addMessage(content, isUser) {
+            const div = document.createElement('div');
+            div.className = 'flex gap-3 mb-4';
+            div.innerHTML = `
+                <div class="w-8 h-8 ${isUser ? 'bg-secondary' : 'bg-cta/20'} rounded-lg flex items-center justify-center flex-shrink-0">
+                    <i data-lucide="${isUser ? 'user' : 'bot'}" class="w-4 h-4 ${isUser ? 'text-gray-400' : 'text-cta'}"></i>
+                </div>
+                <div class="glass rounded-xl ${isUser ? 'rounded-tr-none' : 'rounded-tl-none'} p-3 max-w-[80%]">
+                    <p class="text-sm">${content}</p>
+                </div>
+            `;
+            chatMessages.appendChild(div);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            lucide.createIcons();
+        }
+        
+        function getResponse(query) {
+            query = query.toLowerCase();
+            for (const [key, response] of Object.entries(demoResponses)) {
+                if (query.includes(key)) return response;
+            }
+            return demoResponses.default;
+        }
+        
+        function askDemo(query) {
+            chatInput.value = query;
+            sendMessage();
+        }
+        
+        function sendMessage() {
+            const query = chatInput.value.trim();
+            if (!query) return;
+            
+            addMessage(query, true);
+            chatInput.value = '';
+            
+            setTimeout(() => {
+                addMessage(getResponse(query), false);
+            }, 500 + Math.random() * 500);
+        }
+        
+        chatSend.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keypress', e => {
+            if (e.key === 'Enter') sendMessage();
+        });
+    </script>
+</body>
+</html>
