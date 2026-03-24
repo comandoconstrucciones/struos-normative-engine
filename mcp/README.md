@@ -1,49 +1,78 @@
 # NSR-10 MCP Server
 
-Servidor MCP (Model Context Protocol) para consultas de la NSR-10 Colombia.
+Motor normativo de ingeniería estructural Colombia para Model Context Protocol.
 
-## Herramientas Disponibles
+## Instalación
 
-| Herramienta | Descripción |
-|-------------|-------------|
-| `parametros_sismicos` | Aa, Av, zona para cualquier municipio |
-| `coeficiente_sitio` | Fa y Fv según tipo de suelo |
+```bash
+pip install mcp httpx
+```
+
+## Configuración Claude Desktop
+
+Agregar a `~/.config/claude/claude_desktop_config.json` (Linux) o `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS):
+
+```json
+{
+  "mcpServers": {
+    "nsr10": {
+      "command": "python3",
+      "args": ["/ruta/a/mcp/server.py"]
+    }
+  }
+}
+```
+
+**No requiere API keys** — usa la API pública https://struos-api.vercel.app
+
+## Herramientas disponibles
+
+| Tool | Descripción |
+|------|-------------|
+| `parametros_sismicos` | Aa, Av, zona de amenaza para cualquier municipio |
+| `coeficiente_fa` | Coef Fa por tipo de suelo y Aa |
+| `coeficiente_fv` | Coef Fv por tipo de suelo y Av |
 | `coeficiente_r` | R₀, Ω₀, Cd para sistemas estructurales |
-| `coeficiente_importancia` | Factor I por grupo de uso |
-| `barras_refuerzo` | Propiedades de barras |
-| `cargas_vivas` | Cargas por uso de edificación |
+| `barras_refuerzo` | Propiedades de barras (Ø, área, masa) |
 | `deriva_maxima` | Derivas máximas permitidas |
-| `recubrimientos` | Recubrimientos mínimos |
-| `perfiles_acero` | Propiedades de perfiles W |
-| `consulta_sql` | Consulta directa a 259 tablas |
-| `buscar_seccion` | Búsqueda FTS en 12,789 secciones |
+| `buscar_seccion` | Búsqueda FTS en secciones NSR-10 |
 
-## Instalación Claude Desktop
+## Ejemplos de uso en Claude
 
-1. Copiar configuración a `~/Library/Application Support/Claude/claude_desktop_config.json` (Mac)
-   o `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
+```
+"¿Cuáles son los parámetros sísmicos para Bogotá?"
+→ Usa parametros_sismicos(municipio="Bogotá")
 
-2. Agregar tu SUPABASE_SERVICE_ROLE key
+"Dame el coeficiente Fa para suelo tipo D con Aa=0.25"
+→ Usa coeficiente_fa(tipo_suelo="D", aa=0.25)
 
-3. Reiniciar Claude Desktop
+"¿Cuál es el R para pórticos especiales de concreto?"
+→ Usa coeficiente_r(sistema="pórticos", capacidad="DES")
 
-## Uso
+"Propiedades de la barra #5"
+→ Usa barras_refuerzo(designacion="5")
+```
 
-Una vez instalado, Claude puede usar comandos como:
+## API REST
 
-- "¿Cuáles son los parámetros sísmicos para Medellín?"
-- "Dame el coeficiente Fa para suelo tipo D con Aa=0.25"
-- "¿Qué R uso para pórticos de concreto DES?"
-- "Busca en la NSR-10 sobre diseño de vigas a cortante"
+La API también está disponible directamente:
 
-## Base de Datos
+```bash
+# Parámetros sísmicos
+curl https://struos-api.vercel.app/municipios/Bogotá
 
-- 259 tablas SQL
-- 12,789 secciones indexadas
-- 3,109 nodos Knowledge Graph
-- 568 referencias externas
-- 558 fórmulas
+# Coeficiente Fa
+curl https://struos-api.vercel.app/coef/fa/D/0.25
 
-## Licencia
+# Barras de refuerzo
+curl https://struos-api.vercel.app/barras?designacion=5
 
-Uso interno Comando Construcciones / Struos.AI
+# Derivas máximas
+curl https://struos-api.vercel.app/deriva
+```
+
+## Links
+
+- **Landing**: https://struos-ai.vercel.app
+- **API**: https://struos-api.vercel.app
+- **GitHub**: https://github.com/comandoconstrucciones/struos-normative-engine

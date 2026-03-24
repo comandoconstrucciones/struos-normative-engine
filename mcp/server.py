@@ -2,8 +2,8 @@
 """
 NSR-10 MCP Server
 Model Context Protocol server para consultas de la NSR-10 Colombia
+Usa la API pública: https://struos-api.vercel.app
 """
-import os
 import json
 import asyncio
 from typing import Any
@@ -12,27 +12,20 @@ from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-# Config - usar STRUOS_SUPABASE_SERVICE_ROLE (no SUPABASE_SERVICE_ROLE_KEY que es de otro proyecto)
-SUPABASE_URL = os.environ.get('STRUOS_SUPABASE_URL', 'https://vdakfewjadwaczulcmvj.supabase.co')
-SUPABASE_KEY = os.environ.get('STRUOS_SUPABASE_SERVICE_ROLE')
-
-HEADERS = {
-    'apikey': SUPABASE_KEY,
-    'Authorization': f'Bearer {SUPABASE_KEY}',
-    'Content-Type': 'application/json'
-}
+# Config - API pública (no requiere keys)
+API_URL = "https://struos-api.vercel.app"
 
 # Create server
 server = Server("nsr10-server")
 
-async def query_supabase(table: str, params: dict = None) -> list:
-    """Query Supabase REST API"""
-    async with httpx.AsyncClient() as client:
-        url = f"{SUPABASE_URL}/rest/v1/{table}"
-        resp = await client.get(url, params=params or {}, headers=HEADERS)
+async def api_get(endpoint: str, params: dict = None) -> dict:
+    """Query NSR-10 API"""
+    async with httpx.AsyncClient(timeout=30) as client:
+        url = f"{API_URL}{endpoint}"
+        resp = await client.get(url, params=params or {})
         if resp.status_code == 200:
             return resp.json()
-        return {"error": resp.text}
+        return {"error": resp.text, "status": resp.status_code}
 
 @server.list_tools()
 async def list_tools() -> list[Tool]:
@@ -50,16 +43,27 @@ async def list_tools() -> list[Tool]:
             }
         ),
         Tool(
-            name="coeficiente_sitio",
-            description="Obtiene coeficientes Fa y Fv según tipo de suelo y valores Aa/Av",
+            name="coeficiente_fa",
+            description="Obtiene coeficiente Fa según tipo de suelo y valor Aa",
             inputSchema={
                 "type": "object",
                 "properties": {
                     "tipo_suelo": {"type": "string", "description": "Tipo de suelo: A, B, C, D, E o F"},
-                    "aa": {"type": "number", "description": "Valor de Aa (0.05 a 0.50)"},
+                    "aa": {"type": "number", "description": "Valor de Aa (0.05 a 0.50)"}
+                },
+                "required": ["tipo_suelo", "aa"]
+            }
+        ),
+        Tool(
+            name="coeficiente_fv",
+            description="Obtiene coeficiente Fv según tipo de suelo y valor Av",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "tipo_suelo": {"type": "string", "description": "Tipo de suelo: A, B, C, D, E o F"},
                     "av": {"type": "number", "description": "Valor de Av (0.05 a 0.50)"}
                 },
-                "required": ["tipo_suelo", "aa", "av"]
+                "required": ["tipo_suelo", "av"]
             }
         ),
         Tool(
@@ -75,36 +79,13 @@ async def list_tools() -> list[Tool]:
             }
         ),
         Tool(
-            name="coeficiente_importancia",
-            description="Obtiene el coeficiente de importancia I según el grupo de uso",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "grupo": {"type": "string", "enum": ["I", "II", "III", "IV"], "description": "Grupo de uso de la edificación"}
-                },
-                "required": ["grupo"]
-            }
-        ),
-        Tool(
             name="barras_refuerzo",
             description="Obtiene propiedades de barras de refuerzo (área, diámetro, peso)",
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "designacion": {"type": "string", "description": "Designación de la barra (ej: No.4, No.5, 16M)"}
-                },
-                "required": ["designacion"]
-            }
-        ),
-        Tool(
-            name="cargas_vivas",
-            description="Obtiene cargas vivas según uso de la edificación",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "uso": {"type": "string", "description": "Tipo de uso (ej: oficinas, residencial, educativo, hospitalario)"}
-                },
-                "required": ["uso"]
+                    "designacion": {"type": "string", "description": "Designación de la barra (ej: No.4, No.5, 5, 16M)"}
+                }
             }
         ),
         Tool(
@@ -117,47 +98,13 @@ async def list_tools() -> list[Tool]:
             }
         ),
         Tool(
-            name="recubrimientos",
-            description="Obtiene recubrimientos mínimos para elementos de concreto",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "elemento": {"type": "string", "description": "Tipo de elemento (vigas, columnas, losas, etc.)"}
-                }
-            }
-        ),
-        Tool(
-            name="perfiles_acero",
-            description="Obtiene propiedades de perfiles de acero estructural",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "perfil": {"type": "string", "description": "Designación del perfil (ej: W12x40, W8x31)"}
-                },
-                "required": ["perfil"]
-            }
-        ),
-        Tool(
-            name="consulta_sql",
-            description="Consulta directa a cualquier tabla de la NSR-10. Tablas disponibles: nsr10_municipios, nsr10_coef_fa, nsr10_coef_fv, nsr10_coef_r, nsr10_coef_importancia, nsr10_barras_refuerzo, nsr10_cargas_vivas, nsr10_cargas_muertas, nsr10_recubrimientos, nsr10_deriva_max, nsr10_acero_perfiles, nsr10_madera_esfuerzos_adm, nsr10_guadua_propiedades, nsr10_geotecnia_fs, nsr10_incendio_resistencia_elementos, y 240+ más",
-            inputSchema={
-                "type": "object",
-                "properties": {
-                    "tabla": {"type": "string", "description": "Nombre de la tabla (ej: nsr10_municipios)"},
-                    "filtros": {"type": "string", "description": "Filtros en formato Supabase (ej: municipio=eq.Bogotá)"},
-                    "limite": {"type": "integer", "description": "Número máximo de resultados", "default": 20}
-                },
-                "required": ["tabla"]
-            }
-        ),
-        Tool(
             name="buscar_seccion",
             description="Busca secciones de la NSR-10 por texto",
             inputSchema={
                 "type": "object",
                 "properties": {
                     "texto": {"type": "string", "description": "Texto a buscar en las secciones"},
-                    "titulo": {"type": "string", "description": "Filtrar por título (A, B, C, D, E, F, G, H, I, J, K)"}
+                    "limite": {"type": "integer", "description": "Número máximo de resultados", "default": 10}
                 },
                 "required": ["texto"]
             }
@@ -170,123 +117,116 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
     
     if name == "parametros_sismicos":
         municipio = arguments.get("municipio", "")
-        data = await query_supabase("nsr10_municipios", {
-            "municipio": f"ilike.*{municipio}*",
-            "select": "municipio,departamento,aa,av,zona_amenaza"
-        })
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        data = await api_get(f"/municipios/{municipio}")
+        if isinstance(data, list) and data:
+            m = data[0]
+            result = f"""Parámetros sísmicos para {m.get('municipio', municipio)}:
+- Departamento: {m.get('departamento', 'N/A')}
+- Aa (aceleración pico): {m.get('aa', 'N/A')}
+- Av (velocidad pico): {m.get('av', 'N/A')}
+- Zona de amenaza sísmica: {m.get('zona_amenaza', 'N/A')}
+
+Fuente: NSR-10 Título A, Apéndice A-4"""
+        else:
+            result = f"No se encontró el municipio '{municipio}'. Intenta con el nombre exacto."
         
-    elif name == "coeficiente_sitio":
-        tipo = arguments.get("tipo_suelo", "").upper()
+    elif name == "coeficiente_fa":
+        tipo = arguments.get("tipo_suelo", "D").upper()
         aa = arguments.get("aa", 0.25)
+        data = await api_get(f"/coef/fa/{tipo}/{aa}")
+        fa = data.get("fa")
+        if fa:
+            result = f"""Coeficiente Fa:
+- Tipo de suelo: {tipo}
+- Aa: {aa}
+- Fa = {fa}
+
+Fuente: NSR-10 Tabla A.2.4-3"""
+        else:
+            result = f"No se encontró Fa para suelo {tipo} con Aa={aa}. Valores válidos de Aa: 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50"
+        
+    elif name == "coeficiente_fv":
+        tipo = arguments.get("tipo_suelo", "D").upper()
         av = arguments.get("av", 0.25)
-        
-        fa_data = await query_supabase("nsr10_coef_fa", {
-            "soil_type": f"eq.{tipo}",
-            "aa_value": f"eq.{aa}",
-            "select": "fa"
-        })
-        fv_data = await query_supabase("nsr10_coef_fv", {
-            "soil_type": f"eq.{tipo}",
-            "av_value": f"eq.{av}",
-            "select": "fv"
-        })
-        
-        fa = fa_data[0]["fa"] if fa_data and isinstance(fa_data, list) else "No encontrado"
-        fv = fv_data[0]["fv"] if fv_data and isinstance(fv_data, list) else "No encontrado"
-        
-        result = json.dumps({"tipo_suelo": tipo, "Aa": aa, "Av": av, "Fa": fa, "Fv": fv}, indent=2)
+        data = await api_get(f"/coef/fv/{tipo}/{av}")
+        fv = data.get("fv")
+        if fv:
+            result = f"""Coeficiente Fv:
+- Tipo de suelo: {tipo}
+- Av: {av}
+- Fv = {fv}
+
+Fuente: NSR-10 Tabla A.2.4-4"""
+        else:
+            result = f"No se encontró Fv para suelo {tipo} con Av={av}. Valores válidos de Av: 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50"
         
     elif name == "coeficiente_r":
         sistema = arguments.get("sistema", "")
         capacidad = arguments.get("capacidad", "")
-        
-        params = {"sistema": f"ilike.*{sistema}*", "select": "sistema,capacidad_disipacion,r0,omega0,cd"}
+        params = {"sistema": sistema}
         if capacidad:
-            params["capacidad_disipacion"] = f"eq.{capacidad}"
-            
-        data = await query_supabase("nsr10_coef_r", params)
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+            params["capacidad"] = capacidad
+        data = await api_get("/coef/r", params)
         
-    elif name == "coeficiente_importancia":
-        grupo = arguments.get("grupo", "")
-        data = await query_supabase("nsr10_coef_importancia", {
-            "grupo_uso": f"eq.{grupo}",
-            "select": "*"
-        })
-        if not data:
-            data = await query_supabase("nsr10_coef_importancia", {"select": "*"})
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        if isinstance(data, list) and data:
+            lines = ["Coeficientes de disipación de energía:\n"]
+            for item in data[:5]:
+                lines.append(f"**{item.get('sistema', 'N/A')}** ({item.get('capacidad_disipacion', 'N/A')}):")
+                lines.append(f"  - R₀ = {item.get('r0', 'N/A')}")
+                lines.append(f"  - Ω₀ = {item.get('omega0', 'N/A')}")
+                lines.append(f"  - Cd = {item.get('cd', 'N/A')}\n")
+            lines.append("Fuente: NSR-10 Tabla A.3-3")
+            result = "\n".join(lines)
+        else:
+            result = f"No se encontraron sistemas con '{sistema}'"
         
     elif name == "barras_refuerzo":
         designacion = arguments.get("designacion", "")
-        data = await query_supabase("nsr10_barras_refuerzo", {
-            "designacion": f"ilike.*{designacion}*",
-            "select": "designacion,diametro_mm,area_mm2,masa_kg_m,tabla_ref"
-        })
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        params = {"designacion": designacion} if designacion else {}
+        data = await api_get("/barras", params)
         
-    elif name == "cargas_vivas":
-        uso = arguments.get("uso", "")
-        data = await query_supabase("nsr10_cargas_vivas", {
-            "or": f"(categoria.ilike.*{uso}*,uso.ilike.*{uso}*)",
-            "select": "categoria,uso,carga_kn_m2,tabla_ref",
-            "limit": "20"
-        })
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        if isinstance(data, list) and data:
+            lines = ["Barras de refuerzo:\n"]
+            lines.append("| Designación | Ø (mm) | Área (mm²) | Masa (kg/m) |")
+            lines.append("|-------------|--------|------------|-------------|")
+            for b in data[:10]:
+                lines.append(f"| {b.get('designacion', '')} | {b.get('diametro_mm', '')} | {b.get('area_mm2', '')} | {b.get('masa_kg_m', '')} |")
+            lines.append("\nFuente: NSR-10 Tabla C.3.5.3-1")
+            result = "\n".join(lines)
+        else:
+            result = "No se encontraron barras"
         
     elif name == "deriva_maxima":
-        data = await query_supabase("nsr10_deriva_max", {"select": "*"})
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        data = await api_get("/deriva")
         
-    elif name == "recubrimientos":
-        elemento = arguments.get("elemento", "")
-        params = {"select": "condicion,recubrimiento_reforzado_mm,recubrimiento_preesforzado_mm,tabla_ref"}
-        if elemento:
-            params["condicion"] = f"ilike.*{elemento}*"
-        data = await query_supabase("nsr10_recubrimientos", params)
-        result = json.dumps(data, indent=2, ensure_ascii=False)
-        
-    elif name == "perfiles_acero":
-        perfil = arguments.get("perfil", "")
-        data = await query_supabase("nsr10_acero_perfiles", {
-            "designacion": f"ilike.*{perfil}*",
-            "select": "*"
-        })
-        result = json.dumps(data, indent=2, ensure_ascii=False)
-        
-    elif name == "consulta_sql":
-        tabla = arguments.get("tabla", "")
-        filtros = arguments.get("filtros", "")
-        limite = arguments.get("limite", 20)
-        
-        params = {"select": "*", "limit": str(limite)}
-        if filtros:
-            for filtro in filtros.split("&"):
-                if "=" in filtro:
-                    key, value = filtro.split("=", 1)
-                    params[key] = value
-                    
-        data = await query_supabase(tabla, params)
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        if isinstance(data, list) and data:
+            lines = ["Derivas máximas permitidas (NSR-10 Tabla A.6.4-1):\n"]
+            lines.append("| Sistema estructural | Deriva máx |")
+            lines.append("|---------------------|------------|")
+            for d in data:
+                lines.append(f"| {d.get('sistema', '')} | {d.get('notas', '')} |")
+            result = "\n".join(lines)
+        else:
+            result = "Error obteniendo derivas"
         
     elif name == "buscar_seccion":
         texto = arguments.get("texto", "")
-        titulo = arguments.get("titulo", "")
+        limite = arguments.get("limite", 10)
+        data = await api_get("/search", {"q": texto, "limit": limite})
         
-        params = {
-            "contenido": f"ilike.*{texto}*",
-            "select": "titulo,seccion,contenido",
-            "limit": "10"
-        }
-        if titulo:
-            params["titulo"] = f"eq.{titulo}"
-            
-        data = await query_supabase("nsr10_secciones", params)
-        result = json.dumps(data, indent=2, ensure_ascii=False)
+        results = data.get("results", [])
+        if results:
+            lines = [f"Resultados para '{texto}':\n"]
+            for r in results[:5]:
+                lines.append(f"**{r.get('titulo', '')} - {r.get('seccion', '')}**")
+                contenido = r.get('contenido', '')[:200]
+                lines.append(f"{contenido}...\n")
+            result = "\n".join(lines)
+        else:
+            result = f"No se encontraron secciones con '{texto}'"
         
     else:
-        result = json.dumps({"error": f"Herramienta {name} no encontrada"})
+        result = f"Herramienta {name} no encontrada"
     
     return [TextContent(type="text", text=result)]
 
