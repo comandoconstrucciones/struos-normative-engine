@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "nsr10": {
+      "command": "python3",
+      "args": ["/root/clawd/leonardo/projects/normative-engine/mcp/server.py"],
+      "env": {
+        "STRUOS_SUPABASE_URL": "https://vdakfewjadwaczulcmvj.supabase.co",
+        "STRUOS_SUPABASE_SERVICE_ROLE": "PONER_TU_KEY_AQUI"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "nsr10-mcp"
+version = "1.0.0"
+description = "MCP Server para consultas NSR-10 Colombia"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.9.0",
+    "httpx>=0.24.0",
+]
+
+[project.scripts]
+nsr10-mcp = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSR-10 AI - Consulta la Norma Sismo Resistente</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .stat {
+            background: rgba(255,255,255,0.05);
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .stat-label {
+            font-size: 0.85rem;
+            color: #888;
+        }
+        .chat-container {
+            background: rgba(255,255,255,0.03);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .messages {
+            height: 400px;
+            overflow-y: auto;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            max-width: 85%;
+        }
+        .message.user {
+            background: #00d4ff;
+            color: #000;
+            margin-left: auto;
+        }
+        .message.bot {
+            background: rgba(255,255,255,0.1);
+        }
+        .message pre {
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+            margin-top: 10px;
+        }
+        .input-area {
+            display: flex;
+            gap: 10px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            font-size: 1rem;
+        }
+        input[type="text"]::placeholder {
+            color: #666;
+        }
+        button {
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            border: none;
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .examples {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .example {
+            background: rgba(255,255,255,0.05);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .example:hover {
+            background: rgba(0,212,255,0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #555;
+            font-size: 0.85rem;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #fff;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏗️ NSR-10 AI</h1>
+            <p class="subtitle">Consulta la Norma Sismo Resistente de Colombia con Inteligencia Artificial</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-value">259</div>
+                <div class="stat-label">Tablas SQL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">12,789</div>
+                <div class="stat-label">Secciones</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">3,109</div>
+                <div class="stat-label">Nodos KG</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">11</div>
+                <div class="stat-label">Títulos</div>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="messages" id="messages">
+                <div class="message bot">
+                    👋 ¡Hola! Soy tu asistente para consultas de la NSR-10. 
+                    Puedo ayudarte con parámetros sísmicos, coeficientes, cargas, recubrimientos, y mucho más.
+                    <br><br>
+                    Prueba con una pregunta como: <em>"¿Cuáles son los parámetros sísmicos para Medellín?"</em>
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Escribe tu pregunta sobre la NSR-10..." 
+                       onkeypress="if(event.key==='Enter') sendMessage()">
+                <button onclick="sendMessage()" id="sendBtn">Consultar</button>
+            </div>
+            <div class="examples">
+                <span class="example" onclick="setExample('¿Parámetros sísmicos para Bogotá?')">Sismo Bogotá</span>
+                <span class="example" onclick="setExample('Coeficiente Fa para suelo D con Aa=0.25')">Coef Fa</span>
+                <span class="example" onclick="setExample('¿Qué R uso para pórticos de concreto DES?')">Coef R</span>
+                <span class="example" onclick="setExample('Área de una barra #5')">Barras refuerzo</span>
+                <span class="example" onclick="setExample('Carga viva para oficinas')">Cargas vivas</span>
+                <span class="example" onclick="setExample('Recubrimiento para columnas')">Recubrimientos</span>
+            </div>
+        </div>
+
+        <footer>
+            Powered by <strong>Struos.AI</strong> | NSR-10 Colombia | 
+            <a href="https://github.com/comandoconstrucciones/struos-normative-engine" style="color:#00d4ff;">GitHub</a>
+        </footer>
+    </div>
+
+    <script>
+        const API_URL = 'API_ENDPOINT_HERE'; // Se reemplaza con la URL real
+        
+        function setExample(text) {
+            document.getElementById('userInput').value = text;
+            document.getElementById('userInput').focus();
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const messages = document.getElementById('messages');
+            const btn = document.getElementById('sendBtn');
+            const query = input.value.trim();
+            
+            if (!query) return;
+            
+            // Add user message
+            messages.innerHTML += `<div class="message user">${query}</div>`;
+            input.value = '';
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading"></span>';
+            
+            // Scroll to bottom
+            messages.scrollTop = messages.scrollHeight;
+            
+            try {
+                const response = await fetch(API_URL + '/ask', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: query })
+                });
+                
+                const data = await response.json();
+                
+                let botMessage = data.answer || 'No pude procesar tu consulta.';
+                if (data.sources && (data.sources.tables > 0 || data.sources.sections > 0)) {
+                    botMessage += `<br><small style="color:#888;">Fuentes: ${data.sources.tables} tablas, ${data.sources.sections} secciones</small>`;
+                }
+                
+                messages.innerHTML += `<div class="message bot">${botMessage}</div>`;
+                
+            } catch (error) {
+                messages.innerHTML += `<div class="message bot">❌ Error de conexión. Intenta de nuevo.</div>`;
+            }
+            
+            btn.disabled = false;
+            btn.innerHTML = 'Consultar';
+            messages.scrollTop = messages.scrollHeight;
+        }
+    </script>
+</body>
+</html>
