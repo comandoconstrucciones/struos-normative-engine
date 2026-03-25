@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 api/.env
 .wrangler/
+
+# PDFs de referencia (muy grandes para Git)
+docs/referencias/pdfs/*.pdf
