@@ -247,22 +247,33 @@ def get_coef_r(sistema: Optional[str] = None, capacidad: Optional[str] = None):
 def search_fts(q: str, limit: int = 10):
     """Búsqueda Full-Text en secciones de la NSR-10 (12,789 secciones indexadas)"""
     try:
-        # Usar FTS con Postgres full-text search
-        # El search_vector está indexado con GIN para búsquedas rápidas
+        # Sinónimos técnicos para mejorar búsqueda
+        SYNONYMS = {
+            'basal': 'base',
+            'basales': 'base',
+            'sismico': 'sísmico',
+            'sismica': 'sísmica',
+            'calculo': 'cálculo',
+            'diseno': 'diseño',
+            'seccion': 'sección',
+            'armado': 'reforzado',
+        }
         
-        # Preparar query para FTS: convertir espacios en AND
-        terms = q.strip().split()
+        # Normalizar y aplicar sinónimos
+        terms = q.strip().lower().split()
+        terms = [SYNONYMS.get(t, t) for t in terms]
+        
         if len(terms) > 1:
-            # Múltiples términos: usar websearch_to_tsquery para mejor flexibilidad
             fts_query = ' & '.join(terms)
         else:
             fts_query = terms[0] if terms else q
         
         # PostgREST soporta fts() para búsqueda full-text
+        # Usar 'simple' en vez de 'spanish' para evitar problemas de stemming
         resp = requests.get(
             f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
             params={
-                "search_vector": f"fts(spanish).{fts_query}",
+                "search_vector": f"fts(simple).{fts_query}",
                 "select": "seccion,titulo,contenido",
                 "limit": str(limit),
                 "order": "seccion"
