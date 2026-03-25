@@ -234,28 +234,58 @@ def get_coef_r(sistema: Optional[str] = None, capacidad: Optional[str] = None):
 
 @app.get("/search")
 def search_fts(q: str, limit: int = 10):
-    """Búsqueda en secciones de la NSR-10"""
+    """Búsqueda Full-Text en secciones de la NSR-10 (12,789 secciones indexadas)"""
     try:
-        # Búsqueda por contenido (ilike es lento pero funciona sin FTS)
+        # Usar FTS con Postgres full-text search
+        # El search_vector está indexado con GIN para búsquedas rápidas
+        
+        # Preparar query para FTS: convertir espacios en AND
+        terms = q.strip().split()
+        if len(terms) > 1:
+            # Múltiples términos: usar websearch_to_tsquery para mejor flexibilidad
+            fts_query = ' & '.join(terms)
+        else:
+            fts_query = terms[0] if terms else q
+        
+        # PostgREST soporta fts() para búsqueda full-text
         resp = requests.get(
             f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
-            params={"contenido": f"ilike.*{q}*", "select": "titulo,seccion,contenido", "limit": str(limit)},
+            params={
+                "search_vector": f"fts(spanish).{fts_query}",
+                "select": "seccion,titulo,contenido",
+                "limit": str(limit),
+                "order": "seccion"
+            },
             headers=HEADERS,
             timeout=15
         )
         results = resp.json()
         
-        # Si no encuentra, intentar en título
+        # Si FTS no encuentra, fallback a ILIKE
         if not results or (isinstance(results, list) and len(results) == 0):
             resp = requests.get(
                 f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
-                params={"titulo": f"ilike.*{q}*", "select": "titulo,seccion,contenido", "limit": str(limit)},
+                params={"contenido": f"ilike.*{q}*", "select": "seccion,titulo,contenido", "limit": str(limit)},
                 headers=HEADERS,
                 timeout=15
             )
             results = resp.json()
+            method = "ilike"
+        else:
+            method = "fts"
         
-        return {"query": q, "count": len(results) if isinstance(results, list) else 0, "results": results}
+        # Truncar contenido para respuesta más ligera
+        if isinstance(results, list):
+            for r in results:
+                if r.get('contenido') and len(r['contenido']) > 300:
+                    r['contenido'] = r['contenido'][:300] + '...'
+        
+        return {
+            "query": q,
+            "method": method,
+            "count": len(results) if isinstance(results, list) else 0,
+            "results": results
+        }
     except Exception as e:
         raise HTTPException(500, str(e))
 
