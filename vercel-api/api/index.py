@@ -213,18 +213,29 @@ def get_coef_r(sistema: Optional[str] = None, capacidad: Optional[str] = None):
     """Coeficientes R₀, Ω₀, Cd por sistema estructural"""
     try:
         params = {"select": "sistema,capacidad_disipacion,r0,omega0,cd", "limit": "30"}
-        if sistema:
-            # Normalizar búsqueda
-            sistema_norm = normalize_text(sistema)
-            params["sistema"] = f"ilike.*{sistema_norm}*"
+        
         if capacidad:
             params["capacidad_disipacion"] = f"eq.{capacidad.upper()}"
-        resp = requests.get(f"{SUPABASE_URL}/rest/v1/nsr10_coef_r", params=params, headers=HEADERS, timeout=10)
-        data = resp.json()
         
-        # Si no encuentra con normalizado, intentar original
-        if not data and sistema:
+        if sistema:
+            # Primero intentar con el término original (puede tener acentos)
             params["sistema"] = f"ilike.*{sistema}*"
+            resp = requests.get(f"{SUPABASE_URL}/rest/v1/nsr10_coef_r", params=params, headers=HEADERS, timeout=10)
+            data = resp.json()
+            
+            # Si no encuentra, traer todos y filtrar en Python
+            if not data or len(data) == 0:
+                del params["sistema"]
+                resp = requests.get(f"{SUPABASE_URL}/rest/v1/nsr10_coef_r", params=params, headers=HEADERS, timeout=10)
+                all_data = resp.json()
+                
+                if isinstance(all_data, list):
+                    sistema_norm = normalize_text(sistema).lower()
+                    data = [
+                        s for s in all_data 
+                        if sistema_norm in normalize_text(s.get('sistema', '')).lower()
+                    ]
+        else:
             resp = requests.get(f"{SUPABASE_URL}/rest/v1/nsr10_coef_r", params=params, headers=HEADERS, timeout=10)
             data = resp.json()
         

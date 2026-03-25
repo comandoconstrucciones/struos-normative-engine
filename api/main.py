@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from dotenv import load_dotenv
+load_dotenv()
 """
 NSR-10 API Server — FastAPI
 Deploy: uvicorn api_server:app --host 0.0.0.0 --port 8000
@@ -13,7 +15,7 @@ import requests
 from openai import OpenAI
 
 # Config
-SUPABASE_URL = os.environ.get('STRUOS_SUPABASE_URL')
+SUPABASE_URL = os.environ.get('STRUOS_SUPABASE_URL', 'https://vdakfewjadwaczulcmvj.supabase.co')
 SERVICE_ROLE = os.environ.get('STRUOS_SUPABASE_SERVICE_ROLE')
 OPENAI_KEY = os.environ.get('OPENAI_API_KEY')
 

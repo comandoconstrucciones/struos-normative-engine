@@ -1,0 +1,483 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "ComandoCalc API",
+    "description": "Cálculo estructural según NSR-10 y AISC 360",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.comandoconstrucciones.com"
+    }
+  ],
+  "paths": {
+    "/api/calc/beam/optimal": {
+      "post": {
+        "operationId": "calcularVigaOptima",
+        "summary": "Seleccionar perfil de viga optimo que cumple con cargas y luz",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["dead_load", "live_load", "span"],
+                "properties": {
+                  "dead_load": {
+                    "type": "number",
+                    "description": "Carga muerta en kg/m2"
+                  },
+                  "live_load": {
+                    "type": "number",
+                    "description": "Carga viva en kg/m2"
+                  },
+                  "span": {
+                    "type": "number",
+                    "description": "Luz libre en metros"
+                  },
+                  "tributary_width": {
+                    "type": "number",
+                    "description": "Ancho tributario en metros (default 1.0)"
+                  },
+                  "profile_type": {
+                    "type": "string",
+                    "enum": ["ipe", "hea", "w", "tubular_square"],
+                    "description": "Tipo de perfil (default ipe)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Perfil optimo seleccionado"
+          }
+        }
+      }
+    },
+    "/api/calc/column/optimal": {
+      "post": {
+        "operationId": "calcularColumnaOptima",
+        "summary": "Seleccionar perfil de columna optimo para carga axial",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["axial_load", "length"],
+                "properties": {
+                  "axial_load": {
+                    "type": "number",
+                    "description": "Carga axial en kN"
+                  },
+                  "length": {
+                    "type": "number",
+                    "description": "Altura de columna en metros"
+                  },
+                  "profile_type": {
+                    "type": "string",
+                    "enum": ["tubular_square", "hea", "w"],
+                    "description": "Tipo de perfil"
+                  },
+                  "support_condition": {
+                    "type": "string",
+                    "enum": ["pinned_pinned", "fixed_free", "fixed_pinned", "fixed_fixed"],
+                    "description": "Condicion de apoyo"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Perfil de columna optimo"
+          }
+        }
+      }
+    },
+    "/api/calc/purlin": {
+      "post": {
+        "operationId": "calcularCorrea",
+        "summary": "Calcular correa de cubierta optima",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["span", "spacing"],
+                "properties": {
+                  "span": {
+                    "type": "number",
+                    "description": "Luz entre cerchas en metros"
+                  },
+                  "spacing": {
+                    "type": "number",
+                    "description": "Separacion entre correas en metros"
+                  },
+                  "roof_type": {
+                    "type": "string",
+                    "enum": ["sandwich_panel", "metal_sheet", "fiber_cement", "clay_tile"],
+                    "description": "Tipo de cubierta"
+                  },
+                  "slope": {
+                    "type": "number",
+                    "description": "Pendiente en grados"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Correa optima seleccionada"
+          }
+        }
+      }
+    },
+    "/api/calc/wind": {
+      "post": {
+        "operationId": "calcularViento",
+        "summary": "Analisis de cargas de viento NSR-10",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["city_id", "building_height", "building_width", "building_length"],
+                "properties": {
+                  "city_id": {
+                    "type": "integer",
+                    "description": "ID de ciudad (usar /api/cities/ para buscar)"
+                  },
+                  "building_height": {
+                    "type": "number",
+                    "description": "Altura del edificio en metros"
+                  },
+                  "building_width": {
+                    "type": "number",
+                    "description": "Ancho del edificio en metros"
+                  },
+                  "building_length": {
+                    "type": "number",
+                    "description": "Largo del edificio en metros"
+                  },
+                  "roof_slope": {
+                    "type": "number",
+                    "description": "Pendiente de cubierta en grados"
+                  },
+                  "exposure": {
+                    "type": "string",
+                    "enum": ["B", "C", "D"],
+                    "description": "Categoria de exposicion"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Presiones de viento calculadas"
+          }
+        }
+      }
+    },
+    "/api/calc/truss/optimal": {
+      "post": {
+        "operationId": "calcularCerchaOptima",
+        "summary": "Disenar cercha metalica con perfil optimo",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["span", "height"],
+                "properties": {
+                  "span": {
+                    "type": "number",
+                    "description": "Luz de la cercha en metros"
+                  },
+                  "height": {
+                    "type": "number",
+                    "description": "Altura de la cercha en metros"
+                  },
+                  "truss_type": {
+                    "type": "string",
+                    "enum": ["pratt", "warren", "howe"],
+                    "description": "Tipo de cercha"
+                  },
+                  "dead_load": {
+                    "type": "number",
+                    "description": "Carga muerta en kN/m"
+                  },
+                  "live_load": {
+                    "type": "number",
+                    "description": "Carga viva en kN/m"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Cercha disenada"
+          }
+        }
+      }
+    },
+    "/api/calc/frame": {
+      "post": {
+        "operationId": "calcularPortico",
+        "summary": "Analisis de portico metalico 2D",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["span", "height", "num_bays"],
+                "properties": {
+                  "span": {
+                    "type": "number",
+                    "description": "Luz del portico en metros"
+                  },
+                  "height": {
+                    "type": "number",
+                    "description": "Altura en metros"
+                  },
+                  "num_bays": {
+                    "type": "integer",
+                    "description": "Numero de vanos"
+                  },
+                  "column_profile": {
+                    "type": "string",
+                    "description": "Perfil de columna (ej: HEA200)"
+                  },
+                  "beam_profile": {
+                    "type": "string",
+                    "description": "Perfil de viga (ej: IPE300)"
+                  },
+                  "dead_load": {
+                    "type": "number",
+                    "description": "Carga muerta kN/m"
+                  },
+                  "live_load": {
+                    "type": "number",
+                    "description": "Carga viva kN/m"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Resultados del portico"
+          }
+        }
+      }
+    },
+    "/api/calc/baseplate": {
+      "post": {
+        "operationId": "calcularPlacaBase",
+        "summary": "Disenar placa base para columna",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["axial_load", "column_profile"],
+                "properties": {
+                  "axial_load": {
+                    "type": "number",
+                    "description": "Carga axial en kN"
+                  },
+                  "column_profile": {
+                    "type": "string",
+                    "description": "Perfil de columna (ej: HEA200)"
+                  },
+                  "fc": {
+                    "type": "number",
+                    "description": "Resistencia del concreto en MPa (default 21)"
+                  },
+                  "bolt_size": {
+                    "type": "string",
+                    "description": "Tamano de perno (ej: 3/4)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Placa base disenada"
+          }
+        }
+      }
+    },
+    "/api/calc/industrial-building": {
+      "post": {
+        "operationId": "calcularNaveIndustrial",
+        "summary": "Diseno completo de nave industrial metalica",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["span", "length", "eave_height", "city_id"],
+                "properties": {
+                  "span": {
+                    "type": "number",
+                    "description": "Luz libre en metros"
+                  },
+                  "length": {
+                    "type": "number",
+                    "description": "Largo total en metros"
+                  },
+                  "eave_height": {
+                    "type": "number",
+                    "description": "Altura al alero en metros"
+                  },
+                  "city_id": {
+                    "type": "integer",
+                    "description": "ID de ciudad para viento"
+                  },
+                  "roof_slope": {
+                    "type": "number",
+                    "description": "Pendiente en grados (default 10)"
+                  },
+                  "bay_spacing": {
+                    "type": "number",
+                    "description": "Separacion entre porticos en metros"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Nave industrial completa"
+          }
+        }
+      }
+    },
+    "/api/calc/budget": {
+      "post": {
+        "operationId": "calcularPresupuesto",
+        "summary": "Generar presupuesto de estructura metalica",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["items"],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "profile": {
+                          "type": "string",
+                          "description": "Perfil (ej: IPE200)"
+                        },
+                        "length": {
+                          "type": "number",
+                          "description": "Longitud en metros"
+                        },
+                        "quantity": {
+                          "type": "integer",
+                          "description": "Cantidad"
+                        }
+                      }
+                    }
+                  },
+                  "include_labor": {
+                    "type": "boolean",
+                    "description": "Incluir mano de obra"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Presupuesto generado"
+          }
+        }
+      }
+    },
+    "/api/cities/": {
+      "get": {
+        "operationId": "buscarCiudad",
+        "summary": "Buscar ciudad de Colombia con datos NSR-10 de viento",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Nombre de la ciudad",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Limite de resultados",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ciudades encontradas con velocidad basica de viento"
+          }
+        }
+      }
+    },
+    "/api/profiles/": {
+      "get": {
+        "operationId": "listarPerfiles",
+        "summary": "Listar perfiles de acero disponibles",
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Tipo de perfil: ipe, hea, w, tubular_square, perlin_c",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "manufacturer",
+            "in": "query",
+            "description": "Fabricante: generic, corpacero, colmena, diaco",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de perfiles con propiedades"
+          }
+        }
+      }
+    }
+  }
+}

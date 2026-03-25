@@ -1,0 +1,195 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "NSR-10 Struos API",
+    "description": "Motor normativo de ingeniería estructural Colombia",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://struos-api.vercel.app"
+    }
+  ],
+  "paths": {
+    "/municipios/{nombre}": {
+      "get": {
+        "operationId": "getParametrosSismicos",
+        "summary": "Obtiene parámetros sísmicos Aa, Av y zona de amenaza para un municipio",
+        "parameters": [
+          {
+            "name": "nombre",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Nombre del municipio sin tildes (Bogota, Medellin, Cali)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Municipios encontrados"
+          }
+        }
+      }
+    },
+    "/coef/fa/{suelo}/{aa}": {
+      "get": {
+        "operationId": "getCoeficienteFa",
+        "summary": "Obtiene coeficiente Fa segun tipo de suelo y Aa",
+        "parameters": [
+          {
+            "name": "suelo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Tipo de suelo: A, B, C, D, E o F"
+          },
+          {
+            "name": "aa",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Valor de Aa (0.05 a 0.50)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Coeficiente Fa"
+          }
+        }
+      }
+    },
+    "/coef/fv/{suelo}/{av}": {
+      "get": {
+        "operationId": "getCoeficienteFv",
+        "summary": "Obtiene coeficiente Fv segun tipo de suelo y Av",
+        "parameters": [
+          {
+            "name": "suelo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Tipo de suelo: A, B, C, D, E o F"
+          },
+          {
+            "name": "av",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number"
+            },
+            "description": "Valor de Av (0.05 a 0.50)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Coeficiente Fv"
+          }
+        }
+      }
+    },
+    "/coef/r": {
+      "get": {
+        "operationId": "getCoeficienteR",
+        "summary": "Obtiene coeficientes R0, Omega0 y Cd para sistemas estructurales",
+        "parameters": [
+          {
+            "name": "sistema",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Tipo de sistema (portico, muro, dual)"
+          },
+          {
+            "name": "capacidad",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Capacidad de disipacion: DES, DMO o DMI"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Coeficientes R"
+          }
+        }
+      }
+    },
+    "/barras": {
+      "get": {
+        "operationId": "getBarrasRefuerzo",
+        "summary": "Obtiene propiedades de barras de refuerzo",
+        "parameters": [
+          {
+            "name": "designacion",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Designacion de la barra (4, 5, 6, No.5, 16M)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Barras de refuerzo"
+          }
+        }
+      }
+    },
+    "/deriva": {
+      "get": {
+        "operationId": "getDerivaMaxima",
+        "summary": "Obtiene derivas maximas permitidas por sistema estructural",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Derivas maximas"
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "operationId": "buscarSeccion",
+        "summary": "Busca texto en las secciones de la NSR-10",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Texto a buscar"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "Numero maximo de resultados"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Secciones encontradas"
+          }
+        }
+      }
+    }
+  }
+}
