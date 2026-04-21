@@ -4,7 +4,6 @@ NSR-10 API Server — FastAPI
 Deploy: uvicorn main:app --host 0.0.0.0 --port 8000
 """
 import hashlib
-import json
 import os
 from typing import Any
 
@@ -67,9 +66,14 @@ app.add_middleware(
 )
 
 
+EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
+EMBEDDING_DIMS = 1536  # debe coincidir con rag_chunks.embedding (vector(1536))
+
+
 class Question(BaseModel):
     query: str = Field(min_length=3, max_length=500)
-    context_limit: int | None = Field(default=5, ge=1, le=20)
+    context_limit: int | None = Field(default=8, ge=1, le=20)
+    folder: str | None = Field(default="NSR-10", max_length=40)
 
 
 _ASK_CACHE: dict[str, dict[str, Any]] = {}
@@ -145,110 +149,126 @@ def search_fts(
     return {"query": q, "results": resp.json() if resp.ok else []}
 
 
-def _build_rag_context(q: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    """Busca secciones y tablas relevantes para la query.
+def _embed_query(text: str) -> list[float]:
+    """Genera embedding OpenAI de 1536 dims para la query."""
+    if client is None:
+        raise HTTPException(503, "OPENAI_API_KEY no configurada")
+    resp = client.embeddings.create(model=EMBEDDING_MODEL, input=text)
+    return resp.data[0].embedding
 
-    Usa todas las palabras significativas (>2 chars) y combina resultados,
-    en vez de usar solo la primera palabra como antes.
+
+def _rag_chunks_vector_search(
+    q_embedding: list[float],
+    match_count: int = 8,
+    folder: str | None = "NSR-10",
+) -> list[dict[str, Any]]:
+    """Llama a la función SQL match_rag_chunks via PostgREST RPC.
+
+    Retorna chunks ordenados por similaridad coseno descendente.
     """
-    stopwords = {
-        "el", "la", "los", "las", "de", "del", "en", "un", "una", "y", "o",
-        "que", "para", "con", "por", "se", "es", "al", "cual", "cuales",
-    }
-    terms = [t.lower() for t in q.split() if len(t) > 2 and t.lower() not in stopwords]
-    terms = terms[:4]
-
-    sections: list[dict[str, Any]] = []
-    seen = set()
-    for term in terms or [q]:
-        try:
-            resp = requests.get(
-                f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
-                params={
-                    "contenido": f"ilike.*{ilike_escape(term)}*",
-                    "select": "titulo,seccion,contenido",
-                    "limit": 3,
-                },
-                headers=HEADERS,
-                timeout=10,
-            )
-            for s in resp.json() or []:
-                key = s.get("seccion")
-                if key and key not in seen:
-                    seen.add(key)
-                    sections.append(s)
-        except requests.RequestException:
-            continue
-
-    q_lower = q.lower()
-    tables_data: list[dict[str, Any]] = []
-
-    def fetch(table: str, limit: int = 20):
-        try:
-            r = requests.get(
-                f"{SUPABASE_URL}/rest/v1/{table}?limit={limit}",
-                headers=HEADERS,
-                timeout=10,
-            )
-            return r.json() if r.ok else []
-        except requests.RequestException:
-            return []
-
-    if any(x in q_lower for x in ("fa", "fv", "suelo", "sitio")):
-        tables_data.append({"tabla": "nsr10_coef_fa", "data": fetch("nsr10_coef_fa")})
-        tables_data.append({"tabla": "nsr10_coef_fv", "data": fetch("nsr10_coef_fv")})
-
-    if any(x in q_lower for x in ("barra", "refuerzo", "#")):
-        tables_data.append(
-            {"tabla": "nsr10_barras_refuerzo", "data": fetch("nsr10_barras_refuerzo", 50)}
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/rpc/match_rag_chunks",
+            headers=HEADERS,
+            json={
+                "query_embedding": q_embedding,
+                "match_count": match_count,
+                "folder_filter": folder,
+            },
+            timeout=15,
         )
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error (vector search): {e}") from e
+    if not resp.ok:
+        raise HTTPException(502, f"match_rag_chunks failed: {resp.status_code} {resp.text[:200]}")
+    return resp.json() or []
 
-    if any(x in q_lower for x in ("deriva", "desplazamiento")):
-        tables_data.append({"tabla": "nsr10_deriva_max", "data": fetch("nsr10_deriva_max", 50)})
 
-    if any(x in q_lower for x in ("carga viva", "carga muerta")):
-        tables_data.append({"tabla": "nsr10_cargas_vivas", "data": fetch("nsr10_cargas_vivas")})
-        tables_data.append({"tabla": "nsr10_cargas_muertas", "data": fetch("nsr10_cargas_muertas", 50)})
+def _related_kg_nodes(chunk_ids: list[int], max_rel: int = 5) -> list[dict[str, Any]]:
+    """Dados los chunks recuperados, busca nodos KG relacionados por palabras clave
+    en el label (aproximación ligera sin JOIN directo chunk↔KG).
 
-    return sections[:8], tables_data
+    Retorna SECCIONES/FÓRMULAS del KG para enriquecer la respuesta.
+    """
+    # Implementación simple: por ahora el KG no tiene link directo a rag_chunks,
+    # así que no intentamos JOIN. Placeholder para una v2 con chunk.kg_node_id.
+    return []
+
+
+def _build_rag_context(q: str, limit: int, folder: str | None) -> dict[str, Any]:
+    """RAG vectorial: embedding + pgvector cosine search + formateo."""
+    q_embedding = _embed_query(q)
+    chunks = _rag_chunks_vector_search(q_embedding, match_count=limit, folder=folder)
+    return {
+        "chunks": chunks,
+        "folder": folder,
+    }
 
 
 @app.post("/ask", dependencies=[Depends(require_api_key)])
 def ask_question(question: Question):
-    """RAG: pregunta en lenguaje natural"""
+    """RAG vectorial sobre la NSR-10 (y otras normas indexadas).
+
+    Pipeline:
+      1. embedding(query) con OpenAI text-embedding-3-small (1536 dims).
+      2. match_rag_chunks() en Supabase → top-k chunks por coseno.
+      3. LLM responde citando los chunks.
+
+    Parámetros:
+      - query: pregunta en lenguaje natural (3-500 chars).
+      - context_limit: número de chunks a recuperar (1-20, default 8).
+      - folder: uno de ["NSR-10", "AISC Design Guides", "Catálogos",
+                        "Manuales", "Normas técnicas"]. Default "NSR-10".
+        Pasar null para buscar en todas las normas.
+    """
     if client is None:
         raise HTTPException(503, "OPENAI_API_KEY no configurada")
 
     q = question.query
-    ck = _cache_key(q, question.context_limit or 5)
+    folder = question.folder or None
+    limit = question.context_limit or 8
+
+    ck = _cache_key(f"{q}|{folder}", limit)
     cached = _ASK_CACHE.get(ck)
     if cached:
         return {**cached, "cached": True}
 
-    sections, tables_data = _build_rag_context(q)
+    ctx = _build_rag_context(q, limit=limit, folder=folder)
+    chunks = ctx["chunks"]
 
-    context: list[str] = []
-    if sections:
-        context.append("## Secciones NSR-10:")
-        for s in sections[:5]:
-            context.append(f"**{s.get('seccion','')}**: {s.get('contenido','')[:300]}")
-    if tables_data:
-        context.append("\n## Datos:")
-        for t in tables_data:
-            context.append(
-                f"**{t['tabla']}**: {json.dumps(t['data'][:5], ensure_ascii=False)}"
-            )
+    if not chunks:
+        return {
+            "question": q,
+            "answer": "No encontré fragmentos relevantes en la base. Intenta reformular o ampliar el `folder`.",
+            "sources": [],
+            "folder": folder,
+        }
+
+    # Formatear contexto con citas trazables
+    context_lines = []
+    for i, c in enumerate(chunks, 1):
+        sim = c.get("similarity", 0)
+        context_lines.append(
+            f"[{i}] ({c.get('filename','?')} p.{c.get('page','?')}, sim={sim:.3f})\n"
+            f"{c.get('chunk_text','')}"
+        )
+    context_block = "\n\n".join(context_lines)
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "system",
-                "content": "Eres un ingeniero estructural experto en NSR-10. Responde técnicamente citando secciones.",
+                "content": (
+                    "Eres un ingeniero estructural experto en la NSR-10 colombiana. "
+                    "Responde en español, técnicamente, citando fragmentos como [1], [2]. "
+                    "Si el contexto no contiene la respuesta, dilo explícitamente — "
+                    "no inventes secciones, fórmulas ni tablas."
+                ),
             },
             {
                 "role": "user",
-                "content": f"Contexto:\n{chr(10).join(context)}\n\nPregunta: {q}",
+                "content": f"Contexto:\n{context_block}\n\nPregunta: {q}",
             },
         ],
         temperature=0.1,
@@ -257,7 +277,17 @@ def ask_question(question: Question):
     result = {
         "question": q,
         "answer": response.choices[0].message.content,
-        "sources": {"sections": len(sections), "tables": len(tables_data)},
+        "folder": folder,
+        "sources": [
+            {
+                "n": i,
+                "filename": c.get("filename"),
+                "page": c.get("page"),
+                "similarity": round(c.get("similarity", 0), 4),
+                "excerpt": (c.get("chunk_text") or "")[:160] + "...",
+            }
+            for i, c in enumerate(chunks, 1)
+        ],
     }
 
     if len(_ASK_CACHE) >= _ASK_CACHE_MAX:
@@ -265,6 +295,21 @@ def ask_question(question: Question):
     _ASK_CACHE[ck] = result
 
     return result
+
+
+@app.get("/ask/folders", dependencies=[Depends(require_api_key)])
+def list_ask_folders():
+    """Lista los folders disponibles para filtrar en /ask."""
+    return {
+        "folders": [
+            "NSR-10",
+            "AISC Design Guides",
+            "Catálogos",
+            "Manuales",
+            "Normas técnicas",
+        ],
+        "default": "NSR-10",
+    }
 
 
 if __name__ == "__main__":

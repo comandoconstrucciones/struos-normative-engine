@@ -1,5 +1,21 @@
 # Security Notes
 
+## Estado actual (post-hardening 2026-04-21)
+
+Migrations aplicadas en Supabase (proyecto `vdakfewjadwaczulcmvj`):
+
+- `enable_rls_with_public_read_policies` — RLS activado en ~270 tablas
+  (`nsr10_*`, `kg_*`, `cc_*`, `rag_chunks*`, `rag_nsr10_vision`,
+  `embedding_cache`, `norm_metadata`, `research_*`). Policy `public_read`
+  (SELECT TO anon, authenticated USING true). `rag_feedback` además
+  tiene policy de INSERT para permitir ratings desde el cliente.
+- `fix_function_search_path_mutable` — 11 funciones con
+  `search_path = public, extensions, pg_temp` fijado.
+- `remove_security_definer_from_rag_feedback_bad` — view recreada con
+  `security_invoker = true`.
+
+Advisors de seguridad: **282 → 2** (solo warnings benignos restantes).
+
 ## Acciones manuales pendientes (fuera del repo)
 
 El hardening de código cubre la app; lo siguiente requiere acceso a consolas
@@ -28,22 +44,17 @@ solo hacen SELECT. No necesitan `service_role`.
   la `anon` key en vez de `service_role`.
 - Mantener `service_role` solo para scripts de ingestión (`scripts/*`).
 
-### 3. Configurar pgvector para RAG vectorial
+### 3. RAG vectorial (ya activo)
 
-El endpoint `/ask` actualmente usa keyword-matching. Para RAG real:
+pgvector 0.8.0 instalado. Tabla `rag_chunks` con **57,293 chunks** (1536
+dims, OpenAI `text-embedding-3-small`). El endpoint `/ask` usa la función
+`match_rag_chunks(query_embedding, match_count, folder_filter)` via RPC.
 
-```sql
--- En Supabase SQL Editor:
-CREATE EXTENSION IF NOT EXISTS vector;
+Folders disponibles: `NSR-10`, `AISC Design Guides`, `Catálogos`,
+`Manuales`, `Normas técnicas`.
 
-ALTER TABLE nsr10_secciones
-  ADD COLUMN IF NOT EXISTS embedding vector(1536);
-
-CREATE INDEX IF NOT EXISTS nsr10_secciones_embedding_idx
-  ON nsr10_secciones USING hnsw (embedding vector_cosine_ops);
-```
-
-Luego poblar con `scripts/embedding_cache.py` (OpenAI `text-embedding-3-small`).
+Tabla `rag_chunks_gemini` (32,313 filas) disponible para agregar un segundo
+pipeline con embeddings Gemini si se desea comparar calidad.
 
 ### 4. Setear variables de entorno en producción
 

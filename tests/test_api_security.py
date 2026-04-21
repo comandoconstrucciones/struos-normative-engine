@@ -141,6 +141,145 @@ def test_municipio_too_long(vercel_client):
 
 # ====== API key gating opcional ======
 
+# ====== /ask vectorial (api/main.py) ======
+
+@pytest.fixture(scope="module")
+def main_client(monkeypatch_session=None):
+    import importlib
+
+    sys.path.insert(0, str(ROOT / "api"))
+    # importar fresh
+    if "main" in sys.modules:
+        del sys.modules["main"]
+    mod = importlib.import_module("main")
+    return mod, TestClient(mod.app)
+
+
+def test_ask_folders_public(main_client):
+    _, client = main_client
+    r = client.get("/ask/folders")
+    assert r.status_code == 200
+    body = r.json()
+    assert "NSR-10" in body["folders"]
+    assert body["default"] == "NSR-10"
+
+
+def test_ask_query_validation(main_client):
+    _, client = main_client
+    r = client.post("/ask", json={"query": "a"})  # muy corto
+    assert r.status_code == 422
+
+
+def test_ask_context_limit_out_of_range(main_client):
+    _, client = main_client
+    r = client.post("/ask", json={"query": "deriva bogota", "context_limit": 99})
+    assert r.status_code == 422
+
+
+def test_ask_without_openai_key_returns_503(main_client, monkeypatch):
+    mod, client = main_client
+    monkeypatch.setattr(mod, "client", None)
+    r = client.post("/ask", json={"query": "deriva maxima", "context_limit": 5})
+    assert r.status_code == 503
+
+
+def test_ask_pipeline_with_mocked_rag(main_client):
+    """Mockea embed + RPC + LLM para probar el pipeline completo de /ask."""
+    mod, client = main_client
+
+    # Mock embedding
+    class _Embed:
+        def __init__(self, v):
+            self.embedding = v
+
+    class _EmbedResp:
+        def __init__(self):
+            self.data = [_Embed([0.0] * 1536)]
+
+    class _ChatMsg:
+        def __init__(self, content):
+            self.message = type("M", (), {"content": content})()
+
+    class _ChatResp:
+        def __init__(self, text):
+            self.choices = [_ChatMsg(text)]
+
+    class _FakeOpenAI:
+        embeddings = type(
+            "E", (), {"create": staticmethod(lambda model, input: _EmbedResp())}
+        )()
+        chat = type(
+            "C",
+            (),
+            {
+                "completions": type(
+                    "CC",
+                    (),
+                    {
+                        "create": staticmethod(
+                            lambda **kw: _ChatResp("Según [1], la deriva máxima es 1.0%.")
+                        )
+                    },
+                )()
+            },
+        )()
+
+    with patch.object(mod, "client", _FakeOpenAI()), patch.object(
+        mod.requests, "post"
+    ) as mpost:
+        # Simular respuesta de match_rag_chunks
+        mpost.return_value.ok = True
+        mpost.return_value.status_code = 200
+        mpost.return_value.json = lambda: [
+            {
+                "id": 42,
+                "filename": "NSR-10-A.pdf",
+                "folder": "NSR-10",
+                "page": 180,
+                "chunk_text": "A.6.4 Deriva máxima permisible = 1.0% hpi",
+                "similarity": 0.89,
+            }
+        ]
+        r = client.post("/ask", json={"query": "cual es la deriva maxima"})
+
+    assert r.status_code == 200
+    body = r.json()
+    assert "deriva" in body["answer"].lower()
+    assert len(body["sources"]) == 1
+    assert body["sources"][0]["filename"] == "NSR-10-A.pdf"
+    assert body["sources"][0]["page"] == 180
+    assert body["sources"][0]["similarity"] == 0.89
+
+
+def test_ask_empty_rag_results(main_client):
+    """Si match_rag_chunks no retorna nada, /ask responde con nota clara."""
+    mod, client = main_client
+
+    class _Embed:
+        def __init__(self, v):
+            self.embedding = v
+
+    class _EmbedResp:
+        def __init__(self):
+            self.data = [_Embed([0.0] * 1536)]
+
+    class _FakeOpenAI:
+        embeddings = type("E", (), {"create": staticmethod(lambda model, input: _EmbedResp())})()
+        chat = None  # no debería llamarse
+
+    with patch.object(mod, "client", _FakeOpenAI()), patch.object(
+        mod.requests, "post"
+    ) as mpost:
+        mpost.return_value.ok = True
+        mpost.return_value.json = lambda: []
+        r = client.post("/ask", json={"query": "xyzzy nonexistent"})
+
+    assert r.status_code == 200
+    body = r.json()
+    assert body["sources"] == []
+    assert "No encontré" in body["answer"] or "fragmentos" in body["answer"]
+
+
 def test_api_key_required_when_env_set(monkeypatch):
     import importlib
 
