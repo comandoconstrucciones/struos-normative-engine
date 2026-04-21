@@ -23,11 +23,24 @@ API_KEY = os.environ.get("STRUOS_API_KEY")
 server = Server("nsr10-server")
 
 async def api_get(endpoint: str, params: dict = None) -> dict:
-    """Query NSR-10 API"""
+    """GET NSR-10 API"""
     headers = {"X-API-Key": API_KEY} if API_KEY else {}
     async with httpx.AsyncClient(timeout=30) as client:
         url = f"{API_URL}{endpoint}"
         resp = await client.get(url, params=params or {}, headers=headers)
+        if resp.status_code == 200:
+            return resp.json()
+        return {"error": resp.text, "status": resp.status_code}
+
+
+async def api_post(endpoint: str, body: dict) -> dict:
+    """POST NSR-10 API (para /ask que usa RAG vectorial)"""
+    headers = {"Content-Type": "application/json"}
+    if API_KEY:
+        headers["X-API-Key"] = API_KEY
+    async with httpx.AsyncClient(timeout=60) as client:
+        url = f"{API_URL}{endpoint}"
+        resp = await client.post(url, json=body, headers=headers)
         if resp.status_code == 200:
             return resp.json()
         return {"error": resp.text, "status": resp.status_code}
@@ -112,6 +125,37 @@ async def list_tools() -> list[Tool]:
                     "limite": {"type": "integer", "description": "Número máximo de resultados", "default": 10}
                 },
                 "required": ["texto"]
+            }
+        ),
+        Tool(
+            name="preguntar_nsr10",
+            description=(
+                "RAG vectorial: responde preguntas en lenguaje natural sobre la NSR-10 "
+                "(y otras normas indexadas: AISC Design Guides, Catálogos, Manuales, "
+                "Normas técnicas) citando los fragmentos fuente."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "pregunta": {
+                        "type": "string",
+                        "description": "Pregunta técnica en español (ej: '¿Cuál es la deriva máxima para pórticos de concreto?')"
+                    },
+                    "folder": {
+                        "type": "string",
+                        "enum": ["NSR-10", "AISC Design Guides", "Catálogos", "Manuales", "Normas técnicas"],
+                        "description": "Filtrar búsqueda a un dominio específico. Default NSR-10.",
+                        "default": "NSR-10"
+                    },
+                    "top_k": {
+                        "type": "integer",
+                        "description": "Número de fragmentos a recuperar (1-20)",
+                        "default": 8,
+                        "minimum": 1,
+                        "maximum": 20
+                    }
+                },
+                "required": ["pregunta"]
             }
         )
     ]
@@ -230,9 +274,34 @@ Fuente: NSR-10 Tabla A.2.4-4"""
         else:
             result = f"No se encontraron secciones con '{texto}'"
         
+    elif name == "preguntar_nsr10":
+        pregunta = arguments.get("pregunta", "")
+        folder = arguments.get("folder", "NSR-10")
+        top_k = arguments.get("top_k", 8)
+
+        data = await api_post(
+            "/ask",
+            {"query": pregunta, "folder": folder, "context_limit": top_k},
+        )
+
+        if "error" in data:
+            result = f"Error del API: {data.get('error','?')} (status {data.get('status','?')})"
+        else:
+            answer = data.get("answer", "")
+            sources = data.get("sources", [])
+            lines = [answer, "", "**Fuentes:**"]
+            for s in sources:
+                lines.append(
+                    f"- [{s.get('n')}] {s.get('filename','?')} p.{s.get('page','?')} "
+                    f"(similitud {s.get('similarity',0):.3f})"
+                )
+            if data.get("cached"):
+                lines.append("\n_(respuesta cacheada)_")
+            result = "\n".join(lines)
+
     else:
         result = f"Herramienta {name} no encontrada"
-    
+
     return [TextContent(type="text", text=result)]
 
 async def main():

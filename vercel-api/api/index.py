@@ -2,8 +2,10 @@
 """
 NSR-10 API Server — FastAPI for Vercel Serverless
 """
+import hashlib
 import os
 import unicodedata
+from typing import Any
 
 import requests
 from _security import (
@@ -15,12 +17,15 @@ from _security import (
 )
 from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
 
 # Config
 SUPABASE_URL = os.environ.get(
     "STRUOS_SUPABASE_URL", "https://vdakfewjadwaczulcmvj.supabase.co"
 )
 SERVICE_ROLE = os.environ.get("STRUOS_SUPABASE_SERVICE_ROLE", "")
+OPENAI_KEY = os.environ.get("OPENAI_API_KEY", "")
+EMBEDDING_MODEL = os.environ.get("EMBEDDING_MODEL", "text-embedding-3-small")
 
 HEADERS = {
     "apikey": SERVICE_ROLE,
@@ -28,7 +33,15 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-app = FastAPI(title="NSR-10 API", version="1.2.0")
+# OpenAI lazy-init (opcional — /ask responde 503 si no hay key)
+try:
+    from openai import OpenAI
+
+    _openai_client = OpenAI(api_key=OPENAI_KEY) if OPENAI_KEY else None
+except ImportError:
+    _openai_client = None
+
+app = FastAPI(title="NSR-10 API", version="1.3.0")
 
 if SLOWAPI_AVAILABLE:
     from slowapi.errors import RateLimitExceeded
@@ -45,7 +58,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=get_cors_origins(),
     allow_credentials=True,
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["Content-Type", "X-API-Key"],
 )
 
@@ -398,7 +411,143 @@ def search_fts(
         raise HTTPException(502, f"Upstream error: {e}") from e
 
 
+# === /ask — RAG vectorial sobre rag_chunks (pgvector 1536) ===
+
+class Question(BaseModel):
+    query: str = Field(min_length=3, max_length=500)
+    context_limit: int | None = Field(default=8, ge=1, le=20)
+    folder: str | None = Field(default="NSR-10", max_length=40)
+
+
+_ASK_CACHE: dict[str, dict[str, Any]] = {}
+_ASK_CACHE_MAX = 256
+
+
+def _cache_key(q: str, ctx_limit: int) -> str:
+    return hashlib.sha256(f"{q.strip().lower()}|{ctx_limit}".encode()).hexdigest()
+
+
+def _embed_query(text: str) -> list[float]:
+    if _openai_client is None:
+        raise HTTPException(503, "OPENAI_API_KEY no configurada")
+    resp = _openai_client.embeddings.create(model=EMBEDDING_MODEL, input=text)
+    return resp.data[0].embedding
+
+
+def _rag_vector_search(
+    q_embedding: list[float], match_count: int = 8, folder: str | None = "NSR-10"
+) -> list[dict[str, Any]]:
+    try:
+        resp = requests.post(
+            f"{SUPABASE_URL}/rest/v1/rpc/match_rag_chunks",
+            headers=HEADERS,
+            json={
+                "query_embedding": q_embedding,
+                "match_count": match_count,
+                "folder_filter": folder,
+            },
+            timeout=15,
+        )
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error (vector search): {e}") from e
+    if not resp.ok:
+        raise HTTPException(502, f"match_rag_chunks failed: {resp.status_code}")
+    return resp.json() or []
+
+
+@app.post("/ask", dependencies=[Depends(require_api_key)])
+def ask_question(question: Question):
+    """RAG vectorial: embedding → match_rag_chunks → LLM con citas."""
+    if _openai_client is None:
+        raise HTTPException(503, "OPENAI_API_KEY no configurada")
+
+    q = question.query
+    folder = question.folder or None
+    limit = question.context_limit or 8
+
+    ck = _cache_key(f"{q}|{folder}", limit)
+    cached = _ASK_CACHE.get(ck)
+    if cached:
+        return {**cached, "cached": True}
+
+    q_emb = _embed_query(q)
+    chunks = _rag_vector_search(q_emb, match_count=limit, folder=folder)
+
+    if not chunks:
+        return {
+            "question": q,
+            "answer": "No encontré fragmentos relevantes en la base. Intenta reformular o ampliar el `folder`.",
+            "sources": [],
+            "folder": folder,
+        }
+
+    context_lines = []
+    for i, c in enumerate(chunks, 1):
+        sim = c.get("similarity", 0)
+        context_lines.append(
+            f"[{i}] ({c.get('filename','?')} p.{c.get('page','?')}, sim={sim:.3f})\n"
+            f"{c.get('chunk_text','')}"
+        )
+
+    response = _openai_client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "Eres un ingeniero estructural experto en la NSR-10 colombiana. "
+                    "Responde en español, técnicamente, citando fragmentos como [1], [2]. "
+                    "Si el contexto no contiene la respuesta, dilo explícitamente — "
+                    "no inventes secciones, fórmulas ni tablas."
+                ),
+            },
+            {
+                "role": "user",
+                "content": f"Contexto:\n{chr(10).join(context_lines)}\n\nPregunta: {q}",
+            },
+        ],
+        temperature=0.1,
+    )
+
+    result = {
+        "question": q,
+        "answer": response.choices[0].message.content,
+        "folder": folder,
+        "sources": [
+            {
+                "n": i,
+                "filename": c.get("filename"),
+                "page": c.get("page"),
+                "similarity": round(c.get("similarity", 0), 4),
+                "excerpt": (c.get("chunk_text") or "")[:160] + "...",
+            }
+            for i, c in enumerate(chunks, 1)
+        ],
+    }
+
+    if len(_ASK_CACHE) >= _ASK_CACHE_MAX:
+        _ASK_CACHE.pop(next(iter(_ASK_CACHE)))
+    _ASK_CACHE[ck] = result
+
+    return result
+
+
+@app.get("/ask/folders")
+def list_ask_folders():
+    """Folders disponibles para filtrar en /ask."""
+    return {
+        "folders": [
+            "NSR-10",
+            "AISC Design Guides",
+            "Catálogos",
+            "Manuales",
+            "Normas técnicas",
+        ],
+        "default": "NSR-10",
+    }
+
+
 @app.get("/health")
 def health():
     """Health check"""
-    return {"status": "healthy", "version": "1.2.0"}
+    return {"status": "healthy", "version": "1.3.0"}
