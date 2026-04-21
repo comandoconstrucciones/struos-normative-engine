@@ -6,23 +6,28 @@ Usa la API pública: https://struos-api.vercel.app
 """
 import json
 import asyncio
+import os
 from typing import Any
 import httpx
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
-# Config - API pública (no requiere keys)
-API_URL = "https://struos-api.vercel.app"
+# Config - API pública (no requiere keys por defecto).
+# Override con STRUOS_API_URL para self-hosting o staging.
+# Si el API exige X-API-Key, setear STRUOS_API_KEY y se incluirá en cada request.
+API_URL = os.environ.get("STRUOS_API_URL", "https://struos-api.vercel.app").rstrip("/")
+API_KEY = os.environ.get("STRUOS_API_KEY")
 
 # Create server
 server = Server("nsr10-server")
 
 async def api_get(endpoint: str, params: dict = None) -> dict:
     """Query NSR-10 API"""
+    headers = {"X-API-Key": API_KEY} if API_KEY else {}
     async with httpx.AsyncClient(timeout=30) as client:
         url = f"{API_URL}{endpoint}"
-        resp = await client.get(url, params=params or {})
+        resp = await client.get(url, params=params or {}, headers=headers)
         if resp.status_code == 200:
             return resp.json()
         return {"error": resp.text, "status": resp.status_code}
