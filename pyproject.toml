@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "struos-normative-engine"
+version = "1.2.0"
+description = "Motor normativo NSR-10 Colombia — API + Knowledge Graph + MCP"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [{ name = "Comando Construcciones" }]
+dependencies = [
+    "fastapi>=0.100.0",
+    "httpx>=0.24.0",
+    "numpy>=1.24",
+    "openai>=1.0.0",
+    "pydantic>=2.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.28.0",
+    "slowapi>=0.1.9",
+    "uvicorn>=0.22.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+]
+mcp = [
+    "mcp>=0.9",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "api", "vercel-api/api"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+# Excluir código legacy o generado del linting estricto.
+exclude = [
+    "scripts",              # pipeline de extracción one-shot
+    "scripts/legacy",
+    "extracted",
+    "tests/test_nsr10_complete.py",  # usa nomenclatura NSR-10 (I, R, etc.)
+    ".venv",
+    "venv",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501"]  # line length - handled by formatter
+
+[tool.ruff.lint.per-file-ignores]
+"src/nsr10_formulas.py" = ["E741"]  # I, R son variables normativas estándar

@@ -1,7 +1,37 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Envs
+.env
+.env.local
+.env.*.local
 api/.env
+vercel-api/.env
+mcp/.env
+.venv/
+venv/
+
+# Vercel / Wrangler / IDE
+.vercel/
 .wrangler/
+.idea/
+.vscode/
+*.swp
+.DS_Store
 
 # PDFs de referencia (muy grandes para Git)
 docs/referencias/pdfs/*.pdf
+
+# Node (kg-viewer)
+node_modules/
+dist/
+build/

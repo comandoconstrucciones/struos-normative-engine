@@ -72,5 +72,17 @@ SELECT * FROM nsr10_nomenclatura WHERE titulo = 'F';
 SELECT * FROM nsr10_referencias WHERE codigo LIKE 'ASTM%';
 ```
 
+### Desarrollo
+
+```bash
+cp .env.example .env      # llenar con tus credenciales
+pip install -e ".[dev]"
+pytest tests/             # 61 tests: fórmulas, seguridad, KG integrity
+ruff check api/ vercel-api/ tests/
+```
+
+Ver [SECURITY.md](SECURITY.md) para el hardening aplicado y acciones
+manuales pendientes (rotar service_role, activar RLS, setup de pgvector).
+
 ### Fecha
-Última actualización: 2026-03-23
+Última actualización: 2026-04-21
