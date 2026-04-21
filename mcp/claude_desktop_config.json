@@ -2,7 +2,10 @@
   "mcpServers": {
     "nsr10": {
       "command": "python3",
-      "args": ["/ruta/a/struos-normative-engine/mcp/server.py"]
+      "args": ["ABSOLUTE_PATH_TO/struos-normative-engine/mcp/server.py"],
+      "env": {
+        "STRUOS_API_URL": "https://struos-api.vercel.app"
+      }
     }
   }
 }
