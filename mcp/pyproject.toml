@@ -1,10 +1,11 @@
 [project]
 name = "nsr10-mcp"
-version = "1.0.0"
-description = "MCP Server para consultas NSR-10 Colombia"
+version = "2.0.0"
+description = "MCP Server (FastMCP) para consultas NSR-10 Colombia"
+readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=0.9.0",
+    "mcp[cli]>=1.0.0",
     "httpx>=0.24.0",
 ]
 

@@ -30,14 +30,14 @@ def vercel_client():
 # ====== _security ======
 
 def test_ilike_escape_basic():
-    from _security import ilike_escape
+    from index import ilike_escape
 
     assert ilike_escape("") == ""
     assert ilike_escape("bogota") == "bogota"
 
 
 def test_ilike_escape_metachars():
-    from _security import ilike_escape
+    from index import ilike_escape
 
     # cada metachar debe quedar escapado con backslash
     assert ilike_escape("*") == r"\*"
@@ -48,13 +48,13 @@ def test_ilike_escape_metachars():
 
 
 def test_ilike_escape_mixed():
-    from _security import ilike_escape
+    from index import ilike_escape
 
     assert ilike_escape("50%_off,*") == r"50\%\_off\,\*"
 
 
 def test_allowed_tables_whitelist():
-    from _security import allowed_table
+    from index import allowed_table
 
     assert allowed_table("nsr10_secciones")
     assert allowed_table("kg_nodes")
@@ -66,7 +66,7 @@ def test_allowed_tables_whitelist():
 # ====== CORS ======
 
 def test_cors_origins_default():
-    from _security import get_cors_origins
+    from index import get_cors_origins
 
     origins = get_cors_origins()
     assert "*" not in origins
@@ -74,7 +74,7 @@ def test_cors_origins_default():
 
 
 def test_cors_origins_from_env(monkeypatch):
-    from _security import get_cors_origins
+    from index import get_cors_origins
 
     monkeypatch.setenv("ALLOWED_ORIGINS", "https://a.com, https://b.com")
     origins = get_cors_origins()

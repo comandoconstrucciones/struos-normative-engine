@@ -1,25 +1,109 @@
 #!/usr/bin/env python3
 """
-NSR-10 API Server — FastAPI for Vercel Serverless
+NSR-10 API Server — FastAPI for Vercel Serverless (single-file Lambda).
+
+Todo el código de seguridad está inlineado abajo porque Vercel Python
+empaca solo el archivo entrypoint — imports desde `_security.py` vecino
+fallan con ImportError en runtime.
 """
 import hashlib
 import os
 import unicodedata
+from collections.abc import Iterable
 from typing import Any
 
 import requests
-from _security import (
-    SLOWAPI_AVAILABLE,
-    allowed_table,
-    allowed_tables,
-    get_cors_origins,
-    ilike_escape,
-    rate_limiter,
-    require_api_key,
-)
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, Header, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+
+
+# =============================================================================
+# Security utilities (inline)
+# =============================================================================
+
+_ILIKE_METACHARS = ("\\", "%", "_", "*", ",")
+
+
+def ilike_escape(value: str) -> str:
+    """Escapa metacaracteres de PostgREST/ILIKE para tratar la entrada como literal."""
+    if not value:
+        return ""
+    out = value
+    for ch in _ILIKE_METACHARS:
+        out = out.replace(ch, f"\\{ch}")
+    return out
+
+
+_ALLOWED_TABLES: frozenset[str] = frozenset(
+    {
+        "nsr10_secciones",
+        "nsr10_formulas",
+        "nsr10_nomenclatura",
+        "nsr10_referencias",
+        "nsr10_coef_fa",
+        "nsr10_coef_fv",
+        "nsr10_coef_r",
+        "nsr10_barras_refuerzo",
+        "nsr10_cargas_vivas",
+        "nsr10_cargas_muertas",
+        "nsr10_deriva_max",
+        "nsr10_municipios",
+        "kg_nodes",
+        "kg_edges",
+    }
+)
+
+
+def allowed_table(name: str) -> bool:
+    return name in _ALLOWED_TABLES
+
+
+def allowed_tables() -> Iterable[str]:
+    return sorted(_ALLOWED_TABLES)
+
+
+def get_cors_origins() -> list[str]:
+    """
+    Orígenes permitidos por CORS. Lee `ALLOWED_ORIGINS` (coma-separados).
+    Si no está definida, usa un default con los dominios del proyecto + localhost.
+    """
+    raw = os.environ.get("ALLOWED_ORIGINS", "").strip()
+    if not raw:
+        return [
+            "https://struos-ai.vercel.app",
+            "https://struos-api.vercel.app",
+            "https://chat.openai.com",
+            "https://chatgpt.com",
+            "http://localhost:3000",
+            "http://localhost:5173",
+            "http://localhost:8000",
+        ]
+    return [o.strip() for o in raw.split(",") if o.strip()]
+
+
+def require_api_key(x_api_key: str | None = Header(default=None)) -> None:
+    """Exige X-API-Key si `STRUOS_API_KEY` está seteada; si no, abierto."""
+    expected = os.environ.get("STRUOS_API_KEY")
+    if not expected:
+        return
+    if not x_api_key or x_api_key != expected:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Missing or invalid X-API-Key header",
+        )
+
+
+try:
+    from slowapi import Limiter
+    from slowapi.util import get_remote_address
+
+    _default_limits = os.environ.get("RATE_LIMIT", "60/minute")
+    rate_limiter = Limiter(key_func=get_remote_address, default_limits=[_default_limits])
+    SLOWAPI_AVAILABLE = True
+except Exception:
+    rate_limiter = None  # type: ignore[assignment]
+    SLOWAPI_AVAILABLE = False
 
 # Config
 SUPABASE_URL = os.environ.get(
