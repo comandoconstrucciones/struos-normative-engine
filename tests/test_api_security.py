@@ -15,7 +15,6 @@ from fastapi.testclient import TestClient
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
-sys.path.insert(0, str(ROOT / "api"))
 
 
 @pytest.fixture(scope="module")

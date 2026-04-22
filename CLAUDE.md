@@ -26,23 +26,20 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
                                                         pgvector 0.8.0
                                                               ↓
                        ┌──────────────────────────────────────┼───────────────────────────────────┐
-                       ↓                                      ↓                                   ↓
-                vercel-api/api/index.py                 api/main.py                        mcp/server.py
-                (struos-api.vercel.app)                 (Railway, legacy)                  (Claude)
-                       │                                                                        │
-                       │ 8 endpoints REST + /ask RAG                                            │ 8 tools
-                       │                                                                        │
-                       └────────────────────────────────────────────────────────────────────────┘
+                                                ↓                                   ↓
+                                   vercel-api/api/index.py              mcp/server.py
+                                   (Vercel + Railway,                   (Claude Desktop /
+                                    11 endpoints + /ask RAG)             Claude Code, 8 tools)
 ```
 
 ## Layout del repo
 
 | Path | Propósito |
 |------|-----------|
-| `vercel-api/api/index.py` | **API de producción** en `struos-api.vercel.app` |
+| `vercel-api/api/index.py` | **Única app FastAPI** — usada por Vercel y Railway |
 | `vercel-api/api/_security.py` | Hardening compartido (ilike_escape, CORS, API-key, rate limit) |
-| `api/main.py` | API alternativa para Railway (similar, incluye `/tables`) |
-| `api/_security.py` | Copia simétrica del módulo de seguridad |
+| `vercel.json` (root) | Config Vercel: build `vercel-api/api/index.py`, route all → ahí |
+| `Procfile`, `railway.json` (root) | Config Railway: `uvicorn index:app --app-dir vercel-api/api` |
 | `mcp/server.py` | MCP server para Claude (8 tools). URL y API-key por env |
 | `src/nsr10_formulas.py` | Cálculos normativos (espectro, deriva, Vs, T, factor R) |
 | `src/normative_package.py` | Interfaz abstracta Requirement/CheckResult (futuro) |
@@ -84,10 +81,7 @@ pytest tests/                                     # 67 tests, <1s
 ruff check api/ vercel-api/ tests/                # estricto en código nuevo
 ruff check --fix api/ vercel-api/ tests/          # auto-fix
 
-# Dev server (api/main.py, alternativo, con /tables)
-uvicorn main:app --reload --host 0.0.0.0 --port 8000 --app-dir api
-
-# Dev server (vercel-api/api/index.py, el de producción)
+# Dev server local
 uvicorn index:app --reload --host 0.0.0.0 --port 8000 --app-dir vercel-api/api
 
 # Probar un endpoint de prod
@@ -177,8 +171,6 @@ Config en `mcp/claude_desktop_config.json` (template). Instalar con
 - Las tablas `nsr10_*` tienen RLS activa. Si un cliente usa `anon` key, solo
   puede SELECT (lo cual es suficiente). Los scripts que escriben deben usar
   `service_role`.
-- `vercel-api/api/index.py` y `api/main.py` son **dos apps casi simétricas**.
-  Cualquier cambio en endpoints compartidos debe aplicarse a ambas.
 - `src/nsr10_formulas.py` usa variables `I`, `R`, `Ct` siguiendo la
   nomenclatura NSR-10 — no renombrar (ruff `E741` ignorado por config).
 - El cache de `/ask` es in-memory; en Vercel serverless se pierde entre
