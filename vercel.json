@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "vercel-api/api/index.py",
+      "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
-        "requirementsFile": "vercel-api/requirements.txt"
+        "requirementsFile": "api/requirements.txt"
       }
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "vercel-api/api/index.py" }
+    { "src": "/(.*)", "dest": "api/index.py" }
   ]
 }

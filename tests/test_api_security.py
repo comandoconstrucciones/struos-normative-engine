@@ -14,7 +14,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
+sys.path.insert(0, str(ROOT / "api"))
 
 
 @pytest.fixture(scope="module")
@@ -22,7 +22,7 @@ def vercel_client():
     # Import diferido — debe ocurrir DESPUÉS de ajustar sys.path
     import importlib
 
-    sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
+    sys.path.insert(0, str(ROOT / "api"))
     mod = importlib.import_module("index")
     return TestClient(mod.app)
 
@@ -81,7 +81,7 @@ def test_cors_origins_from_env(monkeypatch):
     assert origins == ["https://a.com", "https://b.com"]
 
 
-# ====== Validación de entrada en endpoints (vercel-api) ======
+# ====== Validación de entrada en endpoints ======
 
 def test_root_ok(vercel_client):
     r = vercel_client.get("/")
@@ -140,14 +140,14 @@ def test_municipio_too_long(vercel_client):
 
 # ====== API key gating opcional ======
 
-# ====== /ask vectorial (vercel-api/api/index.py — módulo canónico) ======
+# ====== /ask vectorial (api/index.py — módulo canónico) ======
 
 @pytest.fixture(scope="module")
 def main_client(monkeypatch_session=None):
     """Fixture del módulo `index` (app unificada, antes duplicada en api/main.py)."""
     import importlib
 
-    sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
+    sys.path.insert(0, str(ROOT / "api"))
     if "index" in sys.modules:
         del sys.modules["index"]
     mod = importlib.import_module("index")
@@ -285,7 +285,7 @@ def test_api_key_required_when_env_set(monkeypatch):
     monkeypatch.setenv("STRUOS_API_KEY", "secret123")
     # reimportar para releer el env-var — el check lo hace require_api_key en cada request,
     # así que no hace falta reiniciar la app.
-    sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
+    sys.path.insert(0, str(ROOT / "api"))
     mod = importlib.import_module("index")
     client = TestClient(mod.app)
 

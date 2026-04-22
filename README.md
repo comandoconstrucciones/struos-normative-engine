@@ -149,10 +149,10 @@ cp .env.example .env          # credenciales (Supabase, OpenAI, opcional API_KEY
 pip install -e ".[dev]"
 
 pytest tests/                 # 67 tests (<1s)
-ruff check api/ vercel-api/ tests/
+ruff check api/ tests/
 
 # Dev server local
-uvicorn index:app --reload --app-dir vercel-api/api --port 8000
+uvicorn index:app --reload --app-dir api --port 8000
 ```
 
 Ver [`CLAUDE.md`](CLAUDE.md) — guía detallada para contribuir o extender

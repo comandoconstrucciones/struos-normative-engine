@@ -43,7 +43,7 @@ jobs:
           cache: pip
       - run: pip install ruff
       - name: ruff check (código nuevo)
-        run: ruff check api/ vercel-api/ tests/
+        run: ruff check api/ tests/
       - name: ruff check (src/mcp)
         run: ruff check src/ mcp/
         continue-on-error: true  # aviso, legacy pendiente de limpieza

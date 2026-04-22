@@ -27,7 +27,7 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
                                                               ↓
                        ┌──────────────────────────────────────┼───────────────────────────────────┐
                                                 ↓                                   ↓
-                                   vercel-api/api/index.py              mcp/server.py
+                                   api/index.py              mcp/server.py
                                    (Vercel + Railway,                   (Claude Desktop /
                                     11 endpoints + /ask RAG)             Claude Code, 8 tools)
 ```
@@ -36,10 +36,10 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
 
 | Path | Propósito |
 |------|-----------|
-| `vercel-api/api/index.py` | **Única app FastAPI** — usada por Vercel y Railway |
-| `vercel-api/api/_security.py` | Hardening compartido (ilike_escape, CORS, API-key, rate limit) |
-| `vercel.json` (root) | Config Vercel: build `vercel-api/api/index.py`, route all → ahí |
-| `Procfile`, `railway.json` (root) | Config Railway: `uvicorn index:app --app-dir vercel-api/api` |
+| `api/index.py` | **Única app FastAPI** — usada por Vercel y Railway |
+| `api/_security.py` | Hardening compartido (ilike_escape, CORS, API-key, rate limit) |
+| `vercel.json` (root) | Config Vercel: build `api/index.py`, route all → ahí |
+| `Procfile`, `railway.json` (root) | Config Railway: `uvicorn index:app --app-dir api` |
 | `mcp/server.py` | MCP server para Claude (8 tools). URL y API-key por env |
 | `src/nsr10_formulas.py` | Cálculos normativos (espectro, deriva, Vs, T, factor R) |
 | `src/normative_package.py` | Interfaz abstracta Requirement/CheckResult (futuro) |
@@ -78,11 +78,11 @@ pip install -e ".[dev]"       # instala deps + pytest + ruff
 pytest tests/                                     # 67 tests, <1s
 
 # Lint
-ruff check api/ vercel-api/ tests/                # estricto en código nuevo
-ruff check --fix api/ vercel-api/ tests/          # auto-fix
+ruff check api/ tests/                # estricto en código nuevo
+ruff check --fix api/ tests/          # auto-fix
 
 # Dev server local
-uvicorn index:app --reload --host 0.0.0.0 --port 8000 --app-dir vercel-api/api
+uvicorn index:app --reload --host 0.0.0.0 --port 8000 --app-dir api
 
 # Probar un endpoint de prod
 curl https://struos-api.vercel.app/municipios/Bogota
@@ -95,18 +95,14 @@ curl -X POST https://struos-api.vercel.app/ask \
 
 ### Vercel (producción, `struos-api.vercel.app`)
 
-Hay dos modos:
-
-1. **Auto-deploy desde GitHub** (si está conectado en Settings → Git):
-   merge a `main` → Vercel deploya solo. Root dir: `vercel-api`.
-2. **CLI manual** (el modo actual):
+1. **Auto-deploy desde GitHub** (activo desde commit fba133d): cada
+   push/merge a `main` dispara un build. `vercel.json` en la raíz le
+   dice al builder que compile `api/index.py` con `api/requirements.txt`.
+2. **CLI manual** (respaldo):
    ```bash
-   cd vercel-api
    npx vercel --prod
    ```
-   Ya existe `vercel-api/.vercel/project.json` apuntando al proyecto correcto.
-
-Los deployments antiguos tienen `gitDirty: 1` → fueron subidos con CLI, no auto.
+   `api/.vercel/project.json` ya está linkeado al proyecto correcto.
 
 ### Env vars obligatorias en Vercel (Production scope)
 
@@ -155,7 +151,7 @@ Config en `mcp/claude_desktop_config.json` (template). Instalar con
 `.github/workflows/ci.yml` — matrix py3.10/3.11/3.12:
 
 - `pytest tests/` — 67 tests
-- `ruff check api/ vercel-api/ tests/` — estricto
+- `ruff check api/ tests/` — estricto
 - `ruff check src/ mcp/` — warn-only (legacy)
 
 ## Convenciones

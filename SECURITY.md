@@ -40,7 +40,7 @@ solo hacen SELECT. No necesitan `service_role`.
 - En Supabase → Authentication → Policies:
   - Activar RLS en todas las tablas `nsr10_*` y `kg_*`.
   - Crear policy `SELECT` para rol `anon` en cada tabla expuesta.
-- Cambiar `HEADERS` en `api/main.py` y `vercel-api/api/index.py` para usar
+- Cambiar `HEADERS` en `api/main.py` y `api/index.py` para usar
   la `anon` key en vez de `service_role`.
 - Mantener `service_role` solo para scripts de ingestión (`scripts/*`).
 

@@ -10,7 +10,7 @@ No se ejecutan en el pipeline actual; se preservan como referencia histórica.
 | Archivo | Reemplazado por / Estado |
 |---------|--------------------------|
 | `api_server.py` | `api/main.py` (producción) |
-| `nsr10_api.py` | `vercel-api/api/index.py` |
+| `nsr10_api.py` | `api/index.py` |
 | `search_v3.py`, `search_v4.py`, `search_v5.py` | `search_production.py` |
 | `enrich_kg.py` | `enrich_kg_v2.py` |
 | `extract_titulo_a.py`, `extract_kg_titulo_b.py`, `extract_kg_titulo_c.py` | One-shot por título (ya ejecutado) |

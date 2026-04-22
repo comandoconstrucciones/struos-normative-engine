@@ -34,7 +34,7 @@ mcp = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src", "vercel-api/api"]
+pythonpath = ["src", "api"]
 addopts = "-v --tb=short"
 
 [tool.ruff]
