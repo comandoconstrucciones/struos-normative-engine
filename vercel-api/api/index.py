@@ -10,6 +10,8 @@ from typing import Any
 import requests
 from _security import (
     SLOWAPI_AVAILABLE,
+    allowed_table,
+    allowed_tables,
     get_cors_origins,
     ilike_escape,
     rate_limiter,
@@ -145,7 +147,7 @@ def search_municipio(nombre: str):
 def root():
     return {
         "service": "NSR-10 Normative Engine",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "status": "ok",
         "endpoints": [
             "/municipios/{nombre}",
@@ -155,6 +157,10 @@ def root():
             "/deriva",
             "/coef/r",
             "/search",
+            "/ask",
+            "/ask/folders",
+            "/tables",
+            "/sql/{table}",
         ],
     }
 
@@ -530,6 +536,34 @@ def ask_question(question: Question):
     _ASK_CACHE[ck] = result
 
     return result
+
+
+@app.get("/tables")
+def list_tables_endpoint():
+    """Lista las tablas consultables desde /sql/{table} (whitelist)."""
+    tables = list(allowed_tables())
+    return {"tables": tables, "total": len(tables)}
+
+
+@app.get("/sql/{table}", dependencies=[Depends(require_api_key)])
+def query_table(table: str, limit: int = Query(default=100, ge=1, le=1000)):
+    """Consulta directa a una tabla (solo tablas en la whitelist)."""
+    if not allowed_table(table):
+        raise HTTPException(
+            403, f"Tabla '{table}' no expuesta. Ver /tables para la lista permitida."
+        )
+    try:
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/{table}",
+            params={"select": "*", "limit": limit},
+            headers=HEADERS,
+            timeout=15,
+        )
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+    if resp.status_code == 404:
+        raise HTTPException(404, f"Tabla {table} no existe")
+    return resp.json()
 
 
 @app.get("/ask/folders")

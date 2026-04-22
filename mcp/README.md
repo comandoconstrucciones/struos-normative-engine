@@ -25,7 +25,7 @@ Agregar a `~/.config/claude/claude_desktop_config.json` (Linux) o `~/Library/App
 
 **No requiere API keys** — usa la API pública https://struos-api.vercel.app
 
-## Herramientas disponibles
+## Herramientas disponibles (8)
 
 | Tool | Descripción |
 |------|-------------|
@@ -36,6 +36,7 @@ Agregar a `~/.config/claude/claude_desktop_config.json` (Linux) o `~/Library/App
 | `barras_refuerzo` | Propiedades de barras (Ø, área, masa) |
 | `deriva_maxima` | Derivas máximas permitidas |
 | `buscar_seccion` | Búsqueda FTS en secciones NSR-10 |
+| **`preguntar_nsr10`** | **RAG vectorial**: pregunta en lenguaje natural sobre la NSR-10 (y AISC, catálogos, manuales, normas técnicas) con citas trazables |
 
 ## Ejemplos de uso en Claude
 
@@ -51,7 +52,18 @@ Agregar a `~/.config/claude/claude_desktop_config.json` (Linux) o `~/Library/App
 
 "Propiedades de la barra #5"
 → Usa barras_refuerzo(designacion="5")
+
+"¿Cuál es la deriva máxima para pórticos de concreto según NSR-10?"
+→ Usa preguntar_nsr10(pregunta="...") y responde citando [1], [2]
+  con filename + página + similitud coseno
 ```
+
+## Variables de entorno (opcionales)
+
+| Variable | Default | Uso |
+|----------|---------|-----|
+| `STRUOS_API_URL` | `https://struos-api.vercel.app` | Self-hosting o staging |
+| `STRUOS_API_KEY` | (vacío) | Si el API exige `X-API-Key`, incluir |
 
 ## API REST
 

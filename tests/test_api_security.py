@@ -141,17 +141,17 @@ def test_municipio_too_long(vercel_client):
 
 # ====== API key gating opcional ======
 
-# ====== /ask vectorial (api/main.py) ======
+# ====== /ask vectorial (vercel-api/api/index.py — módulo canónico) ======
 
 @pytest.fixture(scope="module")
 def main_client(monkeypatch_session=None):
+    """Fixture del módulo `index` (app unificada, antes duplicada en api/main.py)."""
     import importlib
 
-    sys.path.insert(0, str(ROOT / "api"))
-    # importar fresh
-    if "main" in sys.modules:
-        del sys.modules["main"]
-    mod = importlib.import_module("main")
+    sys.path.insert(0, str(ROOT / "vercel-api" / "api"))
+    if "index" in sys.modules:
+        del sys.modules["index"]
+    mod = importlib.import_module("index")
     return mod, TestClient(mod.app)
 
 
@@ -178,7 +178,7 @@ def test_ask_context_limit_out_of_range(main_client):
 
 def test_ask_without_openai_key_returns_503(main_client, monkeypatch):
     mod, client = main_client
-    monkeypatch.setattr(mod, "client", None)
+    monkeypatch.setattr(mod, "_openai_client", None)
     r = client.post("/ask", json={"query": "deriva maxima", "context_limit": 5})
     assert r.status_code == 503
 
@@ -224,7 +224,7 @@ def test_ask_pipeline_with_mocked_rag(main_client):
             },
         )()
 
-    with patch.object(mod, "client", _FakeOpenAI()), patch.object(
+    with patch.object(mod, "_openai_client", _FakeOpenAI()), patch.object(
         mod.requests, "post"
     ) as mpost:
         # Simular respuesta de match_rag_chunks
@@ -267,7 +267,7 @@ def test_ask_empty_rag_results(main_client):
         embeddings = type("E", (), {"create": staticmethod(lambda model, input: _EmbedResp())})()
         chat = None  # no debería llamarse
 
-    with patch.object(mod, "client", _FakeOpenAI()), patch.object(
+    with patch.object(mod, "_openai_client", _FakeOpenAI()), patch.object(
         mod.requests, "post"
     ) as mpost:
         mpost.return_value.ok = True

@@ -3,7 +3,7 @@
   "info": {
     "title": "NSR-10 Struos API",
     "description": "Motor normativo de ingeniería estructural Colombia",
-    "version": "1.0.0"
+    "version": "1.3.0"
   },
   "servers": [
     {
@@ -187,6 +187,61 @@
         "responses": {
           "200": {
             "description": "Secciones encontradas"
+          }
+        }
+      }
+    },
+    "/ask": {
+      "post": {
+        "operationId": "preguntarNSR10",
+        "summary": "Pregunta en lenguaje natural con RAG vectorial (pgvector cosine sobre 57k chunks)",
+        "description": "Genera embedding de la pregunta, busca los top-k fragmentos mas similares en Supabase y responde citando [1], [2]. Retorna 'sources' con filename, pagina y similitud.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["query"],
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "Pregunta tecnica en español",
+                    "minLength": 3,
+                    "maxLength": 500
+                  },
+                  "context_limit": {
+                    "type": "integer",
+                    "description": "Numero de fragmentos a recuperar (1-20)",
+                    "default": 8,
+                    "minimum": 1,
+                    "maximum": 20
+                  },
+                  "folder": {
+                    "type": "string",
+                    "description": "Dominio a buscar. Default NSR-10.",
+                    "enum": ["NSR-10", "AISC Design Guides", "Catálogos", "Manuales", "Normas técnicas"],
+                    "default": "NSR-10"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Respuesta con citas"
+          }
+        }
+      }
+    },
+    "/ask/folders": {
+      "get": {
+        "operationId": "listarFolders",
+        "summary": "Lista los folders (dominios) disponibles para filtrar en /ask",
+        "responses": {
+          "200": {
+            "description": "Lista de folders"
           }
         }
       }

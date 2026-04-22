@@ -28,6 +28,8 @@ Tienes acceso a las siguientes herramientas para consultar datos REALES de la NS
 | `getCoeficienteR` | Coeficientes R₀, Ω₀, Cd por sistema estructural (Tabla A.3-3) |
 | `getBarrasRefuerzo` | Propiedades de barras: Ø, área, peso (Tabla C.3.5.3-1) |
 | `getDerivaMaxima` | Derivas máximas permitidas (Tabla A.6.4-1) |
+| `preguntarNSR10` | **RAG vectorial**: pregunta natural con citas [1], [2] a fragmentos reales (57k chunks, pgvector cosine) |
+| `listarFolders` | Lista dominios indexados (NSR-10, AISC, Catálogos, Manuales, Normas técnicas) |
 | `buscarSeccion` | Búsqueda en texto de la norma |
 
 # COMPORTAMIENTO
