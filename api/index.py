@@ -17,7 +17,6 @@ from fastapi import Depends, FastAPI, Header, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-
 # =============================================================================
 # Security utilities (inline)
 # =============================================================================

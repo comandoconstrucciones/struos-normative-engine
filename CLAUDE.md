@@ -27,7 +27,7 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
                                                               ↓
                        ┌──────────────────────────────────────┼───────────────────────────────────┐
                                                 ↓                                   ↓
-                                   api/index.py              mcp/server.py
+                                   api/index.py              mcp_server/server.py
                                    (Vercel + Railway,                   (Claude Desktop /
                                     11 endpoints + /ask RAG)             Claude Code, 8 tools)
 ```
@@ -37,10 +37,10 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
 | Path | Propósito |
 |------|-----------|
 | `api/index.py` | **Única app FastAPI** — usada por Vercel y Railway |
-| `api/_security.py` | Hardening compartido (ilike_escape, CORS, API-key, rate limit) |
+| *(security inlined en `api/index.py` — ver bloque "Security utilities")* | Hardening (ilike_escape, CORS, API-key, rate limit) integrado en el Lambda |
 | `vercel.json` (root) | Config Vercel: build `api/index.py`, route all → ahí |
 | `Procfile`, `railway.json` (root) | Config Railway: `uvicorn index:app --app-dir api` |
-| `mcp/server.py` | MCP server para Claude (8 tools). URL y API-key por env |
+| `mcp_server/server.py` | MCP server para Claude (8 tools). URL y API-key por env |
 | `src/nsr10_formulas.py` | Cálculos normativos (espectro, deriva, Vs, T, factor R) |
 | `src/normative_package.py` | Interfaz abstracta Requirement/CheckResult (futuro) |
 | `scripts/` | Pipeline de extracción activo (extractor, enrich_kg_v2, link_*, load_*) |
@@ -142,7 +142,7 @@ Payload de `/ask`:
 `parametros_sismicos`, `coeficiente_fa`, `coeficiente_fv`, `coeficiente_r`,
 `barras_refuerzo`, `deriva_maxima`, `buscar_seccion`, `preguntar_nsr10`.
 
-Config en `mcp/claude_desktop_config.json` (template). Instalar con
+Config en `mcp_server/claude_desktop_config.json` (template). Instalar con
 `pip install mcp httpx`. Override de URL/API-key vía env `STRUOS_API_URL` y
 `STRUOS_API_KEY`.
 
@@ -152,7 +152,7 @@ Config en `mcp/claude_desktop_config.json` (template). Instalar con
 
 - `pytest tests/` — 67 tests
 - `ruff check api/ tests/` — estricto
-- `ruff check src/ mcp/` — warn-only (legacy)
+- `ruff check src/ mcp_server/` — warn-only (legacy)
 
 ## Convenciones
 
@@ -164,6 +164,14 @@ Config en `mcp/claude_desktop_config.json` (template). Instalar con
 
 ## Gotchas conocidos
 
+- **NO renombrar la carpeta `mcp_server/` a `mcp/`**. Python shadowea
+  el package oficial `mcp` con carpetas del mismo nombre → ImportError
+  al correr el server (`mcp.server is not a package`). Resultado visible:
+  Claude Desktop muestra "Couldn't reach the MCP server".
+- **Vercel Python serverless empaca solo el archivo entrypoint**. Si
+  `api/index.py` hace `from otro_archivo import X`, falla con
+  FUNCTION_INVOCATION_FAILED en runtime. Mantener toda la lógica en un
+  solo archivo o configurar `includeFiles` en `vercel.json`.
 - Las tablas `nsr10_*` tienen RLS activa. Si un cliente usa `anon` key, solo
   puede SELECT (lo cual es suficiente). Los scripts que escriben deben usar
   `service_role`.
@@ -184,4 +192,4 @@ Config en `mcp/claude_desktop_config.json` (template). Instalar con
 - `docs/COMANDOCALC_ROADMAP.md` — roadmap de la calculadora
 - `docs/chatgpt-action.md` — configuración del Custom GPT
 - `docs/openapi-chatgpt.json` — spec OpenAPI del API (para ChatGPT Actions)
-- `mcp/README.md` — cómo instalar el MCP en Claude Desktop
+- `mcp_server/README.md` — cómo instalar el MCP en Claude Desktop

@@ -10,7 +10,7 @@ cualquier cliente HTTP.
 |---|---|
 | **API** | https://struos-api.vercel.app |
 | **Landing** | https://struos-ai.vercel.app |
-| **MCP** | `mcp/server.py` (stdio, 8 tools) |
+| **MCP** | `mcp_server/server.py` (stdio, 8 tools) |
 | **DB** | Supabase `vdakfewjadwaczulcmvj` |
 
 ---
@@ -116,7 +116,7 @@ Respuesta de `/ask`:
   "mcpServers": {
     "nsr10": {
       "command": "python3",
-      "args": ["/ruta/absoluta/a/struos-normative-engine/mcp/server.py"],
+      "args": ["/ruta/absoluta/a/struos-normative-engine/mcp_server/server.py"],
       "env": {
         "STRUOS_API_URL": "https://struos-api.vercel.app"
       }
@@ -131,7 +131,7 @@ Respuesta de `/ask`:
 `barras_refuerzo`, `deriva_maxima`, `buscar_seccion`, **`preguntar_nsr10`**
 (RAG vectorial con citas).
 
-Ver [`mcp/README.md`](mcp/README.md) para más detalle.
+Ver [`mcp_server/README.md`](mcp_server/README.md) para más detalle.
 
 ---
 

@@ -45,5 +45,5 @@ jobs:
       - name: ruff check (código nuevo)
         run: ruff check api/ tests/
       - name: ruff check (src/mcp)
-        run: ruff check src/ mcp/
+        run: ruff check src/ mcp_server/
         continue-on-error: true  # aviso, legacy pendiente de limpieza
