@@ -116,7 +116,7 @@ curl -X POST https://struos-api.vercel.app/ask \
 | `RATE_LIMIT` | ej `60/minute` |
 | `EMBEDDING_MODEL` | default `text-embedding-3-small` |
 
-## Endpoints de la API (v1.3.0)
+## Endpoints de la API (v1.4.0)
 
 | Endpoint | Método | Descripción |
 |----------|--------|-------------|
@@ -128,7 +128,9 @@ curl -X POST https://struos-api.vercel.app/ask \
 | `/coef/r?sistema=...` | GET | R₀, Ω₀, Cd (A.3-3) |
 | `/barras?designacion=...` | GET | Propiedades de barras (C.3.5.3-1) |
 | `/deriva` | GET | Derivas máximas (A.6.4-1) |
-| `/search?q=...` | GET | FTS en 12,789 secciones |
+| `/cargas-vivas?uso=...&categoria=...` | GET | Cargas vivas (B.4.2.1-1) |
+| `/perfiles?tipo=...&designacion=...` | GET | Perfiles de acero (cc_steel_profiles) |
+| `/search?q=...` | GET | FTS en 12,789 secciones (cascade AND→OR→titulo→ilike) |
 | `/ask` | POST | **RAG vectorial** con citas |
 | `/ask/folders` | GET | Dominios indexados |
 
@@ -137,10 +139,23 @@ Payload de `/ask`:
 { "query": "...", "context_limit": 8, "folder": "NSR-10" }
 ```
 
-## MCP tools (8)
+### Mejoras /search (2026-04-22)
+- Sinónimos con restauración de tildes (maxima→máxima, limite→límite, etc.)
+- Búsqueda numérica de sección (query "A.6.4" → direct lookup)
+- Sort por número de sección (A.5 < A.6 < A.12, no lexicográfico)
+- Title-match boosting: secciones donde el término aparece en el título van primero
+- Paso 3 extra: `titulo ILIKE` antes de `contenido ILIKE`
+- Deduplicación por (seccion, contenido_prefix)
 
-`parametros_sismicos`, `coeficiente_fa`, `coeficiente_fv`, `coeficiente_r`,
-`barras_refuerzo`, `deriva_maxima`, `buscar_seccion`, `preguntar_nsr10`.
+## MCP tools (15)
+
+**Parámetros sísmicos:** `parametros_sismicos`, `coeficiente_fa`, `coeficiente_fv`, `coeficiente_r`, `espectro_diseno`
+
+**Diseño sísmico:** `cortante_basal`, `deriva_maxima`, `verificar_deriva`, `separacion_sismica`, `periodo_fundamental`
+
+**Cargas y materiales:** `cargas_vivas`, `barras_refuerzo`, `perfiles_acero`
+
+**Búsqueda:** `buscar_seccion` (FTS+section lookup), `preguntar_nsr10` (RAG)
 
 Config en `mcp_server/claude_desktop_config.json` (template). Instalar con
 `pip install mcp httpx`. Override de URL/API-key vía env `STRUOS_API_URL` y

@@ -158,8 +158,24 @@ def normalize_text(text: str) -> str:
 
 
 def search_municipio(nombre: str):
-    """Busca municipio con y sin acentos (entrada tratada como literal)"""
+    """Busca municipio con y sin acentos. Prefiere coincidencia exacta sobre substring."""
     safe = ilike_escape(nombre)
+
+    # 1. Exact match (case-insensitive) — evita "Cali" → "California"
+    resp = requests.get(
+        f"{SUPABASE_URL}/rest/v1/nsr10_municipios",
+        params={
+            "municipio": f"ilike.{safe}",
+            "select": "municipio,departamento,aa,av,zona_amenaza",
+        },
+        headers=HEADERS,
+        timeout=10,
+    )
+    data = resp.json()
+    if data and isinstance(data, list) and len(data) > 0:
+        return data
+
+    # 2. Substring match
     resp = requests.get(
         f"{SUPABASE_URL}/rest/v1/nsr10_municipios",
         params={
@@ -172,6 +188,13 @@ def search_municipio(nombre: str):
     data = resp.json()
 
     if data and isinstance(data, list) and len(data) > 0:
+        # Sort: exact word-start match first
+        nombre_norm = normalize_text(nombre).lower()
+        data.sort(key=lambda m: (
+            0 if normalize_text(m.get("municipio", "")).lower() == nombre_norm else
+            1 if normalize_text(m.get("municipio", "")).lower().startswith(nombre_norm) else
+            2
+        ))
         return data
 
     ACCENT_MAP = {
@@ -345,7 +368,17 @@ def get_barras(designacion: str | None = Query(default=None, max_length=16)):
             "order": "diametro_mm",
         }
         if designacion:
-            params["designacion"] = f"ilike.*{ilike_escape(designacion)}*"
+            # Try exact match first (e.g. "5" → "No.5", "5M"), then prefix, then substring
+            d = designacion.strip().lstrip("#")
+            candidates = [d, f"No.{d}", f"{d}M", f"#{d}"]
+            exact_params = {**params, "designacion": f"in.({','.join(candidates)})"}
+            exact_resp = requests.get(
+                f"{SUPABASE_URL}/rest/v1/nsr10_barras_refuerzo",
+                params=exact_params, headers=HEADERS, timeout=10,
+            )
+            if exact_resp.ok and exact_resp.json():
+                return {"barras": exact_resp.json(), "referencia": "NSR-10 Tabla C.3.5.3-1"}
+            params["designacion"] = f"ilike.{ilike_escape(d)}*"
         resp = requests.get(
             f"{SUPABASE_URL}/rest/v1/nsr10_barras_refuerzo",
             params=params,
@@ -436,60 +469,176 @@ def search_fts(
 ):
     """Búsqueda Full-Text en secciones de la NSR-10 (12,789 secciones indexadas)"""
     try:
-        SYNONYMS = {
-            "basal": "base",
-            "basales": "base",
-            "sismico": "sísmico",
-            "sismica": "sísmica",
-            "calculo": "cálculo",
-            "diseno": "diseño",
-            "seccion": "sección",
-            "armado": "reforzado",
+        import re
+        # Restore Spanish accents stripped by user (simple FTS dict preserves accents in index)
+        SYNONYMS: dict[str, str] = {
+            "basal": "base", "basales": "base",
+            "sismico": "sísmico", "sismica": "sísmica",
+            "calculo": "cálculo", "diseno": "diseño",
+            "seccion": "sección", "armado": "reforzado",
+            "maxima": "máxima", "maximas": "máximas",
+            "minima": "mínima", "minimas": "mínimas",
+            "limite": "límite", "limites": "límites",
+            "critico": "crítico", "critica": "crítica",
+            "periodo": "período", "periodos": "períodos",
+            "analisis": "análisis", "elastico": "elástico",
+            "plastico": "plástico", "metalica": "metálica",
+            "metalico": "metálico", "especifico": "específico",
+            "tecnico": "técnico", "fundacion": "fundación",
+            "cimentacion": "cimentación", "torsion": "torsión",
+            "flexion": "flexión", "tension": "tensión",
+            "compresion": "compresión", "vibracion": "vibración",
+            "aceleracion": "aceleración", "separacion": "separación",
+            "mamposteria": "mampostería", "cortante": "cortante",
+            "refuerzo": "refuerzo", "entrepiso": "entrepiso",
         }
         terms = q.strip().lower().split()
         terms = [SYNONYMS.get(t, t) for t in terms]
-        # Sanitizar términos FTS: solo letras/dígitos/acentos (to_tsquery rechaza otros)
-        import re
-
         safe_terms = [re.sub(r"[^\w\sáéíóúñü-]", "", t, flags=re.UNICODE) for t in terms]
-        safe_terms = [t for t in safe_terms if t]
+        safe_terms = [t for t in safe_terms if len(t) >= 3]  # skip stop words
         if not safe_terms:
             raise HTTPException(400, "query sin términos válidos")
-        fts_query = " & ".join(safe_terms) if len(safe_terms) > 1 else safe_terms[0]
 
-        resp = requests.get(
-            f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
-            params={
-                "search_vector": f"fts(simple).{fts_query}",
-                "select": "seccion,titulo,contenido",
-                "limit": str(limit),
-                "order": "seccion",
-            },
-            headers=HEADERS,
-            timeout=15,
-        )
-        results = resp.json()
-        method = "fts"
+        # ── helpers ──────────────────────────────────────────────────
+        def _clean_content(contenido: str) -> str:
+            if not contenido:
+                return ""
+            lines = contenido.split("\n")
+            real_lines = []
+            for line in lines:
+                dots = line.count(".") + line.count("·")
+                if dots / max(len(line), 1) > 0.20 and len(line) > 30:
+                    continue  # línea de TOC
+                real_lines.append(line)
+            cleaned = "\n".join(real_lines).strip()
+            return cleaned if len(cleaned) > 40 else contenido
 
-        if not results or (isinstance(results, list) and len(results) == 0):
+        def _is_pure_toc(r: dict) -> bool:
+            return len(_clean_content(r.get("contenido", ""))) < 60
+
+        seen_secciones: set[str] = set()
+
+        def _dedup(rows: list) -> list:
+            out = []
+            for r in rows:
+                key = r.get("seccion", "") + "|" + (r.get("contenido", "")[:50])
+                if key not in seen_secciones:
+                    seen_secciones.add(key)
+                    out.append(r)
+            return out
+
+        def _sec_sort_key(r: dict) -> tuple:
+            """Sort: title-match first, then by section number numerically."""
+            sec = r.get("seccion", "")
+            titulo = r.get("titulo", "").lower()
+            title_score = 0 if any(t in titulo for t in safe_terms) else 1
+            parts = re.split(r"[\.\-]", sec)
+            nums: list = []
+            for p in parts:
+                try:
+                    nums.append(int(p))
+                except ValueError:
+                    nums.append(p)
+            return (title_score, *nums[:6])
+
+        def _finalize(rows: list) -> list:
+            real = [r for r in rows if not _is_pure_toc(r)]
+            rows = real or rows
+            try:
+                rows.sort(key=_sec_sort_key)
+            except Exception:
+                pass
+            rows = rows[:limit]
+            for r in rows:
+                cleaned = _clean_content(r.get("contenido", ""))
+                r["contenido"] = cleaned[:500] + "..." if len(cleaned) > 500 else cleaned
+            return rows
+
+        DB_FETCH = min(limit * 5, 50)  # fetch extra, sort in Python
+
+        # Fast path: if query looks like a section number (e.g. "A.6.4"), fetch directly
+        sec_match = re.match(r"^([A-Z]\.[\d\.]+)", q.strip().upper())
+        if sec_match:
+            sec_prefix = sec_match.group(1)
             resp = requests.get(
                 f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
                 params={
-                    "contenido": f"ilike.*{ilike_escape(q)}*",
+                    "seccion": f"ilike.{ilike_escape(sec_prefix)}*",
                     "select": "seccion,titulo,contenido",
                     "limit": str(limit),
                 },
-                headers=HEADERS,
-                timeout=15,
+                headers=HEADERS, timeout=15,
             )
-            results = resp.json()
+            if resp.ok and resp.json():
+                rows = _finalize(_dedup(resp.json()))
+                return {"query": q, "method": "section_lookup", "count": len(rows), "results": rows}
+
+        results: list = []
+        method = "fts"
+
+        # 1. FTS AND (todos los términos) — más preciso
+        fts_and = " & ".join(safe_terms)
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
+            params={
+                "search_vector": f"fts(simple).{fts_and}",
+                "select": "seccion,titulo,contenido",
+                "limit": str(DB_FETCH),
+            },
+            headers=HEADERS, timeout=15,
+        )
+        if resp.ok:
+            results = _dedup(resp.json() or [])
+
+        # 2. Si no hay hits con AND, intentar OR (alguno de los términos)
+        if not results and len(safe_terms) > 1:
+            fts_or = " | ".join(safe_terms)
+            resp = requests.get(
+                f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
+                params={
+                    "search_vector": f"fts(simple).{fts_or}",
+                    "select": "seccion,titulo,contenido",
+                    "limit": str(DB_FETCH),
+                },
+                headers=HEADERS, timeout=15,
+            )
+            if resp.ok:
+                results = _dedup(resp.json() or [])
+            method = "fts_or"
+
+        # 3. Título ILIKE (términos clave) — captura secciones por nombre aunque FTS falle
+        if not results:
+            for term in sorted(safe_terms, key=len, reverse=True)[:2]:
+                resp = requests.get(
+                    f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
+                    params={
+                        "titulo": f"ilike.*{ilike_escape(term)}*",
+                        "select": "seccion,titulo,contenido",
+                        "limit": str(DB_FETCH),
+                    },
+                    headers=HEADERS, timeout=15,
+                )
+                if resp.ok:
+                    results.extend(_dedup(resp.json() or []))
+            method = "titulo_ilike"
+
+        # 4. Fallback ILIKE en contenido (término principal)
+        if not results:
+            main_term = max(safe_terms, key=len)
+            resp = requests.get(
+                f"{SUPABASE_URL}/rest/v1/nsr10_secciones",
+                params={
+                    "contenido": f"ilike.*{ilike_escape(main_term)}*",
+                    "select": "seccion,titulo,contenido",
+                    "limit": str(DB_FETCH),
+                },
+                headers=HEADERS, timeout=15,
+            )
+            if resp.ok:
+                results = _dedup(resp.json() or [])
             method = "ilike"
 
-        if isinstance(results, list):
-            for r in results:
-                if r.get("contenido") and len(r["contenido"]) > 300:
-                    r["contenido"] = r["contenido"][:300] + "..."
-
+        results = _finalize(results)
         return {
             "query": q,
             "method": method,
@@ -656,15 +805,84 @@ def list_ask_folders():
         "folders": [
             "NSR-10",
             "AISC Design Guides",
+            "AISC",
+            "ACI",
+            "AWS",
+            "AASHTO",
             "Catálogos",
             "Manuales",
             "Normas técnicas",
+            "Normas Latinoamerica",
+            "Normas Internacionales",
+            "Leyes Colombia",
+            "Codigo Colombiano Puentes",
         ],
         "default": "NSR-10",
     }
 
 
+@app.get("/cargas-vivas", dependencies=[Depends(require_api_key)])
+def get_cargas_vivas(
+    uso: str | None = Query(default=None, max_length=100),
+    categoria: str | None = Query(default=None, max_length=80),
+):
+    """Cargas vivas mínimas por uso/categoría — NSR-10 Tabla B.4.2.1-1."""
+    try:
+        params: dict[str, Any] = {
+            "select": "categoria,uso,carga_kn_m2,carga_kgf_m2,notas,tabla_ref",
+            "limit": "50",
+        }
+        if uso:
+            params["uso"] = f"ilike.*{ilike_escape(uso)}*"
+        if categoria:
+            params["categoria"] = f"ilike.*{ilike_escape(categoria)}*"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/nsr10_cargas_vivas",
+            params=params, headers=HEADERS, timeout=10,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream error: {resp.status_code}")
+        return {"cargas": resp.json(), "referencia": "NSR-10 Tabla B.4.2.1-1"}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
+@app.get("/perfiles", dependencies=[Depends(require_api_key)])
+def get_perfiles(
+    tipo: str | None = Query(default=None, max_length=60),
+    designacion: str | None = Query(default=None, max_length=60),
+):
+    """Perfiles de acero estructural (Ix, Iy, Sx, Sy, Zx, Zy, rx, ry, A, W)."""
+    try:
+        params: dict[str, Any] = {
+            "select": "id,type,manufacturer,designation,height,width,thickness,area,weight,ix,iy,sx,sy,zx,zy,rx,ry,fy",
+            "limit": "50",
+        }
+        if tipo:
+            params["type"] = f"ilike.*{ilike_escape(tipo)}*"
+        if designacion:
+            d = designacion.strip()
+            # Exact match first
+            exact = requests.get(
+                f"{SUPABASE_URL}/rest/v1/cc_steel_profiles",
+                params={**params, "designation": f"ilike.{ilike_escape(d)}"},
+                headers=HEADERS, timeout=10,
+            )
+            if exact.ok and exact.json():
+                return {"perfiles": exact.json()}
+            params["designation"] = f"ilike.*{ilike_escape(d)}*"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/cc_steel_profiles",
+            params=params, headers=HEADERS, timeout=10,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream error: {resp.status_code}")
+        return {"perfiles": resp.json()}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
 @app.get("/health")
 def health():
     """Health check"""
-    return {"status": "healthy", "version": "1.3.0"}
+    return {"status": "healthy", "version": "1.4.0"}
