@@ -118,6 +118,23 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
+# RAG vectorial: la tabla rag_chunks se migró a pgvector self-hosted
+# (rag-db.comandoconstrucciones.com) para liberar espacio en Supabase.
+# Si RAG_DB_URL está configurado, solo match_rag_chunks va allá; todas las
+# demás tablas (nsr10_*, cc_*, aci/aisc) siguen en Supabase vía SUPABASE_URL.
+RAG_DB_URL = os.environ.get("RAG_DB_URL", "").rstrip("/")
+RAG_DB_TOKEN = os.environ.get("RAG_DB_TOKEN", "")
+if RAG_DB_URL:
+    RAG_BASE = RAG_DB_URL
+    RAG_HEADERS = {
+        "apikey": RAG_DB_TOKEN,
+        "Authorization": f"Bearer {RAG_DB_TOKEN}",
+        "Content-Type": "application/json",
+    }
+else:
+    RAG_BASE = SUPABASE_URL
+    RAG_HEADERS = HEADERS
+
 # OpenAI lazy-init (opcional — /ask responde 503 si no hay key)
 try:
     from openai import OpenAI
@@ -677,8 +694,8 @@ def _rag_vector_search(
 ) -> list[dict[str, Any]]:
     try:
         resp = requests.post(
-            f"{SUPABASE_URL}/rest/v1/rpc/match_rag_chunks",
-            headers=HEADERS,
+            f"{RAG_BASE}/rest/v1/rpc/match_rag_chunks",
+            headers=RAG_HEADERS,
             json={
                 "query_embedding": q_embedding,
                 "match_count": match_count,
