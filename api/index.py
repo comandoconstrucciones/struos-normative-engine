@@ -118,6 +118,21 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
+# RAG vectorial: rag_chunks migrada a pgvector self-hosted (rag-db.comandoconstrucciones.com)
+# para liberar Supabase. Solo match_rag_chunks va allá; el resto de tablas sigue en Supabase.
+RAG_DB_URL = os.environ.get("RAG_DB_URL", "").rstrip("/")
+RAG_DB_TOKEN = os.environ.get("RAG_DB_TOKEN", "")
+if RAG_DB_URL:
+    RAG_BASE = RAG_DB_URL
+    RAG_HEADERS = {
+        "apikey": RAG_DB_TOKEN,
+        "Authorization": f"Bearer {RAG_DB_TOKEN}",
+        "Content-Type": "application/json",
+    }
+else:
+    RAG_BASE = SUPABASE_URL
+    RAG_HEADERS = HEADERS
+
 # OpenAI lazy-init (opcional — /ask responde 503 si no hay key)
 try:
     from openai import OpenAI
@@ -677,8 +692,8 @@ def _rag_vector_search(
 ) -> list[dict[str, Any]]:
     try:
         resp = requests.post(
-            f"{SUPABASE_URL}/rest/v1/rpc/match_rag_chunks",
-            headers=HEADERS,
+            f"{RAG_BASE}/rest/v1/rpc/match_rag_chunks",
+            headers=RAG_HEADERS,
             json={
                 "query_embedding": q_embedding,
                 "match_count": match_count,
@@ -882,7 +897,141 @@ def get_perfiles(
         raise HTTPException(502, f"Upstream error: {e}") from e
 
 
+@app.get("/aisc/search", dependencies=[Depends(require_api_key)])
+def aisc_search(
+    q: str = Query(..., min_length=2, max_length=300),
+    norm: str = Query(default="AISC-360-16", max_length=30),
+    chapter: str | None = Query(default=None, max_length=10),
+    limit: int = Query(default=20, ge=1, le=100),
+):
+    """Búsqueda FTS en secciones de AISC (360-16, 341-10, 358-16)."""
+    try:
+        # wfts (websearch_to_tsquery): acepta texto libre multi-palabra sin errores
+        # de sintaxis; fts (to_tsquery) explotaba con queries de 2+ palabras.
+        params: dict[str, Any] = {
+            "select": "section_id,chapter,title,body,page_start,has_formula,has_table,level",
+            "norm_code": f"eq.{norm}",
+            "tsv": f"wfts.{q.strip()}",
+            "order": "level.asc,section_id.asc",
+            "limit": str(limit),
+        }
+        if chapter:
+            params["chapter"] = f"eq.{chapter}"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/aisc_secciones",
+            params=params,
+            headers={**HEADERS, "Content-Type": "application/json"},
+            timeout=15,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream: {resp.status_code}")
+        rows = resp.json()
+        for r in rows:
+            if r.get("body") and len(r["body"]) > 600:
+                r["body"] = r["body"][:600] + "…"
+        return {"norm": norm, "query": q, "count": len(rows), "results": rows}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
+@app.get("/aci/search", dependencies=[Depends(require_api_key)])
+def aci_search(
+    q: str = Query(..., min_length=2, max_length=300),
+    norm: str = Query(default="ACI-318-19", max_length=30),
+    chapter: str | None = Query(default=None, max_length=10),
+    limit: int = Query(default=20, ge=1, le=100),
+):
+    """Búsqueda FTS en secciones de ACI-318-19 y ACI-318-25."""
+    try:
+        # wfts (websearch_to_tsquery): acepta texto libre multi-palabra sin errores
+        # de sintaxis; fts (to_tsquery) explotaba con queries de 2+ palabras.
+        params: dict[str, Any] = {
+            "select": "section_id,chapter,title,body,page_start,has_formula,has_table,level",
+            "norm_code": f"eq.{norm}",
+            "tsv": f"wfts.{q.strip()}",
+            "order": "level.asc,section_id.asc",
+            "limit": str(limit),
+        }
+        if chapter:
+            params["chapter"] = f"eq.{chapter}"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/aci_secciones",
+            params=params,
+            headers={**HEADERS, "Content-Type": "application/json"},
+            timeout=15,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream: {resp.status_code}")
+        rows = resp.json()
+        for r in rows:
+            if r.get("body") and len(r["body"]) > 600:
+                r["body"] = r["body"][:600] + "…"
+        return {"norm": norm, "query": q, "count": len(rows), "results": rows}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
+@app.get("/norm/formulas", dependencies=[Depends(require_api_key)])
+def get_norm_formulas(
+    norm: str | None = Query(default=None, max_length=30),
+    section: str | None = Query(default=None, max_length=50),
+    limit: int = Query(default=50, ge=1, le=200),
+):
+    """Fórmulas estructuradas con LaTeX y Python ejecutable (AISC + ACI + NSR-10)."""
+    try:
+        params: dict[str, Any] = {
+            "select": "norm_code,section_id,formula_id,description,latex,python_code,variables,units,page",
+            "limit": str(limit),
+            "order": "norm_code.asc,section_id.asc",
+        }
+        if norm:
+            params["norm_code"] = f"eq.{norm}"
+        if section:
+            params["section_id"] = f"ilike.*{ilike_escape(section)}*"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/norm_formulas",
+            params=params,
+            headers={**HEADERS, "Content-Type": "application/json"},
+            timeout=15,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream: {resp.status_code}")
+        return {"count": len(resp.json()), "formulas": resp.json()}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
+@app.get("/norm/crosslinks", dependencies=[Depends(require_api_key)])
+def get_crosslinks(
+    source: str | None = Query(default=None, max_length=30),
+    target: str | None = Query(default=None, max_length=30),
+    limit: int = Query(default=100, ge=1, le=500),
+):
+    """Cross-links entre normas: NSR-10 ↔ AISC ↔ ACI."""
+    try:
+        params: dict[str, Any] = {
+            "select": "source_norm,source_section,target_norm,target_section,link_type,note",
+            "limit": str(limit),
+            "order": "source_norm.asc,source_section.asc",
+        }
+        if source:
+            params["source_norm"] = f"eq.{source}"
+        if target:
+            params["target_norm"] = f"eq.{target}"
+        resp = requests.get(
+            f"{SUPABASE_URL}/rest/v1/norm_crosslinks",
+            params=params,
+            headers={**HEADERS, "Content-Type": "application/json"},
+            timeout=15,
+        )
+        if not resp.ok:
+            raise HTTPException(502, f"Upstream: {resp.status_code}")
+        return {"count": len(resp.json()), "crosslinks": resp.json()}
+    except requests.RequestException as e:
+        raise HTTPException(502, f"Upstream error: {e}") from e
+
+
 @app.get("/health")
 def health():
     """Health check"""
-    return {"status": "healthy", "version": "1.4.0"}
+    return {"status": "healthy", "version": "1.5.0"}
