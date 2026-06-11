@@ -2,12 +2,12 @@
 """
 NSR-10 MCP Server (FastMCP).
 
-Expone 15 tools sobre la API local para que Claude consulte la NSR-10 Colombia.
+Expone 19 tools sobre la API local: NSR-10 Colombia + biblioteca AISC/ACI.
 
 Logs a stderr — stdout es sagrado para JSON-RPC en stdio transport.
 
 Variables de entorno:
-  STRUOS_API_URL  default https://struos-api.vercel.app
+  STRUOS_API_URL  default http://127.0.0.1:8100 (struos-api local; Vercel fue retirado)
   STRUOS_API_KEY  opcional; se envía como X-API-Key si está seteada
   MCP_TRANSPORT   stdio (default) | sse | streamable-http
   MCP_HOST        127.0.0.1 (default)
@@ -35,7 +35,8 @@ logging.basicConfig(
 )
 log = logging.getLogger("nsr10-mcp")
 
-API_URL = os.environ.get("STRUOS_API_URL", "https://struos-api.vercel.app").rstrip("/")
+# Default: API local (struos-api.vercel.app fue retirado y responde 404)
+API_URL = os.environ.get("STRUOS_API_URL", "http://127.0.0.1:8100").rstrip("/")
 API_KEY = os.environ.get("STRUOS_API_KEY")
 
 _host = os.environ.get("MCP_HOST", "127.0.0.1")
@@ -816,6 +817,131 @@ async def separacion_sismica(
         "",
         "Fuente: NSR-10 A.6.5.1",
     ]
+    return "\n".join(lines)
+
+
+# ═══════════════════════════════════════════════════════════════
+# BIBLIOTECA NORMATIVA AISC / ACI (endpoints v1.5.0)
+# ═══════════════════════════════════════════════════════════════
+
+@mcp.tool()
+async def buscar_aisc(texto: str, norma: str = "AISC-360-16", capitulo: str | None = None, limite: int = 10) -> str:
+    """Búsqueda full-text en las especificaciones AISC (acero estructural).
+
+    Args:
+        texto:    Términos de búsqueda en inglés (ej: "shear strength", "bolted connections").
+        norma:    AISC-360-16 (default), AISC-341-10 (sísmico) o AISC-358-16 (conexiones precalificadas).
+        capitulo: Filtrar por capítulo (ej: "F", "J"). Opcional.
+        limite:   Máximo de resultados (1-50). Default 10.
+    """
+    params: dict[str, Any] = {"q": texto, "norm": norma, "limit": max(1, min(limite, 50))}
+    if capitulo:
+        params["chapter"] = capitulo
+    data = await _api_get("/aisc/search", params)
+    return _format_norm_results(data, texto, norma)
+
+
+@mcp.tool()
+async def buscar_aci(texto: str, norma: str = "ACI-318-19", capitulo: str | None = None, limite: int = 10) -> str:
+    """Búsqueda full-text en ACI 318 (concreto estructural).
+
+    Args:
+        texto:    Términos de búsqueda en inglés (ej: "development length", "punching shear").
+        norma:    ACI-318-19 (default) o ACI-318-25.
+        capitulo: Filtrar por capítulo (ej: "25"). Opcional.
+        limite:   Máximo de resultados (1-50). Default 10.
+    """
+    params: dict[str, Any] = {"q": texto, "norm": norma, "limit": max(1, min(limite, 50))}
+    if capitulo:
+        params["chapter"] = capitulo
+    data = await _api_get("/aci/search", params)
+    return _format_norm_results(data, texto, norma)
+
+
+def _format_norm_results(data: dict | list, texto: str, norma: str) -> str:
+    if not isinstance(data, dict) or "results" not in data:
+        err = data.get("error", "respuesta inesperada") if isinstance(data, dict) else "respuesta inesperada"
+        return f"Error consultando {norma}: {err}"
+    results = data["results"]
+    if not results:
+        return f"Sin resultados en {norma} para '{texto}'. Usa términos en inglés."
+    lines = [f"Resultados {norma} para '{texto}' ({len(results)}):\n"]
+    for r in results:
+        extras = []
+        if r.get("has_formula"):
+            extras.append("fórmulas")
+        if r.get("has_table"):
+            extras.append("tablas")
+        tag = f" _[{', '.join(extras)}]_" if extras else ""
+        lines.append(f"**{r.get('section_id', '')} — {r.get('title', '')}** (p.{r.get('page_start', '?')}){tag}")
+        body = (r.get("body") or "").strip()
+        if body:
+            lines.append(f"{body}\n")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+async def formulas_norma(norma: str | None = None, seccion: str | None = None, limite: int = 20) -> str:
+    """Fórmulas estructuradas de normas con LaTeX y código Python ejecutable.
+
+    Cubre AISC, ACI y NSR-10. Cada fórmula incluye variables, unidades y página.
+
+    Args:
+        norma:   Filtrar por norma (ej: "ACI-318-19", "AISC-360-16", "NSR-10"). Opcional.
+        seccion: Filtrar por sección, búsqueda parcial (ej: "22.2"). Opcional.
+        limite:  Máximo de fórmulas (1-100). Default 20.
+    """
+    params: dict[str, Any] = {"limit": max(1, min(limite, 100))}
+    if norma:
+        params["norm"] = norma
+    if seccion:
+        params["section"] = seccion
+    data = await _api_get("/norm/formulas", params)
+    formulas = data.get("formulas") if isinstance(data, dict) else None
+    if not formulas:
+        return f"Sin fórmulas para norma='{norma}' seccion='{seccion}'."
+    lines = [f"Fórmulas normativas ({len(formulas)}):\n"]
+    for f in formulas:
+        lines.append(f"**{f.get('norm_code', '')} {f.get('section_id', '')} {f.get('formula_id', '')}** — {f.get('description', '')}")
+        if f.get("latex"):
+            lines.append(f"  LaTeX: `{f['latex']}`")
+        if f.get("python_code"):
+            lines.append(f"```python\n{f['python_code']}\n```")
+        if f.get("units"):
+            lines.append(f"  Unidades: {f['units']}")
+        lines.append("")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+async def crosslinks_normas(origen: str | None = None, destino: str | None = None, limite: int = 50) -> str:
+    """Equivalencias y referencias cruzadas entre normas: NSR-10 ↔ AISC ↔ ACI.
+
+    Muestra qué sección de una norma adopta, modifica o referencia a otra.
+
+    Args:
+        origen:  Norma origen (ej: "NSR-10"). Opcional.
+        destino: Norma destino (ej: "ACI-318-19"). Opcional.
+        limite:  Máximo de cross-links (1-200). Default 50.
+    """
+    params: dict[str, Any] = {"limit": max(1, min(limite, 200))}
+    if origen:
+        params["source"] = origen
+    if destino:
+        params["target"] = destino
+    data = await _api_get("/norm/crosslinks", params)
+    links = data.get("crosslinks") if isinstance(data, dict) else None
+    if not links:
+        return f"Sin cross-links para origen='{origen}' destino='{destino}'."
+    lines = [f"Cross-links entre normas ({len(links)}):\n"]
+    lines.append("| Origen | Destino | Tipo | Nota |")
+    lines.append("|--------|---------|------|------|")
+    for li in links:
+        lines.append(
+            f"| {li.get('source_norm', '')} {li.get('source_section', '')} "
+            f"| {li.get('target_norm', '')} {li.get('target_section', '')} "
+            f"| {li.get('link_type', '')} | {li.get('note', '')} |"
+        )
     return "\n".join(lines)
 
 

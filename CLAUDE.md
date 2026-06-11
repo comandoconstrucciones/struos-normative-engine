@@ -40,7 +40,7 @@ PDF NSR-10 → pipeline de extracción (scripts/) → Supabase
 | *(security inlined en `api/index.py` — ver bloque "Security utilities")* | Hardening (ilike_escape, CORS, API-key, rate limit) integrado en el Lambda |
 | `vercel.json` (root) | Config Vercel: build `api/index.py`, route all → ahí |
 | `Procfile`, `railway.json` (root) | Config Railway: `uvicorn index:app --app-dir api` |
-| `mcp_server/server.py` | MCP server para Claude (8 tools). URL y API-key por env |
+| `mcp_server/server.py` | MCP server para Claude (19 tools). URL y API-key por env |
 | `src/nsr10_formulas.py` | Cálculos normativos (espectro, deriva, Vs, T, factor R) |
 | `src/normative_package.py` | Interfaz abstracta Requirement/CheckResult (futuro) |
 | `scripts/` | Pipeline de extracción activo (extractor, enrich_kg_v2, link_*, load_*) |
@@ -84,9 +84,9 @@ ruff check --fix api/ tests/          # auto-fix
 # Dev server local
 uvicorn index:app --reload --host 0.0.0.0 --port 8000 --app-dir api
 
-# Probar un endpoint de prod
-curl https://struos-api.vercel.app/municipios/Bogota
-curl -X POST https://struos-api.vercel.app/ask \
+# Probar un endpoint (la API corre local en gemma4-test; Vercel fue retirado y responde 404)
+curl http://127.0.0.1:8100/municipios/Bogota
+curl -X POST http://127.0.0.1:8100/ask \
      -H 'content-type: application/json' \
      -d '{"query":"cual es la deriva maxima"}'
 ```
@@ -116,7 +116,7 @@ curl -X POST https://struos-api.vercel.app/ask \
 | `RATE_LIMIT` | ej `60/minute` |
 | `EMBEDDING_MODEL` | default `text-embedding-3-small` |
 
-## Endpoints de la API (v1.4.0)
+## Endpoints de la API (v1.5.0)
 
 | Endpoint | Método | Descripción |
 |----------|--------|-------------|
@@ -133,6 +133,10 @@ curl -X POST https://struos-api.vercel.app/ask \
 | `/search?q=...` | GET | FTS en 12,789 secciones (cascade AND→OR→titulo→ilike) |
 | `/ask` | POST | **RAG vectorial** con citas |
 | `/ask/folders` | GET | Dominios indexados |
+| `/aisc/search?q=...` | GET | FTS en AISC 360-16/341-10/358-16 (websearch) |
+| `/aci/search?q=...` | GET | FTS en ACI 318-19/318-25 (websearch) |
+| `/norm/formulas` | GET | Fórmulas con LaTeX + Python ejecutable |
+| `/norm/crosslinks` | GET | Cross-links NSR-10 ↔ AISC ↔ ACI |
 
 Payload de `/ask`:
 ```json
@@ -147,7 +151,7 @@ Payload de `/ask`:
 - Paso 3 extra: `titulo ILIKE` antes de `contenido ILIKE`
 - Deduplicación por (seccion, contenido_prefix)
 
-## MCP tools (15)
+## MCP tools (19)
 
 **Parámetros sísmicos:** `parametros_sismicos`, `coeficiente_fa`, `coeficiente_fv`, `coeficiente_r`, `espectro_diseno`
 
@@ -156,6 +160,12 @@ Payload de `/ask`:
 **Cargas y materiales:** `cargas_vivas`, `barras_refuerzo`, `perfiles_acero`
 
 **Búsqueda:** `buscar_seccion` (FTS+section lookup), `preguntar_nsr10` (RAG)
+
+**Biblioteca AISC/ACI:** `buscar_aisc`, `buscar_aci`, `formulas_norma`, `crosslinks_normas`
+
+El MCP corre como servicio de usuario `struos-mcp` (SSE en 127.0.0.1:8101) contra
+la API local `struos-api` (127.0.0.1:8100). Timing por llamada en
+`mcp_server/tool_timing.log`.
 
 Config en `mcp_server/claude_desktop_config.json` (template). Instalar con
 `pip install mcp httpx`. Override de URL/API-key vía env `STRUOS_API_URL` y

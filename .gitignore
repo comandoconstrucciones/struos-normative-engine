@@ -36,3 +36,4 @@ node_modules/
 dist/
 build/
 tool_timing.log*
+__pycache__/
