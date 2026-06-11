@@ -35,3 +35,4 @@ docs/referencias/pdfs/*.pdf
 node_modules/
 dist/
 build/
+tool_timing.log*

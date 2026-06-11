@@ -2,7 +2,7 @@
 """
 NSR-10 MCP Server (FastMCP).
 
-Expone 11 tools sobre la API local para que Claude consulte la NSR-10 Colombia.
+Expone 15 tools sobre la API local para que Claude consulte la NSR-10 Colombia.
 
 Logs a stderr — stdout es sagrado para JSON-RPC en stdio transport.
 
@@ -15,11 +15,15 @@ Variables de entorno:
 """
 from __future__ import annotations
 
+import asyncio
 import logging
 import math
 import os
 import sys
+import time
+from datetime import datetime, timezone
 from typing import Any
+from urllib.parse import quote
 
 import httpx
 from mcp.server.fastmcp import FastMCP
@@ -48,26 +52,75 @@ _GRUPO_I = {
 
 # --- HTTP helpers ---
 
+# Timing por llamada a la API — mismo formato que el tool_timing.log del MCP Comando
+_TIMING_LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tool_timing.log")
+_TIMING_LOG_MAX = 5 * 1024 * 1024  # rotación a 5MB
+
+
+def _log_timing(metodo: str, endpoint: str, dur_s: float, status: str) -> None:
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        if os.path.exists(_TIMING_LOG) and os.path.getsize(_TIMING_LOG) > _TIMING_LOG_MAX:
+            os.replace(_TIMING_LOG, _TIMING_LOG + ".1")
+        with open(_TIMING_LOG, "a") as f:
+            f.write(f"[{ts}] {metodo} {endpoint} | {dur_s:.2f}s | {status}\n")
+    except Exception as e:
+        log.warning("no se pudo escribir timing log: %s", e)
+    log.info("timing %s %s %.2fs %s", metodo, endpoint, dur_s, status)
+
+
+# Cliente compartido — reusa conexiones (keep-alive) en vez de abrir una por llamada
+_client: httpx.AsyncClient | None = None
+
+
+def _get_client() -> httpx.AsyncClient:
+    global _client
+    if _client is None or _client.is_closed:
+        _client = httpx.AsyncClient(timeout=httpx.Timeout(60, connect=10))
+    return _client
+
+
 async def _api_get(endpoint: str, params: dict | None = None) -> dict | list:
     headers = {"X-API-Key": API_KEY} if API_KEY else {}
-    async with httpx.AsyncClient(timeout=30) as client:
-        resp = await client.get(f"{API_URL}{endpoint}", params=params or {}, headers=headers)
-        if resp.status_code == 200:
-            return resp.json()
-        log.error("API GET %s → %s", endpoint, resp.status_code)
-        return {"error": resp.text, "status": resp.status_code}
+    start = time.perf_counter()
+    try:
+        resp = await _get_client().get(
+            f"{API_URL}{endpoint}", params=params or {}, headers=headers, timeout=30
+        )
+    except httpx.HTTPError as e:
+        _log_timing("GET", endpoint, time.perf_counter() - start, "EXC")
+        log.error("API GET %s → %s", endpoint, e)
+        return {"error": f"API inaccesible: {e}", "status": 0}
+    _log_timing("GET", endpoint, time.perf_counter() - start, str(resp.status_code))
+    if resp.status_code == 200:
+        return resp.json()
+    log.error("API GET %s → %s", endpoint, resp.status_code)
+    return {"error": resp.text, "status": resp.status_code}
 
 
 async def _api_post(endpoint: str, body: dict) -> dict:
     headers = {"Content-Type": "application/json"}
     if API_KEY:
         headers["X-API-Key"] = API_KEY
-    async with httpx.AsyncClient(timeout=60) as client:
-        resp = await client.post(f"{API_URL}{endpoint}", json=body, headers=headers)
-        if resp.status_code == 200:
-            return resp.json()
-        log.error("API POST %s → %s", endpoint, resp.status_code)
-        return {"error": resp.text, "status": resp.status_code}
+    start = time.perf_counter()
+    try:
+        resp = await _get_client().post(
+            f"{API_URL}{endpoint}", json=body, headers=headers, timeout=60
+        )
+    except httpx.HTTPError as e:
+        _log_timing("POST", endpoint, time.perf_counter() - start, "EXC")
+        log.error("API POST %s → %s", endpoint, e)
+        return {"error": f"API inaccesible: {e}", "status": 0}
+    _log_timing("POST", endpoint, time.perf_counter() - start, str(resp.status_code))
+    if resp.status_code == 200:
+        return resp.json()
+    log.error("API POST %s → %s", endpoint, resp.status_code)
+    return {"error": resp.text, "status": resp.status_code}
+
+
+def _municipio_path(municipio: str) -> str:
+    """Escapa el nombre para la URL (tildes, espacios, '/')."""
+    return f"/municipios/{quote(municipio, safe='')}"
 
 
 # --- Fórmulas NSR-10 (inline, sin importar src/) ---
@@ -103,7 +156,7 @@ async def parametros_sismicos(municipio: str) -> str:
     Ej: parametros_sismicos("Bogotá") → Aa=0.15, Av=0.20, zona Intermedia.
     Fuente: NSR-10 Título A, Apéndice A-4.
     """
-    data = await _api_get(f"/municipios/{municipio}")
+    data = await _api_get(_municipio_path(municipio))
     if isinstance(data, list) and data:
         m = data[0]
         return (
@@ -212,7 +265,10 @@ async def deriva_maxima() -> str:
         lines.append("|---------------------|------|---|")
         for d in derivas:
             dmax = d.get("deriva_max", "N/A")
-            pct = f"{float(dmax)*100:.1f}%" if dmax != "N/A" else "N/A"
+            try:
+                pct = f"{float(dmax)*100:.1f}%"
+            except (TypeError, ValueError):
+                pct = "N/A"
             lines.append(f"| {d.get('sistema', '')} | {dmax} | {pct} |")
         lines.append("\nΔ = desplazamiento relativo de entrepiso / altura de entrepiso.")
         return "\n".join(lines)
@@ -267,6 +323,7 @@ async def preguntar_nsr10(
             - "Codigo Colombiano Puentes": CCP-14
         top_k: Fragmentos a recuperar (1-20). Default 8.
     """
+    top_k = max(1, min(top_k, 20))
     data = await _api_post("/ask", {"query": pregunta, "folder": folder, "context_limit": top_k})
     if "error" in data:
         return f"Error del API: {data.get('error', '?')} (status {data.get('status', '?')})"
@@ -306,22 +363,30 @@ async def espectro_diseno(
     Fuente: NSR-10 A.2.6.
     """
     grupo = grupo_uso.upper()
-    I_coef = _GRUPO_I.get(grupo, 1.0)
+    if grupo not in _GRUPO_I:
+        return f"Grupo de uso '{grupo_uso}' inválido. Opciones: I, II, III, IV (Tabla A.2.5-1)."
+    I_coef = _GRUPO_I[grupo]
     suelo = tipo_suelo.upper()
 
     # 1. Parámetros sísmicos del municipio
-    mun_data = await _api_get(f"/municipios/{municipio}")
+    mun_data = await _api_get(_municipio_path(municipio))
     if not isinstance(mun_data, list) or not mun_data:
+        if isinstance(mun_data, dict) and "error" in mun_data:
+            return f"Error consultando la API: {mun_data['error']}"
         return f"Municipio '{municipio}' no encontrado."
     m = mun_data[0]
+    if m.get("aa") is None or m.get("av") is None:
+        return f"El municipio '{municipio}' no tiene Aa/Av registrados en la base."
     Aa, Av = float(m["aa"]), float(m["av"])
     zona = m.get("zona_amenaza", "N/A")
 
-    # 2. Fa y Fv
+    # 2. Fa y Fv (en paralelo)
     aa_r = max(0.05, min(0.50, _round_step(Aa)))
     av_r = max(0.05, min(0.50, _round_step(Av)))
-    fa_data = await _api_get(f"/coef/fa/{suelo}/{aa_r}")
-    fv_data = await _api_get(f"/coef/fv/{suelo}/{av_r}")
+    fa_data, fv_data = await asyncio.gather(
+        _api_get(f"/coef/fa/{suelo}/{aa_r}"),
+        _api_get(f"/coef/fv/{suelo}/{av_r}"),
+    )
     Fa = fa_data.get("fa") if isinstance(fa_data, dict) else None
     Fv = fv_data.get("fv") if isinstance(fv_data, dict) else None
     if Fa is None or Fv is None:
@@ -410,21 +475,30 @@ async def cortante_basal(
     Fuente: NSR-10 A.2.6 + A.3.3 + A.4.3.
     """
     grupo = grupo_uso.upper()
-    I_coef = _GRUPO_I.get(grupo, 1.0)
+    if grupo not in _GRUPO_I:
+        return f"Grupo de uso '{grupo_uso}' inválido. Opciones: I, II, III, IV (Tabla A.2.5-1)."
+    I_coef = _GRUPO_I[grupo]
     suelo = tipo_suelo.upper()
 
     # 1. Parámetros sísmicos
-    mun_data = await _api_get(f"/municipios/{municipio}")
+    mun_data = await _api_get(_municipio_path(municipio))
     if not isinstance(mun_data, list) or not mun_data:
+        if isinstance(mun_data, dict) and "error" in mun_data:
+            return f"Error consultando la API: {mun_data['error']}"
         return f"Municipio '{municipio}' no encontrado."
     m = mun_data[0]
+    if m.get("aa") is None or m.get("av") is None:
+        return f"El municipio '{municipio}' no tiene Aa/Av registrados en la base."
     Aa, Av = float(m["aa"]), float(m["av"])
 
-    # 2. Fa y Fv
+    # 2. Fa, Fv y coeficiente R (en paralelo)
     aa_r = max(0.05, min(0.50, _round_step(Aa)))
     av_r = max(0.05, min(0.50, _round_step(Av)))
-    fa_data = await _api_get(f"/coef/fa/{suelo}/{aa_r}")
-    fv_data = await _api_get(f"/coef/fv/{suelo}/{av_r}")
+    fa_data, fv_data, r_data = await asyncio.gather(
+        _api_get(f"/coef/fa/{suelo}/{aa_r}"),
+        _api_get(f"/coef/fv/{suelo}/{av_r}"),
+        _api_get("/coef/r", {"sistema": sistema, "capacidad": capacidad.upper()}),
+    )
     Fa = fa_data.get("fa") if isinstance(fa_data, dict) else None
     Fv = fv_data.get("fv") if isinstance(fv_data, dict) else None
     if Fa is None or Fv is None:
@@ -432,7 +506,6 @@ async def cortante_basal(
     Fa, Fv = float(Fa), float(Fv)
 
     # 3. Coeficiente R
-    r_data = await _api_get("/coef/r", {"sistema": sistema, "capacidad": capacidad.upper()})
     sistemas = r_data.get("sistemas") if isinstance(r_data, dict) else r_data
     if not isinstance(sistemas, list) or not sistemas:
         return f"Sistema '{sistema}' no encontrado. Intenta: 'pórtico', 'muro', 'dual'."
@@ -511,20 +584,29 @@ async def verificar_deriva(
         return "Error obteniendo tabla de derivas."
 
     # Buscar la fila más relevante por coincidencia de texto
+    # (solo filas con deriva_max numérica y > 0 — evita float(None) y división por cero)
     sys_lower = sistema.lower()
     candidatos = []
     for d in derivas:
+        try:
+            dmax_val = float(d.get("deriva_max"))
+        except (TypeError, ValueError):
+            continue
+        if dmax_val <= 0:
+            continue
         nombre = (d.get("sistema") or "").lower()
         score = sum(1 for w in sys_lower.split() if w in nombre)
         candidatos.append((score, d))
     candidatos.sort(key=lambda x: -x[0])
+    if not candidatos:
+        return "La tabla de derivas no trajo filas con valores numéricos."
 
     lines = [f"## Verificación de Deriva — NSR-10 A.6.4.1"]
     lines.append(f"**Deriva calculada:** {deriva_calculada:.4f} ({deriva_calculada*100:.2f}%)\n")
     lines.append("### Resultado por sistema:")
 
     for score, d in candidatos[:3]:
-        dmax = float(d.get("deriva_max", 0))
+        dmax = float(d["deriva_max"])
         cumple = deriva_calculada <= dmax
         estado = "✅ CUMPLE" if cumple else "❌ NO CUMPLE"
         margen = abs(dmax - deriva_calculada) / dmax * 100
@@ -631,6 +713,10 @@ async def periodo_fundamental(
 
     Fuente: NSR-10 A.4.2.2 — Ecuación A.4.2-1.
     """
+    if n_pisos < 1:
+        return "n_pisos debe ser ≥ 1."
+    if hn_m is not None and hn_m <= 0:
+        return "hn_m debe ser > 0 (altura total en metros)."
     SISTEMAS: dict[str, dict] = {
         "portico_concreto":  {"Ct": 0.047, "alpha": 0.90, "nombre": "Pórtico de concreto reforzado"},
         "portico_acero":     {"Ct": 0.072, "alpha": 0.80, "nombre": "Pórtico de acero"},
